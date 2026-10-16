@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r3-Q030-hybrid--context_recall",
+    "case_id": "r3-Q030-hybrid",
+    "metric": "context_recall",
+    "eligible": true
+  },
+  "input_sha256": "fb371d3b0c991bd70a780612056163ec0c2ef827ecfb9d891c510acd9463969c",
+  "status": "scored",
+  "value": 1.0,
+  "judge_calls": 1,
+  "elapsed_ms": 7828.016099985689
+}

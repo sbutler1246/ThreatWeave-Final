@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-352A:evaluation:llama500:12733:14443",
+    "doc_id": "AA23-352A",
+    "start": 12733,
+    "end": 14443,
+    "text": "00E499C8557A2E09D61C00C11986\n7DEA671BE77A2CA5772B86CF8831B02BFF0567BCE6A3AE023825AA40354F8ACA\nSystemBC malware DLL\n967DAFF362E63FF45526F585B7944488ACE1BB5BB5B30FA40D56557F1C538D09\nSHA256\nHash of public ECDSA key\n859165041D75FBA3759C5533E324225F355C8A07B4645B984192AD6BEF06DB1A\nSHA-256\nHash of public ED25519 Key for WinSCP Server\n511F63455CA4F83B0347B65DDA17585AD02591A9F23D8E234E5CE1321AA3381A\nSHA-256\nHash of public ED25519 Key WinSCP Server\n372F7B45A141BB0709D578BC716CBCA03104258822C4290CCBEB600223850158\nSHA-256\nHash of public ED25519 Key WinSCP Server\nEnd Update\nMITRE ATT&CK Tactics and Techniques\nSee Table 3–Table 11 for all referenced threat actor tactics and techniques in this advisory.\nTable 3: Play ATT&CK Techniques for Enterprise for Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nPlay ransomware actors obtain and abuse existing account credentials to gain initial access.\nExploit Public Facing Application\nT1190\nPlay ransomware actors exploit vulnerabilities in internet-facing systems to gain access to networks.\nExternal Remote Services\nT1133\nPlay ransomware actors have used remote access services, such as RDP/VPN connection to gain initial access.\nUpdate June 4, 2025:\nCommand and Scripting Interpreter: PowerShell\nT1059.001\nPlay ransomware actors leveraged PowerShell commands to achieve RCE with a newly disclosed vulnerability.\nEnd Update\nTable 4: Play ATT&CK Techniques for Enterprise for Discovery\nTechnique Title\nID\nUse\nSystem Network Configuration Discovery\nT1016\nPlay ransomware actors use tools like GRIXBA to identify network configurations and settings.\nSoftware Discovery: Security Software Discovery\nT1518.001\nPlay ransomware actors scan for antivirus software.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 55,
+        "text": "#StopRansomware: Play Ransomware"
+      },
+      {
+        "start": 3834,
+        "end": 3851,
+        "text": "Technical Details"
+      },
+      {
+        "start": 11690,
+        "end": 11744,
+        "text": "Table 2: Hashes Associated with Play Ransomware Actors"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 503,
+  "inherited_context_tokens": 27,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "ee3541cec67b83ef6a6aa9b3dcd6639584d03d7830e07e6cf561181fff9fe3d3",
+  "doc_id": "AA23-352A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+  "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc"
+}

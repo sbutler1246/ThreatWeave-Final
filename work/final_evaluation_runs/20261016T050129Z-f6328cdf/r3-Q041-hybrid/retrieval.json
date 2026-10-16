@@ -1,0 +1,336 @@
+{
+  "mode": "hybrid",
+  "node2vec_enabled": true,
+  "rrf_k": 60,
+  "rrf_unit": "(source doc_id, parent extraction chunk_id)",
+  "rrf_group_aggregation": "sum of distinct source-parent scores; whole-path/text-context groups",
+  "source_ranks": [
+    {
+      "doc_id": "AA23-075A",
+      "parent_chunk_id": "AA23-075A:evaluation:llama500:2065:4310",
+      "ranks": {
+        "graph": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "AA23-075A",
+      "parent_chunk_id": "AA23-075A:evaluation:llama500:4080:6201",
+      "ranks": {
+        "graph": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "AA23-075A",
+      "parent_chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+      "ranks": {
+        "graph": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "ranks": {
+        "text": 4
+      },
+      "rrf_score": 0.015625
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:26834:28843",
+      "ranks": {
+        "text": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row03",
+      "ranks": {
+        "text": 2
+      },
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row04",
+      "ranks": {
+        "text": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "attack:17.1:relationship--77d97059-4280-41d0-8280-596a6e2b8ff8",
+      "parent_chunk_id": "attack:17.1:relationship--77d97059-4280-41d0-8280-596a6e2b8ff8:description",
+      "ranks": {
+        "graph": 4
+      },
+      "rrf_score": 0.015625
+    },
+    {
+      "doc_id": "attack:17.1:relationship--9a513f75-f09b-4840-8654-521fa4ff59fa",
+      "parent_chunk_id": "attack:17.1:relationship--9a513f75-f09b-4840-8654-521fa4ff59fa:description",
+      "ranks": {
+        "graph": 2
+      },
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "doc_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe",
+      "parent_chunk_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe:description",
+      "ranks": {
+        "graph": 6
+      },
+      "rrf_score": 0.015151515151515152
+    }
+  ],
+  "candidate_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.03252247488101534
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.03149801587301587
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.030536130536130537
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "score": 0.016129032258064516
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+      "score": 0.015873015873015872
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2",
+      "score": 0.015625
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+      "score": 0.015625
+    }
+  ],
+  "selected_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.03252247488101534
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.03149801587301587
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.030536130536130537
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "score": 0.016129032258064516
+    }
+  ],
+  "selected_path_count": 3,
+  "selected_text_chunk_count": 2,
+  "selected_hops": [
+    2,
+    2,
+    2
+  ],
+  "skipped_groups": [
+    {
+      "kind": "text",
+      "id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+      "reason": "context_budget"
+    }
+  ],
+  "evidence_utf8_bytes": 2913,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "graph_branch_empty": false,
+  "node2vec": {
+    "seed_groups": [
+      [
+        "attack:S1202",
+        "attack:S1040"
+      ]
+    ],
+    "neighbors_by_seed": {
+      "attack:S1040": [
+        {
+          "canonical_id": "attack:T1567.002",
+          "name": "Exfiltration to Cloud Storage",
+          "cosine_distance": 0.16313552856445312
+        },
+        {
+          "canonical_id": "attack:T1537",
+          "name": "Transfer Data to Cloud Account",
+          "cosine_distance": 0.25077974796295166
+        },
+        {
+          "canonical_id": "local:AA23-136A:bianlian-group-actors",
+          "name": "BianLian group actors",
+          "cosine_distance": 0.2608844041824341
+        },
+        {
+          "canonical_id": "local:AA23-165A:lockbit-affiliates",
+          "name": "LockBit affiliates",
+          "cosine_distance": 0.26396554708480835
+        },
+        {
+          "canonical_id": "local:AA25-071A:software:49a6ea16ce7f",
+          "name": "Windows Command Prompt",
+          "cosine_distance": 0.26810020208358765
+        }
+      ],
+      "attack:S1202": [
+        {
+          "canonical_id": "attack:T1480.001",
+          "name": "Environmental Keying",
+          "cosine_distance": 0.029848992824554443
+        },
+        {
+          "canonical_id": "attack:M1055",
+          "name": "Do Not Mitigate",
+          "cosine_distance": 0.03500938415527344
+        },
+        {
+          "canonical_id": "attack:T1491.001",
+          "name": "Internal Defacement",
+          "cosine_distance": 0.05487263202667236
+        },
+        {
+          "canonical_id": "attack:M1015",
+          "name": "Active Directory Configuration",
+          "cosine_distance": 0.15234029293060303
+        },
+        {
+          "canonical_id": "attack:M1053",
+          "name": "Data Backup",
+          "cosine_distance": 0.21529889106750488
+        }
+      ]
+    },
+    "neighbor_count_per_seed": 5,
+    "base_candidate_count": 30,
+    "expansion_candidate_count": 30,
+    "merged_candidate_count": 30,
+    "graph_index_fingerprint": "28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e",
+    "projection_sha256": "518924349a6dcaff49a61c726ab7bc974522be48102ac9d836539bac618a892c",
+    "graph_freshness_verified": true,
+    "similarity_is_fact_evidence": false
+  },
+  "graph_branch": {
+    "candidate_path_count": 14,
+    "selected_path_count": 3,
+    "selected_hops": [
+      2,
+      2,
+      2
+    ],
+    "evidence_utf8_bytes": 2415,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 4,
+    "seed_groups": [
+      [
+        "attack:S1202",
+        "attack:S1040"
+      ]
+    ]
+  },
+  "text_branch": {
+    "candidate_ranks": [
+      {
+        "rank": 1,
+        "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row04",
+        "source_kind": "cisa",
+        "cosine_distance": 0.4638436436653137
+      },
+      {
+        "rank": 2,
+        "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row03",
+        "source_kind": "cisa",
+        "cosine_distance": 0.46770238876342773
+      },
+      {
+        "rank": 3,
+        "chunk_id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+        "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:26834:28843",
+        "source_kind": "cisa",
+        "cosine_distance": 0.4680395722389221
+      },
+      {
+        "rank": 4,
+        "chunk_id": "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+        "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+        "source_kind": "cisa",
+        "cosine_distance": 0.476462721824646
+      },
+      {
+        "rank": 5,
+        "chunk_id": "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2",
+        "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+        "source_kind": "cisa",
+        "cosine_distance": 0.48006749153137207
+      }
+    ],
+    "candidate_chunk_count": 5,
+    "selected_chunk_ids": [
+      "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+      "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+      "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2"
+    ],
+    "selected_chunk_count": 5,
+    "selected_path_count": 0,
+    "evidence_utf8_bytes": 2718,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_chunks": 0,
+    "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+    "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+    "retrieval_ms": 20.842400001129135
+  },
+  "graph_source": "live_neo4j",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 576.6726000001654
+}

@@ -1,0 +1,33 @@
+SOURCE PASSAGES
+[E1; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E2; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (T1587)
+Mitigation: Pre-compromise (M1056)
+[E3; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (T1586)
+Mitigation: Pre-compromise (M1056)
+[E5; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of the organization's security policies (such as rootkit removal tools) that have been abused to impair system defenses. Ensure that only approved security applications are used and running on enterprise systems.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (T1562)
+Mitigation: Execution Prevention (M1038)
+[E7; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensitivity of data available to external parties.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Email Addresses (T1589.002)
+Mitigation: Pre-compromise (M1056)
+[E9; ATTACK]
+Consider removing previous versions of tools that are unnecessary to the environment when possible.
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (T1562)
+Mitigation: Disable or Remove Feature or Program (M1042)
+GRAPH NODES
+GRAPH PATHS

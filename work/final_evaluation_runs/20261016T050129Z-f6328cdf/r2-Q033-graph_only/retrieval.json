@@ -1,0 +1,22 @@
+{
+  "candidate_path_count": 9,
+  "selected_path_count": 6,
+  "selected_hops": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+  ],
+  "evidence_utf8_bytes": 2894,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_paths": 0,
+  "seed_groups": [
+    [
+      "attack:S0508",
+      "attack:S1129"
+    ]
+  ]
+}

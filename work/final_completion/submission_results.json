@@ -1,0 +1,3250 @@
+{
+  "created_at_utc": "2026-10-16T17:40:39.262478+00:00",
+  "human_analysis": "S:\\ThreatWeave\\work\\human_scoring_analysis\\20261016T174034Z-7c181a33",
+  "extraction_analysis": "work/extraction_scoring_analysis/20261016T171118Z-dc75fabd",
+  "automatic_analysis": "work/final_scoring_analysis/20261016T075220Z-1e84d02c",
+  "modes": [
+    {
+      "mode": "text_only",
+      "outcomes": 60,
+      "statuses": {
+        "answer_ready_for_review": 54,
+        "failed": 6
+      },
+      "case_seconds_all_outcomes": {
+        "count": 60,
+        "p50": 3.151100349990884,
+        "p95": 8.788357125000037
+      },
+      "human": {
+        "factuality": {
+          "mean": 2.9444444444444446,
+          "numeric_count": 18,
+          "denominator": 20,
+          "failed_count": 2,
+          "abstained_count": 0
+        },
+        "completeness": {
+          "mean": 1.8888888888888888,
+          "numeric_count": 18,
+          "denominator": 20,
+          "failed_count": 2,
+          "abstained_count": 0
+        },
+        "coherence": {
+          "mean": 3.8333333333333335,
+          "numeric_count": 18,
+          "denominator": 20,
+          "failed_count": 2,
+          "abstained_count": 0
+        }
+      },
+      "automatic": {
+        "faithfulness": {
+          "available_score_mean": 0.5680654761904762,
+          "available_score_count": 40,
+          "denominator": 60,
+          "statuses": {
+            "scored": 40,
+            "failed": 14,
+            "unavailable_answer": 6
+          }
+        },
+        "answer_relevancy": {
+          "available_score_mean": 0.5546215704222898,
+          "available_score_count": 54,
+          "denominator": 60,
+          "statuses": {
+            "scored": 54,
+            "unavailable_answer": 6
+          }
+        },
+        "context_recall": {
+          "available_score_mean": 0.6589506172839507,
+          "available_score_count": 54,
+          "denominator": 60,
+          "statuses": {
+            "scored": 54,
+            "unavailable_answer": 6
+          }
+        }
+      }
+    },
+    {
+      "mode": "graph_only",
+      "outcomes": 60,
+      "statuses": {
+        "answer_ready_for_review": 45,
+        "abstained": 15
+      },
+      "case_seconds_all_outcomes": {
+        "count": 60,
+        "p50": 3.576436300005298,
+        "p95": 5.905418620011186
+      },
+      "human": {
+        "factuality": {
+          "mean": 3.5,
+          "numeric_count": 20,
+          "denominator": 20,
+          "failed_count": 0,
+          "abstained_count": 5
+        },
+        "completeness": {
+          "mean": 1.9,
+          "numeric_count": 20,
+          "denominator": 20,
+          "failed_count": 0,
+          "abstained_count": 5
+        },
+        "coherence": {
+          "mean": 4,
+          "numeric_count": 20,
+          "denominator": 20,
+          "failed_count": 0,
+          "abstained_count": 5
+        }
+      },
+      "automatic": {
+        "faithfulness": {
+          "available_score_mean": 0.5031201502899616,
+          "available_score_count": 53,
+          "denominator": 60,
+          "statuses": {
+            "scored": 53,
+            "failed": 7
+          }
+        },
+        "answer_relevancy": {
+          "available_score_mean": 0.3354606954614154,
+          "available_score_count": 60,
+          "denominator": 60,
+          "statuses": {
+            "scored": 60
+          }
+        },
+        "context_recall": {
+          "available_score_mean": 0.6096491228070176,
+          "available_score_count": 57,
+          "denominator": 60,
+          "statuses": {
+            "scored": 57,
+            "failed": 3
+          }
+        }
+      }
+    },
+    {
+      "mode": "hybrid_no_node2vec",
+      "outcomes": 60,
+      "statuses": {
+        "failed": 7,
+        "answer_ready_for_review": 53
+      },
+      "case_seconds_all_outcomes": {
+        "count": 60,
+        "p50": 3.0839936999982456,
+        "p95": 8.7459310799968
+      },
+      "human": {
+        "factuality": {
+          "mean": 3.5294117647058822,
+          "numeric_count": 17,
+          "denominator": 20,
+          "failed_count": 3,
+          "abstained_count": 0
+        },
+        "completeness": {
+          "mean": 2,
+          "numeric_count": 17,
+          "denominator": 20,
+          "failed_count": 3,
+          "abstained_count": 0
+        },
+        "coherence": {
+          "mean": 3.8823529411764706,
+          "numeric_count": 17,
+          "denominator": 20,
+          "failed_count": 3,
+          "abstained_count": 0
+        }
+      },
+      "automatic": {
+        "faithfulness": {
+          "available_score_mean": 0.5976190476190476,
+          "available_score_count": 47,
+          "denominator": 60,
+          "statuses": {
+            "scored": 47,
+            "unavailable_answer": 7,
+            "failed": 6
+          }
+        },
+        "answer_relevancy": {
+          "available_score_mean": 0.49280170873894363,
+          "available_score_count": 53,
+          "denominator": 60,
+          "statuses": {
+            "scored": 53,
+            "unavailable_answer": 7
+          }
+        },
+        "context_recall": {
+          "available_score_mean": 0.5927672955974843,
+          "available_score_count": 53,
+          "denominator": 60,
+          "statuses": {
+            "scored": 53,
+            "unavailable_answer": 7
+          }
+        }
+      }
+    },
+    {
+      "mode": "hybrid",
+      "outcomes": 60,
+      "statuses": {
+        "answer_ready_for_review": 58,
+        "failed": 2
+      },
+      "case_seconds_all_outcomes": {
+        "count": 60,
+        "p50": 3.657386549995863,
+        "p95": 12.57416580497811
+      },
+      "human": {
+        "factuality": {
+          "mean": 3.35,
+          "numeric_count": 20,
+          "denominator": 20,
+          "failed_count": 0,
+          "abstained_count": 0
+        },
+        "completeness": {
+          "mean": 2,
+          "numeric_count": 20,
+          "denominator": 20,
+          "failed_count": 0,
+          "abstained_count": 0
+        },
+        "coherence": {
+          "mean": 3.9,
+          "numeric_count": 20,
+          "denominator": 20,
+          "failed_count": 0,
+          "abstained_count": 0
+        }
+      },
+      "automatic": {
+        "faithfulness": {
+          "available_score_mean": 0.625503663003663,
+          "available_score_count": 52,
+          "denominator": 60,
+          "statuses": {
+            "scored": 52,
+            "unavailable_answer": 2,
+            "failed": 6
+          }
+        },
+        "answer_relevancy": {
+          "available_score_mean": 0.48614054077780605,
+          "available_score_count": 58,
+          "denominator": 60,
+          "statuses": {
+            "scored": 58,
+            "unavailable_answer": 2
+          }
+        },
+        "context_recall": {
+          "available_score_mean": 0.7095648604269293,
+          "available_score_count": 58,
+          "denominator": 60,
+          "statuses": {
+            "scored": 58,
+            "unavailable_answer": 2
+          }
+        }
+      }
+    }
+  ],
+  "human_paired_vs_text": [
+    {
+      "metric": "factuality",
+      "condition": "graph_only",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 18,
+      "mean_difference": 0.5555555555555556,
+      "exploratory_95_percent_ci": [
+        -0.0,
+        1.1666666666666667
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051"
+      ]
+    },
+    {
+      "metric": "completeness",
+      "condition": "graph_only",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 18,
+      "mean_difference": 0.1111111111111111,
+      "exploratory_95_percent_ci": [
+        -0.2777777777777778,
+        0.5
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051"
+      ]
+    },
+    {
+      "metric": "coherence",
+      "condition": "graph_only",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 18,
+      "mean_difference": 0.16666666666666666,
+      "exploratory_95_percent_ci": [
+        -0.1111111111111111,
+        0.4444444444444444
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051"
+      ]
+    },
+    {
+      "metric": "factuality",
+      "condition": "hybrid_no_node2vec",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 16,
+      "mean_difference": 0.625,
+      "exploratory_95_percent_ci": [
+        0.1875,
+        1.0625
+      ],
+      "included_questions": [
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060"
+      ],
+      "excluded_questions": [
+        "Q001",
+        "Q040",
+        "Q051",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "completeness",
+      "condition": "hybrid_no_node2vec",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 16,
+      "mean_difference": 0.3125,
+      "exploratory_95_percent_ci": [
+        -0.0625,
+        0.75
+      ],
+      "included_questions": [
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060"
+      ],
+      "excluded_questions": [
+        "Q001",
+        "Q040",
+        "Q051",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "coherence",
+      "condition": "hybrid_no_node2vec",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 16,
+      "mean_difference": 0.0625,
+      "exploratory_95_percent_ci": [
+        -0.0,
+        0.1875
+      ],
+      "included_questions": [
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060"
+      ],
+      "excluded_questions": [
+        "Q001",
+        "Q040",
+        "Q051",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "factuality",
+      "condition": "hybrid",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 18,
+      "mean_difference": 0.4444444444444444,
+      "exploratory_95_percent_ci": [
+        -0.05555555555555555,
+        0.9444444444444444
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051"
+      ]
+    },
+    {
+      "metric": "completeness",
+      "condition": "hybrid",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 18,
+      "mean_difference": 0.16666666666666666,
+      "exploratory_95_percent_ci": [
+        -0.2777777777777778,
+        0.6111111111111112
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051"
+      ]
+    },
+    {
+      "metric": "coherence",
+      "condition": "hybrid",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 18,
+      "mean_difference": 0.05555555555555555,
+      "exploratory_95_percent_ci": [
+        -0.0,
+        0.16666666666666666
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051"
+      ]
+    }
+  ],
+  "automatic_paired_vs_text": [
+    {
+      "metric": "answer_relevancy",
+      "condition": "graph_only",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 17,
+      "mean_difference": -0.21064054681894076,
+      "exploratory_95_percent_ci": [
+        -0.3423074969247903,
+        -0.07878670936310068
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051",
+        "Q059"
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "condition": "graph_only",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 16,
+      "mean_difference": -0.06423611111111112,
+      "exploratory_95_percent_ci": [
+        -0.2569444444444445,
+        0.11284722222222221
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q060"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q051",
+        "Q059",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "faithfulness",
+      "condition": "graph_only",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 10,
+      "mean_difference": -0.08999999999999998,
+      "exploratory_95_percent_ci": [
+        -0.33191071428571417,
+        0.14540079365079364
+      ],
+      "included_questions": [
+        "Q001",
+        "Q031",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q052",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057"
+      ],
+      "excluded_questions": [
+        "Q030",
+        "Q033",
+        "Q040",
+        "Q050",
+        "Q051",
+        "Q053",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "answer_relevancy",
+      "condition": "hybrid_no_node2vec",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 15,
+      "mean_difference": -0.06264657786153541,
+      "exploratory_95_percent_ci": [
+        -0.12454077088832224,
+        0.003985217099894153
+      ],
+      "included_questions": [
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q060"
+      ],
+      "excluded_questions": [
+        "Q001",
+        "Q040",
+        "Q051",
+        "Q059",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "condition": "hybrid_no_node2vec",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 15,
+      "mean_difference": -0.13148148148148148,
+      "exploratory_95_percent_ci": [
+        -0.3055555555555556,
+        0.01851851851851851
+      ],
+      "included_questions": [
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q060"
+      ],
+      "excluded_questions": [
+        "Q001",
+        "Q040",
+        "Q051",
+        "Q059",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "faithfulness",
+      "condition": "hybrid_no_node2vec",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 9,
+      "mean_difference": 0.10864197530864199,
+      "exploratory_95_percent_ci": [
+        -0.03395061728395061,
+        0.23765432098765432
+      ],
+      "included_questions": [
+        "Q031",
+        "Q039",
+        "Q044",
+        "Q050",
+        "Q052",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057"
+      ],
+      "excluded_questions": [
+        "Q001",
+        "Q030",
+        "Q033",
+        "Q040",
+        "Q041",
+        "Q051",
+        "Q053",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ]
+    },
+    {
+      "metric": "answer_relevancy",
+      "condition": "hybrid",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 16,
+      "mean_difference": -0.06150037866586485,
+      "exploratory_95_percent_ci": [
+        -0.12379461821167242,
+        0.003835524380728286
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q050",
+        "Q051",
+        "Q059"
+      ]
+    },
+    {
+      "metric": "context_recall",
+      "condition": "hybrid",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 16,
+      "mean_difference": 0.043154761904761904,
+      "exploratory_95_percent_ci": [
+        -0.16865079365079366,
+        0.2465277777777778
+      ],
+      "included_questions": [
+        "Q001",
+        "Q030",
+        "Q031",
+        "Q033",
+        "Q039",
+        "Q041",
+        "Q044",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q060",
+        "Q061"
+      ],
+      "excluded_questions": [
+        "Q040",
+        "Q050",
+        "Q051",
+        "Q059"
+      ]
+    },
+    {
+      "metric": "faithfulness",
+      "condition": "hybrid",
+      "baseline": "text_only",
+      "difference": "condition_minus_baseline",
+      "paired_question_count": 9,
+      "mean_difference": 0.12363315696649031,
+      "exploratory_95_percent_ci": [
+        0.010670194003527348,
+        0.24029982363315694
+      ],
+      "included_questions": [
+        "Q001",
+        "Q031",
+        "Q039",
+        "Q044",
+        "Q052",
+        "Q054",
+        "Q055",
+        "Q056",
+        "Q057"
+      ],
+      "excluded_questions": [
+        "Q030",
+        "Q033",
+        "Q040",
+        "Q041",
+        "Q050",
+        "Q051",
+        "Q053",
+        "Q058",
+        "Q059",
+        "Q060",
+        "Q061"
+      ]
+    }
+  ],
+  "secondary_consistency": {
+    "factuality": {
+      "count": 19,
+      "exact_agreement": 0.21052631578947367,
+      "within_one": 1.0,
+      "mean_absolute_difference": 0.7894736842105263,
+      "mean_secondary_minus_primary": -0.7894736842105263,
+      "linear_weighted_kappa": 0.2748091603053434,
+      "excluded_secondary_ids": [
+        "S011"
+      ]
+    },
+    "completeness": {
+      "count": 19,
+      "exact_agreement": 0.7894736842105263,
+      "within_one": 1.0,
+      "mean_absolute_difference": 0.21052631578947367,
+      "mean_secondary_minus_primary": -0.21052631578947367,
+      "linear_weighted_kappa": 0.8232558139534883,
+      "excluded_secondary_ids": [
+        "S011"
+      ]
+    },
+    "coherence": {
+      "count": 19,
+      "exact_agreement": 0.3684210526315789,
+      "within_one": 0.8947368421052632,
+      "mean_absolute_difference": 0.7368421052631579,
+      "mean_secondary_minus_primary": -0.7368421052631579,
+      "linear_weighted_kappa": 0.15286624203821664,
+      "excluded_secondary_ids": [
+        "S011"
+      ]
+    }
+  },
+  "extraction": {
+    "created_at_utc": "2026-10-16T17:11:18.297389+00:00",
+    "protocol_sha256": "b999eb19bed5ff0c24a54989c9b9a2742d984316429f2da5d00894993c6bc733",
+    "gold_record_count": 146,
+    "annotation_scope_count": 39,
+    "gold_scope_assertions": 149,
+    "all_pre_review_candidate_occurrences": 196,
+    "window_count": 114,
+    "window_status_counts": {
+      "empty_extraction": 49,
+      "candidates_ready_for_review": 61,
+      "validation_failed": 4
+    },
+    "eligibility_counts": {
+      "outside_complete_annotation": 173,
+      "complete_scope": 23
+    },
+    "scope_character_coverage": {
+      "fully_covered": 39,
+      "partially_or_uncovered": []
+    },
+    "strict_pipeline": {
+      "tp": 10,
+      "fp": 12,
+      "fn": 139,
+      "precision": 0.45454545454545453,
+      "recall": 0.06711409395973154,
+      "f1": 0.11695906432748539,
+      "undefined_metrics": [],
+      "eligible_prediction_occurrences": 23,
+      "unique_scope_predictions": 22,
+      "scopes": [
+        {
+          "scope_id": "AA23-061A:paragraph:6445",
+          "doc_id": "AA23-061A",
+          "tp": 1,
+          "fp": 0,
+          "fn": 10,
+          "precision": 1.0,
+          "recall": 0.09090909090909091,
+          "f1": 0.16666666666666669,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [
+            "GT104"
+          ],
+          "missed_gold_ids": [
+            "GT059",
+            "GT060",
+            "GT096",
+            "GT097",
+            "GT098",
+            "GT099",
+            "GT100",
+            "GT101",
+            "GT102",
+            "GT103"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-075A:paragraph:6201",
+          "doc_id": "AA23-075A",
+          "tp": 1,
+          "fp": 1,
+          "fn": 6,
+          "precision": 0.5,
+          "recall": 0.14285714285714285,
+          "f1": 0.22222222222222224,
+          "undefined_metrics": [],
+          "prediction_occurrences": 2,
+          "unique_predictions": 2,
+          "matched_gold_ids": [
+            "GT080"
+          ],
+          "missed_gold_ids": [
+            "GT079",
+            "GT128",
+            "GT129",
+            "GT130",
+            "GT131",
+            "GT132"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S1202",
+              "USES_TECHNIQUE",
+              "attack:T1567"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA23-165A:table4:row01",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT001",
+            "GT002"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row02",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT003",
+            "GT004"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row03",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT005",
+            "GT006"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row04",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT007",
+            "GT008"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row05",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT009",
+            "GT010"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row06",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT011",
+            "GT012"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row07",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT013",
+            "GT014"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row08",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT015",
+            "GT016"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row09",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT017",
+            "GT018"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row10",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT019",
+            "GT020"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row11",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT021",
+            "GT022"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row12",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT023",
+            "GT024"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row13",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT025",
+            "GT026"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row14",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT027",
+            "GT028"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row15",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT029",
+            "GT030"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row16",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT031",
+            "GT032"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row17",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT033",
+            "GT034"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row18",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT035",
+            "GT036"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row19",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT037",
+            "GT038"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row20",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT039",
+            "GT040"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row21",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT041",
+            "GT042"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row22",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT043",
+            "GT044"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row23",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT045",
+            "GT046"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row24",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT047",
+            "GT048"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row25",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT049",
+            "GT050"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row26",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT051",
+            "GT052"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row27",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT053",
+            "GT054"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row28",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT055",
+            "GT056"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row29",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT057",
+            "GT058"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-352A:paragraph:5544",
+          "doc_id": "AA23-352A",
+          "tp": 0,
+          "fp": 1,
+          "fn": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT062",
+            "GT078",
+            "GT118",
+            "GT119",
+            "GT120",
+            "GT121",
+            "GT122",
+            "GT123",
+            "GT124",
+            "GT125",
+            "GT126",
+            "GT127"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S1162",
+              "USES_TECHNIQUE",
+              "attack:T1059"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA24-109A:paragraph:11788",
+          "doc_id": "AA24-109A",
+          "tp": 1,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [
+            "GT066"
+          ],
+          "missed_gold_ids": [
+            "GT065",
+            "GT108",
+            "GT109"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA24-109A:paragraph:12198",
+          "doc_id": "AA24-109A",
+          "tp": 2,
+          "fp": 1,
+          "fn": 8,
+          "precision": 0.6666666666666666,
+          "recall": 0.2,
+          "f1": 0.30769230769230765,
+          "undefined_metrics": [],
+          "prediction_occurrences": 3,
+          "unique_predictions": 3,
+          "matched_gold_ids": [
+            "GT065",
+            "GT068"
+          ],
+          "missed_gold_ids": [
+            "GT067",
+            "GT069",
+            "GT070",
+            "GT071",
+            "GT072",
+            "GT073",
+            "GT074",
+            "GT075"
+          ],
+          "false_positive_triples": [
+            [
+              "local:AA24-109A:0e1c53812ace",
+              "USES_TECHNIQUE",
+              "attack:T1090"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA24-109A:paragraph:8222",
+          "doc_id": "AA24-109A",
+          "tp": 0,
+          "fp": 4,
+          "fn": 7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": [],
+          "prediction_occurrences": 5,
+          "unique_predictions": 4,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT061",
+            "GT062",
+            "GT063",
+            "GT064",
+            "GT105",
+            "GT106",
+            "GT107"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S0039",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ],
+            [
+              "local:AA24-109A:software:00190c5ad713",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ],
+            [
+              "local:AA24-109A:software:05e71c1ca386",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ],
+            [
+              "local:AA24-109A:software:16798b10924f",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA24-131A:paragraph:7045",
+          "doc_id": "AA24-131A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT076",
+            "GT077",
+            "GT110",
+            "GT111",
+            "GT112",
+            "GT113",
+            "GT114",
+            "GT115",
+            "GT116",
+            "GT117"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA25-071A:paragraph:13808",
+          "doc_id": "AA25-071A",
+          "tp": 3,
+          "fp": 4,
+          "fn": 15,
+          "precision": 0.42857142857142855,
+          "recall": 0.16666666666666666,
+          "f1": 0.24,
+          "undefined_metrics": [],
+          "prediction_occurrences": 7,
+          "unique_predictions": 7,
+          "matched_gold_ids": [
+            "GT084",
+            "GT086",
+            "GT090"
+          ],
+          "missed_gold_ids": [
+            "GT085",
+            "GT087",
+            "GT088",
+            "GT089",
+            "GT091",
+            "GT092",
+            "GT093",
+            "GT094",
+            "GT095",
+            "GT141",
+            "GT142",
+            "GT143",
+            "GT144",
+            "GT145",
+            "GT146"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S0029",
+              "USES_TECHNIQUE",
+              "attack:T1021.001"
+            ],
+            [
+              "attack:T1486",
+              "PART_OF_TACTIC",
+              "attack:TA0010"
+            ],
+            [
+              "attack:T1569.002",
+              "PART_OF_TACTIC",
+              "attack:TA0008"
+            ],
+            [
+              "local:AA25-071A:5d82fba77abf",
+              "USES_TECHNIQUE",
+              "attack:T1219"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA25-071A:paragraph:15368",
+          "doc_id": "AA25-071A",
+          "tp": 0,
+          "fp": 1,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT081",
+            "GT082",
+            "GT133",
+            "GT134",
+            "GT135",
+            "GT136",
+            "GT137",
+            "GT138"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:T1003.001",
+              "PART_OF_TACTIC",
+              "attack:TA0006"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA25-071A:paragraph:17253",
+          "doc_id": "AA25-071A",
+          "tp": 2,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "undefined_metrics": [],
+          "prediction_occurrences": 2,
+          "unique_predictions": 2,
+          "matched_gold_ids": [
+            "GT083",
+            "GT140"
+          ],
+          "missed_gold_ids": [
+            "GT080",
+            "GT139"
+          ],
+          "false_positive_triples": []
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "AA23-061A",
+          "scope_count": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 10,
+          "precision": 1.0,
+          "recall": 0.09090909090909091,
+          "f1": 0.16666666666666669,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA23-075A",
+          "scope_count": 1,
+          "tp": 1,
+          "fp": 1,
+          "fn": 6,
+          "precision": 0.5,
+          "recall": 0.14285714285714285,
+          "f1": 0.22222222222222224,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA23-165A",
+          "scope_count": 29,
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ]
+        },
+        {
+          "doc_id": "AA23-352A",
+          "scope_count": 1,
+          "tp": 0,
+          "fp": 1,
+          "fn": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA24-109A",
+          "scope_count": 3,
+          "tp": 3,
+          "fp": 5,
+          "fn": 18,
+          "precision": 0.375,
+          "recall": 0.14285714285714285,
+          "f1": 0.20689655172413796,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA24-131A",
+          "scope_count": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ]
+        },
+        {
+          "doc_id": "AA25-071A",
+          "scope_count": 3,
+          "tp": 5,
+          "fp": 5,
+          "fn": 25,
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25,
+          "undefined_metrics": []
+        }
+      ],
+      "scope_collapsing_legacy_diagnostic": {
+        "tp": 10,
+        "fp": 12,
+        "fn": 136,
+        "precision": 0.45454545454545453,
+        "recall": 0.0684931506849315,
+        "f1": 0.11904761904761904,
+        "undefined_metrics": [],
+        "scope_chunks": 39,
+        "fused_predictions_excluded": 0
+      },
+      "predicates": [
+        {
+          "predicate": "PART_OF_TACTIC",
+          "tp": 0,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null,
+          "undefined_metrics": [
+            "recall",
+            "f1"
+          ],
+          "eligible_prediction_occurrences": 3,
+          "unique_scope_predictions": 3
+        },
+        {
+          "predicate": "USES",
+          "tp": 5,
+          "fp": 0,
+          "fn": 69,
+          "precision": 1.0,
+          "recall": 0.06756756756756757,
+          "f1": 0.12658227848101267,
+          "undefined_metrics": [],
+          "eligible_prediction_occurrences": 5,
+          "unique_scope_predictions": 5
+        },
+        {
+          "predicate": "USES_TECHNIQUE",
+          "tp": 5,
+          "fp": 9,
+          "fn": 70,
+          "precision": 0.35714285714285715,
+          "recall": 0.06666666666666667,
+          "f1": 0.11235955056179775,
+          "undefined_metrics": [],
+          "eligible_prediction_occurrences": 15,
+          "unique_scope_predictions": 14
+        }
+      ]
+    },
+    "duplicate_normalized_sensitivity": {
+      "tp": 10,
+      "fp": 12,
+      "fn": 139,
+      "precision": 0.45454545454545453,
+      "recall": 0.06711409395973154,
+      "f1": 0.11695906432748539,
+      "undefined_metrics": [],
+      "eligible_prediction_occurrences": 23,
+      "unique_scope_predictions": 22,
+      "scopes": [
+        {
+          "scope_id": "AA23-061A:paragraph:6445",
+          "doc_id": "AA23-061A",
+          "tp": 1,
+          "fp": 0,
+          "fn": 10,
+          "precision": 1.0,
+          "recall": 0.09090909090909091,
+          "f1": 0.16666666666666669,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [
+            "GT104"
+          ],
+          "missed_gold_ids": [
+            "GT059",
+            "GT060",
+            "GT096",
+            "GT097",
+            "GT098",
+            "GT099",
+            "GT100",
+            "GT101",
+            "GT102",
+            "GT103"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-075A:paragraph:6201",
+          "doc_id": "AA23-075A",
+          "tp": 1,
+          "fp": 1,
+          "fn": 6,
+          "precision": 0.5,
+          "recall": 0.14285714285714285,
+          "f1": 0.22222222222222224,
+          "undefined_metrics": [],
+          "prediction_occurrences": 2,
+          "unique_predictions": 2,
+          "matched_gold_ids": [
+            "GT080"
+          ],
+          "missed_gold_ids": [
+            "GT079",
+            "GT128",
+            "GT129",
+            "GT130",
+            "GT131",
+            "GT132"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S1202",
+              "USES_TECHNIQUE",
+              "attack:T1567"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA23-165A:table4:row01",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT001",
+            "GT002"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row02",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT003",
+            "GT004"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row03",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT005",
+            "GT006"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row04",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT007",
+            "GT008"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row05",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT009",
+            "GT010"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row06",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT011",
+            "GT012"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row07",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT013",
+            "GT014"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row08",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT015",
+            "GT016"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row09",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT017",
+            "GT018"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row10",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT019",
+            "GT020"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row11",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT021",
+            "GT022"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row12",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT023",
+            "GT024"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row13",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT025",
+            "GT026"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row14",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT027",
+            "GT028"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row15",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT029",
+            "GT030"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row16",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT031",
+            "GT032"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row17",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT033",
+            "GT034"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row18",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT035",
+            "GT036"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row19",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT037",
+            "GT038"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row20",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT039",
+            "GT040"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row21",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT041",
+            "GT042"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row22",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT043",
+            "GT044"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row23",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT045",
+            "GT046"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row24",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT047",
+            "GT048"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row25",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT049",
+            "GT050"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row26",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT051",
+            "GT052"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row27",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT053",
+            "GT054"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row28",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT055",
+            "GT056"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-165A:table4:row29",
+          "doc_id": "AA23-165A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT057",
+            "GT058"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA23-352A:paragraph:5544",
+          "doc_id": "AA23-352A",
+          "tp": 0,
+          "fp": 1,
+          "fn": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT062",
+            "GT078",
+            "GT118",
+            "GT119",
+            "GT120",
+            "GT121",
+            "GT122",
+            "GT123",
+            "GT124",
+            "GT125",
+            "GT126",
+            "GT127"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S1162",
+              "USES_TECHNIQUE",
+              "attack:T1059"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA24-109A:paragraph:11788",
+          "doc_id": "AA24-109A",
+          "tp": 1,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [
+            "GT066"
+          ],
+          "missed_gold_ids": [
+            "GT065",
+            "GT108",
+            "GT109"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA24-109A:paragraph:12198",
+          "doc_id": "AA24-109A",
+          "tp": 2,
+          "fp": 1,
+          "fn": 8,
+          "precision": 0.6666666666666666,
+          "recall": 0.2,
+          "f1": 0.30769230769230765,
+          "undefined_metrics": [],
+          "prediction_occurrences": 3,
+          "unique_predictions": 3,
+          "matched_gold_ids": [
+            "GT065",
+            "GT068"
+          ],
+          "missed_gold_ids": [
+            "GT067",
+            "GT069",
+            "GT070",
+            "GT071",
+            "GT072",
+            "GT073",
+            "GT074",
+            "GT075"
+          ],
+          "false_positive_triples": [
+            [
+              "local:AA24-109A:0e1c53812ace",
+              "USES_TECHNIQUE",
+              "attack:T1090"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA24-109A:paragraph:8222",
+          "doc_id": "AA24-109A",
+          "tp": 0,
+          "fp": 4,
+          "fn": 7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": [],
+          "prediction_occurrences": 5,
+          "unique_predictions": 4,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT061",
+            "GT062",
+            "GT063",
+            "GT064",
+            "GT105",
+            "GT106",
+            "GT107"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S0039",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ],
+            [
+              "local:AA24-109A:software:00190c5ad713",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ],
+            [
+              "local:AA24-109A:software:05e71c1ca386",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ],
+            [
+              "local:AA24-109A:software:16798b10924f",
+              "USES_TECHNIQUE",
+              "attack:T1016"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA24-131A:paragraph:7045",
+          "doc_id": "AA24-131A",
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ],
+          "prediction_occurrences": 0,
+          "unique_predictions": 0,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT076",
+            "GT077",
+            "GT110",
+            "GT111",
+            "GT112",
+            "GT113",
+            "GT114",
+            "GT115",
+            "GT116",
+            "GT117"
+          ],
+          "false_positive_triples": []
+        },
+        {
+          "scope_id": "AA25-071A:paragraph:13808",
+          "doc_id": "AA25-071A",
+          "tp": 3,
+          "fp": 4,
+          "fn": 15,
+          "precision": 0.42857142857142855,
+          "recall": 0.16666666666666666,
+          "f1": 0.24,
+          "undefined_metrics": [],
+          "prediction_occurrences": 7,
+          "unique_predictions": 7,
+          "matched_gold_ids": [
+            "GT084",
+            "GT086",
+            "GT090"
+          ],
+          "missed_gold_ids": [
+            "GT085",
+            "GT087",
+            "GT088",
+            "GT089",
+            "GT091",
+            "GT092",
+            "GT093",
+            "GT094",
+            "GT095",
+            "GT141",
+            "GT142",
+            "GT143",
+            "GT144",
+            "GT145",
+            "GT146"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:S0029",
+              "USES_TECHNIQUE",
+              "attack:T1021.001"
+            ],
+            [
+              "attack:T1486",
+              "PART_OF_TACTIC",
+              "attack:TA0010"
+            ],
+            [
+              "attack:T1569.002",
+              "PART_OF_TACTIC",
+              "attack:TA0008"
+            ],
+            [
+              "local:AA25-071A:5d82fba77abf",
+              "USES_TECHNIQUE",
+              "attack:T1219"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA25-071A:paragraph:15368",
+          "doc_id": "AA25-071A",
+          "tp": 0,
+          "fp": 1,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": [],
+          "prediction_occurrences": 1,
+          "unique_predictions": 1,
+          "matched_gold_ids": [],
+          "missed_gold_ids": [
+            "GT081",
+            "GT082",
+            "GT133",
+            "GT134",
+            "GT135",
+            "GT136",
+            "GT137",
+            "GT138"
+          ],
+          "false_positive_triples": [
+            [
+              "attack:T1003.001",
+              "PART_OF_TACTIC",
+              "attack:TA0006"
+            ]
+          ]
+        },
+        {
+          "scope_id": "AA25-071A:paragraph:17253",
+          "doc_id": "AA25-071A",
+          "tp": 2,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "undefined_metrics": [],
+          "prediction_occurrences": 2,
+          "unique_predictions": 2,
+          "matched_gold_ids": [
+            "GT083",
+            "GT140"
+          ],
+          "missed_gold_ids": [
+            "GT080",
+            "GT139"
+          ],
+          "false_positive_triples": []
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "AA23-061A",
+          "scope_count": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 10,
+          "precision": 1.0,
+          "recall": 0.09090909090909091,
+          "f1": 0.16666666666666669,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA23-075A",
+          "scope_count": 1,
+          "tp": 1,
+          "fp": 1,
+          "fn": 6,
+          "precision": 0.5,
+          "recall": 0.14285714285714285,
+          "f1": 0.22222222222222224,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA23-165A",
+          "scope_count": 29,
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ]
+        },
+        {
+          "doc_id": "AA23-352A",
+          "scope_count": 1,
+          "tp": 0,
+          "fp": 1,
+          "fn": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA24-109A",
+          "scope_count": 3,
+          "tp": 3,
+          "fp": 5,
+          "fn": 18,
+          "precision": 0.375,
+          "recall": 0.14285714285714285,
+          "f1": 0.20689655172413796,
+          "undefined_metrics": []
+        },
+        {
+          "doc_id": "AA24-131A",
+          "scope_count": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": null,
+          "recall": 0.0,
+          "f1": null,
+          "undefined_metrics": [
+            "precision",
+            "f1"
+          ]
+        },
+        {
+          "doc_id": "AA25-071A",
+          "scope_count": 3,
+          "tp": 5,
+          "fp": 5,
+          "fn": 25,
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25,
+          "undefined_metrics": []
+        }
+      ],
+      "scope_collapsing_legacy_diagnostic": {
+        "tp": 10,
+        "fp": 12,
+        "fn": 136,
+        "precision": 0.45454545454545453,
+        "recall": 0.0684931506849315,
+        "f1": 0.11904761904761904,
+        "undefined_metrics": [],
+        "scope_chunks": 39,
+        "fused_predictions_excluded": 0
+      },
+      "predicates": [
+        {
+          "predicate": "PART_OF_TACTIC",
+          "tp": 0,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null,
+          "undefined_metrics": [
+            "recall",
+            "f1"
+          ],
+          "eligible_prediction_occurrences": 3,
+          "unique_scope_predictions": 3
+        },
+        {
+          "predicate": "USES",
+          "tp": 5,
+          "fp": 0,
+          "fn": 69,
+          "precision": 1.0,
+          "recall": 0.06756756756756757,
+          "f1": 0.12658227848101267,
+          "undefined_metrics": [],
+          "eligible_prediction_occurrences": 5,
+          "unique_scope_predictions": 5
+        },
+        {
+          "predicate": "USES_TECHNIQUE",
+          "tp": 5,
+          "fp": 9,
+          "fn": 70,
+          "precision": 0.35714285714285715,
+          "recall": 0.06666666666666667,
+          "f1": 0.11235955056179775,
+          "undefined_metrics": [],
+          "eligible_prediction_occurrences": 15,
+          "unique_scope_predictions": 14
+        }
+      ]
+    }
+  },
+  "available_mean_gains_hybrid_minus_text": {
+    "human_completeness": 0.11111111111111116,
+    "human_factuality": 0.40555555555555545,
+    "automatic_faithfulness": 0.0574381868131868
+  },
+  "proposed_qa_target_on_available_point_estimates": false,
+  "proposed_extraction_target_met": false,
+  "interpretation": "Point targets use available marginal means only. Paired estimates/coverage remain separate. Unequal availability, small samples, AI assistance and MODE/evidence-format confounds prevent a general superiority claim.",
+  "timing_definition": "Measured case duration after one excluded warm-up per condition. All 60 outcomes per condition include failed repairs and abstentions. P95 uses linear interpolation at (n-1)*0.95. These are not separate Neo4j/Ollama/GPU measurements.",
+  "unsupported_claim_rate": "Not separately annotated at claim level; cannot infer this rate from ordinal answer ratings.",
+  "report_inputs_sha256": {
+    "S:\\ThreatWeave\\docs\\ThreatWeave_primary_completed_ratings.json": "3cb251f9caaafe07406491e9ac45ef678614c863107560777fd91ee1132d4427",
+    "S:\\ThreatWeave\\docs\\ThreatWeave_secondary_completed_ratings.json": "ef9fa361fad326fa9b910a7ccb8ae71623d71d95c872c8cc16ede73c0b9e88d0",
+    "S:\\ThreatWeave\\work\\human_scoring_analysis\\20261016T174034Z-7c181a33\\inputs_sha256.json": "cefed542375af06edf01ed153d829eeca1f23709e64cc1c595833baffaa30afa",
+    "S:\\ThreatWeave\\work\\human_scoring_analysis\\20261016T174034Z-7c181a33\\mode_summary.json": "b512639c7e2c0bcce47f890f8d26c7df3372db43570beae0a787de4c99b78d06",
+    "S:\\ThreatWeave\\work\\human_scoring_analysis\\20261016T174034Z-7c181a33\\paired_comparisons.json": "7be62f1ca6a07233a8ed534d781e9f4b82a978335ff52cf706ea7c99eed9e01f",
+    "S:\\ThreatWeave\\work\\human_scoring_analysis\\20261016T174034Z-7c181a33\\secondary_consistency.json": "1741509a81b21dd8c38b836a37a1a66cf56b7ef719f3ef7967cb6006694d99e4",
+    "S:\\ThreatWeave\\work\\final_scoring_analysis\\20261016T075220Z-1e84d02c\\mode_summary.json": "89ef8807a1aaa59c59bd705124efd0283d30506a37663c90728f0bce50996650",
+    "S:\\ThreatWeave\\work\\final_scoring_analysis\\20261016T075220Z-1e84d02c\\paired_comparisons.json": "c75eec062bb9805e7db8a352d940cc4d79ad20df0297c3325297673b255ae6f4",
+    "S:\\ThreatWeave\\work\\final_evaluation_review_checks\\20261016T052517Z-4778a10b\\outcomes.json": "e7e3bd2bc1737b66d86dcc08e045dad0543da6b1b990ad9d88153c903dce4663",
+    "S:\\ThreatWeave\\work\\extraction_scoring_analysis\\20261016T171118Z-dc75fabd\\results.json": "f8fb78262c142244c915b418726791f989a7baf1108a9a4f7ac4f33fb092a2b6",
+    "S:\\ThreatWeave\\evaluation\\submission_analysis.py": "a80c32eb1831da4ebedf8ce034095d1dc220b82a143429dc2632e935474d7319"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "SVCHost.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Gt_net.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "PSexesvc.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Play",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "HRsword.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Usysdiag.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "fThe9C.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Hi.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "SystemBC",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "DLL",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "SVCHost.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Gt_net.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "PSexesvc.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_G": {
+      "name": "Play",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "HRsword.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Usysdiag.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "fThe9C.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Hi.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "SystemBC",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "DLL",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 20,
+      "text": "D0321532A7515C244A1E",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 21,
+      "end": 32,
+      "text": "SVCHost.dll",
+      "line_start": 21
+    },
+    "u003": {
+      "start": 33,
+      "end": 41,
+      "text": "Backdoor",
+      "line_start": 33
+    },
+    "u004": {
+      "start": 42,
+      "end": 106,
+      "text": "75B525B220169F07AECFB3B1991702FBD9A1E170CAF0040D1FCB07C3E819F54A",
+      "line_start": 42
+    },
+    "u005": {
+      "start": 107,
+      "end": 171,
+      "text": "453257C3494ADDAFB39CB6815862403E827947A1E7737EB8168CD10522465DEB",
+      "line_start": 107
+    },
+    "u006": {
+      "start": 172,
+      "end": 236,
+      "text": "C59F3C8D61D940B56436C14BC148C1FE98862921B8F7BAD97FBC96B31D71193C",
+      "line_start": 172
+    },
+    "u007": {
+      "start": 237,
+      "end": 243,
+      "text": "GRIXBA",
+      "line_start": 237
+    },
+    "u008": {
+      "start": 244,
+      "end": 254,
+      "text": "Gt_net.exe",
+      "line_start": 244
+    },
+    "u009": {
+      "start": 255,
+      "end": 281,
+      "text": "Custom data gathering tool",
+      "line_start": 255
+    },
+    "u010": {
+      "start": 282,
+      "end": 346,
+      "text": "1409E010675BF4A40DB0A845B60DB3AAE5B302834E80ADEEC884AEBC55ECCBF7",
+      "line_start": 282
+    },
+    "u011": {
+      "start": 347,
+      "end": 359,
+      "text": "PSexesvc.exe",
+      "line_start": 347
+    },
+    "u012": {
+      "start": 360,
+      "end": 382,
+      "text": "Custom Play “psexesvc”",
+      "line_start": 360
+    },
+    "u013": {
+      "start": 383,
+      "end": 447,
+      "text": "0E408AED1ACF902A9F97ABF71CF0DD354024109C5D52A79054C421BE35D93549",
+      "line_start": 383
+    },
+    "u014": {
+      "start": 448,
+      "end": 459,
+      "text": "HRsword.exe",
+      "line_start": 448
+    },
+    "u015": {
+      "start": 460,
+      "end": 488,
+      "text": "Disables endpoint protection",
+      "line_start": 460
+    },
+    "u016": {
+      "start": 489,
+      "end": 553,
+      "text": "90040340EE101CAC7831D7035230AC8AD4224D432E5636F34F13AA1C4A0C2041",
+      "line_start": 489
+    },
+    "u017": {
+      "start": 554,
+      "end": 566,
+      "text": "Usysdiag.exe",
+      "line_start": 554
+    },
+    "u018": {
+      "start": 567,
+      "end": 631,
+      "text": "Associated with HRsword; changes settings of System certificates",
+      "line_start": 567
+    },
+    "u019": {
+      "start": 632,
+      "end": 672,
+      "text": "3D86555ACAA19AEDDB5896071D1E3711B062EDBE",
+      "line_start": 632
+    },
+    "u020": {
+      "start": 673,
+      "end": 683,
+      "text": "fThe9C.exe",
+      "line_start": 673
+    },
+    "u021": {
+      "start": 684,
+      "end": 748,
+      "text": "6DE8DD5757F9A3AC5E2AC28E8A77682D7A29BE25C106F785A061DCF582A20DC6",
+      "line_start": 684
+    },
+    "u022": {
+      "start": 749,
+      "end": 755,
+      "text": "Hi.exe",
+      "line_start": 749
+    },
+    "u023": {
+      "start": 756,
+      "end": 782,
+      "text": "Associated with ransomware",
+      "line_start": 756
+    },
+    "u024": {
+      "start": 783,
+      "end": 847,
+      "text": "75404543DE25513B376F097CEB383E8EFB9C9B95DA8945FD4AA37C7B2F226212",
+      "line_start": 783
+    },
+    "u025": {
+      "start": 848,
+      "end": 868,
+      "text": "SystemBC Malware EXE",
+      "line_start": 848
+    },
+    "u026": {
+      "start": 869,
+      "end": 933,
+      "text": "7A42F96599DF8090CF89D6E3CE4316D24C6C00E499C8557A2E09D61C00C11986",
+      "line_start": 869
+    },
+    "u027": {
+      "start": 934,
+      "end": 998,
+      "text": "7DEA671BE77A2CA5772B86CF8831B02BFF0567BCE6A3AE023825AA40354F8ACA",
+      "line_start": 934
+    },
+    "u028": {
+      "start": 999,
+      "end": 1019,
+      "text": "SystemBC malware DLL",
+      "line_start": 999
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:svchost.dll",
+    "m002_S": "local:Software:gt_net.exe",
+    "m003_S": "local:Software:psexesvc.exe",
+    "m004_S": "attack:S1162",
+    "m004_G": "attack:G1040",
+    "m005_S": "local:Software:hrsword.exe",
+    "m006_S": "local:Software:usysdiag.exe",
+    "m007_S": "local:Software:fthe9c.exe",
+    "m008_S": "local:Software:hi.exe",
+    "m009_S": "local:Software:systembc",
+    "m010_S": "local:Software:dll"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    }
+  ]
+}

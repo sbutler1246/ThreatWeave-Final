@@ -1,0 +1,346 @@
+{
+  "answer": "LockBit 3.0 affiliates use rclone to connect to Exfiltration to Cloud Storage (T1567.002). [E11, E2, E3, E12]\nThe two-hop actor-to-software-to-technique path is: LockBit 3.0 affiliates -> rclone -> Exfiltration to Cloud Storage (T1567.002). [E11, E2, E3, E12]\nThe ATT&CK technique connected to LockBit 3.0 affiliates through the reported use of rclone is Exfiltration to Cloud Storage (T1567.002). [E11, E2, E3, E12]",
+  "claims": [
+    {
+      "text": "LockBit 3.0 affiliates use rclone to connect to Exfiltration to Cloud Storage (T1567.002).",
+      "citations": [
+        "E11",
+        "E2",
+        "E3",
+        "E12"
+      ]
+    },
+    {
+      "text": "The two-hop actor-to-software-to-technique path is: LockBit 3.0 affiliates -> rclone -> Exfiltration to Cloud Storage (T1567.002).",
+      "citations": [
+        "E11",
+        "E2",
+        "E3",
+        "E12"
+      ]
+    },
+    {
+      "text": "The ATT&CK technique connected to LockBit 3.0 affiliates through the reported use of rclone is Exfiltration to Cloud Storage (T1567.002).",
+      "citations": [
+        "E11",
+        "E2",
+        "E3",
+        "E12"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:2065:4310",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001].",
+        "start": 3093,
+        "end": 3207,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:2065:4310",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "#StopRansomware: LockBit 3.0",
+        "start": 23,
+        "end": 51,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:2065:4310",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "TECHNICAL DETAILS",
+        "start": 2048,
+        "end": 2065,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "attack:17.1:relationship--9a513f75-f09b-4840-8654-521fa4ff59fa",
+        "chunk_id": "attack:17.1:relationship--9a513f75-f09b-4840-8654-521fa4ff59fa:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Environmental Keying (T1480.001)\nMitigation: Do Not Mitigate (M1055)",
+        "start": 0,
+        "end": 100,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "attack:17.1:relationship--9a513f75-f09b-4840-8654-521fa4ff59fa",
+        "chunk_id": "attack:17.1:relationship--9a513f75-f09b-4840-8654-521fa4ff59fa:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "[Environmental Keying](https://attack.mitre.org/techniques/T1480/001) likely should not be mitigated with preventative controls because it may protect unintended targets from being compromised via confusion of keys by the adversary. Mitigation of this technique is also unlikely to be feasible within most contexts because there are no standard attributes from which an adversary may derive keys. If targeted, efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior if compromised.",
+        "start": 278,
+        "end": 854,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:4080:6201",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials hardcoded at compilation time or a compromised local account with elevated privileges [T1078].",
+        "start": 5225,
+        "end": 5419,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+        "chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Application Developer Guidance (M1013)",
+        "start": 0,
+        "end": 105,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+        "chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).",
+        "start": 283,
+        "end": 479,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+        "chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Active Directory Configuration (M1015)",
+        "start": 0,
+        "end": 105,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+        "chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Disable legacy authentication, which does not support MFA, and require the use of modern authentication protocols instead.",
+        "start": 283,
+        "end": 405,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E11",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "rclone, an open-source command line cloud storage manager [T1567.002]",
+        "start": 6308,
+        "end": 6377,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E12",
+        "doc_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe",
+        "chunk_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Exfiltration to Cloud Storage (T1567.002)\nMitigation: Restrict Web-Based Content (M1021)",
+        "start": 0,
+        "end": 120,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E13",
+        "doc_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe",
+        "chunk_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.",
+        "start": 298,
+        "end": 426,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E14",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "AnyDesk\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+        "start": 13043,
+        "end": 13178,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E15",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates",
+        "start": 12066,
+        "end": 12132,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E16",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Tool\nIntended Use\nRepurposed Use by LockBit Affiliates\nMITRE ATT&CK ID\n",
+        "start": 12133,
+        "end": 12204,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [
+      {
+        "path_id": "P1",
+        "edges": [
+          {
+            "head_id": "attack:S1202",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1480.001",
+            "assertion_ids": [
+              "assertion:aa370f9fe3532f4df9603b1c3f4a8e7d853201debb5f5b3973741e5fa7815155"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1480.001",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1055",
+            "assertion_ids": [
+              "assertion:fa5dff94c941f9e326402cb20d65715cf677ed4b63cde2b78ba1b1ddab4f14d1"
+            ],
+            "citation_ids": [
+              "E4",
+              "E5"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P2",
+        "edges": [
+          {
+            "head_id": "attack:S1202",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1078",
+            "assertion_ids": [
+              "assertion:73394acc6c7791f49e3cadf67372d2be941a5ad6fd58d158e6aa0ab44204a2a1"
+            ],
+            "citation_ids": [
+              "E6",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1078",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1013",
+            "assertion_ids": [
+              "assertion:65dd2e5f361ab6e6063621fbb5e7d4707c46704ff8d57185994aea34322339c5"
+            ],
+            "citation_ids": [
+              "E7",
+              "E8"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P3",
+        "edges": [
+          {
+            "head_id": "attack:S1202",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1078",
+            "assertion_ids": [
+              "assertion:73394acc6c7791f49e3cadf67372d2be941a5ad6fd58d158e6aa0ab44204a2a1"
+            ],
+            "citation_ids": [
+              "E6",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1078",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1015",
+            "assertion_ids": [
+              "assertion:92b52232b0e0c3669bd644cd4e6cb6212c67bed05411e9a3539f1ee38818f511"
+            ],
+            "citation_ids": [
+              "E9",
+              "E10"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P4",
+        "edges": [
+          {
+            "head_id": "attack:S1040",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1567.002",
+            "assertion_ids": [
+              "assertion:142b17253d6ea2ecd3e9ad398c5f2671d38b0843bf160ab53164da32b818242e"
+            ],
+            "citation_ids": [
+              "E11",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1567.002",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1021",
+            "assertion_ids": [
+              "assertion:85a8a923c469fcf03e65b95da768d2355d125f5d3065eaa093e34b004b2da02c"
+            ],
+            "citation_ids": [
+              "E12",
+              "E13"
+            ]
+          }
+        ]
+      }
+    ],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16"
+    ],
+    "retrieval_ms": 184.3022000102792,
+    "configuration_hash": "80a7079746cc7e845ed5a20b65cd1254172464f12166eb44b79d4541e20ba8bc",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 3341.8468999734614,
+  "generation_timestamp": "2026-10-16T05:03:16.136996Z",
+  "warnings": [
+    "Development hybrid_no_node2vec pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

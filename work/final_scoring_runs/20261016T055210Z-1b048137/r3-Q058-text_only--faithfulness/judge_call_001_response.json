@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:28:18.508027Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9202199300,
+  "load_duration": 11252400,
+  "prompt_eval_count": 611,
+  "prompt_eval_duration": 176352000,
+  "eval_count": 700,
+  "eval_duration": 8906191000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Rhysida actors use Mimikatz to gain access to victim systems.\",\n        \"Akira threat actors use Mimikatz to query and retrieve information from Active Directory.\",\n        \"CISA maps Rhysida's use of AZCopy to Command and Scripting Interpreter: Cloud API.\",\n        \"CISA maps Akira's use of net group /domain command to System Information Discovery.\",\n        \"CISA maps Akira's use of PCHunter64 to System Information Discovery.\",\n        \"CISA maps Akira's use of DiskCheck software to System Information Discovery.\",\n        \"CISA maps Akira's use of Adfind.exe to Account Discovery: Domain Account.\",\n        \"CISA maps Akira's use of net Windows command to Domain Trust Discovery.\"\n    ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"Rhysida actors use Mimikatz to gain access to victim systems.\"\n\t* Rhysida actors use Mimikatz.\n\t* Rhysida actors use Mimikatz to gain access.\n\t* Rhysida actors use Mimikatz to gain access to systems.\n\t* Rhysida actors use Mimikatz to gain access to victim systems.\n2. \"Akira threat actors use Mimikatz to query and retrieve information from Active Directory.\"\n\t* Akira threat actors use Mimikatz.\n\t* Akira threat actors use Mimikatz to query.\n\t* Akira threat actors use Mimikatz to query and retrieve information.\n\t* Akira threat actors use Mimikatz to query and retrieve information from Active Directory.\n3. \"CISA maps Rhysida's use of AZCopy to Command and Scripting Interpreter: Cloud API.\"\n\t* CISA maps Rhysida's use of AZCopy.\n\t* CISA maps Rhysida's use of AZCopy to Command and Scripting Interpreter.\n\t* CISA maps Rhysida's use of AZCopy to Command and Scripting Interpreter: Cloud API.\n4. \"CISA maps Akira's use of net group /domain command to System Information Discovery.\"\n\t* CISA maps Akira's use of net group /domain command.\n\t* CISA maps Akira's use of net group /domain command to System Information Discovery.\n5. \"CISA maps Akira's use of PCHunter64 to System Information Discovery.\"\n\t* CISA maps Akira's use of PCHunter64.\n\t* CISA maps Akira's use of PCHunter64 to System Information Discovery.\n6. \"CISA maps Akira's use of DiskCheck software to System Information Discovery.\"\n\t* CISA maps Akira's use of DiskCheck software.\n\t* CISA maps Akira's use of DiskCheck software to System Information Discovery.\n7. \"CISA maps Akira's use of Adfind.exe to Account Discovery: Domain Account.\"\n\t* CISA maps Akira's use of Adfind.exe.\n\t* CISA maps Akira's use of Adfind.exe to Account Discovery.\n\t* CISA maps Akira's use of Adfind.exe to Account Discovery: Domain Account.\n8. \"CISA maps Akira's use of net Windows command to Domain Trust Discovery.\"\n\t* CISA maps Akira's use of net Windows command.\n\t* CISA maps Akira's use of net",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

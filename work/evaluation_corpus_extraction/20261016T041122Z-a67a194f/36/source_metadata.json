@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:30968:32954",
+    "doc_id": "AA23-061A",
+    "start": 30968,
+    "end": 32954,
+    "text": " admin account to gain access privileges to the domain controller.\nValid Accounts: Domain Accounts\nT1078.002\nBlackSuit actors used encrypted files to create new admin user accounts.\nTable 21: Cyber Threat Actors ATT&CK Techniques for Defense Evasion\nTechnique Title\nID\nUse\nRemote Services: Remote Desktop Protocol\nT1021.001\nBlackSuit actors used valid accounts to move laterally through the domain controller using RDP.\nIndicator Removal: Clear Windows Event Logs\nT1070.001\nBlackSuit actors deleted shadow files and system and security logs after exfiltration.\nAutomated Collection\nT1119\nBlackSuit actors used registry keys to auto-extract and collect files.\nDomain Policy Modification: Group Policy Modification\nT1484.001\nBlackSuit actors modified Group Policy Objects to subvert antivirus protocols.\nImpair Defenses: Disable or Modify Tools\nT1562.001\nBlackSuit actors deactivated antivirus protocols.\nTable 22: Cyber Threat Actors ATT&CK Techniques for Command and Control\nTechnique Title\nID\nUse\nIngress Tool Transfer\nT1105\nBlackSuit actors used C2 infrastructure to download multiple tools.\nProtocol Tunneling\nT1572\nBlackSuit actors used an encrypted SSH tunnel to communicate within C2 infrastructure.\nTable 23: Cyber Threat Actors ATT&CK Techniques for Impact\nTechnique Title\nID\nUse\nData Encrypted for Impact\nT1486\nBlackSuit actors encrypted data to determine which files were being used or blocked by other applications.\nDetection Methods\n(New August 7, 2024) Please reference YARA rule below to aid in detecting BlackSuit activity. Note: The YARA rule is derived from FBI investigations and is not guaranteed to detect confirmed malicious activity.\nprivate rule is_executable {\ncondition:\nuint32(uint32(0x3C)) == 0x00004550\n}\nrule obfuscates_dlls {\nstrings:\n// Code for unscrambling names of true DLL imports\n$code_load_obfuscated = {\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 30796,
+        "end": 30868,
+        "text": "Table 20: Cyber Threat Actors ATT&CK Techniques for Privilege Escalation"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 504,
+  "inherited_context_tokens": 35,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "e38f8414db71a9b439a7fa54cf100a43ea79363a29c9583eeb984f4e767ff94b",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

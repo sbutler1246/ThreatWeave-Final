@@ -1,0 +1,327 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit-named",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "StealBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "LockBit Black",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Alphv",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "BlackCat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Non-LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "Conti",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Australian",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "LockBit-named",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "StealBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "LockBit Black",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Alphv",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "BlackCat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_G": {
+      "name": "Non-LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "Conti",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "Australian",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 12,
+      "text": "January 2020",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 13,
+      "end": 93,
+      "text": "LockBit-named ransomware first seen on Russian-language based cybercrime forums.",
+      "line_start": 13
+    },
+    "u003": {
+      "start": 94,
+      "end": 103,
+      "text": "June 2021",
+      "line_start": 94
+    },
+    "u004": {
+      "start": 104,
+      "end": 234,
+      "text": "Appearance of LockBit version 2 (LockBit 2.0), also known as LockBit Red including StealBit, a built-in information-stealing tool.",
+      "line_start": 104
+    },
+    "u005": {
+      "start": 235,
+      "end": 247,
+      "text": "October 2021",
+      "line_start": 235
+    },
+    "u006": {
+      "start": 248,
+      "end": 372,
+      "text": "Introduction of LockBit Linux-ESXi Locker version 1.0 expanding capabilities to target systems to Linux and VMware ESXi. [5]",
+      "line_start": 248
+    },
+    "u007": {
+      "start": 373,
+      "end": 383,
+      "text": "March 2022",
+      "line_start": 373
+    },
+    "u008": {
+      "start": 384,
+      "end": 527,
+      "text": "Emergence of LockBit 3.0, also known as LockBit Black, that shares similarities with BlackMatter and Alphv (also known as BlackCat) ransomware.",
+      "line_start": 384
+    },
+    "u009": {
+      "start": 528,
+      "end": 542,
+      "text": "September 2022",
+      "line_start": 528
+    },
+    "u010": {
+      "start": 543,
+      "end": 626,
+      "text": "Non-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]",
+      "line_start": 543
+    },
+    "u011": {
+      "start": 627,
+      "end": 639,
+      "text": "January 2023",
+      "line_start": 627
+    },
+    "u012": {
+      "start": 640,
+      "end": 717,
+      "text": "Arrival of LockBit Green incorporating source code from Conti ransomware. [7]",
+      "line_start": 640
+    },
+    "u013": {
+      "start": 718,
+      "end": 728,
+      "text": "April 2023",
+      "line_start": 718
+    },
+    "u014": {
+      "start": 729,
+      "end": 800,
+      "text": "LockBit ransomware encryptors targeting macOS seen on VirusTotal [8, 9]",
+      "line_start": 729
+    },
+    "u015": {
+      "start": 801,
+      "end": 931,
+      "text": "LockBit 2.0, LockBit 3.0, LockBit Green, and LockBit Linux-ESXi Locker are still available for affiliates’ use on LockBit’s panel.",
+      "line_start": 801
+    },
+    "u016": {
+      "start": 932,
+      "end": 950,
+      "text": "LockBit Statistics",
+      "line_start": 932
+    },
+    "u017": {
+      "start": 951,
+      "end": 1008,
+      "text": "Percentage of ransomware incidents attributed to LockBit:",
+      "line_start": 951
+    },
+    "u018": {
+      "start": 1009,
+      "end": 1129,
+      "text": "Australia: From April 1, 2022, to March 31, 2023, LockBit made up 18% of total reported Australian ransomware incidents.",
+      "line_start": 1009
+    },
+    "u019": {
+      "start": 1130,
+      "end": 1210,
+      "text": "This figure includes all variants of LockBit ransomware, not solely LockBit 3.0.",
+      "line_start": 1009
+    },
+    "u020": {
+      "start": 1211,
+      "end": 1309,
+      "text": "Canada: In 2022, LockBit was responsible for 22% of attributed ransomware incidents in Canada.[10]",
+      "line_start": 1211
+    },
+    "u021": {
+      "start": 1310,
+      "end": 1427,
+      "text": "New Zealand: In 2022, CERT NZ received 15 reports of LockBit ransomware, representing 23% of 2022 ransomware reports.",
+      "line_start": 1310
+    },
+    "u022": {
+      "start": 1428,
+      "end": 1596,
+      "text": "United States: In 2022, 16% of the State, Local, Tribal, and Tribunal (SLTT) government ransomware incidents reported to the MS-ISAC were identified as LockBit attacks.",
+      "line_start": 1428
+    },
+    "u023": {
+      "start": 1597,
+      "end": 1774,
+      "text": "This included ransomware incidents impacting municipal governments, county governments, public higher education and K-12 schools, and emergency services (e.g., law enforcement).",
+      "line_start": 1428
+    },
+    "u024": {
+      "start": 1775,
+      "end": 1835,
+      "text": "Number of LockBit ransomware attacks in the U.S. since 2020:",
+      "line_start": 1775
+    },
+    "u025": {
+      "start": 1836,
+      "end": 1877,
+      "text": "About 1,700 attacks according to the FBI.",
+      "line_start": 1836
+    },
+    "u026": {
+      "start": 1878,
+      "end": 1916,
+      "text": "Total of U.S. ransoms paid to LockBit:",
+      "line_start": 1878
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:lockbit",
+    "m002_S": "local:Software:lockbit-named",
+    "m003_S": "attack:S1199",
+    "m004_S": "attack:S1200",
+    "m005_S": "attack:S1202",
+    "m006_S": "attack:S1202",
+    "m007_S": "attack:S1068",
+    "m008_S": "attack:S1068",
+    "m009_G": "local:ThreatGroup:non-lockbit affiliates",
+    "m010_S": "attack:S0575",
+    "m011_S": "local:Software:australian"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S",
+        "m005_S"
+      ]
+    }
+  ]
+}

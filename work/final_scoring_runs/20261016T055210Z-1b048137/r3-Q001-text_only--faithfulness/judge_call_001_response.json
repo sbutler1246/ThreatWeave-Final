@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:39:52.6898129Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4850636000,
+  "load_duration": 10997700,
+  "prompt_eval_count": 505,
+  "prompt_eval_duration": 173984000,
+  "eval_count": 362,
+  "eval_duration": 4537620000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"LockBit affiliates use Advanced IP Scanner to perform network scans.\",\n        \"Advanced IP Scanner is used for Network Service Discovery (T1046).\",\n        \"LockBit affiliates may use Advanced Port Scanner to enumerate connected machines in the network.\",\n        \"Network Service Discovery (T1046) is used by LockBit affiliates.\",\n        \"Use Network Intrusion Prevention (M1031) to detect and prevent remote service scans.\"\n    ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"LockBit affiliates use Advanced IP Scanner to perform network scans.\"\n\t* \"LockBit affiliates use Advanced IP Scanner.\"\n\t* \"Advanced IP Scanner is used to perform network scans.\"\n2. \"Advanced IP Scanner is used for Network Service Discovery (T1046).\"\n\t* \"Advanced IP Scanner is used for Network Service Discovery.\"\n\t* \"Network Service Discovery is also known as T1046.\"\n3. \"LockBit affiliates may use Advanced Port Scanner to enumerate connected machines in the network.\"\n\t* \"LockBit affiliates may use Advanced Port Scanner.\"\n\t* \"Advanced Port Scanner is used to enumerate connected machines in the network.\"\n4. \"Network Service Discovery (T1046) is used by LockBit affiliates.\"\n\t* \"Network Service Discovery is used by LockBit affiliates.\"\n\t* \"Network Service Discovery is also known as T1046.\"\n5. \"Use Network Intrusion Prevention (M1031) to detect and prevent remote service scans.\"\n\t* \"Use Network Intrusion Prevention to detect remote service scans.\"\n\t* \"Network Intrusion Prevention is also known as M1031.\"\n\nNote that I've avoided using pronouns in each statement, as per your request.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

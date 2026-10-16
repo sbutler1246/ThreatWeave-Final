@@ -1,0 +1,292 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "relations"
+  ],
+  "properties": {
+    "relations": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u009"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m003_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m005_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u010"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m002_S"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m006_T",
+                  "m007_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u012"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m003_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m008_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u014"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m003_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m009_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u016"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m003_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m010_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u018"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m003_G",
+                  "m011_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m012_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u021"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m014_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m015_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u007",
+                  "u009"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m003_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES_TECHNIQUE"
+              },
+              "tail": {
+                "enum": [
+                  "m005_T"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

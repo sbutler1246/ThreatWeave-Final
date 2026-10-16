@@ -1,0 +1,126 @@
+P036
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to Chocolatey in AA23-165A? Start from LockBit affiliates and follow the
+three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations
+from reference recommendations.
+Displayed answer
+LockBit affiliates' use of Mimikatz is associated with the technique mapped to Chocolatey in
+AA23-165A. [El, Q, E3]
+Network Service Discovery (T 1046) is the technique mapped to Chocolatey in AA23-165A. [E5,
+Network Segmentation (MI 030) is a mitigation for Network Service Discovery (Tl 046). [E8, E9]
+Network Intrusion Prevention (M 1031) is a mitigation for Remote Access Tools (T 1219). [El 1,
+E12]
+User Account Management (M 1018) is a mitigation for Disable or Modify Tools (Tl 562.001).
+[El 5, E16]
+Network Segmentation (M 1030) is a direct, active mitigation for Network Service Discovery
+(T1046). [E8, E9]
+Network Intrusion Prevention (M 1031) is a direct, active mitigation for Remote Access Tools
+(T1219). [El 1, El 2]
+User Account Management (M 101 8) is a direct, active mitigation for Disable or Modify Tools
+(Tl 562.001). [El 5, E16]
+Saved outcome: answer_ready_for_review
+
+--- IMAGE ---
+
+V Verified reference answer
+The AA23-165A Table 4 caption lists Chocolatey as a tool used by LockBit affiliates. The selected
+advisory row maps its reported use to T 1072 (Software Deployment Tools). The direct, active
+mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M 1015 (Active
+Directory Configuration), M 1017 (User Training), M1018 (User Account Management), MI 026
+(Privileged Account Management), M 1027 (Password Policies), M1029 (Remote Data Storage),
+MI 030 (Network Segmentation), MI 032 (Multi-factor Authentication), MI 033 (Limit Software
+Installation), M1051 (Update Software). These are reference mitigation associations, not incident-
+specific proof of effectiveness.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+LockBit affiliates have used Mimikatz to dump credentials.
+[Q; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; CISA]
+Table 9: LockBit Affiliates' ATT&CK Techniques for Enterprise — Defense Evasion
+[E-5; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for
+exploitation.
+T 1046
+Network Service Discovery
+[E6; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+
+--- IMAGE ---
+
+[E7; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T 1046)
+Mitigation: Network Segmentation (MI 030)
+[E9; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[Elo; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[El 1; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (Tl 219)
+Mitigation: Network Intrusion Prevention (M 1031)
+[El 2; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to
+prevent traffic to remote access services.
+[El 3; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+
+--- IMAGE ---
+
+[E14; CISA]
+Backstab
+Terminates antimalware-protected processes.
+Terminates endpoint detection and response (EDR)- protected processes.
+Tl 562.001
+Impair Defenses: Disable or Modify Tools
+[El 5; ATTACK]
+ATT&CK release: 17.1
+Technique: Disable or Modify Tools (Tl 562.001)
+Mitigation: User Account Management (MI 018)
+[El 6; ATTACK]
+Ensure proper user permissions are in place to prevent adversaries from disabling or interfering
+with security services.
+GRAPH NODES
+N 1: LockBit affiliates
+N2: Mimikatz (S0002)
+N3: Advanced Port Scanner
+N4: Network Service Discovery (T 1046)
+N5: Network Segmentation (MI 030)
+N6: AnyDesk
+N7: Remote Access Tools (Tl 219)
+N8: Network Intrusion Prevention (MI 031)
+N9: Atera Remote Monitoring & Management (RMM)
+N 10: Backstab
+Nil: Disable or Modify Tools 01562.001)
+Nl 2: User Account Management (M 101 8)
+
+--- IMAGE ---
+
+GRAF) H
+p 1: Nl
+P4: Nl
+PATHS
+"3: Nl N6 N7 1,E12]--
+--USES[EI N9 N7 I,EI
+"5: Nl NIO Nil
+N12

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:35:17.9715214Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9960483200,
+  "load_duration": 11782900,
+  "prompt_eval_count": 1882,
+  "prompt_eval_duration": 498548000,
+  "eval_count": 700,
+  "eval_duration": 9363386000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"classifications\": [\n{\n\"statement\": \"AA24-109A reports Akira threat actors using Rclone, with advisory mappings T1048;\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"AA25-071A reports Medusa actors using Rclone, with advisory mappings T1567.002.\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"These mappings describe the cited reports and do not establish that every use of the software has these behaviors.\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"The Akira report cites T1048 (Exfiltration Over Alternative Protocol);\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"the Medusa report cites T1567.002 (Exfiltration to Cloud Storage).\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"These are distinct source-reported mappings for the same software.\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"Rclone, an open-source command line cloud storage manager [T1567.002]\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"BianLian group actors install Rclone and other files in generic and typically unchecked folders such as programdata\\\\vmware and music folders.\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"BianLian group uses File Transfer Protocol (FTP) [T1048] and Rclone, a tool used to sync files to cloud storage, to exfiltrate data [T1537].\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"LockBit affiliates use (1) Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"Rclone, a tool used to sync files to cloud storage, to exfiltrate data [T1537].\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"Rclone, a tool used to sync files to cloud storage, to exfiltrate data [T1537].\",\n\"reason\": \"The exact sentence is present in the given context.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"Rclone, an open-source command line cloud storage manager",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:37:06.8214141Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4420502200,
+  "load_duration": 10262500,
+  "prompt_eval_count": 1375,
+  "prompt_eval_duration": 393154000,
+  "eval_count": 294,
+  "eval_duration": 3952027000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The AA23-165A Table 4 caption lists Advanced Internet Protocol (IP) Scanner as a tool used by LockBit affiliates.\",\n            \"reason\": \"The context mentions the use of Advanced Internet Protocol (IP) Scanner by LockBit affiliates.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1046 (Network Service Discovery).\",\n            \"reason\": \"The context mentions the mapping of Network Service Discovery to T1046.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1030 (Network Segmentation), M1031 (Network Intrusion Prevention), M1042 (Disable or Remove Feature or Program).\",\n            \"reason\": \"The context mentions the direct, active mitigates relationships in Enterprise ATT&CK 17.1, including Network Segmentation, Network Intrusion Prevention, and Disable or Remove Feature or Program.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The context does not mention incident-specific proof of effectiveness, but rather reference mitigation associations.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

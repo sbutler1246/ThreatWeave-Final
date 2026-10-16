@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u001"
+    ],
+    "selected_units": [
+      {
+        "start": 1,
+        "end": 193,
+        "text": "reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) [T1059] to search for additional privilege escalation paths.",
+        "line_start": 0
+      }
+    ],
+    "document_start": 5925,
+    "document_end": 6117,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 528,
+        "end": 684,
+        "text": "Play ransomware actors often split compromised data into segments and use tools like WinRAR to compress files [T1560.001] into .RAR format for exfiltration.",
+        "line_start": 528
+      }
+    ],
+    "document_start": 6452,
+    "document_end": 6608,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 794,
+        "end": 1084,
+        "text": "Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted.",
+        "line_start": 528
+      }
+    ],
+    "document_start": 6718,
+    "document_end": 7008,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 794,
+        "end": 1084,
+        "text": "Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted.",
+        "line_start": 528
+      }
+    ],
+    "document_start": 6718,
+    "document_end": 7008,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

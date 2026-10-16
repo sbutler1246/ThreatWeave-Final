@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:39:14.297512Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 613061600,
+  "load_duration": 9370300,
+  "prompt_eval_count": 417,
+  "prompt_eval_duration": 121794000,
+  "eval_count": 28,
+  "eval_duration": 342677000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is Protocol Tunneling (T1572)?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

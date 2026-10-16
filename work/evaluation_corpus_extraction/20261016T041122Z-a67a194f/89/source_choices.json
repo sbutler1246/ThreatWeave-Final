@@ -1,0 +1,949 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1016",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Play",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "GRIXBA",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1518.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "GMER",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "IOBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "PowerTool",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1070.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1552",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1570",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1560.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "WinRAR",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "WinSCP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1657",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1016",
+      "type": "Technique",
+      "attack_id": "T1016"
+    },
+    "m002_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Play",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "GRIXBA",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1518.001",
+      "type": "Technique",
+      "attack_id": "T1518.001"
+    },
+    "m005_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m006_S": {
+      "name": "GMER",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "IOBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "PowerTool",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1070.001",
+      "type": "Technique",
+      "attack_id": "T1070.001"
+    },
+    "m010_T": {
+      "name": "T1552",
+      "type": "Technique",
+      "attack_id": "T1552"
+    },
+    "m011_T": {
+      "name": "T1003",
+      "type": "Technique",
+      "attack_id": "T1003"
+    },
+    "m012_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_T": {
+      "name": "T1570",
+      "type": "Technique",
+      "attack_id": "T1570"
+    },
+    "m014_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    },
+    "m015_T": {
+      "name": "T1560.001",
+      "type": "Technique",
+      "attack_id": "T1560.001"
+    },
+    "m016_S": {
+      "name": "WinRAR",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    },
+    "m018_S": {
+      "name": "WinSCP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m020_T": {
+      "name": "T1657",
+      "type": "Technique",
+      "attack_id": "T1657"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 25,
+      "text": "Enterprise for Discovery",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 26,
+      "end": 41,
+      "text": "Technique Title",
+      "line_start": 26
+    },
+    "u003": {
+      "start": 42,
+      "end": 44,
+      "text": "ID",
+      "line_start": 42
+    },
+    "u004": {
+      "start": 45,
+      "end": 48,
+      "text": "Use",
+      "line_start": 45
+    },
+    "u005": {
+      "start": 49,
+      "end": 87,
+      "text": "System Network Configuration Discovery",
+      "line_start": 49
+    },
+    "u006": {
+      "start": 88,
+      "end": 93,
+      "text": "T1016",
+      "line_start": 88
+    },
+    "u007": {
+      "start": 94,
+      "end": 187,
+      "text": "Play ransomware actors use tools like GRIXBA to identify network configurations and settings.",
+      "line_start": 94
+    },
+    "u008": {
+      "start": 188,
+      "end": 235,
+      "text": "Software Discovery: Security Software Discovery",
+      "line_start": 188
+    },
+    "u009": {
+      "start": 236,
+      "end": 245,
+      "text": "T1518.001",
+      "line_start": 236
+    },
+    "u010": {
+      "start": 246,
+      "end": 297,
+      "text": "Play ransomware actors scan for antivirus software.",
+      "line_start": 246
+    },
+    "u011": {
+      "start": 298,
+      "end": 364,
+      "text": "Table 5: Play ATT&CK Techniques for Enterprise for Defense Evasion",
+      "line_start": 298
+    },
+    "u012": {
+      "start": 365,
+      "end": 380,
+      "text": "Technique Title",
+      "line_start": 365
+    },
+    "u013": {
+      "start": 381,
+      "end": 383,
+      "text": "ID",
+      "line_start": 381
+    },
+    "u014": {
+      "start": 384,
+      "end": 387,
+      "text": "Use",
+      "line_start": 384
+    },
+    "u015": {
+      "start": 388,
+      "end": 428,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 388
+    },
+    "u016": {
+      "start": 429,
+      "end": 438,
+      "text": "T1562.001",
+      "line_start": 429
+    },
+    "u017": {
+      "start": 439,
+      "end": 534,
+      "text": "Play ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.",
+      "line_start": 439
+    },
+    "u018": {
+      "start": 535,
+      "end": 578,
+      "text": "Indicator Removal: Clear Windows Event Logs",
+      "line_start": 535
+    },
+    "u019": {
+      "start": 579,
+      "end": 588,
+      "text": "T1070.001",
+      "line_start": 579
+    },
+    "u020": {
+      "start": 589,
+      "end": 685,
+      "text": "Play ransomware actors delete logs or other indicators of compromise to hide intrusion activity.",
+      "line_start": 589
+    },
+    "u021": {
+      "start": 686,
+      "end": 754,
+      "text": "Table 6: Play ATT&CK Techniques for Enterprise for Credential Access",
+      "line_start": 686
+    },
+    "u022": {
+      "start": 755,
+      "end": 770,
+      "text": "Technique Title",
+      "line_start": 755
+    },
+    "u023": {
+      "start": 771,
+      "end": 773,
+      "text": "ID",
+      "line_start": 771
+    },
+    "u024": {
+      "start": 774,
+      "end": 777,
+      "text": "Use",
+      "line_start": 774
+    },
+    "u025": {
+      "start": 778,
+      "end": 799,
+      "text": "Unsecured Credentials",
+      "line_start": 778
+    },
+    "u026": {
+      "start": 800,
+      "end": 805,
+      "text": "T1552",
+      "line_start": 800
+    },
+    "u027": {
+      "start": 806,
+      "end": 916,
+      "text": "Play ransomware actors attempt to identify and exploit credentials stored insecurely on a compromised network.",
+      "line_start": 806
+    },
+    "u028": {
+      "start": 917,
+      "end": 938,
+      "text": "OS Credential Dumping",
+      "line_start": 917
+    },
+    "u029": {
+      "start": 939,
+      "end": 944,
+      "text": "T1003",
+      "line_start": 939
+    },
+    "u030": {
+      "start": 945,
+      "end": 1012,
+      "text": "Play ransomware actors use tools like Mimikatz to dump credentials.",
+      "line_start": 945
+    },
+    "u031": {
+      "start": 1013,
+      "end": 1080,
+      "text": "Table 7: Play ATT&CK Techniques for Enterprise for Lateral Movement",
+      "line_start": 1013
+    },
+    "u032": {
+      "start": 1081,
+      "end": 1096,
+      "text": "Technique Title",
+      "line_start": 1081
+    },
+    "u033": {
+      "start": 1097,
+      "end": 1099,
+      "text": "ID",
+      "line_start": 1097
+    },
+    "u034": {
+      "start": 1100,
+      "end": 1103,
+      "text": "Use",
+      "line_start": 1100
+    },
+    "u035": {
+      "start": 1104,
+      "end": 1125,
+      "text": "Lateral Tool Transfer",
+      "line_start": 1104
+    },
+    "u036": {
+      "start": 1126,
+      "end": 1131,
+      "text": "T1570",
+      "line_start": 1126
+    },
+    "u037": {
+      "start": 1132,
+      "end": 1213,
+      "text": "Play ransomware actors distribute executables within the compromised environment.",
+      "line_start": 1132
+    },
+    "u038": {
+      "start": 1214,
+      "end": 1284,
+      "text": "Table 8: Play ATT&CK Techniques for Enterprise for Command and Control",
+      "line_start": 1214
+    },
+    "u039": {
+      "start": 1285,
+      "end": 1300,
+      "text": "Technique Title",
+      "line_start": 1285
+    },
+    "u040": {
+      "start": 1301,
+      "end": 1303,
+      "text": "ID",
+      "line_start": 1301
+    },
+    "u041": {
+      "start": 1304,
+      "end": 1307,
+      "text": "Use",
+      "line_start": 1304
+    },
+    "u042": {
+      "start": 1308,
+      "end": 1361,
+      "text": "Domain Policy Modification: Group Policy Modification",
+      "line_start": 1308
+    },
+    "u043": {
+      "start": 1362,
+      "end": 1371,
+      "text": "T1484.001",
+      "line_start": 1362
+    },
+    "u044": {
+      "start": 1372,
+      "end": 1443,
+      "text": "Play ransomware actors distribute executables via Group Policy Objects.",
+      "line_start": 1372
+    },
+    "u045": {
+      "start": 1444,
+      "end": 1505,
+      "text": "Table 9: Play ATT&CK Techniques for Enterprise for Collection",
+      "line_start": 1444
+    },
+    "u046": {
+      "start": 1506,
+      "end": 1521,
+      "text": "Technique Title",
+      "line_start": 1506
+    },
+    "u047": {
+      "start": 1522,
+      "end": 1524,
+      "text": "ID",
+      "line_start": 1522
+    },
+    "u048": {
+      "start": 1525,
+      "end": 1528,
+      "text": "Use",
+      "line_start": 1525
+    },
+    "u049": {
+      "start": 1529,
+      "end": 1572,
+      "text": "Archive Collected Data: Archive via Utility",
+      "line_start": 1529
+    },
+    "u050": {
+      "start": 1573,
+      "end": 1582,
+      "text": "T1560.001",
+      "line_start": 1573
+    },
+    "u051": {
+      "start": 1583,
+      "end": 1646,
+      "text": "Play ransomware actors use tools like WinRAR to compress files.",
+      "line_start": 1583
+    },
+    "u052": {
+      "start": 1647,
+      "end": 1711,
+      "text": "Table 10: Play ATT&CK Techniques for Enterprise for Exfiltration",
+      "line_start": 1647
+    },
+    "u053": {
+      "start": 1712,
+      "end": 1727,
+      "text": "Technique Title",
+      "line_start": 1712
+    },
+    "u054": {
+      "start": 1728,
+      "end": 1730,
+      "text": "ID",
+      "line_start": 1728
+    },
+    "u055": {
+      "start": 1731,
+      "end": 1734,
+      "text": "Use",
+      "line_start": 1731
+    },
+    "u056": {
+      "start": 1735,
+      "end": 1773,
+      "text": "Exfiltration Over Alternative Protocol",
+      "line_start": 1735
+    },
+    "u057": {
+      "start": 1774,
+      "end": 1779,
+      "text": "T1048",
+      "line_start": 1774
+    },
+    "u058": {
+      "start": 1780,
+      "end": 1856,
+      "text": "Play ransomware actors use file transfer tools like WinSCP to transfer data.",
+      "line_start": 1780
+    },
+    "u059": {
+      "start": 1857,
+      "end": 1915,
+      "text": "Table 11: Play ATT&CK Techniques for Enterprise for Impact",
+      "line_start": 1857
+    },
+    "u060": {
+      "start": 1916,
+      "end": 1931,
+      "text": "Technique Title",
+      "line_start": 1916
+    },
+    "u061": {
+      "start": 1932,
+      "end": 1934,
+      "text": "ID",
+      "line_start": 1932
+    },
+    "u062": {
+      "start": 1935,
+      "end": 1938,
+      "text": "Use",
+      "line_start": 1935
+    },
+    "u063": {
+      "start": 1939,
+      "end": 1964,
+      "text": "Data Encrypted for Impact",
+      "line_start": 1939
+    },
+    "u064": {
+      "start": 1965,
+      "end": 1970,
+      "text": "T1486",
+      "line_start": 1965
+    },
+    "u065": {
+      "start": 1971,
+      "end": 2083,
+      "text": "Play ransomware actors encrypt data on target systems to interrupt availability to system and network resources.",
+      "line_start": 1971
+    },
+    "u066": {
+      "start": 2084,
+      "end": 2099,
+      "text": "Financial Theft",
+      "line_start": 2084
+    },
+    "u067": {
+      "start": 2100,
+      "end": 2105,
+      "text": "T1657",
+      "line_start": 2100
+    },
+    "u068": {
+      "start": 2106,
+      "end": 2177,
+      "text": "Play ransomware actors use a double-extortion model for financial gain.",
+      "line_start": 2106
+    },
+    "u069": {
+      "start": 2178,
+      "end": 2198,
+      "text": "Update June 4, 2025:",
+      "line_start": 2178
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1016",
+    "m002_S": "attack:S1162",
+    "m002_G": "attack:G1040",
+    "m003_S": "local:Software:grixba",
+    "m004_T": "attack:T1518.001",
+    "m005_T": "attack:T1562.001",
+    "m006_S": "local:Software:gmer",
+    "m007_S": "local:Software:iobit",
+    "m008_S": "local:Software:powertool",
+    "m009_T": "attack:T1070.001",
+    "m010_T": "attack:T1552",
+    "m011_T": "attack:T1003",
+    "m012_S": "attack:S0002",
+    "m013_T": "attack:T1570",
+    "m014_T": "attack:T1484.001",
+    "m015_T": "attack:T1560.001",
+    "m016_S": "local:Software:winrar",
+    "m017_T": "attack:T1048",
+    "m018_S": "local:Software:winscp",
+    "m019_T": "attack:T1486",
+    "m020_T": "attack:T1657"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m006_S",
+        "m007_S",
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u027"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u030"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u031"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u037"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u038"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u044"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u045"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u051"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m016_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u052"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u058"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u059"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u065"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u068"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    }
+  ]
+}

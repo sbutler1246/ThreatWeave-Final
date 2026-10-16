@@ -1,0 +1,62 @@
+{
+  "$defs": {
+    "CompactClaim": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "maxLength": 280,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "citations": {
+          "items": {
+            "type": "string",
+            "enum": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "text",
+        "citations"
+      ],
+      "title": "CompactClaim",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "answer": {
+      "const": "See cited claims.",
+      "title": "Answer",
+      "type": "string"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/CompactClaim"
+      },
+      "maxItems": 8,
+      "title": "Claims",
+      "type": "array"
+    },
+    "abstained": {
+      "title": "Abstained",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "answer",
+    "claims",
+    "abstained"
+  ],
+  "title": "CompactAnswer",
+  "type": "object"
+}

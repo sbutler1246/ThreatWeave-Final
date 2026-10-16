@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u004"
+    ],
+    "selected_units": [
+      {
+        "start": 16,
+        "end": 113,
+        "text": "Below are copies of YARA and Suricata rules related to Play’s custom data gathering tool, Grixba:",
+        "line_start": 16
+      }
+    ],
+    "document_start": 17545,
+    "document_end": 17642,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

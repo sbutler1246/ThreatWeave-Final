@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-352A:evaluation:llama500:16080:17724",
+    "doc_id": "AA23-352A",
+    "start": 16080,
+    "end": 17724,
+    "text": "Use\nData Encrypted for Impact\nT1486\nPlay ransomware actors encrypt data on target systems to interrupt availability to system and network resources.\nFinancial Theft\nT1657\nPlay ransomware actors use a double-extortion model for financial gain.\nUpdate June 4, 2025:\nBelow is a copy of YARA rules related to the ESXi variant:\nrule PlayForESXi\n{\nmeta:\ndescription = \"Detects PLAY ransomware targeting ESXi Hypervisors\"\ndate = \"2025-01\"\nfiletype = \"elf\"\nmaltype = \"ransomware\"\nstrings:\n$encrypt_str = \"encrypt:\"\n$first_step_str = \"First step is done.\"\n$vmfs_path_str = \"/vmfs/volumes\"\n$PLAY_ext_str = \".PLAY\" fullword\n$stop_list_mode_str = \"stop list mode\"\n$hosts_in_exclusion_str = \"hosts in exclusion:\"\n$error_in_stop_list_str = \"Error, check stop list file, exit.\"\n$complete_str = \"Complete.\"\n$dev_urandom_path_str = \"/dev/urandom\"\n$targeted_ext_vmdk = \".vmdk\" fullword\n$targeted_ext_vmem = \".vmem\" fullword\n$targeted_ext_vmsd = \".vmsd\" fullword\n$targeted_ext_vmsn = \".vmsn\" fullword\n$targeted_ext_vmx = \".vmx\" fullword\n$targeted_ext_vmxf = \".vmxf\" fullword\n$targeted_ext_vswp = \".vswp\" fullword\n$targeted_ext_vmss = \".vmss\" fullword\n$targeted_ext_nvram = \".nvram\" fullword\n$targeted_ext_vmtx = \".vmtx\" fullword\n$targeted_ext_log = \".log\" fullword\n$vim_cmd_power_off_vms_str = \"vim-cmd vmsvc/power.off\"\n$get_storage_shell_cmd_str = \"esxcli storage filesystem list > storage\"\n$get_machines_shell_cmd_str = \"vim-cmd vmsvc/getallvms > machines\"\ncondition:\nall of them\n}\nBelow are copies of YARA and Suricata rules related to Play’s custom data gathering tool, Grixba:\nrule GRXBA\n{\nmeta:\ndescription = \"Detects the infostealer GRXBA version 1.1.3.0\"\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 55,
+        "text": "#StopRansomware: Play Ransomware"
+      },
+      {
+        "start": 3834,
+        "end": 3851,
+        "text": "Technical Details"
+      },
+      {
+        "start": 16002,
+        "end": 16060,
+        "text": "Table 11: Play ATT&CK Techniques for Enterprise for Impact"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 500,
+  "inherited_context_tokens": 27,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "706db3f7180a5dfb67674719c02eb4c6aa79d76e70a989861e181e2e643f131d",
+  "doc_id": "AA23-352A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+  "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc"
+}

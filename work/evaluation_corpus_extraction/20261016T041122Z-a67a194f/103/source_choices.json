@@ -1,0 +1,718 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1071.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Impacket",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "S0357",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "LSASS.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "S0029",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "S0002",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "Ngrok",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "S0508",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "S1040",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m003_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1071.002",
+      "type": "Technique",
+      "attack_id": "T1071.002"
+    },
+    "m005_S": {
+      "name": "Impacket",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "S0357",
+      "type": "Software",
+      "attack_id": "S0357"
+    },
+    "m007_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m008_S": {
+      "name": "LSASS.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m010_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "S0029",
+      "type": "Software",
+      "attack_id": "S0029"
+    },
+    "m012_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "S0002",
+      "type": "Software",
+      "attack_id": "S0002"
+    },
+    "m014_S": {
+      "name": "Ngrok",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "S0508",
+      "type": "Software",
+      "attack_id": "S0508"
+    },
+    "m016_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m017_S": {
+      "name": "Rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "S1040",
+      "type": "Software",
+      "attack_id": "S1040"
+    },
+    "m019_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m020_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m021_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 31,
+      "text": "Used by LockBit 3.0 Affiliates",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 32,
+      "end": 36,
+      "text": "Tool",
+      "line_start": 32
+    },
+    "u003": {
+      "start": 37,
+      "end": 48,
+      "text": "Description",
+      "line_start": 37
+    },
+    "u004": {
+      "start": 49,
+      "end": 64,
+      "text": "MITRE ATT&CK ID",
+      "line_start": 49
+    },
+    "u005": {
+      "start": 65,
+      "end": 75,
+      "text": "Chocolatey",
+      "line_start": 65
+    },
+    "u006": {
+      "start": 76,
+      "end": 117,
+      "text": "Command-line package manager for Windows.",
+      "line_start": 76
+    },
+    "u007": {
+      "start": 118,
+      "end": 123,
+      "text": "T1072",
+      "line_start": 118
+    },
+    "u008": {
+      "start": 124,
+      "end": 133,
+      "text": "FileZilla",
+      "line_start": 124
+    },
+    "u009": {
+      "start": 134,
+      "end": 190,
+      "text": "Cross-platform File Transfer Protocol (FTP) application.",
+      "line_start": 134
+    },
+    "u010": {
+      "start": 191,
+      "end": 200,
+      "text": "T1071.002",
+      "line_start": 191
+    },
+    "u011": {
+      "start": 201,
+      "end": 209,
+      "text": "Impacket",
+      "line_start": 201
+    },
+    "u012": {
+      "start": 210,
+      "end": 274,
+      "text": "Collection of Python classes for working with network protocols.",
+      "line_start": 210
+    },
+    "u013": {
+      "start": 275,
+      "end": 280,
+      "text": "S0357",
+      "line_start": 275
+    },
+    "u014": {
+      "start": 281,
+      "end": 298,
+      "text": "MEGA Ltd MegaSync",
+      "line_start": 281
+    },
+    "u015": {
+      "start": 299,
+      "end": 332,
+      "text": "Cloud-based synchronization tool.",
+      "line_start": 299
+    },
+    "u016": {
+      "start": 333,
+      "end": 342,
+      "text": "T1567.002",
+      "line_start": 333
+    },
+    "u017": {
+      "start": 343,
+      "end": 374,
+      "text": "Microsoft Sysinternals ProcDump",
+      "line_start": 343
+    },
+    "u018": {
+      "start": 375,
+      "end": 397,
+      "text": "Generates crash dumps.",
+      "line_start": 375
+    },
+    "u019": {
+      "start": 398,
+      "end": 490,
+      "text": "Commonly used to dump the contents of Local Security Authority Subsystem Service, LSASS.exe.",
+      "line_start": 375
+    },
+    "u020": {
+      "start": 491,
+      "end": 500,
+      "text": "T1003.001",
+      "line_start": 491
+    },
+    "u021": {
+      "start": 501,
+      "end": 530,
+      "text": "Microsoft Sysinternals PsExec",
+      "line_start": 501
+    },
+    "u022": {
+      "start": 531,
+      "end": 582,
+      "text": "Execute a command-line process on a remote machine.",
+      "line_start": 531
+    },
+    "u023": {
+      "start": 583,
+      "end": 588,
+      "text": "S0029",
+      "line_start": 583
+    },
+    "u024": {
+      "start": 589,
+      "end": 597,
+      "text": "Mimikatz",
+      "line_start": 589
+    },
+    "u025": {
+      "start": 598,
+      "end": 631,
+      "text": "Extracts credentials from system.",
+      "line_start": 598
+    },
+    "u026": {
+      "start": 632,
+      "end": 637,
+      "text": "S0002",
+      "line_start": 632
+    },
+    "u027": {
+      "start": 638,
+      "end": 643,
+      "text": "Ngrok",
+      "line_start": 638
+    },
+    "u028": {
+      "start": 644,
+      "end": 718,
+      "text": "Legitimate remote-access tool abused to bypass victim network protections.",
+      "line_start": 644
+    },
+    "u029": {
+      "start": 719,
+      "end": 724,
+      "text": "S0508",
+      "line_start": 719
+    },
+    "u030": {
+      "start": 725,
+      "end": 743,
+      "text": "PuTTY Link (Plink)",
+      "line_start": 725
+    },
+    "u031": {
+      "start": 744,
+      "end": 806,
+      "text": "Can be used to automate Secure Shell (SSH) actions on Windows.",
+      "line_start": 744
+    },
+    "u032": {
+      "start": 807,
+      "end": 812,
+      "text": "T1572",
+      "line_start": 807
+    },
+    "u033": {
+      "start": 813,
+      "end": 819,
+      "text": "Rclone",
+      "line_start": 813
+    },
+    "u034": {
+      "start": 820,
+      "end": 870,
+      "text": "Command-line program to manage cloud storage files",
+      "line_start": 820
+    },
+    "u035": {
+      "start": 871,
+      "end": 876,
+      "text": "S1040",
+      "line_start": 871
+    },
+    "u036": {
+      "start": 877,
+      "end": 904,
+      "text": "SoftPerfect Network Scanner",
+      "line_start": 877
+    },
+    "u037": {
+      "start": 905,
+      "end": 928,
+      "text": "Performs network scans.",
+      "line_start": 905
+    },
+    "u038": {
+      "start": 929,
+      "end": 934,
+      "text": "T1046",
+      "line_start": 929
+    },
+    "u039": {
+      "start": 935,
+      "end": 944,
+      "text": "Splashtop",
+      "line_start": 935
+    },
+    "u040": {
+      "start": 945,
+      "end": 969,
+      "text": "Remote-desktop software.",
+      "line_start": 945
+    },
+    "u041": {
+      "start": 970,
+      "end": 979,
+      "text": "T1021.001",
+      "line_start": 970
+    },
+    "u042": {
+      "start": 980,
+      "end": 986,
+      "text": "WinSCP",
+      "line_start": 980
+    },
+    "u043": {
+      "start": 987,
+      "end": 1033,
+      "text": "SSH File Transfer Protocol client for Windows.",
+      "line_start": 987
+    },
+    "u044": {
+      "start": 1034,
+      "end": 1039,
+      "text": "T1048",
+      "line_start": 1034
+    },
+    "u045": {
+      "start": 1040,
+      "end": 1071,
+      "text": "Indicators of Compromise (IOCs)",
+      "line_start": 1040
+    },
+    "u046": {
+      "start": 1072,
+      "end": 1157,
+      "text": "The IOCs and malware characteristics outlined below were derived from field analysis.",
+      "line_start": 1072
+    },
+    "u047": {
+      "start": 1158,
+      "end": 1209,
+      "text": "The following samples are current as of March 2023.",
+      "line_start": 1072
+    },
+    "u048": {
+      "start": 1210,
+      "end": 1232,
+      "text": "LockBit 3.0 Black Icon",
+      "line_start": 1210
+    },
+    "u049": {
+      "start": 1233,
+      "end": 1254,
+      "text": "LockBit 3.0 Wallpaper",
+      "line_start": 1233
+    },
+    "u050": {
+      "start": 1255,
+      "end": 1286,
+      "text": "LockBit Command Line Parameters",
+      "line_start": 1255
+    },
+    "u051": {
+      "start": 1287,
+      "end": 1305,
+      "text": "LockBit Parameters",
+      "line_start": 1287
+    },
+    "u052": {
+      "start": 1306,
+      "end": 1317,
+      "text": "Description",
+      "line_start": 1306
+    },
+    "u053": {
+      "start": 1318,
+      "end": 1322,
+      "text": "-del",
+      "line_start": 1318
+    },
+    "u054": {
+      "start": 1323,
+      "end": 1335,
+      "text": "Self-delete.",
+      "line_start": 1323
+    },
+    "u055": {
+      "start": 1336,
+      "end": 1341,
+      "text": "-gdel",
+      "line_start": 1336
+    },
+    "u056": {
+      "start": 1342,
+      "end": 1382,
+      "text": "Remove LockBit 3.0 group policy changes.",
+      "line_start": 1342
+    },
+    "u057": {
+      "start": 1383,
+      "end": 1388,
+      "text": "-gspd",
+      "line_start": 1383
+    },
+    "u058": {
+      "start": 1389,
+      "end": 1423,
+      "text": "Spread laterally via group policy.",
+      "line_start": 1389
+    },
+    "u059": {
+      "start": 1424,
+      "end": 1450,
+      "text": "-pass (32 character value)",
+      "line_start": 1424
+    },
+    "u060": {
+      "start": 1451,
+      "end": 1498,
+      "text": "(Required) Password used to launch LockBit 3.0.",
+      "line_start": 1451
+    },
+    "u061": {
+      "start": 1499,
+      "end": 1519,
+      "text": "-path (File or path)",
+      "line_start": 1499
+    },
+    "u062": {
+      "start": 1520,
+      "end": 1558,
+      "text": "Only encrypts provided file or folder.",
+      "line_start": 1520
+    },
+    "u063": {
+      "start": 1559,
+      "end": 1564,
+      "text": "-psex",
+      "line_start": 1559
+    },
+    "u064": {
+      "start": 1565,
+      "end": 1599,
+      "text": "Spread laterally via admin shares.",
+      "line_start": 1565
+    },
+    "u065": {
+      "start": 1600,
+      "end": 1605,
+      "text": "-safe",
+      "line_start": 1600
+    },
+    "u066": {
+      "start": 1606,
+      "end": 1633,
+      "text": "Reboot host into Safe Mode.",
+      "line_start": 1606
+    },
+    "u067": {
+      "start": 1634,
+      "end": 1639,
+      "text": "-wall",
+      "line_start": 1634
+    },
+    "u068": {
+      "start": 1640,
+      "end": 1706,
+      "text": "Sets LockBit 3.0 Wallpaper and prints out LockBit 3.0 ransom note.",
+      "line_start": 1640
+    },
+    "u069": {
+      "start": 1707,
+      "end": 1746,
+      "text": "Mutual Exclusion Object (Mutex) Created",
+      "line_start": 1707
+    },
+    "u070": {
+      "start": 1747,
+      "end": 1831,
+      "text": "When executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,",
+      "line_start": 1747
+    },
+    "u071": {
+      "start": 1832,
+      "end": 1946,
+      "text": "and check to see if this mutex has already been created to avoid running more than one instance of the ransomware.",
+      "line_start": 1832
+    },
+    "u072": {
+      "start": 1947,
+      "end": 1984,
+      "text": "UAC Bypass via Elevated COM Interface",
+      "line_start": 1947
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1202",
+    "m002_T": "attack:T1072",
+    "m003_S": "attack:S0095",
+    "m004_T": "attack:T1071.002",
+    "m005_S": "attack:S0357",
+    "m006_S": "attack:S0357",
+    "m007_T": "attack:T1567.002",
+    "m008_S": "local:Software:lsass.exe",
+    "m009_T": "attack:T1003.001",
+    "m010_S": "attack:S0029",
+    "m011_S": "attack:S0029",
+    "m012_S": "attack:S0002",
+    "m013_S": "attack:S0002",
+    "m014_S": "attack:S0508",
+    "m015_S": "attack:S0508",
+    "m016_T": "attack:T1572",
+    "m017_S": "attack:S1040",
+    "m018_S": "attack:S1040",
+    "m019_T": "attack:T1046",
+    "m020_T": "attack:T1021.001",
+    "m021_T": "attack:T1048"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

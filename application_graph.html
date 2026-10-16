@@ -1,0 +1,73 @@
+<div id="__ROOT_ID__" style="font-family:system-ui;color:#132238;background:#f7fafc;padding:12px;border:1px solid #dbe4ee;border-radius:12px">
+  <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+    <button type="button" data-action="in" aria-label="Zoom in">+</button>
+    <button type="button" data-action="out" aria-label="Zoom out">−</button>
+    <button type="button" data-action="reset">Reset view</button>
+    <span style="font-size:13px">Drag to pan. Select a node or arrow for details.</span>
+  </div>
+  <div data-canvas="true"></div>
+  <pre data-details="true" aria-live="polite" style="white-space:pre-wrap;font:13px system-ui;min-height:65px;padding:12px;background:#edf3f8;border-radius:8px">Select a node or arrow to inspect its source links.</pre>
+  <script type="application/json" data-graph="true">__GRAPH_DATA__</script>
+</div>
+<script>
+(() => {
+  const root=document.getElementById('__ROOT_ID__');
+  const data=JSON.parse(root.querySelector('[data-graph]').textContent);
+  const details=root.querySelector('[data-details]');
+  const ns='http://www.w3.org/2000/svg', positions=new Map(), columns=new Map();
+  const colours={ThreatGroup:'#dbeafe',Software:'#d1fae5',Technique:'#fef3c7',Mitigation:'#ede9fe'};
+  function el(tag, attrs={}, text) {
+    const node=document.createElementNS(ns,tag);
+    Object.entries(attrs).forEach(([k,v])=>node.setAttribute(k,v));
+    if(text!==undefined)node.textContent=text;
+    return node;
+  }
+  // Streamlit sanitizes static HTML as HTML-only and removes inline SVG.
+  // Build the graph with namespace-aware DOM APIs in this trusted script.
+  const svg=el('svg',{viewBox:'0 0 1080 520',role:'img','aria-label':'Directed source-supported query graph',
+    style:'width:100%;height:460px;background:#f7fafc;touch-action:none'});
+  const defs=el('defs'),marker=el('marker',{id:'__ROOT_ID__-arrow',markerWidth:10,markerHeight:10,refX:9,refY:3,orient:'auto'});
+  marker.appendChild(el('path',{d:'M0,0 L0,6 L9,3 z',fill:'#52647a'}));
+  defs.appendChild(marker);svg.appendChild(defs);
+  const scene=el('g',{'data-scene':'true'});svg.appendChild(scene);
+  root.querySelector('[data-canvas]').replaceChildren(svg);
+  function show(value){details.textContent=JSON.stringify(value,null,2);}
+  function activate(node,value) {
+    node.setAttribute('tabindex','0');node.style.cursor='pointer';
+    node.addEventListener('click',()=>show(value));
+    node.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(value);}});
+  }
+  data.nodes.forEach(n=>{if(!columns.has(n.column))columns.set(n.column,[]);columns.get(n.column).push(n);});
+  const keys=[...columns.keys()].sort((a,b)=>a-b);
+  keys.forEach((column,i)=>{
+    const rows=columns.get(column).sort((a,b)=>a.name.localeCompare(b.name));
+    rows.forEach((node,j)=>positions.set(node.id,{x:keys.length===1?540:125+i*830/(keys.length-1),y:45+(j+1)*430/(rows.length+1)}));
+  });
+  data.edges.forEach(edge=>{
+    const a=positions.get(edge.head),b=positions.get(edge.tail),group=el('g',{'role':'button','aria-label':edge.predicate});
+    group.appendChild(el('line',{x1:a.x+85,y1:a.y,x2:b.x-90,y2:b.y,stroke:'#52647a','stroke-width':3,'marker-end':'url(#__ROOT_ID__-arrow)'}));
+    group.appendChild(el('text',{x:(a.x+b.x)/2,y:(a.y+b.y)/2-9,'text-anchor':'middle','font-size':10,fill:'#334155'},edge.predicate));
+    group.appendChild(el('title',{},edge.origin+' · '+edge.citations.join(', ')));
+    activate(group,edge);scene.appendChild(group);
+  });
+  data.nodes.forEach(node=>{
+    const p=positions.get(node.id),group=el('g',{'role':'button','aria-label':node.name});
+    group.appendChild(el('rect',{x:p.x-85,y:p.y-27,width:170,height:54,rx:10,fill:colours[node.type]||'#e2e8f0',stroke:'#94a3b8'}));
+    const label=node.name.length>25?node.name.slice(0,24)+'…':node.name;
+    group.appendChild(el('text',{x:p.x,y:p.y-2,'text-anchor':'middle','font-size':12,fill:'#132238'},label));
+    group.appendChild(el('text',{x:p.x,y:p.y+16,'text-anchor':'middle','font-size':10,fill:'#475569'},node.type));
+    group.appendChild(el('title',{},node.name+'\n'+node.id));
+    activate(group,node);scene.appendChild(group);
+  });
+  let scale=1,x=0,y=0,drag=null;
+  function transform(){scene.setAttribute('transform',`translate(${x} ${y}) scale(${scale})`);}
+  root.querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>{
+    const action=button.dataset.action;
+    if(action==='reset'){scale=1;x=0;y=0;}else{scale=Math.max(.4,Math.min(3,scale*(action==='in'?1.2:1/1.2)));}
+    transform();
+  }));
+  svg.addEventListener('pointerdown',e=>{if(e.target===svg){drag={px:e.clientX,py:e.clientY,x,y};svg.setPointerCapture(e.pointerId);}});
+  svg.addEventListener('pointermove',e=>{if(drag){const ratio=1080/svg.getBoundingClientRect().width;x=drag.x+(e.clientX-drag.px)*ratio;y=drag.y+(e.clientY-drag.py)*ratio;transform();}});
+  ['pointerup','pointercancel'].forEach(name=>svg.addEventListener(name,()=>{drag=null;}));
+})();
+</script>

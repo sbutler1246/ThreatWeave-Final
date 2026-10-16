@@ -1,0 +1,902 @@
+[
+  {
+    "packet": "primary",
+    "review_id": "P001",
+    "case_id": "r1-Q054-hybrid",
+    "question_id": "Q054",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P002",
+    "case_id": "r1-Q057-text_only",
+    "question_id": "Q057",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P003",
+    "case_id": "r1-Q040-text_only",
+    "question_id": "Q040",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "failed"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P004",
+    "case_id": "r1-Q054-hybrid_no_node2vec",
+    "question_id": "Q054",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P005",
+    "case_id": "r1-Q044-hybrid_no_node2vec",
+    "question_id": "Q044",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P006",
+    "case_id": "r1-Q055-text_only",
+    "question_id": "Q055",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P007",
+    "case_id": "r1-Q031-graph_only",
+    "question_id": "Q031",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P008",
+    "case_id": "r1-Q053-hybrid_no_node2vec",
+    "question_id": "Q053",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P009",
+    "case_id": "r1-Q056-hybrid",
+    "question_id": "Q056",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P010",
+    "case_id": "r1-Q051-text_only",
+    "question_id": "Q051",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "failed"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P011",
+    "case_id": "r1-Q033-text_only",
+    "question_id": "Q033",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P012",
+    "case_id": "r1-Q060-graph_only",
+    "question_id": "Q060",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P013",
+    "case_id": "r1-Q056-text_only",
+    "question_id": "Q056",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P014",
+    "case_id": "r1-Q051-hybrid_no_node2vec",
+    "question_id": "Q051",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P015",
+    "case_id": "r1-Q052-hybrid_no_node2vec",
+    "question_id": "Q052",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P016",
+    "case_id": "r1-Q057-hybrid_no_node2vec",
+    "question_id": "Q057",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P017",
+    "case_id": "r1-Q041-hybrid",
+    "question_id": "Q041",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P018",
+    "case_id": "r1-Q056-graph_only",
+    "question_id": "Q056",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "abstained"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P019",
+    "case_id": "r1-Q061-graph_only",
+    "question_id": "Q061",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P020",
+    "case_id": "r1-Q001-hybrid",
+    "question_id": "Q001",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P021",
+    "case_id": "r1-Q059-hybrid_no_node2vec",
+    "question_id": "Q059",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P022",
+    "case_id": "r1-Q055-hybrid",
+    "question_id": "Q055",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P023",
+    "case_id": "r1-Q039-hybrid_no_node2vec",
+    "question_id": "Q039",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P024",
+    "case_id": "r1-Q058-text_only",
+    "question_id": "Q058",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P025",
+    "case_id": "r1-Q039-text_only",
+    "question_id": "Q039",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P026",
+    "case_id": "r1-Q040-graph_only",
+    "question_id": "Q040",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "abstained"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P027",
+    "case_id": "r1-Q052-text_only",
+    "question_id": "Q052",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P028",
+    "case_id": "r1-Q053-text_only",
+    "question_id": "Q053",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P029",
+    "case_id": "r1-Q050-hybrid",
+    "question_id": "Q050",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P030",
+    "case_id": "r1-Q057-hybrid",
+    "question_id": "Q057",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P031",
+    "case_id": "r1-Q050-graph_only",
+    "question_id": "Q050",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P032",
+    "case_id": "r1-Q030-text_only",
+    "question_id": "Q030",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P033",
+    "case_id": "r1-Q058-hybrid",
+    "question_id": "Q058",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P034",
+    "case_id": "r1-Q001-hybrid_no_node2vec",
+    "question_id": "Q001",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "failed"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P035",
+    "case_id": "r1-Q039-graph_only",
+    "question_id": "Q039",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P036",
+    "case_id": "r1-Q051-graph_only",
+    "question_id": "Q051",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P037",
+    "case_id": "r1-Q040-hybrid_no_node2vec",
+    "question_id": "Q040",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "failed"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P038",
+    "case_id": "r1-Q052-graph_only",
+    "question_id": "Q052",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P039",
+    "case_id": "r1-Q041-graph_only",
+    "question_id": "Q041",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P040",
+    "case_id": "r1-Q030-hybrid",
+    "question_id": "Q030",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P041",
+    "case_id": "r1-Q030-hybrid_no_node2vec",
+    "question_id": "Q030",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P042",
+    "case_id": "r1-Q057-graph_only",
+    "question_id": "Q057",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "abstained"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P043",
+    "case_id": "r1-Q060-hybrid",
+    "question_id": "Q060",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P044",
+    "case_id": "r1-Q031-hybrid",
+    "question_id": "Q031",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P045",
+    "case_id": "r1-Q055-graph_only",
+    "question_id": "Q055",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "abstained"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P046",
+    "case_id": "r1-Q040-hybrid",
+    "question_id": "Q040",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P047",
+    "case_id": "r1-Q058-hybrid_no_node2vec",
+    "question_id": "Q058",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P048",
+    "case_id": "r1-Q056-hybrid_no_node2vec",
+    "question_id": "Q056",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P049",
+    "case_id": "r1-Q031-hybrid_no_node2vec",
+    "question_id": "Q031",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P050",
+    "case_id": "r1-Q054-graph_only",
+    "question_id": "Q054",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "abstained"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P051",
+    "case_id": "r1-Q001-graph_only",
+    "question_id": "Q001",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P052",
+    "case_id": "r1-Q054-text_only",
+    "question_id": "Q054",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P053",
+    "case_id": "r1-Q060-hybrid_no_node2vec",
+    "question_id": "Q060",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P054",
+    "case_id": "r1-Q051-hybrid",
+    "question_id": "Q051",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P055",
+    "case_id": "r1-Q060-text_only",
+    "question_id": "Q060",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P056",
+    "case_id": "r1-Q061-text_only",
+    "question_id": "Q061",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P057",
+    "case_id": "r1-Q041-hybrid_no_node2vec",
+    "question_id": "Q041",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P058",
+    "case_id": "r1-Q050-hybrid_no_node2vec",
+    "question_id": "Q050",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P059",
+    "case_id": "r1-Q053-graph_only",
+    "question_id": "Q053",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P060",
+    "case_id": "r1-Q052-hybrid",
+    "question_id": "Q052",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P061",
+    "case_id": "r1-Q053-hybrid",
+    "question_id": "Q053",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P062",
+    "case_id": "r1-Q033-graph_only",
+    "question_id": "Q033",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P063",
+    "case_id": "r1-Q061-hybrid",
+    "question_id": "Q061",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P064",
+    "case_id": "r1-Q059-graph_only",
+    "question_id": "Q059",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P065",
+    "case_id": "r1-Q058-graph_only",
+    "question_id": "Q058",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P066",
+    "case_id": "r1-Q044-hybrid",
+    "question_id": "Q044",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P067",
+    "case_id": "r1-Q041-text_only",
+    "question_id": "Q041",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P068",
+    "case_id": "r1-Q059-text_only",
+    "question_id": "Q059",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P069",
+    "case_id": "r1-Q061-hybrid_no_node2vec",
+    "question_id": "Q061",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "failed"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P070",
+    "case_id": "r1-Q030-graph_only",
+    "question_id": "Q030",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P071",
+    "case_id": "r1-Q055-hybrid_no_node2vec",
+    "question_id": "Q055",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P072",
+    "case_id": "r1-Q031-text_only",
+    "question_id": "Q031",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P073",
+    "case_id": "r1-Q059-hybrid",
+    "question_id": "Q059",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P074",
+    "case_id": "r1-Q033-hybrid",
+    "question_id": "Q033",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P075",
+    "case_id": "r1-Q039-hybrid",
+    "question_id": "Q039",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P076",
+    "case_id": "r1-Q044-graph_only",
+    "question_id": "Q044",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P077",
+    "case_id": "r1-Q044-text_only",
+    "question_id": "Q044",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P078",
+    "case_id": "r1-Q050-text_only",
+    "question_id": "Q050",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P079",
+    "case_id": "r1-Q001-text_only",
+    "question_id": "Q001",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "primary",
+    "review_id": "P080",
+    "case_id": "r1-Q033-hybrid_no_node2vec",
+    "question_id": "Q033",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S001",
+    "case_id": "r1-Q058-hybrid_no_node2vec",
+    "question_id": "Q058",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S002",
+    "case_id": "r1-Q044-hybrid",
+    "question_id": "Q044",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S003",
+    "case_id": "r1-Q050-graph_only",
+    "question_id": "Q050",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S004",
+    "case_id": "r1-Q001-hybrid",
+    "question_id": "Q001",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S005",
+    "case_id": "r1-Q058-hybrid",
+    "question_id": "Q058",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S006",
+    "case_id": "r1-Q058-text_only",
+    "question_id": "Q058",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S007",
+    "case_id": "r1-Q050-text_only",
+    "question_id": "Q050",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S008",
+    "case_id": "r1-Q044-hybrid_no_node2vec",
+    "question_id": "Q044",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S009",
+    "case_id": "r1-Q044-text_only",
+    "question_id": "Q044",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S010",
+    "case_id": "r1-Q001-text_only",
+    "question_id": "Q001",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S011",
+    "case_id": "r1-Q001-hybrid_no_node2vec",
+    "question_id": "Q001",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "failed"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S012",
+    "case_id": "r1-Q033-hybrid_no_node2vec",
+    "question_id": "Q033",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S013",
+    "case_id": "r1-Q058-graph_only",
+    "question_id": "Q058",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S014",
+    "case_id": "r1-Q044-graph_only",
+    "question_id": "Q044",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S015",
+    "case_id": "r1-Q050-hybrid_no_node2vec",
+    "question_id": "Q050",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S016",
+    "case_id": "r1-Q033-graph_only",
+    "question_id": "Q033",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S017",
+    "case_id": "r1-Q033-hybrid",
+    "question_id": "Q033",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S018",
+    "case_id": "r1-Q050-hybrid",
+    "question_id": "Q050",
+    "mode": "hybrid",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S019",
+    "case_id": "r1-Q001-graph_only",
+    "question_id": "Q001",
+    "mode": "graph_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  },
+  {
+    "packet": "secondary",
+    "review_id": "S020",
+    "case_id": "r1-Q033-text_only",
+    "question_id": "Q033",
+    "mode": "text_only",
+    "repeat": 1,
+    "status": "answer_ready_for_review"
+  }
+]

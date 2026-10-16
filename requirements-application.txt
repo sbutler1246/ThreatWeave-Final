@@ -1,0 +1,2 @@
+# UI only; setup_application.py constrains every already installed package.
+streamlit==1.66.0

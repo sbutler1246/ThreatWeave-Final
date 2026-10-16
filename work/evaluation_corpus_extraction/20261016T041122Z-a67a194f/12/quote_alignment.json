@@ -1,0 +1,84 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u006"
+    ],
+    "selected_units": [
+      {
+        "start": 311,
+        "end": 410,
+        "text": "LockBit affiliates may deploy a batch script, 123.bat, to disable and uninstall antivirus software.",
+        "line_start": 311
+      }
+    ],
+    "document_start": 23772,
+    "document_end": 23871,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u036"
+    ],
+    "selected_units": [
+      {
+        "start": 1642,
+        "end": 1734,
+        "text": "LockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe.",
+        "line_start": 1642
+      }
+    ],
+    "document_start": 25103,
+    "document_end": 25195,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u036"
+    ],
+    "selected_units": [
+      {
+        "start": 1642,
+        "end": 1734,
+        "text": "LockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe.",
+        "line_start": 1642
+      }
+    ],
+    "document_start": 25103,
+    "document_end": 25195,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u037"
+    ],
+    "selected_units": [
+      {
+        "start": 1735,
+        "end": 1793,
+        "text": "LockBit affiliates have used Mimikatz to dump credentials.",
+        "line_start": 1735
+      }
+    ],
+    "document_start": 25196,
+    "document_end": 25254,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

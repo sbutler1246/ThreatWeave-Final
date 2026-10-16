@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "LockBit 3.0 Affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "LockBit 3.0",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 17,
+        "end": 101,
+        "quote": "When executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,"
+      },
+      "confidence": null
+    }
+  ]
+}

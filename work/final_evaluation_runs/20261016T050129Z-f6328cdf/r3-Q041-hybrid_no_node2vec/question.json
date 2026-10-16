@@ -1,0 +1,5 @@
+{
+  "question": "According to AA23-075A, which ATT&CK technique is connected to LockBit 3.0 affiliates through the reported use of rclone? Explain the two-hop actor-to-software-to-technique path with evidence.",
+  "mode": "hybrid_no_node2vec",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

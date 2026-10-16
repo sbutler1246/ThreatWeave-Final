@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:16:50.4058233Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 366951900,
+  "load_duration": 10806100,
+  "prompt_eval_count": 454,
+  "prompt_eval_duration": 13037000,
+  "eval_count": 28,
+  "eval_duration": 338821000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do LockBit affiliates use for network scans?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,114 @@
+{
+  "$defs": {
+    "SourceContext": {
+      "additionalProperties": false,
+      "description": "Inherited heading/caption with offsets into the same normalized document.",
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "integer"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "text"
+      ],
+      "title": "SourceContext",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "chunk_id": {
+      "minLength": 1,
+      "title": "Chunk Id",
+      "type": "string"
+    },
+    "doc_id": {
+      "minLength": 1,
+      "title": "Doc Id",
+      "type": "string"
+    },
+    "start": {
+      "minimum": 0,
+      "title": "Start",
+      "type": "integer"
+    },
+    "end": {
+      "exclusiveMinimum": 0,
+      "title": "End",
+      "type": "integer"
+    },
+    "text": {
+      "minLength": 1,
+      "title": "Text",
+      "type": "string"
+    },
+    "inherited_context": {
+      "items": {
+        "$ref": "#/$defs/SourceContext"
+      },
+      "title": "Inherited Context",
+      "type": "array"
+    },
+    "role": {
+      "default": "extraction",
+      "enum": [
+        "extraction",
+        "retrieval"
+      ],
+      "title": "Role",
+      "type": "string"
+    },
+    "parent_extraction_chunk_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Parent Extraction Chunk Id"
+    },
+    "embedding": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 384,
+          "minItems": 384,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Embedding"
+    }
+  },
+  "required": [
+    "chunk_id",
+    "doc_id",
+    "start",
+    "end",
+    "text"
+  ],
+  "title": "Chunk",
+  "type": "object"
+}

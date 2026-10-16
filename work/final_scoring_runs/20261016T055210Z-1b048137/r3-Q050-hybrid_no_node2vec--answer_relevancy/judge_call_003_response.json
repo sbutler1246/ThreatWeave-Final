@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:25:01.0908973Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 541143800,
+  "load_duration": 7241000,
+  "prompt_eval_count": 510,
+  "prompt_eval_duration": 15740000,
+  "eval_count": 41,
+  "eval_duration": 514491000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What enables remote connections to network devices, which can be mitigated by Network Intrusion Prevention (M1031)?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,584 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1070.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Stealbit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "exfiltration",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "TA0010",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1567",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Metasploit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "Cobalt Strike have also been observed",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "See Table",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "LockBit 3.0 Affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "MITRE ATT&CK ID",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1071.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "Impacket",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m002_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1070.004",
+      "type": "Technique",
+      "attack_id": "T1070.004"
+    },
+    "m004_S": {
+      "name": "Stealbit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_A": {
+      "name": "exfiltration",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m006_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_A": {
+      "name": "TA0010",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m008_S": {
+      "name": "rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1567",
+      "type": "Technique",
+      "attack_id": "T1567"
+    },
+    "m010_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m011_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "Metasploit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "Cobalt Strike have also been observed",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "See Table",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_G": {
+      "name": "LockBit 3.0 Affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m017_S": {
+      "name": "MITRE ATT&CK ID",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m019_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1071.002",
+      "type": "Technique",
+      "attack_id": "T1071.002"
+    },
+    "m021_S": {
+      "name": "Impacket",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 29,
+      "text": "control (C2) server [T1027].",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 30,
+      "end": 210,
+      "text": "Once completed, LockBit 3.0 may delete itself from the disk [T1070.004] as well as any Group Policy updates that were made, depending on which options were set at compilation time.",
+      "line_start": 30
+    },
+    "u003": {
+      "start": 211,
+      "end": 223,
+      "text": "EXFILTRATION",
+      "line_start": 211
+    },
+    "u004": {
+      "start": 224,
+      "end": 329,
+      "text": "LockBit 3.0 affiliates use Stealbit, a custom exfiltration tool used previously with LockBit 2.0 [TA0010]",
+      "line_start": 224
+    },
+    "u005": {
+      "start": 331,
+      "end": 400,
+      "text": "rclone, an open-source command line cloud storage manager [T1567.002]",
+      "line_start": 224
+    },
+    "u006": {
+      "start": 402,
+      "end": 472,
+      "text": "and publicly available file sharing services, such as MEGA [T1567.002]",
+      "line_start": 224
+    },
+    "u007": {
+      "start": 474,
+      "end": 537,
+      "text": "to exfiltrate sensitive company data files prior to encryption.",
+      "line_start": 224
+    },
+    "u008": {
+      "start": 538,
+      "end": 755,
+      "text": "While rclone and many publicly available file sharing services are primarily used for legitimate purposes, they can also be used by threat actors to aid in system compromise, network exploration, or data exfiltration.",
+      "line_start": 224
+    },
+    "u009": {
+      "start": 756,
+      "end": 885,
+      "text": "LockBit 3.0 affiliates often use other publicly available file sharing services to exfiltrate data as well [T1567] (see Table 1).",
+      "line_start": 224
+    },
+    "u010": {
+      "start": 886,
+      "end": 972,
+      "text": "Table 1: Anonymous File Sharing Sites Used to Exfiltrate Data Before System Encryption",
+      "line_start": 886
+    },
+    "u011": {
+      "start": 973,
+      "end": 990,
+      "text": "File Sharing Site",
+      "line_start": 973
+    },
+    "u012": {
+      "start": 991,
+      "end": 1019,
+      "text": "https://www.premiumize[.]com",
+      "line_start": 991
+    },
+    "u013": {
+      "start": 1020,
+      "end": 1043,
+      "text": "https://anonfiles[.]com",
+      "line_start": 1020
+    },
+    "u014": {
+      "start": 1044,
+      "end": 1071,
+      "text": "https://www.sendspace[.]com",
+      "line_start": 1044
+    },
+    "u015": {
+      "start": 1072,
+      "end": 1089,
+      "text": "https://fex[.]net",
+      "line_start": 1072
+    },
+    "u016": {
+      "start": 1090,
+      "end": 1111,
+      "text": "https://transfer[.]sh",
+      "line_start": 1090
+    },
+    "u017": {
+      "start": 1112,
+      "end": 1137,
+      "text": "https://send.exploit[.]in",
+      "line_start": 1112
+    },
+    "u018": {
+      "start": 1138,
+      "end": 1179,
+      "text": "LEVERAGING FREEWARE AND OPEN-SOURCE TOOLS",
+      "line_start": 1138
+    },
+    "u019": {
+      "start": 1180,
+      "end": 1287,
+      "text": "LockBit affiliates have been observed using various freeware and open-source tools during their intrusions.",
+      "line_start": 1180
+    },
+    "u020": {
+      "start": 1288,
+      "end": 1438,
+      "text": "These tools are used for a range of activities such as network reconnaissance, remote access and tunneling, credential dumping, and file exfiltration.",
+      "line_start": 1180
+    },
+    "u021": {
+      "start": 1439,
+      "end": 1615,
+      "text": "Use of PowerShell and Batch scripts are observed across most intrusions, which focus on system discovery, reconnaissance, password/credential hunting, and privilege escalation.",
+      "line_start": 1180
+    },
+    "u022": {
+      "start": 1616,
+      "end": 1729,
+      "text": "Artifacts of professional penetration-testing tools such as Metasploit and Cobalt Strike have also been observed.",
+      "line_start": 1180
+    },
+    "u023": {
+      "start": 1730,
+      "end": 1859,
+      "text": "See Table 2 for a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations:",
+      "line_start": 1180
+    },
+    "u024": {
+      "start": 1860,
+      "end": 1930,
+      "text": "Table 2: Freeware and Open-Source Tools Used by LockBit 3.0 Affiliates",
+      "line_start": 1860
+    },
+    "u025": {
+      "start": 1931,
+      "end": 1935,
+      "text": "Tool",
+      "line_start": 1931
+    },
+    "u026": {
+      "start": 1936,
+      "end": 1947,
+      "text": "Description",
+      "line_start": 1936
+    },
+    "u027": {
+      "start": 1948,
+      "end": 1963,
+      "text": "MITRE ATT&CK ID",
+      "line_start": 1948
+    },
+    "u028": {
+      "start": 1964,
+      "end": 1974,
+      "text": "Chocolatey",
+      "line_start": 1964
+    },
+    "u029": {
+      "start": 1975,
+      "end": 2016,
+      "text": "Command-line package manager for Windows.",
+      "line_start": 1975
+    },
+    "u030": {
+      "start": 2017,
+      "end": 2022,
+      "text": "T1072",
+      "line_start": 2017
+    },
+    "u031": {
+      "start": 2023,
+      "end": 2032,
+      "text": "FileZilla",
+      "line_start": 2023
+    },
+    "u032": {
+      "start": 2033,
+      "end": 2089,
+      "text": "Cross-platform File Transfer Protocol (FTP) application.",
+      "line_start": 2033
+    },
+    "u033": {
+      "start": 2090,
+      "end": 2099,
+      "text": "T1071.002",
+      "line_start": 2090
+    },
+    "u034": {
+      "start": 2100,
+      "end": 2108,
+      "text": "Impacket",
+      "line_start": 2100
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1027",
+    "m002_S": "attack:S1202",
+    "m003_T": "attack:T1070.004",
+    "m004_S": "attack:S1200",
+    "m005_A": "attack:TA0010",
+    "m006_S": "attack:S1199",
+    "m007_A": "attack:TA0010",
+    "m008_S": "attack:S1040",
+    "m009_T": "attack:T1567",
+    "m010_T": "attack:T1567.002",
+    "m011_G": "local:ThreatGroup:lockbit affiliates",
+    "m012_S": "local:Software:metasploit",
+    "m013_S": "attack:S0154",
+    "m014_S": "local:Software:cobalt strike have also been observed",
+    "m015_S": "local:Software:see table",
+    "m016_G": "local:ThreatGroup:lockbit 3.0 affiliates",
+    "m017_S": "local:Software:mitre att&ck id",
+    "m018_T": "attack:T1072",
+    "m019_S": "attack:S0095",
+    "m020_T": "attack:T1071.002",
+    "m021_S": "attack:S0357"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m008_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m015_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023",
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024",
+        "u027"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m017_S"
+      ]
+    }
+  ]
+}

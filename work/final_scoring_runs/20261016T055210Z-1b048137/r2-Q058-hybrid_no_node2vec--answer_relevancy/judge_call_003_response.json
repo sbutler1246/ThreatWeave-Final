@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:19:19.1656074Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 375033900,
+  "load_duration": 10629900,
+  "prompt_eval_count": 512,
+  "prompt_eval_duration": 15474000,
+  "eval_count": 28,
+  "eval_duration": 342871000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do LockBit affiliates use to dump credentials?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

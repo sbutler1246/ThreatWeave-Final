@@ -1,0 +1,59 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u020"
+    ],
+    "selected_units": [
+      {
+        "start": 1450,
+        "end": 1550,
+        "text": "Akira threat actors use it maliciously to exfiltrate data to compromised cloud services [T1567.002].",
+        "line_start": 1354
+      }
+    ],
+    "document_start": 18199,
+    "document_end": 18299,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u025"
+    ],
+    "selected_units": [
+      {
+        "start": 1912,
+        "end": 2046,
+        "text": "Archive utility used to split compromised data into segments and to compress [T1560.001] files into .RAR format prior to exfiltration.",
+        "line_start": 1912
+      }
+    ],
+    "document_start": 18661,
+    "document_end": 18795,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u028"
+    ],
+    "selected_units": [
+      {
+        "start": 2151,
+        "end": 2259,
+        "text": "Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts [T1048].",
+        "line_start": 2054
+      }
+    ],
+    "document_start": 18900,
+    "document_end": 19008,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

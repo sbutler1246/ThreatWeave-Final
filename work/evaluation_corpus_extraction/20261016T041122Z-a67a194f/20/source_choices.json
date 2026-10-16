@@ -1,0 +1,342 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Royal Operators",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "SHA256",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Ursnif",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "B8C4AEC31C134ADBDBE8AAD65D2BCB21CFE62D299696A23ADD9AA1DE082C6E20",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Ransomware Executable",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Royal Operators",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "SHA256",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Ursnif",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "B8C4AEC31C134ADBDBE8AAD65D2BCB21CFE62D299696A23ADD9AA1DE082C6E20",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Ransomware Executable",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 6,
+      "text": ".]live",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 7,
+      "end": 20,
+      "text": "December 2022",
+      "line_start": 7
+    },
+    "u003": {
+      "start": 21,
+      "end": 38,
+      "text": "ciborkumari[.]xyz",
+      "line_start": 21
+    },
+    "u004": {
+      "start": 39,
+      "end": 52,
+      "text": "December 2022",
+      "line_start": 39
+    },
+    "u005": {
+      "start": 53,
+      "end": 70,
+      "text": "myappearinc[.]com",
+      "line_start": 53
+    },
+    "u006": {
+      "start": 71,
+      "end": 84,
+      "text": "December 2022",
+      "line_start": 71
+    },
+    "u007": {
+      "start": 85,
+      "end": 103,
+      "text": "parkerpublic[.]com",
+      "line_start": 85
+    },
+    "u008": {
+      "start": 104,
+      "end": 117,
+      "text": "December 2022",
+      "line_start": 104
+    },
+    "u009": {
+      "start": 118,
+      "end": 153,
+      "text": "pastebin.mozilla[.]org/Z54Vudf9/raw",
+      "line_start": 118
+    },
+    "u010": {
+      "start": 154,
+      "end": 167,
+      "text": "December 2022",
+      "line_start": 154
+    },
+    "u011": {
+      "start": 168,
+      "end": 188,
+      "text": "tumbleproperty[.]com",
+      "line_start": 168
+    },
+    "u012": {
+      "start": 189,
+      "end": 202,
+      "text": "December 2022",
+      "line_start": 189
+    },
+    "u013": {
+      "start": 203,
+      "end": 244,
+      "text": "myappearinc[.]com/acquire/draft/c7lh0s5jv",
+      "line_start": 203
+    },
+    "u014": {
+      "start": 245,
+      "end": 257,
+      "text": "January 2023",
+      "line_start": 245
+    },
+    "u015": {
+      "start": 258,
+      "end": 296,
+      "text": "Table 4: Tools Used by Royal Operators",
+      "line_start": 258
+    },
+    "u016": {
+      "start": 297,
+      "end": 301,
+      "text": "Tool",
+      "line_start": 297
+    },
+    "u017": {
+      "start": 302,
+      "end": 308,
+      "text": "SHA256",
+      "line_start": 302
+    },
+    "u018": {
+      "start": 309,
+      "end": 318,
+      "text": "AV tamper",
+      "line_start": 309
+    },
+    "u019": {
+      "start": 319,
+      "end": 383,
+      "text": "8A983042278BC5897DBCDD54D1D7E3143F8B7EAD553B5A4713E30DEFFDA16375",
+      "line_start": 319
+    },
+    "u020": {
+      "start": 384,
+      "end": 417,
+      "text": "TCP/UDP Tunnel over HTTP (Chisel)",
+      "line_start": 384
+    },
+    "u021": {
+      "start": 418,
+      "end": 482,
+      "text": "8a99353662ccae117d2bb22efd8c43d7169060450be413af763e8ad7522d2451",
+      "line_start": 418
+    },
+    "u022": {
+      "start": 483,
+      "end": 494,
+      "text": "Ursnif/Gozi",
+      "line_start": 483
+    },
+    "u023": {
+      "start": 495,
+      "end": 559,
+      "text": "be030e685536eb38ba1fec1c90e90a4165f6641c8dc39291db1d23f4ee9fa0b1",
+      "line_start": 495
+    },
+    "u024": {
+      "start": 560,
+      "end": 565,
+      "text": "Exfil",
+      "line_start": 560
+    },
+    "u025": {
+      "start": 566,
+      "end": 630,
+      "text": "B8C4AEC31C134ADBDBE8AAD65D2BCB21CFE62D299696A23ADD9AA1DE082C6E20",
+      "line_start": 566
+    },
+    "u026": {
+      "start": 631,
+      "end": 654,
+      "text": "Remote Access (AnyDesk)",
+      "line_start": 631
+    },
+    "u027": {
+      "start": 655,
+      "end": 719,
+      "text": "4a9dde3979c2343c024c6eeeddff7639be301826dd637c006074e04a1e4e9fe7",
+      "line_start": 655
+    },
+    "u028": {
+      "start": 720,
+      "end": 749,
+      "text": "PowerShell Toolkit Downloader",
+      "line_start": 720
+    },
+    "u029": {
+      "start": 750,
+      "end": 814,
+      "text": "4cd00234b18e04dcd745cc81bb928c8451f6601affb5fa45f20bb11bfb5383ce",
+      "line_start": 750
+    },
+    "u030": {
+      "start": 815,
+      "end": 846,
+      "text": "PsExec (Microsoft Sysinternals)",
+      "line_start": 815
+    },
+    "u031": {
+      "start": 847,
+      "end": 911,
+      "text": "08c6e20b1785d4ec4e3f9956931d992377963580b4b2c6579fd9930e08882b1c",
+      "line_start": 847
+    },
+    "u032": {
+      "start": 912,
+      "end": 944,
+      "text": "Keep Host Unlocked (Don’t Sleep)",
+      "line_start": 912
+    },
+    "u033": {
+      "start": 945,
+      "end": 1009,
+      "text": "f8cff7082a936912baf2124d42ed82403c75c87cb160553a7df862f8d81809ee",
+      "line_start": 945
+    },
+    "u034": {
+      "start": 1010,
+      "end": 1031,
+      "text": "Ransomware Executable",
+      "line_start": 1010
+    },
+    "u035": {
+      "start": 1032,
+      "end": 1096,
+      "text": "d47d4b52e75e8cf3b11ea171163a66c06d1792227c1cf7ca49d7df60804a1681",
+      "line_start": 1032
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1073",
+    "m002_G": "local:ThreatGroup:royal operators",
+    "m003_S": "local:Software:sha256",
+    "m004_S": "attack:S0386",
+    "m005_S": "local:Software:b8c4aec31c134adbdbe8aad65d2bcb21cfe62d299696a23add9aa1de082c6e20",
+    "m006_S": "attack:S0029",
+    "m007_S": "local:Software:ransomware executable"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u015"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u015",
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    }
+  ]
+}

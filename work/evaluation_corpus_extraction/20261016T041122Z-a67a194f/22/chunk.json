@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:14225:15219",
+  "doc_id": "AA23-061A",
+  "start": 14225,
+  "end": 15219,
+  "text": "4b2c6579fd9930e08882b1c\nKeep Host Unlocked (Don’t Sleep)\nf8cff7082a936912baf2124d42ed82403c75c87cb160553a7df862f8d81809ee\nRansomware Executable\nd47d4b52e75e8cf3b11ea171163a66c06d1792227c1cf7ca49d7df60804a1681\nWindows Command Line (NirCmd)\n216047C048BF1DCBF031CF24BD5E0F263994A5DF60B23089E393033D17257CB5\nSystem Management (NSudo)\n19896A23D7B054625C2F6B1EE1551A0DA68AD25CDDBB24510A3B74578418E618\nTable 5: Batch Script Tools Used by Royal Operators\nFile name\nHash Value\n2.bat\n585b05b290d241a249af93b1896a9474128da969\n3.bat\n41a79f83f8b00ac7a9dd06e1e225d64d95d29b1d\n4.bat\na84ed0f3c46b01d66510ccc9b1fc1e07af005c60\n8.bat\nc96154690f60a8e1f2271242e458029014ffe30a\nkl.bat\n65dc04f3f75deb3b287cca3138d9d0ec36b8bea0\ngp.bat\n82f1f72f4b1bfd7cc8afbe6d170686b1066049bc7e5863b51aa15ccc5c841f58\nr.bat\n74d81ef0be02899a177d7ff6374d699b634c70275b3292dbc67e577b5f6a3f3c\nrunanddelete.bat\n342B398647073159DFA8A7D36510171F731B760089A546E96FBB8A292791EFEE\nRoyal and BlackSuit IOCs as of June 2023 (New November 13, 2023)\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    },
+    {
+      "start": 12621,
+      "end": 12659,
+      "text": "Table 4: Tools Used by Royal Operators"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:36883:38919",
+  "doc_id": "AA24-109A",
+  "start": 36883,
+  "end": 38919,
+  "text": "Update Nov. 13, 2025\nAkira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.\nEnd Update\nTable 17. Lateral Movement\nTechnique Title\nID\nUse\nUpdate Nov. 13, 2025\nRemote Services\nT1021\nAkira threat actors can abuse remote services (such as SSH and Virtual Network Computing [VNC]), to remotely access compromised systems, move laterally, and maintain persistence across networked hosts.\nRemote Service: RDP\nT1021.001\nAkira threat actors leverage RDP connections as an initial access vector to victim systems.\nRemote Service: SSH\nT1021.004\nAkira threat actors use SSHs through router IP addresses for initial access.\nUse Alternate Authentication Material: Pass the Hash\nT1550.002\nAkira threat actors use Mimikatz to view and save authentication credentials, such as Kerberos tickets.\nEnd Update\nTable 18. Collection\nTechnique Title\nID\nUse\nArchive Collected Data: Archive via Utility\nT1560.001\nAkira threat actors use tools like WinRAR to compress files.\nTable 19. Command and Control\nTechnique Title\nID\nUse\nProxy\nT1090\nAkira threat actors use Ngrok to create a secure tunnel to servers the actors use to exfiltrate data.\nUpdate Nov. 13, 2025\nAkira threat actors use SystemBC malware as a proxy bot.\nEnd Update\nUpdate Nov. 13, 2025\nIngress Tool Transfer\nT1105\nAkira threat actors download tools, many of which are staged in the PerfLogs directory, and use the WebClient.DownloadString() method to download Cobalt Strike beacons.\nAkira threat actors use STONESTOP malware to load additional payloads.\nEnd Update\nRemote Access Software\nT1219\nAkira threat actors use legitimate desktop support software like AnyDesk to obtain remote access to victim systems.\nUpdate Nov. 13, 2025\nAkira threat actors use SystemBC malware as a RAT.\nEnd Update\nUpdate Nov. 13, 2025\nProtocol Tunneling\nT1572\nAkira treat actors use Ngrok to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, bypass perimeter defenses, and maintain covert persistent access.\nEnd Update\nTable 20. Exfiltration\nTechnique Title\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    },
+    {
+      "start": 35062,
+      "end": 35081,
+      "text": "Table 16. Discovery"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

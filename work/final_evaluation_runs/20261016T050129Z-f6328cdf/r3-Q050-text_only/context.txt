@@ -1,0 +1,33 @@
+SOURCE PASSAGES
+[E1; ATTACK]
+Use network intrusion detection/prevention systems to detect and prevent remote service scans.
+[E2; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T1046)
+Mitigation: Network Intrusion Prevention (M1031)
+[E3; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (T1587)
+Mitigation: Pre-compromise (M1056)
+[E5; ATTACK]
+Ensure that unnecessary ports and services are closed to prevent risk of discovery and potential exploitation.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T1046)
+Mitigation: Disable or Remove Feature or Program (M1042)
+[E7; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to prevent traffic to remote access services.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (T1219)
+Mitigation: Network Intrusion Prevention (M1031)
+[E9; ATTACK]
+Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware can be used to mitigate activity at the network level.
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Exfiltration Over Alternative Protocol (T1048)
+Mitigation: Network Intrusion Prevention (M1031)
+GRAPH NODES
+GRAPH PATHS

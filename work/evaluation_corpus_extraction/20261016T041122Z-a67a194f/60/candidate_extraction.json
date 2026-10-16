@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "nltest",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1018",
+      "attack_id": "T1018"
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1482",
+      "attack_id": "T1482"
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "net",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1069.002",
+      "attack_id": "T1069.002"
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1069.001",
+      "attack_id": "T1069.001"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 844,
+        "end": 867,
+        "quote": "nltest /dclist: [T1018]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 868,
+        "end": 897,
+        "quote": "nltest /DOMAIN_TRUSTS [T1482]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e4",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 898,
+        "end": 940,
+        "quote": "net group “Domain admins” /dom [T1069.002]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e4",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 941,
+        "end": 989,
+        "quote": "net localgroup “Administrators” /dom [T1069.001]"
+      },
+      "confidence": null
+    }
+  ]
+}

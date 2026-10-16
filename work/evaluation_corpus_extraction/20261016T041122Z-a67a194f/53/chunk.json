@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:16749:19037",
+  "doc_id": "AA24-109A",
+  "start": 16749,
+  "end": 19037,
+  "text": " Scanner\nA network scanning tool used for reconnaissance that locates all computers on a network and conducts a scan of their ports. The program shows all network devices, gives access to shared folders, and provides remote control of computers (via RDP and Radmin) [T1046].\nAnyDesk\nLegitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer. The software can be maliciously used by threat actors to obtain remote access and maintain persistence [T1219].\nLaZagne\nAn open source tool that enables users to recover stored passwords on Windows, Linux, and Mac OS X systems [T1555].\nMimikatz\nA credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets [T1550.002].\nNgrok\nA reverse proxy tool [T1090] used to create a secure tunnel to servers behind firewalls or local machines without a public IP address.\nPCHunter64\nA tool used to acquire detailed process and system information [T1082].14\nPowerShell\nA cross-platform task automation solution used for various malicious activities, including deleting shadow copies, and, potentially, for credential harvesting. It is composed of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS [T1059.001].\nRClone\nA legitimate command-line program used to sync files with cloud storage services, such as Mega. Akira threat actors use it maliciously to exfiltrate data to compromised cloud services [T1567.002].\nSoftPerfect\nA network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, SSH, and PowerShell. It also scans for remote services, registry, files, and performance counters [T1046].\nWinRAR\nArchive utility used to split compromised data into segments and to compress [T1560.001] files into .RAR format prior to exfiltration.\nWinSCP\nA free, open source FTP (including SSH FTP), WebDAV, Amazon S3, and secure copy protocol client. Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts [T1048].\nUpdate Nov. 13, 2025:\n7-zip\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    },
+    {
+      "start": 16568,
+      "end": 16619,
+      "text": "Table 1. Tools Leveraged by Akira Ransomware Actors"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

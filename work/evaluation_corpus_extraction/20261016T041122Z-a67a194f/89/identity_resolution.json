@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Play",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:G1040",
+    "canonical_name": "Play",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "GRIXBA",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e3",
+    "mention": "GMER",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "IOBit",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "PowerTool",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  }
+]

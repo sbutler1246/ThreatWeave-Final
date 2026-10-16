@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:27654:29231",
+    "doc_id": "AA23-061A",
+    "start": 27654,
+    "end": 29231,
+    "text": " threat actors\nMail.turnovercheck[.]com\nCobalt Strike C2\nStore.turnovercheck[.]com\nCobalt Strike C2\nturnovercheck[.]com\nCobalt Strike C2\nHourlyprofitstore[.]com\nCobalt Strike\nIPs and Domains for downloads / C2 / exfiltration of communication\nhttps://protect-us.mimecast[.]com/s/A2PyC31xN5IpzR0XUvzaAj?domain=5.181.157.8\nhttps://protect-us.mimecast[.]com/s/CcsrC4xyO7fBK73ztjNfPl?domain=5.181.234.58\nhttps://protect-us.mimecast[.]com/s/NwueC5yzP5IZLW4MulfSrc?domain=137.220.61.94\nhttps://protect-us.mimecast[.]com/s/T3InC2kwM5hpzEOVU9S5zn?domain=147.135.36.162\nhttps://protect-us.mimecast[.]com/s/teBrC1wvL8iMNE56tXga0n?domain=147.135.11.223\nTable 17: BlackSuit Ransomware Note and Hash Value\nFile Name\nHash Value\nDescription\nreadme.BlackSuit.txt\n1743494f803bbcbd11150a4a8b7a2c5faba1223da607f67d24b18ca2d95d5ba3\nRansomware note\nRansom Note (New August 7, 2024)\nFigure 1 shows the observed BlackSuit ransom notes delivered to victims.\nFigure 1. BlackSuit Ransom Note\nYour safety service did a really poor job of protecting your files against our professionals.\nExtortioner named BlackSuit has attacked your system.\nAs a result all your essential files were encrypted and saved at a secure server for further use and publishing on the Web into the public realm.\nNow we have all your files like: financial reports, intellectual property, accounting, law actions and complaints, personal files and so on and so forth.\nWe are able to solve this problem in one touch.\nWe (BlackSuit) are ready to give you an opportunity to get all the things back if you agree to make a deal with us.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 27368,
+        "end": 27422,
+        "text": "Table 16: Domain(s) associated to BlackSuit Ransomware"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 498,
+  "inherited_context_tokens": 32,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "3ac8d3e6b278c35a9c1289dc3143b1aa804e17be8efa921ddef247db2b10d9d6",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

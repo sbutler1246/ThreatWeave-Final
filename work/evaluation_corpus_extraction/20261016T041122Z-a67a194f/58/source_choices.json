@@ -1,0 +1,508 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Encryptor",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "2.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "akira",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "akira.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "win.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "w.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Akira",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "File.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "win_locker.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "moe.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "All.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "s.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Start.bat",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Encryptor",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "2.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "akira",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "akira.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "win.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "w.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_G": {
+      "name": "Akira",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "File.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "win_locker.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "moe.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "All.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "s.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Start.bat",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 27,
+      "text": "96a38bc668138a00f94f7c26ea5",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 28,
+      "end": 47,
+      "text": "Encryptor launcher.",
+      "line_start": 28
+    },
+    "u003": {
+      "start": 48,
+      "end": 53,
+      "text": "2.exe",
+      "line_start": 48
+    },
+    "u004": {
+      "start": 54,
+      "end": 118,
+      "text": "4DC9F9684F715F50946E85557B82AF80FCB45576EFAD47EEE1BF054C15E570F0",
+      "line_start": 54
+    },
+    "u005": {
+      "start": 119,
+      "end": 138,
+      "text": "Malicious artifact.",
+      "line_start": 119
+    },
+    "u006": {
+      "start": 139,
+      "end": 157,
+      "text": "akira.exe, win.exe",
+      "line_start": 139
+    },
+    "u007": {
+      "start": 158,
+      "end": 222,
+      "text": "7266e2afb5c70788c018d684698b0940eded4cb863f2b33f4edd31b59d1eab1d",
+      "line_start": 158
+    },
+    "u008": {
+      "start": 223,
+      "end": 234,
+      "text": "Ransomware.",
+      "line_start": 223
+    },
+    "u009": {
+      "start": 235,
+      "end": 240,
+      "text": "w.exe",
+      "line_start": 235
+    },
+    "u010": {
+      "start": 241,
+      "end": 305,
+      "text": "c0f706ff43936c1bb19db4f39b11129c3fc8ddafbd159852475ef99a246b2f79",
+      "line_start": 241
+    },
+    "u011": {
+      "start": 306,
+      "end": 323,
+      "text": "Akira ransomware.",
+      "line_start": 306
+    },
+    "u012": {
+      "start": 324,
+      "end": 332,
+      "text": "File.exe",
+      "line_start": 324
+    },
+    "u013": {
+      "start": 333,
+      "end": 397,
+      "text": "3a25d3f82651567e5760e48ad06c9f6caab4f9fdc071e98919163b3a71e67168",
+      "line_start": 333
+    },
+    "u014": {
+      "start": 398,
+      "end": 417,
+      "text": "Malicious artifact.",
+      "line_start": 398
+    },
+    "u015": {
+      "start": 418,
+      "end": 432,
+      "text": "win_locker.exe",
+      "line_start": 418
+    },
+    "u016": {
+      "start": 433,
+      "end": 497,
+      "text": "CFA209D56E296C40B32815270060E539963D68CDA3285C5F393C97EB3C960D37",
+      "line_start": 433
+    },
+    "u017": {
+      "start": 498,
+      "end": 519,
+      "text": "Encryptor executable.",
+      "line_start": 498
+    },
+    "u018": {
+      "start": 520,
+      "end": 527,
+      "text": "moe.exe",
+      "line_start": 520
+    },
+    "u019": {
+      "start": 528,
+      "end": 592,
+      "text": "77d48e8c13ce066b197905cc8fc69969af69b74d25f5e95dcd1302ada2e7ccec",
+      "line_start": 528
+    },
+    "u020": {
+      "start": 593,
+      "end": 612,
+      "text": "Malicious artifact.",
+      "line_start": 593
+    },
+    "u021": {
+      "start": 613,
+      "end": 623,
+      "text": "End Update",
+      "line_start": 613
+    },
+    "u022": {
+      "start": 624,
+      "end": 645,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 624
+    },
+    "u023": {
+      "start": 646,
+      "end": 654,
+      "text": "Table 3.",
+      "line_start": 646
+    },
+    "u024": {
+      "start": 655,
+      "end": 683,
+      "text": "Malicious Files and MD5 Hash",
+      "line_start": 646
+    },
+    "u025": {
+      "start": 684,
+      "end": 693,
+      "text": "File Name",
+      "line_start": 684
+    },
+    "u026": {
+      "start": 694,
+      "end": 704,
+      "text": "Hash (MD5)",
+      "line_start": 694
+    },
+    "u027": {
+      "start": 705,
+      "end": 716,
+      "text": "Description",
+      "line_start": 705
+    },
+    "u028": {
+      "start": 717,
+      "end": 724,
+      "text": "123.zip",
+      "line_start": 717
+    },
+    "u029": {
+      "start": 725,
+      "end": 757,
+      "text": "57D1AEB41D9CFEA4D6899724BC4B09A5",
+      "line_start": 725
+    },
+    "u030": {
+      "start": 758,
+      "end": 817,
+      "text": "Archive containing encryption malware and an AnyDesk setup.",
+      "line_start": 758
+    },
+    "u031": {
+      "start": 818,
+      "end": 825,
+      "text": "All.bat",
+      "line_start": 818
+    },
+    "u032": {
+      "start": 826,
+      "end": 858,
+      "text": "17c624693f5dd575485ec4286b0ba786",
+      "line_start": 826
+    },
+    "u033": {
+      "start": 859,
+      "end": 877,
+      "text": "Encryption script.",
+      "line_start": 859
+    },
+    "u034": {
+      "start": 878,
+      "end": 883,
+      "text": "w.exe",
+      "line_start": 878
+    },
+    "u035": {
+      "start": 884,
+      "end": 916,
+      "text": "C56B31C9080B993D57C100B91D096C33",
+      "line_start": 884
+    },
+    "u036": {
+      "start": 917,
+      "end": 934,
+      "text": "Akira ransomware.",
+      "line_start": 917
+    },
+    "u037": {
+      "start": 935,
+      "end": 940,
+      "text": "w.exe",
+      "line_start": 935
+    },
+    "u038": {
+      "start": 941,
+      "end": 973,
+      "text": "2FED7579556F01161BB1FDFD1C3E9E6C",
+      "line_start": 941
+    },
+    "u039": {
+      "start": 974,
+      "end": 992,
+      "text": "Encryption script.",
+      "line_start": 974
+    },
+    "u040": {
+      "start": 993,
+      "end": 998,
+      "text": "s.bat",
+      "line_start": 993
+    },
+    "u041": {
+      "start": 999,
+      "end": 1031,
+      "text": "24e19d29a47b6b5e1a39bf5e4c313194",
+      "line_start": 999
+    },
+    "u042": {
+      "start": 1032,
+      "end": 1050,
+      "text": "Encryption script.",
+      "line_start": 1032
+    },
+    "u043": {
+      "start": 1051,
+      "end": 1060,
+      "text": "Start.bat",
+      "line_start": 1051
+    },
+    "u044": {
+      "start": 1061,
+      "end": 1093,
+      "text": "814310fb7a59f23e3e137ee6fee04fa1",
+      "line_start": 1061
+    },
+    "u045": {
+      "start": 1094,
+      "end": 1112,
+      "text": "Encryption script.",
+      "line_start": 1094
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:encryptor",
+    "m002_S": "local:Software:2.exe",
+    "m003_S": "attack:S1129",
+    "m003_G": "attack:G1024",
+    "m004_S": "local:Software:akira.exe",
+    "m005_S": "local:Software:win.exe",
+    "m006_S": "local:Software:w.exe",
+    "m007_S": "attack:S1129",
+    "m007_G": "attack:G1024",
+    "m008_S": "local:Software:file.exe",
+    "m009_S": "local:Software:win_locker.exe",
+    "m010_S": "local:Software:moe.exe",
+    "m011_S": "local:Software:all.bat",
+    "m012_S": "local:Software:s.bat",
+    "m013_S": "local:Software:start.bat"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m004_S",
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u036"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    }
+  ]
+}

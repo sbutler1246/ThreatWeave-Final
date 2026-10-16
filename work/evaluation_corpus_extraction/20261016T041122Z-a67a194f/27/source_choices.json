@@ -1,0 +1,453 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "nircmd.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "nsudo.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "debug.ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "BRC4",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "1.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Royal and BlackSuit Ransomware",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "nircmd.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "nsudo.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "debug.ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "BRC4",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "1.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_G": {
+      "name": "Royal and BlackSuit Ransomware",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 25,
+      "text": "a0d2223479d9d43597eab39fa",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 26,
+      "end": 36,
+      "text": "nircmd.exe",
+      "line_start": 26
+    },
+    "u003": {
+      "start": 37,
+      "end": 101,
+      "text": "216047c048bf1dcbf031cf24bd5e0f263994a5df60b23089e393033d17257cb5",
+      "line_start": 37
+    },
+    "u004": {
+      "start": 102,
+      "end": 111,
+      "text": "nsudo.exe",
+      "line_start": 102
+    },
+    "u005": {
+      "start": 112,
+      "end": 176,
+      "text": "19896a23d7b054625c2f6b1ee1551a0da68ad25cddbb24510a3b74578418e618",
+      "line_start": 112
+    },
+    "u006": {
+      "start": 177,
+      "end": 218,
+      "text": "IOCs as of July 2024 (New August 7, 2024)",
+      "line_start": 177
+    },
+    "u007": {
+      "start": 219,
+      "end": 439,
+      "text": "Disclaimer: Several of these observed IP addresses were first observed as early as 2023, although the most recent are from July of 2024 and have been historically linked to BlackSuit (formerly known as Royal) Ransomware.",
+      "line_start": 219
+    },
+    "u008": {
+      "start": 440,
+      "end": 606,
+      "text": "IP addresses in this advisory were maliciously used during the time range highlighted below, and may have been used for legitimate purposes outside of that time span.",
+      "line_start": 219
+    },
+    "u009": {
+      "start": 607,
+      "end": 733,
+      "text": "FBI and CISA recommend these IP addresses be investigated or vetted by organizations prior to taking action, such as blocking.",
+      "line_start": 219
+    },
+    "u010": {
+      "start": 734,
+      "end": 797,
+      "text": "Table 9: Malicious URL (s) associated with BlackSuit Ransomware",
+      "line_start": 734
+    },
+    "u011": {
+      "start": 798,
+      "end": 813,
+      "text": "URL Association",
+      "line_start": 798
+    },
+    "u012": {
+      "start": 814,
+      "end": 828,
+      "text": "Malicious URLs",
+      "line_start": 814
+    },
+    "u013": {
+      "start": 829,
+      "end": 888,
+      "text": "URLs from malicious PowerShell on P0, potentially debug.ps1",
+      "line_start": 829
+    },
+    "u014": {
+      "start": 889,
+      "end": 920,
+      "text": "https://1tvnews[.]af/xmlrpc.php",
+      "line_start": 889
+    },
+    "u015": {
+      "start": 921,
+      "end": 956,
+      "text": "https://avpvuurwerk[.]nl/xmlrpc.php",
+      "line_start": 921
+    },
+    "u016": {
+      "start": 957,
+      "end": 993,
+      "text": "https://beautyhabits[.]gr/xmlrpc.php",
+      "line_start": 957
+    },
+    "u017": {
+      "start": 994,
+      "end": 1031,
+      "text": "https://interpolyaris[.]ru/xmlrpc.php",
+      "line_start": 994
+    },
+    "u018": {
+      "start": 1032,
+      "end": 1076,
+      "text": "https://libertygospeltracts[.]com/xmlrpc.php",
+      "line_start": 1032
+    },
+    "u019": {
+      "start": 1077,
+      "end": 1123,
+      "text": "https://oldtimertreffen-rethem[.]de/xmlrpc.php",
+      "line_start": 1077
+    },
+    "u020": {
+      "start": 1124,
+      "end": 1159,
+      "text": "https://parencyivf[.]com/xmlrpc.php",
+      "line_start": 1124
+    },
+    "u021": {
+      "start": 1160,
+      "end": 1193,
+      "text": "https://pikaluna[.]com/xmlrpc.php",
+      "line_start": 1160
+    },
+    "u022": {
+      "start": 1194,
+      "end": 1225,
+      "text": "https://stroeck[.]at/xmlrpc.php",
+      "line_start": 1194
+    },
+    "u023": {
+      "start": 1226,
+      "end": 1262,
+      "text": "URL associated to BRC4 / Brute Ratel",
+      "line_start": 1226
+    },
+    "u024": {
+      "start": 1263,
+      "end": 1278,
+      "text": "megupdate[.]com",
+      "line_start": 1263
+    },
+    "u025": {
+      "start": 1279,
+      "end": 1310,
+      "text": "URLs associated to Exfiltration",
+      "line_start": 1279
+    },
+    "u026": {
+      "start": 1311,
+      "end": 1333,
+      "text": "mystuff[.]bublup[.]com",
+      "line_start": 1311
+    },
+    "u027": {
+      "start": 1334,
+      "end": 1368,
+      "text": "URL associated to Cobalt Strike C2",
+      "line_start": 1334
+    },
+    "u028": {
+      "start": 1369,
+      "end": 1424,
+      "text": "provincial-gaiters-gw[.]aws-use1[.]cloud-ara[.]tyk[.]io",
+      "line_start": 1369
+    },
+    "u029": {
+      "start": 1425,
+      "end": 1466,
+      "text": "URL associated to Initial Access Download",
+      "line_start": 1425
+    },
+    "u030": {
+      "start": 1467,
+      "end": 1484,
+      "text": "zoommanager[.]com",
+      "line_start": 1467
+    },
+    "u031": {
+      "start": 1485,
+      "end": 1548,
+      "text": "Table 10: BlackSuit Ransomware Associated Files and Hash Values",
+      "line_start": 1485
+    },
+    "u032": {
+      "start": 1549,
+      "end": 1557,
+      "text": "Filename",
+      "line_start": 1549
+    },
+    "u033": {
+      "start": 1558,
+      "end": 1578,
+      "text": "Hash Value – SHA-256",
+      "line_start": 1558
+    },
+    "u034": {
+      "start": 1579,
+      "end": 1590,
+      "text": "Description",
+      "line_start": 1579
+    },
+    "u035": {
+      "start": 1591,
+      "end": 1596,
+      "text": "1.exe",
+      "line_start": 1591
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 18422,
+      "end": 18496,
+      "text": "Table 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware"
+    }
+  },
+  "identities": {
+    "m001_S": "local:Software:nircmd.exe",
+    "m002_S": "local:Software:nsudo.exe",
+    "m003_S": "attack:S1073",
+    "m004_S": "local:Software:debug.ps1",
+    "m005_S": "attack:S0613",
+    "m006_S": "attack:S1063",
+    "m007_S": "attack:S0154",
+    "m008_S": "local:Software:1.exe",
+    "m009_G": "local:ThreatGroup:royal and blacksuit ransomware"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S",
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u027"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u035"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m009_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    }
+  ]
+}

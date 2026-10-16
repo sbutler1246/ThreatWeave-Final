@@ -1,0 +1,414 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1569.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "TA0008",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "exfiltration",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "TA0010",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "cmd",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "openrdp.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "netsh",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "reg",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "comsvcs.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "TA0006",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "mimilib.dll",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "T1569.002",
+      "type": "Technique",
+      "attack_id": "T1569.002"
+    },
+    "m003_A": {
+      "name": "TA0008",
+      "type": "Tactic",
+      "attack_id": "TA0008"
+    },
+    "m004_A": {
+      "name": "exfiltration",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m005_A": {
+      "name": "TA0010",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m006_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m007_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "cmd",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "openrdp.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "netsh",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "reg",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "comsvcs.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m015_A": {
+      "name": "TA0006",
+      "type": "Tactic",
+      "attack_id": "TA0006"
+    },
+    "m016_S": {
+      "name": "mimilib.dll",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 140,
+      "text": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486].",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 141,
+      "end": 229,
+      "text": "When provided with valid username and password credentials, Medusa actors use PsExec to:",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 230,
+      "end": 372,
+      "text": "Copy (-c) one script from various batch scripts on the current machine to the remote machine and execute it with system-level privileges (-s).",
+      "line_start": 230
+    },
+    "u004": {
+      "start": 373,
+      "end": 461,
+      "text": "Execute an already existing local file on a remote machine with system-level privileges.",
+      "line_start": 373
+    },
+    "u005": {
+      "start": 462,
+      "end": 505,
+      "text": "Execute remote shell commands using cmd /c.",
+      "line_start": 462
+    },
+    "u006": {
+      "start": 506,
+      "end": 648,
+      "text": "One of the batch scripts executed by PsExec is openrdp.bat, which first creates a new firewall rule to allow inbound TCP traffic on port 3389:",
+      "line_start": 506
+    },
+    "u007": {
+      "start": 649,
+      "end": 743,
+      "text": "netsh advfirewall firewall add rule name=\"rdp\" dir=in protocol=tcp localport=3389 action=allow",
+      "line_start": 649
+    },
+    "u008": {
+      "start": 744,
+      "end": 800,
+      "text": "Then, a rule to allow remote WMI connections is created:",
+      "line_start": 744
+    },
+    "u009": {
+      "start": 801,
+      "end": 900,
+      "text": "netsh advfirewall firewall set rule group=\"windows management instrumentation (wmi)\" new enable=yes",
+      "line_start": 801
+    },
+    "u010": {
+      "start": 901,
+      "end": 971,
+      "text": "Finally, the registry is modified to allow Remote Desktop connections:",
+      "line_start": 901
+    },
+    "u011": {
+      "start": 972,
+      "end": 1078,
+      "text": "reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\" /v fDenyTSConnections /t REG_DWORD /d 0 /f",
+      "line_start": 972
+    },
+    "u012": {
+      "start": 1079,
+      "end": 1260,
+      "text": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement.",
+      "line_start": 1079
+    },
+    "u013": {
+      "start": 1261,
+      "end": 1417,
+      "text": "They disable Windows Defender using the local Group Policy Editor during the LSASS exfiltration and re-enable Defender when they are done with exfiltration.",
+      "line_start": 1079
+    },
+    "u014": {
+      "start": 1418,
+      "end": 1665,
+      "text": "(Updated Aug. 18, 2026) Additionally, they use Mimikatz’s tool mimilib.dll to steal credentials directly from the LSA authentication mechanism, which allows them to record plaintext passwords to a log file saved in C:\\Windows\\System32\\kiwissp.log.",
+      "line_start": 1418
+    },
+    "u015": {
+      "start": 1666,
+      "end": 1732,
+      "text": "This is accomplished by adding the following data to the registry:",
+      "line_start": 1418
+    },
+    "u016": {
+      "start": 1733,
+      "end": 1882,
+      "text": "reg add hklm\\system\\currentcontrolset\\control\\lsa\\ /v “Security Packages” /d “Kerberos\\0msv1_0\\0schannel\\0wdigest\\0tspkg\\0mimilib” /t REG_MULTI_SZ /f",
+      "line_start": 1733
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0029",
+    "m002_T": "attack:T1569.002",
+    "m003_A": "attack:TA0008",
+    "m004_A": "attack:TA0010",
+    "m005_A": "attack:TA0010",
+    "m006_T": "attack:T1486",
+    "m007_G": "local:ThreatGroup:medusa actors",
+    "m008_S": "attack:S0106",
+    "m009_S": "local:Software:openrdp.bat",
+    "m010_S": "attack:S0108",
+    "m011_S": "attack:S0075",
+    "m012_S": "attack:S0002",
+    "m013_S": "local:Software:comsvcs.dll",
+    "m014_T": "attack:T1003.001",
+    "m015_A": "attack:TA0006",
+    "m016_S": "local:Software:mimilib.dll"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m002_T",
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_T",
+        "m006_T"
+      ],
+      "predicate": "PART_OF_TACTIC",
+      "tails": [
+        "m003_A",
+        "m005_A"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m012_S",
+        "m013_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m014_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m014_T"
+      ],
+      "predicate": "PART_OF_TACTIC",
+      "tails": [
+        "m015_A"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S",
+        "m013_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m014_T"
+      ]
+    }
+  ]
+}

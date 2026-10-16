@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Black Basta affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1566",
+      "attack_id": "T1566"
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1190",
+      "attack_id": "T1190"
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "SoftPerfect",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "netscan.exe",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 416,
+        "end": 500,
+        "quote": "Black Basta affiliates primarily use spearphishing [T1566] to obtain initial access."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 600,
+        "end": 725,
+        "quote": "Starting in February 2024, Black Basta affiliates began exploiting ConnectWise vulnerability CVE-2024-1709 [CWE-288] [T1190]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 1835,
+        "end": 1946,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e5",
+      "evidence": {
+        "start": 1835,
+        "end": 1946,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning."
+      },
+      "confidence": null
+    }
+  ]
+}

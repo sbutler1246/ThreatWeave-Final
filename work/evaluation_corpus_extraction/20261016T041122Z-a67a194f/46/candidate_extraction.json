@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Black Basta affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "Backstab",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "AnyDesk",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "Microsoft’s Quick Assist",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "Quick Assist",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 78,
+        "end": 195,
+        "quote": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 368,
+        "end": 536,
+        "quote": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 368,
+        "end": 536,
+        "quote": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e5",
+      "evidence": {
+        "start": 368,
+        "end": 536,
+        "quote": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist."
+      },
+      "confidence": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "SUBMISSION_GUIDE.md": {
+    "bytes": 2786,
+    "sha256": "4f02b1f5fd959c4d6e7ed79167f676573d5222f4033b0eff0d7723819335ca0a"
+  },
+  "ThreatWeave_demo.mp4": {
+    "bytes": 8683000,
+    "sha256": "2d7af20a9eafe783c784a2ad4e7c5915b8b3b0fe813f3863ca2db78940f66636"
+  },
+  "ThreatWeave_demo_captions.srt": {
+    "bytes": 6242,
+    "sha256": "353224450ce8915a8b9c5d9ed96ddca1508342808d0ccdcad8f82a5c4ff977a1"
+  },
+  "ThreatWeave_demo_transcript.md": {
+    "bytes": 4998,
+    "sha256": "a745dc8787a82ad2ca1a4185f3e2e1a310a26ff670cc105d5afda6ce03ac17b2"
+  },
+  "ThreatWeave_final_report.md": {
+    "bytes": 34665,
+    "sha256": "1ffcb1d054c730e69a0c3f9c86a4bc5f99a7fa693ba74f51d09301e08aa33ffd"
+  },
+  "ThreatWeave_final_report.pdf": {
+    "bytes": 111161,
+    "sha256": "4a30d9a40a73fa55cc4d878d11128b08f3ed39b80c42a837d54c27b547403480"
+  },
+  "ThreatWeave_final_slides.pptx": {
+    "bytes": 199140,
+    "sha256": "4c1ea2d7cfff1d6d228727adb385004f8b85a2e7a87678731b9551451bd689f3"
+  }
+}

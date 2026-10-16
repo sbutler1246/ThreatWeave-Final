@@ -1,0 +1,153 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "ConnectWise",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "ConnectWise",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 137,
+      "text": "a potential compromise is detected, but ransomware actors have not yet encrypted items, organizations should take the following actions:",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 138,
+      "end": 233,
+      "text": "Determine which hosts were compromised and isolate them by quarantining or taking them offline.",
+      "line_start": 138
+    },
+    "u003": {
+      "start": 234,
+      "end": 316,
+      "text": "(Updated Aug. 18, 2026) Initiate threat hunting activities to scope the intrusion.",
+      "line_start": 234
+    },
+    "u004": {
+      "start": 317,
+      "end": 470,
+      "text": "Collect and review relevant artifacts, logs, and other data to identify threat actor TTPs, compromised devices and accounts, a timeline of activity, etc.",
+      "line_start": 234
+    },
+    "u005": {
+      "start": 471,
+      "end": 498,
+      "text": "Responders should consider:",
+      "line_start": 234
+    },
+    "u006": {
+      "start": 499,
+      "end": 573,
+      "text": "Logs left behind by threat actor tooling, such as SimpleHelp and RDP logs.",
+      "line_start": 499
+    },
+    "u007": {
+      "start": 574,
+      "end": 660,
+      "text": "Netflow showing unusually large traffic volume coming from normally low-traffic hosts.",
+      "line_start": 574
+    },
+    "u008": {
+      "start": 661,
+      "end": 746,
+      "text": "Report the compromise to CISA and/or the FBI (see Reporting for contact information).",
+      "line_start": 661
+    },
+    "u009": {
+      "start": 747,
+      "end": 905,
+      "text": "(Updated Aug. 18, 2026) Apply eviction countermeasures, including those listed below, to contain the incident and eradicate the threat actor from the network.",
+      "line_start": 747
+    },
+    "u010": {
+      "start": 906,
+      "end": 1089,
+      "text": "Note: Start applying countermeasures after collecting enough threat hunting data to inform effective countermeasure selection; this will likely overlap with threat hunting activities.",
+      "line_start": 906
+    },
+    "u011": {
+      "start": 1090,
+      "end": 1204,
+      "text": "Remove local administrator accounts and rotate credentials for service accounts and domain administrator accounts.",
+      "line_start": 1090
+    },
+    "u012": {
+      "start": 1205,
+      "end": 1468,
+      "text": "Remove C2 software—including SimpleHelp, Nezha, Cloudflared, and Ligolo—and lock down access to legitimate company remote access tools, such as ConnectWise ScreenConnect, BeyondTrust (previously Bomgar), RDP, or any other remote access method used by the company.",
+      "line_start": 1205
+    },
+    "u013": {
+      "start": 1469,
+      "end": 1613,
+      "text": "Ensure initial intrusion CVE is patched and any persistence on initial access machine is removed (e.g., reverse shells, web portal credentials).",
+      "line_start": 1469
+    },
+    "u014": {
+      "start": 1614,
+      "end": 1845,
+      "text": "Use CISA’s Eviction Strategies Tool to assemble countermeasures for a systematic eviction plan—the tool comprises Playbook-NG (a web application) and COUN7ER (a database of post-compromise countermeasures mapped to adversary TTPs).",
+      "line_start": 1614
+    },
+    "u015": {
+      "start": 1846,
+      "end": 2017,
+      "text": "Use Playbook-NG and COUN7ER together to assemble a systematic eviction plan, or playbook, that leverages distinct countermeasures to contain and evict cyber threat actors.",
+      "line_start": 1846
+    },
+    "u016": {
+      "start": 2018,
+      "end": 2191,
+      "text": "The playbook features a list of recommended response actions based on threat actor TTPs and includes each action’s intended outcome, preparatory steps, and associated risks.",
+      "line_start": 1846
+    },
+    "u017": {
+      "start": 2192,
+      "end": 2261,
+      "text": "For more information, see CISA’s Eviction Strategies Tool Fact Sheet.",
+      "line_start": 1846
+    },
+    "u018": {
+      "start": 2262,
+      "end": 2353,
+      "text": "Harden the network to prevent additional malicious activity (see Mitigations for guidance).",
+      "line_start": 2262
+    },
+    "u019": {
+      "start": 2354,
+      "end": 2508,
+      "text": "If compromise is detected and items have been encrypted, see the “Ransomware and Data Extortion Response Checklist” in CISA’s joint #StopRansomware Guide.",
+      "line_start": 2354
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0591",
+    "m002_S": "attack:S0591"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

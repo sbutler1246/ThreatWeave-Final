@@ -1,0 +1,43 @@
+SOURCE PASSAGES
+[E1; CISA]
+BianLian group actors used Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.
+[E2; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.
+Additional notable TTPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+ID
+Use
+Develop Capabilities
+T1587
+Rhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+ID
+Use
+Valid Accounts
+T1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+Table 11: Execution
+Technique Title
+ID
+Use
+Command and Scripting Interpreter: Cloud API
+T1059.009
+Rhysida actors leverage AZCopy, a command-line utility that 
+[E3; CISA]
+#StopRansomware: Rhysida Ransomware
+[E4; CISA]
+Technical Details
+[E5; CISA]
+6) Medusa actors obfuscate rclone.exe and associated rclone.conf files by renaming the files (for example, to lsp.exe and ngconf.txt). Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP’s built-in file transfer mechanism.
+The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.
+(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:
+
+[E6; CISA]
+#StopRansomware: Medusa Ransomware
+[E7; CISA]
+Technical Details
+GRAPH NODES
+GRAPH PATHS

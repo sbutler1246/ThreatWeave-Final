@@ -1,0 +1,38 @@
+{
+  "$defs": {
+    "RetrievalMode": {
+      "enum": [
+        "text_only",
+        "graph_only",
+        "hybrid",
+        "hybrid_no_node2vec"
+      ],
+      "title": "RetrievalMode",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "question": {
+      "maxLength": 2000,
+      "minLength": 3,
+      "title": "Question",
+      "type": "string"
+    },
+    "mode": {
+      "$ref": "#/$defs/RetrievalMode"
+    },
+    "corpus_version": {
+      "minLength": 1,
+      "title": "Corpus Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "question",
+    "mode",
+    "corpus_version"
+  ],
+  "title": "QueryRequest",
+  "type": "object"
+}

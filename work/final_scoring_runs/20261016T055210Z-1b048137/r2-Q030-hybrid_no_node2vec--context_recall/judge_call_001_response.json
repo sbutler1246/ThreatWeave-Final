@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:21:28.4790503Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3827514500,
+  "load_duration": 11477200,
+  "prompt_eval_count": 1575,
+  "prompt_eval_duration": 159645000,
+  "eval_count": 264,
+  "eval_duration": 3418475000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"classifications\": [\n    {\n      \"statement\": \"AA23-061A reports that Royal actors were historically observed using Chisel to communicate with their C2 infrastructure.\",\n      \"reason\": \"The context mentions that Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572].\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"The advisory associates this tool use with T1572 (Protocol Tunneling).\",\n      \"reason\": \"The context mentions that the Technique: Protocol Tunneling (T1572) is associated with the use of Chisel.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"The two links are Royal actors → USES → Chisel → USES_TECHNIQUE → T1572;\",\n      \"reason\": \"The context mentions the two-hop actor-to-software-to-technique path with evidence.\",\n      \"attributed\": 1\n    },\n    {\n      \"statement\": \"this preserves the historical observation rather than asserting current use.\",\n      \"reason\": \"There is no mention of preserving historical observation in the given context.\",\n      \"attributed\": 0\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

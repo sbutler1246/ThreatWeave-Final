@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:22047:23538",
+  "doc_id": "AA25-071A",
+  "start": 22047,
+  "end": 23538,
+  "text": "IP used to access BeyondTrust session (Mullvad VPN)\n155.2.215[.]71\nIP Address\nIP used to access BeyondTrust session\n23.234.106[.]242\nIP Address\nIP used to access BeyondTrust session (Mullvad VPN)\n23.234.93[.]112\nIP Address\nIP used to access BeyondTrust session (Mullvad VPN)\n37.19.21[.]180\nIP Address\nIP used to access BeyondTrust session (Mullvad VPN)\n155.2.215[.]69\nIP Address\nIP used to access BeyondTrust session\n185.238.231[.]98\nIP Address\nIP used to access BeyondTrust session (ExpressVPN)\n37.221.66[.]239\nIP Address\nBash TCP reverse shell destination\n185.135.86[.]185\nIP Address\nIP associated with SimpleHelp session\n83.138.53[.]139\nIP Address\nIP associated with Nezha backdoor\n185.238.231[.]4\nIP Address\nIP used to access BeyondTrust session (ExpressVPN)\n185.238.231[.]77\nIP Address\nIP used to access BeyondTrust session (ExpressVPN)\n185.238.231[.]85\nIP Address\nIP used to access BeyondTrust session (ExpressVPN)\n85.155.186[.]121\nIP Address\nIP associated with SimpleHelp session\nhttp//45.61.150[.]94:8000/storm[.]exe\nURL\nSimpleHelp agent was downloaded to victim using this IP\n94.156.67[.]145\nIP Address\nIP associated with backdoor\nTable 2. Malicious Files (Updated Aug. 18, 2026)\nFile\nHash (MD5, SHA1, or SHA 256)\nDescription\n!!!READ_ME_MEDUSA!!!.txt\nRedacted\nRansom note file\nj.exe\n2C7F328FEEB94608AAAF99EC70CB0323\nMeshAgent remote management tool\ndef.exe\nD796259C44BE852327623FD2E40C47F2\nRootkit\nnezha-agent.exe\n4D0B6E3C9C33550A005E41663A1977CB\nNezha monitoring agent\nmimilib.dll\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    },
+    {
+      "start": 21494,
+      "end": 21551,
+      "text": "Table 1. Indicators of Compromise (Updated Aug. 18, 2026)"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

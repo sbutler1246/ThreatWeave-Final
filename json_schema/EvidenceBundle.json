@@ -1,0 +1,182 @@
+{
+  "$defs": {
+    "GraphPath": {
+      "additionalProperties": false,
+      "properties": {
+        "path_id": {
+          "title": "Path Id",
+          "type": "string"
+        },
+        "edges": {
+          "items": {
+            "$ref": "#/$defs/RelationshipEdge"
+          },
+          "maxItems": 3,
+          "minItems": 1,
+          "title": "Edges",
+          "type": "array"
+        }
+      },
+      "required": [
+        "path_id",
+        "edges"
+      ],
+      "title": "GraphPath",
+      "type": "object"
+    },
+    "Passage": {
+      "additionalProperties": false,
+      "properties": {
+        "citation_id": {
+          "title": "Citation Id",
+          "type": "string"
+        },
+        "doc_id": {
+          "title": "Doc Id",
+          "type": "string"
+        },
+        "chunk_id": {
+          "title": "Chunk Id",
+          "type": "string"
+        },
+        "source_url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "integer"
+        },
+        "source_kind": {
+          "enum": [
+            "cisa",
+            "attack"
+          ],
+          "title": "Source Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "citation_id",
+        "doc_id",
+        "chunk_id",
+        "source_url",
+        "text",
+        "start",
+        "end",
+        "source_kind"
+      ],
+      "title": "Passage",
+      "type": "object"
+    },
+    "Predicate": {
+      "enum": [
+        "USES",
+        "USES_TECHNIQUE",
+        "PART_OF_TACTIC",
+        "MITIGATED_BY",
+        "ASSOCIATED_WITH"
+      ],
+      "title": "Predicate",
+      "type": "string"
+    },
+    "RelationshipEdge": {
+      "additionalProperties": false,
+      "properties": {
+        "head_id": {
+          "title": "Head Id",
+          "type": "string"
+        },
+        "predicate": {
+          "$ref": "#/$defs/Predicate"
+        },
+        "tail_id": {
+          "title": "Tail Id",
+          "type": "string"
+        },
+        "assertion_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Assertion Ids",
+          "type": "array"
+        },
+        "citation_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Citation Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "head_id",
+        "predicate",
+        "tail_id",
+        "assertion_ids",
+        "citation_ids"
+      ],
+      "title": "RelationshipEdge",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "passages": {
+      "items": {
+        "$ref": "#/$defs/Passage"
+      },
+      "title": "Passages",
+      "type": "array"
+    },
+    "paths": {
+      "items": {
+        "$ref": "#/$defs/GraphPath"
+      },
+      "title": "Paths",
+      "type": "array"
+    },
+    "citation_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Citation Ids",
+      "type": "array"
+    },
+    "retrieval_ms": {
+      "minimum": 0,
+      "title": "Retrieval Ms",
+      "type": "number"
+    },
+    "configuration_hash": {
+      "title": "Configuration Hash",
+      "type": "string"
+    },
+    "corpus_version": {
+      "title": "Corpus Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "retrieval_ms",
+    "configuration_hash",
+    "corpus_version"
+  ],
+  "title": "EvidenceBundle",
+  "type": "object"
+}

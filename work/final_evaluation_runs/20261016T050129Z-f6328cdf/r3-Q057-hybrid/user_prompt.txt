@@ -1,0 +1,36 @@
+QUESTION: Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Microsoft Sysinternals ProcDump in AA23-165A? Follow the two-hop software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.
+MODE: hybrid
+SOURCE PASSAGES
+[E1; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E2; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (T1587)
+Mitigation: Pre-compromise (M1056)
+[E3; ATTACK]
+Consider removing previous versions of tools that are unnecessary to the environment when possible.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (T1562)
+Mitigation: Disable or Remove Feature or Program (M1042)
+[E5; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of the organization's security policies (such as rootkit removal tools) that have been abused to impair system defenses. Ensure that only approved security applications are used and running on enterprise systems.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (T1562)
+Mitigation: Execution Prevention (M1038)
+[E7; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (T1586)
+Mitigation: Pre-compromise (M1056)
+[E9; ATTACK]
+Ensure proper Registry permissions are in place to prevent adversaries from disabling or interfering with security/logging services.
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (T1562)
+Mitigation: Restrict Registry Permissions (M1024)
+GRAPH NODES
+GRAPH PATHS
+Return the requested JSON. The displayed answer is assembled from claims.

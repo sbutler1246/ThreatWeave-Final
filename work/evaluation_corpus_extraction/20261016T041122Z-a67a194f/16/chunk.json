@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+  "doc_id": "AA23-061A",
+  "start": 6346,
+  "end": 8622,
+  "text": "’s network. Ransomware operators often use open source projects to aid their intrusion activities.\nHistorically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572], to communicate with their C2 infrastructure.\nLateral Movement and Persistence\n(Updated August 7, 2024) Historically, Royal threat actors used RDP and legitimate operating system (OS) diagnostic tools to move laterally across a network [T1021.001]. BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally. In one confirmed case, BlackSuit actors used a legitimate admin account [T1078] to remotely log on to the domain controller via SMB. Once on the domain controller, the threat actor deactivated antivirus software [T1562.001] by modifying Group Policy Objects [T1484.001].\n(Updated August 7, 2024) FBI observed BlackSuit actors using legitimate remote monitoring and management (RMM) software to maintain persistence in victim networks [T1133].\n(New August 7, 2024) BlackSuit actors use SystemBC and Gootloader malware to load additional tools and maintain persistence.\nDiscovery and Credential Access\n(New August 7, 2024) BlackSuit actors have been observed using SharpShares and SoftPerfect NetWorx to enumerate victim networks. The publicly available credential stealing tool Mimikatz and password harvesting tools from Nirsoft have also been found on victim systems. Tools such as PowerTool and GMER are often used to kill system processes.\nExfiltration\nBlackSuit actors exfiltrate data from victim networks by repurposing legitimate cyber penetration testing tools, such as Cobalt Strike, and malware tools/derivatives, such as Ursnif/Gozi, for data aggregation and exfiltration. According to third-party reporting, BlackSuit actors’ first hop in exfiltration and other operations is usually a U.S. IP address.\n(New August 7, 2024) BlackSuit actors also use RClone and Brute Ratel for exfiltration.\nEncryption\nBefore starting the encryption process, BlackSuit actors:\nUse Windows Restart Manager to determine whether targeted files are currently in use or blocked by other applications [T1486].[1]\nUse Windows Volume Shadow Copy service (vssadmin.exe) to delete shadow copies to inhibit system recovery.[1]\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

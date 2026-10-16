@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-075A:evaluation:llama500:13954:15486",
+  "doc_id": "AA23-075A",
+  "start": 13954,
+  "end": 15486,
+  "text": "Service>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"MSSQLServerOLAPService\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"MSSQLServerOLAPService\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SSASTELEMETRY\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SSASTELEMETRY\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SQLBrowser\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SQLBrowser\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SQL Server Distributed Replay Client\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SQL Server Distributed Replay Client\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SQL Server Distributed Replay Controller\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SQL Server Distributed Replay Controller\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"MsDtsServer150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"MsDtsServer150\" serviceAction=\"STOP\" timeout=\"30\"/>\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: LockBit 3.0"
+    },
+    {
+      "start": 2048,
+      "end": 2065,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:18804:21019",
+  "doc_id": "AA24-109A",
+  "start": 18804,
+  "end": 21019,
+  "text": " free, open source FTP (including SSH FTP), WebDAV, Amazon S3, and secure copy protocol client. Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts [T1048].\nUpdate Nov. 13, 2025:\n7-zip\nA free, open source software that enables users to compress various file formats. Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection [T1027.015].15\nFileZilla\nAn open source client that enables users to transfer files between servers. Akira threat actors use it maliciously for data exfiltration [T1048].16\nLogMeIn\nA legitimate remote access tool that Akira threat actors maliciously use to move laterally and establish persistence.\nNetScan\nA software suite used for IP address querying, Domain Name System (DNS) investigation, and port scanning. Akira threat actors use the tool maliciously for reconnaissance [T1046].17\nNgrok\nA legitimate reverse proxy tool. Akira threat actors maliciously use this tool to create secure tunnels to servers they use for data exfiltration [T1572].\nNetExec\nLinux-based network service exploitation tool that automates the assessment of large network security.\nPowerTool\nA tool used by Akira threat actors to exploit the Zemana AntiMalware driver and terminate antivirus processes [T1562.001].\nPSEXESVC.exe\nA Windows executable file potentially used by Akira threat actors for remote execution and payload deployments [T1569.002].\nSystemBC\nMulti-purpose malware that Akira threat actors use as both a remote access trojan (RAT) and a proxy bot [T1090][T1219].\nVeeam Backup and Replication\nA legitimate backup solution that Akira threat actors have exploited vulnerabilities in for initial access (and potentially for privilege escalation).\nCobalt Strike\nA commercial penetration testing framework abused by Akira threat actors for lateral movement, C2, and privilege escalation [T1059.001].\nPuTTY/PSCP\nVariants of Secure Copy Protocol (SCP)/SFTP tools that can be used for data exfiltration or remote management [T1048].\nVssadmin.exe\nA Windows executable used by Akira threat actors to delete VSS copies [T1490].\nLevel.io\nA remote monitoring and management platform leveraged by Akira threat actors.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

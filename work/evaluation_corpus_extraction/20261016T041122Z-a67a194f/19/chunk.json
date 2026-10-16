@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:11361:12517",
+  "doc_id": "AA23-061A",
+  "start": 11361,
+  "end": 12517,
+  "text": "[.]51\nNovember 2022\n42.189.12[.]36\nNovember 2022\n45.227.251[.]167\nNovember 2022\n5.44.42[.]20\nNovember 2022\n61.166.221[.]46\nNovember 2022\n68.83.169[.]91\nNovember 2022\n81.184.181[.]215\nNovember 2022\n82.12.196[.]197\nNovember 2022\n98.143.70[.]147\nNovember 2022\n140.82.48[.]158\nDecember 2022\n147.135.36[.]162\nDecember 2022\n147.135.11[.]223\nDecember 2022\n152.89.247[.]50\nDecember 2022\n172.64.80[.]1\nDecember 2022\n179.43.167[.]10\nDecember 2022\n185.7.214[.]218\nDecember 2022\n193.149.176[.]157\nDecember 2022\n193.235.146[.]104\nDecember 2022\n209.141.36[.]116\nDecember 2022\n45.61.136[.]47\nDecember 2022\n45.8.158[.]104\nDecember 2022\n5.181.234[.]58\nDecember 2022\n5.188.86[.]195\nDecember 2022\n77.73.133[.]84\nDecember 2022\n89.108.65[.]136\nDecember 2022\n94.232.41[.]105\nDecember 2022\n47.87.229[.]39\nJanuary 2023\nTable 3: Royal Ransomware Associated Domains as of January 2023\nMalicious Domain\nLast Observed Activity\nsombrat[.]com\nOctober 2022\ngororama[.]com\nNovember 2022\nsofteruplive[.]com\nNovember 2022\naltocloudzone[.]live\nDecember 2022\nciborkumari[.]xyz\nDecember 2022\nmyappearinc[.]com\nDecember 2022\nparkerpublic[.]com\nDecember 2022\npastebin.mozilla[.]org/Z54Vudf9/raw\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    },
+    {
+      "start": 10425,
+      "end": 10493,
+      "text": "Table 2: Royal Ransomware Associated IP addresses as of January 2023"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

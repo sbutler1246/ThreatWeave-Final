@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:6168:8098",
+    "doc_id": "AA23-165A",
+    "start": 6168,
+    "end": 8098,
+    "text": " public higher education and K-12 schools, and emergency services (e.g., law enforcement).\nNumber of LockBit ransomware attacks in the U.S. since 2020:\nAbout 1,700 attacks according to the FBI.\nTotal of U.S. ransoms paid to LockBit:\nApproximately $91M since LockBit activity was first observed in the U.S. on January 5, 2020.\nEarliest observed LockBit activity:\nAustralia: The earliest documented occurrence of LockBit 3.0 was in early August 2022.\nCanada: The first recorded instance of LockBit activity in Canada was in March 2020.\nNew Zealand: The first recorded incident involving LockBit ransomware was in March 2021.\nUnited States: LockBit activity was first observed on January 5, 2020.\nMost recently observed LockBit activity:\nAustralia: April 21, 2023.\nNew Zealand: February 2023.\nUnited States: As recently as May 25, 2023.\nOperational activity related to LockBit in France\nSince the first case in July 2020 to present, ANSSI has handled 80 alerts linked to the LockBit ransomware, which accounts for 11% of all ransomware cases handled by ANSSI in that period. In about 13% of those cases, ANSSI was not able to confirm nor deny the breach of its constituents’ networks – as the alerts were related to the threat actor’s online claims. So far, 69 confirmed incidents have been handled by ANSSI. Table 2 shows the LockBit activity observed by ANSSI versus overall ransomware activity tracked by the Computer Emergency Response Team-France (CERT-FR).\nTable 2: ANSSI-Observed LockBit vs. Overall Ransomware Activity\nYear\nNumber of Incidents\nPercentage of CERT-FR’s Ransomware-Related Activity\n2020 (from July)\n4\n2%\n2021\n20\n10%\n2022\n30\n27%\n2023\n15\n27%\nTotal (2020-2023)\n69\n11%\nTable 3 shows the number of instances different LockBit strains were observed by ANSSI from July 2020 to present.\nTable 3: ANSSI-Observed LockBit Strain and Number of Instances\nName of the Strain*\nNumber of Instances\nLockBit 2.0 (LockBit Red)\n26\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 4347,
+        "end": 4381,
+        "text": "Table 1: Evolution of LockBit RaaS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 497,
+  "inherited_context_tokens": 26,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "556c810187b1bdeedbef1d38acd8168209a501410a1d9fc2c6e0b6fb3ffc1a3e",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

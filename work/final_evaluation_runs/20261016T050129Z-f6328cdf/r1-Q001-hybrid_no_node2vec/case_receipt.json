@@ -1,0 +1,32 @@
+{
+  "task": {
+    "case_id": "r1-Q001-hybrid_no_node2vec",
+    "question_id": "Q001",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 1,
+    "measured": true
+  },
+  "question_sha256": "f06ee307a792da93052f4c887a1e2f1b67cd27966450bdbf482101c660a89029",
+  "status": "failed",
+  "stage": "generation",
+  "error_type": "ValidationError",
+  "execution_time_ms": 8630.040999996709,
+  "files_sha256": {
+    "context.txt": "2ed6f75dccc1670897206d9e56a25d87d713b235294c99e9704f167737181929",
+    "evidence.json": "8459110153e578d719a6e475b4d972c39f8c96796798adf2ed408c790e841e72",
+    "ollama_response_1.json": "7a341b50252152d5d4ad9c582fb83fccbd406b183a17ded2aaa8818302158cf0",
+    "ollama_response_2.json": "e9900a95ccb59eedc75238e56be47178dc3a7c32c0075217740ffdd009a7c2c0",
+    "output_schema.json": "d7cceb778d340ae7cf09eede7e9a371b622e121ea3e89331a6b8970f506d11b7",
+    "question.json": "1d40d2933bfaa9e0677958b802e8782dd36c9bb7e534e9e6a0fbc05e0146d1ff",
+    "repair_prompt.txt": "8efe3e7cf4af5b05323364b698c74860bdd1369ac9dacdde4911976c4504b2f5",
+    "retrieval.json": "18d9f8ca69b3b9064a8acaaaa83f6faa3abbdfa8f44879c6fb8f0e573c2ae885",
+    "system_prompt.txt": "d06610424106fd68fc9f27ce0000aa73b1cd3b43a79c4df892dcf6a6108fd72a",
+    "transport_request_1.json": "121a245a54dfca7bdfbc73fea16e3eaf27ff460efe4ebf0ccb1bdee29d978895",
+    "transport_request_2.json": "ba0dd2946bbbd620a1bab401c2444164515e4a57bb7bcd21cfc76610352fef22",
+    "transport_response_1.txt": "3512c24132918788a3ae84f01017c769deb6a3d2dd5f0742802e45d1611a92bf",
+    "transport_response_2.txt": "6735ff04dfed168b1de804a1de72fd285d0382b5682fea1369740ce3f999ee67",
+    "transport_status_1.json": "aee5b614c7e23713169563d835525362b4966e7d9e46399b596b2b0993301efa",
+    "transport_status_2.json": "aee5b614c7e23713169563d835525362b4966e7d9e46399b596b2b0993301efa",
+    "user_prompt.txt": "35efa069a837dba4db45625b24836a4e31d012091c9f45ffafccd09bac08b3d3"
+  }
+}

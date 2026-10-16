@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:37679:39746",
+  "doc_id": "AA24-109A",
+  "start": 37679,
+  "end": 39746,
+  "text": " tickets.\nEnd Update\nTable 18. Collection\nTechnique Title\nID\nUse\nArchive Collected Data: Archive via Utility\nT1560.001\nAkira threat actors use tools like WinRAR to compress files.\nTable 19. Command and Control\nTechnique Title\nID\nUse\nProxy\nT1090\nAkira threat actors use Ngrok to create a secure tunnel to servers the actors use to exfiltrate data.\nUpdate Nov. 13, 2025\nAkira threat actors use SystemBC malware as a proxy bot.\nEnd Update\nUpdate Nov. 13, 2025\nIngress Tool Transfer\nT1105\nAkira threat actors download tools, many of which are staged in the PerfLogs directory, and use the WebClient.DownloadString() method to download Cobalt Strike beacons.\nAkira threat actors use STONESTOP malware to load additional payloads.\nEnd Update\nRemote Access Software\nT1219\nAkira threat actors use legitimate desktop support software like AnyDesk to obtain remote access to victim systems.\nUpdate Nov. 13, 2025\nAkira threat actors use SystemBC malware as a RAT.\nEnd Update\nUpdate Nov. 13, 2025\nProtocol Tunneling\nT1572\nAkira treat actors use Ngrok to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, bypass perimeter defenses, and maintain covert persistent access.\nEnd Update\nTable 20. Exfiltration\nTechnique Title\nID\nUse\nExfiltration Over Alternative Protocol\nT1048\nAkira threat actors use file transfer tools like WinSCP to transfer data.\nTransfer Data to Cloud Account\nT1537\nAkira threat actors use tools like CloudZilla to exfiltrate data to a cloud account and connect to exfiltration servers they control.\nExfiltration Over Web Service: Exfiltration to Cloud Storage\nT1567.002\nAkira threat actors leverage RClone to sync files with cloud storage services to exfiltrate data.\nTable 21. Impact\nTechnique Title\nID\nUse\nDate Encrypted for Impact\nT1486\nAkira threat actors encrypt data on target systems to interrupt availability to system and network resources.\nInhibit System Recovery\nT1490\nAkira threat actors delete VSS copies on Windows systems.\nFinancial Theft\nT1657\nAkira threat actors use a double extortion model for financial gain.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    },
+    {
+      "start": 36998,
+      "end": 37024,
+      "text": "Table 17. Lateral Movement"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:39:51.0245591Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8785947500,
+  "load_duration": 7180200,
+  "prompt_eval_count": 564,
+  "prompt_eval_duration": 72393000,
+  "eval_count": 662,
+  "eval_duration": 8410312000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"BianLian group actors use Rclone to exfiltrate data.\",\n    \"LockBit affiliates use Rclone to exfiltrate data.\",\n    \"BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\",\n    \"LockBit affiliates use MEGA for data exfiltration.\",\n    \"BianLian group uses Exfiltration to Cloud Storage (T1567.002).\",\n    \"LockBit affiliates use Transfer Data to Cloud Account (T1537).\",\n    \"BianLian group uses Rclone, a tool used to sync files to cloud storage.\",\n    \"LockBit affiliates use Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate.\"\n  ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"BianLian group actors use Rclone to exfiltrate data.\"\n\t* \"BianLian group actors use Rclone.\"\n\t* \"BianLian group actors use Rclone to exfiltrate data.\"\n2. \"LockBit affiliates use Rclone to exfiltrate data.\"\n\t* \"LockBit affiliates use Rclone.\"\n\t* \"LockBit affiliates use Rclone to exfiltrate data.\"\n3. \"BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\"\n\t* \"BianLian group uses File Transfer Protocol (FTP).\"\n\t* \"BianLian group uses Rclone.\"\n\t* \"BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\"\n4. \"LockBit affiliates use MEGA for data exfiltration.\"\n\t* \"LockBit affiliates use MEGA.\"\n\t* \"LockBit affiliates use MEGA for data exfiltration.\"\n5. \"BianLian group uses Exfiltration to Cloud Storage (T1567.002).\"\n\t* \"BianLian group uses Exfiltration to Cloud Storage.\"\n\t* \"BianLian group uses Exfiltration to Cloud Storage (T1567.002).\"\n6. \"LockBit affiliates use Transfer Data to Cloud Account (T1537).\"\n\t* \"LockBit affiliates use Transfer Data to Cloud Account.\"\n\t* \"LockBit affiliates use Transfer Data to Cloud Account (T1537).\"\n7. \"BianLian group uses Rclone, a tool used to sync files to cloud storage.\"\n\t* \"BianLian group uses Rclone.\"\n\t* \"Rclone is a tool used to sync files to cloud storage.\"\n\t* \"BianLian group uses Rclone, a tool used to sync files to cloud storage.\"\n8. \"LockBit affiliates use Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate.\"\n\t* \"LockBit affiliates use Rclone.\"\n\t* \"Rclone is an open-source command line cloud storage manager.\"\n\t* \"FreeFileSync is a cloud storage manager.\"\n\t* \"LockBit affiliates use Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate.\"",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,8 @@
+{
+  "archive": "S:\\ThreatWeave\\outputs\\ThreatWeave_submission_v2.zip",
+  "sha256": "afc29e86cd60b3701e2a35faef33de7759ede7e1053b2f47ae88e29746ec9468",
+  "bytes": 39114509,
+  "file_count": 11304,
+  "exclusions": "No environments, executables, credentials, vector-store caches, blocked primary HTML, review forms, or private render/video build scratch data.",
+  "boundary": "Source/evidence package for review. Not a portable installed runtime. Rebuilding full offline audit dependencies requires the original preserved work records referenced by hashes."
+}

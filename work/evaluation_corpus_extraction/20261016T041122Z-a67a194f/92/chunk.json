@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-352A:evaluation:llama500:18455:19130",
+  "doc_id": "AA23-352A",
+  "start": 18455,
+  "end": 19130,
+  "text": " 75 73 65 64 20 64 6F 6D 61 69 6E 20 6F 66 20 63 75 72 72 65 6E 74 20 75 73 65 72 }\n$help_string_3_hex = { 48 65 6C 70 54 65 78 74 62 47 52 42 20 6D 6F 64 65 2E 20 73 63 61 6E 2F 73 63 61 6E 61 6C 6C 2F 63 6C 72 2E 20 73 63 61 6E 20 2D 20 6E 65 74 77 6F 72 6B 20 73 63 61 6E 6E 65 72 2E 20 73 63 61 6E 61 6C 6C 20 2D 20 67 72 61 62 20 61 6C 6C 2E 20 20 63 6C 72 20 2D 20 65 76 65 6E 74 20 6C 6F 67 73 20 63 6C 65 61 6E 65 72 }\n$help_string_4_hex = { 48 65 6C 70 54 65 78 74 3A 49 6E 70 75 74 3A 20 66 2F 72 2F 73 2E 20 66 20 2D 20 66 69 6C 65 2C 20 72 20 2D 20 72 61 6E 67 65 2C 20 73 20 2D 20 73 75 62 6E 65 74 2C 20 64 20 2D 20 64 6F 6D 61 69 6E }\ncondition:\nall of them\n}\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 55,
+      "text": "#StopRansomware: Play Ransomware"
+    },
+    {
+      "start": 3834,
+      "end": 3851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

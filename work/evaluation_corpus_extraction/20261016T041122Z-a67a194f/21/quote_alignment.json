@@ -1,0 +1,83 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u002"
+    ],
+    "selected_units": [
+      {
+        "start": 26,
+        "end": 47,
+        "text": "Ransomware Executable",
+        "line_start": 26
+      }
+    ],
+    "document_start": 13373,
+    "document_end": 13394,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 12621,
+        "end": 12659,
+        "text": "Table 4: Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 473,
+        "end": 484,
+        "text": "Ursnif/Gozi",
+        "line_start": 473
+      }
+    ],
+    "document_start": 13820,
+    "document_end": 13831,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 12621,
+        "end": 12659,
+        "text": "Table 4: Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u020"
+    ],
+    "selected_units": [
+      {
+        "start": 805,
+        "end": 836,
+        "text": "PsExec (Microsoft Sysinternals)",
+        "line_start": 805
+      }
+    ],
+    "document_start": 14152,
+    "document_end": 14183,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 12621,
+        "end": 12659,
+        "text": "Table 4: Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  }
+]

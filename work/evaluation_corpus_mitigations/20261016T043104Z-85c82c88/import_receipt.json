@@ -1,0 +1,24 @@
+{
+  "status": "import_complete",
+  "reference_assertion_count": 109,
+  "target_mitigation_entity_count": 34,
+  "source_reference_combination_count": 203,
+  "same_window_three_hop_chain_count": 0,
+  "techniques_without_direct_references": [
+    "T1016",
+    "T1018",
+    "T1069.001",
+    "T1069.002",
+    "T1083"
+  ],
+  "attack_release": "17.1",
+  "snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+  "origin": "fused",
+  "source_import_run": "S:\\ThreatWeave\\work\\evaluation_corpus_ingestion\\20261016T042742Z-72fb42f8",
+  "review_manifest_sha256": "fe08c2c9059e6fd3069512f40f31b1a75920499bb4dec4a2143d03cdcde3964a",
+  "database": "neo4j",
+  "transaction_seconds": 1.483035999990534,
+  "human_review_status": "pending",
+  "timing_scope": "execute_write including source/reference/path verification and any driver retries; preparation/connectivity excluded",
+  "completed_at": "2026-10-16T04:31:29.675205+00:00"
+}

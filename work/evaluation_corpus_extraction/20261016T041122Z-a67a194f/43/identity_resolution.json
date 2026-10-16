@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Black Basta affiliates",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "BITSAdmin",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0190",
+    "canonical_name": "BITSAdmin",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e3",
+    "mention": "T1059.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1059.001",
+    "canonical_name": "PowerShell",
+    "source_attack_id": "T1059.001"
+  },
+  {
+    "local_id": "e4",
+    "mention": "Black Basta Affiliates",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "Black Basta",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1070",
+    "canonical_name": "Black Basta",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e6",
+    "mention": "T1562.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1562.001",
+    "canonical_name": "Disable or Modify Tools",
+    "source_attack_id": "T1562.001"
+  }
+]

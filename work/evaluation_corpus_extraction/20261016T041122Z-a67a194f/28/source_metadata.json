@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:21018:22127",
+    "doc_id": "AA23-061A",
+    "start": 21018,
+    "end": 22127,
+    "text": "[.]aws-use1[.]cloud-ara[.]tyk[.]io\nURL associated to Initial Access Download\nzoommanager[.]com\nTable 10: BlackSuit Ransomware Associated Files and Hash Values\nFilename\nHash Value – SHA-256\nDescription\n1.exe\naf9f95497b8503af1a399bc6f070c3bbeabc5aeecd8c09bca80495831ae71e61\nEncryptor\nPowerTool64.exe\nHacktool\naaa.exe\nC4A2227CD8D85128EAFEF8EE2298AA105DA892C8B0F37405667C2D1647C35C46\nEncryptor\naaa.exe\n8d16a23d5a5630502b09c33fbc571d2261c6c98fecc3a79a1e1129354f930d0a\nWen.exe\n01ce9cfebb29596d0ab7c99e8dbadf1a8409750b183e6bf73e0de021b365be13\netmc.exe\na0a4a99948e12309f54911264261d96f0e40d5fd695bab82e95fbc1f9024482e\nsvchost.exe\n9bbc9784ce3c818a127debfe710ec6ce21e7c9dd0daf4e30b8506a6dba533db4\nData Exfiltration Tool ­– Renamed version of RClone.exe\nlocker_N1uYkmEsfoHmT4lK66trUjBuy5gyAj7n.ex_\n146335b1be627318ac09476f0c8f8e6e027805e6077673f72d6dce1677a24c78\nsocks32.exe\n9493b512d7d15510ebee5b300c55b67f9f2ff1dda64bddc99ba8ba5024113300\nC:\\users\\Administrator\\AppData\\Local\\msa.ps1\nSystemBC backdoor\n%APPDATA%\\ Zoom\\Alternative Workplace Strategies.js\nE813F8FAF3AA2EB20E285596413F5088B2D7FD153FE9F72F3FF45735D0FDDCED\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 20362,
+        "end": 20425,
+        "text": "Table 9: Malicious URL (s) associated with BlackSuit Ransomware"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 513,
+  "inherited_context_tokens": 35,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "b9b9eda61e06ce50d2992c44e239da7e354d099ab1ea891d4bb22b2e2698bc3d",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

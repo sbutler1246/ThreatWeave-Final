@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+    "doc_id": "AA24-131A",
+    "start": 8514,
+    "end": 10969,
+    "text": " server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.\nCobalt Strike\nA penetration testing tool used by security professions to test the security of networks and systems. Black Basta affiliates have used it to assist with lateral movement and file execution.\nMimikatz\nA tool that allows users to view and save authentication credentials such as Kerberos tickets. Black Basta affiliates have used it to aid in privilege escalation.\nPSExec\nA tool designed to run programs and execute commands on remote systems.\nPowerShell\nA cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.\nRClone\nA command line program used to sync files with cloud storage services such as Mega.\nSoftPerfect\nA network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, Secure Shell (SSH) and PowerShell. It also scans for remote services, registry, files, and performance counters.\nScreenConnect\nRemote support, access, and meeting software that allows users to control devices remotely over the internet.\nSplashtop\nRemote desktop software that allows remote access to devices for support, access, and collaboration.\nWinSCP\nWindows Secure Copy is a free and open source SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client. Black Basta affiliates have used it to transfer data from a compromised network to actor-controlled accounts.\nDiscovery and Execution\nBlack Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning. Cybersecurity researchers have observed affiliates conducting reconnaissance using utilities with innocuous file names such as Intel or Dell, left in the root drive C:\\ [T1036].[1]\nPrivilege Escalation\nBlack Basta affiliates use credential scraping tools like Mimikatz for privilege escalation. According to cybersecurity researchers, Black Basta affiliates have also exploited ZeroLogon (CVE-2020-1472 [CWE-330]), NoPac (CVE-2021-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: Black Basta"
+      },
+      {
+        "start": 4157,
+        "end": 4174,
+        "text": "Technical Details"
+      },
+      {
+        "start": 7966,
+        "end": 8011,
+        "text": "Table 1: Tools Used by Black Basta Affiliates"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 510,
+  "inherited_context_tokens": 26,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "5e17cb9da9c6cd4f27496b1d2b6a156f15e405a075a74751d5485eedcb269c80",
+  "doc_id": "AA24-131A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+  "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149"
+}

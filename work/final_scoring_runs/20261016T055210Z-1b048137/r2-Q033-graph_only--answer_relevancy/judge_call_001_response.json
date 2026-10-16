@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:13:00.1489434Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 766047800,
+  "load_duration": 12230700,
+  "prompt_eval_count": 638,
+  "prompt_eval_duration": 233665000,
+  "eval_count": 35,
+  "eval_duration": 430952000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What technique do Akira threat actors use to create secure tunnels for data exfiltration?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

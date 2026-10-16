@@ -1,0 +1,20 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Akira",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:G1024",
+    "canonical_name": "Akira",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "Akira",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1129",
+    "canonical_name": "Akira",
+    "source_attack_id": null
+  }
+]

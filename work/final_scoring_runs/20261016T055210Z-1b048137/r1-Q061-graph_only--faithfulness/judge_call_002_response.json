@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:39:58.7076112Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7676383400,
+  "load_duration": 6056000,
+  "prompt_eval_count": 1835,
+  "prompt_eval_duration": 259754000,
+  "eval_count": 555,
+  "eval_duration": 7323417000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"BianLian group actors use Rclone to exfiltrate data.\",\n      \"reason\": \"The context mentions that BianLian group actors install Rclone and other files in generic and typically unchecked folders, and that they use Rclone to exfiltrate data.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use Rclone to exfiltrate data.\",\n      \"reason\": \"The context mentions that LockBit affiliates use Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and that they use Rclone to exfiltrate data.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\",\n      \"reason\": \"The context mentions that BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use MEGA for data exfiltration.\",\n      \"reason\": \"The context mentions that LockBit affiliates use MEGA, a publicly available file sharing service for data exfiltration.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"BianLian group uses Exfiltration to Cloud Storage (T1567.002).\",\n      \"reason\": \"The context mentions that BianLian group uses Exfiltration to Cloud Storage (T1567.002) and that they use Rclone to exfiltrate data.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use Transfer Data to Cloud Account (T1537).\",\n      \"reason\": \"The context mentions that LockBit affiliates use Transfer Data to Cloud Account (T1537) and that they use Rclone to exfiltrate data.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"BianLian group uses Rclone, a tool used to sync files to cloud storage.\",\n      \"reason\": \"The context mentions that BianLian group uses Rclone, a tool used to sync files to cloud storage.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate.\",\n      \"reason\": \"The context mentions that LockBit affiliates use Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

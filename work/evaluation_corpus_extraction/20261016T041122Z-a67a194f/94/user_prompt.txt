@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-352A
+CHUNK_ID: AA23-352A:evaluation:llama500:19771:20652
+SOURCE_UNITS:
+{"u001": "00 44 00 61 00 74 00 61 00 5c 00 52 00 6f 00 61 00 6d 00 69 00 6e 00 67 00 5c 00 4d 00 6f 00 6f 00 6e 00 63 00 68 00 69 00 6c 00 64 00 20 00 50 00 72 00 6f 00 64 00 75 00 63 00 74 00 69 00 6f 00 6e 00 73 00 5c 00 50 00 61 00 6c 00 65 00 20 00 4d 00 6f 00 6f 00 6e 00 5c 00 50 00 72 00 6f 00 66 00 69 00 6c 00 65 00 73 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_2_detected ;sid:1900003; rev:1;)", "u002": "alert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 41 00 6c 00 6c 00 20 00 55 00 73 00 65 00 72 00 73 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 52 00 6f 00 61 00 6d 00 69 00 6e 00 67 00 5c 00 43 00 6f 00 6d 00 6f 00 64 00 6f 00 5c 00 49 00 63 00 65 00 44 00 72 00 61 00 67 00 6f 00 6e 00 5c 00 50 00 72 00 6f 00 66 00 69 00 6c 00 65 00 73 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_3_detected ;sid:1900004; rev:1;)"}
+SOURCE_MENTIONS:
+[]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[]

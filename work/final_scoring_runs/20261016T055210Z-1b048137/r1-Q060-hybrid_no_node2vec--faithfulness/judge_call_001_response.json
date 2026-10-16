@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:09:39.852698Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8726059500,
+  "load_duration": 7158800,
+  "prompt_eval_count": 551,
+  "prompt_eval_duration": 166130000,
+  "eval_count": 668,
+  "eval_duration": 8471663000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"LockBit affiliates use Mimikatz to dump credentials.\",\n    \"Volt Typhoon actors use Mimikatz to harvest credentials.\",\n    \"Akira threat actors use Mimikatz to dump credentials.\",\n    \"LockBit affiliates' advisory software-to-technique mappings include Mimikatz for Defense Evasion.\",\n    \"Volt Typhoon actors' advisory software-to-technique mappings include Mimikatz for Credential Access.\",\n    \"Akira threat actors' advisory software-to-technique mappings include Mimikatz for Credential Access.\"\n  ]\n}\n\nHere's the breakdown of each sentence into fully understandable statements:\n\n1. \"LockBit affiliates use Mimikatz to dump credentials.\"\n\t* \"LockBit affiliates\" refers to a group of individuals or organizations.\n\t* \"use\" is a verb indicating action.\n\t* \"Mimikatz\" is a tool used for dumping credentials.\n\t* \"dump credentials\" is an action that Mimikatz performs.\n2. \"Volt Typhoon actors use Mimikatz to harvest credentials.\"\n\t* \"Volt Typhoon actors\" refers to a group of individuals or organizations.\n\t* \"use\" is a verb indicating action.\n\t* \"Mimikatz\" is a tool used for harvesting credentials.\n\t* \"harvest credentials\" is an action that Mimikatz performs.\n3. \"Akira threat actors use Mimikatz to dump credentials.\"\n\t* \"Akira threat actors\" refers to a group of individuals or organizations.\n\t* \"use\" is a verb indicating action.\n\t* \"Mimikatz\" is a tool used for dumping credentials.\n\t* \"dump credentials\" is an action that Mimikatz performs.\n4. \"LockBit affiliates' advisory software-to-technique mappings include Mimikatz for Defense Evasion.\"\n\t* \"LockBit affiliates\" refers to a group of individuals or organizations.\n\t* \"advisory software-to-technique mappings\" refers to a set of instructions or guidelines.\n\t* \"include\" is a verb indicating inclusion.\n\t* \"Mimikatz\" is a tool used for Defense Evasion.\n\t* \"Defense Evasion\" is a technique used to evade detection.\n5. \"Volt Typhoon actors' advisory software-to-technique mappings include Mimikatz for Credential Access.\"\n\t* \"Volt Typhoon actors\" refers to a group of individuals or organizations.\n\t* \"advisory software-to-technique mappings\" refers to a set of instructions or guidelines.\n\t* \"include\" is a verb indicating inclusion.\n\t* \"Mimikatz\" is a tool used for Credential Access.\n\t* \"Credential Access\" is a technique used to access credentials.\n6. \"Akira threat actors' advisory software-to-technique mappings include Mimikatz for Credential Access.\"\n\t* \"Akira threat actors\" refers to a group of individuals or organizations.\n\t* \"advisory software-to-technique mappings\" refers to a set of instructions or guidelines.\n\t* \"include\" is a verb indicating inclusion.\n\t* \"Mimikatz\" is a tool used for Credential Access.\n\t* \"Credential Access\" is a technique used to access credentials.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

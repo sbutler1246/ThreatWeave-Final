@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:14693:17032",
+    "doc_id": "AA24-109A",
+    "start": 14693,
+    "end": 17032,
+    "text": "powerranges extension, or with .akiranew or .aki.\nEnd Update\nTo further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490].\nUpdate Nov. 13, 2025:\nAdditionally, a ransom note named fn.txt or akira_readme.txt appears in both the root directory (C:) and each user’s home directory (C:\\Users).\nEnd Update\nTrusted third-party analysis determined the Akira_v2 encryptor is an upgrade from its previous version and includes additional functionalities because it is written in Rust. Previous versions of the encryptor provided options to insert arguments at runtime, including:\n- p –encryption_path (targeted file/folder paths);\n-s –share_file (targeted network drive path);\n-n –encryption_percent (percentage of encryption); and\n--fork (create a child process for encryption).\nIncluding threads allows the threat actors more granular control over the number of CPU cores in use, increasing the speed and efficiency of the encryption process. The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis. The encryptor is unable to successfully execute without the specific Build ID. Akira_v2 also can deploy against only VMs using vmonly and stop running VMs with stopvm functionalities. After encryption, the Linux ESXi variant may include the file extension akiranew or an added file named akiranew.txt as a ransom note in directories where files were encrypted with the new nomenclature.\nLeveraged Tools\nTable 1 lists publicly available tools and applications used by Akira threat actors, including legitimate tools repurposed for their operations. These tools and applications should not be attributed as malicious without analytical evidence to support threat actor use and/or control.\nTable 1. Tools Leveraged by Akira Ransomware Actors\nName\nDescription\nAdFind\nA command-line tool used to query and retrieve information from Active Directory [T1087.002].\nAdvanced IP Scanner\nA network scanning tool used for reconnaissance that locates all computers on a network and conducts a scan of their ports. The program shows all network devices, gives access to shared folders, and provides remote control of computers (via RDP and Radmin) [T1046].\nAnyDesk\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 493,
+  "inherited_context_tokens": 14,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "35b90cb62a65ddf843a2cbb2d2b213922963104fd42531570806f7645fe24867",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

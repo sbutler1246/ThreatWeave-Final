@@ -1,0 +1,732 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1070",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1070.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1027.013",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1685",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1006",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1564.012",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1083",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Windows Command Prompt",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1135",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1016",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1082",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "systeminfo",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1033",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1049",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "netstat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1069.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "T1558",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1070",
+      "type": "Technique",
+      "attack_id": "T1070"
+    },
+    "m002_T": {
+      "name": "T1070.003",
+      "type": "Technique",
+      "attack_id": "T1070.003"
+    },
+    "m003_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m005_T": {
+      "name": "T1027.013",
+      "type": "Technique",
+      "attack_id": "T1027.013"
+    },
+    "m006_T": {
+      "name": "T1685",
+      "type": "Technique",
+      "attack_id": "T1685"
+    },
+    "m007_T": {
+      "name": "T1006",
+      "type": "Technique",
+      "attack_id": "T1006"
+    },
+    "m008_T": {
+      "name": "T1564.012",
+      "type": "Technique",
+      "attack_id": "T1564.012"
+    },
+    "m009_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m010_T": {
+      "name": "T1083",
+      "type": "Technique",
+      "attack_id": "T1083"
+    },
+    "m011_S": {
+      "name": "Windows Command Prompt",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1135",
+      "type": "Technique",
+      "attack_id": "T1135"
+    },
+    "m013_T": {
+      "name": "T1016",
+      "type": "Technique",
+      "attack_id": "T1016"
+    },
+    "m014_T": {
+      "name": "T1082",
+      "type": "Technique",
+      "attack_id": "T1082"
+    },
+    "m015_S": {
+      "name": "systeminfo",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_T": {
+      "name": "T1033",
+      "type": "Technique",
+      "attack_id": "T1033"
+    },
+    "m017_T": {
+      "name": "T1049",
+      "type": "Technique",
+      "attack_id": "T1049"
+    },
+    "m018_S": {
+      "name": "netstat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_T": {
+      "name": "T1069.002",
+      "type": "Technique",
+      "attack_id": "T1069.002"
+    },
+    "m020_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m021_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_T": {
+      "name": "T1558",
+      "type": "Technique",
+      "attack_id": "T1558"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 86,
+      "text": "IABs use phishing campaigns as a primary method for delivering ransomware to victims.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 87,
+      "end": 103,
+      "text": "Table 4: Stealth",
+      "line_start": 87
+    },
+    "u003": {
+      "start": 104,
+      "end": 119,
+      "text": "Technique Title",
+      "line_start": 104
+    },
+    "u004": {
+      "start": 120,
+      "end": 122,
+      "text": "ID",
+      "line_start": 120
+    },
+    "u005": {
+      "start": 123,
+      "end": 126,
+      "text": "Use",
+      "line_start": 123
+    },
+    "u006": {
+      "start": 127,
+      "end": 167,
+      "text": "Indicator Removal: Clear Command History",
+      "line_start": 127
+    },
+    "u007": {
+      "start": 168,
+      "end": 177,
+      "text": "T1070.003",
+      "line_start": 168
+    },
+    "u008": {
+      "start": 178,
+      "end": 270,
+      "text": "Medusa actors attempt to cover their tracks by deleting the PowerShell command line history.",
+      "line_start": 178
+    },
+    "u009": {
+      "start": 271,
+      "end": 326,
+      "text": "Obfuscated Files or Information: Encrypted/Encoded File",
+      "line_start": 271
+    },
+    "u010": {
+      "start": 327,
+      "end": 336,
+      "text": "T1027.013",
+      "line_start": 327
+    },
+    "u011": {
+      "start": 337,
+      "end": 427,
+      "text": "Medusa actors use a well-known stealth technique that executes a base64 encrypted command.",
+      "line_start": 337
+    },
+    "u012": {
+      "start": 428,
+      "end": 459,
+      "text": "Obfuscated Files or Information",
+      "line_start": 428
+    },
+    "u013": {
+      "start": 460,
+      "end": 465,
+      "text": "T1027",
+      "line_start": 460
+    },
+    "u014": {
+      "start": 466,
+      "end": 559,
+      "text": "Medusa actors obfuscate a string by slicing it into pieces and referencing it via a variable.",
+      "line_start": 466
+    },
+    "u015": {
+      "start": 560,
+      "end": 577,
+      "text": "Indicator Removal",
+      "line_start": 560
+    },
+    "u016": {
+      "start": 578,
+      "end": 583,
+      "text": "T1070",
+      "line_start": 578
+    },
+    "u017": {
+      "start": 584,
+      "end": 645,
+      "text": "Medusa actors delete their previous work and tools installed.",
+      "line_start": 584
+    },
+    "u018": {
+      "start": 646,
+      "end": 669,
+      "text": "Disable or Modify Tools",
+      "line_start": 646
+    },
+    "u019": {
+      "start": 670,
+      "end": 675,
+      "text": "T1685",
+      "line_start": 670
+    },
+    "u020": {
+      "start": 676,
+      "end": 715,
+      "text": "Medusa actors kill or delete EDR tools.",
+      "line_start": 676
+    },
+    "u021": {
+      "start": 716,
+      "end": 736,
+      "text": "Direct Volume Access",
+      "line_start": 716
+    },
+    "u022": {
+      "start": 737,
+      "end": 742,
+      "text": "T1006",
+      "line_start": 737
+    },
+    "u023": {
+      "start": 743,
+      "end": 877,
+      "text": "Medusa actors use vssadmin to bypass Windows file access controls and file system monitoring tools to obtain copies of registry hives.",
+      "line_start": 743
+    },
+    "u024": {
+      "start": 878,
+      "end": 914,
+      "text": "Hide Artifacts: File/Path Exclusions",
+      "line_start": 878
+    },
+    "u025": {
+      "start": 915,
+      "end": 924,
+      "text": "T1564.012",
+      "line_start": 915
+    },
+    "u026": {
+      "start": 925,
+      "end": 1028,
+      "text": "(Updated Aug. 18, 2026) Medusa actors operate in pre-existing excluded folders within Windows Defender.",
+      "line_start": 925
+    },
+    "u027": {
+      "start": 1029,
+      "end": 1047,
+      "text": "Table 5: Discovery",
+      "line_start": 1029
+    },
+    "u028": {
+      "start": 1048,
+      "end": 1063,
+      "text": "Technique Title",
+      "line_start": 1048
+    },
+    "u029": {
+      "start": 1064,
+      "end": 1066,
+      "text": "ID",
+      "line_start": 1064
+    },
+    "u030": {
+      "start": 1067,
+      "end": 1070,
+      "text": "Use",
+      "line_start": 1067
+    },
+    "u031": {
+      "start": 1071,
+      "end": 1096,
+      "text": "Network Service Discovery",
+      "line_start": 1071
+    },
+    "u032": {
+      "start": 1097,
+      "end": 1102,
+      "text": "T1046",
+      "line_start": 1097
+    },
+    "u033": {
+      "start": 1103,
+      "end": 1169,
+      "text": "Medusa actors used LOTL techniques to perform network enumeration.",
+      "line_start": 1103
+    },
+    "u034": {
+      "start": 1170,
+      "end": 1198,
+      "text": "File and Directory Discovery",
+      "line_start": 1170
+    },
+    "u035": {
+      "start": 1199,
+      "end": 1204,
+      "text": "T1083",
+      "line_start": 1199
+    },
+    "u036": {
+      "start": 1205,
+      "end": 1273,
+      "text": "Medusa actors use Windows Command Prompt for filesystem enumeration.",
+      "line_start": 1205
+    },
+    "u037": {
+      "start": 1274,
+      "end": 1297,
+      "text": "Network Share Discovery",
+      "line_start": 1274
+    },
+    "u038": {
+      "start": 1298,
+      "end": 1303,
+      "text": "T1135",
+      "line_start": 1298
+    },
+    "u039": {
+      "start": 1304,
+      "end": 1391,
+      "text": "Medusa actors query shared drives on the local system to gather sources of information.",
+      "line_start": 1304
+    },
+    "u040": {
+      "start": 1392,
+      "end": 1430,
+      "text": "System Network Configuration Discovery",
+      "line_start": 1392
+    },
+    "u041": {
+      "start": 1431,
+      "end": 1436,
+      "text": "T1016",
+      "line_start": 1431
+    },
+    "u042": {
+      "start": 1437,
+      "end": 1513,
+      "text": "Medusa actors use OS administrative utilities to gather network information.",
+      "line_start": 1437
+    },
+    "u043": {
+      "start": 1514,
+      "end": 1542,
+      "text": "System Information Discovery",
+      "line_start": 1514
+    },
+    "u044": {
+      "start": 1543,
+      "end": 1548,
+      "text": "T1082",
+      "line_start": 1543
+    },
+    "u045": {
+      "start": 1549,
+      "end": 1628,
+      "text": "Medusa actors use the command systeminfo to gather detailed system information.",
+      "line_start": 1549
+    },
+    "u046": {
+      "start": 1629,
+      "end": 1656,
+      "text": "System Owner/User Discovery",
+      "line_start": 1629
+    },
+    "u047": {
+      "start": 1657,
+      "end": 1662,
+      "text": "T1033",
+      "line_start": 1657
+    },
+    "u048": {
+      "start": 1663,
+      "end": 1761,
+      "text": "Medusa actors use the command query user to gather information about the currently logged in user.",
+      "line_start": 1663
+    },
+    "u049": {
+      "start": 1762,
+      "end": 1798,
+      "text": "System Network Connections Discovery",
+      "line_start": 1762
+    },
+    "u050": {
+      "start": 1799,
+      "end": 1804,
+      "text": "T1049",
+      "line_start": 1799
+    },
+    "u051": {
+      "start": 1805,
+      "end": 1889,
+      "text": "Medusa actors use the command netstat -a to gather a listing of network connections.",
+      "line_start": 1805
+    },
+    "u052": {
+      "start": 1890,
+      "end": 1932,
+      "text": "Permission Groups Discovery: Domain Groups",
+      "line_start": 1890
+    },
+    "u053": {
+      "start": 1933,
+      "end": 1942,
+      "text": "T1069.002",
+      "line_start": 1933
+    },
+    "u054": {
+      "start": 1943,
+      "end": 2016,
+      "text": "Medusa actors attempt to find domain-level group and permission settings.",
+      "line_start": 1943
+    },
+    "u055": {
+      "start": 2017,
+      "end": 2043,
+      "text": "Table 6: Credential Access",
+      "line_start": 2017
+    },
+    "u056": {
+      "start": 2044,
+      "end": 2059,
+      "text": "Technique Title",
+      "line_start": 2044
+    },
+    "u057": {
+      "start": 2060,
+      "end": 2062,
+      "text": "ID",
+      "line_start": 2060
+    },
+    "u058": {
+      "start": 2063,
+      "end": 2066,
+      "text": "Use",
+      "line_start": 2063
+    },
+    "u059": {
+      "start": 2067,
+      "end": 2102,
+      "text": "OS Credential Dumping: LSASS Memory",
+      "line_start": 2067
+    },
+    "u060": {
+      "start": 2103,
+      "end": 2112,
+      "text": "T1003.001",
+      "line_start": 2103
+    },
+    "u061": {
+      "start": 2113,
+      "end": 2203,
+      "text": "Medusa actors access credential material stored in process memory or LSASS using Mimikatz.",
+      "line_start": 2113
+    },
+    "u062": {
+      "start": 2204,
+      "end": 2235,
+      "text": "Steal or Forge Kerberos Tickets",
+      "line_start": 2204
+    },
+    "u063": {
+      "start": 2236,
+      "end": 2241,
+      "text": "T1558",
+      "line_start": 2236
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1070",
+    "m002_T": "attack:T1070.003",
+    "m003_G": "local:ThreatGroup:medusa actors",
+    "m004_T": "attack:T1027",
+    "m005_T": "attack:T1027.013",
+    "m006_T": "local:Technique:t1685",
+    "m007_T": "attack:T1006",
+    "m008_T": "attack:T1564.012",
+    "m009_T": "attack:T1046",
+    "m010_T": "attack:T1083",
+    "m011_S": "local:Software:windows command prompt",
+    "m012_T": "attack:T1135",
+    "m013_T": "attack:T1016",
+    "m014_T": "attack:T1082",
+    "m015_S": "attack:S0096",
+    "m016_T": "attack:T1033",
+    "m017_T": "attack:T1049",
+    "m018_S": "attack:S0104",
+    "m019_T": "attack:T1069.002",
+    "m020_T": "attack:T1003.001",
+    "m021_S": "attack:S0002",
+    "m022_T": "attack:T1558"
+  },
+  "unavailable_choices": [
+    "m006_T"
+  ],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u036"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u045"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m015_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u051"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u061"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m021_S"
+      ]
+    }
+  ]
+}

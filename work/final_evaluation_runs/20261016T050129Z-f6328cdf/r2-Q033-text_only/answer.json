@@ -1,0 +1,194 @@
+{
+  "answer": "Akira actors use ngrok to bypass perimeter monitoring. [E1, E7]\nNgrok is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections. [E7]\nAkira actors use ngrok to connect to exfiltration servers. [E7]\nNgrok is used to create secure tunnels for data exfiltration. [E7]\nThe two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is: Akira actors use ngrok to bypass perimeter monitoring, which is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, which is used to connect to exfiltrat [E1, E7, E5]\nThe ATT&CK technique is T1572: Protocol Tunneling. [E5]\nThe mitigation for T1572 is Filter Network Traffic (M1037). [E11]\nThe actual practical guidance for Filter Network Traffic (M1037) is to filter network traffic to untrusted or known bad domains and resources. [E10]",
+  "claims": [
+    {
+      "text": "Akira actors use ngrok to bypass perimeter monitoring.",
+      "citations": [
+        "E1",
+        "E7"
+      ]
+    },
+    {
+      "text": "Ngrok is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections.",
+      "citations": [
+        "E7"
+      ]
+    },
+    {
+      "text": "Akira actors use ngrok to connect to exfiltration servers.",
+      "citations": [
+        "E7"
+      ]
+    },
+    {
+      "text": "Ngrok is used to create secure tunnels for data exfiltration.",
+      "citations": [
+        "E7"
+      ]
+    },
+    {
+      "text": "The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is: Akira actors use ngrok to bypass perimeter monitoring, which is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, which is used to connect to exfiltrat",
+      "citations": [
+        "E1",
+        "E7",
+        "E5"
+      ]
+    },
+    {
+      "text": "The ATT&CK technique is T1572: Protocol Tunneling.",
+      "citations": [
+        "E5"
+      ]
+    },
+    {
+      "text": "The mitigation for T1572 is Filter Network Traffic (M1037).",
+      "citations": [
+        "E11"
+      ]
+    },
+    {
+      "text": "The actual practical guidance for Filter Network Traffic (M1037) is to filter network traffic to untrusted or known bad domains and resources.",
+      "citations": [
+        "E10"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "beacons.\nAkira threat actors use STONESTOP malware to load additional payloads.\nEnd Update\nRemote Access Software\nT1219\nAkira threat actors use legitimate desktop support software like AnyDesk to obtain remote access to victim systems.\nUpdate Nov. 13, 2025\nAkira threat actors use SystemBC malware as a RAT.\nEnd Update\nUpdate Nov. 13, 2025\nProtocol Tunneling\nT1572\nAkira treat actors use Ngrok to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, bypass perimeter defenses, and maintain covert persistent access.\nEnd Update\nTable 20. Exfiltration\nTechnique Title\n",
+        "start": 38324,
+        "end": 38919,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "#StopRansomware: Akira Ransomware",
+        "start": 23,
+        "end": 56,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Technical Details",
+        "start": 4770,
+        "end": 4787,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Table 16. Discovery",
+        "start": 35062,
+        "end": 35081,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a",
+        "chunk_id": "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Train users to be aware of impersonation tricks and how to counter them, for example confirming incoming requests through an independent platform like a phone call or in-person, to reduce risk.",
+        "start": 265,
+        "end": 458,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a",
+        "chunk_id": "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Impersonation (T1656)\nMitigation: User Training (M1017)",
+        "start": 0,
+        "end": 87,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:bf46dd7f3830bd311596317c6cf684bb2b61928a04a6a7840ec27a4ff6d4539a",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": " such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega [T1537], to connect to exfiltration servers. In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].\nAfter exfiltrating data, Akira threat actors use a double-extortion model [T1657], which involves threat actors both encrypting systems [T1486] and threatening to leak sensitive information. The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].\n(Note: Tor, short for The Onion Router, is a decentralized network designed to anonymize internet traffic by routing it through multiple servers, encrypting data at each step. This network is often leveraged by threat actors to conceal their identities and activities, enabling secure and ",
+        "start": 12528,
+        "end": 13467,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "attack:17.1:relationship--8e567361-e2de-4dc6-b953-ec82dc143f58",
+        "chunk_id": "retrieval:1af110402c395816710490278cc3c01afdf29fd2e8797056064cdadf43715c3a",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "If a link is being visited by a user, network intrusion prevention systems and systems designed to scan and remove malicious downloads can be used to block activity.",
+        "start": 281,
+        "end": 446,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "attack:17.1:relationship--8e567361-e2de-4dc6-b953-ec82dc143f58",
+        "chunk_id": "retrieval:1af110402c395816710490278cc3c01afdf29fd2e8797056064cdadf43715c3a",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: User Execution (T1204)\nMitigation: Network Intrusion Prevention (M1031)",
+        "start": 0,
+        "end": 103,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98",
+        "chunk_id": "retrieval:21ccd5c160a96675e0d5bb61565df56aec49b233b87bba1f97399cd0dcf214ac",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Consider filtering network traffic to untrusted or known bad domains and resources. ",
+        "start": 279,
+        "end": 363,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E11",
+        "doc_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98",
+        "chunk_id": "retrieval:21ccd5c160a96675e0d5bb61565df56aec49b233b87bba1f97399cd0dcf214ac",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Protocol Tunneling (T1572)\nMitigation: Filter Network Traffic (M1037)",
+        "start": 0,
+        "end": 101,
+        "source_kind": "attack"
+      }
+    ],
+    "paths": [],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "retrieval_ms": 14.26050000009127,
+    "configuration_hash": "fb3bca230c45e4ecdb2fdaf776826d2f60d68182c76c16cb4da564aad97521f7",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 4989.4163999997545,
+  "generation_timestamp": "2026-10-16T05:08:36.132864Z",
+  "warnings": [
+    "Development text_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

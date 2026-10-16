@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:04:13.9818231Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 562112400,
+  "load_duration": 9212800,
+  "prompt_eval_count": 444,
+  "prompt_eval_duration": 171433000,
+  "eval_count": 23,
+  "eval_duration": 278867000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is Royal actors use?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

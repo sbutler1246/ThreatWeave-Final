@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:23:06.5042708Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 827289400,
+  "load_duration": 9733000,
+  "prompt_eval_count": 558,
+  "prompt_eval_duration": 297410000,
+  "eval_count": 28,
+  "eval_duration": 441642000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What ATT&CK techniques are used by Royal actors?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

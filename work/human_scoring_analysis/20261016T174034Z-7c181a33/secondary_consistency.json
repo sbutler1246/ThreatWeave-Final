@@ -1,0 +1,35 @@
+{
+  "factuality": {
+    "count": 19,
+    "exact_agreement": 0.21052631578947367,
+    "within_one": 1.0,
+    "mean_absolute_difference": 0.7894736842105263,
+    "mean_secondary_minus_primary": -0.7894736842105263,
+    "linear_weighted_kappa": 0.2748091603053434,
+    "excluded_secondary_ids": [
+      "S011"
+    ]
+  },
+  "completeness": {
+    "count": 19,
+    "exact_agreement": 0.7894736842105263,
+    "within_one": 1.0,
+    "mean_absolute_difference": 0.21052631578947367,
+    "mean_secondary_minus_primary": -0.21052631578947367,
+    "linear_weighted_kappa": 0.8232558139534883,
+    "excluded_secondary_ids": [
+      "S011"
+    ]
+  },
+  "coherence": {
+    "count": 19,
+    "exact_agreement": 0.3684210526315789,
+    "within_one": 0.8947368421052632,
+    "mean_absolute_difference": 0.7368421052631579,
+    "mean_secondary_minus_primary": -0.7368421052631579,
+    "linear_weighted_kappa": 0.15286624203821664,
+    "excluded_secondary_ids": [
+      "S011"
+    ]
+  }
+}

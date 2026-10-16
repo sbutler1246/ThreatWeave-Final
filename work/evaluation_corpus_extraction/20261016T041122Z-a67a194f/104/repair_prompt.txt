@@ -1,0 +1,44 @@
+DOCUMENT_ID: AA23-075A
+CHUNK_ID: AA23-075A:evaluation:llama500:9606:11457
+SOURCE_UNITS:
+{"u001": "(Mutex) Created", "u002": "When executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,", "u003": "and check to see if this mutex has already been created to avoid running more than one instance of the ransomware.", "u004": "UAC Bypass via Elevated COM Interface", "u005": "LockBit 3.0 is capable of bypassing User Account Control (UAC) to execute code with elevated privileges via elevated Component Object Model (COM) Interface.", "u006": "C:\\Windows\\System32\\dllhost.exe is spawned with high integrity with the command line GUID 3E5FC7F9-9A51-4367-9063-A120244FBEC.", "u007": "For example, %SYSTEM32%\\dllhost.exe/Processid:{3E5FC7F9-9A51-4367-9063- A120244FBEC7}.", "u008": "Volume Shadow Copy Deletion", "u009": "LockBit 3.0 uses Windows Management Instrumentation (WMI) to identify and delete Volume Shadow Copies.", "u010": "LockBit 3.0 uses select * from Win32_ShadowCopy to query for Volume Shadow copies, Win32_ShadowCopy.ID to obtain the ID of the shadow copy, and DeleteInstance to delete any shadow copies.", "u011": "Registry Artifacts", "u012": "LockBit 3.0 Icon", "u013": "Registry Key", "u014": "Value", "u015": "Data", "u016": "HKCR\\. <Malware Extension>", "u017": "(Default)", "u018": "<Malware Extension>", "u019": "HKCR\\<Malware Extension>\\DefaultIcon", "u020": "(Default)", "u021": "C:\\ProgramData\\<Mal ware Extension>.ico", "u022": "LockBit 3.0 Wallpaper", "u023": "Registry Key", "u024": "Value", "u025": "Data", "u026": "HKCU\\Control Panel\\Desktop\\WallPaper", "u027": "(Default)", "u028": "C:\\ProgramData\\<Mal ware Extension>.bmp", "u029": "Disable Privacy Settings Experience", "u030": "Registry Key", "u031": "Value", "u032": "Data", "u033": "SOFTWARE\\Policies\\Microsoft\\Win dows\\OOBE", "u034": "DisablePrivacyE xperience", "u035": "0", "u036": "Enable Automatic Logon", "u037": "Registry Key", "u038": "Value", "u039": "Data", "u040": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon", "u041": "AutoAdminLogon", "u042": "1", "u043": "DefaultUserName", "u044": "<username>", "u045": "DefaultDomainNa me", "u046": "<domain name>", "u047": "DefaultPassword", "u048": "<password>", "u049": "Disable and Clear Windows Event Logs", "u050": "Registry Key", "u051": "Value", "u052": "Data", "u053": "HKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\*", "u054": "Enabled", "u055": "0", "u056": "HKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\* \\ChannelAccess", "u057": "ChannelAccess"}
+SOURCE_MENTIONS:
+[{"id": "m001", "text": "LockBit 3.0", "codes": ["S"]}, {"id": "m002", "text": "User Account Control", "codes": ["M"]}, {"id": "m003", "text": "dllhost.exe", "codes": ["S"]}, {"id": "m004", "text": "LockBit 3.0 Affiliates", "codes": ["G"]}]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{"ctx3": "Table 2: Freeware and Open-Source Tools Used by LockBit 3.0 Affiliates"}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[{"unit_ids": ["u002"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u005"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u006"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m003_S"]}, {"unit_ids": ["u007"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m003_S"]}, {"unit_ids": ["u009"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u010"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u012"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u022"], "context_ids": ["ctx3"], "heads": ["m004_G"], "predicate": "USES", "tails": ["m001_S"]}]
+Return a corrected source-only result. Validation error: Repeated selected relationship.
+PREVIOUS OUTPUT (data):
+{
+  "relations": [
+    {
+      "unit_ids": ["u002"],
+      "context_ids": ["ctx3"],
+      "head": "m004_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    },
+    {
+      "unit_ids": ["u005"],
+      "context_ids": ["ctx3"],
+      "head": "m004_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    },
+    {
+      "unit_ids": ["u009"],
+      "context_ids": ["ctx3"],
+      "head": "m004_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    },
+    {
+      "unit_ids": ["u010"],
+      "context_ids": ["ctx3"],
+      "head": "m004_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    }
+  ]
+}

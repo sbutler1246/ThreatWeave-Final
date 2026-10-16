@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-16T10:17:30.126100+00:00",
+  "provenance": "Assistant-generated export from user-completed human progress. No new response ratings inferred. P069 transcription corrected to the previously agreed N/A values.",
+  "original_progress_preserved": true,
+  "entries": 80,
+  "numeric_entries": 75,
+  "all_dimensions_na_entries": [
+    "P003",
+    "P010",
+    "P034",
+    "P037",
+    "P069"
+  ],
+  "audited_score_mismatches_after_correction": [],
+  "only_entry_changed": "P069",
+  "p069_comment_moved_to_na_reason": true,
+  "files": {
+    "docs\\ThreatWeave_primary_review_progress.json": "107a2446914cabd90a27996497bc36ab77ac9c54bd5e5d3dc5558af7e735dd16",
+    "docs\\ThreatWeave_primary_review_progress_corrected.json": "8428037b296e0e302ca759b6e2fcc82df0ab468f9fae25dd67f7adb441dd0f61",
+    "docs\\ThreatWeave_primary_completed_ratings.json": "3cb251f9caaafe07406491e9ac45ef678614c863107560777fd91ee1132d4427"
+  }
+}

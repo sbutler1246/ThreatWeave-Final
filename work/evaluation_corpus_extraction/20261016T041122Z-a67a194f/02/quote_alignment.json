@@ -1,0 +1,40 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u010"
+    ],
+    "selected_units": [
+      {
+        "start": 543,
+        "end": 626,
+        "text": "Non-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]",
+        "line_start": 543
+      }
+    ],
+    "document_start": 5027,
+    "document_end": 5110,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u010"
+    ],
+    "selected_units": [
+      {
+        "start": 543,
+        "end": 626,
+        "text": "Non-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]",
+        "line_start": 543
+      }
+    ],
+    "document_start": 5027,
+    "document_end": 5110,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:2065:4310",
+    "doc_id": "AA23-075A",
+    "start": 2065,
+    "end": 4310,
+    "text": "\nNote: This advisory uses the MITRE ATT&CK® for Enterprise framework, version 12. See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK for Enterprise.\nCAPABILITIES\nLockBit 3.0, also known as “LockBit Black,” is more modular and evasive than its previous versions and shares similarities with Blackmatter and Blackcat ransomware.\nLockBit 3.0 is configured upon compilation with many different options that determine the behavior of the ransomware. Upon the actual execution of the ransomware within a victim environment, various arguments can be supplied to further modify the behavior of the ransomware. For example, LockBit 3.0 accepts additional arguments for specific operations in lateral movement and rebooting into Safe Mode (see LockBit Command Line parameters under Indicators of Compromise). If a LockBit affiliate does not have access to passwordless LockBit 3.0 ransomware, then a password argument is mandatory during the execution of the ransomware. LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001]. The password is a cryptographic key which decodes the LockBit 3.0 executable. By protecting the code in such a manner, LockBit 3.0 hinders malware detection and analysis with the code being unexecutable and unreadable in its encrypted form. Signature-based detections may fail to detect the LockBit 3.0 executable as the executable’s encrypted potion will vary based on the cryptographic key used for encryption while also generating a unique hash. When provided the correct password, LockBit 3.0 will decrypt the main component, continue to decrypt or decompress its code, and execute the ransomware.\nLockBit 3.0 will only infect machines that do not have language settings matching a defined exclusion list. However, whether a system language is checked at runtime is determined by a configuration flag originally set at compilation time. Languages on the exclusion list include, but are not limited to, Romanian (Moldova), Arabic (Syria), and Tatar (Russia). If a language from the exclusion list is detected [T1614.001], LockBit 3.0 will stop execution without infecting the system.\nINITIAL ACCESS\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 477,
+  "inherited_context_tokens": 18,
+  "overlap_with_previous_tokens": 0,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "d4cd48aedfaf886347b657707a5337f26035310d690ba2bc23eaf95d69f2ab45",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

@@ -1,0 +1,660 @@
+{
+  "purpose": "AI_assisted_development_source_review",
+  "human_review_status": "pending",
+  "original_run": "work\\corpus_extension_extraction\\20261016T000937Z-0cef6551",
+  "original_summary_sha256": "ef4bc85da43432740977b8ccda1f10f4be10377dbe5161ee3d957b0ce863a78e",
+  "review_artifacts": "work\\corpus_extension_review_checks\\20261016T001318Z-ae84a38a",
+  "artifact_receipt_sha256": "4f485719b33c8eb50b63704ed9b4141c77feb105f22a386101ca226b5bb40a27",
+  "configuration_hash": "b84506a85d9f3697c3dbf9d3f44e6aa254d49b25ed28dad872efce8a6257125d",
+  "batch_plan_fingerprint": "4a78a36d24a4195b85256c120b8d5163af46c722041114165d1fe823558c8960",
+  "supported_count": 27,
+  "review_count": 9,
+  "rejected_count": 10,
+  "excluded_count": 19,
+  "candidate_count": 46,
+  "windows": [
+    {
+      "folder": "01",
+      "scope_id": "AA24-038A:development:llama500:6032:8859",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "02",
+      "scope_id": "AA24-038A:development:llama500:8540:11244",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "NTDS.dit is the Active Directory database file accessed or stolen in this passage, not a Software entity used by the actor."
+        }
+      ],
+      "original_raw_sha256": "ac3bb934df81a222a098044dd4cbdc7f63fe5542e15730d78b972d259ddd6793",
+      "file_sha256": {
+        "candidate_extraction.json": "f6ced0760b5a78b33127778497ad158694b4e3fde4f3761d9235e40cc2f3049d",
+        "derived_selection.json": "ac3bb934df81a222a098044dd4cbdc7f63fe5542e15730d78b972d259ddd6793",
+        "identity_resolution.json": "51cd2e5b975a471d7c3f321af2448d3c1c42da08a0f3edbfff51960c3aeaec0d",
+        "quote_alignment.json": "aadf7324175ee0d3a4a07fab15e9fc2209580cb0ad8b9a5da0f5cbcc6621880c"
+      }
+    },
+    {
+      "folder": "03",
+      "scope_id": "AA24-038A:development:llama500:10885:13980",
+      "decisions": [],
+      "original_raw_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "04",
+      "scope_id": "AA24-038A:development:llama500:13617:16082",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES_TECHNIQUE -> T1591. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES_TECHNIQUE -> T1589.002. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES_TECHNIQUE -> T1090.003. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The source explicitly describes Volt Typhoon actors using routers implanted with KV Botnet malware to support their operations."
+        }
+      ],
+      "original_raw_sha256": "b7c03a310ddb38fbe830c5fc3236e88ea840623b02c1d2043af2e3106867666d",
+      "file_sha256": {
+        "candidate_extraction.json": "760471600ef1e8223965d44afe876e370138e89c394e4c485ba5acb43290860b",
+        "derived_selection.json": "b7c03a310ddb38fbe830c5fc3236e88ea840623b02c1d2043af2e3106867666d",
+        "identity_resolution.json": "c0409e303a4072ce7583b67b8522f082afadc131520702d8e405fbbc7440cd56",
+        "quote_alignment.json": "a245a900d5dc646576e8791930b488509b3879e391ba8f054322ab3324e76d0d"
+      }
+    },
+    {
+      "folder": "05",
+      "scope_id": "AA24-038A:development:llama500:15793:18394",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES_TECHNIQUE -> T1059. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The source annotates native tools/processes with T1218, but the selected passage does not describe proxy execution of malicious content. Hold this broad behavior/ID mapping for review."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "Actors download comsvcs.dll in the T1105 passage; the downloaded DLL is not the subject performing the ingress transfer."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "Observed use of Magnet RAM Capture is definite. The later likely-qualified analysis purpose is not part of this tool-use assertion."
+        }
+      ],
+      "original_raw_sha256": "170b465a0809547264a7b1d5b140a13c1c17a5ff4a7dea2d9323e3725d6c93b6",
+      "file_sha256": {
+        "candidate_extraction.json": "09c5126b2e94201bbfd6f612cf1ffadd0d9d2161f2907d54e741ac722c7a297e",
+        "derived_selection.json": "170b465a0809547264a7b1d5b140a13c1c17a5ff4a7dea2d9323e3725d6c93b6",
+        "identity_resolution.json": "59b06a175dc4aa8ae70d6a9a295df1982bbfd7b3bea87ea098ee50f9c0c2410c",
+        "quote_alignment.json": "889caf7386d784f03e6d4663528cfe433fc412ce7f398d27d3ba7ac5cd6feb08"
+      }
+    },
+    {
+      "folder": "06",
+      "scope_id": "AA24-038A:development:llama500:18096:20499",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES -> FRP. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The passage describes actors packing FRP client files with UPX. Passive packaging is not an explicit FRP-performed action; review this Software-to-technique interpretation before import."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The source explicitly attributes exploiting privilege-escalation vulnerabilities, annotated T1068, to Volt Typhoon actors; the introductory initial-access clause sets sequence, not uncertainty."
+        }
+      ],
+      "original_raw_sha256": "dd61db8c6e09b89205304e5ccbea230d750f679d9b7773dc3c68f815b7456221",
+      "file_sha256": {
+        "candidate_extraction.json": "87bc793937cfb1586dc7a26b49df9f62da87ba920d28dace409bc4ef1cd537f3",
+        "derived_selection.json": "dd61db8c6e09b89205304e5ccbea230d750f679d9b7773dc3c68f815b7456221",
+        "identity_resolution.json": "37125b0df53998f6746e72bf523d22591b1657a18e0c62ea8ebbc9ebcd951ce7",
+        "quote_alignment.json": "b11b12ea0ddbea36d791c7d4d29f182c3454c48626dad473c7f20c8c662e9adc"
+      }
+    },
+    {
+      "folder": "07",
+      "scope_id": "AA24-038A:development:llama500:20222:22508",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Co-occurring incident tactic and technique annotations do not explicitly state a general PART_OF_TACTIC taxonomy relationship."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "LOTL names a general living-off-the-land approach, not software. The passage attributes the T1047 command execution to WMIC, not LOTL."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "LOTL is an activity category, not software performing offline password cracking. Its occurrence in the appendix title does not support this endpoint."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES -> PuTTY. The selected assertion is definite and its endpoint roles match the source."
+        }
+      ],
+      "original_raw_sha256": "6371582ed5dbb696033ee30976d94dc7db0c22e2c5adc93019ef3656ac1062e6",
+      "file_sha256": {
+        "candidate_extraction.json": "70e2be480aae951f60951b1edaa6b1910a97816e07b995ae0fa8086715e141c1",
+        "derived_selection.json": "6371582ed5dbb696033ee30976d94dc7db0c22e2c5adc93019ef3656ac1062e6",
+        "identity_resolution.json": "676c909ae0fcffc54deab041ff678b757a78704cfc8dd1c763e17c7d9c686e2b",
+        "quote_alignment.json": "1b6eb05480d60bc16cdc6b69e0a7d3371c21fe89521964cf5776d8a063b59a24"
+      }
+    },
+    {
+      "folder": "08",
+      "scope_id": "AA24-038A:development:llama500:22202:24566",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES -> Mimikatz. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES_TECHNIQUE -> T1082. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "The source describes deletion of the output file systeminfo.dat, not the systeminfo executable performing deletion. A substring match is not the required software endpoint."
+        }
+      ],
+      "original_raw_sha256": "d5cfa61c0d00141d0414d6d5cbf569ce0a18508d6b32ef4364151a4841c3fd6b",
+      "file_sha256": {
+        "candidate_extraction.json": "e1d61a5da056b67a7a16bd5b98bc5c37ec241545c2a6bbcf3dac14a1a3af1f88",
+        "derived_selection.json": "793bd17d7894effbf88f5bc8677c961c1320fef0794c7167012be86916d8d857",
+        "identity_resolution.json": "08a153d73ab6baffad3efd8ecab1f649c1a6dbec99449352aa4dd4102f9d6037",
+        "quote_alignment.json": "9e149895f535927dfd3922a7fb98d540b8135dc6c429221c65256ac0c2058907"
+      }
+    },
+    {
+      "folder": "09",
+      "scope_id": "AA24-038A:development:llama500:24254:26777",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The selected span describes deletion of systeminfo.dat. It does not state that the systeminfo executable performs T1070.004."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes tasklist -> USES_TECHNIQUE -> T1057. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The source annotates ping network-connectivity checks with T1016.001, but the selected span does not establish Internet connectivity, the specific frozen technique. Hold the behavior/ID scope for review."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "review",
+          "reason": "The source records an attempt to use Advanced IP Scanner. Confirmed tool use or execution is not established by this selected passage; preserve the attempt qualification."
+        }
+      ],
+      "original_raw_sha256": "f67beacb49bde44b039e14292d3b007c6737cb0c55bd264b207851ee4efbe7a3",
+      "file_sha256": {
+        "candidate_extraction.json": "d2a53e8fadaf94550fd400406628f46e4fbf665a2cb0b3eeb3c27410cab5d0a8",
+        "derived_selection.json": "f67beacb49bde44b039e14292d3b007c6737cb0c55bd264b207851ee4efbe7a3",
+        "identity_resolution.json": "5f4fd1400c14fbccc3ef0882462f3df777be50217023afa1197d42b4ae4c58b5",
+        "quote_alignment.json": "7466116ea3802f878119386ee778bda0675fcc8a69262b6cf61fb207acc2d22b"
+      }
+    },
+    {
+      "folder": "10",
+      "scope_id": "AA24-038A:development:llama500:26482:28837",
+      "decisions": [],
+      "original_raw_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "11",
+      "scope_id": "AA24-038A:development:llama500:28528:31303",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES -> PuTTY. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES -> PSExec. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "The incident collection and archive annotations do not state a general technique-to-tactic taxonomy relationship. Do not infer PART_OF_TACTIC from co-occurrence."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "The passage qualifies exfiltration with likely and does not state a general technique-to-tactic taxonomy relationship."
+        }
+      ],
+      "original_raw_sha256": "06902864c1b6c932dad5d58e8144c0d7d17cd14904292fe1b5341194f313075b",
+      "file_sha256": {
+        "candidate_extraction.json": "197de25b0b3c7b56f1e5b59666fcc112fbe40f48dee219351c12b223cd107c6f",
+        "derived_selection.json": "06902864c1b6c932dad5d58e8144c0d7d17cd14904292fe1b5341194f313075b",
+        "identity_resolution.json": "53396aed047f4903f45c6aa430681caaa57217ba8efb092eed07e18e147e7be3",
+        "quote_alignment.json": "df3dac27343578137cab934b52eca04a68d9df64f3a1ee88f40b9f6216e4fa73"
+      }
+    },
+    {
+      "folder": "12",
+      "scope_id": "AA24-038A:development:llama500:30941:33296",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "Executing ronf.exe to compress/archive the files is definite. Likely qualifies only its possible rar.exe identity, which is not asserted here."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes FRP -> USES_TECHNIQUE -> T1090. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Volt Typhoon actors -> USES -> FRP. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected contiguous passage explicitly ties Volt Typhoon actors to file compression/archive execution annotated T1560.001. Likely qualifies the utility rename, not the observed compression."
+        }
+      ],
+      "original_raw_sha256": "54e352dcf14779895a0c446c3807630ecdef5570bd2b820156f3a116fecb1207",
+      "file_sha256": {
+        "candidate_extraction.json": "09a230563d0d70dccfab0e554fa5c710e990a5b2b8bdd8aa0f1242c0e1e904e1",
+        "derived_selection.json": "54e352dcf14779895a0c446c3807630ecdef5570bd2b820156f3a116fecb1207",
+        "identity_resolution.json": "f90e3ddffe369b25fb772a175d3caeef07e2d493d3d7ba8f832ca51641029a93",
+        "quote_alignment.json": "ca3253dbae6f39967df26d540cbd783e86f98eb65c156bcd618b111283e10c83"
+      }
+    },
+    {
+      "folder": "13",
+      "scope_id": "AA24-038A:development:llama500:33045:35669",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The source directly describes Volt Typhoon actors using an intermediary server for their FRP operations, supporting actual FRP use."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes netsh -> USES_TECHNIQUE -> T1112. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes netsh -> USES_TECHNIQUE -> T1090.001. The selected assertion is definite and its endpoint roles match the source."
+        }
+      ],
+      "original_raw_sha256": "9076ef8477654d582a64f3bb70acf0f95e7b9a5a4604ec1aaa26ad5bf036f0d2",
+      "file_sha256": {
+        "candidate_extraction.json": "ee08e5c8718b860a97c2e240c1589b2b8382319ed46bc38966086add13f21127",
+        "derived_selection.json": "9076ef8477654d582a64f3bb70acf0f95e7b9a5a4604ec1aaa26ad5bf036f0d2",
+        "identity_resolution.json": "ff6fc5c011271976e76377ce10870d4878beea7873885b7ebc977aaf9c446efb",
+        "quote_alignment.json": "1d78c3e6fbf4b75c67b78e40b94e26e58205ba4af8e0067105d32835278e7b2d"
+      }
+    },
+    {
+      "folder": "14",
+      "scope_id": "AA24-038A:development:llama500:35388:37325",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "15",
+      "scope_id": "AA24-038A:development:llama500:37047:39344",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "16",
+      "scope_id": "AA24-038A:development:llama500:39055:41394",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "17",
+      "scope_id": "AA24-038A:development:llama500:41087:43719",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "This is a comparison in a defensive detection caveat warning against attributing proxy activity to Volt Typhoon. Hold the indirect FRP attribution rather than treat the caveat as a definite use observation."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The passage establishes downloading comsvcs.dll. It does not explicitly establish executing or using the DLL, so the unconditional USES relationship needs review."
+        }
+      ],
+      "original_raw_sha256": "0d6f9223b7f04a34485af1cfdd86c4729c059f8619af096a516a6c9ea7b43c09",
+      "file_sha256": {
+        "candidate_extraction.json": "a4d3cb88700f51c387b7ae2be6074f49b036a7b24f932ed9663545f135249a5f",
+        "derived_selection.json": "0d6f9223b7f04a34485af1cfdd86c4729c059f8619af096a516a6c9ea7b43c09",
+        "identity_resolution.json": "9d53d4ec5529cdf5fca6229612a32561de117f416317e2a13600c9aba0f82b9f",
+        "quote_alignment.json": "4342f9a80a78aaf49f2edaccd4b14119c1930c74646b95515b09c811afcbd58c"
+      }
+    },
+    {
+      "folder": "18",
+      "scope_id": "AA24-038A:development:llama500:43343:46216",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "19",
+      "scope_id": "AA24-038A:development:llama500:45851:48255",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "20",
+      "scope_id": "AA23-144A:development:llama500:2866:5312",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes FRP -> USES_TECHNIQUE -> T1090. The selected assertion is definite and its endpoint roles match the source."
+        }
+      ],
+      "original_raw_sha256": "1bdf1d536bcdee659861d40cc7dd16f9f2722d2cf689846ac2c8cb643f1ccb93",
+      "file_sha256": {
+        "candidate_extraction.json": "b6019b0ea882378a711ea8261a0f599f3b51fadae0d43e4d988dee62f914f843",
+        "derived_selection.json": "1bdf1d536bcdee659861d40cc7dd16f9f2722d2cf689846ac2c8cb643f1ccb93",
+        "identity_resolution.json": "b1ece7154a9fea0fc9421df1e261ff75374926890d262d4a588f9f68d051b455",
+        "quote_alignment.json": "8024f3489c801733a0dfd798d352929d53f41ee8cd20c695bf91d52ec6760818"
+      }
+    },
+    {
+      "folder": "21",
+      "scope_id": "AA23-144A:development:llama500:5058:7282",
+      "decisions": [],
+      "original_raw_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "22",
+      "scope_id": "AA23-144A:development:llama500:7090:8977",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The T1047 annotation belongs to WMIC commands that execute ntdsutil.exe. The spawned tool is not the subject performing the WMI technique."
+        }
+      ],
+      "original_raw_sha256": "23d506e34b37da972d97ce0a6abca9a8f32af9ca52aa32effe320b977ac7e57b",
+      "file_sha256": {
+        "candidate_extraction.json": "75b93f61ee7655e43bf9696c57006f39209f30588b4473e10cfd0e6ad88bdd78",
+        "derived_selection.json": "23d506e34b37da972d97ce0a6abca9a8f32af9ca52aa32effe320b977ac7e57b",
+        "identity_resolution.json": "89a7fbc8ee77a0c9d3c3df479ecc95035f2bddf9e2573e442aec3dc90e3ba9cd",
+        "quote_alignment.json": "1e3ce8c05cbb323b5f66ab0a6528107b5f6e9d12dc01dcf9247dd37415eaa54f"
+      }
+    },
+    {
+      "folder": "23",
+      "scope_id": "AA23-144A:development:llama500:8817:10877",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "24",
+      "scope_id": "AA23-144A:development:llama500:10640:12844",
+      "decisions": [],
+      "original_raw_sha256": "55e199fc54b340c235c4e56ddb2e7765abae8d00d0ff97353e6672effca42c62",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "55e199fc54b340c235c4e56ddb2e7765abae8d00d0ff97353e6672effca42c62",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "25",
+      "scope_id": "AA23-144A:development:llama500:12637:15219",
+      "decisions": [],
+      "original_raw_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "26",
+      "scope_id": "AA23-144A:development:llama500:14842:17098",
+      "decisions": [],
+      "original_raw_sha256": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "27",
+      "scope_id": "AA23-144A:development:llama500:16923:18755",
+      "decisions": [],
+      "original_raw_sha256": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "28",
+      "scope_id": "AA23-144A:development:llama500:18586:19961",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "29",
+      "scope_id": "AA22-321A:development:llama500:1806:4233",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Hive actors -> USES_TECHNIQUE -> T1133. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Hive actors -> USES_TECHNIQUE -> T1566.001. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Hive actors -> USES_TECHNIQUE -> T1190. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Hive -> USES_TECHNIQUE -> T1562. The selected assertion is definite and its endpoint roles match the source."
+        }
+      ],
+      "original_raw_sha256": "91df013aa04ce2f203b18a51abb5a892933f778de01a72e8b78a1d7447fd2185",
+      "file_sha256": {
+        "candidate_extraction.json": "2c9a367d0247d48c669d390b726279b7c9d3f45a624730c129ef40d72644851e",
+        "derived_selection.json": "91df013aa04ce2f203b18a51abb5a892933f778de01a72e8b78a1d7447fd2185",
+        "identity_resolution.json": "186c0ce1cd3fc28082e3ab678c42e5560bddfec5e4416359bd63e494ae0246b0",
+        "quote_alignment.json": "166a0532ff62bbe662e990345eadcb8629fb92c36b30b0f9706f1aeee38fde08"
+      }
+    },
+    {
+      "folder": "30",
+      "scope_id": "AA22-321A:development:llama500:3953:6298",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Hive -> USES_TECHNIQUE -> T1112. The selected assertion is definite and its endpoint roles match the source."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The source says data exfiltration likely uses a combination including Rclone. This does not establish definite Rclone use."
+        }
+      ],
+      "original_raw_sha256": "b90a9b1c7ccbde3dbf449386f79d39d6b9519d0162703062f44e9d69bb74ff64",
+      "file_sha256": {
+        "candidate_extraction.json": "c029f9062431c989ac468fe180d1779f3b86580e1148428737f469c5b12f6ea3",
+        "derived_selection.json": "b90a9b1c7ccbde3dbf449386f79d39d6b9519d0162703062f44e9d69bb74ff64",
+        "identity_resolution.json": "70cfd12e6b2fad9d3d44dbef7d8a2d8119a19a8c1d4e453a013e26eadd3ed564",
+        "quote_alignment.json": "90c9fc64d990e075c4eeeb900342c1c9ac0739fc085b4dfb28a6ad8091905bbf"
+      }
+    },
+    {
+      "folder": "31",
+      "scope_id": "AA22-321A:development:llama500:5976:8313",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The reinfection passage allows either Hive ransomware or another variant. Preserve that payload disjunction rather than select Hive as the definite payload of the described reinfections."
+        }
+      ],
+      "original_raw_sha256": "8aff9b32f06df320f0beefaae99a9b246b2d6b50f617422670d818a63ac6f863",
+      "file_sha256": {
+        "candidate_extraction.json": "98ffb8ee60071677e900c824e75702d1ba8229de703db7c3d4b1e341e7940347",
+        "derived_selection.json": "8aff9b32f06df320f0beefaae99a9b246b2d6b50f617422670d818a63ac6f863",
+        "identity_resolution.json": "2a1ffb03e31f8f31cefbe3011d96384e27a8682ce6026854d04ac69f2ccfa636",
+        "quote_alignment.json": "87f30972c8cc8f655142976fd8a1cdfd8ed1cfca35d58fd25a0840d268fb8c37"
+      }
+    },
+    {
+      "folder": "32",
+      "scope_id": "AA22-321A:development:llama500:8030:9146",
+      "decisions": [],
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      }
+    },
+    {
+      "folder": "33",
+      "scope_id": "AA22-321A:development:llama500:9038:11131",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The source says a possible combination of Rclone and Mega.nz. Definite Rclone use is not established by this selected statement."
+        }
+      ],
+      "original_raw_sha256": "22f6dfb3f5f517f60a258a45d154a5035710e0dc614d8091ce0dd3c413d9c814",
+      "file_sha256": {
+        "candidate_extraction.json": "ea9eccc9c07024394bd38afec3bb3b98b839582f4c9223d026d92da3cf4c58a7",
+        "derived_selection.json": "22f6dfb3f5f517f60a258a45d154a5035710e0dc614d8091ce0dd3c413d9c814",
+        "identity_resolution.json": "927274f293dea2d30053401ea966f268116d8a4142ef619f48aef9eeeecdd714",
+        "quote_alignment.json": "df6230a6e0ecea4066da3581f976e298dba786ccbcd65b666a674d3ae3524d29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:18:49.1024799Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3886626300,
+  "load_duration": 6568400,
+  "prompt_eval_count": 1246,
+  "prompt_eval_duration": 109487000,
+  "eval_count": 288,
+  "eval_duration": 3709083000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"statements\": [\n        {\n            \"statement\": \"The ATT&CK technique connected to Akira threat actors through the reported use of Mimikatz is T1204: User Execution.\",\n            \"reason\": \"The context mentions ATT&CK release 17.1 and technique T1204: User Execution, which is directly related to the statement.\",\n            \"verdict\": 1\n        },\n        {\n            \"statement\": \"The evidence for this connection is [E9, E8].\",\n            \"reason\": \"The context mentions E9 and E8 as evidence for the connection, which is directly related to the statement.\",\n            \"verdict\": 1\n        },\n        {\n            \"statement\": \"The two-hop actor-to-software-to-technique path is Akira threat actors -> Mimikatz -> T1204: User Execution.\",\n            \"reason\": \"The context mentions ATT&CK release 17.1 and technique T1204: User Execution, which is directly related to the statement.\",\n            \"verdict\": 1\n        },\n        {\n            \"statement\": \"The evidence for this path is [E9, E8, E1].\",\n            \"reason\": \"The context mentions E9 and E8 as evidence for the connection, but E1 is not directly related to the statement.\",\n            \"verdict\": 0\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

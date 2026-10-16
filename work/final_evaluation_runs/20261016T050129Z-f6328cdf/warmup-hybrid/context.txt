@@ -1,0 +1,59 @@
+SOURCE PASSAGES
+[E1; CISA]
+Rhysida actors have commonly been observed authenticating to internal VPN access points with compromised valid credentials [T1078]
+[E2; CISA]
+#StopRansomware: Rhysida Ransomware
+[E3; CISA]
+Technical Details
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Account Use Policies (M1036)
+[E5; ATTACK]
+Use conditional access policies to block logins from non-compliant devices or from outside defined organization IP ranges.(Citation: Microsoft Common Conditional Access Policies)
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Application Developer Guidance (M1013)
+[E7; ATTACK]
+Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Active Directory Configuration (M1015)
+[E9; ATTACK]
+Disable legacy authentication, which does not support MFA, and require the use of modern authentication protocols instead.
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Password Policies (M1027)
+[E11; ATTACK]
+Applications and appliances that utilize default username and password should be changed immediately after the installation, and before deployment to a production environment.(Citation: US-CERT Alert TA13-175A Risks of Default Passwords on the Internet) When possible, applications that use SSH keys should be updated periodically and properly secured.
+
+Policies should minimize (if not eliminate) reuse of passwords between different user accounts, especially employees using the same credentials for personal accounts that may not be defended by enterprise security resources.
+[E12; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: User Training (M1017)
+[E13; ATTACK]
+Applications may send push notifications to verify a login as a form of multi-factor authentication (MFA). Train users to only accept valid push notifications and to report suspicious push notifications.
+[E14; ATTACK]
+Regularly audit user accounts for activity and deactivate or remove any that are no longer needed.
+[E15; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: User Account Management (M1018)
+GRAPH NODES
+N1: Rhysida actors
+N2: Valid Accounts (T1078)
+N3: Account Use Policies (M1036)
+N4: Application Developer Guidance (M1013)
+N5: Active Directory Configuration (M1015)
+N6: Password Policies (M1027)
+N7: User Training (M1017)
+GRAPH PATHS
+P1: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E4,E5]--> N3
+P2: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E6,E7]--> N4
+P3: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E8,E9]--> N5
+P4: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E10,E11]--> N6
+P5: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E12,E13]--> N7

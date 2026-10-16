@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-075A
+CHUNK_ID: AA23-075A:evaluation:llama500:12712:14097
+SOURCE_UNITS:
+{"u001": "allRegular=\"0\" allHidden=\"0\" allAdminDrive=\"0\" limitUsers=\"NO_CHANGE\" abe=\"NO_CHANGE\"/>", "u002": "Services.xml stops and disables services on the Active Directory (AD) hosts.", "u003": "Services.xml", "u004": "<?xml version=\"1.0\" encoding=\"utf-8\"?>", "u005": "<NTServices clsid=\"{2CFB484A-4E96-4b5d-A0B6-093D2F91E6AE}\">", "u006": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u007": "name=\"SQLPBDMS\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u008": "<Properties startupType=\"DISABLED\" serviceName=\"SQLPBDMS\" serviceAction=\"STOP\" timeout=\"30\"/>", "u009": "</NTService>", "u010": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u011": "name=\"SQLPBENGINE\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u012": "<Properties startupType=\"DISABLED\" serviceName=\"SQLPBENGINE\" serviceAction=\"STOP\" timeout=\"30\"/>", "u013": "</NTService>", "u014": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u015": "name=\"MSSQLFDLauncher\" image=\"4\" changed=\"%s\" uid=\"%s\" userContext=\"0\" removePolicy=\"0\" disabled=\"0\">", "u016": "<Properties startupType=\"DISABLED\" serviceName=\"MSSQLFDLauncher\" serviceAction=\"STOP\" timeout=\"30\"/>", "u017": "</NTService>", "u018": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u019": "name=\"SQLSERVERAGENT\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u020": "<Properties startupType=\"DISABLED\" serviceName=\"SQLSERVERAGENT\" serviceAction=\"STOP\" timeout=\"30\"/>", "u021": "</NTService>", "u022": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u023": "name=\"MSSQLServerOLAPService\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">"}
+SOURCE_MENTIONS:
+[]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[]

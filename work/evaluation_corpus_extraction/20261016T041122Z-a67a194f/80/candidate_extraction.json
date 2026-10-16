@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Medusa actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "Mimikatz",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "Windows Command Prompt",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "PDQ Deploy",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "Sysinternals PsExec",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 96,
+        "end": 186,
+        "quote": "Medusa actors access credential material stored in process memory or LSASS using Mimikatz."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 630,
+        "end": 781,
+        "quote": "Medusa actors use Windows Command Prompt, which can be used to control almost any aspect of a system, for ingress, network, and filesystem enumeration."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 814,
+        "end": 906,
+        "quote": "Medusa actors use PDQ Deploy and BigFix to deploy the encryptor on files across the network."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e5",
+      "evidence": {
+        "start": 1120,
+        "end": 1210,
+        "quote": "Medusa actors use Sysinternals PsExec to deploy the encryptor on files across the network."
+      },
+      "confidence": null
+    }
+  ]
+}

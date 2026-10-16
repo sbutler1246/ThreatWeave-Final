@@ -1,0 +1,49 @@
+{
+  "fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "collection_name": "threatweave_text_eval_0fe7f0c80769a67a",
+  "chroma_path": "S:\\ThreatWeave\\work\\chroma",
+  "records_path": "S:\\ThreatWeave\\work\\evaluation_text_index\\0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73\\records.json",
+  "records_sha256": "3d88914136180ea4f7ea3c6f4e20ae07deb6d52d7bde02a4766343a9d1b07d0a",
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dimension": 384,
+    "normalize": true
+  },
+  "chunking": {
+    "extraction_llama_token_target": 500,
+    "extraction_llama_token_range": [
+      400,
+      600
+    ],
+    "extraction_overlap_tokens": 60,
+    "retrieval_minilm_wordpiece_ceiling": 240,
+    "retrieval_overlap_wordpieces": 40,
+    "retrieval_character_ceiling": 1000,
+    "relationship": "Retrieval child chunks retain parent extraction-chunk ID and normalized document offsets."
+  },
+  "corpus_version": "cisa-selected-2026-10-03",
+  "packages": {
+    "sentence-transformers": "3.4.1",
+    "transformers": "4.49.0",
+    "torch": "2.6.0+cpu",
+    "numpy": "1.26.4",
+    "chromadb": "1.0.15"
+  },
+  "development_scope": {
+    "name": "expanded_reviewed_development_sources",
+    "sha256": "ab3732f875177906c400d82268fbbeed719b9a26b4f3836215d713821bd9beb8",
+    "cisa_scope_count": 53,
+    "attack_reference_count": 139
+  },
+  "evaluation_scope": {
+    "name": "frozen_shared_evaluation_sources_v1",
+    "sha256": "75547d824c6b0386fdac3ed17b3a50f03b97c1eaabc2ae1692961a2d7fb5d599",
+    "cisa_scope_count": 101,
+    "attack_reference_count": 190,
+    "evaluation_plan_fingerprint": "89764a8af84a83b36f3aa17425775142376c305bddfd9ce07fc7019ded39945b",
+    "mitigation_import_receipt_sha256": "74c8cfb98f2de2c16b4b1c1b9b0c389c2459a9c3880f6d59442689a29c8f7d3d",
+    "source_import_receipt_sha256": "ce307d711963f680eefaad626b1db581d5fc151fbf8899a6234f18b10cbd82dd",
+    "policy": "Same reviewed development plus evaluation source windows and direct references for all four modes; no labels or reference answers."
+  }
+}

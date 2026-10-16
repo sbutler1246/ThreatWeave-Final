@@ -1,0 +1,11 @@
+{
+  "relations": [
+    {
+      "unit_ids": ["u039"],
+      "context_ids": [],
+      "head": "m004_G",
+      "predicate": "USES",
+      "tail": "m012_S"
+    }
+  ]
+}

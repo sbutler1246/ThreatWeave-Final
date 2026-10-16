@@ -1,0 +1,460 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1537",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Ngrok",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1090",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1657",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1090.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1573.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "akira",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "inhibit system recovery",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "w.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "T1537",
+      "type": "Technique",
+      "attack_id": "T1537"
+    },
+    "m003_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Ngrok",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1090",
+      "type": "Technique",
+      "attack_id": "T1090"
+    },
+    "m007_T": {
+      "name": "T1657",
+      "type": "Technique",
+      "attack_id": "T1657"
+    },
+    "m008_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m009_T": {
+      "name": "T1090.003",
+      "type": "Technique",
+      "attack_id": "T1090.003"
+    },
+    "m010_T": {
+      "name": "T1573.002",
+      "type": "Technique",
+      "attack_id": "T1573.002"
+    },
+    "m011_S": {
+      "name": "akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_G": {
+      "name": "akira",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "inhibit system recovery",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m013_S": {
+      "name": "w.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 121,
+      "text": "such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega [T1537]",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 123,
+      "end": 158,
+      "text": "to connect to exfiltration servers.",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 159,
+      "end": 263,
+      "text": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+      "line_start": 0
+    },
+    "u004": {
+      "start": 264,
+      "end": 345,
+      "text": "After exfiltrating data, Akira threat actors use a double-extortion model [T1657]",
+      "line_start": 264
+    },
+    "u005": {
+      "start": 347,
+      "end": 454,
+      "text": "which involves threat actors both encrypting systems [T1486] and threatening to leak sensitive information.",
+      "line_start": 264
+    },
+    "u006": {
+      "start": 455,
+      "end": 649,
+      "text": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].",
+      "line_start": 264
+    },
+    "u007": {
+      "start": 650,
+      "end": 825,
+      "text": "(Note: Tor, short for The Onion Router, is a decentralized network designed to anonymize internet traffic by routing it through multiple servers, encrypting data at each step.",
+      "line_start": 650
+    },
+    "u008": {
+      "start": 826,
+      "end": 1029,
+      "text": "This network is often leveraged by threat actors to conceal their identities and activities, enabling secure and anonymous communication channels for malicious purposes, such as ransomware negotiations.)",
+      "line_start": 650
+    },
+    "u009": {
+      "start": 1030,
+      "end": 1200,
+      "text": "Akira threat actors do not leave an initial ransom demand or payment instructions on compromised networks and do not relay this information until contacted by the victim.",
+      "line_start": 1030
+    },
+    "u010": {
+      "start": 1201,
+      "end": 1318,
+      "text": "Victims make ransom payments by using Bitcoin to cryptocurrency-wallet addresses provided by the Akira threat actors.",
+      "line_start": 1030
+    },
+    "u011": {
+      "start": 1319,
+      "end": 1506,
+      "text": "To further apply pressure, Akira threat actors threaten to publish exfiltrated data on the Tor network, and in some instances have called victimized companies, according to FBI reporting.",
+      "line_start": 1030
+    },
+    "u012": {
+      "start": 1507,
+      "end": 1528,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 1507
+    },
+    "u013": {
+      "start": 1529,
+      "end": 1630,
+      "text": "In some incidents, Akira threat actors exfiltrated data in just over two hours from initial access.13",
+      "line_start": 1529
+    },
+    "u014": {
+      "start": 1631,
+      "end": 1641,
+      "text": "End Update",
+      "line_start": 1631
+    },
+    "u015": {
+      "start": 1642,
+      "end": 1652,
+      "text": "Encryption",
+      "line_start": 1642
+    },
+    "u016": {
+      "start": 1653,
+      "end": 1731,
+      "text": "Akira threat actors use a sophisticated hybrid encryption scheme to lock data.",
+      "line_start": 1653
+    },
+    "u017": {
+      "start": 1732,
+      "end": 1860,
+      "text": "This involves combining a ChaCha20 stream cipher with an RSA public-key cryptosystem for a fast and secure key exchange [T1486].",
+      "line_start": 1653
+    },
+    "u018": {
+      "start": 1861,
+      "end": 1986,
+      "text": "This multilayered approach customizes encryption methods based on file type and size, and enables full or partial encryption.",
+      "line_start": 1653
+    },
+    "u019": {
+      "start": 1987,
+      "end": 2056,
+      "text": "Encrypted files are appended with a .akira or .powerranges extension.",
+      "line_start": 1653
+    },
+    "u020": {
+      "start": 2057,
+      "end": 2078,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 2057
+    },
+    "u021": {
+      "start": 2079,
+      "end": 2214,
+      "text": "With the new Akira_v2 variant, encrypted files are appended either with an .akira or .powerranges extension, or with .akiranew or .aki.",
+      "line_start": 2079
+    },
+    "u022": {
+      "start": 2215,
+      "end": 2225,
+      "text": "End Update",
+      "line_start": 2215
+    },
+    "u023": {
+      "start": 2226,
+      "end": 2419,
+      "text": "To further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490].",
+      "line_start": 2226
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0095",
+    "m002_T": "attack:T1537",
+    "m003_S": "attack:S1129",
+    "m004_G": "local:ThreatGroup:akira threat actors",
+    "m005_S": "attack:S0508",
+    "m006_T": "attack:T1090",
+    "m007_T": "attack:T1657",
+    "m008_T": "attack:T1486",
+    "m009_T": "attack:T1090.003",
+    "m010_T": "attack:T1573.002",
+    "m011_S": "attack:S1129",
+    "m011_G": "attack:G1024",
+    "m012_T": "attack:T1490",
+    "m013_S": "local:Software:w.exe",
+    "m014_T": "attack:T1490"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m002_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m005_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m009_T",
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_S",
+        "m013_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m014_T"
+      ]
+    }
+  ]
+}

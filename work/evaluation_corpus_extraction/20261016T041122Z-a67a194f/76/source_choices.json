@@ -1,0 +1,290 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 6,
+      "text": "time.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 7,
+      "end": 119,
+      "text": "Additionally, Medusa actors research victim financial details and base their demands on publicly posted revenue.",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 120,
+      "end": 221,
+      "text": "After a victim pays the ransom, Medusa actors claim to remove the victim’s information from the site.",
+      "line_start": 0
+    },
+    "u004": {
+      "start": 222,
+      "end": 306,
+      "text": "Note: There is no way to verify that Medusa actors remove victim data from the site.",
+      "line_start": 0
+    },
+    "u005": {
+      "start": 307,
+      "end": 409,
+      "text": "Medusa concurrently advertises sale of the data to interested parties before the countdown timer ends.",
+      "line_start": 307
+    },
+    "u006": {
+      "start": 410,
+      "end": 492,
+      "text": "Victims can pay $10,000 USD in cryptocurrency to add a day to the countdown timer.",
+      "line_start": 307
+    },
+    "u007": {
+      "start": 493,
+      "end": 617,
+      "text": "(Updated Aug. 18, 2026) Medusa actors generally request payment in Bitcoin but may demand payment in other cryptocurrencies.",
+      "line_start": 493
+    },
+    "u008": {
+      "start": 618,
+      "end": 1002,
+      "text": "FBI investigations identified that after paying the ransom, one victim was contacted by a separate Medusa actor who claimed the negotiator had stolen the ransom amount already paid and requested half of the payment be made again to provide the “true decryptor”—potentially indicating a triple-extortion scheme, or operational dysfunction and a lack of cohesion among ransomware group.",
+      "line_start": 618
+    },
+    "u009": {
+      "start": 1003,
+      "end": 1027,
+      "text": "Indicators of Compromise",
+      "line_start": 1003
+    },
+    "u010": {
+      "start": 1028,
+      "end": 1158,
+      "text": "Table 1 and Table 2 are lists of the malicious IP addresses, the URLs, and the hashes of files obtained during FBI investigations.",
+      "line_start": 1028
+    },
+    "u011": {
+      "start": 1159,
+      "end": 1214,
+      "text": "Disclaimer: Some of these indicators may be legitimate.",
+      "line_start": 1159
+    },
+    "u012": {
+      "start": 1215,
+      "end": 1331,
+      "text": "The authoring agencies recommend organizations investigate or vet the IOCs prior to taking action, such as blocking.",
+      "line_start": 1159
+    },
+    "u013": {
+      "start": 1332,
+      "end": 1340,
+      "text": "Table 1.",
+      "line_start": 1332
+    },
+    "u014": {
+      "start": 1341,
+      "end": 1389,
+      "text": "Indicators of Compromise (Updated Aug. 18, 2026)",
+      "line_start": 1332
+    },
+    "u015": {
+      "start": 1390,
+      "end": 1393,
+      "text": "IOC",
+      "line_start": 1390
+    },
+    "u016": {
+      "start": 1394,
+      "end": 1398,
+      "text": "Type",
+      "line_start": 1394
+    },
+    "u017": {
+      "start": 1399,
+      "end": 1410,
+      "text": "Description",
+      "line_start": 1399
+    },
+    "u018": {
+      "start": 1411,
+      "end": 1426,
+      "text": "143.244.47[.]89",
+      "line_start": 1411
+    },
+    "u019": {
+      "start": 1427,
+      "end": 1437,
+      "text": "IP Address",
+      "line_start": 1427
+    },
+    "u020": {
+      "start": 1438,
+      "end": 1483,
+      "text": "IP used to access PHP Web Shell (Mullvad VPN)",
+      "line_start": 1438
+    },
+    "u021": {
+      "start": 1484,
+      "end": 1500,
+      "text": "167.88.166[.]173",
+      "line_start": 1484
+    },
+    "u022": {
+      "start": 1501,
+      "end": 1511,
+      "text": "IP Address",
+      "line_start": 1501
+    },
+    "u023": {
+      "start": 1512,
+      "end": 1527,
+      "text": "Ligolo proxy IP",
+      "line_start": 1512
+    },
+    "u024": {
+      "start": 1528,
+      "end": 1566,
+      "text": "https://3324.requestcatcher[.]com/hihi",
+      "line_start": 1528
+    },
+    "u025": {
+      "start": 1567,
+      "end": 1570,
+      "text": "URL",
+      "line_start": 1567
+    },
+    "u026": {
+      "start": 1571,
+      "end": 1617,
+      "text": "Additional URL associated with Ligolo commands",
+      "line_start": 1571
+    },
+    "u027": {
+      "start": 1618,
+      "end": 1658,
+      "text": "143.110.243[.]154 aka erp.ranasons[.]com",
+      "line_start": 1618
+    },
+    "u028": {
+      "start": 1659,
+      "end": 1675,
+      "text": "IP Address & URL",
+      "line_start": 1659
+    },
+    "u029": {
+      "start": 1676,
+      "end": 1698,
+      "text": "Exfiltration IP/domain",
+      "line_start": 1676
+    },
+    "u030": {
+      "start": 1699,
+      "end": 1715,
+      "text": "185.238.231[.]16",
+      "line_start": 1699
+    },
+    "u031": {
+      "start": 1716,
+      "end": 1726,
+      "text": "IP Address",
+      "line_start": 1716
+    },
+    "u032": {
+      "start": 1727,
+      "end": 1777,
+      "text": "IP used to access BeyondTrust session (ExpressVPN)",
+      "line_start": 1727
+    },
+    "u033": {
+      "start": 1778,
+      "end": 1793,
+      "text": "23.234.89[.]195",
+      "line_start": 1778
+    },
+    "u034": {
+      "start": 1794,
+      "end": 1804,
+      "text": "IP Address",
+      "line_start": 1794
+    },
+    "u035": {
+      "start": 1805,
+      "end": 1856,
+      "text": "IP used to access BeyondTrust session (Mullvad VPN)",
+      "line_start": 1805
+    },
+    "u036": {
+      "start": 1857,
+      "end": 1873,
+      "text": "146.70.172[.]247",
+      "line_start": 1857
+    },
+    "u037": {
+      "start": 1874,
+      "end": 1884,
+      "text": "IP Address",
+      "line_start": 1874
+    },
+    "u038": {
+      "start": 1885,
+      "end": 1936,
+      "text": "IP used to access BeyondTrust session (Mullvad VPN)",
+      "line_start": 1885
+    },
+    "u039": {
+      "start": 1937,
+      "end": 1951,
+      "text": "155.2.215[.]71",
+      "line_start": 1937
+    },
+    "u040": {
+      "start": 1952,
+      "end": 1962,
+      "text": "IP Address",
+      "line_start": 1952
+    },
+    "u041": {
+      "start": 1963,
+      "end": 2000,
+      "text": "IP used to access BeyondTrust session",
+      "line_start": 1963
+    },
+    "u042": {
+      "start": 2001,
+      "end": 2017,
+      "text": "23.234.106[.]242",
+      "line_start": 2001
+    },
+    "u043": {
+      "start": 2018,
+      "end": 2028,
+      "text": "IP Address",
+      "line_start": 2018
+    },
+    "u044": {
+      "start": 2029,
+      "end": 2080,
+      "text": "IP used to access BeyondTrust session (Mullvad VPN)",
+      "line_start": 2029
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_G": "local:ThreatGroup:medusa actors"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

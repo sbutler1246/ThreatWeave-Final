@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Royal Operators",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "Ransomware Executable",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "Ursnif",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "PsExec",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 26,
+        "end": 47,
+        "quote": "Ransomware Executable"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 473,
+        "end": 484,
+        "quote": "Ursnif/Gozi"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 805,
+        "end": 836,
+        "quote": "PsExec (Microsoft Sysinternals)"
+      },
+      "confidence": null
+    }
+  ]
+}

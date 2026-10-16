@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-075A
+CHUNK_ID: AA23-075A:evaluation:llama500:13954:15486
+SOURCE_UNITS:
+{"u001": "Service>", "u002": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u003": "name=\"MSSQLServerOLAPService\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u004": "<Properties startupType=\"DISABLED\" serviceName=\"MSSQLServerOLAPService\" serviceAction=\"STOP\" timeout=\"30\"/>", "u005": "</NTService>", "u006": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u007": "name=\"SSASTELEMETRY\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u008": "<Properties startupType=\"DISABLED\" serviceName=\"SSASTELEMETRY\" serviceAction=\"STOP\" timeout=\"30\"/>", "u009": "</NTService>", "u010": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u011": "name=\"SQLBrowser\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u012": "<Properties startupType=\"DISABLED\" serviceName=\"SQLBrowser\" serviceAction=\"STOP\" timeout=\"30\"/>", "u013": "</NTService>", "u014": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u015": "name=\"SQL Server Distributed Replay Client\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u016": "<Properties startupType=\"DISABLED\" serviceName=\"SQL Server Distributed Replay Client\" serviceAction=\"STOP\" timeout=\"30\"/>", "u017": "</NTService>", "u018": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u019": "name=\"SQL Server Distributed Replay Controller\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u020": "<Properties startupType=\"DISABLED\" serviceName=\"SQL Server Distributed Replay Controller\" serviceAction=\"STOP\" timeout=\"30\"/>", "u021": "</NTService>", "u022": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u023": "name=\"MsDtsServer150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u024": "<Properties startupType=\"DISABLED\" serviceName=\"MsDtsServer150\" serviceAction=\"STOP\" timeout=\"30\"/>"}
+SOURCE_MENTIONS:
+[]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[]

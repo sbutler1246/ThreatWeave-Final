@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:18:39.5687884Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9605562400,
+  "load_duration": 10857300,
+  "prompt_eval_count": 686,
+  "prompt_eval_duration": 327197000,
+  "eval_count": 700,
+  "eval_duration": 9138722000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"BianLian group actors are reported using Rclone.\",\n    \"LockBit 3.0 actors are reported using Rclone.\",\n    \"CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.\",\n    \"The BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\",\n    \"The BianLian group uses Rclone to exfiltrate data to a cloud account they control on the same service.\",\n    \"The advisory software-to-technique mapping for BianLian group actors is: Rclone uses Exfiltration to Cloud Storage (T1567.002), which is mitigated by Restrict Web-Based Content (M1021).\",\n    \"The advisory software-to-technique mapping for BianLian group actors is: Rclone uses Transfer Data to Cloud Account (T1537), which is mitigated by User Account Management (M1018).\",\n    \"The advisory software-to-technique mapping for BianLian group actors is: Rclone uses Transfer Data to Cloud Account (T1537), which is mitigated by Filter Network Traffic (M1037).\"\n  ]\n}\n\nHere is the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"BianLian group actors are reported using Rclone.\"\n\t* \"BianLian group actors are reported.\"\n\t* \"The reported tool is Rclone.\"\n2. \"LockBit 3.0 actors are reported using Rclone.\"\n\t* \"LockBit 3.0 actors are reported.\"\n\t* \"The reported tool is Rclone.\"\n3. \"CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.\"\n\t* \"CISA reports BianLian group actors.\"\n\t* \"The reported tool is Rclone.\"\n\t* \"The reported action is exfiltrating data.\"\n\t* \"The data is exfiltrated to a cloud account.\"\n\t* \"The cloud account is controlled by BianLian group.\"\n\t* \"The cloud account is on the same service.\"\n\t* \"The action is taken to avoid typical file transfers/downloads.\"\n\t* \"The action is taken to avoid network-based exfiltration detection.\"\n4. \"The BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\"\n\t* \"The BianLian group uses File Transfer Protocol (FTP).\"\n\t* \"The BianLian group uses Rclone.\"\n\t* \"The action is exfiltrating data.\"\n5. \"The BianLian group uses Rclone to exfiltrate data to a cloud account they control on the same service.\"\n\t* \"The BianLian group uses Rclone.\"\n\t* \"The action is exfiltrating data.\"\n\t* \"The data is exfiltrated to a cloud account.\"\n\t* \"The cloud account is controlled by BianLian group.\"\n\t* \"The cloud account is on the same service.\"\n6. \"The advisory software-to-technique mapping for BianLian group actors is: Rclone uses Exfiltration to Cloud Storage (T1567",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

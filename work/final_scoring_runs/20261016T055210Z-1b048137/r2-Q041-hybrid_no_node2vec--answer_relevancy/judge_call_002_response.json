@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:35:03.5494033Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 525151200,
+  "load_duration": 8584000,
+  "prompt_eval_count": 476,
+  "prompt_eval_duration": 15137000,
+  "eval_count": 40,
+  "eval_duration": 494802000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is the two-hop actor-to-software-to-technique path for LockBit 3.0 affiliates?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

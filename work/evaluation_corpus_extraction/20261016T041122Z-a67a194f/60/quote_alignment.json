@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u018"
+    ],
+    "selected_units": [
+      {
+        "start": 844,
+        "end": 867,
+        "text": "nltest /dclist: [T1018]",
+        "line_start": 844
+      }
+    ],
+    "document_start": 27248,
+    "document_end": 27271,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u019"
+    ],
+    "selected_units": [
+      {
+        "start": 868,
+        "end": 897,
+        "text": "nltest /DOMAIN_TRUSTS [T1482]",
+        "line_start": 868
+      }
+    ],
+    "document_start": 27272,
+    "document_end": 27301,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u020"
+    ],
+    "selected_units": [
+      {
+        "start": 898,
+        "end": 940,
+        "text": "net group “Domain admins” /dom [T1069.002]",
+        "line_start": 898
+      }
+    ],
+    "document_start": 27302,
+    "document_end": 27344,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u021"
+    ],
+    "selected_units": [
+      {
+        "start": 941,
+        "end": 989,
+        "text": "net localgroup “Administrators” /dom [T1069.001]",
+        "line_start": 941
+      }
+    ],
+    "document_start": 27345,
+    "document_end": 27393,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

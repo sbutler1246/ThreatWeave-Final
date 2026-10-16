@@ -1,0 +1,18 @@
+{
+  "relations": [
+    {
+      "unit_ids": ["u002","u003"],
+      "context_ids": [],
+      "head": "m002_G",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "m003_T"
+    },
+    {
+      "unit_ids": ["u002","u004"],
+      "context_ids": [],
+      "head": "m002_G",
+      "predicate": "USES",
+      "tail": "m004_S"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:59:33.3559394Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5835468000,
+  "load_duration": 11010000,
+  "prompt_eval_count": 509,
+  "prompt_eval_duration": 72802000,
+  "eval_count": 440,
+  "eval_duration": 5552330000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Pre-compromise (M1056) mitigates Develop Capabilities (T1587).\",\n        \"Pre-compromise (M1056) mitigates Compromise Accounts (T1586).\",\n        \"Disable or Remove Feature or Program (M1042) mitigates Impair Defenses (T1562).\",\n        \"Execution Prevention (M1038) mitigates Impair Defenses (T1562).\",\n        \"Restrict Registry Permissions (M1024) mitigates Impair Defenses (T1562).\"\n    ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"Pre-compromise (M1056) mitigates Develop Capabilities (T1587) and Compromise Accounts (T1586). [E2, E8]\"\n\t* \"Pre-compromise (M1056) is a mitigation option.\"\n\t* \"Pre-compromise (M1056) mitigates Develop Capabilities (T1587).\"\n\t* \"Pre-compromise (M1056) mitigates Compromise Accounts (T1586).\"\n2. \"Disable or Remove Feature or Program (M1042) mitigates Impair Defenses (T1562). [E4]\"\n\t* \"Disable or Remove Feature or Program (M1042) is a mitigation option.\"\n\t* \"Disable or Remove Feature or Program (M1042) mitigates Impair Defenses (T1562).\"\n3. \"Execution Prevention (M1038) mitigates Impair Defenses (T1562). [E6]\"\n\t* \"Execution Prevention (M1038) is a mitigation option.\"\n\t* \"Execution Prevention (M1038) mitigates Impair Defenses (T1562).\"\n4. \"Restrict Registry Permissions (M1024) mitigates Impair Defenses (T1562). [E10]\"\n\t* \"Restrict Registry Permissions (M1024) is a mitigation option.\"\n\t* \"Restrict Registry Permissions (M1024) mitigates Impair Defenses (T1562).\"",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

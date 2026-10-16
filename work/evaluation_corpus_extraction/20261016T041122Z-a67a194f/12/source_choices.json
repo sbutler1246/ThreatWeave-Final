@@ -1,0 +1,637 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "EDR",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Bat Armor",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "123.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Lockbit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1070.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1070.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1027.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1110",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1555.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Microsoft Sysinternals ProDump",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "lsass.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "SoftPerfect Network Scanner",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "AdFind",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m002_S": {
+      "name": "LockBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "EDR",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Bat Armor",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "123.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Lockbit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1070.001",
+      "type": "Technique",
+      "attack_id": "T1070.001"
+    },
+    "m010_T": {
+      "name": "T1070.004",
+      "type": "Technique",
+      "attack_id": "T1070.004"
+    },
+    "m011_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m012_T": {
+      "name": "T1027.002",
+      "type": "Technique",
+      "attack_id": "T1027.002"
+    },
+    "m013_T": {
+      "name": "T1110",
+      "type": "Technique",
+      "attack_id": "T1110"
+    },
+    "m014_T": {
+      "name": "T1555.003",
+      "type": "Technique",
+      "attack_id": "T1555.003"
+    },
+    "m015_T": {
+      "name": "T1003",
+      "type": "Technique",
+      "attack_id": "T1003"
+    },
+    "m016_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m017_S": {
+      "name": "Microsoft Sysinternals ProDump",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "lsass.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m021_S": {
+      "name": "SoftPerfect Network Scanner",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_S": {
+      "name": "AdFind",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 29,
+      "text": "correct password is entered.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 30,
+      "end": 70,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 30
+    },
+    "u003": {
+      "start": 71,
+      "end": 80,
+      "text": "T1562.001",
+      "line_start": 71
+    },
+    "u004": {
+      "start": 81,
+      "end": 230,
+      "text": "LockBit 3.0 affiliates use Backstab, Defender Control, GMER, PCHunter, PowerTool, Process Hacker or TDSSKiller to disable EDR processes and services.",
+      "line_start": 81
+    },
+    "u005": {
+      "start": 231,
+      "end": 310,
+      "text": "LockBit 3.0 affiliates use Bat Armor to bypass the PowerShell execution Policy.",
+      "line_start": 231
+    },
+    "u006": {
+      "start": 311,
+      "end": 410,
+      "text": "LockBit affiliates may deploy a batch script, 123.bat, to disable and uninstall antivirus software.",
+      "line_start": 311
+    },
+    "u007": {
+      "start": 411,
+      "end": 554,
+      "text": "Lockbit 3.0 may modify and/or disable security tools including EDR and antivirus to avoid possible detection of malware, tools, and activities.",
+      "line_start": 411
+    },
+    "u008": {
+      "start": 555,
+      "end": 598,
+      "text": "Indicator Removal: Clear Windows Event Logs",
+      "line_start": 555
+    },
+    "u009": {
+      "start": 599,
+      "end": 608,
+      "text": "T1070.001",
+      "line_start": 599
+    },
+    "u010": {
+      "start": 609,
+      "end": 664,
+      "text": "LockBit executable clears the Windows Event Logs files.",
+      "line_start": 609
+    },
+    "u011": {
+      "start": 665,
+      "end": 697,
+      "text": "Indicator Removal: File Deletion",
+      "line_start": 665
+    },
+    "u012": {
+      "start": 698,
+      "end": 707,
+      "text": "T1070.004",
+      "line_start": 698
+    },
+    "u013": {
+      "start": 708,
+      "end": 753,
+      "text": "LockBit 3.0 will delete itself from the disk.",
+      "line_start": 708
+    },
+    "u014": {
+      "start": 754,
+      "end": 785,
+      "text": "Obfuscated Files or Information",
+      "line_start": 754
+    },
+    "u015": {
+      "start": 786,
+      "end": 791,
+      "text": "T1027",
+      "line_start": 786
+    },
+    "u016": {
+      "start": 792,
+      "end": 889,
+      "text": "LockBit 3.0 will send encrypted host and bot information to its command and control (C2) servers.",
+      "line_start": 792
+    },
+    "u017": {
+      "start": 890,
+      "end": 939,
+      "text": "Obfuscated Files or Information: Software Packing",
+      "line_start": 890
+    },
+    "u018": {
+      "start": 940,
+      "end": 949,
+      "text": "T1027.002",
+      "line_start": 940
+    },
+    "u019": {
+      "start": 950,
+      "end": 1059,
+      "text": "LockBit affiliates may perform software packing or virtual machine software protection to conceal their code.",
+      "line_start": 950
+    },
+    "u020": {
+      "start": 1060,
+      "end": 1106,
+      "text": "Blister Loader has been used for such purpose.",
+      "line_start": 950
+    },
+    "u021": {
+      "start": 1107,
+      "end": 1189,
+      "text": "Table 10: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Credential Access",
+      "line_start": 1107
+    },
+    "u022": {
+      "start": 1190,
+      "end": 1205,
+      "text": "Technique Title",
+      "line_start": 1190
+    },
+    "u023": {
+      "start": 1206,
+      "end": 1208,
+      "text": "ID",
+      "line_start": 1206
+    },
+    "u024": {
+      "start": 1209,
+      "end": 1212,
+      "text": "Use",
+      "line_start": 1209
+    },
+    "u025": {
+      "start": 1213,
+      "end": 1224,
+      "text": "Brute Force",
+      "line_start": 1213
+    },
+    "u026": {
+      "start": 1225,
+      "end": 1230,
+      "text": "T1110",
+      "line_start": 1225
+    },
+    "u027": {
+      "start": 1231,
+      "end": 1319,
+      "text": "LockBit affiliates may leverage VPN or RDP brute force credentials as an initial access.",
+      "line_start": 1231
+    },
+    "u028": {
+      "start": 1320,
+      "end": 1383,
+      "text": "Credentials from Password Stores: Credentials from Web Browsers",
+      "line_start": 1320
+    },
+    "u029": {
+      "start": 1384,
+      "end": 1393,
+      "text": "T1555.003",
+      "line_start": 1384
+    },
+    "u030": {
+      "start": 1394,
+      "end": 1471,
+      "text": "LockBit 3.0 actors use PasswordFox to recover passwords from Firefox Browser.",
+      "line_start": 1394
+    },
+    "u031": {
+      "start": 1472,
+      "end": 1493,
+      "text": "OS Credential Dumping",
+      "line_start": 1472
+    },
+    "u032": {
+      "start": 1494,
+      "end": 1499,
+      "text": "T1003",
+      "line_start": 1494
+    },
+    "u033": {
+      "start": 1500,
+      "end": 1595,
+      "text": "LockBit 3.0 actors use ExtPassword or LostMyPassword to recover passwords from Windows systems.",
+      "line_start": 1500
+    },
+    "u034": {
+      "start": 1596,
+      "end": 1631,
+      "text": "OS Credential Dumping: LSASS Memory",
+      "line_start": 1596
+    },
+    "u035": {
+      "start": 1632,
+      "end": 1641,
+      "text": "T1003.001",
+      "line_start": 1632
+    },
+    "u036": {
+      "start": 1642,
+      "end": 1734,
+      "text": "LockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe.",
+      "line_start": 1642
+    },
+    "u037": {
+      "start": 1735,
+      "end": 1793,
+      "text": "LockBit affiliates have used Mimikatz to dump credentials.",
+      "line_start": 1735
+    },
+    "u038": {
+      "start": 1794,
+      "end": 1868,
+      "text": "Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery",
+      "line_start": 1794
+    },
+    "u039": {
+      "start": 1869,
+      "end": 1884,
+      "text": "Technique Title",
+      "line_start": 1869
+    },
+    "u040": {
+      "start": 1885,
+      "end": 1887,
+      "text": "ID",
+      "line_start": 1885
+    },
+    "u041": {
+      "start": 1888,
+      "end": 1891,
+      "text": "Use",
+      "line_start": 1888
+    },
+    "u042": {
+      "start": 1892,
+      "end": 1917,
+      "text": "Network Service Discovery",
+      "line_start": 1892
+    },
+    "u043": {
+      "start": 1918,
+      "end": 1923,
+      "text": "T1046",
+      "line_start": 1918
+    },
+    "u044": {
+      "start": 1924,
+      "end": 2046,
+      "text": "LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.",
+      "line_start": 1924
+    },
+    "u045": {
+      "start": 2047,
+      "end": 2184,
+      "text": "LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.",
+      "line_start": 2047
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1562.001",
+    "m002_S": "local:Software:lockbit",
+    "m003_S": "attack:S1202",
+    "m004_S": "local:Software:edr",
+    "m005_S": "local:Software:bat armor",
+    "m006_G": "local:ThreatGroup:lockbit affiliates",
+    "m007_S": "local:Software:123.bat",
+    "m008_S": "attack:S1202",
+    "m009_T": "attack:T1070.001",
+    "m010_T": "attack:T1070.004",
+    "m011_T": "attack:T1027",
+    "m012_T": "attack:T1027.002",
+    "m013_T": "attack:T1110",
+    "m014_T": "attack:T1555.003",
+    "m015_T": "attack:T1003",
+    "m016_T": "attack:T1003.001",
+    "m017_S": "local:Software:microsoft sysinternals prodump",
+    "m018_S": "local:Software:lsass.exe",
+    "m019_S": "attack:S0002",
+    "m020_T": "attack:T1046",
+    "m021_S": "local:Software:softperfect network scanner",
+    "m022_S": "attack:S0552"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u036"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m017_S",
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u037"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m019_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u044"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m021_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u045"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m021_S",
+        "m022_S"
+      ]
+    }
+  ]
+}

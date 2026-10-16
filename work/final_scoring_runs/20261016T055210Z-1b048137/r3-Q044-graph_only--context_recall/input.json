@@ -1,0 +1,8 @@
+{
+  "user_input": "According to AA25-071A, which ATT&CK technique is connected to Medusa actors through the reported use of PsExec? Explain the two-hop actor-to-software-to-technique path with evidence.",
+  "response": "Medusa actors use PsExec to connect to a remote system. [E1, E2, E3]\nThe ATT&CK technique connected to Medusa actors through PsExec is T1052. [E1, E2, E3]",
+  "retrieved_contexts": [
+    "SOURCE PASSAGES\n[E1; CISA]\nWhen provided with valid username and password credentials, Medusa actors use PsExec to:\n[E2; CISA]\n#StopRansomware: Medusa Ransomware\n[E3; CISA]\nTechnical Details\nGRAPH NODES\nN1: Medusa actors\nN2: PsExec (S0029)\nGRAPH PATHS\nP1: N1 --USES[E1,E2,E3]--> N2"
+  ],
+  "reference": "Medusa actors use PsExec; the advisory associates the described use of PsExec with T1569.002 (Service Execution in Enterprise ATT&CK 17.1). Both links must be supported in the advisory context."
+}

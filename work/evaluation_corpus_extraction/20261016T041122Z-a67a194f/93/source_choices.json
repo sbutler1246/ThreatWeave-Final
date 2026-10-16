@@ -1,0 +1,46 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 70,
+      "text": "20 73 20 2D 20 73 75 62 6E 65 74 2C 20 64 20 2D 20 64 6F 6D 61 69 6E }",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 71,
+      "end": 81,
+      "text": "condition:",
+      "line_start": 71
+    },
+    "u003": {
+      "start": 82,
+      "end": 93,
+      "text": "all of them",
+      "line_start": 82
+    },
+    "u004": {
+      "start": 94,
+      "end": 95,
+      "text": "}",
+      "line_start": 94
+    },
+    "u005": {
+      "start": 96,
+      "end": 577,
+      "text": "Rule Suricataalert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 41 00 6c 00 6c 00 20 00 55 00 73 00 65 00 72 00 73 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 4c 00 6f 00 63 00 61 00 6c 00 5c 00 4d 00 69 00 63 00 72 00 6f 00 73 00 6f 00 66 00 74 00 5c 00 57 00 69 00 6e 00 64 00 6f 00 77 00 73 00 5c 00 57 00 65 00 62 00 43 00 61 00 63 00 68 00 65 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_1_detected ;sid:1900002; rev:1;)",
+      "line_start": 96
+    },
+    "u006": {
+      "start": 578,
+      "end": 818,
+      "text": "alert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 41 00 6c 00 6c 00 20 00 55 00 73 00 65 00 72 00 73 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 52 00 6f 00 61 00 6d 00 69 00 6e 00 67 00 5c 00",
+      "line_start": 578
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

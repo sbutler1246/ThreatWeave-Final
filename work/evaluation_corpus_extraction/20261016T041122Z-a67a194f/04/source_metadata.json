@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:7876:9874",
+    "doc_id": "AA23-165A",
+    "start": 7876,
+    "end": 9874,
+    "text": " of instances different LockBit strains were observed by ANSSI from July 2020 to present.\nTable 3: ANSSI-Observed LockBit Strain and Number of Instances\nName of the Strain*\nNumber of Instances\nLockBit 2.0 (LockBit Red)\n26\nLockBit 3.0 (LockBit Black)\n23\nLockBit\n21\nLockBit Green\n1\nLockBit (pre-encryption)\n1\nTotal\n72**\n* Name either obtained from ANSSI’s or the victim’s investigations\n** Includes incidents with multiple strains\nFigure 1: ANSSI-Observed LockBit Strains by Year\nFrom the incidents handled, ANSSI can infer that LockBit 3.0 widely took over from LockBit 2.0 and the original LockBit strain from 2022. In two cases, victims were infected with as many as three different strains of LockBit (LockBit 2.0/Red, LockBit 3.0/Black, and LockBit Green).\nLeak Sites\nThe authoring agencies observe data leak sites, where attackers publish the names and captured data of victims if they do not pay ransom or hush money. Additionally, these sites can be used to record alleged victims who have been threatened with a data leak. The term 'victims' may include those who have been attacked, or those who have been threatened or blackmailed (with the attack having taken place).\nThe leak sites only show the portion of LockBit affiliates’ victims subjected to secondary extortion. Since 2021, LockBit affiliates have employed double extortion by first encrypting victim data and then exfiltrating that data while threatening to post that stolen data on leak sites. Because LockBit only reveals the names and leaked data of victims who refuse to pay the primary ransom to decrypt their data, some LockBit victims may never be named or have their exfiltrated data posted on leak sites. As a result, the leak sites reveal a portion of LockBit affiliates’ total victims. For these reasons, the leak sites are not a reliable indicator of when LockBit ransomware attacks occurred. The date of data publication on the leak sites may be months after LockBit affiliates actually executed ransomware attacks.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 7852,
+        "end": 7876,
+        "text": "Table 3 shows the number"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 458,
+  "inherited_context_tokens": 22,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "97ab9dc9f7701517727fb636a5d6febe2a37a5d6512fec2844d70c5f2861929b",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

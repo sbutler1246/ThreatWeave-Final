@@ -1,0 +1,28 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 126,
+      "text": "65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_5_detected ;sid:1900006; rev:1;)",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 127,
+      "end": 583,
+      "text": "alert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 41 00 6c 00 6c 00 20 00 55 00 73 00 65 00 72 00 73 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 4c 00 6f 00 63 00 61 00 6c 00 5c 00 43 00 6f 00 63 00 43 00 6f 00 63 00 5c 00 42 00 72 00 6f 00 77 00 73 00 65 00 72 00 5c 00 55 00 73 00 65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_6_detected ;sid:1900007; rev:1;)",
+      "line_start": 127
+    },
+    "u003": {
+      "start": 584,
+      "end": 842,
+      "text": "alert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 41 00 6c 00 6c 00 20 00 55 00 73 00 65 00 72 00 73 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 4c 00 6f 00 63 00 61 00 6c 00 5c 00 53 00 6f 00 67 00 6f 00 75 00",
+      "line_start": 584
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-075A:evaluation:llama500:20640:22313",
+  "doc_id": "AA23-075A",
+  "start": 20640,
+  "end": 22313,
+  "text": "PR& m4ZhTTH=sBVnPY&xZDiygN=cU1pAwKEztU&=5q55aFIAfTVQWTEm&4sXwVWcyhy=l68FrIdBESIvfCkvYl\nExample of information found in encrypted data\n{\n\"bot_version\":\"X\",\n\"bot_id\":\"X\",\n\"bot_company\":\"X\", \"host_hostname\":\"X\", \"host_user\":\"X\",\n\"host_os\":\"X\",\n\"host_domain\":\"X\",\n\"host_arch\":\"X\",\n\"host_lang\":\"X\", \"disks_info\":[\n{\n\"disk_name\":\"X\",\n\"disk_size\":\"XXXX\", \"free_size\":\"XXXXX\"\n}\nUser Agent Strings\nMozilla/5.0 (Windows NT\n6.1)\nAppleWebKit/587.38\n(KHTML, like Gecko)\nChrome/91.0.4472.77\nSafari/537.36\nEdge/91.0.864.37\nFirefox/89.0\nGecko/20100101\nMITRE ATT&CK TECHNIQUES\nSee Table 3 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping to the MITRE ATT&CK framework, see CISA’s Decider Tool and Best Practices for MITRE ATT&CK Mapping Guide.\nInitial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nLockBit 3.0 actors obtain and abuse credentials of existing accounts as a means of gaining initial access.\nExploit External Remote Services\nT1133\nLockBit 3.0 actors exploit RDP to gain access to victim networks.\nDrive-by Compromise\nT1189\nLockBit 3.0 actors gain access to a system through a user visiting a website over the normal course of browsing.\nExploit Public-Facing Application\nT1190\nLockBit 3.0 actors exploit vulnerabilities in internet-facing systems to gain access to victims’ systems.\nPhishing\nT1566\nLockBit 3.0 actors use phishing and spearphishing to gain access to victims' networks.\nExecution\nTechnique Title\nID\nUse\nExecution\nTA0002\nLockBit 3.0 launches commands during its execution.\nSoftware Deployment Tools\nT1072\nLockBit 3.0 uses Chocolatey, a command- line package manager for Windows.\nPersistence\nTechnique Title\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: LockBit 3.0"
+    },
+    {
+      "start": 2048,
+      "end": 2065,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

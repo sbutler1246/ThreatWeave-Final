@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "LockBit affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "123.bat",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "Microsoft Sysinternals ProDump",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "lsass.exe",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "Mimikatz",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 311,
+        "end": 410,
+        "quote": "LockBit affiliates may deploy a batch script, 123.bat, to disable and uninstall antivirus software."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 1642,
+        "end": 1734,
+        "quote": "LockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 1642,
+        "end": 1734,
+        "quote": "LockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e5",
+      "evidence": {
+        "start": 1735,
+        "end": 1793,
+        "quote": "LockBit affiliates have used Mimikatz to dump credentials."
+      },
+      "confidence": null
+    }
+  ]
+}

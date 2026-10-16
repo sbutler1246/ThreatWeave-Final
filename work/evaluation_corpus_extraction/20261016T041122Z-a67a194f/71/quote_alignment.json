@@ -1,0 +1,40 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u011"
+    ],
+    "selected_units": [
+      {
+        "start": 1229,
+        "end": 1373,
+        "text": "(Updated Aug. 18, 2026) Medusa actors place tooling, such as Rclone, in pre-existing Windows Defender excluded folders for stealth. [T1564.012].",
+        "line_start": 1229
+      }
+    ],
+    "document_start": 11667,
+    "document_end": 11811,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u011"
+    ],
+    "selected_units": [
+      {
+        "start": 1229,
+        "end": 1373,
+        "text": "(Updated Aug. 18, 2026) Medusa actors place tooling, such as Rclone, in pre-existing Windows Defender excluded folders for stealth. [T1564.012].",
+        "line_start": 1229
+      }
+    ],
+    "document_start": 11667,
+    "document_end": 11811,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

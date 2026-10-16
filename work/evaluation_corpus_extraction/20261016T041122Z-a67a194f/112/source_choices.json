@@ -1,0 +1,478 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "MITRE ATT&CK",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1189",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "TA0002",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "MITRE ATT&CK",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m003_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m005_T": {
+      "name": "T1189",
+      "type": "Technique",
+      "attack_id": "T1189"
+    },
+    "m006_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m007_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m008_A": {
+      "name": "TA0002",
+      "type": "Tactic",
+      "attack_id": "TA0002"
+    },
+    "m009_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 86,
+      "text": "PR& m4ZhTTH=sBVnPY&xZDiygN=cU1pAwKEztU&=5q55aFIAfTVQWTEm&4sXwVWcyhy=l68FrIdBESIvfCkvYl",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 87,
+      "end": 133,
+      "text": "Example of information found in encrypted data",
+      "line_start": 87
+    },
+    "u003": {
+      "start": 134,
+      "end": 135,
+      "text": "{",
+      "line_start": 134
+    },
+    "u004": {
+      "start": 136,
+      "end": 154,
+      "text": "\"bot_version\":\"X\",",
+      "line_start": 136
+    },
+    "u005": {
+      "start": 155,
+      "end": 168,
+      "text": "\"bot_id\":\"X\",",
+      "line_start": 155
+    },
+    "u006": {
+      "start": 169,
+      "end": 225,
+      "text": "\"bot_company\":\"X\", \"host_hostname\":\"X\", \"host_user\":\"X\",",
+      "line_start": 169
+    },
+    "u007": {
+      "start": 226,
+      "end": 240,
+      "text": "\"host_os\":\"X\",",
+      "line_start": 226
+    },
+    "u008": {
+      "start": 241,
+      "end": 259,
+      "text": "\"host_domain\":\"X\",",
+      "line_start": 241
+    },
+    "u009": {
+      "start": 260,
+      "end": 276,
+      "text": "\"host_arch\":\"X\",",
+      "line_start": 260
+    },
+    "u010": {
+      "start": 277,
+      "end": 308,
+      "text": "\"host_lang\":\"X\", \"disks_info\":[",
+      "line_start": 277
+    },
+    "u011": {
+      "start": 309,
+      "end": 310,
+      "text": "{",
+      "line_start": 309
+    },
+    "u012": {
+      "start": 311,
+      "end": 327,
+      "text": "\"disk_name\":\"X\",",
+      "line_start": 311
+    },
+    "u013": {
+      "start": 328,
+      "end": 367,
+      "text": "\"disk_size\":\"XXXX\", \"free_size\":\"XXXXX\"",
+      "line_start": 328
+    },
+    "u014": {
+      "start": 368,
+      "end": 369,
+      "text": "}",
+      "line_start": 368
+    },
+    "u015": {
+      "start": 370,
+      "end": 388,
+      "text": "User Agent Strings",
+      "line_start": 370
+    },
+    "u016": {
+      "start": 389,
+      "end": 412,
+      "text": "Mozilla/5.0 (Windows NT",
+      "line_start": 389
+    },
+    "u017": {
+      "start": 413,
+      "end": 417,
+      "text": "6.1)",
+      "line_start": 413
+    },
+    "u018": {
+      "start": 418,
+      "end": 436,
+      "text": "AppleWebKit/587.38",
+      "line_start": 418
+    },
+    "u019": {
+      "start": 437,
+      "end": 456,
+      "text": "(KHTML, like Gecko)",
+      "line_start": 437
+    },
+    "u020": {
+      "start": 457,
+      "end": 476,
+      "text": "Chrome/91.0.4472.77",
+      "line_start": 457
+    },
+    "u021": {
+      "start": 477,
+      "end": 490,
+      "text": "Safari/537.36",
+      "line_start": 477
+    },
+    "u022": {
+      "start": 491,
+      "end": 507,
+      "text": "Edge/91.0.864.37",
+      "line_start": 491
+    },
+    "u023": {
+      "start": 508,
+      "end": 520,
+      "text": "Firefox/89.0",
+      "line_start": 508
+    },
+    "u024": {
+      "start": 521,
+      "end": 535,
+      "text": "Gecko/20100101",
+      "line_start": 521
+    },
+    "u025": {
+      "start": 536,
+      "end": 559,
+      "text": "MITRE ATT&CK TECHNIQUES",
+      "line_start": 536
+    },
+    "u026": {
+      "start": 560,
+      "end": 644,
+      "text": "See Table 3 for all referenced threat actor tactics and techniques in this advisory.",
+      "line_start": 560
+    },
+    "u027": {
+      "start": 645,
+      "end": 778,
+      "text": "For assistance with mapping to the MITRE ATT&CK framework, see CISA’s Decider Tool and Best Practices for MITRE ATT&CK Mapping Guide.",
+      "line_start": 560
+    },
+    "u028": {
+      "start": 779,
+      "end": 793,
+      "text": "Initial Access",
+      "line_start": 779
+    },
+    "u029": {
+      "start": 794,
+      "end": 809,
+      "text": "Technique Title",
+      "line_start": 794
+    },
+    "u030": {
+      "start": 810,
+      "end": 812,
+      "text": "ID",
+      "line_start": 810
+    },
+    "u031": {
+      "start": 813,
+      "end": 816,
+      "text": "Use",
+      "line_start": 813
+    },
+    "u032": {
+      "start": 817,
+      "end": 831,
+      "text": "Valid Accounts",
+      "line_start": 817
+    },
+    "u033": {
+      "start": 832,
+      "end": 837,
+      "text": "T1078",
+      "line_start": 832
+    },
+    "u034": {
+      "start": 838,
+      "end": 944,
+      "text": "LockBit 3.0 actors obtain and abuse credentials of existing accounts as a means of gaining initial access.",
+      "line_start": 838
+    },
+    "u035": {
+      "start": 945,
+      "end": 977,
+      "text": "Exploit External Remote Services",
+      "line_start": 945
+    },
+    "u036": {
+      "start": 978,
+      "end": 983,
+      "text": "T1133",
+      "line_start": 978
+    },
+    "u037": {
+      "start": 984,
+      "end": 1049,
+      "text": "LockBit 3.0 actors exploit RDP to gain access to victim networks.",
+      "line_start": 984
+    },
+    "u038": {
+      "start": 1050,
+      "end": 1069,
+      "text": "Drive-by Compromise",
+      "line_start": 1050
+    },
+    "u039": {
+      "start": 1070,
+      "end": 1075,
+      "text": "T1189",
+      "line_start": 1070
+    },
+    "u040": {
+      "start": 1076,
+      "end": 1188,
+      "text": "LockBit 3.0 actors gain access to a system through a user visiting a website over the normal course of browsing.",
+      "line_start": 1076
+    },
+    "u041": {
+      "start": 1189,
+      "end": 1222,
+      "text": "Exploit Public-Facing Application",
+      "line_start": 1189
+    },
+    "u042": {
+      "start": 1223,
+      "end": 1228,
+      "text": "T1190",
+      "line_start": 1223
+    },
+    "u043": {
+      "start": 1229,
+      "end": 1334,
+      "text": "LockBit 3.0 actors exploit vulnerabilities in internet-facing systems to gain access to victims’ systems.",
+      "line_start": 1229
+    },
+    "u044": {
+      "start": 1335,
+      "end": 1343,
+      "text": "Phishing",
+      "line_start": 1335
+    },
+    "u045": {
+      "start": 1344,
+      "end": 1349,
+      "text": "T1566",
+      "line_start": 1344
+    },
+    "u046": {
+      "start": 1350,
+      "end": 1436,
+      "text": "LockBit 3.0 actors use phishing and spearphishing to gain access to victims' networks.",
+      "line_start": 1350
+    },
+    "u047": {
+      "start": 1437,
+      "end": 1446,
+      "text": "Execution",
+      "line_start": 1437
+    },
+    "u048": {
+      "start": 1447,
+      "end": 1462,
+      "text": "Technique Title",
+      "line_start": 1447
+    },
+    "u049": {
+      "start": 1463,
+      "end": 1465,
+      "text": "ID",
+      "line_start": 1463
+    },
+    "u050": {
+      "start": 1466,
+      "end": 1469,
+      "text": "Use",
+      "line_start": 1466
+    },
+    "u051": {
+      "start": 1470,
+      "end": 1479,
+      "text": "Execution",
+      "line_start": 1470
+    },
+    "u052": {
+      "start": 1480,
+      "end": 1486,
+      "text": "TA0002",
+      "line_start": 1480
+    },
+    "u053": {
+      "start": 1487,
+      "end": 1538,
+      "text": "LockBit 3.0 launches commands during its execution.",
+      "line_start": 1487
+    },
+    "u054": {
+      "start": 1539,
+      "end": 1564,
+      "text": "Software Deployment Tools",
+      "line_start": 1539
+    },
+    "u055": {
+      "start": 1565,
+      "end": 1570,
+      "text": "T1072",
+      "line_start": 1565
+    },
+    "u056": {
+      "start": 1571,
+      "end": 1644,
+      "text": "LockBit 3.0 uses Chocolatey, a command- line package manager for Windows.",
+      "line_start": 1571
+    },
+    "u057": {
+      "start": 1645,
+      "end": 1656,
+      "text": "Persistence",
+      "line_start": 1645
+    },
+    "u058": {
+      "start": 1657,
+      "end": 1672,
+      "text": "Technique Title",
+      "line_start": 1657
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:mitre att&ck",
+    "m002_T": "attack:T1078",
+    "m003_S": "attack:S1202",
+    "m004_T": "attack:T1133",
+    "m005_T": "attack:T1189",
+    "m006_T": "attack:T1190",
+    "m007_T": "attack:T1566",
+    "m008_A": "attack:TA0002",
+    "m009_T": "attack:T1072"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

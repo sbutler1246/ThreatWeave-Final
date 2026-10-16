@@ -1,0 +1,107 @@
+P051
+Question
+What is the two-hop relationship from LockBit affiliates through Advanced Internet Protocol (IP)
+Scanner to an ATT&CK technique in this advisory? Explain both the software-use link and the
+technique mapping.
+Displayed answer
+LockBit affiliates use Advanced Internet Protocol (IP) Scanner. [E5, E6, E7]
+Advanced Internet Protocol (IP) Scanner is used for Network Service Discovery (T 1046). [E5, E6,
+Network Service Discovery (T 1046) is mitigated by Network Segmentation (MI 030). [E8, E9]
+Network Segmentation (MI 030) guidance is to ensure proper network segmentation is
+followed to protect critical servers and devices. [E8, E9]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+The advisory lists Advanced Internet Protocol (IP) Scanner among tools used by LockBit affiliates
+and associates its repurposed use with T 1046 (Network Service Discovery in the frozen Enterprise
+ATT&CK 17.1 reference). This describes the advisory mapping, not all uses of that tool.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+LockBit affiliates have used Mimikatz to dump credentials.
+[Q; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; CISA]
+Table 9: LockBit Affiliates' ATT&CK Techniques for Enterprise — Defense Evasion
+
+--- IMAGE ---
+
+[E-5; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for
+exploitation.
+T 1046
+Network Service Discovery
+[E6; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E7; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T 1046)
+Mitigation: Network Segmentation (MI 030)
+[E9; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[Elo; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+
+--- IMAGE ---
+
+[El 1; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (Tl 219)
+Mitigation: Network Intrusion Prevention (M 1031)
+[El 2; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to
+prevent traffic to remote access services.
+[El 3; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[E14; CISA]
+Backstab
+Terminates antimalware-protected processes.
+Terminates endpoint detection and response (EDR)- protected processes.
+Tl 562.001
+Impair Defenses: Disable or Modify Tools
+[El 5; ATTACK]
+ATT&CK release: 17.1
+Technique: Disable or Modify Tools (Tl 562.001)
+Mitigation: User Account Management (MI 018)
+[El 6; ATTACK]
+Ensure proper user permissions are in place to prevent adversaries from disabling or interfering
+with security services.
+
+--- IMAGE ---
+
+GRAPH NODES
+N 1: LockBit affiliates
+N2: Mimikatz (S0002)
+N3: Advanced Port Scanner
+N4: Network Service Discovery (T 1046)
+N5: Network Segmentation (MI 030)
+N6: AnyDesk
+N7: Remote Access Tools (Tl 219)
+N8: Network Intrusion Prevention (MI 031)
+N9: Atera Remote Monitoring & Management (RMM)
+Nl 0: Backstab
+Nil: Disable or Modify Tools 01562.001)
+Nl 2: User Account Management (M 101 8)
+GRAPH PATHS
+p 1: Nl
+"3: Nl N6 N7 1,E12]--
+P4: Nl
+--USES[EI N9 N7 I,EI
+"5: Nl NIO Nil
+N12

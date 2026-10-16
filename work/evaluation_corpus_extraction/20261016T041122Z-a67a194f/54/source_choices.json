@@ -1,0 +1,694 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1027.015",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Ngrok",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "proxy",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "PSEXESVC.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "A Windows",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1569.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "Multi-purpose",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1090",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "Vssadmin.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    },
+    "m005_T": {
+      "name": "T1027.015",
+      "type": "Technique",
+      "attack_id": "T1027.015"
+    },
+    "m006_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m007_S": {
+      "name": "Ngrok",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "proxy",
+      "type": "Technique",
+      "attack_id": "T1090"
+    },
+    "m009_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m010_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m011_S": {
+      "name": "PSEXESVC.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "A Windows",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_T": {
+      "name": "T1569.002",
+      "type": "Technique",
+      "attack_id": "T1569.002"
+    },
+    "m014_S": {
+      "name": "Multi-purpose",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_T": {
+      "name": "T1090",
+      "type": "Technique",
+      "attack_id": "T1090"
+    },
+    "m016_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m017_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m019_S": {
+      "name": "Vssadmin.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 95,
+      "text": "free, open source FTP (including SSH FTP), WebDAV, Amazon S3, and secure copy protocol client.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 96,
+      "end": 204,
+      "text": "Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts [T1048].",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 205,
+      "end": 226,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 205
+    },
+    "u004": {
+      "start": 227,
+      "end": 232,
+      "text": "7-zip",
+      "line_start": 227
+    },
+    "u005": {
+      "start": 233,
+      "end": 314,
+      "text": "A free, open source software that enables users to compress various file formats.",
+      "line_start": 233
+    },
+    "u006": {
+      "start": 315,
+      "end": 430,
+      "text": "Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection [T1027.015].15",
+      "line_start": 233
+    },
+    "u007": {
+      "start": 431,
+      "end": 440,
+      "text": "FileZilla",
+      "line_start": 431
+    },
+    "u008": {
+      "start": 441,
+      "end": 516,
+      "text": "An open source client that enables users to transfer files between servers.",
+      "line_start": 441
+    },
+    "u009": {
+      "start": 517,
+      "end": 588,
+      "text": "Akira threat actors use it maliciously for data exfiltration [T1048].16",
+      "line_start": 441
+    },
+    "u010": {
+      "start": 589,
+      "end": 596,
+      "text": "LogMeIn",
+      "line_start": 589
+    },
+    "u011": {
+      "start": 597,
+      "end": 714,
+      "text": "A legitimate remote access tool that Akira threat actors maliciously use to move laterally and establish persistence.",
+      "line_start": 597
+    },
+    "u012": {
+      "start": 715,
+      "end": 722,
+      "text": "NetScan",
+      "line_start": 715
+    },
+    "u013": {
+      "start": 723,
+      "end": 828,
+      "text": "A software suite used for IP address querying, Domain Name System (DNS) investigation, and port scanning.",
+      "line_start": 723
+    },
+    "u014": {
+      "start": 829,
+      "end": 903,
+      "text": "Akira threat actors use the tool maliciously for reconnaissance [T1046].17",
+      "line_start": 723
+    },
+    "u015": {
+      "start": 904,
+      "end": 909,
+      "text": "Ngrok",
+      "line_start": 904
+    },
+    "u016": {
+      "start": 910,
+      "end": 942,
+      "text": "A legitimate reverse proxy tool.",
+      "line_start": 910
+    },
+    "u017": {
+      "start": 943,
+      "end": 1064,
+      "text": "Akira threat actors maliciously use this tool to create secure tunnels to servers they use for data exfiltration [T1572].",
+      "line_start": 910
+    },
+    "u018": {
+      "start": 1065,
+      "end": 1072,
+      "text": "NetExec",
+      "line_start": 1065
+    },
+    "u019": {
+      "start": 1073,
+      "end": 1175,
+      "text": "Linux-based network service exploitation tool that automates the assessment of large network security.",
+      "line_start": 1073
+    },
+    "u020": {
+      "start": 1176,
+      "end": 1185,
+      "text": "PowerTool",
+      "line_start": 1176
+    },
+    "u021": {
+      "start": 1186,
+      "end": 1308,
+      "text": "A tool used by Akira threat actors to exploit the Zemana AntiMalware driver and terminate antivirus processes [T1562.001].",
+      "line_start": 1186
+    },
+    "u022": {
+      "start": 1309,
+      "end": 1321,
+      "text": "PSEXESVC.exe",
+      "line_start": 1309
+    },
+    "u023": {
+      "start": 1322,
+      "end": 1445,
+      "text": "A Windows executable file potentially used by Akira threat actors for remote execution and payload deployments [T1569.002].",
+      "line_start": 1322
+    },
+    "u024": {
+      "start": 1446,
+      "end": 1454,
+      "text": "SystemBC",
+      "line_start": 1446
+    },
+    "u025": {
+      "start": 1455,
+      "end": 1574,
+      "text": "Multi-purpose malware that Akira threat actors use as both a remote access trojan (RAT) and a proxy bot [T1090][T1219].",
+      "line_start": 1455
+    },
+    "u026": {
+      "start": 1575,
+      "end": 1603,
+      "text": "Veeam Backup and Replication",
+      "line_start": 1575
+    },
+    "u027": {
+      "start": 1604,
+      "end": 1754,
+      "text": "A legitimate backup solution that Akira threat actors have exploited vulnerabilities in for initial access (and potentially for privilege escalation).",
+      "line_start": 1604
+    },
+    "u028": {
+      "start": 1755,
+      "end": 1768,
+      "text": "Cobalt Strike",
+      "line_start": 1755
+    },
+    "u029": {
+      "start": 1769,
+      "end": 1905,
+      "text": "A commercial penetration testing framework abused by Akira threat actors for lateral movement, C2, and privilege escalation [T1059.001].",
+      "line_start": 1769
+    },
+    "u030": {
+      "start": 1906,
+      "end": 1916,
+      "text": "PuTTY/PSCP",
+      "line_start": 1906
+    },
+    "u031": {
+      "start": 1917,
+      "end": 2035,
+      "text": "Variants of Secure Copy Protocol (SCP)/SFTP tools that can be used for data exfiltration or remote management [T1048].",
+      "line_start": 1917
+    },
+    "u032": {
+      "start": 2036,
+      "end": 2048,
+      "text": "Vssadmin.exe",
+      "line_start": 2036
+    },
+    "u033": {
+      "start": 2049,
+      "end": 2127,
+      "text": "A Windows executable used by Akira threat actors to delete VSS copies [T1490].",
+      "line_start": 2049
+    },
+    "u034": {
+      "start": 2128,
+      "end": 2136,
+      "text": "Level.io",
+      "line_start": 2128
+    },
+    "u035": {
+      "start": 2137,
+      "end": 2214,
+      "text": "A remote monitoring and management platform leveraged by Akira threat actors.",
+      "line_start": 2137
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0095",
+    "m002_S": "attack:S1129",
+    "m003_G": "local:ThreatGroup:akira threat actors",
+    "m004_T": "attack:T1048",
+    "m005_T": "attack:T1027.015",
+    "m006_T": "attack:T1046",
+    "m007_S": "attack:S0508",
+    "m008_T": "attack:T1090",
+    "m009_T": "attack:T1572",
+    "m010_T": "attack:T1562.001",
+    "m011_S": "local:Software:psexesvc.exe",
+    "m012_S": "local:Software:a windows",
+    "m013_T": "attack:T1569.002",
+    "m014_S": "local:Software:multi-purpose",
+    "m015_T": "attack:T1090",
+    "m016_T": "attack:T1219",
+    "m017_S": "attack:S0154",
+    "m018_T": "attack:T1059.001",
+    "m019_S": "local:Software:vssadmin.exe",
+    "m020_T": "attack:T1490"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m004_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m004_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m012_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m013_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m013_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m014_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T",
+        "m016_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m014_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T",
+        "m016_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m018_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u033"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m012_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m020_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u033"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u033"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m020_T"
+      ]
+    }
+  ]
+}

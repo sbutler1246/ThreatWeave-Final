@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:09:06.1270169Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2271681700,
+  "load_duration": 9677800,
+  "prompt_eval_count": 935,
+  "prompt_eval_duration": 202802000,
+  "eval_count": 154,
+  "eval_duration": 1982136000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"classifications\": [\n{\n\"statement\": \"Play ransomware actors use Mimikatz;\",\n\"reason\": \"The context does not provide any information about ransomware actors or Mimikatz.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"the advisory associates the described use of Mimikatz with T1003 (OS Credential Dumping in Enterprise ATT&CK 17.1).\",\n\"reason\": \"The context does not provide any information about ATT&CK techniques or the advisory.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"Both links must be supported in the advisory context.\",\n\"reason\": \"The context does not provide any information about links or the advisory context.\",\n\"attributed\": 0\n}\n]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:24:46.0224776Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3184815600,
+  "load_duration": 11184400,
+  "prompt_eval_count": 582,
+  "prompt_eval_duration": 279638000,
+  "eval_count": 206,
+  "eval_duration": 2769816000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    \"LockBit affiliates use AnyDesk to enable remote connections to network devices.\",\n    \"Remote connections to network devices enabled by LockBit affiliates' AnyDesk can be mitigated by Network Intrusion Prevention (M1031).\",\n    \"LockBit affiliates use Atera Remote Monitoring & Management (RMM) to enable remote connections to network devices.\",\n    \"Remote connections to network devices enabled by LockBit affiliates' Atera Remote Monitoring & Management (RMM) can be mitigated by Network Intrusion Prevention (M1031).\",\n    \"LockBit affiliates use Advanced Port Scanner to perform network scans.\",\n    \"Network scans performed by LockBit affiliates' Advanced Port Scanner can be mitigated by Network Segmentation (M1030).\",\n    \"LockBit affiliates use Backstab to terminate antimalware-protected processes.\",\n    \"Antimalware-protected processes terminated by LockBit affiliates' Backstab can be mitigated by User Account Management (M1018).\"\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

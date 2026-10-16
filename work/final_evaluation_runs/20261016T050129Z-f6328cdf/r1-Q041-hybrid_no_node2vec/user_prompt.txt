@@ -1,0 +1,67 @@
+QUESTION: According to AA23-075A, which ATT&CK technique is connected to LockBit 3.0 affiliates through the reported use of rclone? Explain the two-hop actor-to-software-to-technique path with evidence.
+MODE: hybrid_no_node2vec
+SOURCE PASSAGES
+[E1; CISA]
+LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001].
+[E2; CISA]
+#StopRansomware: LockBit 3.0
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Environmental Keying (T1480.001)
+Mitigation: Do Not Mitigate (M1055)
+[E5; ATTACK]
+[Environmental Keying](https://attack.mitre.org/techniques/T1480/001) likely should not be mitigated with preventative controls because it may protect unintended targets from being compromised via confusion of keys by the adversary. Mitigation of this technique is also unlikely to be feasible within most contexts because there are no standard attributes from which an adversary may derive keys. If targeted, efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior if compromised.
+[E6; CISA]
+LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials hardcoded at compilation time or a compromised local account with elevated privileges [T1078].
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Application Developer Guidance (M1013)
+[E8; ATTACK]
+Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).
+[E9; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Active Directory Configuration (M1015)
+[E10; ATTACK]
+Disable legacy authentication, which does not support MFA, and require the use of modern authentication protocols instead.
+[E11; CISA]
+rclone, an open-source command line cloud storage manager [T1567.002]
+[E12; ATTACK]
+ATT&CK release: 17.1
+Technique: Exfiltration to Cloud Storage (T1567.002)
+Mitigation: Restrict Web-Based Content (M1021)
+[E13; ATTACK]
+Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.
+[E14; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E15; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E16; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+
+GRAPH NODES
+N1: LockBit 3.0 (S1202)
+N2: Environmental Keying (T1480.001)
+N3: Do Not Mitigate (M1055)
+N4: Valid Accounts (T1078)
+N5: Application Developer Guidance (M1013)
+N6: Active Directory Configuration (M1015)
+N7: Rclone (S1040)
+N8: Exfiltration to Cloud Storage (T1567.002)
+N9: Restrict Web-Based Content (M1021)
+GRAPH PATHS
+P1: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E4,E5]--> N3
+P2: N1 --USES_TECHNIQUE[E6,E2,E3]--> N4 --MITIGATED_BY[E7,E8]--> N5
+P3: N1 --USES_TECHNIQUE[E6,E2,E3]--> N4 --MITIGATED_BY[E9,E10]--> N6
+P4: N7 --USES_TECHNIQUE[E11,E2,E3]--> N8 --MITIGATED_BY[E12,E13]--> N9
+Return the requested JSON. The displayed answer is assembled from claims.

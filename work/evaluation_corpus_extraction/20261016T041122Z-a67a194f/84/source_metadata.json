@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-352A:evaluation:llama500:5924:7968",
+    "doc_id": "AA23-352A",
+    "start": 5924,
+    "end": 7968,
+    "text": " reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) [T1059] to search for additional privilege escalation paths. Actors then distribute executables [T1570] via Group Policy Objects [T1484.001].\nExfiltration and Encryption\nUpdate June 4, 2025:\nThe Play ransomware binary is recompiled for every attack, resulting in unique hashes for each deployment, complicating anti-malware and anti-virus program detection of the ransomware [T1027].\nEnd Update\nPlay ransomware actors often split compromised data into segments and use tools like WinRAR to compress files [T1560.001] into .RAR format for exfiltration. The actors then use WinSCP to transfer data [T1048] from a compromised network to actor-controlled accounts. Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted. Within the Windows environment, tools and a ransom note titled ReadMe[.]txt are placed in C:/Users/Public/Music/.\nImpact\nUpdate June 4, 2025:\nThe Play ransomware group uses a double extortion model [T1657], encrypting systems after exfiltrating data. The ransom note directs victims to contact the Play ransomware group at an email address ending in @gmx[.]de or @web[.]de. Ransom payments are paid in cryptocurrency to wallet addresses provided by Play actors. If a victim refuses to pay the ransom demand, the ransomware actors threaten to publish exfiltrated data to their leak site on the Tor network ([.]onion URL).\nPlay ransomware targets regularly receive phone calls from threat actors encouraging payment and threatening the release of company information. These calls can be routed to a variety of phone numbers within the organization, including those discovered in open source, such as help desks or customer service representatives.\nESXi Variant\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 55,
+        "text": "#StopRansomware: Play Ransomware"
+      },
+      {
+        "start": 3834,
+        "end": 3851,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 437,
+  "inherited_context_tokens": 13,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "efd74f0c95475fd8b85905fe1286080fc627b10f8e60a44f9aff6b3eade12eb1",
+  "doc_id": "AA23-352A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+  "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc"
+}

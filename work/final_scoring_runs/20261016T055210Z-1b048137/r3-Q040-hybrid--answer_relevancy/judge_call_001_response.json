@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:44:34.587968Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 597600200,
+  "load_duration": 10972900,
+  "prompt_eval_count": 406,
+  "prompt_eval_duration": 153906000,
+  "eval_count": 25,
+  "eval_duration": 302797000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do ransomware actors use?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

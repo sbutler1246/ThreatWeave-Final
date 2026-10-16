@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+  "doc_id": "AA24-131A",
+  "start": 15045,
+  "end": 17380,
+  "text": "1566.004\nBlack Basta affiliates have used spearphishing phone and Microsoft Teams calls to trick users into providing initial access.\nExploit Public-Facing Application\nT1190\nBlack Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.\nTable 3: Black Basta ATT&CK Techniques for Privilege Escalation\nTechnique Title\nID\nUse\nExploitation for Privilege Escalation\nT1068\nBlack Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation.\nTable 4: Black Basta ATT&CK Techniques for Defense Evasion\nTechnique Title\nID\nUse\nMasquerading\nT1036\nBlack Basta affiliates have conducted reconnaissance using utilities with innocuous file names, such as Intel or Dell, to evade detection.\nImpair Defenses: Disable or Modify Tools\nT1562.001\nBlack Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.\nBlack Basta affiliates have used PowerShell to disable antivirus products.\nTable 5: Black Basta ATT&CK Techniques for Execution\nTechnique Title\nID\nUse\nUser Execution\nT1204\nBlack Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.\nCommand and Scripting Interpreter: PowerShell\nT1059.001\nBlack Basta affiliates have used PowerShell to disable antivirus products.\nTable 6: Black Basta ATT&CK Techniques for Impact\nTechnique Title\nID\nUse\nInhibit System Recovery\nT1490\nBlack Basta affiliates have used the vssadmin.exe program to delete shadow copies.\nData Encrypted for Impact\nT1486\nBlack Basta affiliates have used a public key to fully encrypt files.\nIndicators of Compromise\nUpdate November 8, 2024:\nMany indicators provided in this advisory’s initial publication have been removed considering they are outdated. For historic reference, see AA24-131A #StopRansomware: Black Basta (Initial Version).\nThe IOCs listed in Tables 7–8 were obtained from trusted third-party reporting and are considered most current.\nDisclaimer: The authoring organizations recommend network defenders investigate or vet IP addresses prior to taking action, such as blocking, as many cyber actors are known to change IP addresses, sometimes daily, and some IP addresses may host valid domains.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: Black Basta"
+    },
+    {
+      "start": 4157,
+      "end": 4174,
+      "text": "Technical Details"
+    },
+    {
+      "start": 14838,
+      "end": 14895,
+      "text": "Table 2: Black Basta ATT&CK Techniques for Initial Access"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

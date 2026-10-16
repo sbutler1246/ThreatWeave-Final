@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u006"
+    ],
+    "selected_units": [
+      {
+        "start": 389,
+        "end": 425,
+        "text": "Repurposed Use by LockBit Affiliates",
+        "line_start": 389
+      }
+    ],
+    "document_start": 12151,
+    "document_end": 12187,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

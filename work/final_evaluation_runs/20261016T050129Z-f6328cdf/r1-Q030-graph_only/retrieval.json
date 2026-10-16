@@ -1,0 +1,17 @@
+{
+  "candidate_path_count": 3,
+  "selected_path_count": 2,
+  "selected_hops": [
+    2,
+    2
+  ],
+  "evidence_utf8_bytes": 1054,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_paths": 0,
+  "seed_groups": [
+    [
+      "local:AA23-061A:royal-actors"
+    ]
+  ]
+}

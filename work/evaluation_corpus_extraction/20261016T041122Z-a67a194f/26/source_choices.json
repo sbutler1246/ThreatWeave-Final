@@ -1,0 +1,859 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Royal and BlackSuit Ransomware",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Description",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "SHA",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Hash Value",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "C",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Program Files",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "OpenSSH",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "ssh-agent.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "sshd.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "USERPROFILE",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Downloads",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "WinRAR.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "APPDATA",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "MobaXterm",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Mobatek",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "b34v2.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "34.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "mimikatz.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "dialuppass.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m023",
+      "text": "iepv.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m024",
+      "text": "mailpv.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m025",
+      "text": "netpass.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m026",
+      "text": "routerpassview.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m027",
+      "text": "AdFind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m028",
+      "text": "AdFind.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m029",
+      "text": "ADFind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m030",
+      "text": "LogMeIn",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m031",
+      "text": "Atera",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m032",
+      "text": "Eraser",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m033",
+      "text": "Eraser.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m034",
+      "text": "advanced_ip_scanner.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m035",
+      "text": "conhost.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m036",
+      "text": "chisel_windows_1_7_7.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m037",
+      "text": "svvhost.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m038",
+      "text": "cloudflared.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m039",
+      "text": "nircmd.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m040",
+      "text": "nsudo.exe",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Royal and BlackSuit Ransomware",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Description",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "SHA",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Hash Value",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "C",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Program Files",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "OpenSSH",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "ssh-agent.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "sshd.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "USERPROFILE",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Downloads",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "WinRAR.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "APPDATA",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "MobaXterm",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_S": {
+      "name": "Mobatek",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "b34v2.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "34.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_S": {
+      "name": "mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m021_S": {
+      "name": "mimikatz.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_S": {
+      "name": "dialuppass.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m023_S": {
+      "name": "iepv.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m024_S": {
+      "name": "mailpv.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m025_S": {
+      "name": "netpass.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m026_S": {
+      "name": "routerpassview.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m027_S": {
+      "name": "AdFind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m028_S": {
+      "name": "AdFind.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m029_S": {
+      "name": "ADFind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m030_S": {
+      "name": "LogMeIn",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m031_S": {
+      "name": "Atera",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m032_S": {
+      "name": "Eraser",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m033_S": {
+      "name": "Eraser.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m034_S": {
+      "name": "advanced_ip_scanner.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m035_S": {
+      "name": "conhost.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m036_S": {
+      "name": "chisel_windows_1_7_7.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m037_S": {
+      "name": "svvhost.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m038_S": {
+      "name": "cloudflared.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m039_S": {
+      "name": "nircmd.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m040_S": {
+      "name": "nsudo.exe",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 34,
+      "text": "term to establish SSH connections.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 35,
+      "end": 174,
+      "text": "The publicly available credential stealing tool Mimikatz and password harvesting tools from Nirsoft have also been found on victim systems.",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 175,
+      "end": 247,
+      "text": "Legitimate RMM tools have also been observed as backdoor access vectors.",
+      "line_start": 0
+    },
+    "u004": {
+      "start": 248,
+      "end": 319,
+      "text": "Some legitimate software and open source tools can be found in Table 8.",
+      "line_start": 0
+    },
+    "u005": {
+      "start": 320,
+      "end": 394,
+      "text": "Table 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware",
+      "line_start": 320
+    },
+    "u006": {
+      "start": 395,
+      "end": 399,
+      "text": "Name",
+      "line_start": 395
+    },
+    "u007": {
+      "start": 400,
+      "end": 433,
+      "text": "Description or SHA 256 Hash Value",
+      "line_start": 400
+    },
+    "u008": {
+      "start": 434,
+      "end": 472,
+      "text": "C:\\Program Files\\OpenSSH\\ssh-agent.exe",
+      "line_start": 434
+    },
+    "u009": {
+      "start": 473,
+      "end": 506,
+      "text": "C:\\Program Files\\OpenSSH\\sshd.exe",
+      "line_start": 473
+    },
+    "u010": {
+      "start": 507,
+      "end": 517,
+      "text": "SSH Client",
+      "line_start": 507
+    },
+    "u011": {
+      "start": 518,
+      "end": 552,
+      "text": "%USERPROFILE%\\Downloads\\WinRAR.exe",
+      "line_start": 518
+    },
+    "u012": {
+      "start": 553,
+      "end": 569,
+      "text": "Compression tool",
+      "line_start": 553
+    },
+    "u013": {
+      "start": 570,
+      "end": 590,
+      "text": "%APPDATA%\\MobaXterm\\",
+      "line_start": 570
+    },
+    "u014": {
+      "start": 591,
+      "end": 619,
+      "text": "Toolbox for remote computing",
+      "line_start": 591
+    },
+    "u015": {
+      "start": 620,
+      "end": 649,
+      "text": "\\Program Files (x86)\\Mobatek\\",
+      "line_start": 620
+    },
+    "u016": {
+      "start": 650,
+      "end": 678,
+      "text": "Toolbox for remote computing",
+      "line_start": 650
+    },
+    "u017": {
+      "start": 679,
+      "end": 718,
+      "text": "\\Program Files (x86)\\Mobatek\\MobaXterm\\",
+      "line_start": 679
+    },
+    "u018": {
+      "start": 719,
+      "end": 747,
+      "text": "Toolbox for remote computing",
+      "line_start": 719
+    },
+    "u019": {
+      "start": 748,
+      "end": 757,
+      "text": "b34v2.dll",
+      "line_start": 748
+    },
+    "u020": {
+      "start": 758,
+      "end": 778,
+      "text": "ColbaltStrike Beacon",
+      "line_start": 758
+    },
+    "u021": {
+      "start": 779,
+      "end": 785,
+      "text": "34.dll",
+      "line_start": 779
+    },
+    "u022": {
+      "start": 786,
+      "end": 805,
+      "text": "CobaltStrike Beacon",
+      "line_start": 786
+    },
+    "u023": {
+      "start": 806,
+      "end": 818,
+      "text": "mimikatz.exe",
+      "line_start": 806
+    },
+    "u024": {
+      "start": 819,
+      "end": 848,
+      "text": "Mimikatz credential harvester",
+      "line_start": 819
+    },
+    "u025": {
+      "start": 849,
+      "end": 863,
+      "text": "dialuppass.exe",
+      "line_start": 849
+    },
+    "u026": {
+      "start": 864,
+      "end": 899,
+      "text": "Nirsoft password harvesting utility",
+      "line_start": 864
+    },
+    "u027": {
+      "start": 900,
+      "end": 908,
+      "text": "iepv.exe",
+      "line_start": 900
+    },
+    "u028": {
+      "start": 909,
+      "end": 944,
+      "text": "Nirsoft password harvesting utility",
+      "line_start": 909
+    },
+    "u029": {
+      "start": 945,
+      "end": 955,
+      "text": "mailpv.exe",
+      "line_start": 945
+    },
+    "u030": {
+      "start": 956,
+      "end": 991,
+      "text": "Nirsoft password harvesting utility",
+      "line_start": 956
+    },
+    "u031": {
+      "start": 992,
+      "end": 1003,
+      "text": "netpass.exe",
+      "line_start": 992
+    },
+    "u032": {
+      "start": 1004,
+      "end": 1039,
+      "text": "Nirsoft password harvesting utility",
+      "line_start": 1004
+    },
+    "u033": {
+      "start": 1040,
+      "end": 1058,
+      "text": "routerpassview.exe",
+      "line_start": 1040
+    },
+    "u034": {
+      "start": 1059,
+      "end": 1094,
+      "text": "Nirsoft password harvesting utility",
+      "line_start": 1059
+    },
+    "u035": {
+      "start": 1095,
+      "end": 1105,
+      "text": "AdFind.exe",
+      "line_start": 1095
+    },
+    "u036": {
+      "start": 1106,
+      "end": 1117,
+      "text": "ADFind tool",
+      "line_start": 1106
+    },
+    "u037": {
+      "start": 1118,
+      "end": 1125,
+      "text": "LogMeIn",
+      "line_start": 1118
+    },
+    "u038": {
+      "start": 1126,
+      "end": 1144,
+      "text": "Remote access tool",
+      "line_start": 1126
+    },
+    "u039": {
+      "start": 1145,
+      "end": 1150,
+      "text": "Atera",
+      "line_start": 1145
+    },
+    "u040": {
+      "start": 1151,
+      "end": 1169,
+      "text": "Remote access tool",
+      "line_start": 1151
+    },
+    "u041": {
+      "start": 1170,
+      "end": 1204,
+      "text": "C:\\Program Files\\Eraser\\Eraser.exe",
+      "line_start": 1170
+    },
+    "u042": {
+      "start": 1205,
+      "end": 1235,
+      "text": "Anti-Forensics Tool used by TA",
+      "line_start": 1205
+    },
+    "u043": {
+      "start": 1236,
+      "end": 1259,
+      "text": "advanced_ip_scanner.exe",
+      "line_start": 1236
+    },
+    "u044": {
+      "start": 1260,
+      "end": 1290,
+      "text": "Reconnaissance Tool used by TA",
+      "line_start": 1260
+    },
+    "u045": {
+      "start": 1291,
+      "end": 1329,
+      "text": "conhost.exe (chisel_windows_1_7_7.exe)",
+      "line_start": 1291
+    },
+    "u046": {
+      "start": 1330,
+      "end": 1394,
+      "text": "b9ef2e948a9b49a6930fc190b22cbdb3571579d37a4de56564e41a2ef736767b",
+      "line_start": 1330
+    },
+    "u047": {
+      "start": 1395,
+      "end": 1430,
+      "text": "%USERPROFILE%\\Downloads\\svvhost.exe",
+      "line_start": 1395
+    },
+    "u048": {
+      "start": 1431,
+      "end": 1486,
+      "text": "\\Users\\Administrator\\AppData\\Local\\Temp\\cloudflared.exe",
+      "line_start": 1431
+    },
+    "u049": {
+      "start": 1487,
+      "end": 1551,
+      "text": "c429719a45ca14f52513fe55320ebc49433c729a0d2223479d9d43597eab39fa",
+      "line_start": 1487
+    },
+    "u050": {
+      "start": 1552,
+      "end": 1562,
+      "text": "nircmd.exe",
+      "line_start": 1552
+    },
+    "u051": {
+      "start": 1563,
+      "end": 1627,
+      "text": "216047c048bf1dcbf031cf24bd5e0f263994a5df60b23089e393033d17257cb5",
+      "line_start": 1563
+    },
+    "u052": {
+      "start": 1628,
+      "end": 1637,
+      "text": "nsudo.exe",
+      "line_start": 1628
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0002",
+    "m002_S": "attack:S1073",
+    "m003_G": "local:ThreatGroup:royal and blacksuit ransomware",
+    "m004_S": "local:Software:description",
+    "m005_S": "local:Software:sha",
+    "m006_S": "local:Software:hash value",
+    "m007_S": "local:Software:c",
+    "m008_S": "local:Software:program files",
+    "m009_S": "local:Software:openssh",
+    "m010_S": "local:Software:ssh-agent.exe",
+    "m011_S": "local:Software:sshd.exe",
+    "m012_S": "local:Software:userprofile",
+    "m013_S": "local:Software:downloads",
+    "m014_S": "local:Software:winrar.exe",
+    "m015_S": "local:Software:appdata",
+    "m016_S": "local:Software:mobaxterm",
+    "m017_S": "local:Software:mobatek",
+    "m018_S": "local:Software:b34v2.dll",
+    "m019_S": "local:Software:34.dll",
+    "m020_S": "attack:S0002",
+    "m021_S": "local:Software:mimikatz.exe",
+    "m022_S": "local:Software:dialuppass.exe",
+    "m023_S": "local:Software:iepv.exe",
+    "m024_S": "local:Software:mailpv.exe",
+    "m025_S": "local:Software:netpass.exe",
+    "m026_S": "local:Software:routerpassview.exe",
+    "m027_S": "attack:S0552",
+    "m028_S": "local:Software:adfind.exe",
+    "m029_S": "attack:S0552",
+    "m030_S": "local:Software:logmein",
+    "m031_S": "local:Software:atera",
+    "m032_S": "local:Software:eraser",
+    "m033_S": "local:Software:eraser.exe",
+    "m034_S": "local:Software:advanced_ip_scanner.exe",
+    "m035_S": "local:Software:conhost.exe",
+    "m036_S": "local:Software:chisel_windows_1_7_7.exe",
+    "m037_S": "local:Software:svvhost.exe",
+    "m038_S": "local:Software:cloudflared.exe",
+    "m039_S": "local:Software:nircmd.exe",
+    "m040_S": "local:Software:nsudo.exe"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    }
+  ]
+}

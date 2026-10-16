@@ -1,0 +1,78 @@
+SOURCE PASSAGES
+[E1; CISA]
+LockBit affiliates have used Mimikatz to dump credentials.
+[E2; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; CISA]
+Table 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion
+[E5; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.
+T1046
+Network Service Discovery
+[E6; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E7; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T1046)
+Mitigation: Network Segmentation (M1030)
+[E9; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[E10; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E11; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (T1219)
+Mitigation: Network Intrusion Prevention (M1031)
+[E12; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to prevent traffic to remote access services.
+[E13; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E14; CISA]
+Backstab
+Terminates antimalware-protected processes.
+Terminates endpoint detection and response (EDR)- protected processes.
+T1562.001
+Impair Defenses: Disable or Modify Tools
+[E15; ATTACK]
+ATT&CK release: 17.1
+Technique: Disable or Modify Tools (T1562.001)
+Mitigation: User Account Management (M1018)
+[E16; ATTACK]
+Ensure proper user permissions are in place to prevent adversaries from disabling or interfering with security services.
+GRAPH NODES
+N1: LockBit affiliates
+N2: Mimikatz (S0002)
+N3: Advanced Port Scanner
+N4: Network Service Discovery (T1046)
+N5: Network Segmentation (M1030)
+N6: AnyDesk
+N7: Remote Access Tools (T1219)
+N8: Network Intrusion Prevention (M1031)
+N9: Atera Remote Monitoring & Management (RMM)
+N10: Backstab
+N11: Disable or Modify Tools (T1562.001)
+N12: User Account Management (M1018)
+GRAPH PATHS
+P1: N1 --USES[E1,E2,E3,E4]--> N2
+P2: N1 --USES[E5,E6,E7]--> N3 --USES_TECHNIQUE[E5,E6,E7]--> N4 --MITIGATED_BY[E8,E9]--> N5
+P3: N1 --USES[E10,E6,E7]--> N6 --USES_TECHNIQUE[E10,E6,E7]--> N7 --MITIGATED_BY[E11,E12]--> N8
+P4: N1 --USES[E13,E6,E7]--> N9 --USES_TECHNIQUE[E13,E6,E7]--> N7 --MITIGATED_BY[E11,E12]--> N8
+P5: N1 --USES[E14,E6,E7]--> N10 --USES_TECHNIQUE[E14,E6,E7]--> N11 --MITIGATED_BY[E15,E16]--> N12

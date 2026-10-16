@@ -1,0 +1,39 @@
+{
+  "task": {
+    "case_id": "r3-Q052-hybrid",
+    "question_id": "Q052",
+    "mode": "hybrid",
+    "repeat": 3,
+    "measured": true
+  },
+  "question_sha256": "80ce66378db64954f431c4f1af287d82b49babe0405572e8248037a968e53974",
+  "status": "answer_ready_for_review",
+  "execution_time_ms": 3488.2541999977548,
+  "retrieval_ms": 624.3474999791943,
+  "generation_ms": 2861.929400009103,
+  "configuration_hash": "d7c2718aa3b0e406681080d129a0119a06ba5e48c6e2c626bcf8bc5d34359f09",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "path_count": 5,
+  "passage_count": 18,
+  "python_resources_before": null,
+  "python_resources_after": null,
+  "attempts": 1,
+  "prompt_hash": "7e06f225a18b983830dcf0066585284f8b342a146762db1c7ea60cbf4084bb6b",
+  "generator_version": "development-shared-cited-generator-v2",
+  "prompt_eval_count": 1510,
+  "eval_count": 208,
+  "files_sha256": {
+    "answer.json": "0d78d9fe8ab9a7d0eb082871c0cba68fda8d3463c060dfe121810d6186319658",
+    "context.txt": "47e6aec8faa1b4e945727cde0373784171af457756e4b63067120a59d41a8ed3",
+    "evidence.json": "5f76e201ee4d2fae4c140889929546f0d98605d5cb93406a267460d2c3e26a43",
+    "ollama_response_1.json": "7bb3dd37ccb2850ecdf1e33f70999354bea1c6c109b44a12b7767870abffe931",
+    "output_schema.json": "d7cceb778d340ae7cf09eede7e9a371b622e121ea3e89331a6b8970f506d11b7",
+    "question.json": "9ebf06955c292fc6a946f29207ee856094d68057b28c6e617f40917e4e6bcef9",
+    "retrieval.json": "a47d138a2d4bf3f3db152e6f96193d206594541b7e297ae5de3a64b332456fc0",
+    "system_prompt.txt": "d06610424106fd68fc9f27ce0000aa73b1cd3b43a79c4df892dcf6a6108fd72a",
+    "transport_request_1.json": "d02414393909fd3806af69c6bc56a90348a5e41cc393755ef892bcb4662719ff",
+    "transport_response_1.txt": "1765e6862a4cfa3a4a1e5e71dd9f66c31041ba3af255b1a34c5a7535673bef13",
+    "transport_status_1.json": "aee5b614c7e23713169563d835525362b4966e7d9e46399b596b2b0993301efa",
+    "user_prompt.txt": "d4486b42a9a6699f9448b6852484e0feda07b74564c8225219307b29b742317f"
+  }
+}

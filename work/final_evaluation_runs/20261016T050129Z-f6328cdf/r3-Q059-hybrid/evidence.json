@@ -1,0 +1,243 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "LockBit affiliates have used Mimikatz to dump credentials.",
+      "start": 25196,
+      "end": 25254,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Understanding Ransomware Threat Actors: LockBit",
+      "start": 23,
+      "end": 70,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "TECHNICAL DETAILS",
+      "start": 2293,
+      "end": 2310,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Table 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion",
+      "start": 23204,
+      "end": 23283,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "AA23-319A",
+      "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+      "text": "9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nAdditional notable TTPs have been published by the Check Point Incident Response Team.[10]\nTable 9: Resource Development\nTechnique Title\nID\nUse\nDevelop Capabilities\nT1587\nRhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.\nTable 10: Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nRhysida actors are known to use valid credentials to access internal VPN access points of victims.\nUpdate April 30, 2025:\nTable 11: Execution\nTechnique Title\nID\nUse\nCommand and Scripting Interpreter: Cloud API\nT1059.009\nRhysida actors leverage AZCopy, a command-line utility that ",
+      "start": 19026,
+      "end": 19970,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "AA23-319A",
+      "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+      "text": "#StopRansomware: Rhysida Ransomware",
+      "start": 23,
+      "end": 58,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "AA23-319A",
+      "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+      "text": "Technical Details",
+      "start": 2634,
+      "end": 2651,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E8",
+      "doc_id": "AA24-038A",
+      "chunk_id": "AA24-038A:development:llama500:22202:24566",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+      "text": "The U.S. authoring agencies have observed Volt Typhoon actors leveraging Mimikatz to harvest credentials, and industry partners have observed Volt Typhoon leveraging Impacket.[2]",
+      "start": 22329,
+      "end": 22507,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E9",
+      "doc_id": "AA24-038A",
+      "chunk_id": "AA24-038A:development:llama500:22202:24566",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+      "text": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+      "start": 23,
+      "end": 123,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E10",
+      "doc_id": "AA24-038A",
+      "chunk_id": "AA24-038A:development:llama500:22202:24566",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+      "text": "TECHNICAL DETAILS",
+      "start": 6015,
+      "end": 6032,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E11",
+      "doc_id": "AA24-109A",
+      "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "002\nAkira threat actors use the net group /domain command to find domain level groups and permission settings.\nSystem Information Discovery\nT1082\nAkira threat actors use tools like PCHunter64 to acquire detailed process and system information.\nUpdate Nov. 13, 2025\nAkira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.\nEnd Update\nUpdate Nov. 13, 2025\nAccount Discovery: Domain Account\nT1087.002\nAkira threat actors use Adfind.exe to query and retrieve information from Active Directory.\nEnd Update\nDomain Trust Discovery\nT1482\nAkira threat actors use the net Windows command to enumerate domain information.\nUpdate Nov. 13, 2025\nAkira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.\nEnd Update\nTable 17. Lateral Movement\nTechnique Title\nID\nUse\nUpdate Nov. 13, 2025\nRemote Services\n",
+      "start": 36207,
+      "end": 37085,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E12",
+      "doc_id": "AA24-109A",
+      "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "#StopRansomware: Akira Ransomware",
+      "start": 23,
+      "end": 56,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E13",
+      "doc_id": "AA24-109A",
+      "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Technical Details",
+      "start": 4770,
+      "end": 4787,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E14",
+      "doc_id": "AA24-109A",
+      "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Table 15. Credential Access",
+      "start": 33205,
+      "end": 33232,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E15",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+      "start": 33284,
+      "end": 33360,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E16",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Table 14. Defense Evasion",
+      "start": 31628,
+      "end": 31653,
+      "source_kind": "cisa"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA23-165A:lockbit-affiliates",
+          "predicate": "USES",
+          "tail_id": "attack:S0002",
+          "assertion_ids": [
+            "assertion:f5bb290c88baae6fda6f2d8992a6591f4ad658b1245aae26f4512e7ce3ddb65f"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3",
+            "E4"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P2",
+      "edges": [
+        {
+          "head_id": "local:AA24-038A:volt-typhoon-actors",
+          "predicate": "USES",
+          "tail_id": "attack:S0002",
+          "assertion_ids": [
+            "assertion:96b8fa4da8ea3e7fb06641dc45b9d0aa0ba345c93c62a8e111b7b7ebe1b7c850"
+          ],
+          "citation_ids": [
+            "E8",
+            "E9",
+            "E10"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P3",
+      "edges": [
+        {
+          "head_id": "local:AA24-109A:akira-threat-actors",
+          "predicate": "USES",
+          "tail_id": "attack:S0002",
+          "assertion_ids": [
+            "assertion:12fe9c8b2fc88c1bd3aee002b48002e832a7de09c9b4abf647f224ad4940ab3d"
+          ],
+          "citation_ids": [
+            "E15",
+            "E12",
+            "E13",
+            "E16"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16"
+  ],
+  "retrieval_ms": 540.8099000051152,
+  "configuration_hash": "d7c2718aa3b0e406681080d129a0119a06ba5e48c6e2c626bcf8bc5d34359f09",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

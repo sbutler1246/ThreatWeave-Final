@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r3-Q001-graph_only--faithfulness",
+    "case_id": "r3-Q001-graph_only",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "710ce6211def129ec40381e24853df4a057a43275847268a8c9285e6d917161a",
+  "status": "scored",
+  "value": 0.5,
+  "judge_calls": 2,
+  "elapsed_ms": 14778.332399990177
+}

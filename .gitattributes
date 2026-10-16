@@ -1,0 +1,5 @@
+# Preserve frozen evidence, result hashes and original source bytes.
+* -text
+data/** linguist-vendored
+work/** linguist-generated
+outputs/** linguist-generated

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:26:36.008729Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5065881200,
+  "load_duration": 7975200,
+  "prompt_eval_count": 1783,
+  "prompt_eval_duration": 260224000,
+  "eval_count": 357,
+  "eval_duration": 4695833000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"Akira threat actors use ngrok to create secure tunnels for data exfiltration.\",\n      \"reason\": \"The context explicitly mentions that Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Ngrok is used by Akira threat actors to bypass perimeter monitoring.\",\n      \"reason\": \"The context does not explicitly mention that Ngrok is used to bypass perimeter monitoring. It only mentions that Ngrok is used to create secure tunnels for data exfiltration.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Filter Network Traffic (M1037) (N3).\",\n      \"reason\": \"The context provides the graph paths, and the statement is a direct description of one of the paths.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Network Intrusion Prevention (M1031) (N4).\",\n      \"reason\": \"The context provides the graph paths, and the statement is a direct description of one of the paths.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

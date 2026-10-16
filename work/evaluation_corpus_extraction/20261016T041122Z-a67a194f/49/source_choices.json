@@ -1,0 +1,682 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "net",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "SoftPerfect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Advanced IP Scanner",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "NetScan",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1016",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Windows",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1059.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1018",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1482",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "nltest",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "As Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "threat actors using PowerTool",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "remote access tools",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "AnyDesk",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "LogMeIn",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "Impacket",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "T1136.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "NTDS",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m023",
+      "text": "T1003.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m024",
+      "text": "T1003.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m025",
+      "text": "Veeam.Backup.MountService.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m026",
+      "text": "T1068",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "net",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "SoftPerfect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Advanced IP Scanner",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "NetScan",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1016",
+      "type": "Technique",
+      "attack_id": "T1016"
+    },
+    "m006_S": {
+      "name": "Windows",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_T": {
+      "name": "T1059.003",
+      "type": "Technique",
+      "attack_id": "T1059.003"
+    },
+    "m008_T": {
+      "name": "T1018",
+      "type": "Technique",
+      "attack_id": "T1018"
+    },
+    "m009_T": {
+      "name": "T1482",
+      "type": "Technique",
+      "attack_id": "T1482"
+    },
+    "m010_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "nltest",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_G": {
+      "name": "As Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m014_G": {
+      "name": "threat actors using PowerTool",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m015_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m016_T": {
+      "name": "remote access tools",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m017_S": {
+      "name": "AnyDesk",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "LogMeIn",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m020_S": {
+      "name": "Impacket",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m021_T": {
+      "name": "T1136.001",
+      "type": "Technique",
+      "attack_id": "T1136.001"
+    },
+    "m022_T": {
+      "name": "NTDS",
+      "type": "Technique",
+      "attack_id": "T1003.003"
+    },
+    "m023_T": {
+      "name": "T1003.002",
+      "type": "Technique",
+      "attack_id": "T1003.002"
+    },
+    "m024_T": {
+      "name": "T1003.003",
+      "type": "Technique",
+      "attack_id": "T1003.003"
+    },
+    "m025_S": {
+      "name": "Veeam.Backup.MountService.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m026_T": {
+      "name": "T1068",
+      "type": "Technique",
+      "attack_id": "T1068"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 12,
+      "text": "escalation.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 13,
+      "end": 274,
+      "text": "For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 275,
+      "end": 378,
+      "text": "See Table 1 for a descriptive listing of tools leveraged for malicious purposes by Akira threat actors.",
+      "line_start": 275
+    },
+    "u004": {
+      "start": 379,
+      "end": 400,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 379
+    },
+    "u005": {
+      "start": 401,
+      "end": 554,
+      "text": "The authoring organizations observed Akira threat actors using nltest /dclist: and nltest /DOMAIN_TRUSTS [T1018][T1482] for network and domain discovery.",
+      "line_start": 401
+    },
+    "u006": {
+      "start": 555,
+      "end": 565,
+      "text": "End Update",
+      "line_start": 555
+    },
+    "u007": {
+      "start": 566,
+      "end": 581,
+      "text": "Defense Evasion",
+      "line_start": 566
+    },
+    "u008": {
+      "start": 582,
+      "end": 694,
+      "text": "As Akira threat actors prepare for lateral movement, they commonly disable security software to avoid detection.",
+      "line_start": 582
+    },
+    "u009": {
+      "start": 695,
+      "end": 863,
+      "text": "Cybersecurity researchers observed Akira threat actors using PowerTool to exploit the Zemana AntiMalware driver10 and terminate antivirus-related processes [T1562.001].",
+      "line_start": 582
+    },
+    "u010": {
+      "start": 864,
+      "end": 885,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 864
+    },
+    "u011": {
+      "start": 886,
+      "end": 1085,
+      "text": "In addition, the authoring organizations observed Akira threat actors abusing remote access tools such as AnyDesk and LogMeIn [T1219] to maintain persistence and blend in with administrator activity.",
+      "line_start": 886
+    },
+    "u012": {
+      "start": 1086,
+      "end": 1230,
+      "text": "Akira threat actors leverage Impacket (an open source tool designed for network protocol manipulation) to execute the remote command wmiexec.py.",
+      "line_start": 886
+    },
+    "u013": {
+      "start": 1231,
+      "end": 1371,
+      "text": "To evade detection, Akira threat actors implement techniques such as uninstalling endpoint detection and response (EDR) systems [T1562.001].",
+      "line_start": 886
+    },
+    "u014": {
+      "start": 1372,
+      "end": 1382,
+      "text": "End Update",
+      "line_start": 1372
+    },
+    "u015": {
+      "start": 1383,
+      "end": 1403,
+      "text": "Privilege Escalation",
+      "line_start": 1383
+    },
+    "u016": {
+      "start": 1404,
+      "end": 1425,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 1404
+    },
+    "u017": {
+      "start": 1426,
+      "end": 1608,
+      "text": "The authoring organizations observed Akira threat actors creating new user accounts and adding them to the administrator group to establish a foothold in the environment [T1136.001].",
+      "line_start": 1426
+    },
+    "u018": {
+      "start": 1609,
+      "end": 1828,
+      "text": "In a reported incident, Akira threat actors bypassed Virtual Machine Disk (VMDK) file protection by temporarily powering down the domain controller’s VM, copying the VMDK files, and attaching them to a newly created VM.",
+      "line_start": 1426
+    },
+    "u019": {
+      "start": 1829,
+      "end": 2167,
+      "text": "This sequence of actions enabled them to extract the NTDS.dit file and the SYSTEM hive, ultimately compromising a highly privileged domain administrator’s account [T1003.002][T1003.003].11 Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068].",
+      "line_start": 1426
+    },
+    "u020": {
+      "start": 2168,
+      "end": 2178,
+      "text": "End Update",
+      "line_start": 2168
+    },
+    "u021": {
+      "start": 2179,
+      "end": 2195,
+      "text": "Lateral Movement",
+      "line_start": 2179
+    },
+    "u022": {
+      "start": 2196,
+      "end": 2217,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 2196
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0039",
+    "m002_S": "local:Software:softperfect",
+    "m003_S": "local:Software:advanced ip scanner",
+    "m004_S": "local:Software:netscan",
+    "m005_T": "attack:T1016",
+    "m006_S": "local:Software:windows",
+    "m007_T": "attack:T1059.003",
+    "m008_T": "attack:T1018",
+    "m009_T": "attack:T1482",
+    "m010_S": "attack:S1129",
+    "m011_G": "local:ThreatGroup:akira threat actors",
+    "m012_S": "attack:S0359",
+    "m013_G": "local:ThreatGroup:as akira threat actors",
+    "m014_G": "local:ThreatGroup:threat actors using powertool",
+    "m015_T": "attack:T1562.001",
+    "m016_T": "attack:T1219",
+    "m017_S": "local:Software:anydesk",
+    "m018_S": "local:Software:logmein",
+    "m019_T": "attack:T1219",
+    "m020_S": "attack:S0357",
+    "m021_T": "attack:T1136.001",
+    "m022_T": "attack:T1003.003",
+    "m023_T": "attack:T1003.002",
+    "m024_T": "attack:T1003.003",
+    "m025_S": "local:Software:veeam.backup.mountservice.exe",
+    "m026_T": "attack:T1068"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S",
+        "m002_S",
+        "m003_S",
+        "m004_S",
+        "m006_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T",
+        "m007_T",
+        "m008_T",
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m012_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T",
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T",
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G",
+        "m014_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m017_S",
+        "m018_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m019_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m017_S",
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m019_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m020_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m021_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m025_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m023_T",
+        "m024_T",
+        "m026_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m025_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m023_T",
+        "m024_T",
+        "m026_T"
+      ]
+    }
+  ]
+}

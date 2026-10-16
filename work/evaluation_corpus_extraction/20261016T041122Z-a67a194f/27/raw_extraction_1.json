@@ -1,0 +1,32 @@
+{
+  "relations": [
+    {
+      "unit_ids": ["u002"],
+      "context_ids": ["ctx3"],
+      "head": "m009_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    },
+    {
+      "unit_ids": ["u004"],
+      "context_ids": ["ctx3"],
+      "head": "m009_G",
+      "predicate": "USES",
+      "tail": "m002_S"
+    },
+    {
+      "unit_ids": ["u013"],
+      "context_ids": ["ctx3"],
+      "head": "m009_G",
+      "predicate": "USES",
+      "tail": "m004_S"
+    },
+    {
+      "unit_ids": ["u013"],
+      "context_ids": ["ctx3"],
+      "head": "m009_G",
+      "predicate": "USES",
+      "tail": "m005_S"
+    }
+  ]
+}

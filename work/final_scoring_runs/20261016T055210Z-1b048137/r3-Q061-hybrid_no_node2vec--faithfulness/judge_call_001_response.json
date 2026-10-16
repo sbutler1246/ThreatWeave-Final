@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:46:43.5991861Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9315230100,
+  "load_duration": 10519800,
+  "prompt_eval_count": 610,
+  "prompt_eval_duration": 84320000,
+  "eval_count": 700,
+  "eval_duration": 8917114000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"BianLian group actors are reported using Rclone.\",\n    \"LockBit 3.0 actors are reported using Rclone.\",\n    \"CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.\",\n    \"The BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\",\n    \"User Account Management (M1018) can mitigate Transfer Data to Cloud Account (T1537).\",\n    \"Filter Network Traffic (M1037) can mitigate Transfer Data to Cloud Account (T1537) by implementing network-based filtering restrictions to prohibit data transfers to untrusted VPCs.\",\n    \"Software Configuration (M1054) can mitigate Transfer Data to Cloud Account (T1537) by configuring appropriate data sharing restrictions in cloud services.\"\n  ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"BianLian group actors are reported using Rclone.\"\n\t* \"BianLian group actors are reported.\"\n\t* \"BianLian group actors are using Rclone.\"\n2. \"LockBit 3.0 actors are reported using Rclone.\"\n\t* \"LockBit 3.0 actors are reported.\"\n\t* \"LockBit 3.0 actors are using Rclone.\"\n3. \"CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.\"\n\t* \"CISA reports BianLian group actors.\"\n\t* \"BianLian group actors are using Rclone.\"\n\t* \"BianLian group actors are exfiltrating data to a cloud account they control.\"\n\t* \"BianLian group actors are exfiltrating data on the same service.\"\n\t* \"BianLian group actors are avoiding typical file transfers/downloads.\"\n\t* \"BianLian group actors are avoiding network-based exfiltration detection.\"\n4. \"The BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.\"\n\t* \"The BianLian group uses File Transfer Protocol (FTP).\"\n\t* \"The BianLian group uses Rclone.\"\n\t* \"The BianLian group is exfiltrating data.\"\n5. \"User Account Management (M1018) can mitigate Transfer Data to Cloud Account (T1537).\"\n\t* \"User Account Management (M1018) can mitigate Transfer Data to Cloud Account (T1537).\"\n6. \"Filter Network Traffic (M1037) can mitigate Transfer Data to Cloud Account (T1537) by implementing network-based filtering restrictions to prohibit data transfers to untrusted VPCs.\"\n\t* \"Filter Network Traffic (M1037) can mitigate Transfer Data to Cloud Account (T1537).\"\n\t* \"Filter Network Traffic (M1037) can implement network-based filtering restrictions.\"\n\t* \"Filter Network Traffic (M1037) can prohibit data transfers to untrusted VPCs.\"\n7. \"Software Configuration (M1054) can mitigate Transfer Data to Cloud Account (T1537) by configuring appropriate data sharing restrictions in cloud services.\"\n\t* \"",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

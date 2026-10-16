@@ -1,0 +1,600 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1071.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1071.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1095",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "TA0010",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "StealBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1567",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "Rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1485",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1491.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1489",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1071.002",
+      "type": "Technique",
+      "attack_id": "T1071.002"
+    },
+    "m002_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1071.001",
+      "type": "Technique",
+      "attack_id": "T1071.001"
+    },
+    "m004_T": {
+      "name": "T1095",
+      "type": "Technique",
+      "attack_id": "T1095"
+    },
+    "m005_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m006_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m007_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_A": {
+      "name": "TA0010",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m010_S": {
+      "name": "StealBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1567",
+      "type": "Technique",
+      "attack_id": "T1567"
+    },
+    "m013_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m014_S": {
+      "name": "Rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_T": {
+      "name": "T1485",
+      "type": "Technique",
+      "attack_id": "T1485"
+    },
+    "m016_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m017_T": {
+      "name": "T1491.001",
+      "type": "Technique",
+      "attack_id": "T1491.001"
+    },
+    "m018_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m019_T": {
+      "name": "T1489",
+      "type": "Technique",
+      "attack_id": "T1489"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 51,
+      "text": "&CK Techniques for Enterprise – Command and Control",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 52,
+      "end": 67,
+      "text": "Technique Title",
+      "line_start": 52
+    },
+    "u003": {
+      "start": 68,
+      "end": 70,
+      "text": "ID",
+      "line_start": 68
+    },
+    "u004": {
+      "start": 71,
+      "end": 74,
+      "text": "Use",
+      "line_start": 71
+    },
+    "u005": {
+      "start": 75,
+      "end": 126,
+      "text": "Application Layer Protocol: File Transfer Protocols",
+      "line_start": 75
+    },
+    "u006": {
+      "start": 127,
+      "end": 136,
+      "text": "T1071.002",
+      "line_start": 127
+    },
+    "u007": {
+      "start": 137,
+      "end": 181,
+      "text": "LockBit affiliates may use FileZilla for C2.",
+      "line_start": 137
+    },
+    "u008": {
+      "start": 182,
+      "end": 223,
+      "text": "Application Layer Protocol: Web Protocols",
+      "line_start": 182
+    },
+    "u009": {
+      "start": 224,
+      "end": 233,
+      "text": "T1071.001",
+      "line_start": 224
+    },
+    "u010": {
+      "start": 234,
+      "end": 330,
+      "text": "LockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.",
+      "line_start": 234
+    },
+    "u011": {
+      "start": 331,
+      "end": 361,
+      "text": "Non-Application Layer Protocol",
+      "line_start": 331
+    },
+    "u012": {
+      "start": 362,
+      "end": 367,
+      "text": "T1095",
+      "line_start": 362
+    },
+    "u013": {
+      "start": 368,
+      "end": 459,
+      "text": "LockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.",
+      "line_start": 368
+    },
+    "u014": {
+      "start": 460,
+      "end": 478,
+      "text": "Protocol Tunneling",
+      "line_start": 460
+    },
+    "u015": {
+      "start": 479,
+      "end": 484,
+      "text": "T1572",
+      "line_start": 479
+    },
+    "u016": {
+      "start": 485,
+      "end": 549,
+      "text": "LockBit affiliates use Plink to automate SSH actions on Windows.",
+      "line_start": 485
+    },
+    "u017": {
+      "start": 550,
+      "end": 572,
+      "text": "Remote Access Software",
+      "line_start": 550
+    },
+    "u018": {
+      "start": 573,
+      "end": 578,
+      "text": "T1219",
+      "line_start": 573
+    },
+    "u019": {
+      "start": 579,
+      "end": 657,
+      "text": "LockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.",
+      "line_start": 579
+    },
+    "u020": {
+      "start": 658,
+      "end": 735,
+      "text": "Table 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Exfiltration",
+      "line_start": 658
+    },
+    "u021": {
+      "start": 736,
+      "end": 751,
+      "text": "Technique Title",
+      "line_start": 736
+    },
+    "u022": {
+      "start": 752,
+      "end": 754,
+      "text": "ID",
+      "line_start": 752
+    },
+    "u023": {
+      "start": 755,
+      "end": 758,
+      "text": "Use",
+      "line_start": 755
+    },
+    "u024": {
+      "start": 759,
+      "end": 771,
+      "text": "Exfiltration",
+      "line_start": 759
+    },
+    "u025": {
+      "start": 772,
+      "end": 778,
+      "text": "TA0010",
+      "line_start": 772
+    },
+    "u026": {
+      "start": 779,
+      "end": 904,
+      "text": "LockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target network.",
+      "line_start": 779
+    },
+    "u027": {
+      "start": 905,
+      "end": 934,
+      "text": "Exfiltration Over Web Service",
+      "line_start": 905
+    },
+    "u028": {
+      "start": 935,
+      "end": 940,
+      "text": "T1567",
+      "line_start": 935
+    },
+    "u029": {
+      "start": 941,
+      "end": 1035,
+      "text": "LockBit affiliates use publicly available file sharing services to exfiltrate a target’s data.",
+      "line_start": 941
+    },
+    "u030": {
+      "start": 1036,
+      "end": 1096,
+      "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+      "line_start": 1036
+    },
+    "u031": {
+      "start": 1097,
+      "end": 1106,
+      "text": "T1567.002",
+      "line_start": 1097
+    },
+    "u032": {
+      "start": 1107,
+      "end": 1300,
+      "text": "LockBit affiliates use (1) Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.",
+      "line_start": 1107
+    },
+    "u033": {
+      "start": 1301,
+      "end": 1372,
+      "text": "Table 16: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Impact",
+      "line_start": 1301
+    },
+    "u034": {
+      "start": 1373,
+      "end": 1388,
+      "text": "Technique Title",
+      "line_start": 1373
+    },
+    "u035": {
+      "start": 1389,
+      "end": 1391,
+      "text": "ID",
+      "line_start": 1389
+    },
+    "u036": {
+      "start": 1392,
+      "end": 1395,
+      "text": "Use",
+      "line_start": 1392
+    },
+    "u037": {
+      "start": 1396,
+      "end": 1412,
+      "text": "Data Destruction",
+      "line_start": 1396
+    },
+    "u038": {
+      "start": 1413,
+      "end": 1418,
+      "text": "T1485",
+      "line_start": 1413
+    },
+    "u039": {
+      "start": 1419,
+      "end": 1477,
+      "text": "LockBit 3.0 deletes log files and empties the recycle bin.",
+      "line_start": 1419
+    },
+    "u040": {
+      "start": 1478,
+      "end": 1503,
+      "text": "Data Encrypted for Impact",
+      "line_start": 1478
+    },
+    "u041": {
+      "start": 1504,
+      "end": 1509,
+      "text": "T1486",
+      "line_start": 1504
+    },
+    "u042": {
+      "start": 1510,
+      "end": 1612,
+      "text": "LockBit 3.0 encrypts data on target systems to interrupt availability to system and network resources.",
+      "line_start": 1510
+    },
+    "u043": {
+      "start": 1613,
+      "end": 1699,
+      "text": "LockBit affiliates can encrypt Windows and Linux devices, as well as VMware instances.",
+      "line_start": 1613
+    },
+    "u044": {
+      "start": 1700,
+      "end": 1731,
+      "text": "Defacement: Internal Defacement",
+      "line_start": 1700
+    },
+    "u045": {
+      "start": 1732,
+      "end": 1741,
+      "text": "T1491.001",
+      "line_start": 1732
+    },
+    "u046": {
+      "start": 1742,
+      "end": 1853,
+      "text": "LockBit 3.0 changes the host system’s wallpaper and icons to the LockBit 3.0 wallpaper and icons, respectively.",
+      "line_start": 1742
+    },
+    "u047": {
+      "start": 1854,
+      "end": 1877,
+      "text": "Inhibit System Recovery",
+      "line_start": 1854
+    },
+    "u048": {
+      "start": 1878,
+      "end": 1883,
+      "text": "T1490",
+      "line_start": 1878
+    },
+    "u049": {
+      "start": 1884,
+      "end": 1942,
+      "text": "LockBit 3.0 deletes volume shadow copies residing on disk.",
+      "line_start": 1884
+    },
+    "u050": {
+      "start": 1943,
+      "end": 1955,
+      "text": "Service Stop",
+      "line_start": 1943
+    },
+    "u051": {
+      "start": 1956,
+      "end": 1961,
+      "text": "T1489",
+      "line_start": 1956
+    },
+    "u052": {
+      "start": 1962,
+      "end": 2008,
+      "text": "LockBit 3.0 terminates processes and services.",
+      "line_start": 1962
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1071.002",
+    "m002_G": "local:ThreatGroup:lockbit affiliates",
+    "m003_T": "attack:T1071.001",
+    "m004_T": "attack:T1095",
+    "m005_T": "attack:T1572",
+    "m006_T": "attack:T1219",
+    "m007_S": "attack:S1202",
+    "m008_S": "attack:S0591",
+    "m009_A": "attack:TA0010",
+    "m010_S": "attack:S1200",
+    "m011_S": "attack:S1199",
+    "m012_T": "attack:T1567",
+    "m013_T": "attack:T1567.002",
+    "m014_S": "attack:S1040",
+    "m015_T": "attack:T1485",
+    "m016_T": "attack:T1486",
+    "m017_T": "attack:T1491.001",
+    "m018_T": "attack:T1490",
+    "m019_T": "attack:T1489"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u026"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m010_S",
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u032"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m014_S"
+      ]
+    }
+  ]
+}

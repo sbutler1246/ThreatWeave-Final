@@ -1,0 +1,154 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 17,
+      "text": "F9-005FBFBA1A43}\"",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 18,
+      "end": 85,
+      "text": "name=\"MsDtsServer150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 18
+    },
+    "u003": {
+      "start": 86,
+      "end": 185,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"MsDtsServer150\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 86
+    },
+    "u004": {
+      "start": 186,
+      "end": 198,
+      "text": "</NTService>",
+      "line_start": 186
+    },
+    "u005": {
+      "start": 199,
+      "end": 256,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 199
+    },
+    "u006": {
+      "start": 257,
+      "end": 326,
+      "text": "name=\"SSISTELEMETRY150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 257
+    },
+    "u007": {
+      "start": 327,
+      "end": 428,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SSISTELEMETRY150\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 327
+    },
+    "u008": {
+      "start": 429,
+      "end": 441,
+      "text": "</NTService>",
+      "line_start": 429
+    },
+    "u009": {
+      "start": 442,
+      "end": 499,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 442
+    },
+    "u010": {
+      "start": 500,
+      "end": 574,
+      "text": "name=\"SSISScaleOutMaster150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 500
+    },
+    "u011": {
+      "start": 575,
+      "end": 681,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SSISScaleOutMaster150\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 575
+    },
+    "u012": {
+      "start": 682,
+      "end": 694,
+      "text": "</NTService>",
+      "line_start": 682
+    },
+    "u013": {
+      "start": 695,
+      "end": 752,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 695
+    },
+    "u014": {
+      "start": 753,
+      "end": 827,
+      "text": "name=\"SSISScaleOutWorker150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 753
+    },
+    "u015": {
+      "start": 828,
+      "end": 934,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SSISScaleOutWorker150\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 828
+    },
+    "u016": {
+      "start": 935,
+      "end": 947,
+      "text": "</NTService>",
+      "line_start": 935
+    },
+    "u017": {
+      "start": 948,
+      "end": 1005,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 948
+    },
+    "u018": {
+      "start": 1006,
+      "end": 1073,
+      "text": "name=\"MSSQLLaunchpad\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 1006
+    },
+    "u019": {
+      "start": 1074,
+      "end": 1173,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"MSSQLLaunchpad\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 1074
+    },
+    "u020": {
+      "start": 1174,
+      "end": 1186,
+      "text": "</NTService>",
+      "line_start": 1174
+    },
+    "u021": {
+      "start": 1187,
+      "end": 1244,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 1187
+    },
+    "u022": {
+      "start": 1245,
+      "end": 1307,
+      "text": "name=\"SQLWriter\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 1245
+    },
+    "u023": {
+      "start": 1308,
+      "end": 1402,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQLWriter\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 1308
+    },
+    "u024": {
+      "start": 1403,
+      "end": 1415,
+      "text": "</NTService>",
+      "line_start": 1403
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "relations"
+  ],
+  "properties": {
+    "relations": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u026"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m002_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES"
+              },
+              "tail": {
+                "enum": [
+                  "m010_S",
+                  "m011_S"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "unit_ids": {
+                "const": [
+                  "u032"
+                ]
+              },
+              "context_ids": {
+                "const": []
+              },
+              "head": {
+                "enum": [
+                  "m002_G"
+                ]
+              },
+              "predicate": {
+                "const": "USES"
+              },
+              "tail": {
+                "enum": [
+                  "m014_S"
+                ]
+              }
+            },
+            "required": [
+              "unit_ids",
+              "context_ids",
+              "head",
+              "predicate",
+              "tail"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

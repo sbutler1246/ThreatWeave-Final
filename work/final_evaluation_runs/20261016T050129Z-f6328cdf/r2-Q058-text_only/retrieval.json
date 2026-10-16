@@ -1,0 +1,53 @@
+{
+  "candidate_ranks": [
+    {
+      "rank": 1,
+      "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "parent_extraction_chunk_id": "AA23-319A:development:llama500:19026:21144",
+      "source_kind": "cisa",
+      "cosine_distance": 0.5992094874382019
+    },
+    {
+      "rank": 2,
+      "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+      "parent_extraction_chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+      "source_kind": "cisa",
+      "cosine_distance": 0.6164612174034119
+    },
+    {
+      "rank": 3,
+      "chunk_id": "retrieval:ea6551bc23ca29b7d33edbe561f293b5ae0503d7800bdad9c9f29f4f0edbaad9",
+      "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+      "source_kind": "cisa",
+      "cosine_distance": 0.6295828819274902
+    },
+    {
+      "rank": 4,
+      "chunk_id": "retrieval:45f43ba41a6094514bd470a74dc240bdcce3d54a63b67981f88714311d5062f6",
+      "parent_extraction_chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+      "source_kind": "cisa",
+      "cosine_distance": 0.6426491141319275
+    },
+    {
+      "rank": 5,
+      "chunk_id": "retrieval:79163afc81b22f2cff82a219cf123d89f435e9b4805b3cd960ba9a08d3c1c870",
+      "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_kind": "cisa",
+      "cosine_distance": 0.6448341608047485
+    }
+  ],
+  "candidate_chunk_count": 5,
+  "selected_chunk_ids": [
+    "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+    "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa"
+  ],
+  "selected_chunk_count": 2,
+  "selected_path_count": 0,
+  "evidence_utf8_bytes": 2082,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_chunks": 3,
+  "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 20.04139998462051
+}

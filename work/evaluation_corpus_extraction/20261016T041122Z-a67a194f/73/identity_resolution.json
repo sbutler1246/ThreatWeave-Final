@@ -1,0 +1,74 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "T1569.002",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1569.002",
+    "canonical_name": "Service Execution",
+    "source_attack_id": "T1569.002"
+  },
+  {
+    "local_id": "e2",
+    "mention": "TA0008",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:TA0008",
+    "canonical_name": "Lateral Movement",
+    "source_attack_id": "TA0008"
+  },
+  {
+    "local_id": "e3",
+    "mention": "T1486",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1486",
+    "canonical_name": "Data Encrypted for Impact",
+    "source_attack_id": "T1486"
+  },
+  {
+    "local_id": "e4",
+    "mention": "TA0010",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:TA0010",
+    "canonical_name": "Exfiltration",
+    "source_attack_id": "TA0010"
+  },
+  {
+    "local_id": "e5",
+    "mention": "Medusa actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e6",
+    "mention": "PsExec",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0029",
+    "canonical_name": "PsExec",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e7",
+    "mention": "T1003.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1003.001",
+    "canonical_name": "LSASS Memory",
+    "source_attack_id": "T1003.001"
+  },
+  {
+    "local_id": "e8",
+    "mention": "TA0006",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:TA0006",
+    "canonical_name": "Credential Access",
+    "source_attack_id": "TA0006"
+  }
+]

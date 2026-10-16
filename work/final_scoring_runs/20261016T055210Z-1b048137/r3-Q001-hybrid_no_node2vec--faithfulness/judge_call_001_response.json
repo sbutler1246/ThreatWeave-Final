@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:05:59.3242176Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5602530300,
+  "load_duration": 10030300,
+  "prompt_eval_count": 515,
+  "prompt_eval_duration": 123957000,
+  "eval_count": 411,
+  "eval_duration": 5192400000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"LockBit affiliates use Advanced Internet Protocol (IP) Scanner.\",\n        \"Advanced Internet Protocol (IP) Scanner performs network scans.\",\n        \"Advanced Internet Protocol (IP) Scanner finds open TCP and UDP ports for exploitation.\",\n        \"Network Service Discovery (T1046) is the ATT&CK technique used by Advanced Internet Protocol (IP) Scanner.\",\n        \"Network Segmentation (M1030) is the mitigation for Network Service Discovery (T1046).\",\n        \"Network Segmentation (M1030) involves ensuring proper network segmentation to protect critical servers and devices.\"\n    ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"LockBit affiliates use Advanced Internet Protocol (IP) Scanner to perform network scans.\"\n\t* \"LockBit affiliates use Advanced Internet Protocol (IP) Scanner.\"\n\t* \"Advanced Internet Protocol (IP) Scanner performs network scans.\"\n2. \"Advanced Internet Protocol (IP) Scanner performs network scans, finding open TCP and UDP ports for exploitation.\"\n\t* \"Advanced Internet Protocol (IP) Scanner performs network scans.\"\n\t* \"Advanced Internet Protocol (IP) Scanner finds open TCP and UDP ports for exploitation.\"\n3. \"Network Service Discovery (T1046) is the ATT&CK technique used by Advanced Internet Protocol (IP) Scanner.\"\n\t* \"Network Service Discovery (T1046) is the ATT&CK technique used by Advanced Internet Protocol (IP) Scanner.\"\n4. \"Network Segmentation (M1030) is the mitigation for Network Service Discovery (T1046).\"\n\t* \"Network Segmentation (M1030) is the mitigation for Network Service Discovery (T1046).\"\n5. \"Network Segmentation (M1030) involves ensuring proper network segmentation to protect critical servers and devices.\"\n\t* \"Network Segmentation (M1030) involves ensuring proper network segmentation.\"\n\t* \"Network Segmentation (M1030) is used to protect critical servers and devices.\"",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

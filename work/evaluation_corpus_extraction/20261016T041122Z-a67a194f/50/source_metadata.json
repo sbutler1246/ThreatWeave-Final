@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+    "doc_id": "AA24-109A",
+    "start": 10612,
+    "end": 12792,
+    "text": "1003.003].11 Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068].\nEnd Update\nLateral Movement\nUpdate Nov. 13, 2025:\nTo pivot laterally, Akira threat actors use legitimate remote access tools like AnyDesk or LogMeIn [T1219]. They also employ RDP [T1021.001], SSH [T1021.004], and MobaXterm to expand their presence within the compromised network [T1021].\nEnd Update\nCommand and Control\nUpdate Nov. 13, 2025:\nBased on observations from the authoring organizations and trusted third-party reporting, it has been determined that Megazord has likely fallen out of use since 2024.12\nEnd Update\nTrusted third-party investigations revealed that Akira threat actors deployed two distinct ransomware variants against different system architectures during one attempted compromise. Analysts first identified Akira threat actors deploying the Windows-specific “Megazord” ransomware, and further investigation revealed the threat actors concurrently deployed a second payload during the attack, later identified as a novel variant of the Akira ESXi encryptor, Akira_v2.\nUpdate Nov. 13, 2025:\nThe authoring organizations observed Akira threat actors establishing command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572], to initiate encrypted sessions that bypass perimeter monitoring. They also use PowerShell and Windows Management Instrumentation Command-line (WMIC) [T1059.001] to disable services and execute malicious scripts.\nEnd Update\nExfiltration and Impact\nAkira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001] and WinSCP and RClone to exfiltrate data [T1048]. To establish C2 channels, threat actors leverage readily available tools like AnyDesk, MobaXterm, RustDesk, and Cloudflare Tunnel. These tools enable exfiltration through various protocols such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega [T1537], to connect to exfiltration servers. In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 490,
+  "inherited_context_tokens": 14,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "b527e77b6c3158d6efd1722df1eb075c9be3e4ba4007be798dcd514d107b8510",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

@@ -1,0 +1,83 @@
+P039
+Question
+According to AA23-075A, which ATT&CK technique is connected to LockBit 3.0 affiliates through
+the reported use of rclone? Explain the two-hop actor-to-software-to-technique path with
+evidence.
+Displayed answer
+LockBit 3.0 affiliates use rclone to connect to Exfiltration to Cloud Storage (Tl 567.002). [E9, El 0,
+The two-hop actor-to-software-to-technique path is: LockBit 3.0 affiliates -> rclone ->
+Exfiltration to aoud Storage (Tl 567.002). [E9, Elo, Q, E3]
+The mitigation for Exfiltration to Cloud Storage (Tl 567.002) is Restrict Web-Based Content
+(M1021). [Elo, El l]
+The actual practical guidance for Restrict Web-Based Content (MI 021) is to use web proxies to
+enforce an external network communication policy that prevents use of unauthorized external
+services. [Elo, El l]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+LockBit 3.0 affiliates use rclone; the advisory associates the described use of rclone with Tl 567.002
+(Exfiltration to Cloud Storage in Enterprise ATT&CK 17.1). Both links must be supported in the
+advisory context.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the
+ransomware [T 1480.001].
+[Q; CISA]
+#StopRansomware: LockBit 3.0
+
+--- IMAGE ---
+
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Environmental Keying (T 1480.001)
+Mitigation: Do Not Mitigate (M 1055)
+[E-5; ATTACK]
+[Environmental Keying](https://attack.mitre.org/techniques/T1480/001) likely should not be
+mitigated with preventative controls because it may protect unintended targets from being
+compromised via confusion of keys by the adversary. Mitigation of this technique is also unlikely
+to be feasible within most contexts because there are no standard attributes from which an
+adversary may derive keys. If targeted, efforts should be focused on preventing adversary tools
+from running earlier in the chain of activity and on identifying subsequent malicious behavior if
+compromised.
+[E6; CISA]
+LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials
+hardcoded at compilation time or a compromised local account with elevated privileges [T 1078].
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (Tl 078)
+Mitigation: Application Developer Guidance (M 101 3)
+[E8; ATTACK]
+Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext
+credentials in code, published credentials in repositories, or credentials in public cloud storage).
+[E9; CISA]
+rclone, an open-source command line cloud storage manager [Tl 567.002]
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Exfiltration to Cloud Storage (Tl 567.002)
+Mitigation: Restrict Web-Based Content (MI 021)
+
+--- IMAGE ---
+
+[El 1; ATTACK]
+Web proxies can be used to enforce an external network communication policy that prevents use
+of unauthorized external services.
+[El 2; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (Tl 078)
+Mitigation: Active Directory Configuration (M 101 5)
+[El 3; ATTACK]
+Disable legacy authentication, which does not support MFA, and require the use of modern
+authentication protocols instead.
+GRAPH NODES
+Nl: LockBit 3.0 (S1202)
+N2: Environmental Keying (T 1480.001)
+N3: Do Not Mitigate (M1055)
+N4: Valid Accounts (Tl 078)
+N5: Application Developer Guidance (M 101 3)
+N6: Rclone (S1040)
+N7: Exfiltration to Cloud Storage (Tl 567.002)
+N8: Restrict Web-Based Content (M 1021)
+N9: Active Directory Configuration (M 101 5)
+GRAPH PATHS

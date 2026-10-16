@@ -1,0 +1,74 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+      "start": 33284,
+      "end": 33360,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "#StopRansomware: Akira Ransomware",
+      "start": 23,
+      "end": 56,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Technical Details",
+      "start": 4770,
+      "end": 4787,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Table 14. Defense Evasion",
+      "start": 31628,
+      "end": 31653,
+      "source_kind": "cisa"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA24-109A:akira-threat-actors",
+          "predicate": "USES",
+          "tail_id": "attack:S0002",
+          "assertion_ids": [
+            "assertion:12fe9c8b2fc88c1bd3aee002b48002e832a7de09c9b4abf647f224ad4940ab3d"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3",
+            "E4"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+  ],
+  "retrieval_ms": 39.79829998570494,
+  "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

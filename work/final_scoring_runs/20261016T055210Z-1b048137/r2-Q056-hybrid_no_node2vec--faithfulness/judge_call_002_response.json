@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:10:43.5135418Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5629891800,
+  "load_duration": 11466400,
+  "prompt_eval_count": 1314,
+  "prompt_eval_duration": 134169000,
+  "eval_count": 415,
+  "eval_duration": 5404123000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"Pre-compromise has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Develop Capabilities.\",\n      \"reason\": \"The context mentions that Pre-compromise (M1056) is a mitigation for Technique: Compromise Accounts (T1586), not for Develop Capabilities (T1587).\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Pre-compromise has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Compromise Accounts.\",\n      \"reason\": \"The context explicitly states that Pre-compromise (M1056) is a mitigation for Technique: Compromise Accounts (T1586).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"User Account Management has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Impair Defenses.\",\n      \"reason\": \"The context mentions that User Account Management (M1018) is a mitigation for Technique: Disable or Modify Tools (T1562.001), not for Impair Defenses (T1562).\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"User Account Management has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Disable or Modify Tools.\",\n      \"reason\": \"The context explicitly states that User Account Management (M1018) is a mitigation for Technique: Disable or Modify Tools (T1562.001).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Execution Prevention has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Impair Defenses.\",\n      \"reason\": \"The context mentions that Execution Prevention (M1038) is a mitigation for Technique: Impair Defenses (T1562), which matches the statement.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

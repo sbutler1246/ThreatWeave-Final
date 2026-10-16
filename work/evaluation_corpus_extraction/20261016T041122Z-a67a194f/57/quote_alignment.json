@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 84,
+        "end": 110,
+        "text": "Akira Megazord ransomware.",
+        "line_start": 84
+      }
+    ],
+    "document_start": 23309,
+    "document_end": 23335,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

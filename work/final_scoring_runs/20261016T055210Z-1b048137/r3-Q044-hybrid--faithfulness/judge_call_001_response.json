@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:38:38.94365Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4728794800,
+  "load_duration": 10175200,
+  "prompt_eval_count": 487,
+  "prompt_eval_duration": 193214000,
+  "eval_count": 349,
+  "eval_duration": 4403919000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Medusa actors use PsExec to move laterally through the network.\",\n        \"The ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002.\",\n        \"Medusa actors use PsExec.\",\n        \"PsExec is used by Medusa actors to move laterally through the network.\",\n        \"The ATT&CK technique T1569.002 is connected to Medusa actors through the reported use of PsExec.\",\n        \"The two-hop actor-to-software-to-technique path is: Medusa actors (N1) --USES--> PsExec (N2) --USES--> T1569.002.\"\n    ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"Medusa actors use PsExec to move laterally through the network.\"\n\t* Medusa actors use PsExec.\n\t* PsExec is used by Medusa actors to move laterally through the network.\n2. \"The ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002.\"\n\t* The ATT&CK technique T1569.002 is connected to Medusa actors through the reported use of PsExec.\n3. \"The two-hop actor-to-software-to-technique path is: Medusa actors (N1) --USES--> PsExec (N2) --USES--> T1569.002.\"\n\t* The two-hop actor-to-software-to-technique path is: Medusa actors (N1) --USES--> PsExec (N2) --USES--> T1569.002.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-352A
+CHUNK_ID: AA23-352A:evaluation:llama500:17529:18539
+SOURCE_UNITS:
+{"u001": ":", "u002": "all of them", "u003": "}", "u004": "Below are copies of YARA and Suricata rules related to Play’s custom data gathering tool, Grixba:", "u005": "rule GRXBA", "u006": "{", "u007": "meta:", "u008": "description = \"Detects the infostealer GRXBA version 1.1.3.0\"", "u009": "date = \"2025-01\"", "u010": "filetype = \"pe\"", "u011": "maltype = \"infostealer\"", "u012": "strings:", "u013": "$GRB_NET_hex = { 47 52 42 5F 4E 45 54 }", "u014": "$GRB_NET_exe_hex = { 47 52 42 5F 4E 45 54 2E 65 78 65 00 }", "u015": "$Copyright_Zabbix_2023_hex = { 43 6F 70 79 72 69 67 68 74 20 5A 61 62 62 69 78 20 32 30 32 33 00 }", "u016": "$GRB_NT_hex = { 47 52 42 5F 4E 54 00 }", "u017": "$help_string_1_hex = { 48 65 6C 70 54 65 78 74 2B 46 69 6C 65 2E 74 78 74 2F 31 32 37 2E 30 2E 30 2E 31 2D 31 32 37 2E 30 2E 30 2E 32 35 35 2F 31 32 37 2E 30 2E 30 2E 31 2D 32 34 }", "u018": "$help_string_2_hex = { 48 65 6C 70 54 65 78 74 5E 44 6F 6D 61 69 6E 20 6E 61 6D 65 20 66 6F 72 20 55 73 65 72 73 20 61 6E 64 20 43 6F 6D 70 75 74 65 72 73 20 67 61 74 68 65 72 69 6E 67 2E 20 49 66 20 6E 6F 74 20 73 65 74 20 77 69 6C 6C 20 62 65 20 75 73 65 64 20 64 6F 6D 61 69 6E 20 6F 66 20 63 75 72 72 65 6E 74 20 75 73 65 72 }"}
+SOURCE_MENTIONS:
+[{"id": "m001", "text": "Play", "codes": ["S", "G"]}]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[{"unit_ids": ["u004"], "context_ids": [], "heads": ["m001_G"], "predicate": "USES", "tails": ["m001_S"]}]

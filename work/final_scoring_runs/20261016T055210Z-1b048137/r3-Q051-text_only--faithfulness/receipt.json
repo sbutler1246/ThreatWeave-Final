@@ -1,0 +1,18 @@
+{
+  "task": {
+    "task_id": "r3-Q051-text_only--faithfulness",
+    "case_id": "r3-Q051-text_only",
+    "metric": "faithfulness",
+    "eligible": false
+  },
+  "input_sha256": "ed07c9c01ba2fa31c6fca8f0953b3259f6f93465bf811139d26129cdc2508c60",
+  "status": "unavailable_answer",
+  "value": null,
+  "reason": "Original generation failed; no valid response exists.",
+  "judge_calls": 0,
+  "elapsed_ms": 0.0025999906938523054,
+  "files_sha256": {
+    "input.json": "4f48e6606f0c59fa1c640d73a72757add13916ae4958d32930cf820681d7aa63",
+    "result.json": "b3a1f9097576def46ab589a394ec52479333740cd735c04e3b65d8346af8d38e"
+  }
+}

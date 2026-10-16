@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:35:30.3594397Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8138226400,
+  "load_duration": 10508600,
+  "prompt_eval_count": 594,
+  "prompt_eval_duration": 231258000,
+  "eval_count": 609,
+  "eval_duration": 7733790000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"Akira threat actors use ngrok to create secure tunnels for data exfiltration.\",\n    \"Ngrok is used by Akira threat actors to bypass perimeter monitoring.\",\n    \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Filter Network Traffic (M1037) (N3).\",\n    \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Network Intrusion Prevention (M1031) (N4).\"\n  ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"Akira threat actors use ngrok to create secure tunnels for data exfiltration.\"\n\t* Akira threat actors use ngrok.\n\t* Ngrok is used to create secure tunnels.\n\t* Secure tunnels are used for data exfiltration.\n2. \"Ngrok is used by Akira threat actors to bypass perimeter monitoring.\"\n\t* Ngrok is used by Akira threat actors.\n\t* Ngrok is used to bypass perimeter monitoring.\n3. \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Filter Network Traffic (M1037) (N3).\"\n\t* The two-hop path connects Akira actors through ngrok.\n\t* The two-hop path connects Akira actors to the cited ATT&CK technique.\n\t* The two-hop path is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Filter Network Traffic (M1037) (N3).\n4. \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Network Intrusion Prevention (M1031) (N4).\"\n\t* The two-hop path connects Akira actors through ngrok.\n\t* The two-hop path connects Akira actors to the cited ATT&CK technique.\n\t* The two-hop path is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2) --MITIGATED_BY--> Network Intrusion Prevention (M1031) (N4).\n\nNote that the output is in JSON format, with each statement in the \"statements\" array.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

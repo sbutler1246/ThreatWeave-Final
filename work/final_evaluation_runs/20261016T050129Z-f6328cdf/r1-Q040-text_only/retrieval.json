@@ -1,0 +1,54 @@
+{
+  "candidate_ranks": [
+    {
+      "rank": 1,
+      "chunk_id": "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2",
+      "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "source_kind": "cisa",
+      "cosine_distance": 0.37108778953552246
+    },
+    {
+      "rank": 2,
+      "chunk_id": "retrieval:fc2b809533851678cac583904747bbb2672cbb860cb651a9e444d50b94a5f76f",
+      "parent_extraction_chunk_id": "AA25-071A:evaluation:llama500:4851:6963",
+      "source_kind": "cisa",
+      "cosine_distance": 0.3865985870361328
+    },
+    {
+      "rank": 3,
+      "chunk_id": "retrieval:d715cf988e5a0afa432a03a8fee4d1ba47e598d407e3600a81a1bfc76b3f9205",
+      "parent_extraction_chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+      "source_kind": "cisa",
+      "cosine_distance": 0.40629857778549194
+    },
+    {
+      "rank": 4,
+      "chunk_id": "retrieval:45f43ba41a6094514bd470a74dc240bdcce3d54a63b67981f88714311d5062f6",
+      "parent_extraction_chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+      "source_kind": "cisa",
+      "cosine_distance": 0.4089222550392151
+    },
+    {
+      "rank": 5,
+      "chunk_id": "retrieval:23bfa233c4d925b9544f6aef6853453b556a0c1ca5a0ddc5bf2ef1417e62f9bc",
+      "parent_extraction_chunk_id": "AA23-319A:development:llama500:2651:5181",
+      "source_kind": "cisa",
+      "cosine_distance": 0.41711556911468506
+    }
+  ],
+  "candidate_chunk_count": 5,
+  "selected_chunk_ids": [
+    "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2",
+    "retrieval:fc2b809533851678cac583904747bbb2672cbb860cb651a9e444d50b94a5f76f",
+    "retrieval:d715cf988e5a0afa432a03a8fee4d1ba47e598d407e3600a81a1bfc76b3f9205"
+  ],
+  "selected_chunk_count": 3,
+  "selected_path_count": 0,
+  "evidence_utf8_bytes": 2338,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_chunks": 2,
+  "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 17.963799997232854
+}

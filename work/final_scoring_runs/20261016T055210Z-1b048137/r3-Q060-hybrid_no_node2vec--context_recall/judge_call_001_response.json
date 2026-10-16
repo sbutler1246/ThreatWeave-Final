@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:02:21.4261801Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4886656200,
+  "load_duration": 11046900,
+  "prompt_eval_count": 1836,
+  "prompt_eval_duration": 439464000,
+  "eval_count": 333,
+  "eval_duration": 4348741000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"classifications\": [\n{\n\"statement\": \"AA23-352A reports Play ransomware actors using Mimikatz, with advisory mappings T1003;\",\n\"reason\": \"The context does not mention AA23-352A or Play ransomware actors using Mimikatz.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"AA25-071A reports Medusa actors using Mimikatz, with advisory mappings T1003.001.\",\n\"reason\": \"The context does not mention AA25-071A or Medusa actors using Mimikatz.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"These mappings describe the cited reports and do not establish that every use of the software has these behaviors.\",\n\"reason\": \"The context does not mention the cited reports or the behavior of the software.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"The first report uses the parent technique T1003 (OS Credential Dumping);\",\n\"reason\": \"The context does not mention the first report or the parent technique T1003.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"the Medusa report specifies T1003.001 (LSASS Memory), a sub-technique of T1003.\",\n\"reason\": \"The context does not mention the Medusa report or the sub-technique T1003.001.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"This is a difference in specificity of the reported mapping.\",\n\"reason\": \"The context does not mention the reported mapping or the difference in specificity.\",\n\"attributed\": 0\n}\n]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-165A:evaluation:llama500:17571:19802",
+  "doc_id": "AA23-165A",
+  "start": 17571,
+  "end": 19802,
+  "text": "System Information Discovery\nScreenConnect (also known as ConnectWise)\nEnables remote connections to network devices for management.\nEnables LockBit affiliate actors to remotely connect to a victim’s systems.\nT1219\nRemote Access Software\nSoftPerfect Network Scanner\nPerforms network scans for systems management.\nEnables LockBit affiliate actors to obtain information about a victim’s systems and network.\nT1046\nNetwork Service Discovery\nSplashtop\nEnables remote connections to network devices for management.\nEnables LockBit affiliate actors to remotely connect to systems over Remote Desktop Protocol (RDP).\nT1021.001\nRemote Services: Remote Desktop Protocol\nTDSSKiller\nRemoves rootkits.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nTeamViewer\nEnables remote connections to network devices for management.\nEnables LockBit affiliate actors to remotely connect to a victim’s systems.\nT1219\nRemote Access Software\nThunderShell\nFacilitates remote access via Hypertext Transfer Protocol (HTTP) requests.\nEnables LockBit affiliate actors to remotely access systems while encrypting network traffic.\nT1071.001\nApplication Layer Protocol: Web Protocols\nWinSCP\nFacilitates file transfer using SSH File Transfer Protocol for Microsoft Windows.\nEnables data exfiltration via the SSH File Transfer Protocol.\nT1048\nExfiltration Over Alternative Protocol\nCommon Vulnerabilities and Exposures (CVEs) Exploited\nBased on secondary sources, it was noted that affiliates exploit older vulnerabilities like CVE-2021-22986, F5 iControl REST unauthenticated Remote Code Execution Vulnerability, as well as newer vulnerabilities such as:\nCVE-2023-0669: Fortra GoAnyhwere Managed File Transfer (MFT) Remote Code Execution Vulnerability\nCVE-2023-27350: PaperCut MF/NG Improper Access Control Vulnerability\nLockBit affiliates have been documented exploiting numerous CVEs, including:\nCVE-2021-44228: Apache Log4j2 Remote Code Execution Vulnerability,\nCVE-2021-22986: F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,\nCVE-2020-1472: NetLogon Privilege Escalation Vulnerability,\nCVE-2019-0708: Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 70,
+      "text": "Understanding Ransomware Threat Actors: LockBit"
+    },
+    {
+      "start": 2293,
+      "end": 2310,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

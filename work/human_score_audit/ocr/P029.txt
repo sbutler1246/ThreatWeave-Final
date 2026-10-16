@@ -1,0 +1,128 @@
+P029
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to Advanced Internet Protocol (IP) Scanner in AA23-165A? Start from
+LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path.
+Distinguish advisory observations from reference recommendations.
+Displayed answer
+LockBit affiliates use AnyDesk for remote access, which is mitigated by Network Intrusion
+Prevention (M1031). [El, Q, a, E4]
+LockBit affiliates use Atera Remote Monitoring & Management (RMM) for remote access, which
+is mitigated by Network Intrusion Prevention (MI 031). [E6, E2, E3, E4]
+LockBit affiliates use Advanced Port Scanner for network service discovery, which is mitigated
+by Network Segmentation (MI 030). [E7, Q, a, E8]
+Impacket is used by LockBit affiliates, but no direct mitigation is specified. [E 10, El 1,
+El 2]
+LockBit affiliates use SoftPerfect Network Scanner for network service discovery, but no direct
+mitigation is specified. [El 5, El 1, El 2]
+LockBit affiliates use StealBit for data exfiltration, but no direct mitigation is specified. [E 19, El 1,
+E12]
+Saved outcome: answer_ready_for_review
+
+--- IMAGE ---
+
+V Verified reference answer
+The AA23-165A Table 4 caption lists Advanced Internet Protocol (IP) Scanner as a tool used by
+LockBit affiliates. The selected advisory row maps its reported use to T 1046 (Network Service
+Discovery). The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this
+technique to: M1030 (Network Segmentation), M 1031 (Network Intrusion Prevention), MI 042
+(Disable or Remove Feature or Program). These are reference mitigation associations, not
+incident-specific proof of effectiveness.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[Q; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (Tl 219)
+Mitigation: Network Intrusion Prevention (M 1031)
+[E5; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to
+prevent traffic to remote access services.
+
+--- IMAGE ---
+
+[E6; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[E7; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for
+exploitation.
+T 1046
+Network Service Discovery
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T 1046)
+Mitigation: Network Segmentation (MI 030)
+[E9; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[Elo; CISA]
+Impacket
+[El 1; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[El 2; CISA]
+TECHNICAL DETAILS
+[El 3; ATTACK]
+Use network intrusion detection/prevention systems to detect and prevent remote service scans.
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T 1046)
+Mitigation: Network Intrusion Prevention (M 1031)
+
+--- IMAGE ---
+
+[El 5; CISA]
+LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port
+Scanner to scan target networks.
+[El 6; CISA]
+Table 11: LockBit Affiliates' ATT&CK Techniques for Enterprise — Discovery
+[E17; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[E18; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (Tl 587)
+Mitigation: Pre-compromise (M 1056)
+[El 9; CISA]
+LockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data
+from a target network.
+[20; CISA]
+Table 14: LockBit Affiliates' ATT
+GRAPH NODES
+N 1: LockBit affiliates
+N2: AnyDesk
+N3: Remote Access Tools (Tl 219)
+N4: Network Intrusion Prevention (MI 031)
+N5: Atera Remote Monitoring & Management (RMM)
+N6: Advanced Port Scanner
+N7: Network Service Discovery (T 1046)
+N8: Network Segmentation (MI 030)
+N9: Impacket (S0357)
+Nl 0: SoftPerfect Network Scanner
+Nil: StealBit (S1200)
+
+--- IMAGE ---
+
+GRAF) H
+PATHS
+- > N3
+- > N3
+N5
+N6
+"5: Nl NIO

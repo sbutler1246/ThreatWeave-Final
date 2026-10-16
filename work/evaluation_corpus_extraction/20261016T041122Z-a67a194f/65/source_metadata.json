@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+    "doc_id": "AA24-109A",
+    "start": 34797,
+    "end": 37085,
+    "text": "T1555.004\nAkira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.\nEnd Update\nTable 16. Discovery\nTechnique Title\nID\nUse\nSystem Network Configuration Discovery\nT1016\nAkira threat actors use tools to scan systems and identify services running on remote hosts and local network infrastructure.\nRemote System Discovery\nT1018\nAkira threat actors use nltest /dclist: to amass a listing of other systems by IP address, hostname, or other logical identifiers on a network.\nNetwork Service Discovery\nT1046\nAkira threat actors use Advanced IP Scanner and NetScan to perform network reconnaissance by locating computers, scanning ports, identifying network devices, accessing shared folders, and enabling remote control via RDP and Radmin.\nAkira threat actors use SoftPerfect network scanners (netscan.exe) to perform discovery and retrieve network device information through WMI, SNMP, HTTP, SSH, and PowerShell.\nProcess Discovery\nT1057\nAkira threat actors use the Tasklist utility to obtain details on running processes via PowerShell.\nPermission Groups Discovery: Local Groups\nT1069.001\nAkira threat actors use the net localgroup /dom to find local groups and permission settings.\nPermission Groups Discovery: Domain Groups\nT1069.002\nAkira threat actors use the net group /domain command to find domain level groups and permission settings.\nSystem Information Discovery\nT1082\nAkira threat actors use tools like PCHunter64 to acquire detailed process and system information.\nUpdate Nov. 13, 2025\nAkira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.\nEnd Update\nUpdate Nov. 13, 2025\nAccount Discovery: Domain Account\nT1087.002\nAkira threat actors use Adfind.exe to query and retrieve information from Active Directory.\nEnd Update\nDomain Trust Discovery\nT1482\nAkira threat actors use the net Windows command to enumerate domain information.\nUpdate Nov. 13, 2025\nAkira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.\nEnd Update\nTable 17. Lateral Movement\nTechnique Title\nID\nUse\nUpdate Nov. 13, 2025\nRemote Services\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      },
+      {
+        "start": 33205,
+        "end": 33232,
+        "text": "Table 15. Credential Access"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 498,
+  "inherited_context_tokens": 21,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "9f95f75397b9805f65d17cab9de57a32bc0765ccbb8a765b047259852c864db1",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

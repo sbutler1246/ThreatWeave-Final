@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r3-Q050-hybrid--answer_relevancy",
+    "case_id": "r3-Q050-hybrid",
+    "metric": "answer_relevancy",
+    "eligible": true
+  },
+  "input_sha256": "0dc6750861e6269eb5f82655eb4dc10d61e6935c14980ca986bcc015bfb907b1",
+  "status": "scored",
+  "value": 0.39340481163916774,
+  "judge_calls": 3,
+  "elapsed_ms": 5907.411199994385
+}

@@ -1,0 +1,678 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1558",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1059.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Windows Command Prompt",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "PDQ Deploy",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1569.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Sysinternals PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1047",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1675",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1105",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "certutil",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1071.001",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m002_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1558",
+      "type": "Technique",
+      "attack_id": "T1558"
+    },
+    "m005_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m006_T": {
+      "name": "T1059.003",
+      "type": "Technique",
+      "attack_id": "T1059.003"
+    },
+    "m007_S": {
+      "name": "Windows Command Prompt",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m009_S": {
+      "name": "PDQ Deploy",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m011_T": {
+      "name": "T1569.002",
+      "type": "Technique",
+      "attack_id": "T1569.002"
+    },
+    "m012_S": {
+      "name": "Sysinternals PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1047",
+      "type": "Technique",
+      "attack_id": "T1047"
+    },
+    "m015_T": {
+      "name": "T1675",
+      "type": "Technique",
+      "attack_id": "T1675"
+    },
+    "m016_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m017_S": {
+      "name": "Rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_T": {
+      "name": "T1105",
+      "type": "Technique",
+      "attack_id": "T1105"
+    },
+    "m019_S": {
+      "name": "certutil",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1071.001",
+      "type": "Technique",
+      "attack_id": "T1071.001"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 26,
+      "text": "Table 6: Credential Access",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 27,
+      "end": 42,
+      "text": "Technique Title",
+      "line_start": 27
+    },
+    "u003": {
+      "start": 43,
+      "end": 45,
+      "text": "ID",
+      "line_start": 43
+    },
+    "u004": {
+      "start": 46,
+      "end": 49,
+      "text": "Use",
+      "line_start": 46
+    },
+    "u005": {
+      "start": 50,
+      "end": 85,
+      "text": "OS Credential Dumping: LSASS Memory",
+      "line_start": 50
+    },
+    "u006": {
+      "start": 86,
+      "end": 95,
+      "text": "T1003.001",
+      "line_start": 86
+    },
+    "u007": {
+      "start": 96,
+      "end": 186,
+      "text": "Medusa actors access credential material stored in process memory or LSASS using Mimikatz.",
+      "line_start": 96
+    },
+    "u008": {
+      "start": 187,
+      "end": 218,
+      "text": "Steal or Forge Kerberos Tickets",
+      "line_start": 187
+    },
+    "u009": {
+      "start": 219,
+      "end": 224,
+      "text": "T1558",
+      "line_start": 219
+    },
+    "u010": {
+      "start": 225,
+      "end": 364,
+      "text": "(Updated Aug. 18, 2026) Medusa actors steal credentials by copying Windows database files and using them to create forged Kerberos tickets.",
+      "line_start": 225
+    },
+    "u011": {
+      "start": 365,
+      "end": 404,
+      "text": "Table 7: Lateral Movement and Execution",
+      "line_start": 365
+    },
+    "u012": {
+      "start": 405,
+      "end": 420,
+      "text": "Technique Title",
+      "line_start": 405
+    },
+    "u013": {
+      "start": 421,
+      "end": 423,
+      "text": "ID",
+      "line_start": 421
+    },
+    "u014": {
+      "start": 424,
+      "end": 427,
+      "text": "Use",
+      "line_start": 424
+    },
+    "u015": {
+      "start": 428,
+      "end": 473,
+      "text": "Command and Scripting Interpreter: PowerShell",
+      "line_start": 428
+    },
+    "u016": {
+      "start": 474,
+      "end": 483,
+      "text": "T1059.001",
+      "line_start": 474
+    },
+    "u017": {
+      "start": 484,
+      "end": 562,
+      "text": "Medusa actors use PowerShell for ingress, network, and filesystem enumeration.",
+      "line_start": 484
+    },
+    "u018": {
+      "start": 563,
+      "end": 619,
+      "text": "Command and Scripting Interpreter: Windows Command Shell",
+      "line_start": 563
+    },
+    "u019": {
+      "start": 620,
+      "end": 629,
+      "text": "T1059.003",
+      "line_start": 620
+    },
+    "u020": {
+      "start": 630,
+      "end": 781,
+      "text": "Medusa actors use Windows Command Prompt, which can be used to control almost any aspect of a system, for ingress, network, and filesystem enumeration.",
+      "line_start": 630
+    },
+    "u021": {
+      "start": 782,
+      "end": 807,
+      "text": "Software Deployment Tools",
+      "line_start": 782
+    },
+    "u022": {
+      "start": 808,
+      "end": 813,
+      "text": "T1072",
+      "line_start": 808
+    },
+    "u023": {
+      "start": 814,
+      "end": 906,
+      "text": "Medusa actors use PDQ Deploy and BigFix to deploy the encryptor on files across the network.",
+      "line_start": 814
+    },
+    "u024": {
+      "start": 907,
+      "end": 947,
+      "text": "Remote Services: Remote Desktop Protocol",
+      "line_start": 907
+    },
+    "u025": {
+      "start": 948,
+      "end": 957,
+      "text": "T1021.001",
+      "line_start": 948
+    },
+    "u026": {
+      "start": 958,
+      "end": 1074,
+      "text": "Medusa actors use RDP, a common feature of OSs, to log into an interactive session with a system and move laterally.",
+      "line_start": 958
+    },
+    "u027": {
+      "start": 1075,
+      "end": 1109,
+      "text": "System Services: Service Execution",
+      "line_start": 1075
+    },
+    "u028": {
+      "start": 1110,
+      "end": 1119,
+      "text": "T1569.002",
+      "line_start": 1110
+    },
+    "u029": {
+      "start": 1120,
+      "end": 1210,
+      "text": "Medusa actors use Sysinternals PsExec to deploy the encryptor on files across the network.",
+      "line_start": 1120
+    },
+    "u030": {
+      "start": 1211,
+      "end": 1245,
+      "text": "Windows Management Instrumentation",
+      "line_start": 1211
+    },
+    "u031": {
+      "start": 1246,
+      "end": 1251,
+      "text": "T1047",
+      "line_start": 1246
+    },
+    "u032": {
+      "start": 1252,
+      "end": 1304,
+      "text": "Medusa actors abuse WMI to query system information.",
+      "line_start": 1252
+    },
+    "u033": {
+      "start": 1305,
+      "end": 1332,
+      "text": "ESXi Administration Command",
+      "line_start": 1305
+    },
+    "u034": {
+      "start": 1333,
+      "end": 1338,
+      "text": "T1675",
+      "line_start": 1333
+    },
+    "u035": {
+      "start": 1339,
+      "end": 1485,
+      "text": "(Updated Aug. 18, 2026) Medusa actors abuse ESXi administration services to force root passwords to Medusa-controlled passwords on Linux machines.",
+      "line_start": 1339
+    },
+    "u036": {
+      "start": 1486,
+      "end": 1522,
+      "text": "Table 8: Exfiltration and Encryption",
+      "line_start": 1486
+    },
+    "u037": {
+      "start": 1523,
+      "end": 1538,
+      "text": "Technique Title",
+      "line_start": 1523
+    },
+    "u038": {
+      "start": 1539,
+      "end": 1541,
+      "text": "ID",
+      "line_start": 1539
+    },
+    "u039": {
+      "start": 1542,
+      "end": 1545,
+      "text": "Use",
+      "line_start": 1542
+    },
+    "u040": {
+      "start": 1546,
+      "end": 1606,
+      "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+      "line_start": 1546
+    },
+    "u041": {
+      "start": 1607,
+      "end": 1616,
+      "text": "T1567.002",
+      "line_start": 1607
+    },
+    "u042": {
+      "start": 1617,
+      "end": 1702,
+      "text": "Medusa actors use Rclone to facilitate exfiltration of data to the Medusa C2 servers.",
+      "line_start": 1617
+    },
+    "u043": {
+      "start": 1703,
+      "end": 1731,
+      "text": "Table 9: Command and Control",
+      "line_start": 1703
+    },
+    "u044": {
+      "start": 1732,
+      "end": 1747,
+      "text": "Technique Title",
+      "line_start": 1732
+    },
+    "u045": {
+      "start": 1748,
+      "end": 1750,
+      "text": "ID",
+      "line_start": 1748
+    },
+    "u046": {
+      "start": 1751,
+      "end": 1754,
+      "text": "Use",
+      "line_start": 1751
+    },
+    "u047": {
+      "start": 1755,
+      "end": 1776,
+      "text": "Ingress Tool Transfer",
+      "line_start": 1755
+    },
+    "u048": {
+      "start": 1777,
+      "end": 1782,
+      "text": "T1105",
+      "line_start": 1777
+    },
+    "u049": {
+      "start": 1783,
+      "end": 1867,
+      "text": "Medusa actors use PowerShell, Windows Command Prompt, and certutil for file ingress.",
+      "line_start": 1783
+    },
+    "u050": {
+      "start": 1868,
+      "end": 1909,
+      "text": "Application Layer Protocol: Web Protocols",
+      "line_start": 1868
+    },
+    "u051": {
+      "start": 1910,
+      "end": 1919,
+      "text": "T1071.001",
+      "line_start": 1910
+    },
+    "u052": {
+      "start": 1920,
+      "end": 2008,
+      "text": "Medusa actors communicate using application layer protocols associated with web traffic.",
+      "line_start": 1920
+    },
+    "u053": {
+      "start": 2009,
+      "end": 2107,
+      "text": "In this case, Medusa actors used scripts that created reverse or bind shells over port 443: HTTPS.",
+      "line_start": 1920
+    },
+    "u054": {
+      "start": 2108,
+      "end": 2127,
+      "text": "Remote Access Tools",
+      "line_start": 2108
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1003.001",
+    "m002_G": "local:ThreatGroup:medusa actors",
+    "m003_S": "attack:S0002",
+    "m004_T": "attack:T1558",
+    "m005_T": "attack:T1059.001",
+    "m006_T": "attack:T1059.003",
+    "m007_S": "local:Software:windows command prompt",
+    "m008_T": "attack:T1072",
+    "m009_S": "local:Software:pdq deploy",
+    "m010_T": "attack:T1021.001",
+    "m011_T": "attack:T1569.002",
+    "m012_S": "local:Software:sysinternals psexec",
+    "m013_S": "attack:S0029",
+    "m014_T": "attack:T1047",
+    "m015_T": "attack:T1675",
+    "m016_T": "attack:T1567.002",
+    "m017_S": "attack:S1040",
+    "m018_T": "attack:T1105",
+    "m019_S": "attack:S0160",
+    "m020_T": "attack:T1071.001"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S",
+        "m013_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u042"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m017_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u049"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S",
+        "m019_S"
+      ]
+    }
+  ]
+}

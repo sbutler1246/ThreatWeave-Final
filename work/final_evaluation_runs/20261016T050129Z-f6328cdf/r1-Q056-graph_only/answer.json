@@ -1,0 +1,16 @@
+{
+  "answer": "The retrieved evidence is insufficient to answer this question.",
+  "claims": [],
+  "evidence": {
+    "passages": [],
+    "paths": [],
+    "citation_ids": [],
+    "retrieval_ms": 22.10830000694841,
+    "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": true,
+  "execution_time_ms": 22.96050000586547,
+  "generation_timestamp": "2026-10-16T05:02:39.119609Z",
+  "warnings": []
+}

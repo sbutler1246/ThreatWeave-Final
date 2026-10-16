@@ -1,0 +1,32 @@
+{
+  "relations": [
+    {
+      "unit_ids": ["u002"],
+      "context_ids": [],
+      "head": "m003_G",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "m006_T"
+    },
+    {
+      "unit_ids": ["u004"],
+      "context_ids": [],
+      "head": "m003_G",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "m008_T"
+    },
+    {
+      "unit_ids": ["u009"],
+      "context_ids": [],
+      "head": "m003_G",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "m011_T"
+    },
+    {
+      "unit_ids": ["u017"],
+      "context_ids": [],
+      "head": "m017_S",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "m021_T"
+    }
+  ]
+}

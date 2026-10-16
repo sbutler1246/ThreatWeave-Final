@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T05:56:50.0725894Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 403603400,
+  "load_duration": 4687000,
+  "prompt_eval_count": 484,
+  "prompt_eval_duration": 14062000,
+  "eval_count": 31,
+  "eval_duration": 378298000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What mitigates the use of Advanced Port Scanner by LockBit affiliates?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

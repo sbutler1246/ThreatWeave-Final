@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r3-Q050-hybrid_no_node2vec--context_recall",
+    "case_id": "r3-Q050-hybrid_no_node2vec",
+    "metric": "context_recall",
+    "eligible": true
+  },
+  "input_sha256": "9f15635b433ec6a4f6a349862be77175e436c1ef76837cb48f6936696316d0b5",
+  "status": "scored",
+  "value": 1.0,
+  "judge_calls": 1,
+  "elapsed_ms": 7665.746900020167
+}

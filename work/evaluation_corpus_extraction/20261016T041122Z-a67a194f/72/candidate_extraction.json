@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Medusa actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1219",
+      "attack_id": "T1219"
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "AnyDesk",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "ConnectWise",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "PsExec",
+      "attack_id": null
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1021.001",
+      "attack_id": "T1021.001"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1588,
+        "end": 1710,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 1711,
+        "end": 1978,
+        "quote": "To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 1711,
+        "end": 1978,
+        "quote": "To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e5",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 1979,
+        "end": 2209,
+        "quote": "Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]."
+      },
+      "confidence": null
+    }
+  ]
+}

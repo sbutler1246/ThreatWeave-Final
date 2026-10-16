@@ -1,0 +1,245 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Avaddon",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Metasploit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Cobalt Strike have also been observed",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Avaddon",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Metasploit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Cobalt Strike have also been observed",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 80,
+      "text": "a result, the leak sites reveal a portion of LockBit affiliates’ total victims.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 81,
+      "end": 188,
+      "text": "For these reasons, the leak sites are not a reliable indicator of when LockBit ransomware attacks occurred.",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 189,
+      "end": 312,
+      "text": "The date of data publication on the leak sites may be months after LockBit affiliates actually executed ransomware attacks.",
+      "line_start": 0
+    },
+    "u004": {
+      "start": 313,
+      "end": 401,
+      "text": "Up to the Q1 2023, a total of 1,653 alleged victims were observed on LockBit leak sites.",
+      "line_start": 313
+    },
+    "u005": {
+      "start": 402,
+      "end": 600,
+      "text": "With the introduction of LockBit 2.0 and LockBit 3.0, the leak sites have changed, with some sources choosing to differentiate leak sites by LockBit versions and others ignoring any differentiation.",
+      "line_start": 313
+    },
+    "u006": {
+      "start": 601,
+      "end": 783,
+      "text": "Over time, and through different evolutions of LockBit, the address and layout of LockBit leak sites have changed and are aggregated under the common denominator of the LockBit name.",
+      "line_start": 313
+    },
+    "u007": {
+      "start": 784,
+      "end": 990,
+      "text": "The introduction of LockBit 2.0 at the end of the Q2 2021 had an immediate impact on the cybercriminal market due to multiple RaaS operations shutting down in May and June 2021 (e.g., DarkSide and Avaddon).",
+      "line_start": 313
+    },
+    "u008": {
+      "start": 991,
+      "end": 1139,
+      "text": "LockBit competed with other RaaS operations, like Hive RaaS, to fill the gap in the cybercriminal market leading to an influx of LockBit affiliates.",
+      "line_start": 313
+    },
+    "u009": {
+      "start": 1140,
+      "end": 1237,
+      "text": "Figure 2 shows the alleged number of victims worldwide on LockBit leak sites starting in Q3 2020.",
+      "line_start": 313
+    },
+    "u010": {
+      "start": 1238,
+      "end": 1335,
+      "text": "Figure 2 shows the alleged number of victims worldwide on LockBit leak sites starting in Q3 2020.",
+      "line_start": 313
+    },
+    "u011": {
+      "start": 1336,
+      "end": 1403,
+      "text": "Figure 2: Alleged Number of Victims Worldwide on LockBit Leak Sites",
+      "line_start": 1336
+    },
+    "u012": {
+      "start": 1404,
+      "end": 1409,
+      "text": "Tools",
+      "line_start": 1404
+    },
+    "u013": {
+      "start": 1410,
+      "end": 1550,
+      "text": "During their intrusions, LockBit affiliates have been observed using various freeware and open-source tools that are intended for legal use.",
+      "line_start": 1410
+    },
+    "u014": {
+      "start": 1551,
+      "end": 1749,
+      "text": "When repurposed by LockBit, these tools are then used for a range of malicious cyber activity, such as network reconnaissance, remote access and tunneling, credential dumping, and file exfiltration.",
+      "line_start": 1410
+    },
+    "u015": {
+      "start": 1750,
+      "end": 1926,
+      "text": "Use of PowerShell and batch scripts are observed across most intrusions, which focus on system discovery, reconnaissance, password/credential hunting, and privilege escalation.",
+      "line_start": 1410
+    },
+    "u016": {
+      "start": 1927,
+      "end": 2040,
+      "text": "Artifacts of professional penetration-testing tools such as Metasploit and Cobalt Strike have also been observed.",
+      "line_start": 1410
+    },
+    "u017": {
+      "start": 2041,
+      "end": 2168,
+      "text": "Table 4 shows a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations.",
+      "line_start": 2041
+    },
+    "u018": {
+      "start": 2169,
+      "end": 2278,
+      "text": "The legitimate freeware and open-source tools mentioned in this product are all publicly available and legal.",
+      "line_start": 2041
+    },
+    "u019": {
+      "start": 2279,
+      "end": 2504,
+      "text": "The use of these tools by a threat actor should not be attributed to the freeware and open-source tools, absent specific articulable facts tending to show they are used at the direction or under the control of a threat actor.",
+      "line_start": 2041
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:lockbit",
+    "m002_G": "local:ThreatGroup:lockbit affiliates",
+    "m003_S": "attack:S1199",
+    "m004_S": "attack:S1202",
+    "m005_S": "attack:S0640",
+    "m006_S": "local:Software:metasploit",
+    "m007_S": "attack:S0154",
+    "m008_S": "local:Software:cobalt strike have also been observed"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u008"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    }
+  ]
+}

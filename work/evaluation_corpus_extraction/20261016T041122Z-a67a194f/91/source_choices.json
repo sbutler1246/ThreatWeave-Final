@@ -1,0 +1,155 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Play",
+      "codes": [
+        "S",
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m001_G": {
+      "name": "Play",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 1,
+      "text": ":",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 2,
+      "end": 13,
+      "text": "all of them",
+      "line_start": 2
+    },
+    "u003": {
+      "start": 14,
+      "end": 15,
+      "text": "}",
+      "line_start": 14
+    },
+    "u004": {
+      "start": 16,
+      "end": 113,
+      "text": "Below are copies of YARA and Suricata rules related to Play’s custom data gathering tool, Grixba:",
+      "line_start": 16
+    },
+    "u005": {
+      "start": 114,
+      "end": 124,
+      "text": "rule GRXBA",
+      "line_start": 114
+    },
+    "u006": {
+      "start": 125,
+      "end": 126,
+      "text": "{",
+      "line_start": 125
+    },
+    "u007": {
+      "start": 127,
+      "end": 132,
+      "text": "meta:",
+      "line_start": 127
+    },
+    "u008": {
+      "start": 133,
+      "end": 194,
+      "text": "description = \"Detects the infostealer GRXBA version 1.1.3.0\"",
+      "line_start": 133
+    },
+    "u009": {
+      "start": 195,
+      "end": 211,
+      "text": "date = \"2025-01\"",
+      "line_start": 195
+    },
+    "u010": {
+      "start": 212,
+      "end": 227,
+      "text": "filetype = \"pe\"",
+      "line_start": 212
+    },
+    "u011": {
+      "start": 228,
+      "end": 251,
+      "text": "maltype = \"infostealer\"",
+      "line_start": 228
+    },
+    "u012": {
+      "start": 252,
+      "end": 260,
+      "text": "strings:",
+      "line_start": 252
+    },
+    "u013": {
+      "start": 261,
+      "end": 300,
+      "text": "$GRB_NET_hex = { 47 52 42 5F 4E 45 54 }",
+      "line_start": 261
+    },
+    "u014": {
+      "start": 301,
+      "end": 359,
+      "text": "$GRB_NET_exe_hex = { 47 52 42 5F 4E 45 54 2E 65 78 65 00 }",
+      "line_start": 301
+    },
+    "u015": {
+      "start": 360,
+      "end": 458,
+      "text": "$Copyright_Zabbix_2023_hex = { 43 6F 70 79 72 69 67 68 74 20 5A 61 62 62 69 78 20 32 30 32 33 00 }",
+      "line_start": 360
+    },
+    "u016": {
+      "start": 459,
+      "end": 497,
+      "text": "$GRB_NT_hex = { 47 52 42 5F 4E 54 00 }",
+      "line_start": 459
+    },
+    "u017": {
+      "start": 498,
+      "end": 678,
+      "text": "$help_string_1_hex = { 48 65 6C 70 54 65 78 74 2B 46 69 6C 65 2E 74 78 74 2F 31 32 37 2E 30 2E 30 2E 31 2D 31 32 37 2E 30 2E 30 2E 32 35 35 2F 31 32 37 2E 30 2E 30 2E 31 2D 32 34 }",
+      "line_start": 498
+    },
+    "u018": {
+      "start": 679,
+      "end": 1009,
+      "text": "$help_string_2_hex = { 48 65 6C 70 54 65 78 74 5E 44 6F 6D 61 69 6E 20 6E 61 6D 65 20 66 6F 72 20 55 73 65 72 73 20 61 6E 64 20 43 6F 6D 70 75 74 65 72 73 20 67 61 74 68 65 72 69 6E 67 2E 20 49 66 20 6E 6F 74 20 73 65 74 20 77 69 6C 6C 20 62 65 20 75 73 65 64 20 64 6F 6D 61 69 6E 20 6F 66 20 63 75 72 72 65 6E 74 20 75 73 65 72 }",
+      "line_start": 679
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1162",
+    "m001_G": "attack:G1040"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    }
+  ]
+}

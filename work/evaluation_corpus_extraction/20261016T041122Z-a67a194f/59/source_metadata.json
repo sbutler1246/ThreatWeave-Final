@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:25188:26526",
+    "doc_id": "AA24-109A",
+    "start": 25188,
+    "end": 26526,
+    "text": "6C\nEncryption script.\ns.bat\n24e19d29a47b6b5e1a39bf5e4c313194\nEncryption script.\nStart.bat\n814310fb7a59f23e3e137ee6fee04fa1\nEncryption script.\nTable 4. Malicious Files and SHA-1 Hash\nFile Name\nHash (SHA 1)\nDescription\nVmware.exe\n5961a99181df157b81d35a50eeb27f96577a2fa2\nAkira encryptor.\nw.exe\nd5efaa22a74aab87d17f8666686b554e41fb389a\nAkira ransomware.\nw.exe\n08CF869A19C76CA718BA80EF73636E7BC38218B8\nAkira ransomware.\nsnaffler.exe\nef328f68c6d865ba4ef4223b5d8ee9efb5667420\nScript used to enumerate sensitive data.\nTable 5. Malicious File Descriptions\nFile Name\nDescription\nEdge_server.exe\nAkira artifact.\nlck.exe\nAkira ransomware file.\n1.bat\nMalicious batch file.\n1.exe\nEncryption script.\nlocker.exe\nEncryption script.\nWin_locker_0234-BMMNBW-MONC.exe\nEncryption script.\nlevel.exe\nTrojanized level.io malicious payload.\nlevel-windows-amd64.exe\nTrojanized level.io malicious payload.\nEnd Update\nNote: Trusted third-party analysis confirmed the Akira threat actors’ ransomware samples in Table 6 were created on Dec. 28, 2023.\nTable 6. Windows Akira Ransomware Samples\nHash (SHA-256)\n0b5b31af5956158bfbd14f6cbf4f1bca23c5d16a40dbf3758f3289146c565f43\n0d700ca5f6cc093de4abba9410480ee7a8870d5e8fe86c9ce103eec3872f225f\na2df5477cf924bd41241a3326060cc2f913aff2379858b148ddec455e4da67bc\n03aa12ac2884251aa24bf0ccd854047de403591a8537e6aba19e822807e06a45\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      },
+      {
+        "start": 24863,
+        "end": 24900,
+        "text": "Table 3. Malicious Files and MD5 Hash"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 509,
+  "inherited_context_tokens": 26,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "7c1efd61efc7809dd51b0b28ffdbd7b4f3504fc1918da107fb3d3bb4a4eed8a5",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

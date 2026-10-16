@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:49:27.9540734Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3542343100,
+  "load_duration": 9833000,
+  "prompt_eval_count": 1367,
+  "prompt_eval_duration": 342189000,
+  "eval_count": 242,
+  "eval_duration": 3112600000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"classifications\": [\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1567.002 (Exfiltration to Cloud Storage).\",\n            \"reason\": \"There is no mention about T1567.002 in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1021 (Restrict Web-Based Content).\",\n            \"reason\": \"There is no mention about M1021 in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}\n\nNote that the first two sentences in the answer do not match any part of the context, so they are classified as 0 (not attributed). The third sentence is a direct quote from the context, so it is classified as 1 (attributed).",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

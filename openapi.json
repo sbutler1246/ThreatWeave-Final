@@ -1,0 +1,351 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ThreatWeave",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/query": {
+      "post": {
+        "operationId": "query",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QueryRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Evidence-grounded answer",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnswerResponse"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Corpus/index mismatch"
+          },
+          "422": {
+            "description": "Request validation failure"
+          },
+          "503": {
+            "description": "Engine unconfigured or required service unavailable"
+          },
+          "504": {
+            "description": "Request timed out"
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "operationId": "health",
+        "responses": {
+          "200": {
+            "description": "Engine configuration status; detailed service checks remain planned"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "RetrievalMode": {
+        "enum": [
+          "text_only",
+          "graph_only",
+          "hybrid",
+          "hybrid_no_node2vec"
+        ],
+        "title": "RetrievalMode",
+        "type": "string"
+      },
+      "QueryRequest": {
+        "additionalProperties": false,
+        "properties": {
+          "question": {
+            "maxLength": 2000,
+            "minLength": 3,
+            "title": "Question",
+            "type": "string"
+          },
+          "mode": {
+            "$ref": "#/components/schemas/RetrievalMode"
+          },
+          "corpus_version": {
+            "minLength": 1,
+            "title": "Corpus Version",
+            "type": "string"
+          }
+        },
+        "required": [
+          "question",
+          "mode",
+          "corpus_version"
+        ],
+        "title": "QueryRequest",
+        "type": "object"
+      },
+      "Claim": {
+        "additionalProperties": false,
+        "properties": {
+          "text": {
+            "minLength": 1,
+            "title": "Text",
+            "type": "string"
+          },
+          "citations": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "title": "Citations",
+            "type": "array"
+          }
+        },
+        "required": [
+          "text",
+          "citations"
+        ],
+        "title": "Claim",
+        "type": "object"
+      },
+      "EvidenceBundle": {
+        "additionalProperties": false,
+        "properties": {
+          "passages": {
+            "items": {
+              "$ref": "#/components/schemas/Passage"
+            },
+            "title": "Passages",
+            "type": "array"
+          },
+          "paths": {
+            "items": {
+              "$ref": "#/components/schemas/GraphPath"
+            },
+            "title": "Paths",
+            "type": "array"
+          },
+          "citation_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Citation Ids",
+            "type": "array"
+          },
+          "retrieval_ms": {
+            "minimum": 0,
+            "title": "Retrieval Ms",
+            "type": "number"
+          },
+          "configuration_hash": {
+            "title": "Configuration Hash",
+            "type": "string"
+          },
+          "corpus_version": {
+            "title": "Corpus Version",
+            "type": "string"
+          }
+        },
+        "required": [
+          "retrieval_ms",
+          "configuration_hash",
+          "corpus_version"
+        ],
+        "title": "EvidenceBundle",
+        "type": "object"
+      },
+      "GraphPath": {
+        "additionalProperties": false,
+        "properties": {
+          "path_id": {
+            "title": "Path Id",
+            "type": "string"
+          },
+          "edges": {
+            "items": {
+              "$ref": "#/components/schemas/RelationshipEdge"
+            },
+            "maxItems": 3,
+            "minItems": 1,
+            "title": "Edges",
+            "type": "array"
+          }
+        },
+        "required": [
+          "path_id",
+          "edges"
+        ],
+        "title": "GraphPath",
+        "type": "object"
+      },
+      "Passage": {
+        "additionalProperties": false,
+        "properties": {
+          "citation_id": {
+            "title": "Citation Id",
+            "type": "string"
+          },
+          "doc_id": {
+            "title": "Doc Id",
+            "type": "string"
+          },
+          "chunk_id": {
+            "title": "Chunk Id",
+            "type": "string"
+          },
+          "source_url": {
+            "format": "uri",
+            "maxLength": 2083,
+            "minLength": 1,
+            "title": "Source Url",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "start": {
+            "minimum": 0,
+            "title": "Start",
+            "type": "integer"
+          },
+          "end": {
+            "exclusiveMinimum": 0,
+            "title": "End",
+            "type": "integer"
+          },
+          "source_kind": {
+            "enum": [
+              "cisa",
+              "attack"
+            ],
+            "title": "Source Kind",
+            "type": "string"
+          }
+        },
+        "required": [
+          "citation_id",
+          "doc_id",
+          "chunk_id",
+          "source_url",
+          "text",
+          "start",
+          "end",
+          "source_kind"
+        ],
+        "title": "Passage",
+        "type": "object"
+      },
+      "Predicate": {
+        "enum": [
+          "USES",
+          "USES_TECHNIQUE",
+          "PART_OF_TACTIC",
+          "MITIGATED_BY",
+          "ASSOCIATED_WITH"
+        ],
+        "title": "Predicate",
+        "type": "string"
+      },
+      "RelationshipEdge": {
+        "additionalProperties": false,
+        "properties": {
+          "head_id": {
+            "title": "Head Id",
+            "type": "string"
+          },
+          "predicate": {
+            "$ref": "#/components/schemas/Predicate"
+          },
+          "tail_id": {
+            "title": "Tail Id",
+            "type": "string"
+          },
+          "assertion_ids": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "title": "Assertion Ids",
+            "type": "array"
+          },
+          "citation_ids": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "title": "Citation Ids",
+            "type": "array"
+          }
+        },
+        "required": [
+          "head_id",
+          "predicate",
+          "tail_id",
+          "assertion_ids",
+          "citation_ids"
+        ],
+        "title": "RelationshipEdge",
+        "type": "object"
+      },
+      "AnswerResponse": {
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "title": "Answer",
+            "type": "string"
+          },
+          "claims": {
+            "items": {
+              "$ref": "#/components/schemas/Claim"
+            },
+            "title": "Claims",
+            "type": "array"
+          },
+          "evidence": {
+            "$ref": "#/components/schemas/EvidenceBundle"
+          },
+          "abstained": {
+            "title": "Abstained",
+            "type": "boolean"
+          },
+          "execution_time_ms": {
+            "minimum": 0,
+            "title": "Execution Time Ms",
+            "type": "number"
+          },
+          "generation_timestamp": {
+            "format": "date-time",
+            "title": "Generation Timestamp",
+            "type": "string"
+          },
+          "warnings": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Warnings",
+            "type": "array"
+          }
+        },
+        "required": [
+          "answer",
+          "claims",
+          "evidence",
+          "abstained",
+          "execution_time_ms"
+        ],
+        "title": "AnswerResponse",
+        "type": "object"
+      }
+    }
+  }
+}

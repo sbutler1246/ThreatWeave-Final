@@ -1,0 +1,59 @@
+QUESTION: According to CISA, how do Rhysida actors use valid accounts (T1078) for access? Explain the supplied ATT&CK mitigation guidance and cite the sources separately.
+MODE: text_only
+SOURCE PASSAGES
+[E1; ATTACK]
+Regularly audit user accounts for activity and deactivate or remove any that are no longer needed.
+[E2; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: User Account Management (M1018)
+[E3; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.
+Additional notable TTPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+ID
+Use
+Develop Capabilities
+T1587
+Rhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+ID
+Use
+Valid Accounts
+T1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+Table 11: Execution
+Technique Title
+ID
+Use
+Command and Scripting Interpreter: Cloud API
+T1059.009
+Rhysida actors leverage AZCopy, a command-line utility that 
+[E4; CISA]
+#StopRansomware: Rhysida Ransomware
+[E5; CISA]
+Technical Details
+[E6; ATTACK]
+Use conditional access policies to block logins from non-compliant devices or from outside defined organization IP ranges.(Citation: Microsoft Common Conditional Access Policies)
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Account Use Policies (M1036)
+[E8; ATTACK]
+Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).
+[E9; ATTACK]
+ATT&CK release: 17.1
+Technique: Valid Accounts (T1078)
+Mitigation: Application Developer Guidance (M1013)
+[E10; ATTACK]
+Limit credential overlap across accounts and systems by training users and administrators not to use the same password for multiple accounts.
+[E11; ATTACK]
+ATT&CK release: 17.1
+Technique: NTDS (T1003.003)
+Mitigation: User Training (M1017)
+GRAPH NODES
+GRAPH PATHS
+Return the requested JSON. The displayed answer is assembled from claims.

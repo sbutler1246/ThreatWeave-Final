@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+  "doc_id": "AA25-071A",
+  "start": 14289,
+  "end": 16172,
+  "text": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:\nCopy (-c) one script from various batch scripts on the current machine to the remote machine and execute it with system-level privileges (-s).\nExecute an already existing local file on a remote machine with system-level privileges.\nExecute remote shell commands using cmd /c.\nOne of the batch scripts executed by PsExec is openrdp.bat, which first creates a new firewall rule to allow inbound TCP traffic on port 3389:\nnetsh advfirewall firewall add rule name=\"rdp\" dir=in protocol=tcp localport=3389 action=allow\nThen, a rule to allow remote WMI connections is created:\nnetsh advfirewall firewall set rule group=\"windows management instrumentation (wmi)\" new enable=yes\nFinally, the registry is modified to allow Remote Desktop connections:\nreg add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\" /v fDenyTSConnections /t REG_DWORD /d 0 /f\n(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement. They disable Windows Defender using the local Group Policy Editor during the LSASS exfiltration and re-enable Defender when they are done with exfiltration.\n(Updated Aug. 18, 2026) Additionally, they use Mimikatz’s tool mimilib.dll to steal credentials directly from the LSA authentication mechanism, which allows them to record plaintext passwords to a log file saved in C:\\Windows\\System32\\kiwissp.log. This is accomplished by adding the following data to the registry:\nreg add hklm\\system\\currentcontrolset\\control\\lsa\\ /v “Security Packages” /d “Kerberos\\0msv1_0\\0schannel\\0wdigest\\0tspkg\\0mimilib” /t REG_MULTI_SZ /f\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

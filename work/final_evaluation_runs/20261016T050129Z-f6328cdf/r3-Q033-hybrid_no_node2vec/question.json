@@ -1,0 +1,5 @@
+{
+  "question": "In the AA24-109A command-and-control paragraph describing ngrok encrypted sessions that bypass perimeter monitoring, what two-hop path connects Akira actors through ngrok to the cited ATT&CK technique? Explain both source-supported links.",
+  "mode": "hybrid_no_node2vec",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

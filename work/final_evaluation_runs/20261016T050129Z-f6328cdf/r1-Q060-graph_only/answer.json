@@ -1,0 +1,455 @@
+{
+  "answer": "LockBit affiliates use Mimikatz. [E1, E2, E3, E4]\nVolt Typhoon actors use Mimikatz to harvest credentials. [E5, E6]\nPhobos actors use Mimikatz to export credentials. [E8, E9, E10, E11]\nAkira threat actors use Mimikatz to dump credentials. [E12, E13, E14, E15]\nBlack Basta affiliates use Mimikatz for privilege escalation. [E16, E17, E18, E19]\nMedusa actors use Mimikatz to access credential material. [E20, E21, E22, E23]\nLockBit and Phobos actors use Mimikatz for defense evasion. [E4, E11]\nVolt Typhoon actors use Impacket in addition to Mimikatz. [E5, E6]",
+  "claims": [
+    {
+      "text": "LockBit affiliates use Mimikatz.",
+      "citations": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "text": "Volt Typhoon actors use Mimikatz to harvest credentials.",
+      "citations": [
+        "E5",
+        "E6"
+      ]
+    },
+    {
+      "text": "Phobos actors use Mimikatz to export credentials.",
+      "citations": [
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "text": "Akira threat actors use Mimikatz to dump credentials.",
+      "citations": [
+        "E12",
+        "E13",
+        "E14",
+        "E15"
+      ]
+    },
+    {
+      "text": "Black Basta affiliates use Mimikatz for privilege escalation.",
+      "citations": [
+        "E16",
+        "E17",
+        "E18",
+        "E19"
+      ]
+    },
+    {
+      "text": "Medusa actors use Mimikatz to access credential material.",
+      "citations": [
+        "E20",
+        "E21",
+        "E22",
+        "E23"
+      ]
+    },
+    {
+      "text": "LockBit and Phobos actors use Mimikatz for defense evasion.",
+      "citations": [
+        "E4",
+        "E11"
+      ]
+    },
+    {
+      "text": "Volt Typhoon actors use Impacket in addition to Mimikatz.",
+      "citations": [
+        "E5",
+        "E6"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA23-165A",
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "LockBit affiliates have used Mimikatz to dump credentials.",
+        "start": 25196,
+        "end": 25254,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA23-165A",
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Understanding Ransomware Threat Actors: LockBit",
+        "start": 23,
+        "end": 70,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA23-165A",
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "TECHNICAL DETAILS",
+        "start": 2293,
+        "end": 2310,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA23-165A",
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Table 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion",
+        "start": 23204,
+        "end": 23283,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "AA24-038A",
+        "chunk_id": "AA24-038A:development:llama500:22202:24566",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+        "text": "The U.S. authoring agencies have observed Volt Typhoon actors leveraging Mimikatz to harvest credentials, and industry partners have observed Volt Typhoon leveraging Impacket.[2]",
+        "start": 22329,
+        "end": 22507,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "AA24-038A",
+        "chunk_id": "AA24-038A:development:llama500:22202:24566",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+        "text": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+        "start": 23,
+        "end": 123,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "AA24-038A",
+        "chunk_id": "AA24-038A:development:llama500:22202:24566",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+        "text": "TECHNICAL DETAILS",
+        "start": 6015,
+        "end": 6032,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "AA24-060A",
+        "chunk_id": "AA24-060A:development:llama500:18199:20450",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-060a",
+        "text": "Phobos actors used Mimikatz to export credentials.",
+        "start": 18985,
+        "end": 19035,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "AA24-060A",
+        "chunk_id": "AA24-060A:development:llama500:18199:20450",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-060a",
+        "text": "#StopRansomware: Phobos Ransomware",
+        "start": 23,
+        "end": 57,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "AA24-060A",
+        "chunk_id": "AA24-060A:development:llama500:18199:20450",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-060a",
+        "text": "TECHNICAL DETAILS",
+        "start": 2315,
+        "end": 2332,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E11",
+        "doc_id": "AA24-060A",
+        "chunk_id": "AA24-060A:development:llama500:18199:20450",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-060a",
+        "text": "Table 16: Phobos Threat Actors ATT&CK Techniques for Enterprise – Defense Evasion",
+        "start": 17992,
+        "end": 18073,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E12",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+        "start": 33284,
+        "end": 33360,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E13",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "#StopRansomware: Akira Ransomware",
+        "start": 23,
+        "end": 56,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E14",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Technical Details",
+        "start": 4770,
+        "end": 4787,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E15",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Table 14. Defense Evasion",
+        "start": 31628,
+        "end": 31653,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E16",
+        "doc_id": "AA24-131A",
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+        "text": "Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation.",
+        "start": 10559,
+        "end": 10651,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E17",
+        "doc_id": "AA24-131A",
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+        "text": "#StopRansomware: Black Basta",
+        "start": 23,
+        "end": 51,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E18",
+        "doc_id": "AA24-131A",
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+        "text": "Technical Details",
+        "start": 4157,
+        "end": 4174,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E19",
+        "doc_id": "AA24-131A",
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+        "text": "Table 1: Tools Used by Black Basta Affiliates",
+        "start": 7966,
+        "end": 8011,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E20",
+        "doc_id": "AA25-071A",
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "Medusa actors access credential material stored in process memory or LSASS using Mimikatz.",
+        "start": 26808,
+        "end": 26898,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E21",
+        "doc_id": "AA25-071A",
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "#StopRansomware: Medusa Ransomware",
+        "start": 23,
+        "end": 57,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E22",
+        "doc_id": "AA25-071A",
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "Technical Details",
+        "start": 4834,
+        "end": 4851,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E23",
+        "doc_id": "AA25-071A",
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "Table 3: Initial Access",
+        "start": 24384,
+        "end": 24407,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [
+      {
+        "path_id": "P1",
+        "edges": [
+          {
+            "head_id": "local:AA23-165A:lockbit-affiliates",
+            "predicate": "USES",
+            "tail_id": "attack:S0002",
+            "assertion_ids": [
+              "assertion:f5bb290c88baae6fda6f2d8992a6591f4ad658b1245aae26f4512e7ce3ddb65f"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3",
+              "E4"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P2",
+        "edges": [
+          {
+            "head_id": "local:AA24-038A:volt-typhoon-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S0002",
+            "assertion_ids": [
+              "assertion:96b8fa4da8ea3e7fb06641dc45b9d0aa0ba345c93c62a8e111b7b7ebe1b7c850"
+            ],
+            "citation_ids": [
+              "E5",
+              "E6",
+              "E7"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P3",
+        "edges": [
+          {
+            "head_id": "local:AA24-060A:phobos-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S0002",
+            "assertion_ids": [
+              "assertion:b992c902a9724a4932218baa39c5ee543f48993fa9b28cbda6455f8c953fbd96"
+            ],
+            "citation_ids": [
+              "E8",
+              "E9",
+              "E10",
+              "E11"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P4",
+        "edges": [
+          {
+            "head_id": "local:AA24-109A:akira-threat-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S0002",
+            "assertion_ids": [
+              "assertion:12fe9c8b2fc88c1bd3aee002b48002e832a7de09c9b4abf647f224ad4940ab3d"
+            ],
+            "citation_ids": [
+              "E12",
+              "E13",
+              "E14",
+              "E15"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P5",
+        "edges": [
+          {
+            "head_id": "local:AA24-131A:black-basta-affiliates",
+            "predicate": "USES",
+            "tail_id": "attack:S0002",
+            "assertion_ids": [
+              "assertion:61b930e536c07bd1b32ea6e73d271d40b41af1bba917acbd4b26a40821c262c9"
+            ],
+            "citation_ids": [
+              "E16",
+              "E17",
+              "E18",
+              "E19"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P6",
+        "edges": [
+          {
+            "head_id": "local:AA25-071A:medusa-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S0002",
+            "assertion_ids": [
+              "assertion:ad23e751a2eb51360279a8b0f7e3e7b350a12ab413e0bfd56e98a941727b070f"
+            ],
+            "citation_ids": [
+              "E20",
+              "E21",
+              "E22",
+              "E23"
+            ]
+          }
+        ]
+      }
+    ],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21",
+      "E22",
+      "E23"
+    ],
+    "retrieval_ms": 34.13309997995384,
+    "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 4671.582400012994,
+  "generation_timestamp": "2026-10-16T05:03:25.969127Z",
+  "warnings": [
+    "Development graph_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

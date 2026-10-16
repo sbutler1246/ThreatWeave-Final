@@ -1,0 +1,15 @@
+{
+  "source_archive": "outputs/ThreatWeave_submission_v2.zip",
+  "source_archive_sha256": "afc29e86cd60b3701e2a35faef33de7759ede7e1053b2f47ae88e29746ec9468",
+  "earlier_repository": "https://github.com/sbutler1246/ThreatWeave",
+  "final_repository": "https://github.com/sbutler1246/ThreatWeave-Final",
+  "adapted_publication_documents": [
+    "README.md",
+    "PROJECT_FILES.md",
+    ".gitignore",
+    ".gitattributes"
+  ],
+  "original_readme_preserved_at": "docs/ThreatWeave_development_history.md",
+  "frozen_source_labels_prompts_outputs_unchanged": true,
+  "historical_absolute_paths_retained": true
+}

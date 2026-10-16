@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:26834:28843",
+    "doc_id": "AA23-165A",
+    "start": 26834,
+    "end": 28843,
+    "text": "&CK Techniques for Enterprise – Command and Control\nTechnique Title\nID\nUse\nApplication Layer Protocol: File Transfer Protocols\nT1071.002\nLockBit affiliates may use FileZilla for C2.\nApplication Layer Protocol: Web Protocols\nT1071.001\nLockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.\nNon-Application Layer Protocol\nT1095\nLockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.\nProtocol Tunneling\nT1572\nLockBit affiliates use Plink to automate SSH actions on Windows.\nRemote Access Software\nT1219\nLockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.\nTable 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Exfiltration\nTechnique Title\nID\nUse\nExfiltration\nTA0010\nLockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target network.\nExfiltration Over Web Service\nT1567\nLockBit affiliates use publicly available file sharing services to exfiltrate a target’s data.\nExfiltration Over Web Service: Exfiltration to Cloud Storage\nT1567.002\nLockBit affiliates use (1) Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.\nTable 16: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Impact\nTechnique Title\nID\nUse\nData Destruction\nT1485\nLockBit 3.0 deletes log files and empties the recycle bin.\nData Encrypted for Impact\nT1486\nLockBit 3.0 encrypts data on target systems to interrupt availability to system and network resources.\nLockBit affiliates can encrypt Windows and Linux devices, as well as VMware instances.\nDefacement: Internal Defacement\nT1491.001\nLockBit 3.0 changes the host system’s wallpaper and icons to the LockBit 3.0 wallpaper and icons, respectively.\nInhibit System Recovery\nT1490\nLockBit 3.0 deletes volume shadow copies residing on disk.\nService Stop\nT1489\nLockBit 3.0 terminates processes and services.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 26801,
+        "end": 26834,
+        "text": "Table 14: LockBit Affiliates’ ATT"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 500,
+  "inherited_context_tokens": 27,
+  "overlap_with_previous_tokens": 180,
+  "terminal_reanchored": true,
+  "short_section": false,
+  "source_text_sha256": "af13af8d4f742a31a5f1653c98ce2d75478ccd46c675f77106b33d407bc5c5f7",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

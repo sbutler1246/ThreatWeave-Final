@@ -1,0 +1,483 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "nezha-agent.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "mimilib.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "gaze.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "openrdp.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "RClone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Main_new.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "SimpleHelp",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "MITRE ATT&CK",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "TA0001",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1070.003",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "nezha-agent.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "mimilib.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "gaze.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "openrdp.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "RClone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Main_new.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "SimpleHelp",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "MITRE ATT&CK",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m011_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m012_A": {
+      "name": "TA0001",
+      "type": "Tactic",
+      "attack_id": "TA0001"
+    },
+    "m013_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m014_T": {
+      "name": "T1070.003",
+      "type": "Technique",
+      "attack_id": "T1070.003"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 33,
+      "text": "D796259C44BE852327623FD2E40C47F2",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 34,
+      "end": 41,
+      "text": "Rootkit",
+      "line_start": 34
+    },
+    "u003": {
+      "start": 42,
+      "end": 57,
+      "text": "nezha-agent.exe",
+      "line_start": 42
+    },
+    "u004": {
+      "start": 58,
+      "end": 90,
+      "text": "4D0B6E3C9C33550A005E41663A1977CB",
+      "line_start": 58
+    },
+    "u005": {
+      "start": 91,
+      "end": 113,
+      "text": "Nezha monitoring agent",
+      "line_start": 91
+    },
+    "u006": {
+      "start": 114,
+      "end": 125,
+      "text": "mimilib.dll",
+      "line_start": 114
+    },
+    "u007": {
+      "start": 126,
+      "end": 158,
+      "text": "eb05429d25fc57b476428cdb0a134b2f",
+      "line_start": 126
+    },
+    "u008": {
+      "start": 159,
+      "end": 183,
+      "text": "Mimikatz password logger",
+      "line_start": 159
+    },
+    "u009": {
+      "start": 184,
+      "end": 195,
+      "text": "command.cmd",
+      "line_start": 184
+    },
+    "u010": {
+      "start": 196,
+      "end": 229,
+      "text": "04b13b6cd5e5291b1cde78975a140feea",
+      "line_start": 196
+    },
+    "u011": {
+      "start": 230,
+      "end": 261,
+      "text": "7fd3bc3777c53caa1ab33426c83bfcc",
+      "line_start": 230
+    },
+    "u012": {
+      "start": 262,
+      "end": 295,
+      "text": "PDQ Deploy script to run gaze.exe",
+      "line_start": 262
+    },
+    "u013": {
+      "start": 296,
+      "end": 311,
+      "text": "RunFileCopy.cmd",
+      "line_start": 296
+    },
+    "u014": {
+      "start": 312,
+      "end": 345,
+      "text": "b29defbbc4ebaa243c1712ccc4943374f",
+      "line_start": 312
+    },
+    "u015": {
+      "start": 346,
+      "end": 377,
+      "text": "1b6fb864c39ed9f70fceb17eee098db",
+      "line_start": 346
+    },
+    "u016": {
+      "start": 378,
+      "end": 424,
+      "text": "PDQ Deploy script to copy gaze.exe to system32",
+      "line_start": 378
+    },
+    "u017": {
+      "start": 425,
+      "end": 436,
+      "text": "openrdp.bat",
+      "line_start": 425
+    },
+    "u018": {
+      "start": 437,
+      "end": 469,
+      "text": "44370f5c977e415981febf7dbb87a85c",
+      "line_start": 437
+    },
+    "u019": {
+      "start": 470,
+      "end": 516,
+      "text": "Allows incoming RDP and remote WMI connections",
+      "line_start": 470
+    },
+    "u020": {
+      "start": 517,
+      "end": 527,
+      "text": "Ngconf.txt",
+      "line_start": 517
+    },
+    "u021": {
+      "start": 528,
+      "end": 560,
+      "text": "8f11d9067da087cb4185fa804caac2df",
+      "line_start": 528
+    },
+    "u022": {
+      "start": 561,
+      "end": 586,
+      "text": "RClone configuration file",
+      "line_start": 561
+    },
+    "u023": {
+      "start": 587,
+      "end": 599,
+      "text": "Main_new.exe",
+      "line_start": 587
+    },
+    "u024": {
+      "start": 600,
+      "end": 640,
+      "text": "2df705c9be0465f1c73a9f5d35147723deb16b5e",
+      "line_start": 600
+    },
+    "u025": {
+      "start": 641,
+      "end": 662,
+      "text": "SimpleHelp executable",
+      "line_start": 641
+    },
+    "u026": {
+      "start": 663,
+      "end": 698,
+      "text": "MITRE ATT&CK Tactics and Techniques",
+      "line_start": 663
+    },
+    "u027": {
+      "start": 699,
+      "end": 794,
+      "text": "See Table 3 – Table 12 for all referenced threat actor tactics and techniques in this advisory.",
+      "line_start": 699
+    },
+    "u028": {
+      "start": 795,
+      "end": 971,
+      "text": "For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.",
+      "line_start": 699
+    },
+    "u029": {
+      "start": 972,
+      "end": 995,
+      "text": "Table 3: Initial Access",
+      "line_start": 972
+    },
+    "u030": {
+      "start": 996,
+      "end": 1018,
+      "text": "Tactic/Technique Title",
+      "line_start": 996
+    },
+    "u031": {
+      "start": 1019,
+      "end": 1021,
+      "text": "ID",
+      "line_start": 1019
+    },
+    "u032": {
+      "start": 1022,
+      "end": 1025,
+      "text": "Use",
+      "line_start": 1022
+    },
+    "u033": {
+      "start": 1026,
+      "end": 1059,
+      "text": "Exploit Public-Facing Application",
+      "line_start": 1026
+    },
+    "u034": {
+      "start": 1060,
+      "end": 1065,
+      "text": "T1190",
+      "line_start": 1060
+    },
+    "u035": {
+      "start": 1066,
+      "end": 1145,
+      "text": "Medusa actors exploit unpatched software or n-day vulnerabilities through CVEs.",
+      "line_start": 1066
+    },
+    "u036": {
+      "start": 1146,
+      "end": 1160,
+      "text": "Initial Access",
+      "line_start": 1146
+    },
+    "u037": {
+      "start": 1161,
+      "end": 1167,
+      "text": "TA0001",
+      "line_start": 1161
+    },
+    "u038": {
+      "start": 1168,
+      "end": 1261,
+      "text": "Medusa actors recruit IABs in cybercriminal forums and marketplaces to obtain initial access.",
+      "line_start": 1168
+    },
+    "u039": {
+      "start": 1262,
+      "end": 1270,
+      "text": "Phishing",
+      "line_start": 1262
+    },
+    "u040": {
+      "start": 1271,
+      "end": 1276,
+      "text": "T1566",
+      "line_start": 1271
+    },
+    "u041": {
+      "start": 1277,
+      "end": 1369,
+      "text": "Medusa IABs use phishing campaigns as a primary method for delivering ransomware to victims.",
+      "line_start": 1277
+    },
+    "u042": {
+      "start": 1370,
+      "end": 1386,
+      "text": "Table 4: Stealth",
+      "line_start": 1370
+    },
+    "u043": {
+      "start": 1387,
+      "end": 1402,
+      "text": "Technique Title",
+      "line_start": 1387
+    },
+    "u044": {
+      "start": 1403,
+      "end": 1405,
+      "text": "ID",
+      "line_start": 1403
+    },
+    "u045": {
+      "start": 1406,
+      "end": 1409,
+      "text": "Use",
+      "line_start": 1406
+    },
+    "u046": {
+      "start": 1410,
+      "end": 1450,
+      "text": "Indicator Removal: Clear Command History",
+      "line_start": 1410
+    },
+    "u047": {
+      "start": 1451,
+      "end": 1460,
+      "text": "T1070.003",
+      "line_start": 1451
+    },
+    "u048": {
+      "start": 1461,
+      "end": 1553,
+      "text": "Medusa actors attempt to cover their tracks by deleting the PowerShell command line history.",
+      "line_start": 1461
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:nezha-agent.exe",
+    "m002_S": "local:Software:mimilib.dll",
+    "m003_S": "attack:S0002",
+    "m004_S": "local:Software:gaze.exe",
+    "m005_S": "local:Software:openrdp.bat",
+    "m006_S": "attack:S1040",
+    "m007_S": "local:Software:main_new.exe",
+    "m008_S": "local:Software:simplehelp",
+    "m009_S": "local:Software:mitre att&ck",
+    "m010_T": "attack:T1190",
+    "m011_G": "local:ThreatGroup:medusa actors",
+    "m012_A": "attack:TA0001",
+    "m013_T": "attack:T1566",
+    "m014_T": "attack:T1070.003"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

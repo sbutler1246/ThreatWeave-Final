@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:33746:34826",
+    "doc_id": "AA23-061A",
+    "start": 33746,
+    "end": 34826,
+    "text": " ??\n// 6a ?? | PUSH ??\n// 51 | PUSH ECX\n// 56 | PUSH ESI\n// 6a ?? | PUSH ??\n// 6a ?? | PUSH ??\n// 68 ?? ?? ?? ?? | PUSH (address of RSA string)\n// ff d0 | CALL EAX\ncondition:\nany of them\n}\nrule xor_decoder_functions {\nstrings:\n// Functions 402e00 and 402f00 both appear to contain a xor-decoding loop\n// 402e00\n$code_xor_loop_1 = { 0f a4 ce ?? 0f ac d5 ?? c1 e1 ?? c1 ea ?? 0b cd 0b f2 99 33 c8 }\n// 0f a4 ce ?? | SHLD ESI, param_1, ??\n// 0f ac d5 ?? | SHRD EBP, EDX, ??\n// c1 e1 ?? | SHL param_1, ??\n// c1 ea ?? | SHR EDX, 0x19\n// 0b cd | OR param_1, EBP\n// 0b f2 | OR ESI, EDX\n// 99 | CDQ\n// 33 c8 | XOR param_1, EAX\n// 402f00\n$code_xor_loop_2 = { 0f a4 ce ?? c1 ea ?? 0b f2 c1 e1 ?? 0b c8 0f be c3 8a 1f 99 33 c8 }\n// 0f a4 ce ?? | SHLD ESI, param_1, ??\n// c1 ea ?? | SHR EDX, ??\n// 0b f2 | OR ESI, EDX\n// c1 e1 ?? | SHL, param_1, ??\n// 0b c8 | OR param_1, EDX\n// 0f be c3 | MOVSX EAX, BL\n// 8a 1f | BL, byte ptr [EDI]\n// 99 | CDQ\n// 33 c8 | XOR param_1, EAX\ncondition:\nany of them\n}\nrule win_BlackSuit_manual {\nmeta:\nauthor = \"CVH - Raleigh\"\ndate = \"2024-07-12\"\nversion = \"1\"\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 32174,
+        "end": 32232,
+        "text": "Table 23: Cyber Threat Actors ATT&CK Techniques for Impact"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 502,
+  "inherited_context_tokens": 31,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "cab9d75ee18395a6d7aa9bade422e21807958804a6629c3d7b69a0290cc79929",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

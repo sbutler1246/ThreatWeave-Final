@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:28:49.7662945Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 531280400,
+  "load_duration": 9712900,
+  "prompt_eval_count": 414,
+  "prompt_eval_duration": 16309999,
+  "eval_count": 36,
+  "eval_duration": 500280000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is the connection between Black Basta affiliates and the Exploit Public-Facing Application technique?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

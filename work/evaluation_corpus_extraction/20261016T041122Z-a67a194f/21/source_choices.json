@@ -1,0 +1,268 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Ransomware Executable",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Ursnif",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Royal Operators",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Ransomware Executable",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Ursnif",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_G": {
+      "name": "Royal Operators",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 25,
+      "text": "cb160553a7df862f8d81809ee",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 26,
+      "end": 47,
+      "text": "Ransomware Executable",
+      "line_start": 26
+    },
+    "u003": {
+      "start": 48,
+      "end": 112,
+      "text": "d47d4b52e75e8cf3b11ea171163a66c06d1792227c1cf7ca49d7df60804a1681",
+      "line_start": 48
+    },
+    "u004": {
+      "start": 113,
+      "end": 142,
+      "text": "Windows Command Line (NirCmd)",
+      "line_start": 113
+    },
+    "u005": {
+      "start": 143,
+      "end": 207,
+      "text": "216047C048BF1DCBF031CF24BD5E0F263994A5DF60B23089E393033D17257CB5",
+      "line_start": 143
+    },
+    "u006": {
+      "start": 208,
+      "end": 233,
+      "text": "System Management (NSudo)",
+      "line_start": 208
+    },
+    "u007": {
+      "start": 234,
+      "end": 298,
+      "text": "19896A23D7B054625C2F6B1EE1551A0DA68AD25CDDBB24510A3B74578418E618",
+      "line_start": 234
+    },
+    "u008": {
+      "start": 299,
+      "end": 308,
+      "text": "AV tamper",
+      "line_start": 299
+    },
+    "u009": {
+      "start": 309,
+      "end": 373,
+      "text": "8A983042278BC5897DBCDD54D1D7E3143F8B7EAD553B5A4713E30DEFFDA16375",
+      "line_start": 309
+    },
+    "u010": {
+      "start": 374,
+      "end": 407,
+      "text": "TCP/UDP Tunnel over HTTP (Chisel)",
+      "line_start": 374
+    },
+    "u011": {
+      "start": 408,
+      "end": 472,
+      "text": "8a99353662ccae117d2bb22efd8c43d7169060450be413af763e8ad7522d2451",
+      "line_start": 408
+    },
+    "u012": {
+      "start": 473,
+      "end": 484,
+      "text": "Ursnif/Gozi",
+      "line_start": 473
+    },
+    "u013": {
+      "start": 485,
+      "end": 549,
+      "text": "be030e685536eb38ba1fec1c90e90a4165f6641c8dc39291db1d23f4ee9fa0b1",
+      "line_start": 485
+    },
+    "u014": {
+      "start": 550,
+      "end": 555,
+      "text": "Exfil",
+      "line_start": 550
+    },
+    "u015": {
+      "start": 556,
+      "end": 620,
+      "text": "B8C4AEC31C134ADBDBE8AAD65D2BCB21CFE62D299696A23ADD9AA1DE082C6E20",
+      "line_start": 556
+    },
+    "u016": {
+      "start": 621,
+      "end": 644,
+      "text": "Remote Access (AnyDesk)",
+      "line_start": 621
+    },
+    "u017": {
+      "start": 645,
+      "end": 709,
+      "text": "4a9dde3979c2343c024c6eeeddff7639be301826dd637c006074e04a1e4e9fe7",
+      "line_start": 645
+    },
+    "u018": {
+      "start": 710,
+      "end": 739,
+      "text": "PowerShell Toolkit Downloader",
+      "line_start": 710
+    },
+    "u019": {
+      "start": 740,
+      "end": 804,
+      "text": "4cd00234b18e04dcd745cc81bb928c8451f6601affb5fa45f20bb11bfb5383ce",
+      "line_start": 740
+    },
+    "u020": {
+      "start": 805,
+      "end": 836,
+      "text": "PsExec (Microsoft Sysinternals)",
+      "line_start": 805
+    },
+    "u021": {
+      "start": 837,
+      "end": 901,
+      "text": "08c6e20b1785d4ec4e3f9956931d992377963580b4b2c6579fd9930e08882b1c",
+      "line_start": 837
+    },
+    "u022": {
+      "start": 902,
+      "end": 934,
+      "text": "Keep Host Unlocked (Don’t Sleep)",
+      "line_start": 902
+    },
+    "u023": {
+      "start": 935,
+      "end": 999,
+      "text": "f8cff7082a936912baf2124d42ed82403c75c87cb160553a7df862f8d81809ee",
+      "line_start": 935
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 12621,
+      "end": 12659,
+      "text": "Table 4: Tools Used by Royal Operators"
+    }
+  },
+  "identities": {
+    "m001_S": "local:Software:ransomware executable",
+    "m002_S": "attack:S0386",
+    "m003_S": "attack:S0029",
+    "m004_S": "attack:S1073",
+    "m005_G": "local:ThreatGroup:royal operators"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m005_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m005_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m005_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    }
+  ]
+}

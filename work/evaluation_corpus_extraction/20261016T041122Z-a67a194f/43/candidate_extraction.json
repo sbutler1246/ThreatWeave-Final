@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Black Basta affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "BITSAdmin",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1059.001",
+      "attack_id": "T1059.001"
+    },
+    {
+      "local_id": "e4",
+      "type": "ThreatGroup",
+      "name": "Black Basta Affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "Black Basta",
+      "attack_id": null
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1562.001",
+      "attack_id": "T1562.001"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 200,
+        "end": 326,
+        "quote": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 582,
+        "end": 985,
+        "quote": "Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e4",
+      "predicate": "USES",
+      "tail": "e5",
+      "evidence": {
+        "start": 1673,
+        "end": 1718,
+        "quote": "Table 1: Tools Used by Black Basta Affiliates"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 582,
+        "end": 985,
+        "quote": "Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486]."
+      },
+      "confidence": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+QUESTION: Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Chocolatey in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.
+MODE: text_only
+SOURCE PASSAGES
+[E1; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E2; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (T1587)
+Mitigation: Pre-compromise (M1056)
+[E3; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (T1586)
+Mitigation: Pre-compromise (M1056)
+[E5; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensitivity of data available to external parties.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Email Addresses (T1589.002)
+Mitigation: Pre-compromise (M1056)
+[E7; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Malware (T1587.001)
+Mitigation: Pre-compromise (M1056)
+[E9; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of the organization's security policies (such as rootkit removal tools) that have been abused to impair system defenses. Ensure that only approved security applications are used and running on enterprise systems.
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (T1562)
+Mitigation: Execution Prevention (M1038)
+GRAPH NODES
+GRAPH PATHS
+Return the requested JSON. The displayed answer is assembled from claims.
+Repair only output/citation errors using the original evidence: 1 validation error for CompactAnswer
+  Value error, Repeated citation IDs within a claim are not allowed. [type=value_error, input_value={'answer': 'See cited cla...]}], 'abstained': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/value_error
+PREVIOUS OUTPUT:
+{
+  "answer": "See cited claims.",
+  "claims": [
+    {
+      "text": "LockBit affiliates' activity is mapped to the Malware (T1587.001) technique.",
+      "citations": ["E8"]
+    },
+    {
+      "text": "The Malware (T1587.001) technique has a direct, active mitigates relationship with Execution Prevention (M1038).",
+      "citations": ["E10"]
+    },
+    {
+      "text": "The Malware (T1587.001) technique is mitigated by Execution Prevention (M1038), which involves using application control to prevent the execution of tools outside of the organization's security policies.",
+      "citations": ["E10", "E10"]
+    }
+  ],
+  "abstained": false
+}

@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA25-071A:evaluation:llama500:16025:18061",
+    "doc_id": "AA25-071A",
+    "start": 16025,
+    "end": 18061,
+    "text": " add hklm\\system\\currentcontrolset\\control\\lsa\\ /v “Security Packages” /d “Kerberos\\0msv1_0\\0schannel\\0wdigest\\0tspkg\\0mimilib” /t REG_MULTI_SZ /f\n(Updated Aug. 18, 2026) Medusa actors have also been observed stealing credentials using Volume Shadow Copy. The actors use the vssadmin command to create a new shadow copy for the C: drive. The actors then copy ntds.dit, system, and security registry hives out of the shadow copy and delete the shadow copy to prevent discovery [T1006]. The actors can use the stolen files to create forged Kerberos tickets [T1558], effectively compromising the entire domain.\n(Updated Aug. 18, 2026) The actors used CrackMapExec (aka NetExec, aka NXC) to enumerate hosts on the network. The information collected included IP address, hostname, operating system (OS) information, and other metadata.\n(Updated Aug. 18, 2026) Medusa actors make changes to Active Directory Default Domain Policy settings to override Group Policy settings [T1484.001]. Specifically, Medusa actors set the Default Domain Policy to “Enabled, Enforced.” This setting enforces the policy set by Medusa actors, overriding stricter Group Policies that would normally restrict threat actor activity.\nExfiltration and Impact\n(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002].\n(Updated, Aug. 18, 2026) Medusa actors obfuscate rclone.exe and associated rclone.conf files by renaming the files (for example, to lsp.exe and ngconf.txt). Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP’s built-in file transfer mechanism.\nThe actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.\n(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 57,
+        "text": "#StopRansomware: Medusa Ransomware"
+      },
+      {
+        "start": 4834,
+        "end": 4851,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 504,
+  "inherited_context_tokens": 14,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "10b82fe7feb4d99d030436395af0ef94e2221df3925a1895ea0b7177e366349f",
+  "doc_id": "AA25-071A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+  "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e"
+}

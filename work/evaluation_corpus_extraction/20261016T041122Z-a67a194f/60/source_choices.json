@@ -1,0 +1,348 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Akira",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "nltest",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1018",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1482",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "net",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1069.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1069.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "tasklist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1057",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m001_G": {
+      "name": "Akira",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "nltest",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1018",
+      "type": "Technique",
+      "attack_id": "T1018"
+    },
+    "m004_T": {
+      "name": "T1482",
+      "type": "Technique",
+      "attack_id": "T1482"
+    },
+    "m005_S": {
+      "name": "net",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1069.002",
+      "type": "Technique",
+      "attack_id": "T1069.002"
+    },
+    "m007_T": {
+      "name": "T1069.001",
+      "type": "Technique",
+      "attack_id": "T1069.001"
+    },
+    "m008_S": {
+      "name": "tasklist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1057",
+      "type": "Technique",
+      "attack_id": "T1057"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 56,
+      "text": "cf924bd41241a3326060cc2f913aff2379858b148ddec455e4da67bc",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 57,
+      "end": 121,
+      "text": "03aa12ac2884251aa24bf0ccd854047de403591a8537e6aba19e822807e06a45",
+      "line_start": 57
+    },
+    "u003": {
+      "start": 122,
+      "end": 186,
+      "text": "2e88e55cc8ee364bf90e7a51671366efb3dac3e9468005b044164ba0f1624422",
+      "line_start": 122
+    },
+    "u004": {
+      "start": 187,
+      "end": 251,
+      "text": "40221e1c2e0c09bc6104548ee847b6ec790413d6ece06ad675fff87e5b8dc1d5",
+      "line_start": 187
+    },
+    "u005": {
+      "start": 252,
+      "end": 316,
+      "text": "5ea65e2bb9d245913ad69ce90e3bd9647eb16d992301145372565486c77568a2",
+      "line_start": 252
+    },
+    "u006": {
+      "start": 317,
+      "end": 381,
+      "text": "643061ac0b51f8c77f2ed202dc91afb9879f796ddd974489209d45f84f644562",
+      "line_start": 317
+    },
+    "u007": {
+      "start": 382,
+      "end": 446,
+      "text": "6f9d50bab16b2532f4683eeb76bd25449d83bdd6c85bf0b05f716a4b49584f84",
+      "line_start": 382
+    },
+    "u008": {
+      "start": 447,
+      "end": 511,
+      "text": "fef09b0aa37cbdb6a8f60a6bd8b473a7e5bffdc7fd2e952444f781574abccf64",
+      "line_start": 447
+    },
+    "u009": {
+      "start": 512,
+      "end": 520,
+      "text": "Table 7.",
+      "line_start": 512
+    },
+    "u010": {
+      "start": 521,
+      "end": 587,
+      "text": "Linux/Unix Akira Ransomware Executable and Linkable Format Samples",
+      "line_start": 512
+    },
+    "u011": {
+      "start": 588,
+      "end": 602,
+      "text": "Hash (SHA-256)",
+      "line_start": 588
+    },
+    "u012": {
+      "start": 603,
+      "end": 667,
+      "text": "e1321a4b2b104f31aceaf4b19c5559e40ba35b73a754d3ae13d8e90c53146c0f",
+      "line_start": 603
+    },
+    "u013": {
+      "start": 668,
+      "end": 732,
+      "text": "74f497088b49b745e6377b32ed5d9dfaef3c84c7c0bb50fabf30363ad2e0bfb1",
+      "line_start": 668
+    },
+    "u014": {
+      "start": 733,
+      "end": 797,
+      "text": "3d2b58ef6df743ce58669d7387ff94740ceb0122c4fc1c4ffd81af00e72e60a4",
+      "line_start": 733
+    },
+    "u015": {
+      "start": 798,
+      "end": 806,
+      "text": "Table 8.",
+      "line_start": 798
+    },
+    "u016": {
+      "start": 807,
+      "end": 834,
+      "text": "Commands Used for Discovery",
+      "line_start": 798
+    },
+    "u017": {
+      "start": 835,
+      "end": 843,
+      "text": "Commands",
+      "line_start": 835
+    },
+    "u018": {
+      "start": 844,
+      "end": 867,
+      "text": "nltest /dclist: [T1018]",
+      "line_start": 844
+    },
+    "u019": {
+      "start": 868,
+      "end": 897,
+      "text": "nltest /DOMAIN_TRUSTS [T1482]",
+      "line_start": 868
+    },
+    "u020": {
+      "start": 898,
+      "end": 940,
+      "text": "net group “Domain admins” /dom [T1069.002]",
+      "line_start": 898
+    },
+    "u021": {
+      "start": 941,
+      "end": 989,
+      "text": "net localgroup “Administrators” /dom [T1069.001]",
+      "line_start": 941
+    },
+    "u022": {
+      "start": 990,
+      "end": 1006,
+      "text": "tasklist [T1057]",
+      "line_start": 990
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1129",
+    "m001_G": "attack:G1024",
+    "m002_S": "attack:S0359",
+    "m003_T": "attack:T1018",
+    "m004_T": "attack:T1482",
+    "m005_S": "attack:S0039",
+    "m006_T": "attack:T1069.002",
+    "m007_T": "attack:T1069.001",
+    "m008_S": "attack:S0057",
+    "m009_T": "attack:T1057"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m004_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m005_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m005_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m008_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m009_T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "S0029",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "S0002",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Ngrok",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "S0508",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1555.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "S1040",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1082",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "ConnectWise",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m002_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "S0029",
+      "type": "Software",
+      "attack_id": "S0029"
+    },
+    "m004_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "S0002",
+      "type": "Software",
+      "attack_id": "S0002"
+    },
+    "m006_S": {
+      "name": "Ngrok",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "S0508",
+      "type": "Software",
+      "attack_id": "S0508"
+    },
+    "m008_T": {
+      "name": "T1555.003",
+      "type": "Technique",
+      "attack_id": "T1555.003"
+    },
+    "m009_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m010_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m011_S": {
+      "name": "Rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "S1040",
+      "type": "Software",
+      "attack_id": "S1040"
+    },
+    "m013_T": {
+      "name": "T1082",
+      "type": "Technique",
+      "attack_id": "T1082"
+    },
+    "m014_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "ConnectWise",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 43,
+      "text": "Web Service: Exfiltration to Cloud Storage",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 44,
+      "end": 75,
+      "text": "Microsoft Sysinternals ProcDump",
+      "line_start": 44
+    },
+    "u003": {
+      "start": 76,
+      "end": 180,
+      "text": "Monitors applications for central processing unit (CPU) spikes and generates crash dumps during a spike.",
+      "line_start": 76
+    },
+    "u004": {
+      "start": 181,
+      "end": 279,
+      "text": "Obtains credentials by dumping the contents of Local Security Authority Subsystem Service (LSASS).",
+      "line_start": 181
+    },
+    "u005": {
+      "start": 280,
+      "end": 289,
+      "text": "T1003.001",
+      "line_start": 280
+    },
+    "u006": {
+      "start": 290,
+      "end": 325,
+      "text": "OS Credential Dumping: LSASS Memory",
+      "line_start": 290
+    },
+    "u007": {
+      "start": 326,
+      "end": 355,
+      "text": "Microsoft Sysinternals PsExec",
+      "line_start": 326
+    },
+    "u008": {
+      "start": 356,
+      "end": 408,
+      "text": "Executes a command-line process on a remote machine.",
+      "line_start": 356
+    },
+    "u009": {
+      "start": 409,
+      "end": 470,
+      "text": "Enables LockBit affiliate actors to control victim’s systems.",
+      "line_start": 409
+    },
+    "u010": {
+      "start": 471,
+      "end": 476,
+      "text": "S0029",
+      "line_start": 471
+    },
+    "u011": {
+      "start": 477,
+      "end": 483,
+      "text": "PsExec",
+      "line_start": 477
+    },
+    "u012": {
+      "start": 484,
+      "end": 492,
+      "text": "Mimikatz",
+      "line_start": 484
+    },
+    "u013": {
+      "start": 493,
+      "end": 528,
+      "text": "Extracts credentials from a system.",
+      "line_start": 493
+    },
+    "u014": {
+      "start": 529,
+      "end": 614,
+      "text": "Extracts credentials from a system for gaining network access and exploiting systems.",
+      "line_start": 529
+    },
+    "u015": {
+      "start": 615,
+      "end": 620,
+      "text": "S0002",
+      "line_start": 615
+    },
+    "u016": {
+      "start": 621,
+      "end": 629,
+      "text": "Mimikatz",
+      "line_start": 621
+    },
+    "u017": {
+      "start": 630,
+      "end": 635,
+      "text": "Ngrok",
+      "line_start": 630
+    },
+    "u018": {
+      "start": 636,
+      "end": 712,
+      "text": "Enables remote access to a local web server by tunnelling over the internet.",
+      "line_start": 636
+    },
+    "u019": {
+      "start": 713,
+      "end": 807,
+      "text": "Enables victim network protections to be bypassed by tunnelling to a system over the internet.",
+      "line_start": 713
+    },
+    "u020": {
+      "start": 808,
+      "end": 813,
+      "text": "S0508",
+      "line_start": 808
+    },
+    "u021": {
+      "start": 814,
+      "end": 819,
+      "text": "Ngrok",
+      "line_start": 814
+    },
+    "u022": {
+      "start": 820,
+      "end": 831,
+      "text": "PasswordFox",
+      "line_start": 820
+    },
+    "u023": {
+      "start": 832,
+      "end": 872,
+      "text": "Recovers passwords from Firefox Browser.",
+      "line_start": 832
+    },
+    "u024": {
+      "start": 873,
+      "end": 929,
+      "text": "Obtains credentials for network access and exploitation.",
+      "line_start": 873
+    },
+    "u025": {
+      "start": 930,
+      "end": 939,
+      "text": "T1555.003",
+      "line_start": 930
+    },
+    "u026": {
+      "start": 940,
+      "end": 969,
+      "text": "Credentials from Web Browsers",
+      "line_start": 940
+    },
+    "u027": {
+      "start": 970,
+      "end": 978,
+      "text": "PCHunter",
+      "line_start": 970
+    },
+    "u028": {
+      "start": 979,
+      "end": 1051,
+      "text": "Enables advanced task management including system processes and kernels.",
+      "line_start": 979
+    },
+    "u029": {
+      "start": 1052,
+      "end": 1106,
+      "text": "Terminates and circumvents EDR processes and services.",
+      "line_start": 1052
+    },
+    "u030": {
+      "start": 1107,
+      "end": 1116,
+      "text": "T1562.001",
+      "line_start": 1107
+    },
+    "u031": {
+      "start": 1117,
+      "end": 1157,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1117
+    },
+    "u032": {
+      "start": 1158,
+      "end": 1167,
+      "text": "PowerTool",
+      "line_start": 1158
+    },
+    "u033": {
+      "start": 1168,
+      "end": 1261,
+      "text": "Removes rootkits, as well as detecting, analyzing, and fixing kernel structure modifications.",
+      "line_start": 1168
+    },
+    "u034": {
+      "start": 1262,
+      "end": 1298,
+      "text": "Terminates and removes EDR software.",
+      "line_start": 1262
+    },
+    "u035": {
+      "start": 1299,
+      "end": 1308,
+      "text": "T1562.001",
+      "line_start": 1299
+    },
+    "u036": {
+      "start": 1309,
+      "end": 1349,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1309
+    },
+    "u037": {
+      "start": 1350,
+      "end": 1364,
+      "text": "Process Hacker",
+      "line_start": 1350
+    },
+    "u038": {
+      "start": 1365,
+      "end": 1382,
+      "text": "Removes rootkits.",
+      "line_start": 1365
+    },
+    "u039": {
+      "start": 1383,
+      "end": 1419,
+      "text": "Terminates and removes EDR software.",
+      "line_start": 1383
+    },
+    "u040": {
+      "start": 1420,
+      "end": 1429,
+      "text": "T1562.001",
+      "line_start": 1420
+    },
+    "u041": {
+      "start": 1430,
+      "end": 1470,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1430
+    },
+    "u042": {
+      "start": 1471,
+      "end": 1489,
+      "text": "PuTTY Link (Plink)",
+      "line_start": 1471
+    },
+    "u043": {
+      "start": 1490,
+      "end": 1538,
+      "text": "Automates Secure Shell (SSH) actions on Windows.",
+      "line_start": 1490
+    },
+    "u044": {
+      "start": 1539,
+      "end": 1591,
+      "text": "Enables LockBit affiliate actors to avoid detection.",
+      "line_start": 1539
+    },
+    "u045": {
+      "start": 1592,
+      "end": 1597,
+      "text": "T1572",
+      "line_start": 1592
+    },
+    "u046": {
+      "start": 1598,
+      "end": 1616,
+      "text": "Protocol Tunneling",
+      "line_start": 1598
+    },
+    "u047": {
+      "start": 1617,
+      "end": 1623,
+      "text": "Rclone",
+      "line_start": 1617
+    },
+    "u048": {
+      "start": 1624,
+      "end": 1681,
+      "text": "Manages cloud storage files using a command-line program.",
+      "line_start": 1624
+    },
+    "u049": {
+      "start": 1682,
+      "end": 1731,
+      "text": "Facilitates data exfiltration over cloud storage.",
+      "line_start": 1682
+    },
+    "u050": {
+      "start": 1732,
+      "end": 1737,
+      "text": "S1040",
+      "line_start": 1732
+    },
+    "u051": {
+      "start": 1738,
+      "end": 1744,
+      "text": "Rclone",
+      "line_start": 1738
+    },
+    "u052": {
+      "start": 1745,
+      "end": 1753,
+      "text": "Seatbelt",
+      "line_start": 1745
+    },
+    "u053": {
+      "start": 1754,
+      "end": 1797,
+      "text": "Performs numerous security-oriented checks.",
+      "line_start": 1754
+    },
+    "u054": {
+      "start": 1798,
+      "end": 1873,
+      "text": "Performs numerous security-oriented checks to enumerate system information.",
+      "line_start": 1798
+    },
+    "u055": {
+      "start": 1874,
+      "end": 1879,
+      "text": "T1082",
+      "line_start": 1874
+    },
+    "u056": {
+      "start": 1880,
+      "end": 1908,
+      "text": "System Information Discovery",
+      "line_start": 1880
+    },
+    "u057": {
+      "start": 1909,
+      "end": 1950,
+      "text": "ScreenConnect (also known as ConnectWise)",
+      "line_start": 1909
+    },
+    "u058": {
+      "start": 1951,
+      "end": 2012,
+      "text": "Enables remote connections to network devices for management.",
+      "line_start": 1951
+    },
+    "u059": {
+      "start": 2013,
+      "end": 2088,
+      "text": "Enables LockBit affiliate actors to remotely connect to a victim’s systems.",
+      "line_start": 2013
+    },
+    "u060": {
+      "start": 2089,
+      "end": 2094,
+      "text": "T1219",
+      "line_start": 2089
+    },
+    "u061": {
+      "start": 2095,
+      "end": 2117,
+      "text": "Remote Access Software",
+      "line_start": 2095
+    },
+    "u062": {
+      "start": 2118,
+      "end": 2145,
+      "text": "SoftPerfect Network Scanner",
+      "line_start": 2118
+    },
+    "u063": {
+      "start": 2146,
+      "end": 2192,
+      "text": "Performs network scans for systems management.",
+      "line_start": 2146
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1003.001",
+    "m002_S": "attack:S0029",
+    "m003_S": "attack:S0029",
+    "m004_S": "attack:S0002",
+    "m005_S": "attack:S0002",
+    "m006_S": "attack:S0508",
+    "m007_S": "attack:S0508",
+    "m008_T": "attack:T1555.003",
+    "m009_T": "attack:T1562.001",
+    "m010_T": "attack:T1572",
+    "m011_S": "attack:S1040",
+    "m012_S": "attack:S1040",
+    "m013_T": "attack:T1082",
+    "m014_S": "attack:S0591",
+    "m015_S": "attack:S0591",
+    "m016_T": "attack:T1219"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

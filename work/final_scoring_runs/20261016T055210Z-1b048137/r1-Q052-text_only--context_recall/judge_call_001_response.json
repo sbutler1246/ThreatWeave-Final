@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:03:13.7557486Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3997698100,
+  "load_duration": 10835100,
+  "prompt_eval_count": 1416,
+  "prompt_eval_duration": 335308000,
+  "eval_count": 279,
+  "eval_duration": 3582411000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The AA23-165A Table 4 caption lists Ligolo as a tool used by LockBit affiliates.\",\n            \"reason\": \"There is no mention about Ligolo in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1095 (Non-Application Layer Protocol).\",\n            \"reason\": \"There is no mention about T1095 in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1030 (Network Segmentation), M1031 (Network Intrusion Prevention), M1037 (Filter Network Traffic), M1047 (Audit).\",\n            \"reason\": \"The exact sentence is present in the given context, but it is not directly related to the technique mapped to Ligolo.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The exact sentence is present in the given context, and it is directly related to the technique mapped to Ligolo.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

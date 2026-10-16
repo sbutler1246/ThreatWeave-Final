@@ -1,0 +1,218 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 14,
+      "text": "threat actors",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 15,
+      "end": 39,
+      "text": "Mail.turnovercheck[.]com",
+      "line_start": 15
+    },
+    "u003": {
+      "start": 40,
+      "end": 56,
+      "text": "Cobalt Strike C2",
+      "line_start": 40
+    },
+    "u004": {
+      "start": 57,
+      "end": 82,
+      "text": "Store.turnovercheck[.]com",
+      "line_start": 57
+    },
+    "u005": {
+      "start": 83,
+      "end": 99,
+      "text": "Cobalt Strike C2",
+      "line_start": 83
+    },
+    "u006": {
+      "start": 100,
+      "end": 119,
+      "text": "turnovercheck[.]com",
+      "line_start": 100
+    },
+    "u007": {
+      "start": 120,
+      "end": 136,
+      "text": "Cobalt Strike C2",
+      "line_start": 120
+    },
+    "u008": {
+      "start": 137,
+      "end": 160,
+      "text": "Hourlyprofitstore[.]com",
+      "line_start": 137
+    },
+    "u009": {
+      "start": 161,
+      "end": 174,
+      "text": "Cobalt Strike",
+      "line_start": 161
+    },
+    "u010": {
+      "start": 175,
+      "end": 241,
+      "text": "IPs and Domains for downloads / C2 / exfiltration of communication",
+      "line_start": 175
+    },
+    "u011": {
+      "start": 242,
+      "end": 319,
+      "text": "https://protect-us.mimecast[.]com/s/A2PyC31xN5IpzR0XUvzaAj?domain=5.181.157.8",
+      "line_start": 242
+    },
+    "u012": {
+      "start": 320,
+      "end": 398,
+      "text": "https://protect-us.mimecast[.]com/s/CcsrC4xyO7fBK73ztjNfPl?domain=5.181.234.58",
+      "line_start": 320
+    },
+    "u013": {
+      "start": 399,
+      "end": 478,
+      "text": "https://protect-us.mimecast[.]com/s/NwueC5yzP5IZLW4MulfSrc?domain=137.220.61.94",
+      "line_start": 399
+    },
+    "u014": {
+      "start": 479,
+      "end": 559,
+      "text": "https://protect-us.mimecast[.]com/s/T3InC2kwM5hpzEOVU9S5zn?domain=147.135.36.162",
+      "line_start": 479
+    },
+    "u015": {
+      "start": 560,
+      "end": 640,
+      "text": "https://protect-us.mimecast[.]com/s/teBrC1wvL8iMNE56tXga0n?domain=147.135.11.223",
+      "line_start": 560
+    },
+    "u016": {
+      "start": 641,
+      "end": 691,
+      "text": "Table 17: BlackSuit Ransomware Note and Hash Value",
+      "line_start": 641
+    },
+    "u017": {
+      "start": 692,
+      "end": 701,
+      "text": "File Name",
+      "line_start": 692
+    },
+    "u018": {
+      "start": 702,
+      "end": 712,
+      "text": "Hash Value",
+      "line_start": 702
+    },
+    "u019": {
+      "start": 713,
+      "end": 724,
+      "text": "Description",
+      "line_start": 713
+    },
+    "u020": {
+      "start": 725,
+      "end": 745,
+      "text": "readme.BlackSuit.txt",
+      "line_start": 725
+    },
+    "u021": {
+      "start": 746,
+      "end": 810,
+      "text": "1743494f803bbcbd11150a4a8b7a2c5faba1223da607f67d24b18ca2d95d5ba3",
+      "line_start": 746
+    },
+    "u022": {
+      "start": 811,
+      "end": 826,
+      "text": "Ransomware note",
+      "line_start": 811
+    },
+    "u023": {
+      "start": 827,
+      "end": 859,
+      "text": "Ransom Note (New August 7, 2024)",
+      "line_start": 827
+    },
+    "u024": {
+      "start": 860,
+      "end": 932,
+      "text": "Figure 1 shows the observed BlackSuit ransom notes delivered to victims.",
+      "line_start": 860
+    },
+    "u025": {
+      "start": 933,
+      "end": 942,
+      "text": "Figure 1.",
+      "line_start": 933
+    },
+    "u026": {
+      "start": 943,
+      "end": 964,
+      "text": "BlackSuit Ransom Note",
+      "line_start": 933
+    },
+    "u027": {
+      "start": 965,
+      "end": 1058,
+      "text": "Your safety service did a really poor job of protecting your files against our professionals.",
+      "line_start": 965
+    },
+    "u028": {
+      "start": 1059,
+      "end": 1112,
+      "text": "Extortioner named BlackSuit has attacked your system.",
+      "line_start": 1059
+    },
+    "u029": {
+      "start": 1113,
+      "end": 1258,
+      "text": "As a result all your essential files were encrypted and saved at a secure server for further use and publishing on the Web into the public realm.",
+      "line_start": 1113
+    },
+    "u030": {
+      "start": 1259,
+      "end": 1412,
+      "text": "Now we have all your files like: financial reports, intellectual property, accounting, law actions and complaints, personal files and so on and so forth.",
+      "line_start": 1259
+    },
+    "u031": {
+      "start": 1413,
+      "end": 1460,
+      "text": "We are able to solve this problem in one touch.",
+      "line_start": 1413
+    },
+    "u032": {
+      "start": 1461,
+      "end": 1576,
+      "text": "We (BlackSuit) are ready to give you an opportunity to get all the things back if you agree to make a deal with us.",
+      "line_start": 1461
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0154"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

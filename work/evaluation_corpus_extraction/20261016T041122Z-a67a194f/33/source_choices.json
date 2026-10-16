@@ -1,0 +1,1061 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Putty.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "C",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Tool",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "SharpShares.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Networx.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Black Suit Ransomware (2 of 3)",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Filename",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "Host",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Black Suit Ransomware (3 of 3)",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Anydesk.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Program Files",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "AnyDesk.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Remote Monitoring",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "Management",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "RMM",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "ehorus_display.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "RMM Tool",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "ehorus_launcher.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "disabler.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "Black Suit Ransomware (1 of 3)",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Putty.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "C",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Tool",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "SharpShares.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Networx.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_G": {
+      "name": "Black Suit Ransomware (2 of 3)",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Filename",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "Host",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_G": {
+      "name": "Black Suit Ransomware (3 of 3)",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "Anydesk.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Program Files",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "AnyDesk.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "Remote Monitoring",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "Management",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_S": {
+      "name": "RMM",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "ehorus_display.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "RMM Tool",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_S": {
+      "name": "ehorus_launcher.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m021_S": {
+      "name": "disabler.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_G": {
+      "name": "Black Suit Ransomware (1 of 3)",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 10,
+      "text": "Putty.exe.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 11,
+      "end": 31,
+      "text": "Possibly used for C2",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 32,
+      "end": 41,
+      "text": "Mwntv.sys",
+      "line_start": 32
+    },
+    "u004": {
+      "start": 42,
+      "end": 106,
+      "text": "6332f189cc71df646ff0f1b9b02a005c9ebda3fe7b9712976660746913b030de",
+      "line_start": 42
+    },
+    "u005": {
+      "start": 107,
+      "end": 129,
+      "text": "Potential Tool Ingress",
+      "line_start": 107
+    },
+    "u006": {
+      "start": 130,
+      "end": 137,
+      "text": "AnyDesk",
+      "line_start": 130
+    },
+    "u007": {
+      "start": 138,
+      "end": 202,
+      "text": "1cdafbe519f60aaadb4a92e266fff709129f86f0c9ee595c45499c66092e0499",
+      "line_start": 138
+    },
+    "u008": {
+      "start": 203,
+      "end": 231,
+      "text": "Potential remote access tool",
+      "line_start": 203
+    },
+    "u009": {
+      "start": 232,
+      "end": 245,
+      "text": "ScreenConnect",
+      "line_start": 232
+    },
+    "u010": {
+      "start": 246,
+      "end": 310,
+      "text": "420db40d26d309d3dba3245abb91207f1bca050530545a8048f856e5840d22a2",
+      "line_start": 246
+    },
+    "u011": {
+      "start": 311,
+      "end": 339,
+      "text": "Potential remote access tool",
+      "line_start": 311
+    },
+    "u012": {
+      "start": 340,
+      "end": 355,
+      "text": "SharpShares.exe",
+      "line_start": 340
+    },
+    "u013": {
+      "start": 356,
+      "end": 380,
+      "text": "Enumerate network shares",
+      "line_start": 356
+    },
+    "u014": {
+      "start": 381,
+      "end": 392,
+      "text": "Networx.exe",
+      "line_start": 381
+    },
+    "u015": {
+      "start": 393,
+      "end": 414,
+      "text": "Bandwidth utilization",
+      "line_start": 393
+    },
+    "u016": {
+      "start": 415,
+      "end": 490,
+      "text": "Table 14: Legitimate Files and Tools Used by Black Suit Ransomware (2 of 3)",
+      "line_start": 415
+    },
+    "u017": {
+      "start": 491,
+      "end": 499,
+      "text": "Filename",
+      "line_start": 491
+    },
+    "u018": {
+      "start": 500,
+      "end": 518,
+      "text": "Hash Value – SHA-1",
+      "line_start": 500
+    },
+    "u019": {
+      "start": 519,
+      "end": 530,
+      "text": "Description",
+      "line_start": 519
+    },
+    "u020": {
+      "start": 531,
+      "end": 540,
+      "text": "181[.]exe",
+      "line_start": 531
+    },
+    "u021": {
+      "start": 541,
+      "end": 581,
+      "text": "790d40cd16fb458bf99e3600bce29eca06d40b56",
+      "line_start": 541
+    },
+    "u022": {
+      "start": 582,
+      "end": 607,
+      "text": "Cobalt Strike – Host name",
+      "line_start": 582
+    },
+    "u023": {
+      "start": 608,
+      "end": 683,
+      "text": "Table 15: Legitimate Files and Tools Used by Black Suit Ransomware (3 of 3)",
+      "line_start": 608
+    },
+    "u024": {
+      "start": 684,
+      "end": 692,
+      "text": "Filename",
+      "line_start": 684
+    },
+    "u025": {
+      "start": 693,
+      "end": 702,
+      "text": "File Path",
+      "line_start": 693
+    },
+    "u026": {
+      "start": 703,
+      "end": 714,
+      "text": "Description",
+      "line_start": 703
+    },
+    "u027": {
+      "start": 715,
+      "end": 726,
+      "text": "Anydesk.exe",
+      "line_start": 715
+    },
+    "u028": {
+      "start": 727,
+      "end": 768,
+      "text": "C:\\Program Files(x86)\\AnyDesk\\AnyDesk.exe",
+      "line_start": 727
+    },
+    "u029": {
+      "start": 769,
+      "end": 812,
+      "text": "Remote Monitoring and Management (RMM) Tool",
+      "line_start": 769
+    },
+    "u030": {
+      "start": 813,
+      "end": 831,
+      "text": "ehorus_display.exe",
+      "line_start": 813
+    },
+    "u031": {
+      "start": 832,
+      "end": 895,
+      "text": "C:\\Program Files\\ehorus_agent\\ehorus_display\\ehorus_display.exe",
+      "line_start": 832
+    },
+    "u032": {
+      "start": 896,
+      "end": 904,
+      "text": "RMM Tool",
+      "line_start": 896
+    },
+    "u033": {
+      "start": 905,
+      "end": 924,
+      "text": "ehorus_launcher.exe",
+      "line_start": 905
+    },
+    "u034": {
+      "start": 925,
+      "end": 974,
+      "text": "C:\\Program Files\\ehorus_agent\\ehorus_launcher.exe",
+      "line_start": 925
+    },
+    "u035": {
+      "start": 975,
+      "end": 983,
+      "text": "RMM Tool",
+      "line_start": 975
+    },
+    "u036": {
+      "start": 984,
+      "end": 1038,
+      "text": "Table 16: Domain(s) associated to BlackSuit Ransomware",
+      "line_start": 984
+    },
+    "u037": {
+      "start": 1039,
+      "end": 1050,
+      "text": "Domain Name",
+      "line_start": 1039
+    },
+    "u038": {
+      "start": 1051,
+      "end": 1062,
+      "text": "Description",
+      "line_start": 1051
+    },
+    "u039": {
+      "start": 1063,
+      "end": 1082,
+      "text": "Abbeymathiass[.]com",
+      "line_start": 1063
+    },
+    "u040": {
+      "start": 1083,
+      "end": 1099,
+      "text": "Cobalt Strike C2",
+      "line_start": 1083
+    },
+    "u041": {
+      "start": 1100,
+      "end": 1124,
+      "text": "Mail.abbeymathiass[.]com",
+      "line_start": 1100
+    },
+    "u042": {
+      "start": 1125,
+      "end": 1141,
+      "text": "Cobalt Strike C2",
+      "line_start": 1125
+    },
+    "u043": {
+      "start": 1142,
+      "end": 1167,
+      "text": "Store.abbeymathiass[.]com",
+      "line_start": 1142
+    },
+    "u044": {
+      "start": 1168,
+      "end": 1184,
+      "text": "Cobalt Strike C2",
+      "line_start": 1168
+    },
+    "u045": {
+      "start": 1185,
+      "end": 1215,
+      "text": "https://file[.]io/ScPd1KcJTtxO",
+      "line_start": 1185
+    },
+    "u046": {
+      "start": 1216,
+      "end": 1284,
+      "text": "Associated with download of the binary disabler.exe by threat actors",
+      "line_start": 1216
+    },
+    "u047": {
+      "start": 1285,
+      "end": 1309,
+      "text": "Mail.turnovercheck[.]com",
+      "line_start": 1285
+    },
+    "u048": {
+      "start": 1310,
+      "end": 1326,
+      "text": "Cobalt Strike C2",
+      "line_start": 1310
+    },
+    "u049": {
+      "start": 1327,
+      "end": 1352,
+      "text": "Store.turnovercheck[.]com",
+      "line_start": 1327
+    },
+    "u050": {
+      "start": 1353,
+      "end": 1369,
+      "text": "Cobalt Strike C2",
+      "line_start": 1353
+    },
+    "u051": {
+      "start": 1370,
+      "end": 1389,
+      "text": "turnovercheck[.]com",
+      "line_start": 1370
+    },
+    "u052": {
+      "start": 1390,
+      "end": 1406,
+      "text": "Cobalt Strike C2",
+      "line_start": 1390
+    },
+    "u053": {
+      "start": 1407,
+      "end": 1430,
+      "text": "Hourlyprofitstore[.]com",
+      "line_start": 1407
+    },
+    "u054": {
+      "start": 1431,
+      "end": 1444,
+      "text": "Cobalt Strike",
+      "line_start": 1431
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 25509,
+      "end": 25584,
+      "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)"
+    }
+  },
+  "identities": {
+    "m001_S": "local:Software:putty.exe",
+    "m002_S": "local:Software:c",
+    "m003_S": "local:Software:tool",
+    "m004_S": "attack:S0591",
+    "m005_S": "local:Software:sharpshares.exe",
+    "m006_S": "local:Software:networx.exe",
+    "m007_G": "local:ThreatGroup:black suit ransomware (2 of 3)",
+    "m008_S": "local:Software:filename",
+    "m009_S": "attack:S0154",
+    "m010_S": "local:Software:host",
+    "m011_G": "local:ThreatGroup:black suit ransomware (3 of 3)",
+    "m012_S": "local:Software:anydesk.exe",
+    "m013_S": "local:Software:program files",
+    "m014_S": "local:Software:anydesk.exe",
+    "m015_S": "local:Software:remote monitoring",
+    "m016_S": "local:Software:management",
+    "m017_S": "local:Software:rmm",
+    "m018_S": "local:Software:ehorus_display.exe",
+    "m019_S": "local:Software:rmm tool",
+    "m020_S": "local:Software:ehorus_launcher.exe",
+    "m021_S": "local:Software:disabler.exe",
+    "m022_G": "local:ThreatGroup:black suit ransomware (1 of 3)"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u016",
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023",
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023",
+        "u027"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S",
+        "m010_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u027"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u028"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m013_S",
+        "m014_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m015_S",
+        "m016_S",
+        "m017_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u030"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u031"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m013_S",
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u032"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m017_S",
+        "m019_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u033"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m020_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u034"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m013_S",
+        "m020_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u035"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m017_S",
+        "m019_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u040"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u042"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u044"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u046"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m021_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u048"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u050"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u052"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u054"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m022_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    }
+  ]
+}

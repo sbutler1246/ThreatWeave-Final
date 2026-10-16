@@ -1,0 +1,145 @@
+{
+  "answer": "Rhysida actors use Mimikatz to aid in privilege escalation. [E1, E2, E3, E4]\nAkira threat actors use Mimikatz to aid in privilege escalation. [E5, E6, E7, E8]\nRhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities) and T1078 (Valid Accounts). [E1, E2, E3]\nAkira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery), T1087.002 (Account Discovery: Domain Account), T1482 (Domain Trust Discovery), and T1003.001 (Kerberoasting). [E5, E6, E7, E8]",
+  "claims": [
+    {
+      "text": "Rhysida actors use Mimikatz to aid in privilege escalation.",
+      "citations": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "text": "Akira threat actors use Mimikatz to aid in privilege escalation.",
+      "citations": [
+        "E5",
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    {
+      "text": "Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities) and T1078 (Valid Accounts).",
+      "citations": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "text": "Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery), T1087.002 (Account Discovery: Domain Account), T1482 (Domain Trust Discovery), and T1003.001 (Kerberoasting).",
+      "citations": [
+        "E5",
+        "E6",
+        "E7",
+        "E8"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA23-319A",
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nAdditional notable TTPs have been published by the Check Point Incident Response Team.[10]\nTable 9: Resource Development\nTechnique Title\nID\nUse\nDevelop Capabilities\nT1587\nRhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.\nTable 10: Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nRhysida actors are known to use valid credentials to access internal VPN access points of victims.\nUpdate April 30, 2025:\nTable 11: Execution\nTechnique Title\nID\nUse\nCommand and Scripting Interpreter: Cloud API\nT1059.009\nRhysida actors leverage AZCopy, a command-line utility that ",
+        "start": 19026,
+        "end": 19970,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA23-319A",
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "#StopRansomware: Rhysida Ransomware",
+        "start": 23,
+        "end": 58,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA23-319A",
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "Technical Details",
+        "start": 2634,
+        "end": 2651,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "002\nAkira threat actors use the net group /domain command to find domain level groups and permission settings.\nSystem Information Discovery\nT1082\nAkira threat actors use tools like PCHunter64 to acquire detailed process and system information.\nUpdate Nov. 13, 2025\nAkira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.\nEnd Update\nUpdate Nov. 13, 2025\nAccount Discovery: Domain Account\nT1087.002\nAkira threat actors use Adfind.exe to query and retrieve information from Active Directory.\nEnd Update\nDomain Trust Discovery\nT1482\nAkira threat actors use the net Windows command to enumerate domain information.\nUpdate Nov. 13, 2025\nAkira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.\nEnd Update\nTable 17. Lateral Movement\nTechnique Title\nID\nUse\nUpdate Nov. 13, 2025\nRemote Services\n",
+        "start": 36207,
+        "end": 37085,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "#StopRansomware: Akira Ransomware",
+        "start": 23,
+        "end": 56,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Technical Details",
+        "start": 4770,
+        "end": 4787,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Table 15. Credential Access",
+        "start": 33205,
+        "end": 33232,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "AA24-109A",
+        "chunk_id": "retrieval:51d72e87e30e54f0e66edc8c55bd0e695289814c70098d68be5b7c09e534ddd9",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": ".002] to abuse the functions of domain controllers. In some instances, the authoring organizations identified Akira threat actors creating an administrative account named itadm.\nAccording to the authoring organizations and open source reporting, Akira threat actors leverage post-exploitation techniques, such as Kerberoasting,8 to extract credentials stored in the process memory of the Local Security Authority Subsystem Service (LSASS)9 [T1003.001]. Akira threat actors also use credential scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation. For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].\n",
+        "start": 8044,
+        "end": 8882,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "retrieval_ms": 18.890000006649643,
+    "configuration_hash": "fb3bca230c45e4ecdb2fdaf776826d2f60d68182c76c16cb4da564aad97521f7",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 3640.60669997707,
+  "generation_timestamp": "2026-10-16T05:11:21.389594Z",
+  "warnings": [
+    "Development text_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

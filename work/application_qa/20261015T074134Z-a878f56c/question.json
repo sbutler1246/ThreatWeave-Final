@@ -1,0 +1,5 @@
+{
+  "question": "According to CISA, how do Rhysida actors use valid accounts (T1078) for access? Explain the supplied ATT&CK mitigation guidance and cite the sources separately.",
+  "mode": "graph_only",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

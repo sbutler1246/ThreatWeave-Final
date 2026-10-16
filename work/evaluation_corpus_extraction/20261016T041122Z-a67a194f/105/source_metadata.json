@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:11240:12930",
+    "doc_id": "AA23-075A",
+    "start": 11240,
+    "end": 12930,
+    "text": " Windows Event Logs\nRegistry Key\nValue\nData\nHKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\*\nEnabled\n0\nHKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\* \\ChannelAccess\nChannelAccess\nAO:BAG:SYD:(A;;0x1;; ;SY)(A;;0x5;;;BA)(A; ;0x1;;;LA)\nRansom Locations\nLockBit 3.0 File Path Locations\nADMIN$\\Temp\\<LockBit3.0 Filename>.exe\n%SystemRoot%\\Temp\\<LockBit3.0 Filename>.exe\n\\<Domain Name>\\sysvol\\<Domain Name>\\scripts\\<Lockbit 3.0 Filename>.exe (Domain Controller)\nSafe Mode Launch Commands\nLockBit 3.0 has a Safe Mode feature to circumvent endpoint antivirus and detection. Depending upon the host operating system, the following command is launched to reboot the system to Safe Mode with Networking:\nOperating System\nSafe Mode with Networking command\nVista and newer\nbcdedit /set {current} safeboot network\nPre-Vista\nbootcfg /raw /a /safeboot:network /id 1\nOperating System\nDisable Safe mode reboot\nVista and newer\nbcdedit /deletevalue {current} safeboot\nPre-Vista\nbootcfg /raw /fastdetect /id 1\nGroup Policy Artifacts\nThe following are Group Policy Extensible Markup Language (XML) files identified after a LockBit 3.0 infection:\nNetworkShares.xml\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<NetworkShareSettings clsid=\"{520870D8-A6E7-47e8-A8D8-E6A4E76EAEC2}\">\n<NetShare clsid=\"{2888C5E7-94FC-4739-90AA-2C1536D68BC0}\"\nimage=\"2\" name=\"%%ComputerName%%_D\" changed=\"%s\" uid=\"%s\">\n<Properties action=\"U\" name=\"%%ComputerName%%_D\" path=\"D:\" comment=\"\" allRegular=\"0\" allHidden=\"0\" allAdminDrive=\"0\" limitUsers=\"NO_CHANGE\" abe=\"NO_CHANGE\"/>\nServices.xml stops and disables services on the Active Directory (AD) hosts.\nServices.xml\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 504,
+  "inherited_context_tokens": 18,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "867207bf397896c0e5b5882f7f85e21f2c81da6a179372d5523bc8c09f22a67a",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

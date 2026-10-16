@@ -1,0 +1,406 @@
+{
+  "answer": "BianLian group actors are reported using Rclone. [E6, E7, E8, E9]\nLockBit 3.0 actors are reported using Rclone. [E2]\nCISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection. [E16]\nThe BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data. [E9]\nUser Account Management (M1018) can mitigate Transfer Data to Cloud Account (T1537). [E10, E11]\nFilter Network Traffic (M1037) can mitigate Transfer Data to Cloud Account (T1537) by implementing network-based filtering restrictions to prohibit data transfers to untrusted VPCs. [E12, E13]\nSoftware Configuration (M1054) can mitigate Transfer Data to Cloud Account (T1537) by configuring appropriate data sharing restrictions in cloud services. [E14, E15]",
+  "claims": [
+    {
+      "text": "BianLian group actors are reported using Rclone.",
+      "citations": [
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    {
+      "text": "LockBit 3.0 actors are reported using Rclone.",
+      "citations": [
+        "E2"
+      ]
+    },
+    {
+      "text": "CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+      "citations": [
+        "E16"
+      ]
+    },
+    {
+      "text": "The BianLian group uses File Transfer Protocol (FTP) and Rclone to exfiltrate data.",
+      "citations": [
+        "E9"
+      ]
+    },
+    {
+      "text": "User Account Management (M1018) can mitigate Transfer Data to Cloud Account (T1537).",
+      "citations": [
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "text": "Filter Network Traffic (M1037) can mitigate Transfer Data to Cloud Account (T1537) by implementing network-based filtering restrictions to prohibit data transfers to untrusted VPCs.",
+      "citations": [
+        "E12",
+        "E13"
+      ]
+    },
+    {
+      "text": "Software Configuration (M1054) can mitigate Transfer Data to Cloud Account (T1537) by configuring appropriate data sharing restrictions in cloud services.",
+      "citations": [
+        "E14",
+        "E15"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "rclone, an open-source command line cloud storage manager [T1567.002]",
+        "start": 6308,
+        "end": 6377,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "#StopRansomware: LockBit 3.0",
+        "start": 23,
+        "end": 51,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA23-075A",
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+        "text": "TECHNICAL DETAILS",
+        "start": 2048,
+        "end": 2065,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe",
+        "chunk_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Exfiltration to Cloud Storage (T1567.002)\nMitigation: Restrict Web-Based Content (M1021)",
+        "start": 0,
+        "end": 120,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe",
+        "chunk_id": "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.",
+        "start": 298,
+        "end": 426,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "AA23-136A",
+        "chunk_id": "AA23-136A:development:llama500:11500:13402",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+        "text": "FBI observed BianLian group actors install Rclone and other files in generic and typically unchecked folders such as programdata\\vmware and music folders.",
+        "start": 11922,
+        "end": 12076,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "AA23-136A",
+        "chunk_id": "AA23-136A:development:llama500:11500:13402",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+        "text": "#StopRansomware: BianLian Ransomware Group",
+        "start": 23,
+        "end": 65,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "AA23-136A",
+        "chunk_id": "AA23-136A:development:llama500:11500:13402",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+        "text": "Technical Details",
+        "start": 3534,
+        "end": 3551,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "AA23-136A",
+        "chunk_id": "AA23-136A:development:llama500:11500:13402",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+        "text": "BianLian group uses File Transfer Protocol (FTP) [T1048] and Rclone, a tool used to sync files to cloud storage, to exfiltrate data [T1537].",
+        "start": 11781,
+        "end": 11921,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "attack:17.1:relationship--27fde8e9-ab78-43aa-9642-14ac0cd958ff",
+        "chunk_id": "attack:17.1:relationship--27fde8e9-ab78-43aa-9642-14ac0cd958ff:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Transfer Data to Cloud Account (T1537)\nMitigation: User Account Management (M1018)",
+        "start": 0,
+        "end": 114,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E11",
+        "doc_id": "attack:17.1:relationship--27fde8e9-ab78-43aa-9642-14ac0cd958ff",
+        "chunk_id": "attack:17.1:relationship--27fde8e9-ab78-43aa-9642-14ac0cd958ff:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Limit user account and IAM policies to the least privileges required.",
+        "start": 292,
+        "end": 361,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E12",
+        "doc_id": "attack:17.1:relationship--a5b61b67-8d99-4bc5-86d0-00739f0be666",
+        "chunk_id": "attack:17.1:relationship--a5b61b67-8d99-4bc5-86d0-00739f0be666:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Transfer Data to Cloud Account (T1537)\nMitigation: Filter Network Traffic (M1037)",
+        "start": 0,
+        "end": 113,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E13",
+        "doc_id": "attack:17.1:relationship--a5b61b67-8d99-4bc5-86d0-00739f0be666",
+        "chunk_id": "attack:17.1:relationship--a5b61b67-8d99-4bc5-86d0-00739f0be666:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Implement network-based filtering restrictions to prohibit data transfers to untrusted VPCs.",
+        "start": 291,
+        "end": 383,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E14",
+        "doc_id": "attack:17.1:relationship--8389c9f5-ace5-4240-a694-7008313fc168",
+        "chunk_id": "attack:17.1:relationship--8389c9f5-ace5-4240-a694-7008313fc168:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Transfer Data to Cloud Account (T1537)\nMitigation: Software Configuration (M1054)",
+        "start": 0,
+        "end": 113,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E15",
+        "doc_id": "attack:17.1:relationship--8389c9f5-ace5-4240-a694-7008313fc168",
+        "chunk_id": "attack:17.1:relationship--8389c9f5-ace5-4240-a694-7008313fc168:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Configure appropriate data sharing restrictions in cloud services. For example, external sharing in Microsoft SharePoint and Google Drive can be turned off altogether, blocked for certain domains, or restricted to certain users.(Citation: Google Workspace External Sharing) (Citation: Microsoft 365 External Sharing)",
+        "start": 291,
+        "end": 607,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E16",
+        "doc_id": "AA23-136A",
+        "chunk_id": "retrieval:2a62b6a651ebf777015ee84a58b146f0b1d1fe3c0e8aae73fe8846c68481e518",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+        "text": "BianLian group actors used Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+        "start": 27502,
+        "end": 27690,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [
+      {
+        "path_id": "P1",
+        "edges": [
+          {
+            "head_id": "attack:S1040",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1567.002",
+            "assertion_ids": [
+              "assertion:142b17253d6ea2ecd3e9ad398c5f2671d38b0843bf160ab53164da32b818242e"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1567.002",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1021",
+            "assertion_ids": [
+              "assertion:85a8a923c469fcf03e65b95da768d2355d125f5d3065eaa093e34b004b2da02c"
+            ],
+            "citation_ids": [
+              "E4",
+              "E5"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P2",
+        "edges": [
+          {
+            "head_id": "local:AA23-136A:bianlian-group-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S1040",
+            "assertion_ids": [
+              "assertion:f9253758790e4440509b8b24ab4592ee4cd7392d09d7a1ffa2b1b695a61ece12"
+            ],
+            "citation_ids": [
+              "E6",
+              "E7",
+              "E8"
+            ]
+          },
+          {
+            "head_id": "attack:S1040",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1537",
+            "assertion_ids": [
+              "assertion:c7b967f59736e07d9a9949e3b834e252f965afe0423bbb914b0fa4ba275210db"
+            ],
+            "citation_ids": [
+              "E9",
+              "E7",
+              "E8"
+            ]
+          },
+          {
+            "head_id": "attack:T1537",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1018",
+            "assertion_ids": [
+              "assertion:656efacea6661d266c586482e0f188edc8df42fd8128cd2152b212a42486355b"
+            ],
+            "citation_ids": [
+              "E10",
+              "E11"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P3",
+        "edges": [
+          {
+            "head_id": "local:AA23-136A:bianlian-group-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S1040",
+            "assertion_ids": [
+              "assertion:f9253758790e4440509b8b24ab4592ee4cd7392d09d7a1ffa2b1b695a61ece12"
+            ],
+            "citation_ids": [
+              "E6",
+              "E7",
+              "E8"
+            ]
+          },
+          {
+            "head_id": "attack:S1040",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1537",
+            "assertion_ids": [
+              "assertion:c7b967f59736e07d9a9949e3b834e252f965afe0423bbb914b0fa4ba275210db"
+            ],
+            "citation_ids": [
+              "E9",
+              "E7",
+              "E8"
+            ]
+          },
+          {
+            "head_id": "attack:T1537",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1037",
+            "assertion_ids": [
+              "assertion:595b0bf6485520caa1b0972ed80af044e09171e8ac10b1cca8ded2768a46a72c"
+            ],
+            "citation_ids": [
+              "E12",
+              "E13"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P4",
+        "edges": [
+          {
+            "head_id": "local:AA23-136A:bianlian-group-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S1040",
+            "assertion_ids": [
+              "assertion:f9253758790e4440509b8b24ab4592ee4cd7392d09d7a1ffa2b1b695a61ece12"
+            ],
+            "citation_ids": [
+              "E6",
+              "E7",
+              "E8"
+            ]
+          },
+          {
+            "head_id": "attack:S1040",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1537",
+            "assertion_ids": [
+              "assertion:c7b967f59736e07d9a9949e3b834e252f965afe0423bbb914b0fa4ba275210db"
+            ],
+            "citation_ids": [
+              "E9",
+              "E7",
+              "E8"
+            ]
+          },
+          {
+            "head_id": "attack:T1537",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1054",
+            "assertion_ids": [
+              "assertion:0294004ff36df5a1f3ad220730e1e0f274b9025fe866d58403102c2d3ef7185e"
+            ],
+            "citation_ids": [
+              "E14",
+              "E15"
+            ]
+          }
+        ]
+      }
+    ],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16"
+    ],
+    "retrieval_ms": 63.041699992027134,
+    "configuration_hash": "80a7079746cc7e845ed5a20b65cd1254172464f12166eb44b79d4541e20ba8bc",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 10947.842599998694,
+  "generation_timestamp": "2026-10-16T05:15:00.541338Z",
+  "warnings": [
+    "Development hybrid_no_node2vec pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

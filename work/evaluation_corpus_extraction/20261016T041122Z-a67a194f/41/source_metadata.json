@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-131A:evaluation:llama500:6550:8835",
+    "doc_id": "AA24-131A",
+    "start": 6550,
+    "end": 8835,
+    "text": "1-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]\nLateral Movement\nBlack Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement. Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.\nExfiltration and Encryption\nBlack Basta affiliates use RClone to facilitate data exfiltration prior to encryption. Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486]. A .basta or otherwise random file extension is added to file names and a ransom note titled readme.txt is left on the compromised system.[4] To further inhibit system recovery, affiliates use the vssadmin.exe program to delete volume shadow copies [T1490].[5]\nLeveraged Tools\nSee Table 1 for publicly available tools and applications used by Black Basta affiliates. This includes legitimate tools repurposed for their operations.\nTable 1: Tools Used by Black Basta Affiliates\nTool Name\nDescription\nAnyDesk\nA remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.\nMicrosoft Teams\nA messaging application used within organizations and maliciously used by Black Basta affiliates to contact employees.\nMicrosoft Quick Assist\nA remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.\nBITSAdmin\nA command-line utility that manages downloads/uploads between a client and server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.\nCobalt Strike\nA penetration testing tool used by security professions to test the security of networks and systems. Black Basta affiliates have used it to assist with lateral movement and file execution.\nMimikatz\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: Black Basta"
+      },
+      {
+        "start": 4157,
+        "end": 4174,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 489,
+  "inherited_context_tokens": 12,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "c598d31d11bc475d4ac2a5fb43347b063b8565fea57ad98afc0b76a2b7b597e7",
+  "doc_id": "AA24-131A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+  "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149"
+}

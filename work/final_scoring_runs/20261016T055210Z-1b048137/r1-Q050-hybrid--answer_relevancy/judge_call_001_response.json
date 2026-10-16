@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:28:48.3577018Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 714526900,
+  "load_duration": 10384300,
+  "prompt_eval_count": 549,
+  "prompt_eval_duration": 218778000,
+  "eval_count": 28,
+  "eval_duration": 346144000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do LockBit affiliates use for remote access?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

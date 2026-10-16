@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Q001",
+    "question": "What is the two-hop relationship from LockBit affiliates through Advanced Internet Protocol (IP) Scanner to an ATT&CK technique in this advisory? Explain both the software-use link and the technique mapping.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q030",
+    "question": "According to AA23-061A, which ATT&CK technique is connected to Royal actors through the reported use of Chisel? Explain the two-hop actor-to-software-to-technique path with evidence.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q031",
+    "question": "According to AA24-109A, which ATT&CK technique is connected to Akira threat actors through the reported use of Mimikatz? Explain the two-hop actor-to-software-to-technique path with evidence.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q033",
+    "question": "In the AA24-109A command-and-control paragraph describing ngrok encrypted sessions that bypass perimeter monitoring, what two-hop path connects Akira actors through ngrok to the cited ATT&CK technique? Explain both source-supported links.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q039",
+    "question": "According to AA24-131A, which ATT&CK technique is connected to Black Basta affiliates through the reported use of Backstab? Explain the two-hop actor-to-software-to-technique path with evidence.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q040",
+    "question": "According to AA23-352A, which ATT&CK technique is connected to Play ransomware actors through the reported use of Mimikatz? Explain the two-hop actor-to-software-to-technique path with evidence.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q041",
+    "question": "According to AA23-075A, which ATT&CK technique is connected to LockBit 3.0 affiliates through the reported use of rclone? Explain the two-hop actor-to-software-to-technique path with evidence.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q044",
+    "question": "According to AA25-071A, which ATT&CK technique is connected to Medusa actors through the reported use of PsExec? Explain the two-hop actor-to-software-to-technique path with evidence.",
+    "category": "actor_software_technique"
+  },
+  {
+    "id": "Q050",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Advanced Internet Protocol (IP) Scanner in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q051",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Chocolatey in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q052",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Ligolo in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q053",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to ThunderShell in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q054",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Splashtop in AA23-165A? Follow the two-hop software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q055",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to FreeFileSync in AA23-165A? Follow the two-hop software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q056",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to PasswordFox in AA23-165A? Follow the two-hop software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q057",
+    "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Microsoft Sysinternals ProcDump in AA23-165A? Follow the two-hop software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+    "category": "technique_mitigation"
+  },
+  {
+    "id": "Q058",
+    "question": "Compare AA24-109A and AA23-352A: which actors are reported using Mimikatz, and how do their advisory software-to-technique mappings compare? Cite both reports and keep each mapping within its source context.",
+    "category": "cross_report_comparison"
+  },
+  {
+    "id": "Q059",
+    "question": "Compare AA24-109A and AA25-071A: which actors are reported using Mimikatz, and how do their advisory software-to-technique mappings compare? Cite both reports and keep each mapping within its source context.",
+    "category": "cross_report_comparison"
+  },
+  {
+    "id": "Q060",
+    "question": "Compare AA23-352A and AA25-071A: which actors are reported using Mimikatz, and how do their advisory software-to-technique mappings compare? Cite both reports and keep each mapping within its source context.",
+    "category": "cross_report_comparison"
+  },
+  {
+    "id": "Q061",
+    "question": "Compare AA24-109A and AA25-071A: which actors are reported using Rclone, and how do their advisory software-to-technique mappings compare? Cite both reports and keep each mapping within its source context.",
+    "category": "cross_report_comparison"
+  }
+]

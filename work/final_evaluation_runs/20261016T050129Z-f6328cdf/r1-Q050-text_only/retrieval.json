@@ -1,0 +1,56 @@
+{
+  "candidate_ranks": [
+    {
+      "rank": 1,
+      "chunk_id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "parent_extraction_chunk_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2:description",
+      "source_kind": "attack",
+      "cosine_distance": 0.2608218193054199
+    },
+    {
+      "rank": 2,
+      "chunk_id": "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+      "parent_extraction_chunk_id": "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204:description",
+      "source_kind": "attack",
+      "cosine_distance": 0.2728424072265625
+    },
+    {
+      "rank": 3,
+      "chunk_id": "retrieval:63abb15386a46b9c71c49a5b28ae7f5b26ea077549169fa57af47ec59e956127",
+      "parent_extraction_chunk_id": "attack:17.1:relationship--32d482c4-2c0d-4688-a38b-d73b5b2962a3:description",
+      "source_kind": "attack",
+      "cosine_distance": 0.27436888217926025
+    },
+    {
+      "rank": 4,
+      "chunk_id": "retrieval:c404483d9c48cbb8ec9f71a3973d0da3cfa07bbc455f0cc87634f8e436e335c7",
+      "parent_extraction_chunk_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64:description",
+      "source_kind": "attack",
+      "cosine_distance": 0.2881375551223755
+    },
+    {
+      "rank": 5,
+      "chunk_id": "retrieval:7795ab516229d6f864e192ea12a39a727fbcca444a732c7c027eaf5f73a93441",
+      "parent_extraction_chunk_id": "attack:17.1:relationship--7bdcd3e6-f741-4f62-9495-3111309adad8:description",
+      "source_kind": "attack",
+      "cosine_distance": 0.29338204860687256
+    }
+  ],
+  "candidate_chunk_count": 5,
+  "selected_chunk_ids": [
+    "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+    "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+    "retrieval:63abb15386a46b9c71c49a5b28ae7f5b26ea077549169fa57af47ec59e956127",
+    "retrieval:c404483d9c48cbb8ec9f71a3973d0da3cfa07bbc455f0cc87634f8e436e335c7",
+    "retrieval:7795ab516229d6f864e192ea12a39a727fbcca444a732c7c027eaf5f73a93441"
+  ],
+  "selected_chunk_count": 5,
+  "selected_path_count": 0,
+  "evidence_utf8_bytes": 1474,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_chunks": 0,
+  "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 15.974399982951581
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "mode": "text_only",
+    "metric": "faithfulness",
+    "denominator": 60,
+    "statuses": {
+      "scored": 40,
+      "failed": 14,
+      "unavailable_answer": 6
+    },
+    "available_score_mean": 0.5680654761904762,
+    "available_score_count": 40,
+    "availability_fraction": 0.6666666666666666
+  },
+  {
+    "mode": "text_only",
+    "metric": "answer_relevancy",
+    "denominator": 60,
+    "statuses": {
+      "scored": 54,
+      "unavailable_answer": 6
+    },
+    "available_score_mean": 0.5546215704222898,
+    "available_score_count": 54,
+    "availability_fraction": 0.9
+  },
+  {
+    "mode": "text_only",
+    "metric": "context_recall",
+    "denominator": 60,
+    "statuses": {
+      "scored": 54,
+      "unavailable_answer": 6
+    },
+    "available_score_mean": 0.6589506172839507,
+    "available_score_count": 54,
+    "availability_fraction": 0.9
+  },
+  {
+    "mode": "graph_only",
+    "metric": "faithfulness",
+    "denominator": 60,
+    "statuses": {
+      "scored": 53,
+      "failed": 7
+    },
+    "available_score_mean": 0.5031201502899616,
+    "available_score_count": 53,
+    "availability_fraction": 0.8833333333333333
+  },
+  {
+    "mode": "graph_only",
+    "metric": "answer_relevancy",
+    "denominator": 60,
+    "statuses": {
+      "scored": 60
+    },
+    "available_score_mean": 0.3354606954614154,
+    "available_score_count": 60,
+    "availability_fraction": 1.0
+  },
+  {
+    "mode": "graph_only",
+    "metric": "context_recall",
+    "denominator": 60,
+    "statuses": {
+      "scored": 57,
+      "failed": 3
+    },
+    "available_score_mean": 0.6096491228070176,
+    "available_score_count": 57,
+    "availability_fraction": 0.95
+  },
+  {
+    "mode": "hybrid_no_node2vec",
+    "metric": "faithfulness",
+    "denominator": 60,
+    "statuses": {
+      "scored": 47,
+      "unavailable_answer": 7,
+      "failed": 6
+    },
+    "available_score_mean": 0.5976190476190476,
+    "available_score_count": 47,
+    "availability_fraction": 0.7833333333333333
+  },
+  {
+    "mode": "hybrid_no_node2vec",
+    "metric": "answer_relevancy",
+    "denominator": 60,
+    "statuses": {
+      "scored": 53,
+      "unavailable_answer": 7
+    },
+    "available_score_mean": 0.49280170873894363,
+    "available_score_count": 53,
+    "availability_fraction": 0.8833333333333333
+  },
+  {
+    "mode": "hybrid_no_node2vec",
+    "metric": "context_recall",
+    "denominator": 60,
+    "statuses": {
+      "scored": 53,
+      "unavailable_answer": 7
+    },
+    "available_score_mean": 0.5927672955974843,
+    "available_score_count": 53,
+    "availability_fraction": 0.8833333333333333
+  },
+  {
+    "mode": "hybrid",
+    "metric": "faithfulness",
+    "denominator": 60,
+    "statuses": {
+      "scored": 52,
+      "unavailable_answer": 2,
+      "failed": 6
+    },
+    "available_score_mean": 0.625503663003663,
+    "available_score_count": 52,
+    "availability_fraction": 0.8666666666666667
+  },
+  {
+    "mode": "hybrid",
+    "metric": "answer_relevancy",
+    "denominator": 60,
+    "statuses": {
+      "scored": 58,
+      "unavailable_answer": 2
+    },
+    "available_score_mean": 0.48614054077780605,
+    "available_score_count": 58,
+    "availability_fraction": 0.9666666666666667
+  },
+  {
+    "mode": "hybrid",
+    "metric": "context_recall",
+    "denominator": 60,
+    "statuses": {
+      "scored": 58,
+      "unavailable_answer": 2
+    },
+    "available_score_mean": 0.7095648604269293,
+    "available_score_count": 58,
+    "availability_fraction": 0.9666666666666667
+  }
+]

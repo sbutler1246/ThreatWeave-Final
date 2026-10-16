@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:33:43.6588823Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 822150100,
+  "load_duration": 10220900,
+  "prompt_eval_count": 429,
+  "prompt_eval_duration": 282112000,
+  "eval_count": 28,
+  "eval_duration": 341274000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools or techniques do Akira threat actors use?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

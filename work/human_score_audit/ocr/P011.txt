@@ -1,0 +1,90 @@
+POI 1
+Question
+In the AA24-109A command-and-control paragraph describing ngrok encrypted sessions that
+bypass perimeter monitoring, what two-hop path connects Akira actors through ngrok to the
+cited ATT&CK technique? Explain both source-supported links.
+Displayed answer
+Akira actors use ngrok to bypass perimeter monitoring. [El, E7]
+Ngrok is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS
+connections. [E7]
+Akira actors use ngrok to connect to exfiltration servers. [E7]
+Ngrok is used to create secure tunnels for data exfiltration. [E7]
+The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is:
+Akira actors use ngrok to bypass perimeter monitoring, which is used to hide C2 and remote
+access/exfiltrate traffic inside legitimate HTTPS connections, which is used to connect to
+exfiltrat [El, E7, E5]
+The ATT&CK technique is Tl 572: Protocol Tunneling. [E5]
+The mitigation for Tl 572 is Filter Network Traffic (M 1037). [El 1]
+The actual practical guidance for Filter Network Traffic (MI 037) is to filter network traffic to
+untrusted or known bad domains and resources. [El 0]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+In the C2 paragraph of AA24-109A, Akira actors use ngrok to initiate encrypted sessions that
+bypass perimeter monitoring. That paragraph cites Tl 572 (Protocol Tunneling). The path is Akira
+actors USES ngrok USES_TECHNIQUE Tl 572.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+beacons.
+Akira threat actors use STONESTOP malware to load additional payloads.
+End Update
+Remote Access Software
+T 1219
+Akira threat actors use legitimate desktop support software like AnyDesk to obtain remote access
+to victim systems.
+Update Nov. 13, 2025
+Akira threat actors use SystemBC malware as a RAT.
+End Update
+Update Nov. 13, 2025
+Protocol Tunneling
+T 1572
+Akira treat actors use Ngrok to hide C2 and remote access/exfiltrate traffic inside legitimate
+HTTPS connections, bypass perimeter defenses, and maintain covert persistent access.
+End Update
+Table 20. Exfiltration
+Technique Title
+[Q; CISA]
+#StopRansomware: Akira Ransomware
+[E3; CISA]
+Technical Details
+[E4; CISA]
+Table 16. Discovery
+
+--- IMAGE ---
+
+[E-5; ATTACK]
+Train users to be aware of impersonation tricks and how to counter them, for example confirming
+incoming requests through an independent platform like a phone call or in-person, to reduce risk.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (Tl 656)
+Mitigation: User Training (MI 017)
+[E7; CISA]
+such as File Transfer Protocol (F TP), Secure File Transfer Protocol (SFTP), and cloud storage
+services like Mega [Tl 537], to connect to exfiltration servers. In some instances, Akira threat actors
+use Ngrok to create secure tunnels for data exfiltration [T 1090].
+After exfiltrating data, Akira threat actors use a double-extortion model [T 1657], which involves
+threat actors both encrypting systems [T 1486] and threatening to leak sensitive information. The
+Akira ransom note provides each company with a unique code and instructions to contact the
+threat actors via a .onion URL, which is accessible through the Tor network [T 1090.003]
+[Tl 573.002].
+(Note: Tor, short for The Onion Router, is a decentralized network designed to anonymize internet
+traffic by routing it through multiple servers, encrypting data at each step. This network is often
+leveraged by threat actors to conceal their identities and activities, enabling secure and
+[E8; ATTACK]
+If a link is being visited by a user, network intrusion prevention systems and systems designed to
+scan and remove malicious downloads can be used to block activity.
+[E9; ATTACK]
+ATT&CK release: 17.1
+Technique: User Execution (T 1204)
+Mitigation: Network Intrusion Prevention (M 1031)
+[Elo; ATTACK]
+Consider filtering network traffic to untrusted or known bad domains and resources.
+[El 1; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (Tl 572)
+Mitigation: Filter Network Traffic (MI 037)
+GRAPH NODES

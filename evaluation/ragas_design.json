@@ -1,0 +1,45 @@
+{
+  "implementation_status": "dependencies_resolved_api_checked_live_integration_pending",
+  "metrics": [
+    "faithfulness",
+    "response_relevancy",
+    "context_recall"
+  ],
+  "fields": {
+    "user_input": "question",
+    "response": "answer",
+    "retrieved_contexts": "actual_context_passages",
+    "reference": "verified_reference_answer"
+  },
+  "judge": {
+    "provider": "local_ollama",
+    "model": "llama3.1:8b",
+    "temperature": 0,
+    "digest": null,
+    "digest_status": "Record the installed Ollama model digest before experiment execution."
+  },
+  "embeddings": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "normalize": true
+  },
+  "error_policy": "Record errors and NaN values separately; do not replace with zero or perfect scores.",
+  "isolation": "Run only on logged pipeline outputs; never supply reference answers to the retrieval/generation pipeline.",
+  "limitation": "Same-model judge scores supplement human assessment and may share generator biases.",
+  "dependencies": {
+    "python": "3.12",
+    "platform": "windows-x86_64",
+    "ragas": "0.2.15",
+    "langchain_ollama": "0.2.3",
+    "langchain_huggingface": "0.1.2",
+    "sentence_transformers": "3.4.1",
+    "lock_file": "evaluation/requirements.lock.txt",
+    "lock_sha256": "5a69f2ee5ab2908405b5b9d3bbdbd66401451128c6f10e154cbd5ac563406bc4",
+    "verification": "Dependency resolution and RAGAS wheel API inspection; no live model scores."
+  },
+  "sources": [
+    "https://pypi.org/project/ragas/0.2.15/",
+    "https://docs.ragas.io/en/v0.2.15/howtos/customizations/customize_models/",
+    "https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2"
+  ]
+}

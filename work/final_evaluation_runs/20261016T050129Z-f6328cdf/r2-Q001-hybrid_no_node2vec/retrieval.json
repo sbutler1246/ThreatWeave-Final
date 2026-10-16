@@ -1,0 +1,290 @@
+{
+  "mode": "hybrid_no_node2vec",
+  "node2vec_enabled": false,
+  "rrf_k": 60,
+  "rrf_unit": "(source doc_id, parent extraction chunk_id)",
+  "rrf_group_aggregation": "sum of distinct source-parent scores; whole-path/text-context groups",
+  "source_ranks": [
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "ranks": {
+        "graph": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "ranks": {
+        "text": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row02",
+      "ranks": {
+        "graph": 2,
+        "text": 1
+      },
+      "rrf_score": 0.03252247488101534
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row03",
+      "ranks": {
+        "graph": 4,
+        "text": 2
+      },
+      "rrf_score": 0.031754032258064516
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row04",
+      "ranks": {
+        "graph": 6,
+        "text": 4
+      },
+      "rrf_score": 0.030776515151515152
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row05",
+      "ranks": {
+        "graph": 7
+      },
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "doc_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2",
+      "parent_chunk_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2:description",
+      "ranks": {
+        "text": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788",
+      "parent_chunk_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788:description",
+      "ranks": {
+        "graph": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64",
+      "parent_chunk_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64:description",
+      "ranks": {
+        "graph": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--dddb38c9-408c-44da-9e51-3f7cd159c43d",
+      "parent_chunk_id": "attack:17.1:relationship--dddb38c9-408c-44da-9e51-3f7cd159c43d:description",
+      "ranks": {
+        "graph": 8
+      },
+      "rrf_score": 0.014705882352941176
+    }
+  ],
+  "candidate_groups": [
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.04839549075403121
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.0471386476426799
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.04616113053613054
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "score": 0.03252247488101534
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "score": 0.031754032258064516
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "score": 0.030776515151515152
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.029631255487269532
+    },
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "score": 0.015873015873015872
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "score": 0.015384615384615385
+    }
+  ],
+  "selected_groups": [
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.04839549075403121
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.0471386476426799
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.04616113053613054
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "score": 0.03252247488101534
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "score": 0.031754032258064516
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "score": 0.030776515151515152
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.029631255487269532
+    },
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "score": 0.015384615384615385
+    }
+  ],
+  "selected_path_count": 5,
+  "selected_text_chunk_count": 4,
+  "selected_hops": [
+    3,
+    3,
+    3,
+    3,
+    1
+  ],
+  "skipped_groups": [
+    {
+      "kind": "text",
+      "id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "reason": "context_budget"
+    }
+  ],
+  "evidence_utf8_bytes": 2931,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "graph_branch_empty": false,
+  "graph_branch": {
+    "candidate_path_count": 23,
+    "selected_path_count": 5,
+    "selected_hops": [
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "evidence_utf8_bytes": 2697,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 14,
+    "seed_groups": [
+      [
+        "local:AA23-165A:lockbit-affiliates"
+      ]
+    ]
+  },
+  "text_branch": {
+    "candidate_ranks": [
+      {
+        "rank": 1,
+        "chunk_id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row02",
+        "source_kind": "cisa",
+        "cosine_distance": 0.3902355432510376
+      },
+      {
+        "rank": 2,
+        "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row03",
+        "source_kind": "cisa",
+        "cosine_distance": 0.43236517906188965
+      },
+      {
+        "rank": 3,
+        "chunk_id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+        "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+        "source_kind": "cisa",
+        "cosine_distance": 0.43834614753723145
+      },
+      {
+        "rank": 4,
+        "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row04",
+        "source_kind": "cisa",
+        "cosine_distance": 0.44150424003601074
+      },
+      {
+        "rank": 5,
+        "chunk_id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.4567177891731262
+      }
+    ],
+    "candidate_chunk_count": 5,
+    "selected_chunk_ids": [
+      "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f"
+    ],
+    "selected_chunk_count": 5,
+    "selected_path_count": 0,
+    "evidence_utf8_bytes": 2012,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_chunks": 0,
+    "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+    "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+    "retrieval_ms": 15.22640002076514
+  },
+  "graph_source": "live_neo4j",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 61.278300010599196
+}

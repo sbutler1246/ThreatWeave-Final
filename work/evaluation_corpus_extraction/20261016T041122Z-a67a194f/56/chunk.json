@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:22442:23336",
+  "doc_id": "AA24-109A",
+  "start": 22442,
+  "end": 23336,
+  "text": "df6da1987bf48e5b05e\nAkira ransomware encryptor.\nAkira_v2\n3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f75\n0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c\nAkira_v2 ransomware.\nMegazord\nffd9f58e5fe8502249c67cad0123ceeeaa6e9f69b4ec9f9e21511809849eb8fc\ndfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198\n131da83b521f610819141d5c740313ce46578374abb22ef504a7593955a65f07\n9f393516edf6b8e011df6ee991758480c5b99a0efbfd68347786061f0e04426c\n9585af44c3ff8fd921c713680b0c2b3bbc9d56add848ed62164f7c9b9f23d065\n2f629395fdfa11e713ea8bf11d40f6f240acf2f5fcf9a2ac50b6f7fbc7521c83\n7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be\n95477703e789e6182096a09bc98853e0a70b680a4f19fa2bf86cbb9280e8ec5a\n0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d\nC9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0\nAkira Megazord ransomware.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    },
+    {
+      "start": 22211,
+      "end": 22252,
+      "text": "Table 2. Malicious Files and SHA-256 Hash"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:57:07.0371444Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2385862800,
+  "load_duration": 7399700,
+  "prompt_eval_count": 1790,
+  "prompt_eval_duration": 247126000,
+  "eval_count": 141,
+  "eval_duration": 1833260000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The advisory lists Advanced Internet Protocol (IP) Scanner among tools used by LockBit affiliates and associates its repurposed use with T1046 (Network Service Discovery in the frozen Enterprise ATT&CK 17.1 reference).\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"This describes the advisory mapping, not all uses of that tool.\",\n            \"reason\": \"The statement is a clarification of the previous sentence and is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

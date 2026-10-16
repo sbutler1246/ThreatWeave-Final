@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Akira threat actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1567.002",
+      "attack_id": "T1567.002"
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "Archive",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1560.001",
+      "attack_id": "T1560.001"
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1048",
+      "attack_id": "T1048"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1450,
+        "end": 1550,
+        "quote": "Akira threat actors use it maliciously to exfiltrate data to compromised cloud services [T1567.002]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 1912,
+        "end": 2046,
+        "quote": "Archive utility used to split compromised data into segments and to compress [T1560.001] files into .RAR format prior to exfiltration."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 2151,
+        "end": 2259,
+        "quote": "Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts [T1048]."
+      },
+      "confidence": null
+    }
+  ]
+}

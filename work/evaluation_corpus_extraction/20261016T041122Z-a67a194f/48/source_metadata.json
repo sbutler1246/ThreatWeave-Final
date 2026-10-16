@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:6537:8882",
+    "doc_id": "AA24-109A",
+    "start": 6537,
+    "end": 8882,
+    "text": " instances, they gain initial access through compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints [T1110]. Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003].\nAkira threat actors also deploy payloads to target Nutanix Acropolis Hypervisor (AHV) systems; this is the first observed instance in which Akira threat actors encrypted Nutanix AHV virtual machine (VM) disk files, indicating that they targeted hypervisors beyond the historical targeting of VMware ESXi and Hyper-V.\nIn other incidents, indicators suggest that Akira threat actors gained initial access through the Secure Shell (SSH) protocol by exploiting a router’s IP address [T1021.004]. After tunneling through a targeted router, Akira threat actors exploit publicly available vulnerabilities, such as those found in the Veeam Backup and Replication component of unpatched Veeam backup servers [T1068] (CVE-2023-27532 and CVE-2024-40711).7\nEnd Update\nExecution\nUpdate Nov. 13, 2025:\nAkira threat actors frequently execute malicious commands by using Visual Basic (VB) scripts (event-driven programming languages that allow documents to contain macros to improve functionality through autonomous task execution) [T1059.005].\nEnd Update\nPersistence and Discovery\nOnce initial access is achieved, Akira threat actors attempt to establish persistence by creating new domain accounts [T1136.002] to abuse the functions of domain controllers. In some instances, the authoring organizations identified Akira threat actors creating an administrative account named itadm.\nAccording to the authoring organizations and open source reporting, Akira threat actors leverage post-exploitation techniques, such as Kerberoasting,8 to extract credentials stored in the process memory of the Local Security Authority Subsystem Service (LSASS)9 [T1003.001]. Akira threat actors also use credential scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation. For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 490,
+  "inherited_context_tokens": 14,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "ba0c003ac72b54c4d440a092eae123fc7214ba8b4d8641c28a6e8bd5c681900b",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

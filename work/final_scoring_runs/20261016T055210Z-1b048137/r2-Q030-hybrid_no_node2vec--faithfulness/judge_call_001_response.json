@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:21:11.4436506Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4665852100,
+  "load_duration": 7452900,
+  "prompt_eval_count": 461,
+  "prompt_eval_duration": 39675000,
+  "eval_count": 341,
+  "eval_duration": 4302333000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Royal actors use Chisel to connect to Protocol Tunneling.\",\n        \"Protocol Tunneling is ATT&CK technique T1572.\",\n        \"Network Intrusion Prevention can mitigate Protocol Tunneling.\",\n        \"Filter Network Traffic can mitigate Protocol Tunneling.\"\n    ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"Royal actors use Chisel to connect to Protocol Tunneling (T1572). [E1, E2, E3]\"\n\t* \"Royal actors use Chisel to connect to Protocol Tunneling.\"\n\t\t+ \"Royal actors use Chisel.\"\n\t\t+ \"Royal actors connect to Protocol Tunneling.\"\n\t* \"Protocol Tunneling is ATT&CK technique T1572.\"\n\t\t+ \"Protocol Tunneling is a technique.\"\n\t\t+ \"Protocol Tunneling is ATT&CK technique T1572.\"\n2. \"Network Intrusion Prevention (M1031) can mitigate Protocol Tunneling (T1572). [E4, E5]\"\n\t* \"Network Intrusion Prevention can mitigate Protocol Tunneling.\"\n\t\t+ \"Network Intrusion Prevention can mitigate Protocol Tunneling.\"\n3. \"Filter Network Traffic (M1037) can mitigate Protocol Tunneling (T1572). [E6, E7]\"\n\t* \"Filter Network Traffic can mitigate Protocol Tunneling.\"\n\t\t+ \"Filter Network Traffic can mitigate Protocol Tunneling.\"\n\nNote that I've removed the evidence references ([E1, E2, E3], [E4, E5], [E6, E7]) as they are not relevant to the breakdown of the sentences.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

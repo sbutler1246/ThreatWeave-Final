@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:28777:31133",
+    "doc_id": "AA24-109A",
+    "start": 28777,
+    "end": 31133,
+    "text": " threat actors use remote access services, such as RDP or VPN connections, to gain initial access.\nExploit Public Facing Application\nT1190\nAkira threat actors exploit vulnerabilities in internet-facing systems to gain access to systems.\nPhishing: Spearphishing Attachment\nT1566.001\nAkira threat actors use phishing emails with malicious attachments to gain access to networks.\nPhishing: Spearphishing Link\nT1566.002\nAkira threat actors use phishing emails with malicious links to gain access to networks.\nTable 11. Execution\nTechnique Title\nID\nUse\nUpdate Nov. 13, 2025\nCommand and Scripting Interpreter: PowerShell\nT1059.001\nAkira threat actors use PowerShell to execute malicious scripts and Living Off the Land Binary (LOLBin) commands for execution, persistence, credential harvesting, lateral movement, and disabling security controls to evade detection.\nAfter using Ngrok to establish encrypted sessions, Akira threat actors use PowerShell and WMIC to disable services and execute malicious scripts.\nAkira threat actors use commercial penetration testing tools, namely Cobalt Strike, during their operations to achieve lateral movement, perform C2 procedures, and gain elevated privileges.\nEnd Update\nCommand and Scripting Interpreter: Windows Command Shell\nT1059.003\nAkira threat actors use the Windows command shell (cmd.exe) to run batch scripts and native commands for execution, persistence, lateral movement, and to disable or manipulate security controls for evasion.\nUpdate Nov. 13, 2025\nCommand and Scripting Interpreter: Visual Basic\nT1059.005\nAkira threat actors use VB scripts to execute malicious code, deploy ransomware payloads, or establish persistence through legitimate Windows scripting capabilities.\nSystem Services: Service Execution\nT1569.002\nAkira threat actors use PSEXESVC.exe to enable remote code execution and deploy payloads.\nEnd Update\nTable 12. Persistence\nTechnique Title\nID\nUse\nUpdate Nov. 13, 2025\nAccount Manipulation\nT1098\nAkira threat actors modify account passwords.\nCreate Account: Local Account\nT1136.001\nAkira threat actors can create local user accounts by adding them to local admin groups to establish persistent backdoors.\nEnd Update\nCreate Account: Domain Account\nT1136.002\nAkira threat actors attempt to abuse the functions of domain controllers by creating new domain accounts to establish persistence.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      },
+      {
+        "start": 28578,
+        "end": 28602,
+        "text": "Table 10. Initial Access"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 496,
+  "inherited_context_tokens": 21,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "a65ea173fa905b4db1bb1480333ae2d81c977f8f1abfaf37d9a8fef39d29ca7b",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

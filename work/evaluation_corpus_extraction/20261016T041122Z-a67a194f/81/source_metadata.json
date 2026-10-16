@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA25-071A:evaluation:llama500:28548:30967",
+    "doc_id": "AA25-071A",
+    "start": 28548,
+    "end": 30967,
+    "text": " and certutil for file ingress.\nApplication Layer Protocol: Web Protocols\nT1071.001\nMedusa actors communicate using application layer protocols associated with web traffic. In this case, Medusa actors used scripts that created reverse or bind shells over port 443: HTTPS.\nRemote Access Tools\nT1219\nMedusa actors used remote access software to move laterally through the network.\nTable 10: Persistence\nTechnique Title\nID\nUse\nCreate Account\nT1136.002\nMedusa actors created a domain account to maintain access to victim systems.\nTable 11: Privilege Escalation (Updated Aug. 18, 2026)\nTechnique Title\nID\nUse\nDomain or Tenant Policy Modification: Group Policy Modification\nT1484.001\nMedusa actors made changes to Active Directory Default Domain Policy settings to override Group Policy settings.\nTable 12: Impact\nTechnique Title\nID\nUse\nData Encrypted for Impact\nT1486\nMedusa identified and encrypted data on target systems to interrupt availability to system and network resources.\nInhibit System Recovery\nT1490\nThe process gaze.exe terminates all services and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note.\nFinancial Theft\nT1657\nVictims must pay to decrypt files and prevent further release by Medusa actors.\nSystem Shutdown/Reboot\nT1529\nMedusa actors remotely turned off and encrypted virtual machines.\nService Stop\nT1489\nThe process gaze.exe terminates all services related to backups, security, databases, communication, file sharing, and websites.\nIncident Response\nIf a potential compromise is detected, but ransomware actors have not yet encrypted items, organizations should take the following actions:\nDetermine which hosts were compromised and isolate them by quarantining or taking them offline.\n(Updated Aug. 18, 2026) Initiate threat hunting activities to scope the intrusion. Collect and review relevant artifacts, logs, and other data to identify threat actor TTPs, compromised devices and accounts, a timeline of activity, etc. Responders should consider:\nLogs left behind by threat actor tooling, such as SimpleHelp and RDP logs.\nNetflow showing unusually large traffic volume coming from normally low-traffic hosts.\nReport the compromise to CISA and/or the FBI (see Reporting for contact information).\n(Updated Aug. 18, 2026) Apply eviction countermeasures, including those listed below, to contain the incident and eradicate the threat actor from the network.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 57,
+        "text": "#StopRansomware: Medusa Ransomware"
+      },
+      {
+        "start": 4834,
+        "end": 4851,
+        "text": "Technical Details"
+      },
+      {
+        "start": 28415,
+        "end": 28443,
+        "text": "Table 9: Command and Control"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 517,
+  "inherited_context_tokens": 22,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "7232d27af46f7ad5a25d36f025446770094cf6457c63dce7a23aac92fbcfadc6",
+  "doc_id": "AA25-071A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+  "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e"
+}

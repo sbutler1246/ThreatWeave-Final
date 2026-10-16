@@ -1,0 +1,21 @@
+{
+  "task": {
+    "task_id": "r2-Q044-graph_only--context_recall",
+    "case_id": "r2-Q044-graph_only",
+    "metric": "context_recall",
+    "eligible": true
+  },
+  "input_sha256": "9ac10cd91bb63a6557c3e672858f207dd18912cfd7ce94ec286280364966c733",
+  "status": "scored",
+  "value": 0.5,
+  "judge_calls": 1,
+  "elapsed_ms": 6352.144200005569,
+  "files_sha256": {
+    "input.json": "428dc35c5788396bca45d238233239e86676b80d493b428282509a221e79853a",
+    "judge_call_001_request.json": "6d74614f5d77640564d638cd85a9b07f487c92bc6038d6efc6219d7ea116e1d8",
+    "judge_call_001_response.json": "431d5375ce1886a844d64faaa9d70bcefdec4151a7c50629cd3d7d998081c1b0",
+    "model_tags_after.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "model_tags_before.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "result.json": "13ec235a9c1befcb30d364ffa31c7b289d079499a5de91944ef918f9442f5057"
+  }
+}

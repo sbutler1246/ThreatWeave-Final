@@ -1,0 +1,17 @@
+P045
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to FreeFileSync in AA23-165A? Follow the two-hop software-to-technique-
+to-mitigation path. Distinguish advisory observations from reference recommendations.
+Displayed answer
+The retrieved evidence is insufficient to answer this question.
+Saved outcome: abstained
+V Verified reference answer
+The selected advisory row maps its reported use to Tl 567.002 (Exfiltration to Cloud Storage). The
+direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1021
+(Restrict Web-Based Content). These are reference mitigation associations, not incident-specific
+proof of effectiveness.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+GRAPH NODES
+GRAPH PATHS

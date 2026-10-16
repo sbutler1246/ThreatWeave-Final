@@ -1,0 +1,508 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1071.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "TA0010",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Stealbit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1567",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1485",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1489",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1491.001",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m002_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1071.002",
+      "type": "Technique",
+      "attack_id": "T1071.002"
+    },
+    "m004_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m005_A": {
+      "name": "TA0010",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m006_S": {
+      "name": "Stealbit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1567",
+      "type": "Technique",
+      "attack_id": "T1567"
+    },
+    "m009_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m010_S": {
+      "name": "rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_T": {
+      "name": "T1485",
+      "type": "Technique",
+      "attack_id": "T1485"
+    },
+    "m012_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m013_T": {
+      "name": "T1489",
+      "type": "Technique",
+      "attack_id": "T1489"
+    },
+    "m014_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m015_T": {
+      "name": "T1491.001",
+      "type": "Technique",
+      "attack_id": "T1491.001"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 69,
+      "text": "machines with language settings that match a defined exclusion list.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 70,
+      "end": 86,
+      "text": "Lateral Movement",
+      "line_start": 70
+    },
+    "u003": {
+      "start": 87,
+      "end": 102,
+      "text": "Technique Title",
+      "line_start": 87
+    },
+    "u004": {
+      "start": 103,
+      "end": 105,
+      "text": "ID",
+      "line_start": 103
+    },
+    "u005": {
+      "start": 106,
+      "end": 109,
+      "text": "Use",
+      "line_start": 106
+    },
+    "u006": {
+      "start": 110,
+      "end": 150,
+      "text": "Remote Services: Remote Desktop Protocol",
+      "line_start": 110
+    },
+    "u007": {
+      "start": 151,
+      "end": 160,
+      "text": "T1021.001",
+      "line_start": 151
+    },
+    "u008": {
+      "start": 161,
+      "end": 244,
+      "text": "LockBit 3.0 uses Splashtop remote- desktop software to facilitate lateral movement.",
+      "line_start": 161
+    },
+    "u009": {
+      "start": 245,
+      "end": 264,
+      "text": "Command and Control",
+      "line_start": 245
+    },
+    "u010": {
+      "start": 265,
+      "end": 280,
+      "text": "Technique Title",
+      "line_start": 265
+    },
+    "u011": {
+      "start": 281,
+      "end": 283,
+      "text": "ID",
+      "line_start": 281
+    },
+    "u012": {
+      "start": 284,
+      "end": 287,
+      "text": "Use",
+      "line_start": 284
+    },
+    "u013": {
+      "start": 288,
+      "end": 339,
+      "text": "Application Layer Protocol: File Transfer Protocols",
+      "line_start": 288
+    },
+    "u014": {
+      "start": 340,
+      "end": 349,
+      "text": "T1071.002",
+      "line_start": 340
+    },
+    "u015": {
+      "start": 350,
+      "end": 384,
+      "text": "LockBit 3.0 uses FileZilla for C2.",
+      "line_start": 350
+    },
+    "u016": {
+      "start": 385,
+      "end": 400,
+      "text": "Protocol Tunnel",
+      "line_start": 385
+    },
+    "u017": {
+      "start": 401,
+      "end": 406,
+      "text": "T1572",
+      "line_start": 401
+    },
+    "u018": {
+      "start": 407,
+      "end": 465,
+      "text": "LockBit 3.0 uses Plink to automate SSH actions on Windows.",
+      "line_start": 407
+    },
+    "u019": {
+      "start": 466,
+      "end": 478,
+      "text": "Exfiltration",
+      "line_start": 466
+    },
+    "u020": {
+      "start": 479,
+      "end": 494,
+      "text": "Technique Title",
+      "line_start": 479
+    },
+    "u021": {
+      "start": 495,
+      "end": 497,
+      "text": "ID",
+      "line_start": 495
+    },
+    "u022": {
+      "start": 498,
+      "end": 501,
+      "text": "Use",
+      "line_start": 498
+    },
+    "u023": {
+      "start": 502,
+      "end": 514,
+      "text": "Exfiltration",
+      "line_start": 502
+    },
+    "u024": {
+      "start": 515,
+      "end": 521,
+      "text": "TA0010",
+      "line_start": 515
+    },
+    "u025": {
+      "start": 522,
+      "end": 641,
+      "text": "LockBit 3.0 uses Stealbit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target network.",
+      "line_start": 522
+    },
+    "u026": {
+      "start": 642,
+      "end": 671,
+      "text": "Exfiltration Over Web Service",
+      "line_start": 642
+    },
+    "u027": {
+      "start": 672,
+      "end": 677,
+      "text": "T1567",
+      "line_start": 672
+    },
+    "u028": {
+      "start": 678,
+      "end": 766,
+      "text": "LockBit 3.0 uses publicly available file sharing services to exfiltrate a target’s data.",
+      "line_start": 678
+    },
+    "u029": {
+      "start": 767,
+      "end": 827,
+      "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+      "line_start": 767
+    },
+    "u030": {
+      "start": 828,
+      "end": 837,
+      "text": "T1567.002",
+      "line_start": 828
+    },
+    "u031": {
+      "start": 838,
+      "end": 1015,
+      "text": "LockBit 3.0 actors use (1) rclone, an open source command line cloud storage manager to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.",
+      "line_start": 838
+    },
+    "u032": {
+      "start": 1016,
+      "end": 1022,
+      "text": "Impact",
+      "line_start": 1016
+    },
+    "u033": {
+      "start": 1023,
+      "end": 1038,
+      "text": "Technique Title",
+      "line_start": 1023
+    },
+    "u034": {
+      "start": 1039,
+      "end": 1041,
+      "text": "ID",
+      "line_start": 1039
+    },
+    "u035": {
+      "start": 1042,
+      "end": 1045,
+      "text": "Use",
+      "line_start": 1042
+    },
+    "u036": {
+      "start": 1046,
+      "end": 1062,
+      "text": "Data Destruction",
+      "line_start": 1046
+    },
+    "u037": {
+      "start": 1063,
+      "end": 1068,
+      "text": "T1485",
+      "line_start": 1063
+    },
+    "u038": {
+      "start": 1069,
+      "end": 1127,
+      "text": "LockBit 3.0 deletes log files and empties the recycle bin.",
+      "line_start": 1069
+    },
+    "u039": {
+      "start": 1128,
+      "end": 1153,
+      "text": "Data Encrypted for Impact",
+      "line_start": 1128
+    },
+    "u040": {
+      "start": 1154,
+      "end": 1159,
+      "text": "T1486",
+      "line_start": 1154
+    },
+    "u041": {
+      "start": 1160,
+      "end": 1262,
+      "text": "LockBit 3.0 encrypts data on target systems to interrupt availability to system and network resources.",
+      "line_start": 1160
+    },
+    "u042": {
+      "start": 1263,
+      "end": 1275,
+      "text": "Service Stop",
+      "line_start": 1263
+    },
+    "u043": {
+      "start": 1276,
+      "end": 1281,
+      "text": "T1489",
+      "line_start": 1276
+    },
+    "u044": {
+      "start": 1282,
+      "end": 1328,
+      "text": "LockBit 3.0 terminates processes and services.",
+      "line_start": 1282
+    },
+    "u045": {
+      "start": 1329,
+      "end": 1352,
+      "text": "Inhibit System Recovery",
+      "line_start": 1329
+    },
+    "u046": {
+      "start": 1353,
+      "end": 1358,
+      "text": "T1490",
+      "line_start": 1353
+    },
+    "u047": {
+      "start": 1359,
+      "end": 1417,
+      "text": "LockBit 3.0 deletes volume shadow copies residing on disk.",
+      "line_start": 1359
+    },
+    "u048": {
+      "start": 1418,
+      "end": 1449,
+      "text": "Defacement: Internal Defacement",
+      "line_start": 1418
+    },
+    "u049": {
+      "start": 1450,
+      "end": 1459,
+      "text": "T1491.001",
+      "line_start": 1450
+    },
+    "u050": {
+      "start": 1460,
+      "end": 1571,
+      "text": "LockBit 3.0 changes the host system’s wallpaper and icons to the LockBit 3.0 wallpaper and icons, respectively.",
+      "line_start": 1460
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1021.001",
+    "m002_S": "attack:S1202",
+    "m003_T": "attack:T1071.002",
+    "m004_T": "attack:T1572",
+    "m005_A": "attack:TA0010",
+    "m006_S": "attack:S1200",
+    "m007_S": "attack:S1199",
+    "m008_T": "attack:T1567",
+    "m009_T": "attack:T1567.002",
+    "m010_S": "attack:S1040",
+    "m011_T": "attack:T1485",
+    "m012_T": "attack:T1486",
+    "m013_T": "attack:T1489",
+    "m014_T": "attack:T1490",
+    "m015_T": "attack:T1491.001"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

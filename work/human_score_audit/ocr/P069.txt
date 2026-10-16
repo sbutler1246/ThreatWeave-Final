@@ -1,0 +1,84 @@
+P069
+Question
+Compare AA24-109A and AA25-071A: which actors are reported using Rclone, and how do their
+advisory software-to-technique mappings compare? Cite both reports and keep each mapping
+within its source context.
+Displayed answer
+No valid answer was produced.
+Saved outcome: failed
+V Verified reference answer
+AA24-109A reports Akira threat actors using Rclone, with advisory mappings Tl 048; AA25-071A
+reports Medusa actors using Rclone, with advisory mappings Tl 567.002. These mappings describe
+the cited reports and do not establish that every use of the software has these behaviors. The
+Akira report cites T 1048 (Exfiltration Over Alternative Protocol); the Medusa report cites Tl 567.002
+(Exfiltration to Cloud Storage). These are distinct source-reported mappings for the same
+software.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+rclone, an open-source command line cloud storage manager [Tl 567.002]
+[Q; CISA]
+#StopRansomware: LockBit 3.0
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Exfiltration to Cloud Storage (Tl 567.002)
+Mitigation: Restrict Web-Based Content (MI 021)
+
+--- IMAGE ---
+
+[E-5; ATTACK]
+Web proxies can be used to enforce an external network communication policy that prevents use
+of unauthorized external services.
+[E6; CISA]
+FBI observed BianLian group actors install Rclone and other files in generic and typically
+unchecked folders such as programdata\vmware and music folders.
+[E7; CISA]
+#StopRansomware: BianLian Ransomware Group
+[E8; CISA]
+Technical Details
+[E9; CISA]
+BianLian group uses File Transfer Protocol (FTP) [T 1048] and Rclone, a tool used to sync files to
+cloud storage, to exfiltrate data [Tl 537].
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Transfer Data to Cloud Account (Tl 537)
+Mitigation: User Account Management (MI 018)
+[El 1; ATTACK]
+Limit user account and IAM policies to the least privileges required.
+[El 2; ATTACK]
+ATT&CK release: 17.1
+Technique: Transfer Data to Cloud Account (Tl 537)
+Mitigation: Filter Network Traffic (MI 037)
+[El 3; ATTACK]
+Implement network-based filtering restrictions to prohibit data transfers to untrusted VPCs.
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Transfer Data to Cloud Account (Tl 537)
+Mitiqation: Software Confiauration (MI 054)
+
+--- IMAGE ---
+
+[El 5; ATTACK]
+Configure appropriate data sharing restrictions in cloud services. For example, external sharing in
+Microsoft SharePoint and Google Drive can be turned off altogether, blocked for certain domains,
+or restricted to certain users.(Citation: Google Workspace External Sharing) (Citation: Microsoft
+365 External Sharing)
+[El 6; CISA]
+BianLian group actors used Rclone to exfiltrate data to a cloud account they control on the same
+service to avoid typical file transfers/downloads and network-based exfiltration detection.
+GRAPH NODES
+Nl: Rclone (S1040)
+N2: Exfiltration to Cloud Storage (Tl 567.002)
+N3: Restrict Web-Based Content (MI 021)
+N4: BianLian group actors
+N5: Transfer Data to Cloud Account (Tl 537)
+N6: User Account Management (M 1018)
+N7: Filter Network Traffic (M 1037)
+N8: Software Configuration (MI 054)
+GRAPH PATHS
+p 1: Nl
+- > N5
+- > N5
+- > N5

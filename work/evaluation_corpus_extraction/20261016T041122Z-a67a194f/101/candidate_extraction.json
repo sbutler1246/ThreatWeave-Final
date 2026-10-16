@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "LockBit 3.0",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1133",
+      "attack_id": "T1133"
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1078",
+      "attack_id": "T1078"
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1486",
+      "attack_id": "T1486"
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1491.001",
+      "attack_id": "T1491.001"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 230,
+        "end": 367,
+        "quote": "Affiliates deploying LockBit 3.0 ransomware gain initial access to victim networks via remote desktop protocol (RDP) exploitation [T1133]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 1145,
+        "end": 1339,
+        "quote": "LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials hardcoded at compilation time or a compromised local account with elevated privileges [T1078]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 1488,
+        "end": 1624,
+        "quote": "LockBit 3.0 attempts to encrypt [T1486] data saved to any local or remote device, but skips files associated with core system functions."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 1625,
+        "end": 1812,
+        "quote": "After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding [T1491.001]."
+      },
+      "confidence": null
+    }
+  ]
+}

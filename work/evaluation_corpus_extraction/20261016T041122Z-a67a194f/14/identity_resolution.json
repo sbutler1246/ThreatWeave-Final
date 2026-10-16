@@ -1,0 +1,29 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "LockBit affiliates",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "StealBit",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1200",
+    "canonical_name": "StealBit",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e3",
+    "mention": "Rclone",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1040",
+    "canonical_name": "Rclone",
+    "source_attack_id": null
+  }
+]

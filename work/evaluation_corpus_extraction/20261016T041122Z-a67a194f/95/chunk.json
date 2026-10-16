@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-352A:evaluation:llama500:20528:21542",
+  "doc_id": "AA23-352A",
+  "start": 20528,
+  "end": 21542,
+  "text": " 00 6f 00 66 00 69 00 6c 00 65 00 73 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_3_detected ;sid:1900004; rev:1;)\nalert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 41 00 6c 00 6c 00 20 00 55 00 73 00 65 00 72 00 73 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 4c 00 6f 00 63 00 61 00 6c 00 5c 00 54 00 65 00 6e 00 63 00 65 00 6e 00 74 00 5c 00 51 00 51 00 42 00 72 00 6f 00 77 00 73 00 65 00 72 00 5c 00 55 00 73 00 65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_4_detected ;sid:1900005; rev:1;)\nalert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 41 00 6c 00 6c 00 20 00 55 00 73 00 65 00 72 00 73 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 4c 00 6f 00 63 00 61 00 6c 00 5c 00 56 00 69 00 76 00 61 00 6c 00 64 00 69 00 5c 00 55 00 73 00 65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_5_detected ;sid:1900006; rev:1;)\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 55,
+      "text": "#StopRansomware: Play Ransomware"
+    },
+    {
+      "start": 3834,
+      "end": 3851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

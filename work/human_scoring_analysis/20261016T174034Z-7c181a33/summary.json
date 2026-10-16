@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "primary_reviewer": "Stephen Butler",
+  "primary_date": "2026-10-16",
+  "secondary_reviewer": "Stephen Butler",
+  "secondary_date": "2026-10-16",
+  "secondary_method": "delayed_rescore",
+  "primary_entries": 80,
+  "secondary_entries": 20,
+  "primary_statuses": {
+    "answer_ready_for_review": 70,
+    "failed": 5,
+    "abstained": 5
+  },
+  "secondary_question_count": 5,
+  "primary_ai_assistance": true,
+  "secondary_ai_assistance": true,
+  "secondary_assistance_basis": "Direct user clarification in the project chat on 2026-10-16: AI helped a little. This supersedes the earlier No AI help reply.",
+  "secondary_assistance_extent": "Limited, as declared by the reviewer; exact extent not quantified.",
+  "unblinding_guard": "Both completed files validated before reading the key or method-specific saved scores."
+}

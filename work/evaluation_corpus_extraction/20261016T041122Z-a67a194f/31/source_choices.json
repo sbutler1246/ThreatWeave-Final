@@ -1,0 +1,507 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "vm.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Socss.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "socks1.ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "File",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Black Suit Ransomware (1 of 3)",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "share.exe",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "vm.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Socss.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "socks1.ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "File",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_G": {
+      "name": "Black Suit Ransomware (1 of 3)",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "share.exe",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 1,
+      "text": "4",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 2,
+      "end": 36,
+      "text": "Unknown C2 – potential SOCKS Proxy",
+      "line_start": 2
+    },
+    "u003": {
+      "start": 37,
+      "end": 61,
+      "text": "45[.]141[.]87[.]218:9000",
+      "line_start": 37
+    },
+    "u004": {
+      "start": 62,
+      "end": 70,
+      "text": "May 2024",
+      "line_start": 62
+    },
+    "u005": {
+      "start": 71,
+      "end": 102,
+      "text": "Arechclient2 Backdoor/SecTopRAT",
+      "line_start": 71
+    },
+    "u006": {
+      "start": 103,
+      "end": 126,
+      "text": "45[.]141[.]87[.]218:443",
+      "line_start": 103
+    },
+    "u007": {
+      "start": 127,
+      "end": 135,
+      "text": "May 2024",
+      "line_start": 127
+    },
+    "u008": {
+      "start": 136,
+      "end": 167,
+      "text": "Arechclient2 Backdoor/SecTopRAT",
+      "line_start": 136
+    },
+    "u009": {
+      "start": 168,
+      "end": 183,
+      "text": "184.174.96[.]16",
+      "line_start": 168
+    },
+    "u010": {
+      "start": 184,
+      "end": 192,
+      "text": "May 2024",
+      "line_start": 184
+    },
+    "u011": {
+      "start": 193,
+      "end": 238,
+      "text": "Associated with download of the binary vm.dll",
+      "line_start": 193
+    },
+    "u012": {
+      "start": 239,
+      "end": 253,
+      "text": "89.251.22[.]32",
+      "line_start": 239
+    },
+    "u013": {
+      "start": 254,
+      "end": 262,
+      "text": "May 2024",
+      "line_start": 254
+    },
+    "u014": {
+      "start": 263,
+      "end": 276,
+      "text": "Cobalt Strike",
+      "line_start": 263
+    },
+    "u015": {
+      "start": 277,
+      "end": 292,
+      "text": "135.148.67[.]84",
+      "line_start": 277
+    },
+    "u016": {
+      "start": 293,
+      "end": 301,
+      "text": "May 2024",
+      "line_start": 293
+    },
+    "u017": {
+      "start": 302,
+      "end": 340,
+      "text": "Resolves to domain turnovercheck[.]com",
+      "line_start": 302
+    },
+    "u018": {
+      "start": 341,
+      "end": 357,
+      "text": "180.131.145[.]85",
+      "line_start": 341
+    },
+    "u019": {
+      "start": 358,
+      "end": 366,
+      "text": "May 2024",
+      "line_start": 358
+    },
+    "u020": {
+      "start": 367,
+      "end": 413,
+      "text": "Associated with malicious PowerShell execution",
+      "line_start": 367
+    },
+    "u021": {
+      "start": 414,
+      "end": 430,
+      "text": "180.131.145[.]61",
+      "line_start": 414
+    },
+    "u022": {
+      "start": 431,
+      "end": 439,
+      "text": "May 2024",
+      "line_start": 431
+    },
+    "u023": {
+      "start": 440,
+      "end": 466,
+      "text": "SystemBC Command & Control",
+      "line_start": 440
+    },
+    "u024": {
+      "start": 467,
+      "end": 483,
+      "text": "138.199.53[.]226",
+      "line_start": 467
+    },
+    "u025": {
+      "start": 484,
+      "end": 492,
+      "text": "Feb 2024",
+      "line_start": 484
+    },
+    "u026": {
+      "start": 493,
+      "end": 509,
+      "text": "184.166.211[.]74",
+      "line_start": 493
+    },
+    "u027": {
+      "start": 510,
+      "end": 518,
+      "text": "Feb 2024",
+      "line_start": 510
+    },
+    "u028": {
+      "start": 519,
+      "end": 535,
+      "text": "185.190.24[.]103",
+      "line_start": 519
+    },
+    "u029": {
+      "start": 536,
+      "end": 544,
+      "text": "Feb 2024",
+      "line_start": 536
+    },
+    "u030": {
+      "start": 545,
+      "end": 559,
+      "text": "5.181.234[.]58",
+      "line_start": 545
+    },
+    "u031": {
+      "start": 560,
+      "end": 568,
+      "text": "Feb 2024",
+      "line_start": 560
+    },
+    "u032": {
+      "start": 569,
+      "end": 584,
+      "text": "137.220.61[.]94",
+      "line_start": 569
+    },
+    "u033": {
+      "start": 585,
+      "end": 599,
+      "text": "Nov – Feb 2024",
+      "line_start": 585
+    },
+    "u034": {
+      "start": 600,
+      "end": 634,
+      "text": "connecting outbound from Socss.exe",
+      "line_start": 600
+    },
+    "u035": {
+      "start": 635,
+      "end": 650,
+      "text": "193.37.69[.]116",
+      "line_start": 635
+    },
+    "u036": {
+      "start": 651,
+      "end": 665,
+      "text": "Nov – Jan 2024",
+      "line_start": 651
+    },
+    "u037": {
+      "start": 666,
+      "end": 694,
+      "text": "Associated with exfiltration",
+      "line_start": 666
+    },
+    "u038": {
+      "start": 695,
+      "end": 712,
+      "text": "144.202.120[.]122",
+      "line_start": 695
+    },
+    "u039": {
+      "start": 713,
+      "end": 721,
+      "text": "Nov 2023",
+      "line_start": 713
+    },
+    "u040": {
+      "start": 722,
+      "end": 810,
+      "text": "socks1.ps1 backdoor; SystemBC Backdoor C2; www.recruitment-interview[.]org (C2 SystemBC)",
+      "line_start": 722
+    },
+    "u041": {
+      "start": 811,
+      "end": 830,
+      "text": "104.21.58[.]219:443",
+      "line_start": 811
+    },
+    "u042": {
+      "start": 831,
+      "end": 839,
+      "text": "Nov 2023",
+      "line_start": 831
+    },
+    "u043": {
+      "start": 840,
+      "end": 853,
+      "text": "Cobalt Strike",
+      "line_start": 840
+    },
+    "u044": {
+      "start": 854,
+      "end": 872,
+      "text": "141.98.80[.]181:80",
+      "line_start": 854
+    },
+    "u045": {
+      "start": 873,
+      "end": 881,
+      "text": "Nov 2023",
+      "line_start": 873
+    },
+    "u046": {
+      "start": 882,
+      "end": 895,
+      "text": "Cobalt Strike",
+      "line_start": 882
+    },
+    "u047": {
+      "start": 896,
+      "end": 917,
+      "text": "144.202.120[.]122:433",
+      "line_start": 896
+    },
+    "u048": {
+      "start": 918,
+      "end": 926,
+      "text": "Nov 2023",
+      "line_start": 918
+    },
+    "u049": {
+      "start": 927,
+      "end": 951,
+      "text": "PowerShell Reverse Proxy",
+      "line_start": 927
+    },
+    "u050": {
+      "start": 952,
+      "end": 974,
+      "text": "155.138.150[.]236:8088",
+      "line_start": 952
+    },
+    "u051": {
+      "start": 975,
+      "end": 983,
+      "text": "Nov 2023",
+      "line_start": 975
+    },
+    "u052": {
+      "start": 984,
+      "end": 1008,
+      "text": "PowerShell Reverse Proxy",
+      "line_start": 984
+    },
+    "u053": {
+      "start": 1009,
+      "end": 1023,
+      "text": "140.82.18[.]48",
+      "line_start": 1009
+    },
+    "u054": {
+      "start": 1024,
+      "end": 1032,
+      "text": "Nov 2023",
+      "line_start": 1024
+    },
+    "u055": {
+      "start": 1033,
+      "end": 1048,
+      "text": "141.98.80[.]181",
+      "line_start": 1033
+    },
+    "u056": {
+      "start": 1049,
+      "end": 1057,
+      "text": "Nov 2023",
+      "line_start": 1049
+    },
+    "u057": {
+      "start": 1058,
+      "end": 1074,
+      "text": "44.202.120[.]122",
+      "line_start": 1058
+    },
+    "u058": {
+      "start": 1075,
+      "end": 1083,
+      "text": "Nov 2023",
+      "line_start": 1075
+    },
+    "u059": {
+      "start": 1084,
+      "end": 1099,
+      "text": "45.76.225[.]156",
+      "line_start": 1084
+    },
+    "u060": {
+      "start": 1100,
+      "end": 1108,
+      "text": "Nov 2023",
+      "line_start": 1100
+    },
+    "u061": {
+      "start": 1109,
+      "end": 1184,
+      "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)",
+      "line_start": 1109
+    },
+    "u062": {
+      "start": 1185,
+      "end": 1194,
+      "text": "File name",
+      "line_start": 1185
+    },
+    "u063": {
+      "start": 1195,
+      "end": 1215,
+      "text": "Hash Value – SHA-256",
+      "line_start": 1195
+    },
+    "u064": {
+      "start": 1216,
+      "end": 1227,
+      "text": "Description",
+      "line_start": 1216
+    },
+    "u065": {
+      "start": 1228,
+      "end": 1237,
+      "text": "share.exe",
+      "line_start": 1228
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:vm.dll",
+    "m002_S": "attack:S0154",
+    "m003_S": "local:Software:socss.exe",
+    "m004_S": "local:Software:socks1.ps1",
+    "m005_S": "attack:S0613",
+    "m006_S": "local:Software:file",
+    "m007_G": "local:ThreatGroup:black suit ransomware (1 of 3)",
+    "m008_S": "local:Software:share.exe"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,113 @@
+{
+  "answer": "Akira threat actors use Mimikatz. [E1, E2, E3, E4]\nMimikatz is connected to Defense Evasion technique. [E1, E2, E3, E4]\nThe two-hop path from Akira threat actors to Defense Evasion technique is: Akira threat actors --uses Mimikatz-- Defense Evasion. [E1, E2, E3, E4]",
+  "claims": [
+    {
+      "text": "Akira threat actors use Mimikatz.",
+      "citations": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "text": "Mimikatz is connected to Defense Evasion technique.",
+      "citations": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "text": "The two-hop path from Akira threat actors to Defense Evasion technique is: Akira threat actors --uses Mimikatz-- Defense Evasion.",
+      "citations": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+        "start": 33284,
+        "end": 33360,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "#StopRansomware: Akira Ransomware",
+        "start": 23,
+        "end": 56,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Technical Details",
+        "start": 4770,
+        "end": 4787,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA24-109A",
+        "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+        "text": "Table 14. Defense Evasion",
+        "start": 31628,
+        "end": 31653,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [
+      {
+        "path_id": "P1",
+        "edges": [
+          {
+            "head_id": "local:AA24-109A:akira-threat-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S0002",
+            "assertion_ids": [
+              "assertion:12fe9c8b2fc88c1bd3aee002b48002e832a7de09c9b4abf647f224ad4940ab3d"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3",
+              "E4"
+            ]
+          }
+        ]
+      }
+    ],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4"
+    ],
+    "retrieval_ms": 31.945800001267344,
+    "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 2373.3483999967575,
+  "generation_timestamp": "2026-10-16T05:05:57.493623Z",
+  "warnings": [
+    "Development graph_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

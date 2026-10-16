@@ -1,0 +1,157 @@
+{
+  "answer": "Pre-compromise (M1056) mitigates Develop Capabilities (T1587) in Enterprise ATT&CK 17.1. [E2, E8]\nDisable or Remove Feature or Program (M1042) mitigates Impair Defenses (T1562) in Enterprise ATT&CK 17.1. [E4]\nExecution Prevention (M1038) mitigates Impair Defenses (T1562) in Enterprise ATT&CK 17.1. [E6]\nRestrict Registry Permissions (M1024) mitigates Impair Defenses (T1562) in Enterprise ATT&CK 17.1. [E10]",
+  "claims": [
+    {
+      "text": "Pre-compromise (M1056) mitigates Develop Capabilities (T1587) in Enterprise ATT&CK 17.1.",
+      "citations": [
+        "E2",
+        "E8"
+      ]
+    },
+    {
+      "text": "Disable or Remove Feature or Program (M1042) mitigates Impair Defenses (T1562) in Enterprise ATT&CK 17.1.",
+      "citations": [
+        "E4"
+      ]
+    },
+    {
+      "text": "Execution Prevention (M1038) mitigates Impair Defenses (T1562) in Enterprise ATT&CK 17.1.",
+      "citations": [
+        "E6"
+      ]
+    },
+    {
+      "text": "Restrict Registry Permissions (M1024) mitigates Impair Defenses (T1562) in Enterprise ATT&CK 17.1.",
+      "citations": [
+        "E10"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204",
+        "chunk_id": "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.",
+        "start": 273,
+        "end": 438,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204",
+        "chunk_id": "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Develop Capabilities (T1587)\nMitigation: Pre-compromise (M1056)",
+        "start": 0,
+        "end": 95,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "attack:17.1:relationship--d8efae26-9a5c-4abc-9c60-3f94f63040d2",
+        "chunk_id": "retrieval:d37cdc13aa6b26f3f55047d82cd8340cc14b23676fb3b34afd5f0e6d52b33dec",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Consider removing previous versions of tools that are unnecessary to the environment when possible.",
+        "start": 290,
+        "end": 389,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "attack:17.1:relationship--d8efae26-9a5c-4abc-9c60-3f94f63040d2",
+        "chunk_id": "retrieval:d37cdc13aa6b26f3f55047d82cd8340cc14b23676fb3b34afd5f0e6d52b33dec",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Impair Defenses (T1562)\nMitigation: Disable or Remove Feature or Program (M1042)",
+        "start": 0,
+        "end": 112,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "attack:17.1:relationship--952ec6aa-f5dd-494d-91ea-b3804b843c35",
+        "chunk_id": "retrieval:d3c0d46310f8b846af2c02f7a7d40c3a2caf59e4493b101361fed537e3a065f9",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Use application control where appropriate, especially regarding the execution of tools outside of the organization's security policies (such as rootkit removal tools) that have been abused to impair system defenses. Ensure that only approved security applications are used and running on enterprise systems.",
+        "start": 274,
+        "end": 581,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "attack:17.1:relationship--952ec6aa-f5dd-494d-91ea-b3804b843c35",
+        "chunk_id": "retrieval:d3c0d46310f8b846af2c02f7a7d40c3a2caf59e4493b101361fed537e3a065f9",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Impair Defenses (T1562)\nMitigation: Execution Prevention (M1038)",
+        "start": 0,
+        "end": 96,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "attack:17.1:relationship--d06c7363-a7f6-43b1-8af8-9d3b9975160c",
+        "chunk_id": "retrieval:66b37993683677b8b37c9cc13394b417190819d810e97cd022be6d9cb9c3b620",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.",
+        "start": 272,
+        "end": 437,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "attack:17.1:relationship--d06c7363-a7f6-43b1-8af8-9d3b9975160c",
+        "chunk_id": "retrieval:66b37993683677b8b37c9cc13394b417190819d810e97cd022be6d9cb9c3b620",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Compromise Accounts (T1586)\nMitigation: Pre-compromise (M1056)",
+        "start": 0,
+        "end": 94,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "attack:17.1:relationship--c0aa0cf1-4c03-4fdd-bdbb-65563bff4a81",
+        "chunk_id": "retrieval:d7ff9ed3f7aa9e84f8b8121b7703f255a838de538164bb6e7e88136be1200426",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Ensure proper Registry permissions are in place to prevent adversaries from disabling or interfering with security/logging services.",
+        "start": 283,
+        "end": 415,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "attack:17.1:relationship--c0aa0cf1-4c03-4fdd-bdbb-65563bff4a81",
+        "chunk_id": "retrieval:d7ff9ed3f7aa9e84f8b8121b7703f255a838de538164bb6e7e88136be1200426",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Impair Defenses (T1562)\nMitigation: Restrict Registry Permissions (M1024)",
+        "start": 0,
+        "end": 105,
+        "source_kind": "attack"
+      }
+    ],
+    "paths": [],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "retrieval_ms": 577.0037000183947,
+    "configuration_hash": "d7c2718aa3b0e406681080d129a0119a06ba5e48c6e2c626bcf8bc5d34359f09",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 6677.125100017292,
+  "generation_timestamp": "2026-10-16T05:14:00.709295Z",
+  "warnings": [
+    "Development hybrid pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

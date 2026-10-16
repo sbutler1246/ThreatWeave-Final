@@ -1,0 +1,94 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u025"
+    ],
+    "selected_units": [
+      {
+        "start": 1419,
+        "end": 1536,
+        "text": "Play ransomware actors have used it to transfer data [T1048] from a compromised network to actor-controlled accounts.",
+        "line_start": 1254
+      }
+    ],
+    "document_start": 11179,
+    "document_end": 11296,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u037"
+    ],
+    "selected_units": [
+      {
+        "start": 1930,
+        "end": 1984,
+        "text": "Table 2: Hashes Associated with Play Ransomware Actors",
+        "line_start": 1930
+      }
+    ],
+    "document_start": 11690,
+    "document_end": 11744,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 288,
+        "end": 294,
+        "text": "PsExec",
+        "line_start": 288
+      }
+    ],
+    "document_start": 10048,
+    "document_end": 10054,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 9608,
+        "end": 9658,
+        "text": "Table 1: Tools Leveraged by Play Ransomware Actors"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u010"
+    ],
+    "selected_units": [
+      {
+        "start": 377,
+        "end": 507,
+        "text": "A Windows utility designed to improve speed, remove bloatware, protect privacy, and eliminate data collection, among other things.",
+        "line_start": 377
+      }
+    ],
+    "document_start": 10137,
+    "document_end": 10267,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 9608,
+        "end": 9658,
+        "text": "Table 1: Tools Leveraged by Play Ransomware Actors"
+      }
+    ],
+    "review_flags": []
+  }
+]

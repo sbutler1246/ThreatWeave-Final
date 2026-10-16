@@ -1,0 +1,97 @@
+P080
+Question
+In the AA24-109A command-and-control paragraph describing ngrok encrypted sessions that
+bypass perimeter monitoring, what two-hop path connects Akira actors through ngrok to the
+cited ATT&CK technique? Explain both source-supported links.
+Displayed answer
+Akira threat actors use ngrok to create secure tunnels for data exfiltration, which is a technique
+described as Protocol Tunneling (Tl 572). [El, E2, E3]
+Ngrok is used by Akira threat actors to connect to exfiltration servers, which involves using
+Protocol Tunneling 01572). [E8, Q, E3]
+The ATT&CK technique Protocol Tunneling (Tl 572) is mitigated by filtering network traffic to
+untrusted or known bad domains and resources. [E4, E5]
+Network intrusion detection and prevention systems can be used to mitigate activity at the
+network level by identifying traffic for specific adversary malware. [E6, E7]
+The ATT&CK technique Protocol Tunneling (Tl 572) is mitigated by Network Intrusion
+Prevention (M1031). [E6, E7]
+Akira threat actors use ngrok to create secure tunnels for data exfiltration, which is a two-hop
+path connecting them to the ATT&CK technique Protocol Tunneling (Tl 572). [El, E2, E3, E8]
+The ATT&CK technique Inhibit System Recovery (T 1490) is mitigated by limiting the user
+accounts that have access to backups to only those required. [El 1, El 2]
+Akira's encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service
+(VSS) copies on Windows systems, which is a technique described as Inhibit System Recovery
+01490). [Elo, Q, E3]
+Saved outcome: answer_ready_for_review
+
+--- IMAGE ---
+
+V Verified reference answer
+In the C2 paragraph of AA24-109A, Akira actors use ngrok to initiate encrypted sessions that
+bypass perimeter monitoring. That paragraph cites Tl 572 (Protocol Tunneling). The path is Akira
+actors USES ngrok USES_TECHNIQUE Tl 572.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+The authoring organizations observed Akira threat actors establishing command and control (C2)
+communications by using tunneling utilities, such as Ngrok [Tl 572]
+[Q; CISA]
+#StopRansomware: Akira Ransomware
+[E3; CISA]
+Technical Details
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (Tl 572)
+Mitigation: Filter Network Traffic (MI 037)
+[E-5; ATTACK]
+Consider filtering network traffic to untrusted or known bad domains and resources.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (Tl 572)
+Mitigation: Network Intrusion Prevention (M 1031)
+[E7; ATTACK]
+Network intrusion detection and prevention systems that use network signatures to identify traffic
+for specific adversary malware can be used to mitigate activity at the network level.
+[E8; CISA]
+In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration
+[T1090].
+
+--- IMAGE ---
+
+[E9; CISA]
+such as File Transfer Protocol (F TP), Secure File Transfer Protocol (SFTP), and cloud storage
+services like Mega [Tl 537], to connect to exfiltration servers. In some instances, Akira threat actors
+use Ngrok to create secure tunnels for data exfiltration [T 1090].
+After exfiltrating data, Akira threat actors use a double-extortion model [T 1657], which involves
+threat actors both encrypting systems [T 1486] and threatening to leak sensitive information. The
+Akira ransom note provides each company with a unique code and instructions to contact the
+threat actors via a .onion URL, which is accessible through the Tor network [T 1090.003]
+[Tl 573.002].
+(Note: Tor, short for The Onion Router, is a decentralized network designed to anonymize internet
+traffic by routing it through multiple servers, encrypting data at each step. This network is often
+leveraged by threat actors to conceal their identities and activities, enabling secure and
+[Elo; CISA]
+To further inhibit system recovery and impede forensic analysis, Akira's encryptor (w.exe) uses
+PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems
+[T 1490].
+[El 1; ATTACK]
+ATT&CK release: 17.1
+Technique: Inhibit System Recovery (T 1490)
+Mitigation: User Account Management (MI 018)
+[El 2; ATTACK]
+Limit the user accounts that have access to backups to only those required. In AWS environments,
+consider using Service Control Policies to restrict API calls to delete backups, snapshots, and
+images.
+GRAPH NODES
+Nl: ngrok (S0508)
+N2: Protocol Tunneling (Tl 572)
+N3: Filter Network Traffic (M 1037)
+N4: Network Intrusion Prevention (MI 031)
+N5: Akira threat actors
+N6: Akira (Sl 129)
+
+--- IMAGE ---
+
+N7: Inhibit System Recovery (T 1490)
+N8: User Account Management (M 1018)
+GRAPH PATHS
+"4: N6 N7 I,EI N8

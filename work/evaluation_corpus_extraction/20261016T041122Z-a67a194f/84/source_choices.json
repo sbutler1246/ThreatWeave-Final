@@ -1,0 +1,432 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Play",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Windows Privilege Escalation Awesome Scripts",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1059",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1570",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "The Play",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "WinRAR",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "RAR",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1560.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "PLAY",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1657",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Play actors",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Windows Privilege Escalation Awesome Scripts",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1059",
+      "type": "Technique",
+      "attack_id": "T1059"
+    },
+    "m004_T": {
+      "name": "T1570",
+      "type": "Technique",
+      "attack_id": "T1570"
+    },
+    "m005_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    },
+    "m006_S": {
+      "name": "The Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m008_S": {
+      "name": "WinRAR",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "RAR",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1560.001",
+      "type": "Technique",
+      "attack_id": "T1560.001"
+    },
+    "m011_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    },
+    "m012_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m013_S": {
+      "name": "PLAY",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_G": {
+      "name": "PLAY",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1657",
+      "type": "Technique",
+      "attack_id": "T1657"
+    },
+    "m015_G": {
+      "name": "Play actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 193,
+      "text": "reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) [T1059] to search for additional privilege escalation paths.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 194,
+      "end": 274,
+      "text": "Actors then distribute executables [T1570] via Group Policy Objects [T1484.001].",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 275,
+      "end": 302,
+      "text": "Exfiltration and Encryption",
+      "line_start": 275
+    },
+    "u004": {
+      "start": 303,
+      "end": 323,
+      "text": "Update June 4, 2025:",
+      "line_start": 303
+    },
+    "u005": {
+      "start": 324,
+      "end": 516,
+      "text": "The Play ransomware binary is recompiled for every attack, resulting in unique hashes for each deployment, complicating anti-malware and anti-virus program detection of the ransomware [T1027].",
+      "line_start": 324
+    },
+    "u006": {
+      "start": 517,
+      "end": 527,
+      "text": "End Update",
+      "line_start": 517
+    },
+    "u007": {
+      "start": 528,
+      "end": 684,
+      "text": "Play ransomware actors often split compromised data into segments and use tools like WinRAR to compress files [T1560.001] into .RAR format for exfiltration.",
+      "line_start": 528
+    },
+    "u008": {
+      "start": 685,
+      "end": 793,
+      "text": "The actors then use WinSCP to transfer data [T1048] from a compromised network to actor-controlled accounts.",
+      "line_start": 528
+    },
+    "u009": {
+      "start": 794,
+      "end": 1084,
+      "text": "Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted.",
+      "line_start": 528
+    },
+    "u010": {
+      "start": 1085,
+      "end": 1198,
+      "text": "Within the Windows environment, tools and a ransom note titled ReadMe[.]txt are placed in C:/Users/Public/Music/.",
+      "line_start": 528
+    },
+    "u011": {
+      "start": 1199,
+      "end": 1205,
+      "text": "Impact",
+      "line_start": 1199
+    },
+    "u012": {
+      "start": 1206,
+      "end": 1226,
+      "text": "Update June 4, 2025:",
+      "line_start": 1206
+    },
+    "u013": {
+      "start": 1227,
+      "end": 1290,
+      "text": "The Play ransomware group uses a double extortion model [T1657]",
+      "line_start": 1227
+    },
+    "u014": {
+      "start": 1292,
+      "end": 1335,
+      "text": "encrypting systems after exfiltrating data.",
+      "line_start": 1227
+    },
+    "u015": {
+      "start": 1336,
+      "end": 1458,
+      "text": "The ransom note directs victims to contact the Play ransomware group at an email address ending in @gmx[.]de or @web[.]de.",
+      "line_start": 1227
+    },
+    "u016": {
+      "start": 1459,
+      "end": 1546,
+      "text": "Ransom payments are paid in cryptocurrency to wallet addresses provided by Play actors.",
+      "line_start": 1227
+    },
+    "u017": {
+      "start": 1547,
+      "end": 1705,
+      "text": "If a victim refuses to pay the ransom demand, the ransomware actors threaten to publish exfiltrated data to their leak site on the Tor network ([.]onion URL).",
+      "line_start": 1227
+    },
+    "u018": {
+      "start": 1706,
+      "end": 1850,
+      "text": "Play ransomware targets regularly receive phone calls from threat actors encouraging payment and threatening the release of company information.",
+      "line_start": 1706
+    },
+    "u019": {
+      "start": 1851,
+      "end": 2030,
+      "text": "These calls can be routed to a variety of phone numbers within the organization, including those discovered in open source, such as help desks or customer service representatives.",
+      "line_start": 1706
+    },
+    "u020": {
+      "start": 2031,
+      "end": 2043,
+      "text": "ESXi Variant",
+      "line_start": 2031
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1162",
+    "m002_S": "local:Software:windows privilege escalation awesome scripts",
+    "m003_T": "attack:T1059",
+    "m004_T": "attack:T1570",
+    "m005_T": "attack:T1484.001",
+    "m006_S": "local:Software:the play",
+    "m007_T": "attack:T1027",
+    "m008_S": "local:Software:winrar",
+    "m009_S": "local:Software:rar",
+    "m010_T": "attack:T1560.001",
+    "m011_T": "attack:T1048",
+    "m012_T": "attack:T1486",
+    "m013_S": "attack:S1162",
+    "m013_G": "attack:G1040",
+    "m014_T": "attack:T1657",
+    "m015_G": "local:ThreatGroup:play actors"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S",
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S",
+        "m006_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S",
+        "m008_S",
+        "m009_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m013_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m012_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m013_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m012_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S",
+        "m006_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m014_T"
+      ]
+    }
+  ]
+}

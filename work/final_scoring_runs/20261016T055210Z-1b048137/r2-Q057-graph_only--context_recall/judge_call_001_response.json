@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T05:58:56.793913Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3273755200,
+  "load_duration": 7113900,
+  "prompt_eval_count": 1012,
+  "prompt_eval_duration": 195446000,
+  "eval_count": 232,
+  "eval_duration": 2960230000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1003.001 (LSASS Memory).\",\n            \"reason\": \"There is no mention about T1003.001 (LSASS Memory) in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1017 (User Training), M1025 (Privileged Process Integrity), M1026 (Privileged Account Management), M1027 (Password Policies), M1028 (Operating System Configuration), M1040 (Behavior Prevention on Endpoint), M1043 (Credential Access Protection).\",\n            \"reason\": \"The exact list of mitigation options is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

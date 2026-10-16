@@ -1,0 +1,701 @@
+[
+  {
+    "dimension": "factuality",
+    "mode_a": "text_only",
+    "mode_b": "graph_only",
+    "difference": "a_minus_b",
+    "paired_question_count": 18,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [
+      "Q040",
+      "Q051"
+    ],
+    "mean_question_difference": -0.5555555555555556,
+    "exploratory_95_percent_ci": [
+      -1.1666666666666667,
+      0.0
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "factuality",
+    "mode_a": "text_only",
+    "mode_b": "hybrid_no_node2vec",
+    "difference": "a_minus_b",
+    "paired_question_count": 16,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q051",
+      "Q061"
+    ],
+    "mean_question_difference": -0.625,
+    "exploratory_95_percent_ci": [
+      -1.0625,
+      -0.1875
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "factuality",
+    "mode_a": "text_only",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 18,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [
+      "Q040",
+      "Q051"
+    ],
+    "mean_question_difference": -0.4444444444444444,
+    "exploratory_95_percent_ci": [
+      -0.9444444444444444,
+      0.05555555555555555
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "factuality",
+    "mode_a": "graph_only",
+    "mode_b": "hybrid_no_node2vec",
+    "difference": "a_minus_b",
+    "paired_question_count": 17,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q061"
+    ],
+    "mean_question_difference": -0.11764705882352941,
+    "exploratory_95_percent_ci": [
+      -0.8235294117647058,
+      0.6470588235294118
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "factuality",
+    "mode_a": "graph_only",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 20,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q040",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [],
+    "mean_question_difference": 0.15,
+    "exploratory_95_percent_ci": [
+      -0.55,
+      0.95
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "factuality",
+    "mode_a": "hybrid_no_node2vec",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 17,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q061"
+    ],
+    "mean_question_difference": 0.11764705882352941,
+    "exploratory_95_percent_ci": [
+      -0.11764705882352941,
+      0.4117647058823529
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "completeness",
+    "mode_a": "text_only",
+    "mode_b": "graph_only",
+    "difference": "a_minus_b",
+    "paired_question_count": 18,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [
+      "Q040",
+      "Q051"
+    ],
+    "mean_question_difference": -0.1111111111111111,
+    "exploratory_95_percent_ci": [
+      -0.5,
+      0.2777777777777778
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "completeness",
+    "mode_a": "text_only",
+    "mode_b": "hybrid_no_node2vec",
+    "difference": "a_minus_b",
+    "paired_question_count": 16,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q051",
+      "Q061"
+    ],
+    "mean_question_difference": -0.3125,
+    "exploratory_95_percent_ci": [
+      -0.75,
+      0.0625
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "completeness",
+    "mode_a": "text_only",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 18,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [
+      "Q040",
+      "Q051"
+    ],
+    "mean_question_difference": -0.16666666666666666,
+    "exploratory_95_percent_ci": [
+      -0.6111111111111112,
+      0.2777777777777778
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "completeness",
+    "mode_a": "graph_only",
+    "mode_b": "hybrid_no_node2vec",
+    "difference": "a_minus_b",
+    "paired_question_count": 17,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q061"
+    ],
+    "mean_question_difference": -0.11764705882352941,
+    "exploratory_95_percent_ci": [
+      -0.5294117647058824,
+      0.17647058823529413
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "completeness",
+    "mode_a": "graph_only",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 20,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q040",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [],
+    "mean_question_difference": -0.1,
+    "exploratory_95_percent_ci": [
+      -0.5,
+      0.3
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "completeness",
+    "mode_a": "hybrid_no_node2vec",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 17,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q061"
+    ],
+    "mean_question_difference": -0.058823529411764705,
+    "exploratory_95_percent_ci": [
+      -0.17647058823529413,
+      0.0
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "coherence",
+    "mode_a": "text_only",
+    "mode_b": "graph_only",
+    "difference": "a_minus_b",
+    "paired_question_count": 18,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [
+      "Q040",
+      "Q051"
+    ],
+    "mean_question_difference": -0.16666666666666666,
+    "exploratory_95_percent_ci": [
+      -0.4444444444444444,
+      0.1111111111111111
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "coherence",
+    "mode_a": "text_only",
+    "mode_b": "hybrid_no_node2vec",
+    "difference": "a_minus_b",
+    "paired_question_count": 16,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q051",
+      "Q061"
+    ],
+    "mean_question_difference": -0.0625,
+    "exploratory_95_percent_ci": [
+      -0.1875,
+      0.0
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "coherence",
+    "mode_a": "text_only",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 18,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [
+      "Q040",
+      "Q051"
+    ],
+    "mean_question_difference": -0.05555555555555555,
+    "exploratory_95_percent_ci": [
+      -0.16666666666666666,
+      0.0
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "coherence",
+    "mode_a": "graph_only",
+    "mode_b": "hybrid_no_node2vec",
+    "difference": "a_minus_b",
+    "paired_question_count": 17,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q061"
+    ],
+    "mean_question_difference": 0.11764705882352941,
+    "exploratory_95_percent_ci": [
+      -0.17647058823529413,
+      0.4117647058823529
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "coherence",
+    "mode_a": "graph_only",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 20,
+    "included_questions": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q040",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "excluded_questions": [],
+    "mean_question_difference": 0.1,
+    "exploratory_95_percent_ci": [
+      -0.15,
+      0.35
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  },
+  {
+    "dimension": "coherence",
+    "mode_a": "hybrid_no_node2vec",
+    "mode_b": "hybrid",
+    "difference": "a_minus_b",
+    "paired_question_count": 17,
+    "included_questions": [
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060"
+    ],
+    "excluded_questions": [
+      "Q001",
+      "Q040",
+      "Q061"
+    ],
+    "mean_question_difference": -0.058823529411764705,
+    "exploratory_95_percent_ci": [
+      -0.17647058823529413,
+      0.0
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 42,
+    "eligibility": "Repeat-one numeric ratings in both compared conditions; no N/A imputation."
+  }
+]

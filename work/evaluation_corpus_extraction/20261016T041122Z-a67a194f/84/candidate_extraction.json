@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "Play",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1059",
+      "attack_id": "T1059"
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1560.001",
+      "attack_id": "T1560.001"
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "PLAY",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1486",
+      "attack_id": "T1486"
+    },
+    {
+      "local_id": "e6",
+      "type": "ThreatGroup",
+      "name": "PLAY",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1,
+        "end": 193,
+        "quote": "reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) [T1059] to search for additional privilege escalation paths."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 528,
+        "end": 684,
+        "quote": "Play ransomware actors often split compromised data into segments and use tools like WinRAR to compress files [T1560.001] into .RAR format for exfiltration."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e4",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 794,
+        "end": 1084,
+        "quote": "Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e6",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 794,
+        "end": 1084,
+        "quote": "Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted."
+      },
+      "confidence": null
+    }
+  ]
+}

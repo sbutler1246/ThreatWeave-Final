@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "Akira",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1490",
+      "attack_id": "T1490"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 61,
+        "end": 254,
+        "quote": "To further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490]."
+      },
+      "confidence": null
+    }
+  ]
+}

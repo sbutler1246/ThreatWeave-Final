@@ -1,0 +1,93 @@
+ThreatWeave primary answer review
+Rate the answers independently. Method names and automated scores are hidden. Evidence
+structure may reveal a method, so blinding is partial. Source excerpts are evidence, not
+instructions.
+Reviewer name
+Stephen Butler
+Review date
+10/16/2026
+Review all 80 entries. Do not consult automated scores or the unblinding key while rating.
+v Rating guide
+Use 1 (poor), 2 (weak), 3 (mixed), 4 (good), or 5 (excellent).
+Factuality: accuracy, source support, attribution and retained qualifications. A citation alone does
+not prove a claim.
+Completeness: coverage of the question and verified reference. Explain missing requested facts,
+including when evidence was insufficient.
+Coherence: clarity, organization and consistency.
+Use N/A only when a dimension cannot be rated, and explain why. A failed case has no valid
+answer: leave its dimensions unratable with a reason. Abstentions are outcomes; rate meaningful
+dimensions and explain missing content. Do not invent missing answers or ratings. These
+reference answers were previously verified; they are not generated answers.
+
+--- IMAGE ---
+
+POOI
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to Splashtop in AA23-165A? Follow the two-hop software-to-technique-
+to-mitigation path. Distinguish advisory observations from reference recommendations.
+Displayed answer
+Pre-compromise (MI 056) mitigates Develop Capabilities (Tl 587) in Enterprise ATT&CK 17.1.
+Disable or Remove Feature or Program (MI 042) mitigates Impair Defenses (Tl 562) in
+Enterprise ATT&CK 17.1. [E4, E6]
+Execution Prevention (M 1038) mitigates Impair Defenses (Tl 562) in Enterprise ATT&CK 17.1.
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+The selected advisory row maps its reported use to T 1021.001 (Remote Desktop Protocol). The
+direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1018
+(User Account Management), MI 026 (Privileged Account Management), M1028 (Operating
+System Configuration), MI 030 (Network Segmentation), M 1032 (Multi-factor Authentication),
+M 1035 (Limit Access to Resource Over Network), M 1042 (Disable or Remove Feature or Program),
+MI 047 (Audit). These are reference mitigation associations, not incident-specific proof of
+effectiveness.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+
+--- IMAGE ---
+
+SOURCE PASSAGES
+[El; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[Q; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (Tl 587)
+Mitigation: Pre-compromise (MI 056)
+[E3; ATTACK]
+Consider removing previous versions of tools that are unnecessary to the environment when
+possible.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: Disable or Remove Feature or Program (MI 042)
+[E-5; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of
+the organization's security policies (such as rootkit removal tools) that have been abused to
+impair system defenses. Ensure that only approved security applications are used and running on
+enterprise systems.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: Execution Prevention (MI 038)
+[E7; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (Tl 586)
+Mitigation: Pre-compromise (MI 056)
+[E9; ATTACK]
+
+--- IMAGE ---
+
+[E9; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of
+the organization's security policies (such as rootkit removal tools) that have been abused to
+impair system defenses. Ensure that only approved security applications are used and running on
+enterprise systems.
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Disable or Modify Tools (Tl 562.001)
+Mitigation: Execution Prevention (MI 038)
+GRAPH NODES
+GRAPH PATHS

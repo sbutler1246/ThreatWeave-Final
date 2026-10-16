@@ -1,0 +1,15 @@
+{
+  "task": {
+    "task_id": "r2-Q061-graph_only--context_recall",
+    "case_id": "r2-Q061-graph_only",
+    "metric": "context_recall",
+    "eligible": true
+  },
+  "input_sha256": "6e46bd20e36e2c58968cc1f09ce058e9d1524b1ae558231cdc744af2155ca1a9",
+  "status": "failed",
+  "value": null,
+  "error_type": "LLMDidNotFinishException",
+  "error": "The LLM generation was not completed. Please increase the max_tokens and try again.",
+  "judge_calls": 1,
+  "elapsed_ms": 14065.953999990597
+}

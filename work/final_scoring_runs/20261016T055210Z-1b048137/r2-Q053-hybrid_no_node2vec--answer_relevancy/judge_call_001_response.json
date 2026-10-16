@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T05:56:49.6641068Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 680759800,
+  "load_duration": 5446600,
+  "prompt_eval_count": 484,
+  "prompt_eval_duration": 155502000,
+  "eval_count": 32,
+  "eval_duration": 394742000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What are some ways to mitigate the use of LockBit affiliates' tools?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

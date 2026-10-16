@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:13:49.6429548Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9264142300,
+  "load_duration": 9619400,
+  "prompt_eval_count": 584,
+  "prompt_eval_duration": 62812000,
+  "eval_count": 700,
+  "eval_duration": 8921283000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Rhysida actors use Mimikatz to aid in privilege escalation.\",\n        \"Akira threat actors use Mimikatz to aid in privilege escalation.\",\n        \"Rhysida actors use valid credentials to access internal VPN access points of victims.\",\n        \"Akira threat actors use valid credentials to access internal VPN access points of victims.\",\n        \"Rhysida actors use AZCopy to leverage Command and Scripting Interpreter: Cloud API.\",\n        \"Akira threat actors use PCHunter64 to acquire detailed process and system information.\",\n        \"Akira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.\",\n        \"Akira threat actors use Adfind.exe to query and retrieve information from Active Directory.\"\n    ]\n}\n\nHere's the breakdown of each sentence into fully understandable statements:\n\n1. \"Rhysida actors use Mimikatz to aid in privilege escalation.\"\n\t* Rhysida actors use Mimikatz.\n\t* Rhysida actors use Mimikatz to aid in privilege escalation.\n2. \"Akira threat actors use Mimikatz to aid in privilege escalation.\"\n\t* Akira threat actors use Mimikatz.\n\t* Akira threat actors use Mimikatz to aid in privilege escalation.\n3. \"Rhysida actors use valid credentials to access internal VPN access points of victims.\"\n\t* Rhysida actors use valid credentials.\n\t* Rhysida actors use valid credentials to access internal VPN access points.\n\t* Rhysida actors use valid credentials to access internal VPN access points of victims.\n4. \"Akira threat actors use valid credentials to access internal VPN access points of victims.\"\n\t* Akira threat actors use valid credentials.\n\t* Akira threat actors use valid credentials to access internal VPN access points.\n\t* Akira threat actors use valid credentials to access internal VPN access points of victims.\n5. \"Rhysida actors use AZCopy to leverage Command and Scripting Interpreter: Cloud API.\"\n\t* Rhysida actors use AZCopy.\n\t* Rhysida actors use AZCopy to leverage Command and Scripting Interpreter.\n\t* Rhysida actors use AZCopy to leverage Command and Scripting Interpreter: Cloud API.\n6. \"Akira threat actors use PCHunter64 to acquire detailed process and system information.\"\n\t* Akira threat actors use PCHunter64.\n\t* Akira threat actors use PCHunter64 to acquire detailed process information.\n\t* Akira threat actors use PCHunter64 to acquire detailed system information.\n\t* Akira threat actors use PCHunter64 to acquire detailed process and system information.\n7. \"Akira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.\"\n\t* Akira threat actors use DiskCheck software.\n\t* Akira threat actors use DiskCheck software to query remote systems.\n\t* Akira threat actors use DiskCheck software to query remote systems for information on disk drives.\n\t* Akira threat actors use DiskCheck software to query remote systems for information on installed software.\n\t* Akira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.\n8. \"Akira threat actors use Adfind.exe to query and retrieve information from Active Directory.\"\n\t* Akira threat actors use Adfind.exe.\n\t* Akira threat actors use Adfind.exe to",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

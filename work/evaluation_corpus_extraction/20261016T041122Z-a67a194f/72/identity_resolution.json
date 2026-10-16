@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Medusa actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1219",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1219",
+    "canonical_name": "Remote Access Tools",
+    "source_attack_id": "T1219"
+  },
+  {
+    "local_id": "e3",
+    "mention": "AnyDesk",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "ConnectWise",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0591",
+    "canonical_name": "ConnectWise",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "PsExec",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0029",
+    "canonical_name": "PsExec",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e6",
+    "mention": "T1021.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1021.001",
+    "canonical_name": "Remote Desktop Protocol",
+    "source_attack_id": "T1021.001"
+  }
+]

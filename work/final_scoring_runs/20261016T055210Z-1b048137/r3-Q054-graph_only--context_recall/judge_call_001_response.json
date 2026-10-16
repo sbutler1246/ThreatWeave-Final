@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:59:23.2287908Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3342304500,
+  "load_duration": 9938500,
+  "prompt_eval_count": 1022,
+  "prompt_eval_duration": 188838000,
+  "eval_count": 239,
+  "eval_duration": 3032829000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1021.001 (Remote Desktop Protocol).\",\n            \"reason\": \"There is no mention about T1021.001 in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1018 (User Account Management), M1026 (Privileged Account Management), M1028 (Operating System Configuration), M1030 (Network Segmentation), M1032 (Multi-factor Authentication), M1035 (Limit Access to Resource Over Network), M1042 (Disable or Remove Feature or Program), M1047 (Audit).\",\n            \"reason\": \"The exact list of mitigation options is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

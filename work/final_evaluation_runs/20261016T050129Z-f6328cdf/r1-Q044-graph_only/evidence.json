@@ -1,0 +1,62 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA25-071A",
+      "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "text": "When provided with valid username and password credentials, Medusa actors use PsExec to:",
+      "start": 14430,
+      "end": 14518,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA25-071A",
+      "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "text": "#StopRansomware: Medusa Ransomware",
+      "start": 23,
+      "end": 57,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA25-071A",
+      "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "text": "Technical Details",
+      "start": 4834,
+      "end": 4851,
+      "source_kind": "cisa"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA25-071A:medusa-actors",
+          "predicate": "USES",
+          "tail_id": "attack:S0029",
+          "assertion_ids": [
+            "assertion:e83a0a54ea9d57d554e61c7b03d4a480149a5a387a89ef75364836a26e669c56"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "retrieval_ms": 26.875299983657897,
+  "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

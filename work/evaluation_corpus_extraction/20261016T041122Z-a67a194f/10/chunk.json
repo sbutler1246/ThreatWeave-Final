@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-165A:evaluation:llama500:19556:21857",
+  "doc_id": "AA23-165A",
+  "start": 19556,
+  "end": 21857,
+  "text": " F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,\nCVE-2020-1472: NetLogon Privilege Escalation Vulnerability,\nCVE-2019-0708: Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and\nCVE-2018-13379: Fortinet FortiOS Secure Sockets Layer (SSL) Virtual Private Network (VPN) Path Traversal Vulnerability.\nFor further information on these CVEs, see CISA’s Known Exploited Vulnerabilities (KEV) Catalog.\nPost Detonation TTPs\nWhen LockBit affiliates target an organization responsible for managing other organizations’ networks, CERT NZ has observed LockBit affiliates attempt secondary ransomware extortion after detonation of the LockBit variant on the primary target. Once the primary target is hit, LockBit affiliates then attempt to extort the companies that are customers of the primary target. This extortion is in the form of secondary ransomware that locks down services those customers consume. Additionally, the primary target’s customers may be extorted by LockBit affiliates threatening to release those customers’ sensitive information.\nMITRE ATT&CK Tactics and Techniques\nTables 5-16 show the LockBit affiliate tactics and techniques referenced in this advisory.\nTable 5: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Initial Access\nTechnique Title\nID\nUse\nDrive-by Compromise\nT1189\nLockBit affiliates gain access to a system through a user visiting a website over the normal course of browsing.\nExploit Public-Facing Application\nT1190\nLockBit affiliates may exploit vulnerabilities (e.g., Log4Shell) in internet-facing systems to gain access to victims’ systems.\nExternal Remote Services\nT1133\nLockBit affiliates exploit RDP to gain access to victims’ networks.\nPhishing\nT1566\nLockBit affiliates use phishing and spearphishing to gain access to victims' networks.\nValid Accounts\nT1078\nLockBit affiliates obtain and abuse credentials of existing accounts as a means of gaining initial access.\nTable 6: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Execution\nTechnique Title\nID\nUse\nExecution\nTA0002\nLockBit 3.0 launches commands during its execution.\nCommand and Scripting Interpreter: Windows Command Shell\nT1059.003\nLockBit affiliates use batch scripts to execute malicious commands.\nSoftware Deployment Tools\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 70,
+      "text": "Understanding Ransomware Threat Actors: LockBit"
+    },
+    {
+      "start": 2293,
+      "end": 2310,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

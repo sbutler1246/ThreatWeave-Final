@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:07:57.4119899Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3987189700,
+  "load_duration": 10004500,
+  "prompt_eval_count": 1456,
+  "prompt_eval_duration": 166834000,
+  "eval_count": 288,
+  "eval_duration": 3731518000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"Medusa actors use PsExec to move laterally through the network.\",\n      \"reason\": \"The context explicitly states that Medusa actors use PsExec to move laterally through the network.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Medusa actors use PsExec to create a reverse TCP connection to threat actor infrastructure.\",\n      \"reason\": \"The context mentions that Medusa actors use PsExec to create a reverse Transmission Control Protocol (TCP) connection to threat actor infrastructure.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"The ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002.\",\n      \"reason\": \"The context explicitly states that the ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"The two-hop actor-to-software-to-technique path is: Medusa actors -> PsExec -> T1569.002.\",\n      \"reason\": \"The context does not provide information about a two-hop actor-to-software-to-technique path involving Medusa actors, PsExec, and T1569.002.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

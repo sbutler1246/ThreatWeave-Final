@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:35:03.2643319Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 471027100,
+  "load_duration": 11708200,
+  "prompt_eval_count": 515,
+  "prompt_eval_duration": 12923000,
+  "eval_count": 36,
+  "eval_duration": 441319000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do BianLian group actors and LockBit affiliates use for data exfiltration?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

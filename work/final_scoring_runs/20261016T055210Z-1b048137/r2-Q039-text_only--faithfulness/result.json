@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r2-Q039-text_only--faithfulness",
+    "case_id": "r2-Q039-text_only",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "40f5c89fa0fddef532e3fdfa8eae1d540bfcd18db3a5cfa3490c790c390bf8ef",
+  "status": "scored",
+  "value": 0.3333333333333333,
+  "judge_calls": 2,
+  "elapsed_ms": 18086.57489999314
+}

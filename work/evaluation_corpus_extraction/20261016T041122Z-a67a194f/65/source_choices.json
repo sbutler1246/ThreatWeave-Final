@@ -1,0 +1,766 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1555.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "NetExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Mimikatz with the –dpapi option",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Windows Credential Manager",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "net",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1016",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1018",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "nltest",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Advanced IP Scanner",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "netscan.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1057",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "Tasklist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1069.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1069.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1082",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "PCHunter64",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "T1087.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "Adfind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m023",
+      "text": "Adfind.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m024",
+      "text": "T1482",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1555.004",
+      "type": "Technique",
+      "attack_id": "T1555.004"
+    },
+    "m002_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "NetExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Mimikatz with the –dpapi option",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Windows Credential Manager",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "net",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1016",
+      "type": "Technique",
+      "attack_id": "T1016"
+    },
+    "m010_T": {
+      "name": "T1018",
+      "type": "Technique",
+      "attack_id": "T1018"
+    },
+    "m011_S": {
+      "name": "nltest",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m013_S": {
+      "name": "Advanced IP Scanner",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "netscan.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_T": {
+      "name": "T1057",
+      "type": "Technique",
+      "attack_id": "T1057"
+    },
+    "m016_S": {
+      "name": "Tasklist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_T": {
+      "name": "T1069.001",
+      "type": "Technique",
+      "attack_id": "T1069.001"
+    },
+    "m018_T": {
+      "name": "T1069.002",
+      "type": "Technique",
+      "attack_id": "T1069.002"
+    },
+    "m019_T": {
+      "name": "T1082",
+      "type": "Technique",
+      "attack_id": "T1082"
+    },
+    "m020_S": {
+      "name": "PCHunter64",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m021_T": {
+      "name": "T1087.002",
+      "type": "Technique",
+      "attack_id": "T1087.002"
+    },
+    "m022_S": {
+      "name": "Adfind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m023_S": {
+      "name": "Adfind.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m024_T": {
+      "name": "T1482",
+      "type": "Technique",
+      "attack_id": "T1482"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 9,
+      "text": "T1555.004",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 10,
+      "end": 253,
+      "text": "Akira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.",
+      "line_start": 10
+    },
+    "u003": {
+      "start": 254,
+      "end": 264,
+      "text": "End Update",
+      "line_start": 254
+    },
+    "u004": {
+      "start": 265,
+      "end": 274,
+      "text": "Table 16.",
+      "line_start": 265
+    },
+    "u005": {
+      "start": 275,
+      "end": 284,
+      "text": "Discovery",
+      "line_start": 265
+    },
+    "u006": {
+      "start": 285,
+      "end": 300,
+      "text": "Technique Title",
+      "line_start": 285
+    },
+    "u007": {
+      "start": 301,
+      "end": 303,
+      "text": "ID",
+      "line_start": 301
+    },
+    "u008": {
+      "start": 304,
+      "end": 307,
+      "text": "Use",
+      "line_start": 304
+    },
+    "u009": {
+      "start": 308,
+      "end": 346,
+      "text": "System Network Configuration Discovery",
+      "line_start": 308
+    },
+    "u010": {
+      "start": 347,
+      "end": 352,
+      "text": "T1016",
+      "line_start": 347
+    },
+    "u011": {
+      "start": 353,
+      "end": 478,
+      "text": "Akira threat actors use tools to scan systems and identify services running on remote hosts and local network infrastructure.",
+      "line_start": 353
+    },
+    "u012": {
+      "start": 479,
+      "end": 502,
+      "text": "Remote System Discovery",
+      "line_start": 479
+    },
+    "u013": {
+      "start": 503,
+      "end": 508,
+      "text": "T1018",
+      "line_start": 503
+    },
+    "u014": {
+      "start": 509,
+      "end": 652,
+      "text": "Akira threat actors use nltest /dclist: to amass a listing of other systems by IP address, hostname, or other logical identifiers on a network.",
+      "line_start": 509
+    },
+    "u015": {
+      "start": 653,
+      "end": 678,
+      "text": "Network Service Discovery",
+      "line_start": 653
+    },
+    "u016": {
+      "start": 679,
+      "end": 684,
+      "text": "T1046",
+      "line_start": 679
+    },
+    "u017": {
+      "start": 685,
+      "end": 916,
+      "text": "Akira threat actors use Advanced IP Scanner and NetScan to perform network reconnaissance by locating computers, scanning ports, identifying network devices, accessing shared folders, and enabling remote control via RDP and Radmin.",
+      "line_start": 685
+    },
+    "u018": {
+      "start": 917,
+      "end": 1090,
+      "text": "Akira threat actors use SoftPerfect network scanners (netscan.exe) to perform discovery and retrieve network device information through WMI, SNMP, HTTP, SSH, and PowerShell.",
+      "line_start": 917
+    },
+    "u019": {
+      "start": 1091,
+      "end": 1108,
+      "text": "Process Discovery",
+      "line_start": 1091
+    },
+    "u020": {
+      "start": 1109,
+      "end": 1114,
+      "text": "T1057",
+      "line_start": 1109
+    },
+    "u021": {
+      "start": 1115,
+      "end": 1214,
+      "text": "Akira threat actors use the Tasklist utility to obtain details on running processes via PowerShell.",
+      "line_start": 1115
+    },
+    "u022": {
+      "start": 1215,
+      "end": 1256,
+      "text": "Permission Groups Discovery: Local Groups",
+      "line_start": 1215
+    },
+    "u023": {
+      "start": 1257,
+      "end": 1266,
+      "text": "T1069.001",
+      "line_start": 1257
+    },
+    "u024": {
+      "start": 1267,
+      "end": 1360,
+      "text": "Akira threat actors use the net localgroup /dom to find local groups and permission settings.",
+      "line_start": 1267
+    },
+    "u025": {
+      "start": 1361,
+      "end": 1403,
+      "text": "Permission Groups Discovery: Domain Groups",
+      "line_start": 1361
+    },
+    "u026": {
+      "start": 1404,
+      "end": 1413,
+      "text": "T1069.002",
+      "line_start": 1404
+    },
+    "u027": {
+      "start": 1414,
+      "end": 1520,
+      "text": "Akira threat actors use the net group /domain command to find domain level groups and permission settings.",
+      "line_start": 1414
+    },
+    "u028": {
+      "start": 1521,
+      "end": 1549,
+      "text": "System Information Discovery",
+      "line_start": 1521
+    },
+    "u029": {
+      "start": 1550,
+      "end": 1555,
+      "text": "T1082",
+      "line_start": 1550
+    },
+    "u030": {
+      "start": 1556,
+      "end": 1653,
+      "text": "Akira threat actors use tools like PCHunter64 to acquire detailed process and system information.",
+      "line_start": 1556
+    },
+    "u031": {
+      "start": 1654,
+      "end": 1674,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1654
+    },
+    "u032": {
+      "start": 1675,
+      "end": 1796,
+      "text": "Akira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.",
+      "line_start": 1675
+    },
+    "u033": {
+      "start": 1797,
+      "end": 1807,
+      "text": "End Update",
+      "line_start": 1797
+    },
+    "u034": {
+      "start": 1808,
+      "end": 1828,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1808
+    },
+    "u035": {
+      "start": 1829,
+      "end": 1862,
+      "text": "Account Discovery: Domain Account",
+      "line_start": 1829
+    },
+    "u036": {
+      "start": 1863,
+      "end": 1872,
+      "text": "T1087.002",
+      "line_start": 1863
+    },
+    "u037": {
+      "start": 1873,
+      "end": 1964,
+      "text": "Akira threat actors use Adfind.exe to query and retrieve information from Active Directory.",
+      "line_start": 1873
+    },
+    "u038": {
+      "start": 1965,
+      "end": 1975,
+      "text": "End Update",
+      "line_start": 1965
+    },
+    "u039": {
+      "start": 1976,
+      "end": 1998,
+      "text": "Domain Trust Discovery",
+      "line_start": 1976
+    },
+    "u040": {
+      "start": 1999,
+      "end": 2004,
+      "text": "T1482",
+      "line_start": 1999
+    },
+    "u041": {
+      "start": 2005,
+      "end": 2085,
+      "text": "Akira threat actors use the net Windows command to enumerate domain information.",
+      "line_start": 2005
+    },
+    "u042": {
+      "start": 2086,
+      "end": 2106,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 2086
+    },
+    "u043": {
+      "start": 2107,
+      "end": 2189,
+      "text": "Akira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.",
+      "line_start": 2107
+    },
+    "u044": {
+      "start": 2190,
+      "end": 2200,
+      "text": "End Update",
+      "line_start": 2190
+    },
+    "u045": {
+      "start": 2201,
+      "end": 2210,
+      "text": "Table 17.",
+      "line_start": 2201
+    },
+    "u046": {
+      "start": 2211,
+      "end": 2227,
+      "text": "Lateral Movement",
+      "line_start": 2201
+    },
+    "u047": {
+      "start": 2228,
+      "end": 2243,
+      "text": "Technique Title",
+      "line_start": 2228
+    },
+    "u048": {
+      "start": 2244,
+      "end": 2246,
+      "text": "ID",
+      "line_start": 2244
+    },
+    "u049": {
+      "start": 2247,
+      "end": 2250,
+      "text": "Use",
+      "line_start": 2247
+    },
+    "u050": {
+      "start": 2251,
+      "end": 2271,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 2251
+    },
+    "u051": {
+      "start": 2272,
+      "end": 2287,
+      "text": "Remote Services",
+      "line_start": 2272
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1555.004",
+    "m002_S": "attack:S1129",
+    "m003_G": "local:ThreatGroup:akira threat actors",
+    "m004_S": "local:Software:netexec",
+    "m005_S": "attack:S0002",
+    "m006_S": "local:Software:mimikatz with the –dpapi option",
+    "m007_S": "local:Software:windows credential manager",
+    "m008_S": "attack:S0039",
+    "m009_T": "attack:T1016",
+    "m010_T": "attack:T1018",
+    "m011_S": "attack:S0359",
+    "m012_T": "attack:T1046",
+    "m013_S": "local:Software:advanced ip scanner",
+    "m014_S": "local:Software:netscan.exe",
+    "m015_T": "attack:T1057",
+    "m016_S": "attack:S0057",
+    "m017_T": "attack:T1069.001",
+    "m018_T": "attack:T1069.002",
+    "m019_T": "attack:T1082",
+    "m020_S": "local:Software:pchunter64",
+    "m021_T": "attack:T1087.002",
+    "m022_S": "attack:S0552",
+    "m023_S": "local:Software:adfind.exe",
+    "m024_T": "attack:T1482"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S",
+        "m005_S",
+        "m006_S",
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m013_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m014_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m016_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u027"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u030"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m020_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u037"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m022_S",
+        "m023_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u043"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    }
+  ]
+}

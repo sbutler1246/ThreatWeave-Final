@@ -1,0 +1,485 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1078.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "BlackSuit actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1070.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1119",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1105",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1078.002",
+      "type": "Technique",
+      "attack_id": "T1078.002"
+    },
+    "m002_G": {
+      "name": "BlackSuit actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m004_T": {
+      "name": "T1070.001",
+      "type": "Technique",
+      "attack_id": "T1070.001"
+    },
+    "m005_T": {
+      "name": "T1119",
+      "type": "Technique",
+      "attack_id": "T1119"
+    },
+    "m006_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    },
+    "m007_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m008_T": {
+      "name": "T1105",
+      "type": "Technique",
+      "attack_id": "T1105"
+    },
+    "m009_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m010_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 66,
+      "text": "admin account to gain access privileges to the domain controller.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 67,
+      "end": 98,
+      "text": "Valid Accounts: Domain Accounts",
+      "line_start": 67
+    },
+    "u003": {
+      "start": 99,
+      "end": 108,
+      "text": "T1078.002",
+      "line_start": 99
+    },
+    "u004": {
+      "start": 109,
+      "end": 181,
+      "text": "BlackSuit actors used encrypted files to create new admin user accounts.",
+      "line_start": 109
+    },
+    "u005": {
+      "start": 182,
+      "end": 249,
+      "text": "Table 21: Cyber Threat Actors ATT&CK Techniques for Defense Evasion",
+      "line_start": 182
+    },
+    "u006": {
+      "start": 250,
+      "end": 265,
+      "text": "Technique Title",
+      "line_start": 250
+    },
+    "u007": {
+      "start": 266,
+      "end": 268,
+      "text": "ID",
+      "line_start": 266
+    },
+    "u008": {
+      "start": 269,
+      "end": 272,
+      "text": "Use",
+      "line_start": 269
+    },
+    "u009": {
+      "start": 273,
+      "end": 313,
+      "text": "Remote Services: Remote Desktop Protocol",
+      "line_start": 273
+    },
+    "u010": {
+      "start": 314,
+      "end": 323,
+      "text": "T1021.001",
+      "line_start": 314
+    },
+    "u011": {
+      "start": 324,
+      "end": 419,
+      "text": "BlackSuit actors used valid accounts to move laterally through the domain controller using RDP.",
+      "line_start": 324
+    },
+    "u012": {
+      "start": 420,
+      "end": 463,
+      "text": "Indicator Removal: Clear Windows Event Logs",
+      "line_start": 420
+    },
+    "u013": {
+      "start": 464,
+      "end": 473,
+      "text": "T1070.001",
+      "line_start": 464
+    },
+    "u014": {
+      "start": 474,
+      "end": 560,
+      "text": "BlackSuit actors deleted shadow files and system and security logs after exfiltration.",
+      "line_start": 474
+    },
+    "u015": {
+      "start": 561,
+      "end": 581,
+      "text": "Automated Collection",
+      "line_start": 561
+    },
+    "u016": {
+      "start": 582,
+      "end": 587,
+      "text": "T1119",
+      "line_start": 582
+    },
+    "u017": {
+      "start": 588,
+      "end": 658,
+      "text": "BlackSuit actors used registry keys to auto-extract and collect files.",
+      "line_start": 588
+    },
+    "u018": {
+      "start": 659,
+      "end": 712,
+      "text": "Domain Policy Modification: Group Policy Modification",
+      "line_start": 659
+    },
+    "u019": {
+      "start": 713,
+      "end": 722,
+      "text": "T1484.001",
+      "line_start": 713
+    },
+    "u020": {
+      "start": 723,
+      "end": 801,
+      "text": "BlackSuit actors modified Group Policy Objects to subvert antivirus protocols.",
+      "line_start": 723
+    },
+    "u021": {
+      "start": 802,
+      "end": 842,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 802
+    },
+    "u022": {
+      "start": 843,
+      "end": 852,
+      "text": "T1562.001",
+      "line_start": 843
+    },
+    "u023": {
+      "start": 853,
+      "end": 902,
+      "text": "BlackSuit actors deactivated antivirus protocols.",
+      "line_start": 853
+    },
+    "u024": {
+      "start": 903,
+      "end": 974,
+      "text": "Table 22: Cyber Threat Actors ATT&CK Techniques for Command and Control",
+      "line_start": 903
+    },
+    "u025": {
+      "start": 975,
+      "end": 990,
+      "text": "Technique Title",
+      "line_start": 975
+    },
+    "u026": {
+      "start": 991,
+      "end": 993,
+      "text": "ID",
+      "line_start": 991
+    },
+    "u027": {
+      "start": 994,
+      "end": 997,
+      "text": "Use",
+      "line_start": 994
+    },
+    "u028": {
+      "start": 998,
+      "end": 1019,
+      "text": "Ingress Tool Transfer",
+      "line_start": 998
+    },
+    "u029": {
+      "start": 1020,
+      "end": 1025,
+      "text": "T1105",
+      "line_start": 1020
+    },
+    "u030": {
+      "start": 1026,
+      "end": 1093,
+      "text": "BlackSuit actors used C2 infrastructure to download multiple tools.",
+      "line_start": 1026
+    },
+    "u031": {
+      "start": 1094,
+      "end": 1112,
+      "text": "Protocol Tunneling",
+      "line_start": 1094
+    },
+    "u032": {
+      "start": 1113,
+      "end": 1118,
+      "text": "T1572",
+      "line_start": 1113
+    },
+    "u033": {
+      "start": 1119,
+      "end": 1205,
+      "text": "BlackSuit actors used an encrypted SSH tunnel to communicate within C2 infrastructure.",
+      "line_start": 1119
+    },
+    "u034": {
+      "start": 1206,
+      "end": 1264,
+      "text": "Table 23: Cyber Threat Actors ATT&CK Techniques for Impact",
+      "line_start": 1206
+    },
+    "u035": {
+      "start": 1265,
+      "end": 1280,
+      "text": "Technique Title",
+      "line_start": 1265
+    },
+    "u036": {
+      "start": 1281,
+      "end": 1283,
+      "text": "ID",
+      "line_start": 1281
+    },
+    "u037": {
+      "start": 1284,
+      "end": 1287,
+      "text": "Use",
+      "line_start": 1284
+    },
+    "u038": {
+      "start": 1288,
+      "end": 1313,
+      "text": "Data Encrypted for Impact",
+      "line_start": 1288
+    },
+    "u039": {
+      "start": 1314,
+      "end": 1319,
+      "text": "T1486",
+      "line_start": 1314
+    },
+    "u040": {
+      "start": 1320,
+      "end": 1426,
+      "text": "BlackSuit actors encrypted data to determine which files were being used or blocked by other applications.",
+      "line_start": 1320
+    },
+    "u041": {
+      "start": 1427,
+      "end": 1444,
+      "text": "Detection Methods",
+      "line_start": 1427
+    },
+    "u042": {
+      "start": 1445,
+      "end": 1538,
+      "text": "(New August 7, 2024) Please reference YARA rule below to aid in detecting BlackSuit activity.",
+      "line_start": 1445
+    },
+    "u043": {
+      "start": 1539,
+      "end": 1655,
+      "text": "Note: The YARA rule is derived from FBI investigations and is not guaranteed to detect confirmed malicious activity.",
+      "line_start": 1445
+    },
+    "u044": {
+      "start": 1656,
+      "end": 1684,
+      "text": "private rule is_executable {",
+      "line_start": 1656
+    },
+    "u045": {
+      "start": 1685,
+      "end": 1695,
+      "text": "condition:",
+      "line_start": 1685
+    },
+    "u046": {
+      "start": 1696,
+      "end": 1730,
+      "text": "uint32(uint32(0x3C)) == 0x00004550",
+      "line_start": 1696
+    },
+    "u047": {
+      "start": 1731,
+      "end": 1732,
+      "text": "}",
+      "line_start": 1731
+    },
+    "u048": {
+      "start": 1733,
+      "end": 1755,
+      "text": "rule obfuscates_dlls {",
+      "line_start": 1733
+    },
+    "u049": {
+      "start": 1756,
+      "end": 1764,
+      "text": "strings:",
+      "line_start": 1756
+    },
+    "u050": {
+      "start": 1765,
+      "end": 1815,
+      "text": "// Code for unscrambling names of true DLL imports",
+      "line_start": 1765
+    },
+    "u051": {
+      "start": 1816,
+      "end": 1841,
+      "text": "$code_load_obfuscated = {",
+      "line_start": 1816
+    },
+    "u052": {
+      "start": 1842,
+      "end": 1865,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 1842
+    },
+    "u053": {
+      "start": 1866,
+      "end": 1889,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 1866
+    },
+    "u054": {
+      "start": 1890,
+      "end": 1913,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 1890
+    },
+    "u055": {
+      "start": 1914,
+      "end": 1937,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 1914
+    },
+    "u056": {
+      "start": 1938,
+      "end": 1961,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 1938
+    },
+    "u057": {
+      "start": 1962,
+      "end": 1985,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 1962
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1078.002",
+    "m002_G": "local:ThreatGroup:blacksuit actors",
+    "m003_T": "attack:T1021.001",
+    "m004_T": "attack:T1070.001",
+    "m005_T": "attack:T1119",
+    "m006_T": "attack:T1484.001",
+    "m007_T": "attack:T1562.001",
+    "m008_T": "attack:T1105",
+    "m009_T": "attack:T1572",
+    "m010_T": "attack:T1486"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

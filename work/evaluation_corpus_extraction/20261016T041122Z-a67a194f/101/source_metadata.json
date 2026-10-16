@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:4080:6201",
+    "doc_id": "AA23-075A",
+    "start": 4080,
+    "end": 6201,
+    "text": " include, but are not limited to, Romanian (Moldova), Arabic (Syria), and Tatar (Russia). If a language from the exclusion list is detected [T1614.001], LockBit 3.0 will stop execution without infecting the system.\nINITIAL ACCESS\nAffiliates deploying LockBit 3.0 ransomware gain initial access to victim networks via remote desktop protocol (RDP) exploitation [T1133], drive-by compromise [T1189], phishing campaigns [T1566], abuse of valid accounts [T1078], and exploitation of public-facing applications [T1190].\nEXECUTION AND INFECTION PROCESS\nDuring the malware routine, if privileges are not sufficient, LockBit 3.0 attempts to escalate to the required privileges [TA0004]. LockBit 3.0 performs functions such as:\nEnumerating system information such as hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices [T1082]\nTerminating processes and services [T1489]\nLaunching commands [TA0002]\nEnabling automatic logon for persistence and privilege escalation [T1547]\nDeleting log files, files in the recycle bin folder, and shadow copies residing on disk [T1485], [T1490]\nLockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials hardcoded at compilation time or a compromised local account with elevated privileges [T1078]. When compiled, LockBit 3.0 may also enable options for spreading via Group Policy Objects and PsExec using the Server Message Block (SMB) protocol. LockBit 3.0 attempts to encrypt [T1486] data saved to any local or remote device, but skips files associated with core system functions.\nAfter files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding [T1491.001]. If needed, LockBit 3.0 will send encrypted host and bot information to a command and control (C2) server [T1027].\nOnce completed, LockBit 3.0 may delete itself from the disk [T1070.004] as well as any Group Policy updates that were made, depending on which options were set at compilation time.\nEXFILTRATION\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 498,
+  "inherited_context_tokens": 18,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "ad892f5db2c38996ffdb10bfedda46869199cd5c4ecc469e0ae7494796c164d2",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

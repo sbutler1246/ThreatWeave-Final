@@ -1,0 +1,87 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA23-136A",
+      "chunk_id": "retrieval:2a62b6a651ebf777015ee84a58b146f0b1d1fe3c0e8aae73fe8846c68481e518",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a",
+      "text": "BianLian group actors used Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+      "start": 27502,
+      "end": 27690,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA23-319A",
+      "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+      "text": "9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nAdditional notable TTPs have been published by the Check Point Incident Response Team.[10]\nTable 9: Resource Development\nTechnique Title\nID\nUse\nDevelop Capabilities\nT1587\nRhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.\nTable 10: Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nRhysida actors are known to use valid credentials to access internal VPN access points of victims.\nUpdate April 30, 2025:\nTable 11: Execution\nTechnique Title\nID\nUse\nCommand and Scripting Interpreter: Cloud API\nT1059.009\nRhysida actors leverage AZCopy, a command-line utility that ",
+      "start": 19026,
+      "end": 19970,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA23-319A",
+      "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+      "text": "#StopRansomware: Rhysida Ransomware",
+      "start": 23,
+      "end": 58,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "AA23-319A",
+      "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+      "text": "Technical Details",
+      "start": 2634,
+      "end": 2651,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "AA25-071A",
+      "chunk_id": "retrieval:10142e6a1bdedfeab0e6458adf4dbc1d069370fc741473944b85943928b2fec7",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "text": "6) Medusa actors obfuscate rclone.exe and associated rclone.conf files by renaming the files (for example, to lsp.exe and ngconf.txt). Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP’s built-in file transfer mechanism.\nThe actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.\n(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:\n",
+      "start": 17464,
+      "end": 18061,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "AA25-071A",
+      "chunk_id": "retrieval:10142e6a1bdedfeab0e6458adf4dbc1d069370fc741473944b85943928b2fec7",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "text": "#StopRansomware: Medusa Ransomware",
+      "start": 23,
+      "end": 57,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "AA25-071A",
+      "chunk_id": "retrieval:10142e6a1bdedfeab0e6458adf4dbc1d069370fc741473944b85943928b2fec7",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "text": "Technical Details",
+      "start": 4834,
+      "end": 4851,
+      "source_kind": "cisa"
+    }
+  ],
+  "paths": [],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7"
+  ],
+  "retrieval_ms": 19.63439999963157,
+  "configuration_hash": "fb3bca230c45e4ecdb2fdaf776826d2f60d68182c76c16cb4da564aad97521f7",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

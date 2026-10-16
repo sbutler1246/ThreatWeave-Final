@@ -1,0 +1,39 @@
+{
+  "task": {
+    "case_id": "r3-Q050-hybrid",
+    "question_id": "Q050",
+    "mode": "hybrid",
+    "repeat": 3,
+    "measured": true
+  },
+  "question_sha256": "17536d9f6ab5c57e10b3d68145beb19924f159ed99d3ba191a2532c4bda937a9",
+  "status": "answer_ready_for_review",
+  "execution_time_ms": 5337.135299982037,
+  "retrieval_ms": 685.5708999792114,
+  "generation_ms": 4649.318299983861,
+  "configuration_hash": "d7c2718aa3b0e406681080d129a0119a06ba5e48c6e2c626bcf8bc5d34359f09",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "path_count": 6,
+  "passage_count": 20,
+  "python_resources_before": null,
+  "python_resources_after": null,
+  "attempts": 1,
+  "prompt_hash": "984d04d958ece983f788018b8c8e05f6684861eb853fa980e6dd256ae27f238a",
+  "generator_version": "development-shared-cited-generator-v2",
+  "prompt_eval_count": 1591,
+  "eval_count": 335,
+  "files_sha256": {
+    "answer.json": "c91d2e0ec87c5ff46a2802aeea078b7398cb80a7e05504975721dd6344287e5c",
+    "context.txt": "26923151ba3e80643334959317e0cb6cb2b0dceac575064c48325505ab3c8c82",
+    "evidence.json": "75f266ce94cb282a5678885d41cf70e9e51afc97cc2ff1aa7a1aaa9d74286cc8",
+    "ollama_response_1.json": "cbe7619a1fce852c3132d480f2b097fa4bc80c140093434c6e46b114f2973ec8",
+    "output_schema.json": "cf8d0fbe73abb43b5a60c04d2e62d6b8d7d51c08a8beef259a9815233cf9f05c",
+    "question.json": "7c1cfafb5074945903e1da44794f2a164e402436af9db30eaa361f306714724e",
+    "retrieval.json": "7710e24d23247ef30c78e2d8619e0074b83866860321add29cd626c5368eabf7",
+    "system_prompt.txt": "d06610424106fd68fc9f27ce0000aa73b1cd3b43a79c4df892dcf6a6108fd72a",
+    "transport_request_1.json": "dab18c52bd05d6707dc429c54ff254ddfdb5e3611cae7083fcd598605f375504",
+    "transport_response_1.txt": "ca7002decc18859315cabc3c8ce91102fd88b1d128eac9883e481c276d9e67e9",
+    "transport_status_1.json": "aee5b614c7e23713169563d835525362b4966e7d9e46399b596b2b0993301efa",
+    "user_prompt.txt": "9870d6e7f9af085c0f59a6ad22a6d17e1c5faf51d03ed8043b854b835550ea71"
+  }
+}

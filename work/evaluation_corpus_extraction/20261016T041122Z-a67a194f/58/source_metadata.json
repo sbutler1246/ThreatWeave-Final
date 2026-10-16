@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:24217:25330",
+    "doc_id": "AA24-109A",
+    "start": 24217,
+    "end": 25330,
+    "text": "96a38bc668138a00f94f7c26ea5\nEncryptor launcher.\n2.exe\n4DC9F9684F715F50946E85557B82AF80FCB45576EFAD47EEE1BF054C15E570F0\nMalicious artifact.\nakira.exe, win.exe\n7266e2afb5c70788c018d684698b0940eded4cb863f2b33f4edd31b59d1eab1d\nRansomware.\nw.exe\nc0f706ff43936c1bb19db4f39b11129c3fc8ddafbd159852475ef99a246b2f79\nAkira ransomware.\nFile.exe\n3a25d3f82651567e5760e48ad06c9f6caab4f9fdc071e98919163b3a71e67168\nMalicious artifact.\nwin_locker.exe\nCFA209D56E296C40B32815270060E539963D68CDA3285C5F393C97EB3C960D37\nEncryptor executable.\nmoe.exe\n77d48e8c13ce066b197905cc8fc69969af69b74d25f5e95dcd1302ada2e7ccec\nMalicious artifact.\nEnd Update\nUpdate Nov. 13, 2025:\nTable 3. Malicious Files and MD5 Hash\nFile Name\nHash (MD5)\nDescription\n123.zip\n57D1AEB41D9CFEA4D6899724BC4B09A5\nArchive containing encryption malware and an AnyDesk setup.\nAll.bat\n17c624693f5dd575485ec4286b0ba786\nEncryption script.\nw.exe\nC56B31C9080B993D57C100B91D096C33\nAkira ransomware.\nw.exe\n2FED7579556F01161BB1FDFD1C3E9E6C\nEncryption script.\ns.bat\n24e19d29a47b6b5e1a39bf5e4c313194\nEncryption script.\nStart.bat\n814310fb7a59f23e3e137ee6fee04fa1\nEncryption script.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 499,
+  "inherited_context_tokens": 14,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "e283f9431d0b5271416a7b8e07de126209ec569eef7ca6402fbf620202872c24",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

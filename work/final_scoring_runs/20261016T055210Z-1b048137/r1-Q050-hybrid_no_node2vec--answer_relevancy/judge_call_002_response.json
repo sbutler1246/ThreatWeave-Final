@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:32:45.6322993Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 385009700,
+  "load_duration": 10775500,
+  "prompt_eval_count": 493,
+  "prompt_eval_duration": 14997000,
+  "eval_count": 29,
+  "eval_duration": 353757000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What enables remote connections to network devices for LockBit affiliates?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

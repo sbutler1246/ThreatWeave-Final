@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:04:00.3764562Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 332096500,
+  "load_duration": 11219400,
+  "prompt_eval_count": 529,
+  "prompt_eval_duration": 12942000,
+  "eval_count": 25,
+  "eval_duration": 303129000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do LockBit affiliates use?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

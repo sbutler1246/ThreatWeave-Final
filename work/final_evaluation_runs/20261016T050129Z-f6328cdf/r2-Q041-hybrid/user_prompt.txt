@@ -1,0 +1,65 @@
+QUESTION: According to AA23-075A, which ATT&CK technique is connected to LockBit 3.0 affiliates through the reported use of rclone? Explain the two-hop actor-to-software-to-technique path with evidence.
+MODE: hybrid
+SOURCE PASSAGES
+[E1; CISA]
+LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001].
+[E2; CISA]
+#StopRansomware: LockBit 3.0
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Environmental Keying (T1480.001)
+Mitigation: Do Not Mitigate (M1055)
+[E5; ATTACK]
+[Environmental Keying](https://attack.mitre.org/techniques/T1480/001) likely should not be mitigated with preventative controls because it may protect unintended targets from being compromised via confusion of keys by the adversary. Mitigation of this technique is also unlikely to be feasible within most contexts because there are no standard attributes from which an adversary may derive keys. If targeted, efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior if compromised.
+[E6; CISA]
+After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding [T1491.001].
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Internal Defacement (T1491.001)
+Mitigation: Data Backup (M1053)
+[E8; ATTACK]
+Consider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP) Ensure backups are stored off system and is protected from common methods adversaries may use to gain access and destroy the backups to prevent recovery.
+[E9; CISA]
+rclone, an open-source command line cloud storage manager [T1567.002]
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Exfiltration to Cloud Storage (T1567.002)
+Mitigation: Restrict Web-Based Content (M1021)
+[E11; ATTACK]
+Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.
+[E12; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E13; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E14; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+
+[E15; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+GRAPH NODES
+N1: LockBit 3.0 (S1202)
+N2: Environmental Keying (T1480.001)
+N3: Do Not Mitigate (M1055)
+N4: Internal Defacement (T1491.001)
+N5: Data Backup (M1053)
+N6: Rclone (S1040)
+N7: Exfiltration to Cloud Storage (T1567.002)
+N8: Restrict Web-Based Content (M1021)
+GRAPH PATHS
+P1: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E4,E5]--> N3
+P2: N1 --USES_TECHNIQUE[E6,E2,E3]--> N4 --MITIGATED_BY[E7,E8]--> N5
+P3: N6 --USES_TECHNIQUE[E9,E2,E3]--> N7 --MITIGATED_BY[E10,E11]--> N8
+Return the requested JSON. The displayed answer is assembled from claims.

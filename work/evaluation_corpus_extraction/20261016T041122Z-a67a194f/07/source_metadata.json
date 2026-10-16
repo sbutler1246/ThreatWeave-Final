@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:13738:15981",
+    "doc_id": "AA23-165A",
+    "start": 13738,
+    "end": 15981,
+    "text": ".\nEnables identification of AD relationships that can be exploited to gain access onto a victim’s network.\nT1482\nDomain Trust Discovery\nChocolatey\nHandles command-line package management on Microsoft Windows.\nFacilitates installation of LockBit affiliate actors’ tools.\nT1072\nSoftware Deployment Tools\nDefender Control\nDisables Microsoft Defender.\nEnables LockBit affiliate actors to bypass Microsoft Defender.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nExtPassword\nRecovers passwords from Windows systems.\nObtains credentials for network access and exploitation.\nT1003\nOperating System (OS) Credential Dumping\nFileZilla\nPerforms cross-platform File Transfer Protocol (FTP) to a site, server, or host.\nEnables data exfiltration over FTP to the LockBit affiliate actors’ site, server, or host.\nT1071.002\nApplication Layer Protocol: File Transfer Protocols\nFreeFileSync\nFacilitates cloud-based file synchronization.\nFacilitates cloud-based file synchronization for data exfiltration.\nT1567.002\nExfiltration Over Web Service: Exfiltration to Cloud Storage\nGMER\nRemoves rootkits.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nImpacket\nCollection of Python classes for working with network protocols.\nEnables lateral movement on a victim’s network.\nS0357\nImpacket\nLaZagne\nRecovers system passwords across multiple platforms.\nCollect credentials for accessing a victim’s systems and network.\nS0349\nLaZagne\nLigolo\nEstablishes SOCKS5 or TCP tunnels from a reverse connection for pen testing.\nEnables connections to systems within the victim’s network via reverse tunneling.\nT1095\nNon-Application Layer Protocol\nLostMyPassword\nRecovers passwords from Windows systems.\nObtains credentials for network access and exploitation.\nT1003\nOS Credential Dumping\nMEGA Ltd MegaSync\nFacilitates cloud-based file synchronization.\nFacilitates cloud-based file synchronization for data exfiltration.\nT1567.002\nExfiltration Over Web Service: Exfiltration to Cloud Storage\nMicrosoft Sysinternals ProcDump\nMonitors applications for central processing unit (CPU) spikes and generates crash dumps during a spike.\nObtains credentials by dumping the contents of Local Security Authority Subsystem Service (LSASS).\nT1003.001\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 12066,
+        "end": 12132,
+        "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 497,
+  "inherited_context_tokens": 34,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "d3b1372e7ecab19f52519ae5ed843ecd62c65d3d5df75348ad741cb4f0c26a16",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

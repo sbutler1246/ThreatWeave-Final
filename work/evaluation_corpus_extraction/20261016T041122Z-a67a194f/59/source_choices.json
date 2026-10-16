@@ -1,0 +1,532 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "s.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Start.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Vmware.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "w.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "snaffler.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Edge_server.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "lck.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "1.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "1.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "locker.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Win_locker_0234-BMMNBW-MONC.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "level.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "level-windows-amd64.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "s.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Start.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Vmware.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "w.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "snaffler.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Edge_server.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "lck.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "1.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "1.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "locker.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "Win_locker_0234-BMMNBW-MONC.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "level.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "level-windows-amd64.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 2,
+      "text": "6C",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 3,
+      "end": 21,
+      "text": "Encryption script.",
+      "line_start": 3
+    },
+    "u003": {
+      "start": 22,
+      "end": 27,
+      "text": "s.bat",
+      "line_start": 22
+    },
+    "u004": {
+      "start": 28,
+      "end": 60,
+      "text": "24e19d29a47b6b5e1a39bf5e4c313194",
+      "line_start": 28
+    },
+    "u005": {
+      "start": 61,
+      "end": 79,
+      "text": "Encryption script.",
+      "line_start": 61
+    },
+    "u006": {
+      "start": 80,
+      "end": 89,
+      "text": "Start.bat",
+      "line_start": 80
+    },
+    "u007": {
+      "start": 90,
+      "end": 122,
+      "text": "814310fb7a59f23e3e137ee6fee04fa1",
+      "line_start": 90
+    },
+    "u008": {
+      "start": 123,
+      "end": 141,
+      "text": "Encryption script.",
+      "line_start": 123
+    },
+    "u009": {
+      "start": 142,
+      "end": 150,
+      "text": "Table 4.",
+      "line_start": 142
+    },
+    "u010": {
+      "start": 151,
+      "end": 181,
+      "text": "Malicious Files and SHA-1 Hash",
+      "line_start": 142
+    },
+    "u011": {
+      "start": 182,
+      "end": 191,
+      "text": "File Name",
+      "line_start": 182
+    },
+    "u012": {
+      "start": 192,
+      "end": 204,
+      "text": "Hash (SHA 1)",
+      "line_start": 192
+    },
+    "u013": {
+      "start": 205,
+      "end": 216,
+      "text": "Description",
+      "line_start": 205
+    },
+    "u014": {
+      "start": 217,
+      "end": 227,
+      "text": "Vmware.exe",
+      "line_start": 217
+    },
+    "u015": {
+      "start": 228,
+      "end": 268,
+      "text": "5961a99181df157b81d35a50eeb27f96577a2fa2",
+      "line_start": 228
+    },
+    "u016": {
+      "start": 269,
+      "end": 285,
+      "text": "Akira encryptor.",
+      "line_start": 269
+    },
+    "u017": {
+      "start": 286,
+      "end": 291,
+      "text": "w.exe",
+      "line_start": 286
+    },
+    "u018": {
+      "start": 292,
+      "end": 332,
+      "text": "d5efaa22a74aab87d17f8666686b554e41fb389a",
+      "line_start": 292
+    },
+    "u019": {
+      "start": 333,
+      "end": 350,
+      "text": "Akira ransomware.",
+      "line_start": 333
+    },
+    "u020": {
+      "start": 351,
+      "end": 356,
+      "text": "w.exe",
+      "line_start": 351
+    },
+    "u021": {
+      "start": 357,
+      "end": 397,
+      "text": "08CF869A19C76CA718BA80EF73636E7BC38218B8",
+      "line_start": 357
+    },
+    "u022": {
+      "start": 398,
+      "end": 415,
+      "text": "Akira ransomware.",
+      "line_start": 398
+    },
+    "u023": {
+      "start": 416,
+      "end": 428,
+      "text": "snaffler.exe",
+      "line_start": 416
+    },
+    "u024": {
+      "start": 429,
+      "end": 469,
+      "text": "ef328f68c6d865ba4ef4223b5d8ee9efb5667420",
+      "line_start": 429
+    },
+    "u025": {
+      "start": 470,
+      "end": 510,
+      "text": "Script used to enumerate sensitive data.",
+      "line_start": 470
+    },
+    "u026": {
+      "start": 511,
+      "end": 519,
+      "text": "Table 5.",
+      "line_start": 511
+    },
+    "u027": {
+      "start": 520,
+      "end": 547,
+      "text": "Malicious File Descriptions",
+      "line_start": 511
+    },
+    "u028": {
+      "start": 548,
+      "end": 557,
+      "text": "File Name",
+      "line_start": 548
+    },
+    "u029": {
+      "start": 558,
+      "end": 569,
+      "text": "Description",
+      "line_start": 558
+    },
+    "u030": {
+      "start": 570,
+      "end": 585,
+      "text": "Edge_server.exe",
+      "line_start": 570
+    },
+    "u031": {
+      "start": 586,
+      "end": 601,
+      "text": "Akira artifact.",
+      "line_start": 586
+    },
+    "u032": {
+      "start": 602,
+      "end": 609,
+      "text": "lck.exe",
+      "line_start": 602
+    },
+    "u033": {
+      "start": 610,
+      "end": 632,
+      "text": "Akira ransomware file.",
+      "line_start": 610
+    },
+    "u034": {
+      "start": 633,
+      "end": 638,
+      "text": "1.bat",
+      "line_start": 633
+    },
+    "u035": {
+      "start": 639,
+      "end": 660,
+      "text": "Malicious batch file.",
+      "line_start": 639
+    },
+    "u036": {
+      "start": 661,
+      "end": 666,
+      "text": "1.exe",
+      "line_start": 661
+    },
+    "u037": {
+      "start": 667,
+      "end": 685,
+      "text": "Encryption script.",
+      "line_start": 667
+    },
+    "u038": {
+      "start": 686,
+      "end": 696,
+      "text": "locker.exe",
+      "line_start": 686
+    },
+    "u039": {
+      "start": 697,
+      "end": 715,
+      "text": "Encryption script.",
+      "line_start": 697
+    },
+    "u040": {
+      "start": 716,
+      "end": 747,
+      "text": "Win_locker_0234-BMMNBW-MONC.exe",
+      "line_start": 716
+    },
+    "u041": {
+      "start": 748,
+      "end": 766,
+      "text": "Encryption script.",
+      "line_start": 748
+    },
+    "u042": {
+      "start": 767,
+      "end": 776,
+      "text": "level.exe",
+      "line_start": 767
+    },
+    "u043": {
+      "start": 777,
+      "end": 815,
+      "text": "Trojanized level.io malicious payload.",
+      "line_start": 777
+    },
+    "u044": {
+      "start": 816,
+      "end": 839,
+      "text": "level-windows-amd64.exe",
+      "line_start": 816
+    },
+    "u045": {
+      "start": 840,
+      "end": 878,
+      "text": "Trojanized level.io malicious payload.",
+      "line_start": 840
+    },
+    "u046": {
+      "start": 879,
+      "end": 889,
+      "text": "End Update",
+      "line_start": 879
+    },
+    "u047": {
+      "start": 890,
+      "end": 1020,
+      "text": "Note: Trusted third-party analysis confirmed the Akira threat actors’ ransomware samples in Table 6 were created on Dec. 28, 2023.",
+      "line_start": 890
+    },
+    "u048": {
+      "start": 1021,
+      "end": 1029,
+      "text": "Table 6.",
+      "line_start": 1021
+    },
+    "u049": {
+      "start": 1030,
+      "end": 1062,
+      "text": "Windows Akira Ransomware Samples",
+      "line_start": 1021
+    },
+    "u050": {
+      "start": 1063,
+      "end": 1077,
+      "text": "Hash (SHA-256)",
+      "line_start": 1063
+    },
+    "u051": {
+      "start": 1078,
+      "end": 1142,
+      "text": "0b5b31af5956158bfbd14f6cbf4f1bca23c5d16a40dbf3758f3289146c565f43",
+      "line_start": 1078
+    },
+    "u052": {
+      "start": 1143,
+      "end": 1207,
+      "text": "0d700ca5f6cc093de4abba9410480ee7a8870d5e8fe86c9ce103eec3872f225f",
+      "line_start": 1143
+    },
+    "u053": {
+      "start": 1208,
+      "end": 1272,
+      "text": "a2df5477cf924bd41241a3326060cc2f913aff2379858b148ddec455e4da67bc",
+      "line_start": 1208
+    },
+    "u054": {
+      "start": 1273,
+      "end": 1337,
+      "text": "03aa12ac2884251aa24bf0ccd854047de403591a8537e6aba19e822807e06a45",
+      "line_start": 1273
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:s.bat",
+    "m002_S": "local:Software:start.bat",
+    "m003_S": "local:Software:vmware.exe",
+    "m004_S": "attack:S1129",
+    "m005_S": "local:Software:w.exe",
+    "m006_S": "local:Software:snaffler.exe",
+    "m007_S": "local:Software:edge_server.exe",
+    "m008_S": "local:Software:lck.exe",
+    "m009_S": "local:Software:1.bat",
+    "m010_S": "local:Software:1.exe",
+    "m011_S": "local:Software:locker.exe",
+    "m012_S": "local:Software:win_locker_0234-bmmnbw-monc.exe",
+    "m013_S": "local:Software:level.exe",
+    "m014_S": "local:Software:level-windows-amd64.exe",
+    "m015_G": "local:ThreatGroup:akira threat actors"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:15300:16716",
+    "doc_id": "AA23-075A",
+    "start": 15300,
+    "end": 16716,
+    "text": "F9-005FBFBA1A43}\"\nname=\"MsDtsServer150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"MsDtsServer150\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SSISTELEMETRY150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SSISTELEMETRY150\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SSISScaleOutMaster150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SSISScaleOutMaster150\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SSISScaleOutWorker150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SSISScaleOutWorker150\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"MSSQLLaunchpad\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"MSSQLLaunchpad\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SQLWriter\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SQLWriter\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 491,
+  "inherited_context_tokens": 18,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "710264452845ea061b067fb56c8f93e5a8300a57a83926c161508a920d08e8dd",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

@@ -1,0 +1,132 @@
+{
+  "total_seconds": 334.06104308390024,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "synthetic_narration": true,
+  "captured_states_not_continuous_screen_recording": true,
+  "timeline": [
+    {
+      "index": 0,
+      "title": "ThreatWeave",
+      "start_seconds": 0,
+      "audio_seconds": 24.630385487528343,
+      "duration_seconds": 25.880385487528343,
+      "narration_rms": 3188.557413809864,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-00.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-00.mp4"
+    },
+    {
+      "index": 1,
+      "title": "A question with cited claims",
+      "start_seconds": 25.880385487528343,
+      "audio_seconds": 25.314693877551022,
+      "duration_seconds": 26.564693877551022,
+      "narration_rms": 3330.5515069325925,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-01.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-01.mp4"
+    },
+    {
+      "index": 2,
+      "title": "The CISA observation",
+      "start_seconds": 52.445079365079366,
+      "audio_seconds": 25.44031746031746,
+      "duration_seconds": 26.69031746031746,
+      "narration_rms": 3328.954904047456,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-02.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-02.mp4"
+    },
+    {
+      "index": 3,
+      "title": "Separate ATT&CK guidance",
+      "start_seconds": 79.13539682539682,
+      "audio_seconds": 27.439591836734692,
+      "duration_seconds": 28.689591836734692,
+      "narration_rms": 3187.3702999467655,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-03.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-03.mp4"
+    },
+    {
+      "index": 4,
+      "title": "A directed query graph",
+      "start_seconds": 107.82498866213152,
+      "audio_seconds": 23.99528344671202,
+      "duration_seconds": 25.24528344671202,
+      "narration_rms": 3110.2676922729347,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-04.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-04.mp4"
+    },
+    {
+      "index": 5,
+      "title": "Graph inspection controls",
+      "start_seconds": 133.07027210884354,
+      "audio_seconds": 20.65591836734694,
+      "duration_seconds": 21.90591836734694,
+      "narration_rms": 3143.152425895278,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-05.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-05.mp4"
+    },
+    {
+      "index": 6,
+      "title": "The saved full-hybrid run",
+      "start_seconds": 154.97619047619048,
+      "audio_seconds": 22.815646258503403,
+      "duration_seconds": 24.065646258503403,
+      "narration_rms": 3389.989260152755,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-06.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-06.mp4"
+    },
+    {
+      "index": 7,
+      "title": "Hybrid paths remain inspectable",
+      "start_seconds": 179.04183673469387,
+      "audio_seconds": 26.979909297052153,
+      "duration_seconds": 28.229909297052153,
+      "narration_rms": 3274.9496730352294,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-07.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-07.mp4"
+    },
+    {
+      "index": 8,
+      "title": "Run details and export",
+      "start_seconds": 207.27174603174603,
+      "audio_seconds": 33.3665306122449,
+      "duration_seconds": 34.6165306122449,
+      "narration_rms": 3187.73600092006,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-08.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-08.mp4"
+    },
+    {
+      "index": 9,
+      "title": "Evaluation preserves failures",
+      "start_seconds": 241.88827664399093,
+      "audio_seconds": 30.144036281179137,
+      "duration_seconds": 31.394036281179137,
+      "narration_rms": 3297.7596678157042,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-09.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-09.mp4"
+    },
+    {
+      "index": 10,
+      "title": "Extraction remains a major limitation",
+      "start_seconds": 273.28231292517006,
+      "audio_seconds": 28.449614512471655,
+      "duration_seconds": 29.699614512471655,
+      "narration_rms": 3546.5225288428946,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-10.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-10.mp4"
+    },
+    {
+      "index": 11,
+      "title": "Inspectability supports review",
+      "start_seconds": 302.98192743764173,
+      "audio_seconds": 29.829115646258504,
+      "duration_seconds": 31.079115646258504,
+      "narration_rms": 3282.1805395447113,
+      "image": "S:\\ThreatWeave\\work\\final_completion\\video_build\\frame-11.png",
+      "segment": "S:\\ThreatWeave\\work\\final_completion\\video_build\\segment-11.mp4"
+    }
+  ],
+  "output": "S:\\ThreatWeave\\work\\final_completion\\validated\\ThreatWeave_demo.mp4",
+  "sha256": "2d7af20a9eafe783c784a2ad4e7c5915b8b3b0fe813f3863ca2db78940f66636"
+}

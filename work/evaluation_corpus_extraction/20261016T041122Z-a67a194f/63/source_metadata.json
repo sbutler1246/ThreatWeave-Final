@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:30823:33030",
+    "doc_id": "AA24-109A",
+    "start": 30823,
+    "end": 33030,
+    "text": "001\nAkira threat actors can create local user accounts by adding them to local admin groups to establish persistent backdoors.\nEnd Update\nCreate Account: Domain Account\nT1136.002\nAkira threat actors attempt to abuse the functions of domain controllers by creating new domain accounts to establish persistence.\nTable 13. Privilege Escalation\nTechnique Title\nID\nUse\nExploitation for Privilege Escalation\nT1068\nAkira threat actors exploit unpatched software vulnerabilities (e.g., Veeam Backup and Replication CVEs) to gain elevated privileges on hosts or servers (enabling access to sensitive data), and for credential harvesting.\nUpdate Nov. 13, 2025\nAkira threat actors use POORTRY malware written as a signed vulnerable Windows driver to deploy BYOVD techniques to obtain elevated privileges.\nEnd Update\nTable 14. Defense Evasion\nTechnique Title\nID\nUse\nUpdate Nov. 13, 2025\nObfuscated Files or Information\nT1027\nAkira threat actors obfuscate or encrypt malware, scripts, and network payloads (e.g., packers, Base64/XOR encoding, script obfuscation, or custom encryption) to evade detection and slow forensic analysis.\nObfuscated Files or Information: Compression\nT1027.015\nAkira threat actors use an archive feature within the 7-zip tool to compress data to evade detection.\nMasquerading\nT1036\nAkira threat actors disguise malicious files and payloads to appear legitimate.\nFile and Directory Permissions Modification: Windows File and Directory Permissions Modification\nT1222.001\nAkira threat actors use the takedown command to assume ownership of directories and files and use the icacls command to modify discretionary access control lists.\nEnd Update\nImpair Defenses: Disable or Modify Tools\nT1562.001\nAkira threat actors use a BYOVD technique to disable antivirus software.\nUpdate Nov. 13, 2025\nAkira threat actors use PowerTool to exploit Zemana AntiMalware driver and terminate antivirus defensive processes.\nAkira threat actors uninstall EDR systems to evade endpoint detection.\nEnd Update\nUpdate Nov. 13, 2025\nImpair Defenses: Disable or Modify System Firewall\nT1562.004\nAkira threat actors use the allssh modify_firewall command to open specific ports on the eth0 interface.\nProxy Through Victim\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      },
+      {
+        "start": 30648,
+        "end": 30669,
+        "text": "Table 12. Persistence"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 499,
+  "inherited_context_tokens": 20,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "b4f9fe3a203c5ab4b6045bcb5c19498829341173bbf45df08b145b65e43ff971",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

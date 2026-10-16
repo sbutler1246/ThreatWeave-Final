@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Akira threat actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "Ngrok",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0508",
+    "canonical_name": "ngrok",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e3",
+    "mention": "T1090",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1090",
+    "canonical_name": "Proxy",
+    "source_attack_id": "T1090"
+  },
+  {
+    "local_id": "e4",
+    "mention": "Akira",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1129",
+    "canonical_name": "Akira",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1090.003",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1090.003",
+    "canonical_name": "Multi-hop Proxy",
+    "source_attack_id": "T1090.003"
+  },
+  {
+    "local_id": "e6",
+    "mention": "T1573.002",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1573.002",
+    "canonical_name": "Asymmetric Cryptography",
+    "source_attack_id": "T1573.002"
+  }
+]

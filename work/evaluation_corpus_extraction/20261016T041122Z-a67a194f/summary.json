@@ -1,0 +1,3536 @@
+{
+  "prompt_version": "five-report-extraction-pilot-v2.6-source-context-identities",
+  "system_hash": "35cddaf53095aecdde47c0b432250bd00c32e0970e030ec6ed1e6ad96594cc97",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 700
+  },
+  "chunk_fingerprint": "687258c21650ca1e12d809d6dc73140029efd6538b6e38ec19c73f280e694dd2",
+  "attack_snapshot_hash": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+  "source_choice_implementation_sha256": "63eb524a721e1e2d6220936b1bee4d448fd8ad510363531e175d66e4748ec207",
+  "bounds": {
+    "entities": 8,
+    "relations": 4,
+    "source_units_per_relation": 3,
+    "source_mentions": 192,
+    "name_characters": 120
+  },
+  "purpose": "held_out_seven_report_source_extraction",
+  "status": "processed_with_errors",
+  "configuration_hash": "92bc65a2adb978f7b4d3788767000d028bd2fbb4872e5cd00212790c807fa8af",
+  "model": "llama3.1:8b",
+  "graph_writes": false,
+  "semantic_review_status": "pending",
+  "prepared_run": "S:\\ThreatWeave\\work\\evaluation_corpus_chunks\\20261016T040604Z-bccf59fb",
+  "items": [
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:2310:4719",
+      "doc_id": "AA23-165A",
+      "folder": "01",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1472,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1439,
+          "eval_count": 6,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 6010404900,
+          "elapsed_seconds": 6.017140000010841
+        }
+      ],
+      "prompt_hash": "9b5995fd3597174b79ad096d0b0348866e094655b0fbc464003218b1d1baa77f",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 512,
+      "cache_key": "363693e1e529898883cbbe25f8d5094523b93fd3ef728aa1c190f5bcd866bd93",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 6.019938399986131
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:4484:6401",
+      "doc_id": "AA23-165A",
+      "folder": "02",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1764,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1637,
+          "eval_count": 98,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1573249200,
+          "elapsed_seconds": 1.582916799990926
+        }
+      ],
+      "prompt_hash": "b2e6debd0ea0e6343f581b146ffa467fd605734f3471b780f23cd27abe7de3d0",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 493,
+      "cache_key": "8cc8e9ca8f6ec32a692da8df072a1a1769db001cecdd840702587a6e61bf71b6",
+      "entity_count": 3,
+      "relation_count": 2,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.5851724999956787
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:6168:8098",
+      "doc_id": "AA23-165A",
+      "folder": "03",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1553,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1520,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 338751000,
+          "elapsed_seconds": 0.34533109999028966
+        }
+      ],
+      "prompt_hash": "e9041db2bf343f88443b6ad3bb29a9d4cfe480eeab74de58a2d19de26a621b53",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 497,
+      "cache_key": "a32f6d6116144b53988c7f81cc226d780553911bdadb724101e812e760de8a49",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.347613599995384
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:7876:9874",
+      "doc_id": "AA23-165A",
+      "folder": "04",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1488,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1455,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 321232700,
+          "elapsed_seconds": 0.32622829999309033
+        }
+      ],
+      "prompt_hash": "7bdd232982fd560bfb672c5bc3a3dec943092be744ed598d994e7b6ce2ea5aea",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 458,
+      "cache_key": "781b32fd98a6d5ce9e7f1c3cc768b5a6b069d7f169406b97b9ea97e96f2dcffc",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3282079999917187
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:9561:12066",
+      "doc_id": "AA23-165A",
+      "folder": "05",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1689,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1567,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 978887600,
+          "elapsed_seconds": 0.9895942999864928
+        }
+      ],
+      "prompt_hash": "98666f74fa80117e04cd10e15453507b3859f22a9c93f990c522a9de510e8e26",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 523,
+      "cache_key": "e1c7299d36f30ba23252dbd88a3b5d4a76f5d5e962e8242e1ca0f0b8633785a3",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.9918591000023298
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:11762:14040",
+      "doc_id": "AA23-165A",
+      "folder": "06",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1959,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1837,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1096236300,
+          "elapsed_seconds": 1.1053360999794677
+        }
+      ],
+      "prompt_hash": "94ac846ef014d7252ce92f41d16aa089b080905570d1abd24b96a61257bb6547",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 499,
+      "cache_key": "093cab67e72dcaeb458afe1a8b1f3f8c29e4bf4cd900c00f9d7f5f77eb32a4de",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.108483999996679
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:13738:15981",
+      "doc_id": "AA23-165A",
+      "folder": "07",
+      "status": "validation_failed",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2963,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2187,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3125095800,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 3.1315750000067055
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 3181,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2405,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2734403300,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.74059619999025
+        }
+      ],
+      "prompt_hash": "15af256822794a52e4f6352050bb8e6cdee8f69508def449b0a2b1912ea530a2",
+      "source_evidence_type_patterns": 8,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 497,
+      "cache_key": "e034395b374bf56d10d8246ba4dff64e664c22c892d94b110ca1c3e610ef01bf",
+      "error": "Repeated selected relationship.",
+      "elapsed_seconds": 5.879458500014152
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:15691:17884",
+      "doc_id": "AA23-165A",
+      "folder": "08",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1924,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1891,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 436724700,
+          "elapsed_seconds": 0.4425440999912098
+        }
+      ],
+      "prompt_hash": "9b6fb262e805ad2d6c5ab0147499bfd9e272986f8b09d4e405215bc53788412b",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 494,
+      "cache_key": "2a366382dda2f7a4cad1b25b502b8a02950af0eeda9999ab0e37858504e6b9e7",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4448910000210162
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:17571:19802",
+      "doc_id": "AA23-165A",
+      "folder": "09",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1707,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1674,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 486399300,
+          "elapsed_seconds": 0.492680700001074
+        }
+      ],
+      "prompt_hash": "073ee7fb1b75e5c5228c3485e3b1a7747daac9c7ad5a35b1eee57cacf4deaa3a",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 497,
+      "cache_key": "e20d82d5037dbcbea4267ab02b322e9c1b2e5ce873b444b72c099a96cc58648c",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.49469150000368245
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:19556:21857",
+      "doc_id": "AA23-165A",
+      "folder": "10",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1692,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1659,
+          "eval_count": 6,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 395838000,
+          "elapsed_seconds": 0.4016455999808386
+        }
+      ],
+      "prompt_hash": "fc8efe5bcb8045a62e4c321d3ca536e136cb8f913919cbe3b0397c23056103a9",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 498,
+      "cache_key": "a81b5bd9b9a4912741db9652495a33bbda7728c5c40b8ac0c6438bfc16444da4",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4037959999986924
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:21591:23692",
+      "doc_id": "AA23-165A",
+      "folder": "11",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2035,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1913,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1071844400,
+          "elapsed_seconds": 1.0801233999955002
+        }
+      ],
+      "prompt_hash": "cf4623cbfdc3cd2c9bce37bfcb6ed0f687371f8038be5999a9efa479d3bfd387",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 497,
+      "cache_key": "cc9f0a2a05c10072a29f5dc5c5f828e42221961322795c5528e87dbed42feb94",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.0823872000037227
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "doc_id": "AA23-165A",
+      "folder": "12",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2634,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2142,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2913937200,
+          "elapsed_seconds": 2.9256423999904655
+        }
+      ],
+      "prompt_hash": "d13070dfe1c717f130a3778973c206f5fb4288f4f12a20bab08896ae36a0a89d",
+      "source_evidence_type_patterns": 5,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 499,
+      "cache_key": "d80f520ba699d7866437660baab016254983474b0e28e6806ed43e630b295ac8",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.9284277000115253
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "doc_id": "AA23-165A",
+      "folder": "13",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2318,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2011,
+          "eval_count": 142,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2303559500,
+          "elapsed_seconds": 2.3152655999874696
+        }
+      ],
+      "prompt_hash": "78c1e7bd47f12b42cfbb0f5066b255c1f2798aae680ec4173ebb1e1d2cf8a809",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 503,
+      "cache_key": "2e736de5580444785f8a0d8571d7043b666a06415363b0e10bae1ae5b9c72a08",
+      "entity_count": 4,
+      "relation_count": 3,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.3178250000055414
+    },
+    {
+      "scope_id": "AA23-165A:evaluation:llama500:26834:28843",
+      "doc_id": "AA23-165A",
+      "folder": "14",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2209,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1992,
+          "eval_count": 98,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1704244800,
+          "elapsed_seconds": 1.7129751999746077
+        }
+      ],
+      "prompt_hash": "fa1ad6b2879045c11c3dde0678f099727639515308f74680c72397f3a2242ac4",
+      "source_evidence_type_patterns": 2,
+      "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98",
+      "source_tokens": 500,
+      "cache_key": "29c51a4fc42d447413c40ed8fee1b0a84b453cade7a524d27615617eae2ad88a",
+      "entity_count": 3,
+      "relation_count": 2,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.7154916999861598
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:4148:6616",
+      "doc_id": "AA23-061A",
+      "folder": "15",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2808,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2010,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3098980300,
+          "elapsed_seconds": 3.1098477999912575
+        }
+      ],
+      "prompt_hash": "cf314908319fbf4141f9e3f5fd28828c27ed29db6bb5fb39aa4c43dc6366462a",
+      "source_evidence_type_patterns": 8,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 500,
+      "cache_key": "0addb36bc54900a1fb32914e2b13a9f1d4b7b03b6e19de73c0e493bca30ea602",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1128191000025254
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:6346:8622",
+      "doc_id": "AA23-061A",
+      "folder": "16",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3423,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2270,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3157679600,
+          "elapsed_seconds": 3.1688146999804303
+        }
+      ],
+      "prompt_hash": "1c24bbb054eec7234a90ab9ecdb59f03e7c8728c24872c5ced846de0b7c5e9b4",
+      "source_evidence_type_patterns": 12,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 503,
+      "cache_key": "8921727e07149c79bdd1401240e62b91d2bd1811c23ba1df5ac1fbee3cfdab43",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1722098999889567
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:8314:10530",
+      "doc_id": "AA23-061A",
+      "folder": "17",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2074,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1760,
+          "eval_count": 110,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1846369800,
+          "elapsed_seconds": 1.8549720000009984
+        }
+      ],
+      "prompt_hash": "c3db5ceb4ee32c6ff737049f2e1546ed614f17b2e236cf57c96abd5cd07c1206",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 498,
+      "cache_key": "436fbd6ceae34a0bca840a843408de5a917ddf219b4462d59e1ef3660ad91739",
+      "entity_count": 3,
+      "relation_count": 2,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.8575073000101838
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:10300:11484",
+      "doc_id": "AA23-061A",
+      "folder": "18",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1666,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1633,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 382572400,
+          "elapsed_seconds": 0.39310059999115765
+        }
+      ],
+      "prompt_hash": "2f77101effde51cd2ecd943c8f08d50bf63d5f6b34548a340f80c6bd357a33d7",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 503,
+      "cache_key": "d0778b59e6f4ac8641cfe397c40bcce4b8fbaf5899a1068d9ee8e4ff6f49e4d2",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3948134999955073
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:11361:12517",
+      "doc_id": "AA23-061A",
+      "folder": "19",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1660,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1627,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 371448100,
+          "elapsed_seconds": 0.37771640002029017
+        }
+      ],
+      "prompt_hash": "1bb2842c843fa5d2fd06d922e8ea2cf163d0cecb55d8592449fb1f0732e28974",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 501,
+      "cache_key": "1f017c340e6ef8973364d94fad0a4a9feb85d474d5c2e7405a4bbc1ad921c991",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3794888999836985
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:12363:13460",
+      "doc_id": "AA23-061A",
+      "folder": "20",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1893,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1677,
+          "eval_count": 102,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1670620400,
+          "elapsed_seconds": 1.6796272000065073
+        }
+      ],
+      "prompt_hash": "8d8770e912310e3168f23386fe7780b72dee7cb8935ab26a555f6884ba209cf5",
+      "source_evidence_type_patterns": 2,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 514,
+      "cache_key": "208488ceec353bc58ca6fd164fc21d66778b53eadbd33f4bbd883d2f099cc247",
+      "entity_count": 3,
+      "relation_count": 2,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.6816034000075888
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:13347:14347",
+      "doc_id": "AA23-061A",
+      "folder": "21",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1889,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1578,
+          "eval_count": 151,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2310565400,
+          "elapsed_seconds": 2.3201129999943078
+        }
+      ],
+      "prompt_hash": "ae5d46b2e8058e058706a62e7832e8a3ce851a74e60474d1cb697449a33825e6",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 498,
+      "cache_key": "7d88249d3d5477c3f4bcb0ee6011b70d49ae125291ab2038039e849c892c1eed",
+      "entity_count": 4,
+      "relation_count": 3,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.32202170000528
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:14225:15219",
+      "doc_id": "AA23-061A",
+      "folder": "22",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3469,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2216,
+          "eval_count": 43,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1009623700,
+          "elapsed_seconds": 1.0183243000064977
+        }
+      ],
+      "prompt_hash": "4cce88c4416f8290ce1646cc428b09acdfee36119f5ac800a5a050cdccad902d",
+      "source_evidence_type_patterns": 13,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 493,
+      "cache_key": "70affadea29dc516149e68622e99583851253605768f214034dd6f0ef1d2b1c1",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.021530600002734
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:15072:16294",
+      "doc_id": "AA23-061A",
+      "folder": "23",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3429,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2188,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3146313500,
+          "elapsed_seconds": 3.158146100002341
+        }
+      ],
+      "prompt_hash": "4fca4d3d9cefd17728e1faccdf80f97d687a180b3d6d2f43d7c1168235253331",
+      "source_evidence_type_patterns": 13,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 517,
+      "cache_key": "599cc162bed8e8e05bc73ec98bf04fd40aa40c3f772e1cf96616b71cb6be3198",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.161969099979615
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:16175:17122",
+      "doc_id": "AA23-061A",
+      "folder": "24",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1622,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1589,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 424669600,
+          "elapsed_seconds": 0.4300185999891255
+        }
+      ],
+      "prompt_hash": "66a48248eaa6ad6e61a1d20bb8de10e8386cb19fc121b4c7c959a7f78a5aa25f",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 500,
+      "cache_key": "38f65d0dcbca71247a864e73df0d56ee524907e2e4f658ddd1c3ad890de44fee",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4318782000045758
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:17023:18422",
+      "doc_id": "AA23-061A",
+      "folder": "25",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1791,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1758,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 417191500,
+          "elapsed_seconds": 0.42371649999404326
+        }
+      ],
+      "prompt_hash": "69fd4dd58904da858b4525905af0b7e92cb1cef5914a0b67983b6687ed0f8955",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 530,
+      "cache_key": "2e5b236e168272f50955e7e631ce954411e3dfc7e2f85971d6d2a45140083fc1",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4264617000008002
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:18102:19740",
+      "doc_id": "AA23-061A",
+      "folder": "26",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2526,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2404,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 575314600,
+          "elapsed_seconds": 0.5831738999986555
+        }
+      ],
+      "prompt_hash": "b6de64ad559b2cbe181824e3d139fb09c64deed6b8456276da7ed78b53fabef0",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 492,
+      "cache_key": "cb9162ea099498039c23eff688660eae410dfbafeebcd78ad898d136e165f450",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.586263900011545
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:19628:21225",
+      "doc_id": "AA23-061A",
+      "folder": "27",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2575,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1887,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3136726500,
+          "elapsed_seconds": 3.151869199995417
+        }
+      ],
+      "prompt_hash": "9731f59e4cbc2a324c7b79bba27dfc162b65614c3908888f99b506adc3e35e14",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 485,
+      "cache_key": "bbc02354dea2e6a8aea6d6ed563fc117aa930ce10b15d6ebc5a1a94c4b09615e",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1577545000182
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:21018:22127",
+      "doc_id": "AA23-061A",
+      "folder": "28",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1695,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1662,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 409425600,
+          "elapsed_seconds": 0.4178691999986768
+        }
+      ],
+      "prompt_hash": "c8061546255098aa55b57914413604c4bc6a5ce502520cf5e01802bbffb30b90",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 513,
+      "cache_key": "d3024e753bb731e054cc1e8d4c33a20d271bc92a3e687512864a6aa52df038a6",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4200981000030879
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:21984:23147",
+      "doc_id": "AA23-061A",
+      "folder": "29",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1808,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1775,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 420860100,
+          "elapsed_seconds": 0.42987690001609735
+        }
+      ],
+      "prompt_hash": "1de67e70a97266d9c10d49cac3587ec706041feb09d394de076804e4fd49e704",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 511,
+      "cache_key": "46b8a4ca5c9b852f7e8674a187444866f624142edb5636b2e6cd3c9b9e9cade4",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4324839000182692
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:23031:24536",
+      "doc_id": "AA23-061A",
+      "folder": "30",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2243,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2027,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 500578000,
+          "elapsed_seconds": 0.5093628000176977
+        }
+      ],
+      "prompt_hash": "526d43b77aa2ccbda499d076eeb66bd158a7ddcf89dbbd4ffeb3cc80339a2862",
+      "source_evidence_type_patterns": 2,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 494,
+      "cache_key": "051d7f7d67e638efbfd02ec22e48a520f3459a8fc88c47802525bc8110465ccb",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.5120259999821428
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:24400:25638",
+      "doc_id": "AA23-061A",
+      "folder": "31",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1765,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1732,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 442555300,
+          "elapsed_seconds": 0.4491769000014756
+        }
+      ],
+      "prompt_hash": "0d37aa42aeadc549a7ad1ec496acd0044d5537078da9654b9a3ad9e7d899bbdc",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 500,
+      "cache_key": "e450d386239ef25d61b31506d5b882e658cd9dd8cb25be8b32ad1cf5d89898fb",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4514575000212062
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:25468:26522",
+      "doc_id": "AA23-061A",
+      "folder": "32",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1945,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1912,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 463932300,
+          "elapsed_seconds": 0.4726903999981005
+        }
+      ],
+      "prompt_hash": "8247240c7e07c62d066223989d280ae6ff6a8c7c2fe2163bc02a569769f18418",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 485,
+      "cache_key": "0bd492b809fdbc244fee70e19777cd83f104152029c5aac11e6f2bdc11bacd83",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.47693239999352954
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:26384:27829",
+      "doc_id": "AA23-061A",
+      "folder": "33",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 5888,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 3179,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3434097300,
+          "elapsed_seconds": 3.455444399995031
+        }
+      ],
+      "prompt_hash": "15992a876ac19631137d1466bed5f170b29a79b270388baa9acc1842dfa8c3ef",
+      "source_evidence_type_patterns": 28,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 495,
+      "cache_key": "4054ef9afd052ba8f2e10be302844e3cac4e2bfc50983a95c18faf6373b2eabc",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.4673348999931477
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:27654:29231",
+      "doc_id": "AA23-061A",
+      "folder": "34",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1440,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1407,
+          "eval_count": 8,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 439908400,
+          "elapsed_seconds": 0.44868030000361614
+        }
+      ],
+      "prompt_hash": "f0981c1d25e283111bd2f4ebd0eba43fae8f7d7d27f52b1a4cd34abb5dd7dd3b",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 498,
+      "cache_key": "10e7612dc71a04f0ddf2e42db177baff99db2136511b886ee8cb60c0398c7691",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4502830999845173
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:28955:31241",
+      "doc_id": "AA23-061A",
+      "folder": "35",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1791,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1758,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 520320900,
+          "elapsed_seconds": 0.5281979999854229
+        }
+      ],
+      "prompt_hash": "9a2a8754eafd56b2337ac5ae029d49ab0b392973ca1ca9fb5180fc9d2525c244",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 497,
+      "cache_key": "1c6f492aa608acb0d5f75baa355c68361ae96ceea2cec32b9494635683a715a6",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.5302921000111382
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:30968:32954",
+      "doc_id": "AA23-061A",
+      "folder": "36",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1779,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1746,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 535905700,
+          "elapsed_seconds": 0.5437807999842335
+        }
+      ],
+      "prompt_hash": "4c9a7eb67947678dc5c82337d2c58631e4dd2f21a2c448223335cdf1c9d6d448",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 504,
+      "cache_key": "6a9405943db60e9e462794f6fefae525d5ebd2e0ab44a7281fe46a3142377241",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.547797899984289
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:32858:33890",
+      "doc_id": "AA23-061A",
+      "folder": "37",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1431,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1398,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 341232700,
+          "elapsed_seconds": 0.3485800000198651
+        }
+      ],
+      "prompt_hash": "24d6a3af2ae709d5d9f099bd114b7027a8964151dcf132e6b59b2d092ffaf004",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 497,
+      "cache_key": "e86117db604967c3d4d9e116ccf76f30d78133a36c92769421318adb1e736844",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3516411999880802
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:33746:34826",
+      "doc_id": "AA23-061A",
+      "folder": "38",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1451,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1418,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 328585300,
+          "elapsed_seconds": 0.3368771999957971
+        }
+      ],
+      "prompt_hash": "8e54000e2ce06681365aee66f957d4f766eeda665d916522a7aff3d998cfe832",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 502,
+      "cache_key": "c34795a1975565990f3252efb36efd198ac35acf41f2f0b09986b03106561c8e",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.339967500010971
+    },
+    {
+      "scope_id": "AA23-061A:evaluation:llama500:34320:35790",
+      "doc_id": "AA23-061A",
+      "folder": "39",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1484,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1451,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 363864000,
+          "elapsed_seconds": 0.371044500003336
+        }
+      ],
+      "prompt_hash": "d8eeb8791febd22bc3edfc9c2f8d70e493430bbaa6fe6cc84fd70828b213f875",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587",
+      "source_tokens": 500,
+      "cache_key": "c0b54de2763eb7eb67fee6abcaeb3ad87c583564001bcc2910d852a7c5b822ba",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.37331790002644993
+    },
+    {
+      "scope_id": "AA24-131A:evaluation:llama500:4174:6733",
+      "doc_id": "AA24-131A",
+      "folder": "40",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3410,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2261,
+          "eval_count": 194,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3126153900,
+          "elapsed_seconds": 3.140747500001453
+        }
+      ],
+      "prompt_hash": "3ac77d5652c041590993e6a30bfddf71ab6fbe9921ab53638d4fb6f4a888529c",
+      "source_evidence_type_patterns": 12,
+      "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+      "source_tokens": 553,
+      "cache_key": "ab4e964d1cc0febe47fca51bc0382ebc98a82f0e4f5361780760b34ad4eb778a",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.147783399996115
+    },
+    {
+      "scope_id": "AA24-131A:evaluation:llama500:6550:8835",
+      "doc_id": "AA24-131A",
+      "folder": "41",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 4065,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2593,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3108281300,
+          "elapsed_seconds": 3.1267677000141703
+        }
+      ],
+      "prompt_hash": "560eabb0236836df62606d294ecccae12eae8a7d30b2380314b7c837d45c6606",
+      "source_evidence_type_patterns": 15,
+      "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+      "source_tokens": 489,
+      "cache_key": "e3053656c06eef3646073c6b9cbcee7f3884104defb835a433582d6b8f9fb18c",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1317162000050303
+    },
+    {
+      "scope_id": "AA24-131A:evaluation:llama500:8514:10969",
+      "doc_id": "AA24-131A",
+      "folder": "42",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 4177,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2462,
+          "eval_count": 154,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2659554700,
+          "elapsed_seconds": 2.671899900014978
+        }
+      ],
+      "prompt_hash": "1ffacd04255cda324fdde5492189f57ba8b69222a821de94573253149d9816fd",
+      "source_evidence_type_patterns": 18,
+      "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+      "source_tokens": 510,
+      "cache_key": "9b6b1bd44d99ac172a4e6fdc33b77369b9c943266e383c5ecd647ef2b5836c6a",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.677024500007974
+    },
+    {
+      "scope_id": "AA24-131A:evaluation:llama500:10786:13129",
+      "doc_id": "AA24-131A",
+      "folder": "43",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3906,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2528,
+          "eval_count": 158,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2771611100,
+          "elapsed_seconds": 2.7880724999995437
+        }
+      ],
+      "prompt_hash": "559335ac4e7252713c298a074e985dedd26ef3c5cf8aaa07b8899a20cf5fecba",
+      "source_evidence_type_patterns": 14,
+      "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+      "source_tokens": 492,
+      "cache_key": "e893ae77dd0dad4b42587513ae3c39dde7ef42d0618c86555b5d800cb1dd10db",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.7937544000160415
+    },
+    {
+      "scope_id": "AA24-131A:evaluation:llama500:12807:15323",
+      "doc_id": "AA24-131A",
+      "folder": "44",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3296,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2239,
+          "eval_count": 101,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1880929100,
+          "elapsed_seconds": 1.8957599999848753
+        }
+      ],
+      "prompt_hash": "be376fff166feaba78c5b225530f1fa34211bd2a5f4fdd74dd48a9ba8b74e784",
+      "source_evidence_type_patterns": 11,
+      "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+      "source_tokens": 510,
+      "cache_key": "62abd6318319936bce8b4ee0acde6f57eb23418e5c1bcaf4f9d8152bf3bea1eb",
+      "entity_count": 4,
+      "relation_count": 2,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.9024921999953222
+    },
+    {
+      "scope_id": "AA24-131A:evaluation:llama500:15045:17380",
+      "doc_id": "AA24-131A",
+      "folder": "45",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2648,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2141,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3054583000,
+          "elapsed_seconds": 3.0662783999869134
+        }
+      ],
+      "prompt_hash": "bebb1a2e80354f439240c9aff58c2d9acfea198e15f731a77cfaa7579e1ce430",
+      "source_evidence_type_patterns": 5,
+      "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+      "source_tokens": 518,
+      "cache_key": "8cd9a6f7a4861f3e5a415217af93ec255a8cca6995a1ef9174ed53e82a10a7ea",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.0711423000029754
+    },
+    {
+      "scope_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "doc_id": "AA24-131A",
+      "folder": "46",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2223,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1911,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2940794200,
+          "elapsed_seconds": 2.957413900003303
+        }
+      ],
+      "prompt_hash": "70e010a1225210e0ac5d9cf963b97870f61e682df0ad823e1a49a48b1c4d1429",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+      "source_tokens": 500,
+      "cache_key": "94d9502a0c0abeebcd8487949271c47fafbe57145af2d9fc5a85b73dfc83d951",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.962060299993027
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:4787:6854",
+      "doc_id": "AA24-109A",
+      "folder": "47",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2318,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1815,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3048621100,
+          "elapsed_seconds": 3.06367939998745
+        }
+      ],
+      "prompt_hash": "6de8df0904aba45e25bcf51d535dc396b90f48bc7856ae795b5a990a54a1a88c",
+      "source_evidence_type_patterns": 5,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 495,
+      "cache_key": "7828d930ff0422cf163b906864a7f144260dc24e350516eb9ba4e4879bc7b25f",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.0662455999990925
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:6537:8882",
+      "doc_id": "AA24-109A",
+      "folder": "48",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3294,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2291,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3250362700,
+          "elapsed_seconds": 3.261538599996129
+        }
+      ],
+      "prompt_hash": "2a23669792dc900ebe71772829873b21062c6d862cf3bc1be8862596a6e78197",
+      "source_evidence_type_patterns": 10,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 490,
+      "cache_key": "b187d7397b8cfb249aff9be3ed41fa09975e03fc135100bca0bd36965b61c92f",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.266640500020003
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:8607:10825",
+      "doc_id": "AA24-109A",
+      "folder": "49",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3954,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2542,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3362985000,
+          "elapsed_seconds": 3.3788196000095922
+        }
+      ],
+      "prompt_hash": "59c0ae43a8c402bda9208551720b0648faca42dc91bd23b73ff1676b3a313970",
+      "source_evidence_type_patterns": 14,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 493,
+      "cache_key": "f80ee25357d6f70bb4d0a7dd6310f63793066fc45af1b4d47a10d28eed58bb78",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.3860058000136632
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:10612:12792",
+      "doc_id": "AA24-109A",
+      "folder": "50",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 5143,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2998,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3528267300,
+          "elapsed_seconds": 3.541727100004209
+        }
+      ],
+      "prompt_hash": "6dd6d705c1555cd646d9b7944a1c0f8dc2bd88befb9420958c75b33a9f5164d6",
+      "source_evidence_type_patterns": 22,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 490,
+      "cache_key": "7ff4d5e5ed6748dd1f2f92afa7a9debeed02ed73e6747c27783a63125c94c276",
+      "entity_count": 8,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.5509268999740016
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:12528:14948",
+      "doc_id": "AA24-109A",
+      "folder": "51",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2902,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2026,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3177446700,
+          "elapsed_seconds": 3.1901736999861896
+        }
+      ],
+      "prompt_hash": "93572ca432c410c6c20bd2301ce69ea154a99eb8f426773cdd3fd66f323e7fd0",
+      "source_evidence_type_patterns": 9,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 511,
+      "cache_key": "255c9c8778708a8e092897813d254d468c70147ccb230be49e8a69c1ac5d413a",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1943677999952342
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:14693:17032",
+      "doc_id": "AA24-109A",
+      "folder": "52",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1747,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1616,
+          "eval_count": 58,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1148827200,
+          "elapsed_seconds": 1.1600959000061266
+        }
+      ],
+      "prompt_hash": "f2253c12e72ba3f9a90f787d4fc0da671122562bee4bce504ac1161a6221817f",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 493,
+      "cache_key": "cf18a032bfc0d07658b9a303020eef4ffeefb5321e0134e614ce819e34f3f8a6",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.1640547000279184
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:16749:19037",
+      "doc_id": "AA24-109A",
+      "folder": "53",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2302,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1988,
+          "eval_count": 154,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2512452300,
+          "elapsed_seconds": 2.52696570000262
+        }
+      ],
+      "prompt_hash": "e2c4bd8090a8fd260053d0972cc0fb3d378891efb6fa3cc0461dfd4f344a3819",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 498,
+      "cache_key": "cb9061cd10630c221c49176dd9787a2288fd121ebadf49caa8c417e4845692cc",
+      "entity_count": 5,
+      "relation_count": 3,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.529923600028269
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:18804:21019",
+      "doc_id": "AA24-109A",
+      "folder": "54",
+      "status": "validation_failed",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 4027,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2493,
+          "eval_count": 161,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2772192200,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.7788254999904893
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 4208,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2674,
+          "eval_count": 161,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2261832400,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.2696902999887243
+        }
+      ],
+      "prompt_hash": "20b0cd9d7204d590cbd4070e845760a6b6f01fc6bf594aa7a240eb2edccfa3e4",
+      "source_evidence_type_patterns": 16,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 500,
+      "cache_key": "122769a842fb19affb1a3e520985431e0193a02b53e1bed68a72be61652605d2",
+      "error": "Repeated selected relationship.",
+      "elapsed_seconds": 5.059235099994112
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:20761:22564",
+      "doc_id": "AA24-109A",
+      "folder": "55",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2683,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1997,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3158459900,
+          "elapsed_seconds": 3.174196200008737
+        }
+      ],
+      "prompt_hash": "d65193979328b0d4949e5f7b5fcfad707bcbc0dc48ca6f009d4af5a78c2714fd",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 488,
+      "cache_key": "6e4305a929e69c66cf39ac74651b3d062d0a12937dbcfb96bceeab7997c5392d",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1769418000185397
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:22442:23336",
+      "doc_id": "AA24-109A",
+      "folder": "56",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1710,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1488,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2748770800,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.754473599983612
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 1916,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1694,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 774104100,
+          "elapsed_seconds": 0.7834411000076216
+        }
+      ],
+      "prompt_hash": "b8b144cd043cafd2cff7d03c83c1f23fde13df60b5b8c6acbe7a02331497f604",
+      "source_evidence_type_patterns": 2,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 497,
+      "cache_key": "ad0e1242586d9590eb3862ef73c37826e3088fa4b70e044fc359404965d224f5",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.5437758000043686
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:23225:24336",
+      "doc_id": "AA24-109A",
+      "folder": "57",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2067,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1755,
+          "eval_count": 142,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2264489500,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.2710473999904934
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 2229,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1917,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 785758200,
+          "elapsed_seconds": 0.7989329000120051
+        }
+      ],
+      "prompt_hash": "12741a255d17518a1f7dfadfadb1bc37051b1446a51dac0c211cdf58f8c9f222",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 510,
+      "cache_key": "aaf50dbca5e7dbb034b5ea39da568f0fcd33eaa3af917779e34faeb4743f9fae",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.0766104999929667
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:24217:25330",
+      "doc_id": "AA24-109A",
+      "folder": "58",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2163,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1851,
+          "eval_count": 142,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2317662000,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.3233366000058595
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 2325,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2013,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 783672000,
+          "elapsed_seconds": 0.7957085999951232
+        }
+      ],
+      "prompt_hash": "49e0e5800250207bde720f079eca87e0cf875f5c50e693206c7f67b1d81c3b31",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 499,
+      "cache_key": "99f39685e3b9eadd3ec466b1e48614e37fbbf24e179c9981325cb90642996111",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.123708600003738
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:25188:26526",
+      "doc_id": "AA24-109A",
+      "folder": "59",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1875,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1842,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 479942100,
+          "elapsed_seconds": 0.48813569999765605
+        }
+      ],
+      "prompt_hash": "4e9d3f2fbceec4e98035a450efe28145531ba4dbd5af192dc13cf15b5aa79f3c",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 509,
+      "cache_key": "ef405948d6a5d0790d955789788e4c86e1107baadd521fb638e522702c8f980b",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.49162700001033954
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:26404:27411",
+      "doc_id": "AA24-109A",
+      "folder": "60",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2361,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1769,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3079192700,
+          "elapsed_seconds": 3.1101244000019506
+        }
+      ],
+      "prompt_hash": "7082da739ad422539bd398d54ccdb1653d2a64af825c156db17ed65f3d45164a",
+      "source_evidence_type_patterns": 6,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 497,
+      "cache_key": "ca6857723e2f5a9b71809c705b0f1e847c1a49ac5314e17446f8abfaf6040a8b",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.114763799996581
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:27250:29059",
+      "doc_id": "AA24-109A",
+      "folder": "61",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2783,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2182,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 582231900,
+          "elapsed_seconds": 0.5907556000165641
+        }
+      ],
+      "prompt_hash": "206cd54cd496f9eefbc39071bca2c723653bec55f477cf4a9d4dbee51cc70bf1",
+      "source_evidence_type_patterns": 6,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 497,
+      "cache_key": "6d7a27bb653bef3b0949750f95f0b89ae9feb3e1f73225216d6559663454d7ae",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.5943002999993041
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:28777:31133",
+      "doc_id": "AA24-109A",
+      "folder": "62",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2372,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1980,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2949941500,
+          "elapsed_seconds": 2.967941000009887
+        }
+      ],
+      "prompt_hash": "aa3097de140aea46925adc3d8d3876be3d99194ed94907bf278bfffa9e0c9724",
+      "source_evidence_type_patterns": 4,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 496,
+      "cache_key": "4f5504f3d849c10ce1b0eb2f55796c1737bc1018a7abf58f6ff9c59f585d68a4",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.9712939000164624
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:30823:33030",
+      "doc_id": "AA24-109A",
+      "folder": "63",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1874,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1752,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1106052900,
+          "elapsed_seconds": 1.115652799984673
+        }
+      ],
+      "prompt_hash": "9934c2d8ed42031151270ab26598659b401445dba72a88f082113f95dc24a01b",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 499,
+      "cache_key": "77fd61ac63c1e49f001c4d649cc59e8742e49332a01a8941d7eeff3c624f6c29",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.1194531000219285
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "doc_id": "AA24-109A",
+      "folder": "64",
+      "status": "service_error",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2611,
+          "reserved_chat_tokens": 256,
+          "http_status": 500,
+          "http_error_body_file": "ollama_http_error_1.txt",
+          "service_error_detail": "an error was encountered while running the model: read tcp 127.0.0.1:63452->127.0.0.1:58090: wsarecv: An existing connection was forcibly closed by the remote host.",
+          "elapsed_seconds": 1.3755772000004072
+        }
+      ],
+      "prompt_hash": "7cac41be08781d0db122390ac09681051ee6ba5dcc047cf8603ce62a7d6724ef",
+      "source_evidence_type_patterns": 5,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 498,
+      "cache_key": "042a05b8a94375aa8ca88daf51e5b0df71a410b83e38d9a4080b1c3a66f32ec4",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate: an error was encountered while running the model: read tcp 127.0.0.1:63452->127.0.0.1:58090: wsarecv: An existing connection was forcibly closed by the remote host.",
+      "elapsed_seconds": 1.3809333000099286
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:34797:37085",
+      "doc_id": "AA24-109A",
+      "folder": "65",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3349,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2397,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 8453214700,
+          "elapsed_seconds": 8.475220400025137
+        }
+      ],
+      "prompt_hash": "a4b1f5d6ea39912d841c9a067f2941966a02eee3b249860bfc0f504483d708e9",
+      "source_evidence_type_patterns": 10,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 498,
+      "cache_key": "351bfd345be20df3aee0e9e36358b43e1ca003fbdddcf7377e02ad4e13d6ddfa",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 8.480554399982793
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:36883:38919",
+      "doc_id": "AA24-109A",
+      "folder": "66",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3119,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2277,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2998544300,
+          "elapsed_seconds": 3.017703599995002
+        }
+      ],
+      "prompt_hash": "815beb5150444ed91a2044e1b579a07086ba377c97bc75dfa7e009682ab70bda",
+      "source_evidence_type_patterns": 9,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 499,
+      "cache_key": "246b6053d51cc72e9548ca2fa52fcbc9c77175b43af0aac33bae1df827cec1d0",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.023539099987829
+    },
+    {
+      "scope_id": "AA24-109A:evaluation:llama500:37679:39746",
+      "doc_id": "AA24-109A",
+      "folder": "67",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3332,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2400,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3024180200,
+          "elapsed_seconds": 3.036364700004924
+        }
+      ],
+      "prompt_hash": "fce708db1f6bfe51b8edc4470050a419556e25e60308e9c5f58d5023f3cc68e1",
+      "source_evidence_type_patterns": 10,
+      "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5",
+      "source_tokens": 500,
+      "cache_key": "3789910f9aa2ceb5b59158e64b870a4a9bd5fdc04fd85712918d972b0f571206",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.0406474999908824
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:4851:6963",
+      "doc_id": "AA25-071A",
+      "folder": "68",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1860,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1534,
+          "eval_count": 166,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2563275900,
+          "elapsed_seconds": 2.577106200013077
+        }
+      ],
+      "prompt_hash": "d5b4f418759a7919c19cc6f8fba6761db7c026c26f6e3fcc626eb8e4bdbae0d6",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 473,
+      "cache_key": "0fdfec785d4e3bd858b93f9260af123a881b5321583ed64ea2dfb9e81b72d0d2",
+      "entity_count": 4,
+      "relation_count": 3,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.5794139000063296
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:6767:8826",
+      "doc_id": "AA25-071A",
+      "folder": "69",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1382,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1349,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 422736100,
+          "elapsed_seconds": 0.4308022999903187
+        }
+      ],
+      "prompt_hash": "4fc19f57638e46f59365357d111091208751fb1b810492e3974828f0c60680f1",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 466,
+      "cache_key": "497f05b152f031be6396bf981496256f23bea1fe942cdfeb2f78ea38b0dc687d",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4329169999982696
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:8653:10741",
+      "doc_id": "AA25-071A",
+      "folder": "70",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2926,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2114,
+          "eval_count": 166,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2626878500,
+          "elapsed_seconds": 2.639178900019033
+        }
+      ],
+      "prompt_hash": "bc020c648f0b465c9f712cf7e1b41f1ce9e2f036527ecfaf49a39ce352a6be89",
+      "source_evidence_type_patterns": 8,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 490,
+      "cache_key": "67a5afd2e8631e8f6de43201fc36589eef3c38d15d0714ce6cb2c10cdf5f5aaa",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.642263499990804
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:10438:12511",
+      "doc_id": "AA25-071A",
+      "folder": "71",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1904,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1594,
+          "eval_count": 102,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1677480200,
+          "elapsed_seconds": 1.690312199993059
+        }
+      ],
+      "prompt_hash": "6d00f800eb372d055e2004676fc80eb22a5b6654827fdbeff8744bf50cc244f4",
+      "source_evidence_type_patterns": 3,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 462,
+      "cache_key": "d768fddd951e503352fc6f84d396846d58d9b3102581199d4fbc578d3f1b1994",
+      "entity_count": 3,
+      "relation_count": 2,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.6947613999946043
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:12220:14519",
+      "doc_id": "AA25-071A",
+      "folder": "72",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2811,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2093,
+          "eval_count": 194,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3026102800,
+          "elapsed_seconds": 3.0382740999921225
+        }
+      ],
+      "prompt_hash": "8531e262ad06706e4fad49f90326d2eb6ff02dc064d2372b881c19528d2b4f43",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 570,
+      "cache_key": "01a438846ebd03cb08047beb9d1c6735532bd10b12940f6d3fcf05d8f734e266",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.0429818999837153
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:14289:16172",
+      "doc_id": "AA25-071A",
+      "folder": "73",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2634,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1927,
+          "eval_count": 162,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2583286500,
+          "elapsed_seconds": 2.5939613000082318
+        }
+      ],
+      "prompt_hash": "f9b8cd049f214157dd377f1d33d226462b2118914ca864284ba7d40992b13d6f",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 469,
+      "cache_key": "47bdbac4774dca36575c2b40beedcb5de3e24683188dafba4f2d4675d036533f",
+      "entity_count": 8,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.5974313000042457
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:16025:18061",
+      "doc_id": "AA25-071A",
+      "folder": "74",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2657,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1959,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3078248800,
+          "elapsed_seconds": 3.0985494000196923
+        }
+      ],
+      "prompt_hash": "c1e58746f87853ea62e5b9b7c829d6cf79331fd0d501423096f81cc8080d7866",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 504,
+      "cache_key": "a819edf1e51e2a06ad8312b43cc7e04683d9f972318197baf249e35fd2ab473a",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.101283299998613
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:17810:20469",
+      "doc_id": "AA25-071A",
+      "folder": "75",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2332,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1834,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3044415400,
+          "elapsed_seconds": 3.0618247999809682
+        }
+      ],
+      "prompt_hash": "acc15c9c3de13ad78255e2110fe24a3602e35216feffba0c3a946f5365c02e57",
+      "source_evidence_type_patterns": 5,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 572,
+      "cache_key": "c74941a0bb2a688590348d67ec072f2e8fe029e2e2d67b2125decdf57bb215d8",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.065780300006736
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:20162:22243",
+      "doc_id": "AA25-071A",
+      "folder": "76",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1505,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1472,
+          "eval_count": 8,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 469591500,
+          "elapsed_seconds": 0.4765917000186164
+        }
+      ],
+      "prompt_hash": "c389aef100c347b80dace5382526ce40580621c2f26e11ca15c581ca3fd50905",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 504,
+      "cache_key": "9f774c679a74b07280d60530fb50fad9fca161453188175d3b8ede36f725579a",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4784909999871161
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:22047:23538",
+      "doc_id": "AA25-071A",
+      "folder": "77",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1681,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1648,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 381477200,
+          "elapsed_seconds": 0.38922979999915697
+        }
+      ],
+      "prompt_hash": "01d51071ccb350c0b8f1ecdbe72f794aa9d7b5fd3c2eb1eaa88d583c3a8b9929",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 493,
+      "cache_key": "43812745267317b7437457199ece037f4ff5061ee79f1739a259f34854f81cf7",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3915765999990981
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:23412:24966",
+      "doc_id": "AA25-071A",
+      "folder": "78",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1807,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1774,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 429831300,
+          "elapsed_seconds": 0.4371044999861624
+        }
+      ],
+      "prompt_hash": "a289134d72834bc231e59dde76d7fe8d248b392655c210029e1d4e5ff0dc863f",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 495,
+      "cache_key": "a1d71abc9adfb0082928fa12c2352b0f34fd02bdd30c236341876005ea7c7a51",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.43908680000458844
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:24695:26937",
+      "doc_id": "AA25-071A",
+      "folder": "79",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2565,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2173,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2972470000,
+          "elapsed_seconds": 2.9946969999873545
+        }
+      ],
+      "prompt_hash": "cde553a6c1c6052ce12c0b41595799e84b17fb509d800d2bdbef6be91deb0c2c",
+      "source_evidence_type_patterns": 4,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 497,
+      "cache_key": "8c0d856513f97d050f670ef7947562fca4a5cbc96373d62af940c6e9aad446df",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.9978499000135344
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:26712:28840",
+      "doc_id": "AA25-071A",
+      "folder": "80",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2755,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2173,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2954514400,
+          "elapsed_seconds": 2.967253000009805
+        }
+      ],
+      "prompt_hash": "19cde1c945fec99e96eff54383a4d40615045c4394bd928c854d04e5a095237f",
+      "source_evidence_type_patterns": 6,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 500,
+      "cache_key": "c08e28bb568de4d9584cbbd56ea06dc81366280232f525b9d8a01e0789952580",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 2.971123900002567
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:28548:30967",
+      "doc_id": "AA25-071A",
+      "folder": "81",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1799,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1766,
+          "eval_count": 11,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 545503500,
+          "elapsed_seconds": 0.5532948999898508
+        }
+      ],
+      "prompt_hash": "cbdb67325113087a2b406c03124ddc4730626689cdd99eaeb752f5ab954dc501",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 517,
+      "cache_key": "dd3ba3b84c6a117df40fa3d1c3203fbc12d7711ec568a160b462f1b47886070e",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.5553686000057496
+    },
+    {
+      "scope_id": "AA25-071A:evaluation:llama500:30061:32570",
+      "doc_id": "AA25-071A",
+      "folder": "82",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1399,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1366,
+          "eval_count": 6,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 371161900,
+          "elapsed_seconds": 0.3876555000024382
+        }
+      ],
+      "prompt_hash": "d10599b59ef6d8d2c17e7e131e0695b872c0c03f119906a70475fdd6521eddd9",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e",
+      "source_tokens": 500,
+      "cache_key": "34aa6a6ae2ae5d87b514922cf6f9bc22a0c42992862e41fae9f8cec779eb5fe6",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.39075240000966005
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:3851:6199",
+      "doc_id": "AA23-352A",
+      "folder": "83",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 5758,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 3231,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3523190500,
+          "elapsed_seconds": 3.54120960002183
+        }
+      ],
+      "prompt_hash": "f5a91e96e6ef1e6dc22e24e63998a63b9533f11881520b293e65c5babf12a6d8",
+      "source_evidence_type_patterns": 25,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 532,
+      "cache_key": "11b50d846c7e714a239001510f5556a7796e18b559d214dc126cceab3c451261",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.550843500008341
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:5924:7968",
+      "doc_id": "AA23-352A",
+      "folder": "84",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2613,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1902,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3071646700,
+          "elapsed_seconds": 3.0864377999969292
+        }
+      ],
+      "prompt_hash": "8572344379831e2473ccbbd2c956a513acbed1ca3acb5023023a8d6d3dc9e255",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 437,
+      "cache_key": "5ad57f09b10836b975e8527d01e040dc74f9cad692c9b996d782e30db95e63d9",
+      "entity_count": 6,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.0917164999991655
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:7618:10055",
+      "doc_id": "AA23-352A",
+      "folder": "85",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2500,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1818,
+          "eval_count": 98,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1675508700,
+          "elapsed_seconds": 1.6884716999775264
+        }
+      ],
+      "prompt_hash": "579086ea4f59761cbac8f83e3cda43715f944c27ec83f827d8b2f6307e954b17",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 500,
+      "cache_key": "ba0d273fa2fdfd82626d2b64c423a1143042e6b21cecc1aa009dd067ad44efd3",
+      "entity_count": 4,
+      "relation_count": 2,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.6932923999847844
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:9760:11935",
+      "doc_id": "AA23-352A",
+      "folder": "86",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3729,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2299,
+          "eval_count": 196,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3128419000,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 3.1373767999757547
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 3945,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2515,
+          "eval_count": 196,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2745308300,
+          "elapsed_seconds": 2.762050100020133
+        }
+      ],
+      "prompt_hash": "1b3f08180024cb3b235e3bc967033d9a2a8278ebee546982ccf8aff3551d1459",
+      "source_evidence_type_patterns": 15,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 512,
+      "cache_key": "d67b805a48a0375ba2d4f24aeb2e737efc69a1795341a75ace4588009c9d8c2c",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 5.912378399982117
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:11828:12848",
+      "doc_id": "AA23-352A",
+      "folder": "87",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1745,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1623,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1082016800,
+          "elapsed_seconds": 1.0932545999821741
+        }
+      ],
+      "prompt_hash": "3bef217bf3571408e0bfcd9dd33903e7a67ab8e8210ca9085a1d0408889f9678",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 497,
+      "cache_key": "d96018a3dc01038a2125af690e10cc2085c20bd21a6a7350eef90b50c510c565",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.0965367000026163
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:12733:14443",
+      "doc_id": "AA23-352A",
+      "folder": "88",
+      "status": "validation_failed",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2731,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1974,
+          "eval_count": 146,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2359469900,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.367491200013319
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 2897,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2140,
+          "eval_count": 111,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1544048900,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 1.5511355999915395
+        }
+      ],
+      "prompt_hash": "66351e355fb15f780789ff741a28b990fef833e14e2facf402d45c0993bcd3f9",
+      "source_evidence_type_patterns": 8,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 503,
+      "cache_key": "418bc562ab677782af7b98091f1851b81bd9d09bec4194183ba12598ecf8940c",
+      "error": "Repeated selected relationship.",
+      "elapsed_seconds": 3.9279611999809276
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:14145:16344",
+      "doc_id": "AA23-352A",
+      "folder": "89",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 4512,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2735,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 7467763900,
+          "elapsed_seconds": 7.487214900000254
+        }
+      ],
+      "prompt_hash": "bcb53527280ffc38664986ecbf36488a740c20f4a4e9e87036b61c71202e7675",
+      "source_evidence_type_patterns": 19,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 498,
+      "cache_key": "006b7a65f933521dffe0f178740fed1b0113bd20be9466ef7a1dddb56b2646d3",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 7.495261399977608
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:16080:17724",
+      "doc_id": "AA23-352A",
+      "folder": "90",
+      "status": "validation_failed",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2249,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1762,
+          "eval_count": 186,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 2826676700,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 2.835316300013801
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 2455,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1968,
+          "eval_count": 98,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 1366572600,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 1.3726566999976058
+        }
+      ],
+      "prompt_hash": "f729cfcdb8a7163bd20ec0a470bae500245cc92cd35fa16720b9f7b969ba43d5",
+      "source_evidence_type_patterns": 5,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 500,
+      "cache_key": "60199ad712561dbdf97d6cf3ca5fd45c6b493ada7d7cb6898005c879bef48d81",
+      "error": "Repeated selected relationship.",
+      "elapsed_seconds": 4.215325400000438
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:17529:18539",
+      "doc_id": "AA23-352A",
+      "folder": "91",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1586,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1464,
+          "eval_count": 54,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 985077800,
+          "elapsed_seconds": 0.9944684999936726
+        }
+      ],
+      "prompt_hash": "4cf160499cbf8eb09790a05fc8aecbbac4f57c131c3416794b6f8b04464c3802",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 590,
+      "cache_key": "eea481778076463b51e8c5c135eb0b077b758a4ab112173284c952c22770c84d",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.9977453000028618
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:18455:19130",
+      "doc_id": "AA23-352A",
+      "folder": "92",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1272,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1239,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 289023400,
+          "elapsed_seconds": 0.29683000000659376
+        }
+      ],
+      "prompt_hash": "a885eda3113348155812ed8d66d21be311f141f400232ddd26122d6625b0c75e",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 483,
+      "cache_key": "92e14de828697a53217d30120872bf04aa9ee7a13563bd7b6f1441bef6b8ffc6",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.2985326000198256
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:19034:19853",
+      "doc_id": "AA23-352A",
+      "folder": "93",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1290,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1257,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 220600300,
+          "elapsed_seconds": 0.22645009998814203
+        }
+      ],
+      "prompt_hash": "c5861c8ab2a539d3c4e79b146b1d3ff975daeb35714be2a36e90a2914fc2a93b",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 500,
+      "cache_key": "ab3c06444324339421202374e82d05d27beaaf3aa12155d09c35f8fb90ac1dc2",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.22898869999335147
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:19771:20652",
+      "doc_id": "AA23-352A",
+      "folder": "94",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1330,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1297,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 230877200,
+          "elapsed_seconds": 0.23732650000602007
+        }
+      ],
+      "prompt_hash": "8da446b0fc58ee4449b921a1bf527f81eeff7fec7bfe38f60c15fccf83a2a8ee",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 560,
+      "cache_key": "4fbfe5402d0c445807b314cb8f637b08a59d5b58c8001f3e09bfc2d16b18ac34",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.24021660001017153
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:20528:21542",
+      "doc_id": "AA23-352A",
+      "folder": "95",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1367,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1334,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 252857000,
+          "elapsed_seconds": 0.2611738999839872
+        }
+      ],
+      "prompt_hash": "7f94974514a069b273ff9083b18e0927eaaddbe77011624ade5f9630a1bfa4d4",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 591,
+      "cache_key": "f677544cff9e3ea0914d16f95cbe091db0a682dd6a06ea079d5c52c5d8c88504",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.26406740001402795
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:21415:22258",
+      "doc_id": "AA23-352A",
+      "folder": "96",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1274,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1241,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 219682000,
+          "elapsed_seconds": 0.22602549998555332
+        }
+      ],
+      "prompt_hash": "336826d6510e0d89b05376b2f5a728387a5089696b9a1d1407b4f93e0523902c",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 500,
+      "cache_key": "022fa2a8ad041c4611bf870f134cb58a8669f75113e50d1ad721a7df0b2504b6",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.2277612999896519
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:22179:22895",
+      "doc_id": "AA23-352A",
+      "folder": "97",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1201,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1168,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 193628700,
+          "elapsed_seconds": 0.200772300013341
+        }
+      ],
+      "prompt_hash": "005321fbf517570b8074d96c69aacc5111b362099cb5d3a3659d021a4dd693b2",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 431,
+      "cache_key": "29d867267bc00fd226d9e18ad8c4a256c9d8c540a48018fc59e83d388ae32347",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.2028676999907475
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:22768:24022",
+      "doc_id": "AA23-352A",
+      "folder": "98",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1482,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1360,
+          "eval_count": 6,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 279859300,
+          "elapsed_seconds": 0.2876817999931518
+        }
+      ],
+      "prompt_hash": "9d8214693f1aa333687ea5f42ad926334077f1ff60d89a45039770cdad667c1d",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 558,
+      "cache_key": "6f6f5f2f493cd104d3c7788c6590d21f86d0d3b40b4352e6676f8fafb39e6e8c",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.29099010000936687
+    },
+    {
+      "scope_id": "AA23-352A:evaluation:llama500:23163:24531",
+      "doc_id": "AA23-352A",
+      "folder": "99",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1428,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1306,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 288067500,
+          "elapsed_seconds": 0.29585699999006465
+        }
+      ],
+      "prompt_hash": "3633600c63b5a5c224251ba24a76aaf122de4781ab9495185405ba720d790667",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc",
+      "source_tokens": 500,
+      "cache_key": "d34ce757567814d9b187b59ccec073a334b7e9353e236a18c3b3fd7dd2d00531",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.29875479999464005
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:2065:4310",
+      "doc_id": "AA23-075A",
+      "folder": "100",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1581,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1455,
+          "eval_count": 58,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 989220500,
+          "elapsed_seconds": 0.9984617000154685
+        }
+      ],
+      "prompt_hash": "4e9aac3e364a86bd376af044bc5961e9e19d9e87b50c6fe26b6038bea00a88fe",
+      "source_evidence_type_patterns": 1,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 477,
+      "cache_key": "da7048278c96fe11f0b57cd00a7bda7616db688f154a8a9ad98ff2ca21629933",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 1.0019154000037815
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:4080:6201",
+      "doc_id": "AA23-075A",
+      "folder": "101",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 3016,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2219,
+          "eval_count": 202,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3169653100,
+          "elapsed_seconds": 3.185298100026557
+        }
+      ],
+      "prompt_hash": "697bf494fe05d632d0c5923277acaf73d2fa94b4ccf658a78aec50e2fd22ef15",
+      "source_evidence_type_patterns": 8,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 498,
+      "cache_key": "1ce8f8cfb89ed149b94fdffb07131a8f0476beb12aa2d2c0a24b211a200e67b7",
+      "entity_count": 5,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1884253000025637
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:5977:8086",
+      "doc_id": "AA23-075A",
+      "folder": "102",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2831,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2149,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3106960500,
+          "elapsed_seconds": 3.1222515999979805
+        }
+      ],
+      "prompt_hash": "2460ad1898912cc1f57d0af8496b9b15095d290f6e235d62123d44afc9b7937a",
+      "source_evidence_type_patterns": 7,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 496,
+      "cache_key": "0b9ac0f7214fcbd009d66dbe1f2e99df44d66b98a05bce3251ccd34fd6603f59",
+      "entity_count": 7,
+      "relation_count": 4,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.1251099000219256
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:7876:9861",
+      "doc_id": "AA23-075A",
+      "folder": "103",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2088,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2055,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 617888700,
+          "elapsed_seconds": 0.6243619000015315
+        }
+      ],
+      "prompt_hash": "6363bdc256ca317ed944b8d5451361244cc4b448c84cfbfe8c0d5c606868cd27",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 501,
+      "cache_key": "0e4a259c006382c9b96a0af15197f49babee2b99e3d3de70a04f771c9e0f664f",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.6284993000153918
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:9606:11457",
+      "doc_id": "AA23-075A",
+      "folder": "104",
+      "status": "candidates_ready_for_review",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 2724,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1948,
+          "eval_count": 198,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 3044145900,
+          "validation_error": "Repeated selected relationship.",
+          "elapsed_seconds": 3.0504966000153217
+        },
+        {
+          "attempt": 2,
+          "estimated_prompt_schema_tokens": 2942,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 2166,
+          "eval_count": 57,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 829857300,
+          "elapsed_seconds": 0.8403691000130493
+        }
+      ],
+      "prompt_hash": "9d9aa57cb9f026ea9f7ea9a77dc9a980099519f167f5adc536719ab55c8e46a8",
+      "source_evidence_type_patterns": 8,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 496,
+      "cache_key": "a7b455f46480306dd1bb2748a9e5dcd6f8bb3355c98138230d9c0ce4642bad24",
+      "entity_count": 2,
+      "relation_count": 1,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 3.898225300014019
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:11240:12930",
+      "doc_id": "AA23-075A",
+      "folder": "105",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1532,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1499,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 383607500,
+          "elapsed_seconds": 0.39165700000012293
+        }
+      ],
+      "prompt_hash": "92a10c401eacc6e1d2edc152e1163627868f10aebff6fafcd9e1b0521eda3e02",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 504,
+      "cache_key": "b95f0643732d08e23e963f436988ad17bcf360b63a45b37b83c1ef243bb1cb6f",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.394875999976648
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:12712:14097",
+      "doc_id": "AA23-075A",
+      "folder": "106",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1380,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1347,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 314543600,
+          "elapsed_seconds": 0.3203829000121914
+        }
+      ],
+      "prompt_hash": "a45341d0a768339c63aa36bbd1bbb2b7e998addd7b11ba9b275d6b329e257ef1",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 492,
+      "cache_key": "3c28d7d3f1ce94bd8f0c39e2d4178b2a0faa73c99196d90fee39ce49ca60685c",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3220259999798145
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:13954:15486",
+      "doc_id": "AA23-075A",
+      "folder": "107",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1397,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1364,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 267381800,
+          "elapsed_seconds": 0.275102900021011
+        }
+      ],
+      "prompt_hash": "3fe1832c79777a9eae0d576def1f4b1ef3aa868f389e9180abb7902de922eb2c",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 506,
+      "cache_key": "34aa5576abc866791692f76791e69428551ba00802757b0fb2df5c504ebc03c1",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.2766970999946352
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:15300:16716",
+      "doc_id": "AA23-075A",
+      "folder": "108",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1382,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1349,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 319827500,
+          "elapsed_seconds": 0.32601059999433346
+        }
+      ],
+      "prompt_hash": "81c3ae2c7300f8cdf2d27c486986c71249636e1257450ae6591ada88a4e63433",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 491,
+      "cache_key": "f1ca1d87e29fdd38c51a8cefc16355eb80b41f48758935f6cad56ebbe06d3945",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3274604999751318
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:16524:18208",
+      "doc_id": "AA23-075A",
+      "folder": "109",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1545,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1512,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 293295300,
+          "elapsed_seconds": 0.3004351000126917
+        }
+      ],
+      "prompt_hash": "fa51b4b7badcbfdcd8e449f2b3f791b3781e0d3a987606fa06f8f89f594a0cc7",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 499,
+      "cache_key": "d4a4a0e8d224cd9830433b1d59320065847119912e0f472a68ca72f2b176a35b",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.3022562999976799
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:17999:19572",
+      "doc_id": "AA23-075A",
+      "folder": "110",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1713,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1680,
+          "eval_count": 5,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 397375600,
+          "elapsed_seconds": 0.4059072000090964
+        }
+      ],
+      "prompt_hash": "5fcf489ff25e19b79f6d77ee95e2fd553a4f7d907e64cdfba2a7aa9b822d69b1",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 485,
+      "cache_key": "9c2ca7e0f8fe742132e45238ad7b0a25eadbf6ffa789f1ebd93b351524b4b7b2",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.4078256999782752
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:19385:20727",
+      "doc_id": "AA23-075A",
+      "folder": "111",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1461,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1428,
+          "eval_count": 6,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 345854300,
+          "elapsed_seconds": 0.3542136999894865
+        }
+      ],
+      "prompt_hash": "60e28e299e91ee82b62635b5053144f021dbc9b1fa6dcd8a5d3e1ab41f10a00d",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 517,
+      "cache_key": "f56f2fc3b197ef4c538476f6f8f649e7106a62f6130264b5c5e3b8784bc2c3a7",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.35646209999686107
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:20640:22313",
+      "doc_id": "AA23-075A",
+      "folder": "112",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1750,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1717,
+          "eval_count": 11,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 508394600,
+          "elapsed_seconds": 0.5171208000101615
+        }
+      ],
+      "prompt_hash": "9e7c07d7652dfeeb6c454da270f92fbc3812983abbcb0040e76e0331ee2b8011",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 501,
+      "cache_key": "a930a83bb27ecbf1b140b9579de5a525402a6ab7a98991907c868ae0f90c55b1",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.5191983999975491
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:22086:24117",
+      "doc_id": "AA23-075A",
+      "folder": "113",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1976,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1943,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 560868400,
+          "elapsed_seconds": 0.5674349000037182
+        }
+      ],
+      "prompt_hash": "89bfde14d05f5f98c404b091066c1bcf44498296c19aca6a29b0389fb9c889cd",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 501,
+      "cache_key": "cb0a000b72b6f7bcbf522b64b6054ea5e3b25be9702c6b9fade030904083b67e",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.5714566000096966
+    },
+    {
+      "scope_id": "AA23-075A:evaluation:llama500:23852:25424",
+      "doc_id": "AA23-075A",
+      "folder": "114",
+      "status": "empty_extraction",
+      "attempts": [
+        {
+          "attempt": 1,
+          "estimated_prompt_schema_tokens": 1771,
+          "reserved_chat_tokens": 256,
+          "http_status": 200,
+          "prompt_eval_count": 1738,
+          "eval_count": 9,
+          "done_reason": "stop",
+          "ollama_total_duration_ns": 529381400,
+          "elapsed_seconds": 0.5358703999954741
+        }
+      ],
+      "prompt_hash": "68d89894a663a9f1d99cf2bea3371a2247cddbe6c8fb70772c53076249879a88",
+      "source_evidence_type_patterns": 0,
+      "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b",
+      "source_tokens": 418,
+      "cache_key": "15795339a7350c3812fc5fa86f06a5bb7e7bfb0ebc59fed4f7bab2fdba7deefb",
+      "entity_count": 0,
+      "relation_count": 0,
+      "semantic_review_status": "pending",
+      "elapsed_seconds": 0.5379139999859035
+    }
+  ],
+  "retry_of": null,
+  "implementation_sha256": "a4a3896e0bc96a3d3895d32b90c009c762364b2a70afde3d205ea592788f81d6",
+  "batch_plan": {
+    "version": 1,
+    "purpose": "held_out_seven_report_source_extraction",
+    "prepared_fingerprint": "687258c21650ca1e12d809d6dc73140029efd6538b6e38ec19c73f280e694dd2",
+    "configuration_hash": "92bc65a2adb978f7b4d3788767000d028bd2fbb4872e5cd00212790c807fa8af",
+    "scope_ids": [
+      "AA23-165A:evaluation:llama500:2310:4719",
+      "AA23-165A:evaluation:llama500:4484:6401",
+      "AA23-165A:evaluation:llama500:6168:8098",
+      "AA23-165A:evaluation:llama500:7876:9874",
+      "AA23-165A:evaluation:llama500:9561:12066",
+      "AA23-165A:evaluation:llama500:11762:14040",
+      "AA23-165A:evaluation:llama500:13738:15981",
+      "AA23-165A:evaluation:llama500:15691:17884",
+      "AA23-165A:evaluation:llama500:17571:19802",
+      "AA23-165A:evaluation:llama500:19556:21857",
+      "AA23-165A:evaluation:llama500:21591:23692",
+      "AA23-165A:evaluation:llama500:23461:25646",
+      "AA23-165A:evaluation:llama500:25345:27570",
+      "AA23-165A:evaluation:llama500:26834:28843",
+      "AA23-061A:evaluation:llama500:4148:6616",
+      "AA23-061A:evaluation:llama500:6346:8622",
+      "AA23-061A:evaluation:llama500:8314:10530",
+      "AA23-061A:evaluation:llama500:10300:11484",
+      "AA23-061A:evaluation:llama500:11361:12517",
+      "AA23-061A:evaluation:llama500:12363:13460",
+      "AA23-061A:evaluation:llama500:13347:14347",
+      "AA23-061A:evaluation:llama500:14225:15219",
+      "AA23-061A:evaluation:llama500:15072:16294",
+      "AA23-061A:evaluation:llama500:16175:17122",
+      "AA23-061A:evaluation:llama500:17023:18422",
+      "AA23-061A:evaluation:llama500:18102:19740",
+      "AA23-061A:evaluation:llama500:19628:21225",
+      "AA23-061A:evaluation:llama500:21018:22127",
+      "AA23-061A:evaluation:llama500:21984:23147",
+      "AA23-061A:evaluation:llama500:23031:24536",
+      "AA23-061A:evaluation:llama500:24400:25638",
+      "AA23-061A:evaluation:llama500:25468:26522",
+      "AA23-061A:evaluation:llama500:26384:27829",
+      "AA23-061A:evaluation:llama500:27654:29231",
+      "AA23-061A:evaluation:llama500:28955:31241",
+      "AA23-061A:evaluation:llama500:30968:32954",
+      "AA23-061A:evaluation:llama500:32858:33890",
+      "AA23-061A:evaluation:llama500:33746:34826",
+      "AA23-061A:evaluation:llama500:34320:35790",
+      "AA24-131A:evaluation:llama500:4174:6733",
+      "AA24-131A:evaluation:llama500:6550:8835",
+      "AA24-131A:evaluation:llama500:8514:10969",
+      "AA24-131A:evaluation:llama500:10786:13129",
+      "AA24-131A:evaluation:llama500:12807:15323",
+      "AA24-131A:evaluation:llama500:15045:17380",
+      "AA24-131A:evaluation:llama500:15803:17845",
+      "AA24-109A:evaluation:llama500:4787:6854",
+      "AA24-109A:evaluation:llama500:6537:8882",
+      "AA24-109A:evaluation:llama500:8607:10825",
+      "AA24-109A:evaluation:llama500:10612:12792",
+      "AA24-109A:evaluation:llama500:12528:14948",
+      "AA24-109A:evaluation:llama500:14693:17032",
+      "AA24-109A:evaluation:llama500:16749:19037",
+      "AA24-109A:evaluation:llama500:18804:21019",
+      "AA24-109A:evaluation:llama500:20761:22564",
+      "AA24-109A:evaluation:llama500:22442:23336",
+      "AA24-109A:evaluation:llama500:23225:24336",
+      "AA24-109A:evaluation:llama500:24217:25330",
+      "AA24-109A:evaluation:llama500:25188:26526",
+      "AA24-109A:evaluation:llama500:26404:27411",
+      "AA24-109A:evaluation:llama500:27250:29059",
+      "AA24-109A:evaluation:llama500:28777:31133",
+      "AA24-109A:evaluation:llama500:30823:33030",
+      "AA24-109A:evaluation:llama500:32784:35082",
+      "AA24-109A:evaluation:llama500:34797:37085",
+      "AA24-109A:evaluation:llama500:36883:38919",
+      "AA24-109A:evaluation:llama500:37679:39746",
+      "AA25-071A:evaluation:llama500:4851:6963",
+      "AA25-071A:evaluation:llama500:6767:8826",
+      "AA25-071A:evaluation:llama500:8653:10741",
+      "AA25-071A:evaluation:llama500:10438:12511",
+      "AA25-071A:evaluation:llama500:12220:14519",
+      "AA25-071A:evaluation:llama500:14289:16172",
+      "AA25-071A:evaluation:llama500:16025:18061",
+      "AA25-071A:evaluation:llama500:17810:20469",
+      "AA25-071A:evaluation:llama500:20162:22243",
+      "AA25-071A:evaluation:llama500:22047:23538",
+      "AA25-071A:evaluation:llama500:23412:24966",
+      "AA25-071A:evaluation:llama500:24695:26937",
+      "AA25-071A:evaluation:llama500:26712:28840",
+      "AA25-071A:evaluation:llama500:28548:30967",
+      "AA25-071A:evaluation:llama500:30061:32570",
+      "AA23-352A:evaluation:llama500:3851:6199",
+      "AA23-352A:evaluation:llama500:5924:7968",
+      "AA23-352A:evaluation:llama500:7618:10055",
+      "AA23-352A:evaluation:llama500:9760:11935",
+      "AA23-352A:evaluation:llama500:11828:12848",
+      "AA23-352A:evaluation:llama500:12733:14443",
+      "AA23-352A:evaluation:llama500:14145:16344",
+      "AA23-352A:evaluation:llama500:16080:17724",
+      "AA23-352A:evaluation:llama500:17529:18539",
+      "AA23-352A:evaluation:llama500:18455:19130",
+      "AA23-352A:evaluation:llama500:19034:19853",
+      "AA23-352A:evaluation:llama500:19771:20652",
+      "AA23-352A:evaluation:llama500:20528:21542",
+      "AA23-352A:evaluation:llama500:21415:22258",
+      "AA23-352A:evaluation:llama500:22179:22895",
+      "AA23-352A:evaluation:llama500:22768:24022",
+      "AA23-352A:evaluation:llama500:23163:24531",
+      "AA23-075A:evaluation:llama500:2065:4310",
+      "AA23-075A:evaluation:llama500:4080:6201",
+      "AA23-075A:evaluation:llama500:5977:8086",
+      "AA23-075A:evaluation:llama500:7876:9861",
+      "AA23-075A:evaluation:llama500:9606:11457",
+      "AA23-075A:evaluation:llama500:11240:12930",
+      "AA23-075A:evaluation:llama500:12712:14097",
+      "AA23-075A:evaluation:llama500:13954:15486",
+      "AA23-075A:evaluation:llama500:15300:16716",
+      "AA23-075A:evaluation:llama500:16524:18208",
+      "AA23-075A:evaluation:llama500:17999:19572",
+      "AA23-075A:evaluation:llama500:19385:20727",
+      "AA23-075A:evaluation:llama500:20640:22313",
+      "AA23-075A:evaluation:llama500:22086:24117",
+      "AA23-075A:evaluation:llama500:23852:25424"
+    ],
+    "excluded_prior_scope_ids": [
+      "AA23-136A:development:llama500:3551:5862",
+      "AA23-136A:development:llama500:5605:7833",
+      "AA23-319A:development:llama500:2651:5181",
+      "AA23-319A:development:llama500:4860:7286",
+      "AA23-320A:development:llama500:2887:5261",
+      "AA23-320A:development:llama500:4957:7101",
+      "AA23-353A:development:llama500:3078:5323",
+      "AA23-353A:development:llama500:5039:6758",
+      "AA24-060A:development:llama500:2332:4570",
+      "AA24-060A:development:llama500:4275:6493",
+      "AA23-136A:development:llama500:7570:9807",
+      "AA23-136A:development:llama500:9538:11781",
+      "AA23-136A:development:llama500:11500:13402",
+      "AA23-136A:development:llama500:13135:15163",
+      "AA23-136A:development:llama500:14884:16865",
+      "AA23-136A:development:llama500:16592:18416",
+      "AA23-136A:development:llama500:18276:20181",
+      "AA23-136A:development:llama500:19858:22033",
+      "AA23-136A:development:llama500:21743:23976",
+      "AA23-136A:development:llama500:23752:25983",
+      "AA23-136A:development:llama500:25733:28112",
+      "AA23-319A:development:llama500:6993:9365",
+      "AA23-319A:development:llama500:9072:10856",
+      "AA23-319A:development:llama500:10658:12483",
+      "AA23-319A:development:llama500:12199:14452",
+      "AA23-319A:development:llama500:14258:15684",
+      "AA23-319A:development:llama500:15559:16518",
+      "AA23-319A:development:llama500:16407:17306",
+      "AA23-319A:development:llama500:17198:18151",
+      "AA23-319A:development:llama500:18035:19290",
+      "AA23-319A:development:llama500:19026:21144",
+      "AA23-319A:development:llama500:20899:23542",
+      "AA23-320A:development:llama500:6860:9044",
+      "AA23-320A:development:llama500:8738:11226",
+      "AA23-320A:development:llama500:10886:13401",
+      "AA23-320A:development:llama500:13144:15560",
+      "AA23-320A:development:llama500:15252:17668",
+      "AA23-320A:development:llama500:17403:19823",
+      "AA23-320A:development:llama500:19523:21935",
+      "AA23-320A:development:llama500:21657:23828",
+      "AA23-353A:development:llama500:6620:7679",
+      "AA23-353A:development:llama500:7546:8804",
+      "AA23-353A:development:llama500:8594:10523",
+      "AA23-353A:development:llama500:9068:11166",
+      "AA24-060A:development:llama500:6217:8285",
+      "AA24-060A:development:llama500:8001:10088",
+      "AA24-060A:development:llama500:9889:11600",
+      "AA24-060A:development:llama500:11464:12620",
+      "AA24-060A:development:llama500:12481:13892",
+      "AA24-060A:development:llama500:13641:14721",
+      "AA24-060A:development:llama500:14622:16556",
+      "AA24-060A:development:llama500:16276:18432",
+      "AA24-060A:development:llama500:18199:20450",
+      "AA24-060A:development:llama500:20213:22160"
+    ],
+    "document_ids": [
+      "AA23-165A",
+      "AA23-061A",
+      "AA24-131A",
+      "AA24-109A",
+      "AA25-071A",
+      "AA23-352A",
+      "AA23-075A"
+    ],
+    "excluded_development_reports": [
+      "AA22-321A",
+      "AA23-136A",
+      "AA23-144A",
+      "AA23-319A",
+      "AA23-320A",
+      "AA23-353A",
+      "AA24-038A",
+      "AA24-060A"
+    ],
+    "manifest_sha256": "82912f1045c928388bf612eec178468d883f582f622d539cb992bd9ed16c3885",
+    "split_manifest_sha256": "02f4818675b5977d2b830a66e31d798081a3d581e35894fc0e69c5d928e3d0f7",
+    "selection": "All technical-section windows in seven held-out reports after settings freeze; no labels or reference answers.",
+    "protocol_sha256": "987bc1a36f31d94941e817ccb6d2f0702138438e6cca19a195d11d02c59303c4",
+    "fingerprint": "89764a8af84a83b36f3aa17425775142376c305bddfd9ce07fc7019ded39945b"
+  },
+  "raw_candidate_relations": 183,
+  "unique_document_candidate_facts": 155,
+  "repeated_candidate_relations": 28,
+  "exact_source_support_duplicates": 5,
+  "ready_for_review": 60,
+  "empty_scopes": 49,
+  "failed_scopes": 5,
+  "selected_scope_count": 114,
+  "elapsed_seconds": 220.10191299999133,
+  "finished_at": "2026-10-16T04:15:03.209667+00:00",
+  "timing_scope": "Ollama availability check and sequential extraction/validation; chunk/catalog initialization excluded."
+}

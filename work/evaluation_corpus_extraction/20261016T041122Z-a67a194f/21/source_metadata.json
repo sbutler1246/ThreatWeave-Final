@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:13347:14347",
+    "doc_id": "AA23-061A",
+    "start": 13347,
+    "end": 14347,
+    "text": "cb160553a7df862f8d81809ee\nRansomware Executable\nd47d4b52e75e8cf3b11ea171163a66c06d1792227c1cf7ca49d7df60804a1681\nWindows Command Line (NirCmd)\n216047C048BF1DCBF031CF24BD5E0F263994A5DF60B23089E393033D17257CB5\nSystem Management (NSudo)\n19896A23D7B054625C2F6B1EE1551A0DA68AD25CDDBB24510A3B74578418E618\nAV tamper\n8A983042278BC5897DBCDD54D1D7E3143F8B7EAD553B5A4713E30DEFFDA16375\nTCP/UDP Tunnel over HTTP (Chisel)\n8a99353662ccae117d2bb22efd8c43d7169060450be413af763e8ad7522d2451\nUrsnif/Gozi\nbe030e685536eb38ba1fec1c90e90a4165f6641c8dc39291db1d23f4ee9fa0b1\nExfil\nB8C4AEC31C134ADBDBE8AAD65D2BCB21CFE62D299696A23ADD9AA1DE082C6E20\nRemote Access (AnyDesk)\n4a9dde3979c2343c024c6eeeddff7639be301826dd637c006074e04a1e4e9fe7\nPowerShell Toolkit Downloader\n4cd00234b18e04dcd745cc81bb928c8451f6601affb5fa45f20bb11bfb5383ce\nPsExec (Microsoft Sysinternals)\n08c6e20b1785d4ec4e3f9956931d992377963580b4b2c6579fd9930e08882b1c\nKeep Host Unlocked (Don’t Sleep)\nf8cff7082a936912baf2124d42ed82403c75c87cb160553a7df862f8d81809ee\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 12621,
+        "end": 12659,
+        "text": "Table 4: Tools Used by Royal Operators"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 498,
+  "inherited_context_tokens": 27,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "6f4e769b1be4f58b2b82a698660e3ddfcd523d339f1f1bc911e17fab8a96adfd",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:25468:26522",
+  "doc_id": "AA23-061A",
+  "start": 25468,
+  "end": 26522,
+  "text": "[.]122\nNov 2023\n45.76.225[.]156\nNov 2023\nTable 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)\nFile name\nHash Value – SHA-256\nDescription\nshare.exe\nf02af8ffc37d1874b971307fdec80e33e583b56d9ebabda78a4b8ad038bc3bf0\nCobalt Strike\n181.exe\nb028eaa0ec452c6844881dc34be813834813a40591b89ea9a57dd4fb4084e477\nCobalt Strike – File name\n222wqc.exe\nae724dce252c7b05a84bc264993172cf86950d22744b5e3a1b15ba645d9d3733\nCobalt Strike\ngmer.exe\nGMER / Rootkit Hunter\nPowerTool64.exe\nPowerTool64 for hacking\nPsexesvc.exe\n141b2190f51397dbd0dfde0e3904b264c91b6f81febc823ff0c33da980b69944\nSysinternals\nSocks5.ps1\nSocks.ps1\n25a6f82936134a6c5c0066f382530b9d6bf2c8da6feafe028f166b1a9d7283cf\nPowerShell Reverse Proxy\nnetscan.exe\nA network reconnaissance tool\n3iSDtcX.exe\ne87512ea12288acec611cf8e995c4ced3971d9e35c0c5dcfd9ee17c9e3ed913d\nPutty suite\nFile.exe\nf805dafb3c0b7e18aa7d8c96db8e8d4e9301ff619622d1aecc8080e0ecd9ebbe\nPutty.exe. Possibly used for C2\nMwntv.sys\n6332f189cc71df646ff0f1b9b02a005c9ebda3fe7b9712976660746913b030de\nPotential Tool Ingress\nAnyDesk\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    },
+    {
+      "start": 24231,
+      "end": 24325,
+      "text": "Table 12: IP addresses from BlackSuit Ransomware Deployments (from November 2023 to July 2024)"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

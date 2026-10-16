@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:19:07.8160109Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6904905700,
+  "load_duration": 10534100,
+  "prompt_eval_count": 562,
+  "prompt_eval_duration": 54670000,
+  "eval_count": 516,
+  "eval_duration": 6562190000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"LockBit affiliates use Mimikatz to dump credentials.\",\n        \"Volt Typhoon actors use Mimikatz to harvest credentials.\",\n        \"Akira threat actors use Mimikatz and LaZagne to dump credentials.\",\n        \"LockBit affiliates' advisory software-to-technique mapping includes Mimikatz for Defense Evasion.\",\n        \"Volt Typhoon actors' advisory software-to-technique mapping includes Mimikatz for Credential Access.\",\n        \"Akira threat actors' advisory software-to-technique mapping includes Mimikatz and LaZagne for Credential Access.\"\n    ]\n}\n\nHere's the breakdown of each sentence into fully understandable statements:\n\n1. \"LockBit affiliates use Mimikatz to dump credentials.\"\n\t* LockBit affiliates use Mimikatz.\n\t* LockBit affiliates use Mimikatz to dump credentials.\n2. \"Volt Typhoon actors use Mimikatz to harvest credentials.\"\n\t* Volt Typhoon actors use Mimikatz.\n\t* Volt Typhoon actors use Mimikatz to harvest credentials.\n3. \"Akira threat actors use Mimikatz and LaZagne to dump credentials.\"\n\t* Akira threat actors use Mimikatz.\n\t* Akira threat actors use LaZagne.\n\t* Akira threat actors use Mimikatz and LaZagne to dump credentials.\n4. \"LockBit affiliates' advisory software-to-technique mapping includes Mimikatz for Defense Evasion.\"\n\t* LockBit affiliates' advisory software-to-technique mapping includes Mimikatz.\n\t* LockBit affiliates' advisory software-to-technique mapping includes Mimikatz for Defense Evasion.\n5. \"Volt Typhoon actors' advisory software-to-technique mapping includes Mimikatz for Credential Access.\"\n\t* Volt Typhoon actors' advisory software-to-technique mapping includes Mimikatz.\n\t* Volt Typhoon actors' advisory software-to-technique mapping includes Mimikatz for Credential Access.\n6. \"Akira threat actors' advisory software-to-technique mapping includes Mimikatz and LaZagne for Credential Access.\"\n\t* Akira threat actors' advisory software-to-technique mapping includes Mimikatz.\n\t* Akira threat actors' advisory software-to-technique mapping includes LaZagne.\n\t* Akira threat actors' advisory software-to-technique mapping includes Mimikatz and LaZagne for Credential Access.\n\nNote that I've avoided using pronouns in each statement, as per your request.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

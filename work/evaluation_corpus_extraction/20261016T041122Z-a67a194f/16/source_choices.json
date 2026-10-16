@@ -1,0 +1,577 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Royal actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Royal threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "BlackSuit actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Gootloader",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "PowerTool",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "GMER are often used",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Ursnif",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "RClone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "vssadmin.exe",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Royal actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m004_G": {
+      "name": "Royal threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m006_G": {
+      "name": "BlackSuit actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m009_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m010_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    },
+    "m011_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m012_S": {
+      "name": "Gootloader",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "PowerTool",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "GMER are often used",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_S": {
+      "name": "Ursnif",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "RClone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m020_S": {
+      "name": "vssadmin.exe",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 11,
+      "text": "’s network.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 12,
+      "end": 98,
+      "text": "Ransomware operators often use open source projects to aid their intrusion activities.",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 99,
+      "end": 223,
+      "text": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572]",
+      "line_start": 99
+    },
+    "u004": {
+      "start": 225,
+      "end": 269,
+      "text": "to communicate with their C2 infrastructure.",
+      "line_start": 99
+    },
+    "u005": {
+      "start": 270,
+      "end": 302,
+      "text": "Lateral Movement and Persistence",
+      "line_start": 270
+    },
+    "u006": {
+      "start": 303,
+      "end": 472,
+      "text": "(Updated August 7, 2024) Historically, Royal threat actors used RDP and legitimate operating system (OS) diagnostic tools to move laterally across a network [T1021.001].",
+      "line_start": 303
+    },
+    "u007": {
+      "start": 473,
+      "end": 565,
+      "text": "BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally.",
+      "line_start": 303
+    },
+    "u008": {
+      "start": 566,
+      "end": 698,
+      "text": "In one confirmed case, BlackSuit actors used a legitimate admin account [T1078] to remotely log on to the domain controller via SMB.",
+      "line_start": 303
+    },
+    "u009": {
+      "start": 699,
+      "end": 836,
+      "text": "Once on the domain controller, the threat actor deactivated antivirus software [T1562.001] by modifying Group Policy Objects [T1484.001].",
+      "line_start": 303
+    },
+    "u010": {
+      "start": 837,
+      "end": 1008,
+      "text": "(Updated August 7, 2024) FBI observed BlackSuit actors using legitimate remote monitoring and management (RMM) software to maintain persistence in victim networks [T1133].",
+      "line_start": 837
+    },
+    "u011": {
+      "start": 1009,
+      "end": 1133,
+      "text": "(New August 7, 2024) BlackSuit actors use SystemBC and Gootloader malware to load additional tools and maintain persistence.",
+      "line_start": 1009
+    },
+    "u012": {
+      "start": 1134,
+      "end": 1165,
+      "text": "Discovery and Credential Access",
+      "line_start": 1134
+    },
+    "u013": {
+      "start": 1166,
+      "end": 1294,
+      "text": "(New August 7, 2024) BlackSuit actors have been observed using SharpShares and SoftPerfect NetWorx to enumerate victim networks.",
+      "line_start": 1166
+    },
+    "u014": {
+      "start": 1295,
+      "end": 1434,
+      "text": "The publicly available credential stealing tool Mimikatz and password harvesting tools from Nirsoft have also been found on victim systems.",
+      "line_start": 1166
+    },
+    "u015": {
+      "start": 1435,
+      "end": 1508,
+      "text": "Tools such as PowerTool and GMER are often used to kill system processes.",
+      "line_start": 1166
+    },
+    "u016": {
+      "start": 1509,
+      "end": 1521,
+      "text": "Exfiltration",
+      "line_start": 1509
+    },
+    "u017": {
+      "start": 1522,
+      "end": 1748,
+      "text": "BlackSuit actors exfiltrate data from victim networks by repurposing legitimate cyber penetration testing tools, such as Cobalt Strike, and malware tools/derivatives, such as Ursnif/Gozi, for data aggregation and exfiltration.",
+      "line_start": 1522
+    },
+    "u018": {
+      "start": 1749,
+      "end": 1867,
+      "text": "According to third-party reporting, BlackSuit actors’ first hop in exfiltration and other operations is usually a U.S.",
+      "line_start": 1522
+    },
+    "u019": {
+      "start": 1868,
+      "end": 1879,
+      "text": "IP address.",
+      "line_start": 1522
+    },
+    "u020": {
+      "start": 1880,
+      "end": 1967,
+      "text": "(New August 7, 2024) BlackSuit actors also use RClone and Brute Ratel for exfiltration.",
+      "line_start": 1880
+    },
+    "u021": {
+      "start": 1968,
+      "end": 1978,
+      "text": "Encryption",
+      "line_start": 1968
+    },
+    "u022": {
+      "start": 1979,
+      "end": 2036,
+      "text": "Before starting the encryption process, BlackSuit actors:",
+      "line_start": 1979
+    },
+    "u023": {
+      "start": 2037,
+      "end": 2166,
+      "text": "Use Windows Restart Manager to determine whether targeted files are currently in use or blocked by other applications [T1486].[1]",
+      "line_start": 2037
+    },
+    "u024": {
+      "start": 2167,
+      "end": 2275,
+      "text": "Use Windows Volume Shadow Copy service (vssadmin.exe) to delete shadow copies to inhibit system recovery.[1]",
+      "line_start": 2167
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1073",
+    "m002_G": "local:ThreatGroup:royal actors",
+    "m003_T": "attack:T1572",
+    "m004_G": "local:ThreatGroup:royal threat actors",
+    "m005_T": "attack:T1021.001",
+    "m006_G": "local:ThreatGroup:blacksuit actors",
+    "m007_S": "attack:S0029",
+    "m008_T": "attack:T1078",
+    "m009_T": "attack:T1562.001",
+    "m010_T": "attack:T1484.001",
+    "m011_T": "attack:T1133",
+    "m012_S": "attack:S1138",
+    "m013_S": "attack:S0002",
+    "m014_S": "local:Software:powertool",
+    "m015_S": "local:Software:gmer are often used",
+    "m016_S": "attack:S0154",
+    "m017_S": "attack:S0386",
+    "m018_S": "attack:S1040",
+    "m019_T": "attack:T1486",
+    "m020_S": "local:Software:vssadmin.exe"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u008"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m011_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m016_S",
+        "m017_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022",
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m019_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022",
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m020_S"
+      ]
+    }
+  ]
+}

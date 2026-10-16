@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u002"
+    ],
+    "selected_units": [
+      {
+        "start": 20,
+        "end": 47,
+        "text": "Akira ransomware encryptor.",
+        "line_start": 20
+      }
+    ],
+    "document_start": 22462,
+    "document_end": 22489,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-352A:evaluation:llama500:22179:22895",
+    "doc_id": "AA23-352A",
+    "start": 22179,
+    "end": 22895,
+    "text": " 61 00 5c 00 4c 00 6f 00 63 00 61 00 6c 00 5c 00 53 00 6f 00 67 00 6f 00 75 00 45 00 78 00 70 00 6c 00 6f 00 72 00 65 00 72 00 5c 00 57 00 65 00 62 00 6b 00 69 00 74 00 5c 00 55 00 73 00 65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_7_detected ;sid:1900008; rev:1;)\nalert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 44 00 65 00 66 00 61 00 75 00 6c 00 74 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 4c 00 6f 00 63 00 61 00 6c 00 5c 00 56 00 69 00 76 00 61 00 6c 00 64 00 69 00 5c 00 55 00 73 00 65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_8_detected; sid:1900009; rev:1;)\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 55,
+        "text": "#StopRansomware: Play Ransomware"
+      },
+      {
+        "start": 3834,
+        "end": 3851,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 431,
+  "inherited_context_tokens": 13,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "dabce6da512c24cefefcca73d88cfed55f79dbbc41a50f422aacb778e96de1a2",
+  "doc_id": "AA23-352A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+  "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc"
+}

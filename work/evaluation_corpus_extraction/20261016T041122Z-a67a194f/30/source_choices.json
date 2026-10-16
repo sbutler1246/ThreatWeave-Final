@@ -1,0 +1,611 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Exe.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "aaaa.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "qq.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Un_A.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "A",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Batch Script",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "BlackSuit Ransomware Operators and Hash Values",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Hash Value",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Filename",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "SHA-256",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "2.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "C",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "_EXEC.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "fstart.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "NLA",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "NLA.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Network Level Authentication",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "Remote Desktop Services",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "RDS",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "av.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "systeminfo",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "systeminfo.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m023",
+      "text": "mv.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m024",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Exe.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "aaaa.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "qq.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Un_A.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "A",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Batch Script",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_G": {
+      "name": "BlackSuit Ransomware Operators and Hash Values",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Hash Value",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "Filename",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "SHA-256",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "2.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "C",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "_EXEC.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "fstart.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "NLA",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "NLA.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_S": {
+      "name": "Network Level Authentication",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "Remote Desktop Services",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "RDS",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_S": {
+      "name": "av.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m021_S": {
+      "name": "systeminfo",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_S": {
+      "name": "systeminfo.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m023_S": {
+      "name": "mv.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m024_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 24,
+      "text": "27d8878d63827c9ee421ed62",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 25,
+      "end": 50,
+      "text": "Exe.exe, aaaa.exe, qq.exe",
+      "line_start": 25
+    },
+    "u003": {
+      "start": 51,
+      "end": 115,
+      "text": "338228a3e79f3993abc102cbac2ff253c84965213d59ac30892538cdd9b0a22b",
+      "line_start": 51
+    },
+    "u004": {
+      "start": 116,
+      "end": 131,
+      "text": "Ransomware file",
+      "line_start": 116
+    },
+    "u005": {
+      "start": 132,
+      "end": 141,
+      "text": "Mwntv.sys",
+      "line_start": 132
+    },
+    "u006": {
+      "start": 142,
+      "end": 206,
+      "text": "6332f189cc71df646ff0f1b9b02a005c9ebda3fe7b9712976660746913b030de",
+      "line_start": 142
+    },
+    "u007": {
+      "start": 207,
+      "end": 229,
+      "text": "Potential Tool Ingress",
+      "line_start": 207
+    },
+    "u008": {
+      "start": 230,
+      "end": 238,
+      "text": "Un_A.exe",
+      "line_start": 230
+    },
+    "u009": {
+      "start": 239,
+      "end": 309,
+      "text": "Malicious binary for attempting to disable/uninstall security software",
+      "line_start": 239
+    },
+    "u010": {
+      "start": 310,
+      "end": 319,
+      "text": "Un_B.erxe",
+      "line_start": 310
+    },
+    "u011": {
+      "start": 320,
+      "end": 390,
+      "text": "Malicious binary for attempting to disable/uninstall security software",
+      "line_start": 320
+    },
+    "u012": {
+      "start": 391,
+      "end": 474,
+      "text": "Table 11: Batch Script Tools Used by BlackSuit Ransomware Operators and Hash Values",
+      "line_start": 391
+    },
+    "u013": {
+      "start": 475,
+      "end": 483,
+      "text": "Filename",
+      "line_start": 475
+    },
+    "u014": {
+      "start": 484,
+      "end": 495,
+      "text": "Description",
+      "line_start": 484
+    },
+    "u015": {
+      "start": 496,
+      "end": 516,
+      "text": "Hash Value – SHA-256",
+      "line_start": 496
+    },
+    "u016": {
+      "start": 517,
+      "end": 522,
+      "text": "2.bat",
+      "line_start": 517
+    },
+    "u017": {
+      "start": 523,
+      "end": 565,
+      "text": "Batch Script to copy and execute encryptor",
+      "line_start": 523
+    },
+    "u018": {
+      "start": 566,
+      "end": 630,
+      "text": "3041dfc13f356c2f0133a9c11a258f87cb7de1e17bc435e9b623d74bc5e1c6be",
+      "line_start": 566
+    },
+    "u019": {
+      "start": 631,
+      "end": 650,
+      "text": "C:\\share$\\_EXEC.bat",
+      "line_start": 631
+    },
+    "u020": {
+      "start": 651,
+      "end": 668,
+      "text": "Execute encrypter",
+      "line_start": 651
+    },
+    "u021": {
+      "start": 669,
+      "end": 733,
+      "text": "8F87A1542EE790623896BBAAB933D1883484DE02A7B3D65D6C791D50173A923D",
+      "line_start": 669
+    },
+    "u022": {
+      "start": 734,
+      "end": 744,
+      "text": "fstart.bat",
+      "line_start": 734
+    },
+    "u023": {
+      "start": 745,
+      "end": 857,
+      "text": "A batch script used to enable remote services, perform anti-forensics, and enable clear-text passwords in memory",
+      "line_start": 745
+    },
+    "u024": {
+      "start": 858,
+      "end": 865,
+      "text": "NLA.bat",
+      "line_start": 858
+    },
+    "u025": {
+      "start": 866,
+      "end": 965,
+      "text": "A batch script used to disable Network Level Authentication (NLA) for Remote Desktop Services (RDS)",
+      "line_start": 866
+    },
+    "u026": {
+      "start": 966,
+      "end": 972,
+      "text": "av.bat",
+      "line_start": 966
+    },
+    "u027": {
+      "start": 973,
+      "end": 1050,
+      "text": "A batch script that searches for presence of an application and uninstalls it",
+      "line_start": 973
+    },
+    "u028": {
+      "start": 1051,
+      "end": 1065,
+      "text": "systeminfo.bat",
+      "line_start": 1051
+    },
+    "u029": {
+      "start": 1066,
+      "end": 1108,
+      "text": "A batch script used for system enumeration",
+      "line_start": 1066
+    },
+    "u030": {
+      "start": 1109,
+      "end": 1115,
+      "text": "mv.bat",
+      "line_start": 1109
+    },
+    "u031": {
+      "start": 1116,
+      "end": 1199,
+      "text": "A batch script used to move the PsExec executable and delete the netscan executable",
+      "line_start": 1116
+    },
+    "u032": {
+      "start": 1200,
+      "end": 1294,
+      "text": "Table 12: IP addresses from BlackSuit Ransomware Deployments (from November 2023 to July 2024)",
+      "line_start": 1200
+    },
+    "u033": {
+      "start": 1295,
+      "end": 1305,
+      "text": "IP Address",
+      "line_start": 1295
+    },
+    "u034": {
+      "start": 1306,
+      "end": 1323,
+      "text": "Time Range of Use",
+      "line_start": 1306
+    },
+    "u035": {
+      "start": 1324,
+      "end": 1335,
+      "text": "Description",
+      "line_start": 1324
+    },
+    "u036": {
+      "start": 1336,
+      "end": 1361,
+      "text": "143[.]244[.]146[.]183:443",
+      "line_start": 1336
+    },
+    "u037": {
+      "start": 1362,
+      "end": 1370,
+      "text": "May 2024",
+      "line_start": 1362
+    },
+    "u038": {
+      "start": 1371,
+      "end": 1405,
+      "text": "Unknown C2 – potential SOCKS Proxy",
+      "line_start": 1371
+    },
+    "u039": {
+      "start": 1406,
+      "end": 1430,
+      "text": "45[.]141[.]87[.]218:9000",
+      "line_start": 1406
+    },
+    "u040": {
+      "start": 1431,
+      "end": 1439,
+      "text": "May 2024",
+      "line_start": 1431
+    },
+    "u041": {
+      "start": 1440,
+      "end": 1471,
+      "text": "Arechclient2 Backdoor/SecTopRAT",
+      "line_start": 1440
+    },
+    "u042": {
+      "start": 1472,
+      "end": 1495,
+      "text": "45[.]141[.]87[.]218:443",
+      "line_start": 1472
+    },
+    "u043": {
+      "start": 1496,
+      "end": 1504,
+      "text": "May 2024",
+      "line_start": 1496
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:exe.exe",
+    "m002_S": "local:Software:aaaa.exe",
+    "m003_S": "local:Software:qq.exe",
+    "m004_S": "local:Software:un_a.exe",
+    "m005_S": "local:Software:a",
+    "m006_S": "local:Software:batch script",
+    "m007_G": "local:ThreatGroup:blacksuit ransomware operators and hash values",
+    "m008_S": "local:Software:hash value",
+    "m009_S": "local:Software:filename",
+    "m010_S": "local:Software:sha-256",
+    "m011_S": "local:Software:2.bat",
+    "m012_S": "local:Software:c",
+    "m013_S": "local:Software:_exec.bat",
+    "m014_S": "local:Software:fstart.bat",
+    "m015_S": "local:Software:nla",
+    "m016_S": "local:Software:nla.bat",
+    "m017_S": "local:Software:network level authentication",
+    "m018_S": "local:Software:remote desktop services",
+    "m019_S": "local:Software:rds",
+    "m020_S": "local:Software:av.bat",
+    "m021_S": "attack:S0096",
+    "m022_S": "local:Software:systeminfo.bat",
+    "m023_S": "local:Software:mv.bat",
+    "m024_S": "attack:S0029"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012",
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    }
+  ]
+}

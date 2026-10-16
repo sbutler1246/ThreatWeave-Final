@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+  "doc_id": "AA23-352A",
+  "start": 14145,
+  "end": 16344,
+  "text": " Enterprise for Discovery\nTechnique Title\nID\nUse\nSystem Network Configuration Discovery\nT1016\nPlay ransomware actors use tools like GRIXBA to identify network configurations and settings.\nSoftware Discovery: Security Software Discovery\nT1518.001\nPlay ransomware actors scan for antivirus software.\nTable 5: Play ATT&CK Techniques for Enterprise for Defense Evasion\nTechnique Title\nID\nUse\nImpair Defenses: Disable or Modify Tools\nT1562.001\nPlay ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.\nIndicator Removal: Clear Windows Event Logs\nT1070.001\nPlay ransomware actors delete logs or other indicators of compromise to hide intrusion activity.\nTable 6: Play ATT&CK Techniques for Enterprise for Credential Access\nTechnique Title\nID\nUse\nUnsecured Credentials\nT1552\nPlay ransomware actors attempt to identify and exploit credentials stored insecurely on a compromised network.\nOS Credential Dumping\nT1003\nPlay ransomware actors use tools like Mimikatz to dump credentials.\nTable 7: Play ATT&CK Techniques for Enterprise for Lateral Movement\nTechnique Title\nID\nUse\nLateral Tool Transfer\nT1570\nPlay ransomware actors distribute executables within the compromised environment.\nTable 8: Play ATT&CK Techniques for Enterprise for Command and Control\nTechnique Title\nID\nUse\nDomain Policy Modification: Group Policy Modification\nT1484.001\nPlay ransomware actors distribute executables via Group Policy Objects.\nTable 9: Play ATT&CK Techniques for Enterprise for Collection\nTechnique Title\nID\nUse\nArchive Collected Data: Archive via Utility\nT1560.001\nPlay ransomware actors use tools like WinRAR to compress files.\nTable 10: Play ATT&CK Techniques for Enterprise for Exfiltration\nTechnique Title\nID\nUse\nExfiltration Over Alternative Protocol\nT1048\nPlay ransomware actors use file transfer tools like WinSCP to transfer data.\nTable 11: Play ATT&CK Techniques for Enterprise for Impact\nTechnique Title\nID\nUse\nData Encrypted for Impact\nT1486\nPlay ransomware actors encrypt data on target systems to interrupt availability to system and network resources.\nFinancial Theft\nT1657\nPlay ransomware actors use a double-extortion model for financial gain.\nUpdate June 4, 2025:\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 55,
+      "text": "#StopRansomware: Play Ransomware"
+    },
+    {
+      "start": 3834,
+      "end": 3851,
+      "text": "Technical Details"
+    },
+    {
+      "start": 14110,
+      "end": 14145,
+      "text": "Table 4: Play ATT&CK Techniques for"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

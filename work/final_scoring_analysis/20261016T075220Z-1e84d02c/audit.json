@@ -1,0 +1,30 @@
+{
+  "status": "offline_audit_passed",
+  "source_run": "S:\\ThreatWeave\\work\\final_scoring_runs\\20261016T055210Z-1b048137",
+  "scoring_plan_fingerprint": "940b1fafe330feb9f254f0c134ca1c48864ed7c83f4bd78992406bd025148a90",
+  "metric_count": 720,
+  "statuses": {
+    "scored": 639,
+    "unavailable_answer": 45,
+    "failed": 36
+  },
+  "judge_calls": 1326,
+  "formula_recomputed_count": 414,
+  "failure_causes": {
+    "judge_output_limit": 36
+  },
+  "statement_verdict_count_mismatches": [],
+  "implementation_sha256": {
+    "evaluation/score_analysis.py": "6e1a45a6cc7e1133a836ef3dedbcb406127750ef871fcfe8e327911b3bc72ac2",
+    "analyze_final_scoring.py": "aeb884341dfa1883b03cdc30e8d70f1395262aec135a54ce17fcdf6fd7867e57"
+  },
+  "evaluator_formula_sources_sha256": {
+    ".venv-eval/Lib/site-packages/ragas/metrics/_faithfulness.py": "5370b57f3df537a1619f7c6ddeeb5fd67e392821a5dee30eb5e0830f3a75cdc9",
+    ".venv-eval/Lib/site-packages/ragas/metrics/_context_recall.py": "6a5ccb5d2fc32ca98efc7a6fd5567a4e1c4d124f4a8f1473b000490a9c36b5a2",
+    ".venv-eval/Lib/site-packages/ragas/prompt/utils.py": "4f1204b48b0e693ff1aef032292d94d9677ba35d7c23d700010817ff86885770"
+  },
+  "human_ratings_status": "pending",
+  "extraction_metrics_status": "pending",
+  "model_calls": 0,
+  "embedding_calls": 0
+}

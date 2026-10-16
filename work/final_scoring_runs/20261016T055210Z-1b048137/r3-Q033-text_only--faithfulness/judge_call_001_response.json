@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:34:31.812079Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9521925800,
+  "load_duration": 5626200,
+  "prompt_eval_count": 605,
+  "prompt_eval_duration": 291101000,
+  "eval_count": 700,
+  "eval_duration": 9103394000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"Akira actors use ngrok to bypass perimeter monitoring.\",\n    \"Ngrok is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections.\",\n    \"Akira actors use ngrok to connect to exfiltration servers.\",\n    \"Ngrok is used to create secure tunnels for data exfiltration.\",\n    \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is: Akira actors use ngrok to bypass perimeter monitoring, which is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, which is used to connect to exfiltration servers.\",\n    \"The ATT&CK technique is T1572: Protocol Tunneling.\",\n    \"The mitigation for T1572 is Filter Network Traffic (M1037).\",\n    \"The actual practical guidance for Filter Network Traffic (M1037) is to filter network traffic to untrusted or known bad domains and resources.\"\n  ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"Akira actors use ngrok to bypass perimeter monitoring.\"\n\t* \"Akira actors use ngrok.\"\n\t* \"Ngrok is used to bypass perimeter monitoring.\"\n2. \"Ngrok is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections.\"\n\t* \"Ngrok is used to hide C2 and remote access traffic.\"\n\t* \"Ngrok is used to exfiltrate traffic.\"\n\t* \"HTTPS connections are legitimate.\"\n3. \"Akira actors use ngrok to connect to exfiltration servers.\"\n\t* \"Akira actors use ngrok.\"\n\t* \"Ngrok is used to connect to exfiltration servers.\"\n4. \"Ngrok is used to create secure tunnels for data exfiltration.\"\n\t* \"Ngrok is used to create secure tunnels.\"\n\t* \"Secure tunnels are used for data exfiltration.\"\n5. \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is: Akira actors use ngrok to bypass perimeter monitoring, which is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, which is used to connect to exfiltration servers.\"\n\t* \"The two-hop path connecting Akira actors through ngrok to the cited ATT&CK technique is described.\"\n\t* \"Akira actors use ngrok to bypass perimeter monitoring.\"\n\t* \"Ngrok is used to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections.\"\n\t* \"Ngrok is used to connect to exfiltration servers.\"\n6. \"The ATT&CK technique is T1572: Protocol Tunneling.\"\n\t* \"The ATT&CK technique is identified.\"\n\t* \"The ATT&CK technique is T1572.\"\n\t* \"T1572 is Protocol Tunneling.\"\n7. \"The mitigation for T1572 is Filter Network Traffic (M1037).\"\n\t* \"The mitigation for T1572 is identified.\"\n\t* \"The mitigation for T1572 is Filter Network Traffic.\"\n\t* \"Filter Network Traffic is M1037.\"\n8. \"The actual practical guidance for Filter Network Traffic (M1037) is to filter network traffic to untrusted or known bad domains and resources.\"\n\t* \"The actual practical guidance for Filter Network Traffic is identified.\"\n\t",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

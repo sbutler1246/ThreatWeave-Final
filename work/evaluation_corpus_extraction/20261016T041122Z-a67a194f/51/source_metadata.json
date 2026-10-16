@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+    "doc_id": "AA24-109A",
+    "start": 12528,
+    "end": 14948,
+    "text": " such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega [T1537], to connect to exfiltration servers. In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].\nAfter exfiltrating data, Akira threat actors use a double-extortion model [T1657], which involves threat actors both encrypting systems [T1486] and threatening to leak sensitive information. The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].\n(Note: Tor, short for The Onion Router, is a decentralized network designed to anonymize internet traffic by routing it through multiple servers, encrypting data at each step. This network is often leveraged by threat actors to conceal their identities and activities, enabling secure and anonymous communication channels for malicious purposes, such as ransomware negotiations.)\nAkira threat actors do not leave an initial ransom demand or payment instructions on compromised networks and do not relay this information until contacted by the victim. Victims make ransom payments by using Bitcoin to cryptocurrency-wallet addresses provided by the Akira threat actors. To further apply pressure, Akira threat actors threaten to publish exfiltrated data on the Tor network, and in some instances have called victimized companies, according to FBI reporting.\nUpdate Nov. 13, 2025:\nIn some incidents, Akira threat actors exfiltrated data in just over two hours from initial access.13\nEnd Update\nEncryption\nAkira threat actors use a sophisticated hybrid encryption scheme to lock data. This involves combining a ChaCha20 stream cipher with an RSA public-key cryptosystem for a fast and secure key exchange [T1486]. This multilayered approach customizes encryption methods based on file type and size, and enables full or partial encryption. Encrypted files are appended with a .akira or .powerranges extension.\nUpdate Nov. 13, 2025:\nWith the new Akira_v2 variant, encrypted files are appended either with an .akira or .powerranges extension, or with .akiranew or .aki.\nEnd Update\nTo further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490].\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 511,
+  "inherited_context_tokens": 14,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "74917ab71a141c627516a4a2ae970b80e2dd2f36437778fcab5db0b0db685229",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

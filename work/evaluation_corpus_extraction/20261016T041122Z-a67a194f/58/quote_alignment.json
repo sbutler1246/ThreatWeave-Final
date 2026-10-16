@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u006"
+    ],
+    "selected_units": [
+      {
+        "start": 139,
+        "end": 157,
+        "text": "akira.exe, win.exe",
+        "line_start": 139
+      }
+    ],
+    "document_start": 24356,
+    "document_end": 24374,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

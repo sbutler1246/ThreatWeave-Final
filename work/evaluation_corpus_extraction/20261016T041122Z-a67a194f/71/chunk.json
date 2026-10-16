@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:10438:12511",
+  "doc_id": "AA25-071A",
+  "start": 10438,
+  "end": 12511,
+  "text": " the payload is an obfuscated base64 string read into memory, decompressed from gzip, and used to create a scriptblock. The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.\npowershell -nop -w hidden -noni -ep bypass &([scriptblock]::create((\nNew-Object System.IO.StreamReader(\nNew-Object System.IO.Compression.GzipStream((\nNew-Object System.IO.MemoryStream(,[System.Convert]::FromBase64String(\n(('<base64 payload string>')-f'<character replacement 0>','<character replacement 1>', '<character replacement 2>')))),[System.IO.Compression.CompressionMode]::Decompress))).ReadToEnd()))\nThe obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script that can create either a reverse or bind shell over Transport Layer Security (TLS) to load additional modules. In the bind shell, the script awaits a connection on local port 443 [T1071.001] and initiates a connection to a remote port 443 in the reverse shell.\nIn some instances, Medusa actors attempted to use vulnerable or signed drivers to kill or delete endpoint detection and response (EDR) tools [T1685].\n(Updated Aug. 18, 2026) Medusa actors place tooling, such as Rclone, in pre-existing Windows Defender excluded folders for stealth. [T1564.012].\nFBI has observed Medusa actors using the following tools to support command and control (C2) and stealth:\nLigolo-ng\nA reverse tunneling tool often used to create secure connections between a compromised host and threat actor’s machine.\nCloudflared\nFormerly known as ArgoTunnel.\nUsed to securely expose applications, services, or servers to the internet via Cloudflare Tunnel without exposing them directly.\n(Updated Aug. 18, 2026) FBI has also observed Medusa actors using:\nNezha\nAn operations and maintenance server monitoring tool used to allow backdoor visibility to compromised hosts from the threat actor’s machine.\nPublicly available on GitHub.\nInstalled using PowerShell on victim’s machine:\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

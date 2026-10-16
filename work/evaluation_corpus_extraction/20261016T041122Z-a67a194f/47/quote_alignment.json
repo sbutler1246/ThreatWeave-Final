@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u004"
+    ],
+    "selected_units": [
+      {
+        "start": 264,
+        "end": 542,
+        "text": "FBI and cybersecurity researchers1 observed Akira threat actors obtaining initial access to organizations through a virtual private network (VPN) service without multifactor authentication (MFA) configured,2 mostly using known Common Vulnerabilities and Exposures (CVEs) [T1190]",
+        "line_start": 264
+      }
+    ],
+    "document_start": 5051,
+    "document_end": 5329,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u018"
+    ],
+    "selected_units": [
+      {
+        "start": 1330,
+        "end": 1436,
+        "text": "For initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002]",
+        "line_start": 1330
+      }
+    ],
+    "document_start": 6117,
+    "document_end": 6223,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u018"
+    ],
+    "selected_units": [
+      {
+        "start": 1330,
+        "end": 1436,
+        "text": "For initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002]",
+        "line_start": 1330
+      }
+    ],
+    "document_start": 6117,
+    "document_end": 6223,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u024"
+    ],
+    "selected_units": [
+      {
+        "start": 1908,
+        "end": 2066,
+        "text": "Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003].",
+        "line_start": 1595
+      }
+    ],
+    "document_start": 6695,
+    "document_end": 6853,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

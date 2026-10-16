@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Akira threat actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "Mimikatz",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0002",
+    "canonical_name": "Mimikatz",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e3",
+    "mention": "SharpDomainSpray",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "LaZagne",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0349",
+    "canonical_name": "LaZagne",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "NetExec",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  }
+]

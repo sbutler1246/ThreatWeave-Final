@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Technique",
+      "name": "T1569.002",
+      "attack_id": "T1569.002"
+    },
+    {
+      "local_id": "e2",
+      "type": "Tactic",
+      "name": "TA0008",
+      "attack_id": "TA0008"
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1486",
+      "attack_id": "T1486"
+    },
+    {
+      "local_id": "e4",
+      "type": "Tactic",
+      "name": "TA0010",
+      "attack_id": "TA0010"
+    },
+    {
+      "local_id": "e5",
+      "type": "ThreatGroup",
+      "name": "Medusa actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e6",
+      "type": "Software",
+      "name": "PsExec",
+      "attack_id": null
+    },
+    {
+      "local_id": "e7",
+      "type": "Technique",
+      "name": "T1003.001",
+      "attack_id": "T1003.001"
+    },
+    {
+      "local_id": "e8",
+      "type": "Tactic",
+      "name": "TA0006",
+      "attack_id": "TA0006"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "PART_OF_TACTIC",
+      "tail": "e2",
+      "evidence": {
+        "start": 0,
+        "end": 140,
+        "quote": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "PART_OF_TACTIC",
+      "tail": "e4",
+      "evidence": {
+        "start": 0,
+        "end": 140,
+        "quote": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e5",
+      "predicate": "USES",
+      "tail": "e6",
+      "evidence": {
+        "start": 141,
+        "end": 229,
+        "quote": "When provided with valid username and password credentials, Medusa actors use PsExec to:"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e7",
+      "predicate": "PART_OF_TACTIC",
+      "tail": "e8",
+      "evidence": {
+        "start": 1079,
+        "end": 1260,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement."
+      },
+      "confidence": null
+    }
+  ]
+}

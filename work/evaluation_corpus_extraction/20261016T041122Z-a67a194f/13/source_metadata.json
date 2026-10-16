@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+    "doc_id": "AA23-165A",
+    "start": 25345,
+    "end": 27570,
+    "text": "\nID\nUse\nNetwork Service Discovery\nT1046\nLockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.\nLockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.\nSystem Information Discovery\nT1082\nLockBit affiliates will enumerate system information to include hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices.\nSystem Location Discovery: System Language Discovery\nT1614.001\nLockBit 3.0 will not infect machines with language settings that match a defined exclusion list.\nTable 12: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Lateral Movement\nTechnique Title\nID\nUse\nLateral Movement\nTA0008\nLockBit affiliates will laterally move across networks and access domain controllers.\nRemote Services: Remote Desktop Protocol\nT1021.001\nLockBit affiliates use Splashtop remote-desktop software to facilitate lateral movement.\nRemote Services: Server Message Block (SMB)/Admin Windows Shares\nT1021.002\nLockBit affiliates may use Cobalt Strike and target SMB shares for lateral movement.\nTable 13: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Collection\nTechnique Title\nID\nUse\nArchive Collected Data: Archive via Utility\nT1560.001\nLockBit affiliates may use 7-zip to compress and/or encrypt collected data prior to exfiltration.\nTable 14: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Command and Control\nTechnique Title\nID\nUse\nApplication Layer Protocol: File Transfer Protocols\nT1071.002\nLockBit affiliates may use FileZilla for C2.\nApplication Layer Protocol: Web Protocols\nT1071.001\nLockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.\nNon-Application Layer Protocol\nT1095\nLockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.\nProtocol Tunneling\nT1572\nLockBit affiliates use Plink to automate SSH actions on Windows.\nRemote Access Software\nT1219\nLockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.\nTable 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Exfiltration\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 25255,
+        "end": 25329,
+        "text": "Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 503,
+  "inherited_context_tokens": 34,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "99144ecbf2411b37cc856629b798503d38ee6a8fd2e1e2c8f67e3c52ea868975",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

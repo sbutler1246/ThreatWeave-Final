@@ -1,0 +1,148 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 88,
+      "text": "allRegular=\"0\" allHidden=\"0\" allAdminDrive=\"0\" limitUsers=\"NO_CHANGE\" abe=\"NO_CHANGE\"/>",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 89,
+      "end": 165,
+      "text": "Services.xml stops and disables services on the Active Directory (AD) hosts.",
+      "line_start": 89
+    },
+    "u003": {
+      "start": 166,
+      "end": 178,
+      "text": "Services.xml",
+      "line_start": 166
+    },
+    "u004": {
+      "start": 179,
+      "end": 217,
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+      "line_start": 179
+    },
+    "u005": {
+      "start": 218,
+      "end": 277,
+      "text": "<NTServices clsid=\"{2CFB484A-4E96-4b5d-A0B6-093D2F91E6AE}\">",
+      "line_start": 218
+    },
+    "u006": {
+      "start": 278,
+      "end": 335,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 278
+    },
+    "u007": {
+      "start": 336,
+      "end": 397,
+      "text": "name=\"SQLPBDMS\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 336
+    },
+    "u008": {
+      "start": 398,
+      "end": 491,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQLPBDMS\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 398
+    },
+    "u009": {
+      "start": 492,
+      "end": 504,
+      "text": "</NTService>",
+      "line_start": 492
+    },
+    "u010": {
+      "start": 505,
+      "end": 562,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 505
+    },
+    "u011": {
+      "start": 563,
+      "end": 627,
+      "text": "name=\"SQLPBENGINE\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 563
+    },
+    "u012": {
+      "start": 628,
+      "end": 724,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQLPBENGINE\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 628
+    },
+    "u013": {
+      "start": 725,
+      "end": 737,
+      "text": "</NTService>",
+      "line_start": 725
+    },
+    "u014": {
+      "start": 738,
+      "end": 795,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 738
+    },
+    "u015": {
+      "start": 796,
+      "end": 897,
+      "text": "name=\"MSSQLFDLauncher\" image=\"4\" changed=\"%s\" uid=\"%s\" userContext=\"0\" removePolicy=\"0\" disabled=\"0\">",
+      "line_start": 796
+    },
+    "u016": {
+      "start": 898,
+      "end": 998,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"MSSQLFDLauncher\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 898
+    },
+    "u017": {
+      "start": 999,
+      "end": 1011,
+      "text": "</NTService>",
+      "line_start": 999
+    },
+    "u018": {
+      "start": 1012,
+      "end": 1069,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 1012
+    },
+    "u019": {
+      "start": 1070,
+      "end": 1137,
+      "text": "name=\"SQLSERVERAGENT\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 1070
+    },
+    "u020": {
+      "start": 1138,
+      "end": 1237,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQLSERVERAGENT\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 1138
+    },
+    "u021": {
+      "start": 1238,
+      "end": 1250,
+      "text": "</NTService>",
+      "line_start": 1238
+    },
+    "u022": {
+      "start": 1251,
+      "end": 1308,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 1251
+    },
+    "u023": {
+      "start": 1309,
+      "end": 1384,
+      "text": "name=\"MSSQLServerOLAPService\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 1309
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

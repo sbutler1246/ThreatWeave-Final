@@ -1,0 +1,18 @@
+{
+  "task": {
+    "task_id": "r2-Q050-hybrid--answer_relevancy",
+    "case_id": "r2-Q050-hybrid",
+    "metric": "answer_relevancy",
+    "eligible": false
+  },
+  "input_sha256": "e5e4fa0d4bf36b8a0e68df831698eeebbaad3c23c341ba167af81513172a79c1",
+  "status": "unavailable_answer",
+  "value": null,
+  "reason": "Original generation failed; no valid response exists.",
+  "judge_calls": 0,
+  "elapsed_ms": 0.002200016751885414,
+  "files_sha256": {
+    "input.json": "f3bffd008fa17ff92a724ee661b28fcb45e51dda2931bde8b26aaa5b37ff5c70",
+    "result.json": "85977fa2fc66c4a9ab76f59405e892ca4d240abb8e358423ac68d87368f75cf2"
+  }
+}

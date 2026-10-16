@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:22:34.5337627Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5332336200,
+  "load_duration": 10533300,
+  "prompt_eval_count": 1737,
+  "prompt_eval_duration": 242813000,
+  "eval_count": 383,
+  "eval_duration": 5017232000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use Advanced Port Scanner to perform Network Service Discovery.\",\n      \"reason\": \"The context explicitly states that LockBit affiliates use Advanced Port Scanner to scan target networks, which is related to Network Service Discovery.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Service Discovery is a technique mapped to ThunderShell in AA23-165A.\",\n      \"reason\": \"The context does not mention ThunderShell or AA23-165A, so it cannot be inferred that Network Service Discovery is mapped to these.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Segmentation can mitigate Network Service Discovery.\",\n      \"reason\": \"The context explicitly states that Network Segmentation (M1030) can mitigate Network Service Discovery (T1046), so this statement can be inferred.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention can mitigate Remote Access Tools.\",\n      \"reason\": \"The context explicitly states that Network Intrusion Prevention (M1031) can mitigate Remote Access Tools (T1219), so this statement can be inferred.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Pre-compromise can mitigate Develop Capabilities.\",\n      \"reason\": \"The context explicitly states that Pre-compromise (M1056) can mitigate Develop Capabilities (T1587), so this statement can be inferred.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Pre-compromise can mitigate Email Addresses.\",\n      \"reason\": \"The context explicitly states that Pre-compromise (M1056) can mitigate Email Addresses (T1589.002), so this statement can be inferred.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

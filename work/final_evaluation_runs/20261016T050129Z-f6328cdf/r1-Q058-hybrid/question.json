@@ -1,0 +1,5 @@
+{
+  "question": "Compare AA24-109A and AA23-352A: which actors are reported using Mimikatz, and how do their advisory software-to-technique mappings compare? Cite both reports and keep each mapping within its source context.",
+  "mode": "hybrid",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

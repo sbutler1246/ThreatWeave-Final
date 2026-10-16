@@ -1,0 +1,62 @@
+SOURCE PASSAGES
+[E1; CISA]
+LockBit affiliates have used Mimikatz to dump credentials.
+[E2; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; CISA]
+Table 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion
+[E5; CISA]
+The U.S. authoring agencies have observed Volt Typhoon actors leveraging Mimikatz to harvest credentials, and industry partners have observed Volt Typhoon leveraging Impacket.[2]
+[E6; CISA]
+PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure
+[E7; CISA]
+TECHNICAL DETAILS
+[E8; CISA]
+Phobos actors used Mimikatz to export credentials.
+[E9; CISA]
+#StopRansomware: Phobos Ransomware
+[E10; CISA]
+TECHNICAL DETAILS
+[E11; CISA]
+Table 16: Phobos Threat Actors ATT&CK Techniques for Enterprise – Defense Evasion
+[E12; CISA]
+Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.
+[E13; CISA]
+#StopRansomware: Akira Ransomware
+[E14; CISA]
+Technical Details
+[E15; CISA]
+Table 14. Defense Evasion
+[E16; CISA]
+Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation.
+[E17; CISA]
+#StopRansomware: Black Basta
+[E18; CISA]
+Technical Details
+[E19; CISA]
+Table 1: Tools Used by Black Basta Affiliates
+[E20; CISA]
+Medusa actors access credential material stored in process memory or LSASS using Mimikatz.
+[E21; CISA]
+#StopRansomware: Medusa Ransomware
+[E22; CISA]
+Technical Details
+[E23; CISA]
+Table 3: Initial Access
+GRAPH NODES
+N1: LockBit affiliates
+N2: Mimikatz (S0002)
+N3: Volt Typhoon actors
+N4: Phobos actors
+N5: Akira threat actors
+N6: Black Basta affiliates
+N7: Medusa actors
+GRAPH PATHS
+P1: N1 --USES[E1,E2,E3,E4]--> N2
+P2: N3 --USES[E5,E6,E7]--> N2
+P3: N4 --USES[E8,E9,E10,E11]--> N2
+P4: N5 --USES[E12,E13,E14,E15]--> N2
+P5: N6 --USES[E16,E17,E18,E19]--> N2
+P6: N7 --USES[E20,E21,E22,E23]--> N2

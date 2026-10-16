@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:17810:20469",
+  "doc_id": "AA25-071A",
+  "start": 17810,
+  "end": 20469,
+  "text": ", or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.\n(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:\nRun a PowerShell base64 encoded command to exclude the entire C: drive from Windows Defender.\nUse robocopy to copy gaze.exe into C:\\Windows\\System32\\ via the RunFileCopy.cmd script.\nVerify if gaze.exe exists, then run it via the command.cmd script.\nUse command.cmd script to return a print statement indicating if gaze.exe was found.\n(Updated Aug. 18, 2026) The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines. They execute the encryptor using the command nohup python gaze.py &. Medusa actors also make use of an ESXi host profile [T1675] to change root passwords on Linux machines.\nEncrypted files have a .medusa file extension. The process gaze.exe terminates all services [T1489] related to backups, security, databases, communication, file sharing, and websites, and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note. Next, the actors remotely turn off [T1529] virtual machines, encrypt them, and delete their previously installed tools [T1070].\nExtortion\nMedusa RaaS uses a double-extortion model, where victims must pay [T1657] to decrypt files and prevent further release of their data. The ransom note demands victims make contact within 48 hours via either a Tor browser-based live chat, or via Tox, an end-to-end encrypted instant-messaging platform. If the victim does not respond to the ransom note, Medusa actors contact victims directly by phone or email. Medusa operates a .onion data leak site divulging victims alongside countdowns to the release of information.\n(Updated Aug. 18, 2026) Medusa actors post ransom demands on the leak site with direct hyperlinks to Medusa-affiliated cryptocurrency wallets and claimed number of views. Victims that are still actively negotiating sometimes do not appear on the ransom site, and the Medusa actors use the threat of posting victims as negotiation leverage. Medusa actors offer a “lower rate” for quick payments, stating that discounts will expire after an arbitrary amount of time. Additionally, Medusa actors research victim financial details and base their demands on publicly posted revenue. After a victim pays the ransom, Medusa actors claim to remove the victim’s information from the site. Note: There is no way to verify that Medusa actors remove victim data from the site.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

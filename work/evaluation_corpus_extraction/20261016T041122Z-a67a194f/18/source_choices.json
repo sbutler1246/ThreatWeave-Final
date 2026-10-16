@@ -1,0 +1,477 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "royal",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "royal",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 53,
+      "text": "Royal Ransomware Associated Files as of January 2023",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 54,
+      "end": 57,
+      "text": "IOC",
+      "line_start": 54
+    },
+    "u003": {
+      "start": 58,
+      "end": 69,
+      "text": "Description",
+      "line_start": 58
+    },
+    "u004": {
+      "start": 70,
+      "end": 76,
+      "text": ".royal",
+      "line_start": 70
+    },
+    "u005": {
+      "start": 77,
+      "end": 101,
+      "text": "Encrypted file extension",
+      "line_start": 77
+    },
+    "u006": {
+      "start": 102,
+      "end": 112,
+      "text": "README.TXT",
+      "line_start": 102
+    },
+    "u007": {
+      "start": 113,
+      "end": 124,
+      "text": "Ransom note",
+      "line_start": 113
+    },
+    "u008": {
+      "start": 125,
+      "end": 193,
+      "text": "Table 2: Royal Ransomware Associated IP addresses as of January 2023",
+      "line_start": 125
+    },
+    "u009": {
+      "start": 194,
+      "end": 206,
+      "text": "Malicious IP",
+      "line_start": 194
+    },
+    "u010": {
+      "start": 207,
+      "end": 229,
+      "text": "Last Observed Activity",
+      "line_start": 207
+    },
+    "u011": {
+      "start": 230,
+      "end": 246,
+      "text": "102.157.44[.]105",
+      "line_start": 230
+    },
+    "u012": {
+      "start": 247,
+      "end": 260,
+      "text": "November 2022",
+      "line_start": 247
+    },
+    "u013": {
+      "start": 261,
+      "end": 278,
+      "text": "105.158.118[.]241",
+      "line_start": 261
+    },
+    "u014": {
+      "start": 279,
+      "end": 292,
+      "text": "November 2022",
+      "line_start": 279
+    },
+    "u015": {
+      "start": 293,
+      "end": 308,
+      "text": "105.69.155[.]85",
+      "line_start": 293
+    },
+    "u016": {
+      "start": 309,
+      "end": 322,
+      "text": "November 2022",
+      "line_start": 309
+    },
+    "u017": {
+      "start": 323,
+      "end": 340,
+      "text": "113.169.187[.]159",
+      "line_start": 323
+    },
+    "u018": {
+      "start": 341,
+      "end": 354,
+      "text": "November 2022",
+      "line_start": 341
+    },
+    "u019": {
+      "start": 355,
+      "end": 369,
+      "text": "134.35.9[.]209",
+      "line_start": 355
+    },
+    "u020": {
+      "start": 370,
+      "end": 383,
+      "text": "November 2022",
+      "line_start": 370
+    },
+    "u021": {
+      "start": 384,
+      "end": 400,
+      "text": "139.195.43[.]166",
+      "line_start": 384
+    },
+    "u022": {
+      "start": 401,
+      "end": 414,
+      "text": "November 2022",
+      "line_start": 401
+    },
+    "u023": {
+      "start": 415,
+      "end": 431,
+      "text": "139.60.161[.]213",
+      "line_start": 415
+    },
+    "u024": {
+      "start": 432,
+      "end": 445,
+      "text": "November 2022",
+      "line_start": 432
+    },
+    "u025": {
+      "start": 446,
+      "end": 463,
+      "text": "148.213.109[.]165",
+      "line_start": 446
+    },
+    "u026": {
+      "start": 464,
+      "end": 477,
+      "text": "November 2022",
+      "line_start": 464
+    },
+    "u027": {
+      "start": 478,
+      "end": 494,
+      "text": "163.182.177[.]80",
+      "line_start": 478
+    },
+    "u028": {
+      "start": 495,
+      "end": 508,
+      "text": "November 2022",
+      "line_start": 495
+    },
+    "u029": {
+      "start": 509,
+      "end": 524,
+      "text": "181.141.3[.]126",
+      "line_start": 509
+    },
+    "u030": {
+      "start": 525,
+      "end": 538,
+      "text": "November 2022",
+      "line_start": 525
+    },
+    "u031": {
+      "start": 539,
+      "end": 556,
+      "text": "181.164.194[.]228",
+      "line_start": 539
+    },
+    "u032": {
+      "start": 557,
+      "end": 570,
+      "text": "November 2022",
+      "line_start": 557
+    },
+    "u033": {
+      "start": 571,
+      "end": 587,
+      "text": "185.143.223[.]69",
+      "line_start": 571
+    },
+    "u034": {
+      "start": 588,
+      "end": 601,
+      "text": "November 2022",
+      "line_start": 588
+    },
+    "u035": {
+      "start": 602,
+      "end": 615,
+      "text": "186.64.67[.]6",
+      "line_start": 602
+    },
+    "u036": {
+      "start": 616,
+      "end": 629,
+      "text": "November 2022",
+      "line_start": 616
+    },
+    "u037": {
+      "start": 630,
+      "end": 646,
+      "text": "186.86.212[.]138",
+      "line_start": 630
+    },
+    "u038": {
+      "start": 647,
+      "end": 660,
+      "text": "November 2022",
+      "line_start": 647
+    },
+    "u039": {
+      "start": 661,
+      "end": 678,
+      "text": "190.193.180[.]228",
+      "line_start": 661
+    },
+    "u040": {
+      "start": 679,
+      "end": 692,
+      "text": "November 2022",
+      "line_start": 679
+    },
+    "u041": {
+      "start": 693,
+      "end": 707,
+      "text": "196.70.77[.]11",
+      "line_start": 693
+    },
+    "u042": {
+      "start": 708,
+      "end": 721,
+      "text": "November 2022",
+      "line_start": 708
+    },
+    "u043": {
+      "start": 722,
+      "end": 738,
+      "text": "197.11.134[.]255",
+      "line_start": 722
+    },
+    "u044": {
+      "start": 739,
+      "end": 752,
+      "text": "November 2022",
+      "line_start": 739
+    },
+    "u045": {
+      "start": 753,
+      "end": 768,
+      "text": "197.158.89[.]85",
+      "line_start": 753
+    },
+    "u046": {
+      "start": 769,
+      "end": 782,
+      "text": "November 2022",
+      "line_start": 769
+    },
+    "u047": {
+      "start": 783,
+      "end": 798,
+      "text": "197.204.247[.]7",
+      "line_start": 783
+    },
+    "u048": {
+      "start": 799,
+      "end": 812,
+      "text": "November 2022",
+      "line_start": 799
+    },
+    "u049": {
+      "start": 813,
+      "end": 830,
+      "text": "197.207.181[.]147",
+      "line_start": 813
+    },
+    "u050": {
+      "start": 831,
+      "end": 844,
+      "text": "November 2022",
+      "line_start": 831
+    },
+    "u051": {
+      "start": 845,
+      "end": 861,
+      "text": "197.207.218[.]27",
+      "line_start": 845
+    },
+    "u052": {
+      "start": 862,
+      "end": 875,
+      "text": "November 2022",
+      "line_start": 862
+    },
+    "u053": {
+      "start": 876,
+      "end": 891,
+      "text": "197.94.67[.]207",
+      "line_start": 876
+    },
+    "u054": {
+      "start": 892,
+      "end": 905,
+      "text": "November 2022",
+      "line_start": 892
+    },
+    "u055": {
+      "start": 906,
+      "end": 921,
+      "text": "23.111.114[.]52",
+      "line_start": 906
+    },
+    "u056": {
+      "start": 922,
+      "end": 935,
+      "text": "November 2022",
+      "line_start": 922
+    },
+    "u057": {
+      "start": 936,
+      "end": 950,
+      "text": "41.100.55[.]97",
+      "line_start": 936
+    },
+    "u058": {
+      "start": 951,
+      "end": 964,
+      "text": "November 2022",
+      "line_start": 951
+    },
+    "u059": {
+      "start": 965,
+      "end": 979,
+      "text": "41.107.77[.]67",
+      "line_start": 965
+    },
+    "u060": {
+      "start": 980,
+      "end": 993,
+      "text": "November 2022",
+      "line_start": 980
+    },
+    "u061": {
+      "start": 994,
+      "end": 1008,
+      "text": "41.109.11[.]80",
+      "line_start": 994
+    },
+    "u062": {
+      "start": 1009,
+      "end": 1022,
+      "text": "November 2022",
+      "line_start": 1009
+    },
+    "u063": {
+      "start": 1023,
+      "end": 1038,
+      "text": "41.251.121[.]35",
+      "line_start": 1023
+    },
+    "u064": {
+      "start": 1039,
+      "end": 1052,
+      "text": "November 2022",
+      "line_start": 1039
+    },
+    "u065": {
+      "start": 1053,
+      "end": 1066,
+      "text": "41.97.65[.]51",
+      "line_start": 1053
+    },
+    "u066": {
+      "start": 1067,
+      "end": 1080,
+      "text": "November 2022",
+      "line_start": 1067
+    },
+    "u067": {
+      "start": 1081,
+      "end": 1095,
+      "text": "42.189.12[.]36",
+      "line_start": 1081
+    },
+    "u068": {
+      "start": 1096,
+      "end": 1109,
+      "text": "November 2022",
+      "line_start": 1096
+    },
+    "u069": {
+      "start": 1110,
+      "end": 1126,
+      "text": "45.227.251[.]167",
+      "line_start": 1110
+    },
+    "u070": {
+      "start": 1127,
+      "end": 1140,
+      "text": "November 2022",
+      "line_start": 1127
+    },
+    "u071": {
+      "start": 1141,
+      "end": 1153,
+      "text": "5.44.42[.]20",
+      "line_start": 1141
+    },
+    "u072": {
+      "start": 1154,
+      "end": 1167,
+      "text": "November 2022",
+      "line_start": 1154
+    },
+    "u073": {
+      "start": 1168,
+      "end": 1183,
+      "text": "61.166.221[.]46",
+      "line_start": 1168
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1073",
+    "m002_S": "attack:S1073"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

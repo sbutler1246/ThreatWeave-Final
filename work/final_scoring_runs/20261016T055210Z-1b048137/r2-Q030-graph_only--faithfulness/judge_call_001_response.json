@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:04:01.0347373Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6169115900,
+  "load_duration": 6882700,
+  "prompt_eval_count": 488,
+  "prompt_eval_duration": 158044000,
+  "eval_count": 467,
+  "eval_duration": 5907471000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Royal actors use Chisel.\",\n        \"Chisel is connected to Protocol Tunneling (T1572).\",\n        \"Network Intrusion Prevention (M1031) can mitigate Protocol Tunneling (T1572).\",\n        \"Network Intrusion Prevention (M1031) can identify traffic for specific adversary malware.\",\n        \"Protocol Tunneling (T1572) is connected to adversary malware.\",\n        \"Filter Network Traffic (M1037) can mitigate Protocol Tunneling (T1572).\",\n        \"Filter Network Traffic (M1037) can filter network traffic to untrusted or known bad domains and resources.\",\n        \"Protocol Tunneling (T1572) is connected to untrusted or known bad domains and resources.\"\n    ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"Royal actors use Chisel, which is connected to Protocol Tunneling (T1572).\"\n\t* \"Royal actors use Chisel.\"\n\t* \"Chisel is connected to Protocol Tunneling (T1572).\"\n2. \"Network Intrusion Prevention (M1031) can mitigate Protocol Tunneling (T1572) by identifying traffic for specific adversary malware.\"\n\t* \"Network Intrusion Prevention (M1031) can mitigate Protocol Tunneling (T1572).\"\n\t* \"Network Intrusion Prevention (M1031) can identify traffic for specific adversary malware.\"\n\t* \"Protocol Tunneling (T1572) is connected to adversary malware.\"\n3. \"Filter Network Traffic (M1037) can mitigate Protocol Tunneling (T1572) by filtering network traffic to untrusted or known bad domains and resources.\"\n\t* \"Filter Network Traffic (M1037) can mitigate Protocol Tunneling (T1572).\"\n\t* \"Filter Network Traffic (M1037) can filter network traffic to untrusted or known bad domains and resources.\"\n\t* \"Protocol Tunneling (T1572) is connected to untrusted or known bad domains and resources.\"\n\nNote that I've removed the evidence references ([E1, E2, E3, E4], [E4, E5], [E6, E7]) as they are not relevant to the breakdown of the sentences.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

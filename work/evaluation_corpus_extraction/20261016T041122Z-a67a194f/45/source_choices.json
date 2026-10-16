@@ -1,0 +1,638 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Black Basta",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Black Basta affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "ConnectWise",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1068",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Zerologon",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "NoPac",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "PrintNightmare",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1036",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Backstab",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1204",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "AnyDesk",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Microsoft’s Quick Assist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "Quick Assist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "vssadmin.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Black Basta",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Black Basta affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m004_S": {
+      "name": "ConnectWise",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1068",
+      "type": "Technique",
+      "attack_id": "T1068"
+    },
+    "m006_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Zerologon",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "NoPac",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "PrintNightmare",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1036",
+      "type": "Technique",
+      "attack_id": "T1036"
+    },
+    "m011_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m012_S": {
+      "name": "Backstab",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_T": {
+      "name": "T1204",
+      "type": "Technique",
+      "attack_id": "T1204"
+    },
+    "m014_S": {
+      "name": "AnyDesk",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "Microsoft’s Quick Assist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "Quick Assist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m018_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m019_S": {
+      "name": "vssadmin.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 8,
+      "text": "1566.004",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 9,
+      "end": 133,
+      "text": "Black Basta affiliates have used spearphishing phone and Microsoft Teams calls to trick users into providing initial access.",
+      "line_start": 9
+    },
+    "u003": {
+      "start": 134,
+      "end": 167,
+      "text": "Exploit Public-Facing Application",
+      "line_start": 134
+    },
+    "u004": {
+      "start": 168,
+      "end": 173,
+      "text": "T1190",
+      "line_start": 168
+    },
+    "u005": {
+      "start": 174,
+      "end": 277,
+      "text": "Black Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.",
+      "line_start": 174
+    },
+    "u006": {
+      "start": 278,
+      "end": 341,
+      "text": "Table 3: Black Basta ATT&CK Techniques for Privilege Escalation",
+      "line_start": 278
+    },
+    "u007": {
+      "start": 342,
+      "end": 357,
+      "text": "Technique Title",
+      "line_start": 342
+    },
+    "u008": {
+      "start": 358,
+      "end": 360,
+      "text": "ID",
+      "line_start": 358
+    },
+    "u009": {
+      "start": 361,
+      "end": 364,
+      "text": "Use",
+      "line_start": 361
+    },
+    "u010": {
+      "start": 365,
+      "end": 402,
+      "text": "Exploitation for Privilege Escalation",
+      "line_start": 365
+    },
+    "u011": {
+      "start": 403,
+      "end": 408,
+      "text": "T1068",
+      "line_start": 403
+    },
+    "u012": {
+      "start": 409,
+      "end": 544,
+      "text": "Black Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation.",
+      "line_start": 409
+    },
+    "u013": {
+      "start": 545,
+      "end": 603,
+      "text": "Table 4: Black Basta ATT&CK Techniques for Defense Evasion",
+      "line_start": 545
+    },
+    "u014": {
+      "start": 604,
+      "end": 619,
+      "text": "Technique Title",
+      "line_start": 604
+    },
+    "u015": {
+      "start": 620,
+      "end": 622,
+      "text": "ID",
+      "line_start": 620
+    },
+    "u016": {
+      "start": 623,
+      "end": 626,
+      "text": "Use",
+      "line_start": 623
+    },
+    "u017": {
+      "start": 627,
+      "end": 639,
+      "text": "Masquerading",
+      "line_start": 627
+    },
+    "u018": {
+      "start": 640,
+      "end": 645,
+      "text": "T1036",
+      "line_start": 640
+    },
+    "u019": {
+      "start": 646,
+      "end": 784,
+      "text": "Black Basta affiliates have conducted reconnaissance using utilities with innocuous file names, such as Intel or Dell, to evade detection.",
+      "line_start": 646
+    },
+    "u020": {
+      "start": 785,
+      "end": 825,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 785
+    },
+    "u021": {
+      "start": 826,
+      "end": 835,
+      "text": "T1562.001",
+      "line_start": 826
+    },
+    "u022": {
+      "start": 836,
+      "end": 953,
+      "text": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.",
+      "line_start": 836
+    },
+    "u023": {
+      "start": 954,
+      "end": 1028,
+      "text": "Black Basta affiliates have used PowerShell to disable antivirus products.",
+      "line_start": 954
+    },
+    "u024": {
+      "start": 1029,
+      "end": 1081,
+      "text": "Table 5: Black Basta ATT&CK Techniques for Execution",
+      "line_start": 1029
+    },
+    "u025": {
+      "start": 1082,
+      "end": 1097,
+      "text": "Technique Title",
+      "line_start": 1082
+    },
+    "u026": {
+      "start": 1098,
+      "end": 1100,
+      "text": "ID",
+      "line_start": 1098
+    },
+    "u027": {
+      "start": 1101,
+      "end": 1104,
+      "text": "Use",
+      "line_start": 1101
+    },
+    "u028": {
+      "start": 1105,
+      "end": 1119,
+      "text": "User Execution",
+      "line_start": 1105
+    },
+    "u029": {
+      "start": 1120,
+      "end": 1125,
+      "text": "T1204",
+      "line_start": 1120
+    },
+    "u030": {
+      "start": 1126,
+      "end": 1294,
+      "text": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+      "line_start": 1126
+    },
+    "u031": {
+      "start": 1295,
+      "end": 1340,
+      "text": "Command and Scripting Interpreter: PowerShell",
+      "line_start": 1295
+    },
+    "u032": {
+      "start": 1341,
+      "end": 1350,
+      "text": "T1059.001",
+      "line_start": 1341
+    },
+    "u033": {
+      "start": 1351,
+      "end": 1425,
+      "text": "Black Basta affiliates have used PowerShell to disable antivirus products.",
+      "line_start": 1351
+    },
+    "u034": {
+      "start": 1426,
+      "end": 1475,
+      "text": "Table 6: Black Basta ATT&CK Techniques for Impact",
+      "line_start": 1426
+    },
+    "u035": {
+      "start": 1476,
+      "end": 1491,
+      "text": "Technique Title",
+      "line_start": 1476
+    },
+    "u036": {
+      "start": 1492,
+      "end": 1494,
+      "text": "ID",
+      "line_start": 1492
+    },
+    "u037": {
+      "start": 1495,
+      "end": 1498,
+      "text": "Use",
+      "line_start": 1495
+    },
+    "u038": {
+      "start": 1499,
+      "end": 1522,
+      "text": "Inhibit System Recovery",
+      "line_start": 1499
+    },
+    "u039": {
+      "start": 1523,
+      "end": 1528,
+      "text": "T1490",
+      "line_start": 1523
+    },
+    "u040": {
+      "start": 1529,
+      "end": 1611,
+      "text": "Black Basta affiliates have used the vssadmin.exe program to delete shadow copies.",
+      "line_start": 1529
+    },
+    "u041": {
+      "start": 1612,
+      "end": 1637,
+      "text": "Data Encrypted for Impact",
+      "line_start": 1612
+    },
+    "u042": {
+      "start": 1638,
+      "end": 1643,
+      "text": "T1486",
+      "line_start": 1638
+    },
+    "u043": {
+      "start": 1644,
+      "end": 1713,
+      "text": "Black Basta affiliates have used a public key to fully encrypt files.",
+      "line_start": 1644
+    },
+    "u044": {
+      "start": 1714,
+      "end": 1738,
+      "text": "Indicators of Compromise",
+      "line_start": 1714
+    },
+    "u045": {
+      "start": 1739,
+      "end": 1763,
+      "text": "Update November 8, 2024:",
+      "line_start": 1739
+    },
+    "u046": {
+      "start": 1764,
+      "end": 1876,
+      "text": "Many indicators provided in this advisory’s initial publication have been removed considering they are outdated.",
+      "line_start": 1764
+    },
+    "u047": {
+      "start": 1877,
+      "end": 1962,
+      "text": "For historic reference, see AA24-131A #StopRansomware: Black Basta (Initial Version).",
+      "line_start": 1764
+    },
+    "u048": {
+      "start": 1963,
+      "end": 2074,
+      "text": "The IOCs listed in Tables 7–8 were obtained from trusted third-party reporting and are considered most current.",
+      "line_start": 1963
+    },
+    "u049": {
+      "start": 2075,
+      "end": 2334,
+      "text": "Disclaimer: The authoring organizations recommend network defenders investigate or vet IP addresses prior to taking action, such as blocking, as many cyber actors are known to change IP addresses, sometimes daily, and some IP addresses may host valid domains.",
+      "line_start": 2075
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1070",
+    "m002_G": "local:ThreatGroup:black basta affiliates",
+    "m003_T": "attack:T1190",
+    "m004_S": "attack:S0591",
+    "m005_T": "attack:T1068",
+    "m006_S": "attack:S0002",
+    "m007_S": "local:Software:zerologon",
+    "m008_S": "local:Software:nopac",
+    "m009_S": "local:Software:printnightmare",
+    "m010_T": "attack:T1036",
+    "m011_T": "attack:T1562.001",
+    "m012_S": "local:Software:backstab",
+    "m013_T": "attack:T1204",
+    "m014_S": "local:Software:anydesk",
+    "m015_S": "local:Software:microsoft’s quick assist",
+    "m016_S": "attack:S1209",
+    "m017_T": "attack:T1059.001",
+    "m018_T": "attack:T1490",
+    "m019_S": "local:Software:vssadmin.exe",
+    "m020_T": "attack:T1486"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S",
+        "m007_S",
+        "m008_S",
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u030"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m014_S",
+        "m015_S",
+        "m016_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u040"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m019_S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 98,
+      "text": "2026) Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502: Deserialization of Untrusted Data].",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 99,
+      "end": 195,
+      "text": "(Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command Injection].",
+      "line_start": 99
+    },
+    "u003": {
+      "start": 196,
+      "end": 467,
+      "text": "(Updated Aug. 18, 2026) Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors; however, the Healthcare and Public Health (HPH) Sector has been a frequent victim of Medusa operations.",
+      "line_start": 196
+    },
+    "u004": {
+      "start": 468,
+      "end": 630,
+      "text": "Medusa actors leverage vulnerability announcements, such as the February 2026 publication of BeyondTrust vulnerability CVE-2026-1731, to identify CVEs to exploit.",
+      "line_start": 196
+    },
+    "u005": {
+      "start": 631,
+      "end": 1084,
+      "text": "Medusa actors leverage newly announced exploits within 24 hours and have been observed to use exploits up to a week before public vulnerability disclosure.1 However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching.",
+      "line_start": 196
+    },
+    "u006": {
+      "start": 1085,
+      "end": 1193,
+      "text": "(Updated Aug. 18, 2026) Medusa actors make use of Interactsh dynamic URLs to verify successful exploitation.",
+      "line_start": 1085
+    },
+    "u007": {
+      "start": 1194,
+      "end": 1368,
+      "text": "Specifically, actors send HTTP requests to one of the Interactsh domains—oast[.]site, oast[.]pro, or oast[.]fun—embedding subdomain data that identifies the compromised host.",
+      "line_start": 1085
+    },
+    "u008": {
+      "start": 1369,
+      "end": 1524,
+      "text": "For example, Medusa actors made requests to <victim-name>.<random-33-alphanumeric-characters>.oast.site, an open source, out-of-band (OOB) external server.",
+      "line_start": 1085
+    },
+    "u009": {
+      "start": 1525,
+      "end": 1596,
+      "text": "This Interactsh server records these requests for the actors to review.",
+      "line_start": 1085
+    },
+    "u010": {
+      "start": 1597,
+      "end": 1622,
+      "text": "Persistence and Discovery",
+      "line_start": 1597
+    },
+    "u011": {
+      "start": 1623,
+      "end": 1811,
+      "text": "Medusa actors use living off the land (LOTL) techniques and legitimate tools, such as Advanced IP Scanner and SoftPerfect Network Scanner for initial user, system, and network enumeration.",
+      "line_start": 1623
+    },
+    "u012": {
+      "start": 1812,
+      "end": 1895,
+      "text": "Once a foothold in a victim network is established, commonly scanned ports include:",
+      "line_start": 1623
+    },
+    "u013": {
+      "start": 1896,
+      "end": 1904,
+      "text": "21 (FTP)",
+      "line_start": 1896
+    },
+    "u014": {
+      "start": 1905,
+      "end": 1913,
+      "text": "22 (SSH)",
+      "line_start": 1905
+    },
+    "u015": {
+      "start": 1914,
+      "end": 1925,
+      "text": "23 (Telnet)",
+      "line_start": 1914
+    },
+    "u016": {
+      "start": 1926,
+      "end": 1935,
+      "text": "80 (HTTP)",
+      "line_start": 1926
+    },
+    "u017": {
+      "start": 1936,
+      "end": 1946,
+      "text": "115 (SFTP)",
+      "line_start": 1936
+    },
+    "u018": {
+      "start": 1947,
+      "end": 1958,
+      "text": "443 (HTTPS)",
+      "line_start": 1947
+    },
+    "u019": {
+      "start": 1959,
+      "end": 1978,
+      "text": "1433 (SQL database)",
+      "line_start": 1959
+    },
+    "u020": {
+      "start": 1979,
+      "end": 2003,
+      "text": "3050 (Firebird database)",
+      "line_start": 1979
+    },
+    "u021": {
+      "start": 2004,
+      "end": 2025,
+      "text": "3128 (HTTP web proxy)",
+      "line_start": 2004
+    },
+    "u022": {
+      "start": 2026,
+      "end": 2047,
+      "text": "3306 (MySQL database)",
+      "line_start": 2026
+    },
+    "u023": {
+      "start": 2048,
+      "end": 2058,
+      "text": "3389 (RDP)",
+      "line_start": 2048
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_G": "local:ThreatGroup:medusa actors",
+    "m002_S": "attack:S0095"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

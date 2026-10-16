@@ -1,0 +1,600 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "SoftPerfect Network Scanner",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "AdFind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1082",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1614.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "TA0008",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1021.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1560.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1071.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1071.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1095",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m002_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "SoftPerfect Network Scanner",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "AdFind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1082",
+      "type": "Technique",
+      "attack_id": "T1082"
+    },
+    "m006_T": {
+      "name": "T1614.001",
+      "type": "Technique",
+      "attack_id": "T1614.001"
+    },
+    "m007_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_A": {
+      "name": "TA0008",
+      "type": "Tactic",
+      "attack_id": "TA0008"
+    },
+    "m009_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m010_T": {
+      "name": "T1021.002",
+      "type": "Technique",
+      "attack_id": "T1021.002"
+    },
+    "m011_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1560.001",
+      "type": "Technique",
+      "attack_id": "T1560.001"
+    },
+    "m013_T": {
+      "name": "T1071.002",
+      "type": "Technique",
+      "attack_id": "T1071.002"
+    },
+    "m014_T": {
+      "name": "T1071.001",
+      "type": "Technique",
+      "attack_id": "T1071.001"
+    },
+    "m015_T": {
+      "name": "T1095",
+      "type": "Technique",
+      "attack_id": "T1095"
+    },
+    "m016_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    },
+    "m017_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m018_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 3,
+      "text": "ID",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 4,
+      "end": 7,
+      "text": "Use",
+      "line_start": 4
+    },
+    "u003": {
+      "start": 8,
+      "end": 33,
+      "text": "Network Service Discovery",
+      "line_start": 8
+    },
+    "u004": {
+      "start": 34,
+      "end": 39,
+      "text": "T1046",
+      "line_start": 34
+    },
+    "u005": {
+      "start": 40,
+      "end": 162,
+      "text": "LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.",
+      "line_start": 40
+    },
+    "u006": {
+      "start": 163,
+      "end": 300,
+      "text": "LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.",
+      "line_start": 163
+    },
+    "u007": {
+      "start": 301,
+      "end": 329,
+      "text": "System Information Discovery",
+      "line_start": 301
+    },
+    "u008": {
+      "start": 330,
+      "end": 335,
+      "text": "T1082",
+      "line_start": 330
+    },
+    "u009": {
+      "start": 336,
+      "end": 529,
+      "text": "LockBit affiliates will enumerate system information to include hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices.",
+      "line_start": 336
+    },
+    "u010": {
+      "start": 530,
+      "end": 582,
+      "text": "System Location Discovery: System Language Discovery",
+      "line_start": 530
+    },
+    "u011": {
+      "start": 583,
+      "end": 592,
+      "text": "T1614.001",
+      "line_start": 583
+    },
+    "u012": {
+      "start": 593,
+      "end": 689,
+      "text": "LockBit 3.0 will not infect machines with language settings that match a defined exclusion list.",
+      "line_start": 593
+    },
+    "u013": {
+      "start": 690,
+      "end": 771,
+      "text": "Table 12: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Lateral Movement",
+      "line_start": 690
+    },
+    "u014": {
+      "start": 772,
+      "end": 787,
+      "text": "Technique Title",
+      "line_start": 772
+    },
+    "u015": {
+      "start": 788,
+      "end": 790,
+      "text": "ID",
+      "line_start": 788
+    },
+    "u016": {
+      "start": 791,
+      "end": 794,
+      "text": "Use",
+      "line_start": 791
+    },
+    "u017": {
+      "start": 795,
+      "end": 811,
+      "text": "Lateral Movement",
+      "line_start": 795
+    },
+    "u018": {
+      "start": 812,
+      "end": 818,
+      "text": "TA0008",
+      "line_start": 812
+    },
+    "u019": {
+      "start": 819,
+      "end": 904,
+      "text": "LockBit affiliates will laterally move across networks and access domain controllers.",
+      "line_start": 819
+    },
+    "u020": {
+      "start": 905,
+      "end": 945,
+      "text": "Remote Services: Remote Desktop Protocol",
+      "line_start": 905
+    },
+    "u021": {
+      "start": 946,
+      "end": 955,
+      "text": "T1021.001",
+      "line_start": 946
+    },
+    "u022": {
+      "start": 956,
+      "end": 1044,
+      "text": "LockBit affiliates use Splashtop remote-desktop software to facilitate lateral movement.",
+      "line_start": 956
+    },
+    "u023": {
+      "start": 1045,
+      "end": 1109,
+      "text": "Remote Services: Server Message Block (SMB)/Admin Windows Shares",
+      "line_start": 1045
+    },
+    "u024": {
+      "start": 1110,
+      "end": 1119,
+      "text": "T1021.002",
+      "line_start": 1110
+    },
+    "u025": {
+      "start": 1120,
+      "end": 1204,
+      "text": "LockBit affiliates may use Cobalt Strike and target SMB shares for lateral movement.",
+      "line_start": 1120
+    },
+    "u026": {
+      "start": 1205,
+      "end": 1280,
+      "text": "Table 13: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Collection",
+      "line_start": 1205
+    },
+    "u027": {
+      "start": 1281,
+      "end": 1296,
+      "text": "Technique Title",
+      "line_start": 1281
+    },
+    "u028": {
+      "start": 1297,
+      "end": 1299,
+      "text": "ID",
+      "line_start": 1297
+    },
+    "u029": {
+      "start": 1300,
+      "end": 1303,
+      "text": "Use",
+      "line_start": 1300
+    },
+    "u030": {
+      "start": 1304,
+      "end": 1347,
+      "text": "Archive Collected Data: Archive via Utility",
+      "line_start": 1304
+    },
+    "u031": {
+      "start": 1348,
+      "end": 1357,
+      "text": "T1560.001",
+      "line_start": 1348
+    },
+    "u032": {
+      "start": 1358,
+      "end": 1455,
+      "text": "LockBit affiliates may use 7-zip to compress and/or encrypt collected data prior to exfiltration.",
+      "line_start": 1358
+    },
+    "u033": {
+      "start": 1456,
+      "end": 1540,
+      "text": "Table 14: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Command and Control",
+      "line_start": 1456
+    },
+    "u034": {
+      "start": 1541,
+      "end": 1556,
+      "text": "Technique Title",
+      "line_start": 1541
+    },
+    "u035": {
+      "start": 1557,
+      "end": 1559,
+      "text": "ID",
+      "line_start": 1557
+    },
+    "u036": {
+      "start": 1560,
+      "end": 1563,
+      "text": "Use",
+      "line_start": 1560
+    },
+    "u037": {
+      "start": 1564,
+      "end": 1615,
+      "text": "Application Layer Protocol: File Transfer Protocols",
+      "line_start": 1564
+    },
+    "u038": {
+      "start": 1616,
+      "end": 1625,
+      "text": "T1071.002",
+      "line_start": 1616
+    },
+    "u039": {
+      "start": 1626,
+      "end": 1670,
+      "text": "LockBit affiliates may use FileZilla for C2.",
+      "line_start": 1626
+    },
+    "u040": {
+      "start": 1671,
+      "end": 1712,
+      "text": "Application Layer Protocol: Web Protocols",
+      "line_start": 1671
+    },
+    "u041": {
+      "start": 1713,
+      "end": 1722,
+      "text": "T1071.001",
+      "line_start": 1713
+    },
+    "u042": {
+      "start": 1723,
+      "end": 1819,
+      "text": "LockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.",
+      "line_start": 1723
+    },
+    "u043": {
+      "start": 1820,
+      "end": 1850,
+      "text": "Non-Application Layer Protocol",
+      "line_start": 1820
+    },
+    "u044": {
+      "start": 1851,
+      "end": 1856,
+      "text": "T1095",
+      "line_start": 1851
+    },
+    "u045": {
+      "start": 1857,
+      "end": 1948,
+      "text": "LockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.",
+      "line_start": 1857
+    },
+    "u046": {
+      "start": 1949,
+      "end": 1967,
+      "text": "Protocol Tunneling",
+      "line_start": 1949
+    },
+    "u047": {
+      "start": 1968,
+      "end": 1973,
+      "text": "T1572",
+      "line_start": 1968
+    },
+    "u048": {
+      "start": 1974,
+      "end": 2038,
+      "text": "LockBit affiliates use Plink to automate SSH actions on Windows.",
+      "line_start": 1974
+    },
+    "u049": {
+      "start": 2039,
+      "end": 2061,
+      "text": "Remote Access Software",
+      "line_start": 2039
+    },
+    "u050": {
+      "start": 2062,
+      "end": 2067,
+      "text": "T1219",
+      "line_start": 2062
+    },
+    "u051": {
+      "start": 2068,
+      "end": 2146,
+      "text": "LockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.",
+      "line_start": 2068
+    },
+    "u052": {
+      "start": 2147,
+      "end": 2224,
+      "text": "Table 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Exfiltration",
+      "line_start": 2147
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1046",
+    "m002_G": "local:ThreatGroup:lockbit affiliates",
+    "m003_S": "local:Software:softperfect network scanner",
+    "m004_S": "attack:S0552",
+    "m005_T": "attack:T1082",
+    "m006_T": "attack:T1614.001",
+    "m007_S": "attack:S1202",
+    "m008_A": "attack:TA0008",
+    "m009_T": "attack:T1021.001",
+    "m010_T": "attack:T1021.002",
+    "m011_S": "attack:S0154",
+    "m012_T": "attack:T1560.001",
+    "m013_T": "attack:T1071.002",
+    "m014_T": "attack:T1071.001",
+    "m015_T": "attack:T1095",
+    "m016_T": "attack:T1572",
+    "m017_T": "attack:T1219",
+    "m018_S": "attack:S0591"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    }
+  ]
+}

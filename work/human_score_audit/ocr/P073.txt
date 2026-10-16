@@ -1,0 +1,127 @@
+P073
+Question
+Compare AA24-109A and AA25-071A: which actors are reported using Mimikatz, and how do
+their advisory software-to-technique mappings compare? Cite both reports and keep each
+mapping within its source context.
+Displayed answer
+LockBit affiliates use Mimikatz to dump credentials. [El, E2, E3, E4]
+Volt Typhoon actors use Mimikatz to harvest credentials. [E8, E9, EIO]
+Akira threat actors use Mimikatz to dump credentials. [El 5, El 2, El 3, El 6]
+LockBit affiliates' advisory software-to-technique mappings include Mimikatz (S0002) for
+Defense Evasion. [E4]
+Volt Typhoon actors' advisory software-to-technique mappings include Mimikatz for Credential
+Access. [E8, E9, EIO]
+Akira threat actors' advisory software-to-technique mappings include Mimikatz for Credential
+Access. [El 5, E12, E13, El 6]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+AA24-109A reports Akira threat actors using Mimikatz, with advisory mappings T 1003; AA25-071A
+reports Medusa actors using Mimikatz, with advisory mappings T 1003.001. These mappings
+describe the cited reports and do not establish that every use of the software has these behaviors.
+The first report uses the parent technique T 1003 (OS Credential Dumping); the Medusa report
+specifies T 1003.001 (LSASS Memory), a sub-technique of T 1003. This is a difference in specificity
+of the reported mapping.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+LockBit affiliates have used Mimikatz to dump credentials.
+
+--- IMAGE ---
+
+[Q; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; CISA]
+Table 9: LockBit Affiliates' ATT&CK Techniques for Enterprise — Defense Evasion
+[E-5; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance
+with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE
+ATT&CK's Best Practices for MITRE ATT&CK Mapping and CISA's Decider Tool.
+Additional notable T TPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+Use
+Develop Capabilities
+T 1587
+Rhysida actors have been observed developing resources and custom tools, particularly with
+program names set to "Rhysida-0.1 " to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+Use
+Valid Accounts
+T 1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+
+--- IMAGE ---
+
+Table 11: Execution
+Technique Title
+Use
+Command and Scripting Interpreter: Cloud API
+T 1059.009
+Rhysida actors leverage AZCopy, a command-line utility that
+[E6; CISA]
+#StopRansomware: Rhysida Ransomware
+[E7; CISA]
+Technical Details
+[E8; CISA]
+The U.S. authoring agencies have observed Volt Typhoon actors leveraging Mimikatz to harvest
+credentials, and industry partners have observed Volt Typhoon leveraging Impacket.[2]
+[E9; CISA]
+PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical
+Infrastructure
+[Elo; CISA]
+TECHNICAL DETAILS
+[El 1; CISA]
+002
+Akira threat actors use the net group /domain command to find domain level groups and
+permission settings.
+System Information Discovery
+
+--- IMAGE ---
+
+T 1082
+Akira threat actors use tools like PCHunter64 to acquire detailed process and system information.
+Update Nov. 13, 2025
+Akira threat actors use DiskCheck software to query remote systems for information on disk drives
+and installed software.
+End Update
+Update Nov. 13, 2025
+Account Discovery: Domain Account
+T 1087.002
+Akira threat actors use Adfind.exe to query and retrieve information from Active Directory.
+End Update
+Domain Trust Discovery
+T 1482
+Akira threat actors use the net Windows command to enumerate domain information.
+Update Nov. 13, 2025
+Akira threat actors use nltest /DOMAIN TRUSTS commands to enumerate domain trusts.
+End Update
+Table 17. Lateral Movement
+Technique Title
+Use
+Update Nov. 13, 2025
+Remote Services
+[El 2; CISA]
+#StopRansomware: Akira Ransomware
+[El 3; CISA]
+Technical Details
+[E14; CISA]
+Table 15. Credential Access
+[El 5; CISA]
+Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.
+
+--- IMAGE ---
+
+[El 6; CISA]
+Table 14. Defense Evasion
+GRAPH NODES
+N 1: LockBit affiliates
+N2: Mimikatz (S0002)
+N3: Volt Typhoon actors
+N4: Akira threat actors
+GRAPH PATHS
+p 1: Nl
+--USES[EI N2

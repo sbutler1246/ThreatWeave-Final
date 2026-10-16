@@ -1,0 +1,6 @@
+{"relations": [
+    {"unit_ids": ["u013"], "context_ids": [], "head": "m002_G", "predicate": "USES_TECHNIQUE", "tail": "m004_T"},
+    {"unit_ids": ["u013"], "context_ids": [], "head": "m002_G", "predicate": "USES_TECHNIQUE", "tail": "m006_T"},
+    {"unit_ids": ["u013"], "context_ids": [], "head": "m002_G", "predicate": "USES_TECHNIQUE", "tail": "m007_T"},
+    {"unit_ids": ["u013"], "context_ids": [], "head": "m002_G", "predicate": "USES_TECHNIQUE", "tail": "m008_T"}
+]}

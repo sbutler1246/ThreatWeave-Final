@@ -1,0 +1,68 @@
+P052
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to Splashtop in AA23-165A? Follow the two-hop software-to-technique-
+to-mitigation path. Distinguish advisory observations from reference recommendations.
+Displayed answer
+Pre-compromise (MI 056) mitigates Develop Capabilities (Tl 587) in Enterprise ATT&CK 17.1.
+Disable or Remove Feature or Program (MI 042) mitigates Impair Defenses (Tl 562) in
+Enterprise ATT&CK 17.1. [E4, E6]
+Execution Prevention (M 1038) mitigates Impair Defenses (Tl 562) in Enterprise ATT&CK 17.1.
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+The selected advisory row maps its reported use to T 1021.001 (Remote Desktop Protocol). The
+direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1018
+(User Account Management), MI 026 (Privileged Account Management), MI 028 (Operating
+System Configuration), MI 030 (Network Segmentation), MI 032 (Multi-factor Authentication),
+MI 035 (Limit Access to Resource Over Network), M 1042 (Disable or Remove Feature or Program),
+M 1047 (Audit). These are reference mitigation associations, not incident-specific proof of
+effectiveness.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[Q; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (Tl 587)
+Mitigation: Pre-compromise (MI 056)
+[E3; ATTACK]
+Consider removing previous versions of tools that are unnecessary to the environment when
+possible.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: Disable or Remove Feature or Program (MI 042)
+[E-5; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of
+the organization's security policies (such as rootkit removal tools) that have been abused to
+impair system defenses. Ensure that only approved security applications are used and running on
+enterprise systems.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: Execution Prevention (MI 038)
+[E7; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (Tl 586)
+Mitigation: Pre-compromise (MI 056)
+
+--- IMAGE ---
+
+[E9; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of
+the organization's security policies (such as rootkit removal tools) that have been abused to
+impair system defenses. Ensure that only approved security applications are used and running on
+enterprise systems.
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Disable or Modify Tools (Tl 562.001)
+Mitigation: Execution Prevention (MI 038)
+GRAPH NODES
+GRAPH PATHS

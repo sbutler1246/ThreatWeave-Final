@@ -1,0 +1,44 @@
+DOCUMENT_ID: AA23-352A
+CHUNK_ID: AA23-352A:evaluation:llama500:9760:11935
+SOURCE_UNITS:
+{"u001": "to query and retrieve information from Active Directory.", "u002": "GMER", "u003": "A software tool intended to be used for detecting and removing rootkits.", "u004": "IOBit", "u005": "An anti-malware and anti-virus program for the Microsoft Windows operating system.", "u006": "Play actors have accessed IOBit to disable antivirus software.", "u007": "PsExec", "u008": "A tool designed to run programs and execute commands on remote systems.", "u009": "PowerTool", "u010": "A Windows utility designed to improve speed, remove bloatware, protect privacy, and eliminate data collection, among other things.", "u011": "PowerShell", "u012": "A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.", "u013": "Cobalt Strike", "u014": "A penetration testing tool used by security professionals to test the security of networks and systems.", "u015": "Play ransomware actors have used it to assist with lateral movement and file execution.", "u016": "Mimikatz", "u017": "Allows users to view and save authentication credentials such as Kerberos tickets.", "u018": "Play ransomware actors have used it to add accounts to domain controllers.", "u019": "WinPEAS", "u020": "Used to search for additional privilege escalation paths.", "u021": "WinRAR", "u022": "Used to split compromised data into segments and to compress files into .RAR format for exfiltration.", "u023": "WinSCP", "u024": "Windows Secure Copy is a free and open source Secure Shell (SSH) File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client.", "u025": "Play ransomware actors have used it to transfer data [T1048] from a compromised network to actor-controlled accounts.", "u026": "Microsoft Nltest", "u027": "Used by Play ransomware actors for network discovery.", "u028": "Nekto / PriviCMD", "u029": "Used by Play ransomware actors for privilege escalation.", "u030": "Process Hacker", "u031": "Used to enumerate running processes on a system.", "u032": "Plink", "u033": "Used to establish persistent SSH tunnels.", "u034": "Update June 4, 2025:", "u035": "Indicators of Compromise", "u036": "See Table 2 for Play ransomware IOCs obtained from FBI investigations as of January 2025.", "u037": "Table 2: Hashes Associated with Play Ransomware Actors", "u038": "Hashes (SHA 256 and SHA 1)", "u039": "Description", "u040": "47B7B2DD88959CD7224A5542AE8D5BCE928BFC986BF0D0321532A7515C244A1E", "u041": "SVCHost.dll", "u042": "Backdoor", "u043": "75B525B220169F07AECFB3B1991702FBD9A1E170CAF0040D1FCB07C3E819F54A"}
+SOURCE_MENTIONS:
+[{"id": "m001", "text": "Play", "codes": ["S"]}, {"id": "m002", "text": "Play actors", "codes": ["G"]}, {"id": "m003", "text": "PsExec", "codes": ["S"]}, {"id": "m004", "text": "A Windows", "codes": ["S"]}, {"id": "m005", "text": "Cobalt Strike", "codes": ["S"]}, {"id": "m006", "text": "Mimikatz", "codes": ["S"]}, {"id": "m007", "text": "T1048", "codes": ["T"]}, {"id": "m008", "text": "Nltest", "codes": ["S"]}, {"id": "m009", "text": "IOCs", "codes": ["S"]}, {"id": "m010", "text": "Play Ransomware Actors", "codes": ["G"]}, {"id": "m011", "text": "SVCHost.dll", "codes": ["S"]}]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{"ctx3": "Table 1: Tools Leveraged by Play Ransomware Actors"}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[{"unit_ids": ["u025"], "context_ids": [], "heads": ["m001_S"], "predicate": "USES_TECHNIQUE", "tails": ["m007_T"]}, {"unit_ids": ["u037"], "context_ids": [], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u007"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m003_S"]}, {"unit_ids": ["u010"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m004_S"]}, {"unit_ids": ["u013"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m005_S"]}, {"unit_ids": ["u015"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u016"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m006_S"]}, {"unit_ids": ["u018"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u025"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u026"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m008_S"]}, {"unit_ids": ["u027"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u029"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u036"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S", "m009_S"]}, {"unit_ids": ["u037"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m001_S"]}, {"unit_ids": ["u041"], "context_ids": ["ctx3"], "heads": ["m010_G"], "predicate": "USES", "tails": ["m011_S"]}]
+Return a corrected source-only result. Validation error: Repeated selected relationship.
+PREVIOUS OUTPUT (data):
+{
+  "relations": [
+    {
+      "unit_ids": ["u025"],
+      "context_ids": [],
+      "head": "m001_S",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "m007_T"
+    },
+    {
+      "unit_ids": ["u037"],
+      "context_ids": [],
+      "head": "m010_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    },
+    {
+      "unit_ids": ["u025"],
+      "context_ids": ["ctx3"],
+      "head": "m010_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    },
+    {
+      "unit_ids": ["u037"],
+      "context_ids": ["ctx3"],
+      "head": "m010_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    }
+  ]
+}

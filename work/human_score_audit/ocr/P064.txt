@@ -1,0 +1,87 @@
+P064
+Question
+Compare AA24-109A and AA25-071A: which actors are reported using Mimikatz, and how do
+their advisory software-to-technique mappings compare? Cite both reports and keep each
+mapping within its source context.
+Displayed answer
+LockBit affiliates use Mimikatz. [El, E2, E3, E4]
+Volt Typhoon actors use Mimikatz to harvest credentials. [E5, E6]
+Phobos actors use Mimikatz to export credentials. [E8, E9, El 0, El 1]
+Akira threat actors use Mimikatz to dump credentials. [E 12, El 3, E 14, El 5]
+Black Basta affiliates use Mimikatz for privilege escalation. [E 16, E 17, E 18, El 9]
+Medusa actors use Mimikatz to access credential material. [E20, E21, E22, E23]
+LockBit and Phobos actors use Mimikatz for Defense Evasion. [E4, El 1]
+Volt Typhoon actors use Impacket in addition to Mimikatz. [E5, E6]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+AA24-109A reports Akira threat actors using Mimikatz, with advisory mappings T 1003; AA25-071A
+reports Medusa actors using Mimikatz, with advisory mappings T 1003.001. These mappings
+describe the cited reports and do not establish that every use of the software has these behaviors.
+The first report uses the parent technique T 1003 (OS Credential Dumping); the Medusa report
+specifies T 1003.001 (LSASS Memory), a sub-technique of Tl 003. This is a difference in specificity
+of the reported mapping.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+LockBit affiliates have used Mimikatz to dump credentials.
+
+--- IMAGE ---
+
+[Q; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; CISA]
+Table 9: LockBit Affiliates' ATT&CK Techniques for Enterprise — Defense Evasion
+[E-5; CISA]
+The U.S. authoring agencies have observed Volt Typhoon actors leveraging Mimikatz to harvest
+credentials, and industry partners have observed Volt Typhoon leveraging Impacket.[2]
+[E6; CISA]
+PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical
+Infrastructure
+[E7; CISA]
+TECHNICAL DETAILS
+[E8; CISA]
+Phobos actors used Mimikatz to export credentials.
+[E9; CISA]
+#StopRansomware: Phobos Ransomware
+[Elo; CISA]
+TECHNICAL DETAILS
+[El 1; CISA]
+Table 16: Phobos Threat Actors ATT&CK Techniques for Enterprise — Defense Evasion
+[El 2; CISA]
+Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.
+[El 3; CISA]
+#StopRansomware: Akira Ransomware
+[E14; CISA]
+Technical Details
+[El 5; CISA]
+Table 14. Defense Evasion
+
+--- IMAGE ---
+
+[El 6; CISA]
+Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation.
+[E17; CISA]
+#StopRansomware: Black Basta
+[E18; CISA]
+Technical Details
+[El 9; CISA]
+Table 1: Tools Used by Black Basta Affiliates
+[20; CISA]
+Medusa actors access credential material stored in process memory or LSASS using Mimikatz.
+[QI; CISA]
+#StopRansomware: Medusa Ransomware
+[22; CISA]
+Technical Details
+[23; CISA]
+Table 3: Initial Access
+GRAPH NODES
+N 1: LockBit affiliates
+N2: Mimikatz (S0002)
+N3: Volt Typhoon actors
+N4: Phobos actors
+N5: Akira threat actors
+N6: Black Basta affiliates
+N7: Medusa actors
+GRAPH PATHS

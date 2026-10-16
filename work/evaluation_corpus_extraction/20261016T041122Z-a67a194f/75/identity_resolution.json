@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "gaze.exe",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1072",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1072",
+    "canonical_name": "Software Deployment Tools",
+    "source_attack_id": "T1072"
+  },
+  {
+    "local_id": "e3",
+    "mention": "Medusa actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "PDQ Deploy",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1675",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1675",
+    "canonical_name": "ESXi Administration Command",
+    "source_attack_id": "T1675"
+  },
+  {
+    "local_id": "e6",
+    "mention": "T1489",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1489",
+    "canonical_name": "Service Stop",
+    "source_attack_id": "T1489"
+  }
+]

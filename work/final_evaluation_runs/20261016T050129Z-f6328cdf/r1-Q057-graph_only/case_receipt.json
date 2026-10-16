@@ -1,0 +1,28 @@
+{
+  "task": {
+    "case_id": "r1-Q057-graph_only",
+    "question_id": "Q057",
+    "mode": "graph_only",
+    "repeat": 1,
+    "measured": true
+  },
+  "question_sha256": "d4d8a47ba491cf97283149faee397d6c427dd4258d20f98196255555f25a0a16",
+  "status": "abstained",
+  "execution_time_ms": 23.43299999483861,
+  "retrieval_ms": 22.689000004902482,
+  "generation_ms": 0.01829999382607639,
+  "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "path_count": 0,
+  "passage_count": 0,
+  "python_resources_before": null,
+  "python_resources_after": null,
+  "attempts": 0,
+  "files_sha256": {
+    "answer.json": "972eb60ef1d26a9578f6ff4668badbc11e11b5a6f9ec5338b5d1f7f89dc4a9ee",
+    "context.txt": "0781f757f2fa7d32ab94358a71152590b34bd3b7c3a16955f4b05fe93188566a",
+    "evidence.json": "03e4544cfaa74b3e1b2791f90994565620a386ac9e09b50e4e7d2659c7a1bdda",
+    "question.json": "b6d3d8836b19f882bb6a932d38bab0744e027084c63171eaccdde4edc002083c",
+    "retrieval.json": "0ff471994643fef85b5eae95557ff4ce8fa13d4f5ef8941360b6c48a258d97c3"
+  }
+}

@@ -1,0 +1,99 @@
+P017
+Question
+According to AA23-075A, which ATT&CK technique is connected to LockBit 3.0 affiliates through
+the reported use of rclone? Explain the two-hop actor-to-software-to-technique path with
+evidence.
+Displayed answer
+LockBit 3.0 affiliates use rclone to connect to Exfiltration to Cloud Storage (Tl 567.002). [E9, E2,
+E3]
+The two-hop actor-to-software-to-technique path is: LockBit 3.0 affiliates -> rclone ->
+Exfiltration to aoud Storage (Tl 567.002). [E9, Q, a, El 0]
+The mitigation for Exfiltration to Cloud Storage (Tl 567.002) is Restrict Web-Based Content
+(M 1021), which involves using web proxies to enforce an external network communication
+policy. [Elo, El 1]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+LockBit 3.0 affiliates use rclone; the advisory associates the described use of rclone with Tl 567.002
+(Exfiltration to Cloud Storage in Enterprise ATT&CK 17.1). Both links must be supported in the
+advisory context.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the
+ransomware [T 1480.001].
+[Q; CISA]
+#StopRansomware: LockBit 3.0
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Environmental Keying (T 1480.001)
+Mitigation: Do Not Mitigate (M 1055)
+[E-5; ATTACK]
+[Environmental Keying](https://attack.mitre.org/techniques/T1480/001) likely should not be
+mitigated with preventative controls because it may protect unintended targets from being
+compromised via confusion of keys by the adversary. Mitigation of this technique is also unlikely
+to be feasible within most contexts because there are no standard attributes from which an
+adversary may derive keys. If targeted, efforts should be focused on preventing adversary tools
+from running earlier in the chain of activity and on identifying subsequent malicious behavior if
+compromised.
+[E6; CISA]
+After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware
+ID>.README.txt and changes the host's wallpaper and icons to LockBit 3.0 branding [T 1491.001].
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Internal Defacement (T 1491.001)
+Mitigation: Data Backup (MI 053)
+
+--- IMAGE ---
+
+[E8; ATTACK]
+Consider implementing IT disaster recovery plans that contain procedures for taking regular data
+backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP) Ensure
+backups are stored off system and is protected from common methods adversaries may use to
+gain access and destroy the backups to prevent recovery.
+[E9; CISA]
+rclone, an open-source command line cloud storage manager [Tl 567.002]
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Exfiltration to Cloud Storage (Tl 567.002)
+Mitigation: Restrict Web-Based Content (MI 021)
+[El 1; ATTACK]
+Web proxies can be used to enforce an external network communication policy that prevents use
+of unauthorized external services.
+[El 2; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[El 3; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E14; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+
+--- IMAGE ---
+
+[El 5; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+GRAPH NODES
+Nl: LockBit 3.0 (S1202)
+N2: Environmental Keying (T 1480.001)
+N3: Do Not Mitigate (M1055)
+N4: Internal Defacement (T 1491.001)
+N5: Data Backup (M1053)
+N6: Rclone (S1040)
+N7: Exfiltration to Cloud Storage (Tl 567.002)
+N8: Restrict Web-Based Content (MI 021)
+GRAPH PATHS
+p 1: Nl

@@ -1,0 +1,475 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "certutil",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1071.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1136.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "gaze.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1657",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1529",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1489",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "certutil",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "T1071.001",
+      "type": "Technique",
+      "attack_id": "T1071.001"
+    },
+    "m003_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m005_T": {
+      "name": "T1136.002",
+      "type": "Technique",
+      "attack_id": "T1136.002"
+    },
+    "m006_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    },
+    "m007_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m008_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m009_S": {
+      "name": "gaze.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1657",
+      "type": "Technique",
+      "attack_id": "T1657"
+    },
+    "m011_T": {
+      "name": "T1529",
+      "type": "Technique",
+      "attack_id": "T1529"
+    },
+    "m012_T": {
+      "name": "T1489",
+      "type": "Technique",
+      "attack_id": "T1489"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 31,
+      "text": "and certutil for file ingress.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 32,
+      "end": 73,
+      "text": "Application Layer Protocol: Web Protocols",
+      "line_start": 32
+    },
+    "u003": {
+      "start": 74,
+      "end": 83,
+      "text": "T1071.001",
+      "line_start": 74
+    },
+    "u004": {
+      "start": 84,
+      "end": 172,
+      "text": "Medusa actors communicate using application layer protocols associated with web traffic.",
+      "line_start": 84
+    },
+    "u005": {
+      "start": 173,
+      "end": 271,
+      "text": "In this case, Medusa actors used scripts that created reverse or bind shells over port 443: HTTPS.",
+      "line_start": 84
+    },
+    "u006": {
+      "start": 272,
+      "end": 291,
+      "text": "Remote Access Tools",
+      "line_start": 272
+    },
+    "u007": {
+      "start": 292,
+      "end": 297,
+      "text": "T1219",
+      "line_start": 292
+    },
+    "u008": {
+      "start": 298,
+      "end": 378,
+      "text": "Medusa actors used remote access software to move laterally through the network.",
+      "line_start": 298
+    },
+    "u009": {
+      "start": 379,
+      "end": 400,
+      "text": "Table 10: Persistence",
+      "line_start": 379
+    },
+    "u010": {
+      "start": 401,
+      "end": 416,
+      "text": "Technique Title",
+      "line_start": 401
+    },
+    "u011": {
+      "start": 417,
+      "end": 419,
+      "text": "ID",
+      "line_start": 417
+    },
+    "u012": {
+      "start": 420,
+      "end": 423,
+      "text": "Use",
+      "line_start": 420
+    },
+    "u013": {
+      "start": 424,
+      "end": 438,
+      "text": "Create Account",
+      "line_start": 424
+    },
+    "u014": {
+      "start": 439,
+      "end": 448,
+      "text": "T1136.002",
+      "line_start": 439
+    },
+    "u015": {
+      "start": 449,
+      "end": 525,
+      "text": "Medusa actors created a domain account to maintain access to victim systems.",
+      "line_start": 449
+    },
+    "u016": {
+      "start": 526,
+      "end": 580,
+      "text": "Table 11: Privilege Escalation (Updated Aug. 18, 2026)",
+      "line_start": 526
+    },
+    "u017": {
+      "start": 581,
+      "end": 596,
+      "text": "Technique Title",
+      "line_start": 581
+    },
+    "u018": {
+      "start": 597,
+      "end": 599,
+      "text": "ID",
+      "line_start": 597
+    },
+    "u019": {
+      "start": 600,
+      "end": 603,
+      "text": "Use",
+      "line_start": 600
+    },
+    "u020": {
+      "start": 604,
+      "end": 667,
+      "text": "Domain or Tenant Policy Modification: Group Policy Modification",
+      "line_start": 604
+    },
+    "u021": {
+      "start": 668,
+      "end": 677,
+      "text": "T1484.001",
+      "line_start": 668
+    },
+    "u022": {
+      "start": 678,
+      "end": 790,
+      "text": "Medusa actors made changes to Active Directory Default Domain Policy settings to override Group Policy settings.",
+      "line_start": 678
+    },
+    "u023": {
+      "start": 791,
+      "end": 807,
+      "text": "Table 12: Impact",
+      "line_start": 791
+    },
+    "u024": {
+      "start": 808,
+      "end": 823,
+      "text": "Technique Title",
+      "line_start": 808
+    },
+    "u025": {
+      "start": 824,
+      "end": 826,
+      "text": "ID",
+      "line_start": 824
+    },
+    "u026": {
+      "start": 827,
+      "end": 830,
+      "text": "Use",
+      "line_start": 827
+    },
+    "u027": {
+      "start": 831,
+      "end": 856,
+      "text": "Data Encrypted for Impact",
+      "line_start": 831
+    },
+    "u028": {
+      "start": 857,
+      "end": 862,
+      "text": "T1486",
+      "line_start": 857
+    },
+    "u029": {
+      "start": 863,
+      "end": 976,
+      "text": "Medusa identified and encrypted data on target systems to interrupt availability to system and network resources.",
+      "line_start": 863
+    },
+    "u030": {
+      "start": 977,
+      "end": 1000,
+      "text": "Inhibit System Recovery",
+      "line_start": 977
+    },
+    "u031": {
+      "start": 1001,
+      "end": 1006,
+      "text": "T1490",
+      "line_start": 1001
+    },
+    "u032": {
+      "start": 1007,
+      "end": 1147,
+      "text": "The process gaze.exe terminates all services and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note.",
+      "line_start": 1007
+    },
+    "u033": {
+      "start": 1148,
+      "end": 1163,
+      "text": "Financial Theft",
+      "line_start": 1148
+    },
+    "u034": {
+      "start": 1164,
+      "end": 1169,
+      "text": "T1657",
+      "line_start": 1164
+    },
+    "u035": {
+      "start": 1170,
+      "end": 1249,
+      "text": "Victims must pay to decrypt files and prevent further release by Medusa actors.",
+      "line_start": 1170
+    },
+    "u036": {
+      "start": 1250,
+      "end": 1272,
+      "text": "System Shutdown/Reboot",
+      "line_start": 1250
+    },
+    "u037": {
+      "start": 1273,
+      "end": 1278,
+      "text": "T1529",
+      "line_start": 1273
+    },
+    "u038": {
+      "start": 1279,
+      "end": 1344,
+      "text": "Medusa actors remotely turned off and encrypted virtual machines.",
+      "line_start": 1279
+    },
+    "u039": {
+      "start": 1345,
+      "end": 1357,
+      "text": "Service Stop",
+      "line_start": 1345
+    },
+    "u040": {
+      "start": 1358,
+      "end": 1363,
+      "text": "T1489",
+      "line_start": 1358
+    },
+    "u041": {
+      "start": 1364,
+      "end": 1492,
+      "text": "The process gaze.exe terminates all services related to backups, security, databases, communication, file sharing, and websites.",
+      "line_start": 1364
+    },
+    "u042": {
+      "start": 1493,
+      "end": 1510,
+      "text": "Incident Response",
+      "line_start": 1493
+    },
+    "u043": {
+      "start": 1511,
+      "end": 1650,
+      "text": "If a potential compromise is detected, but ransomware actors have not yet encrypted items, organizations should take the following actions:",
+      "line_start": 1511
+    },
+    "u044": {
+      "start": 1651,
+      "end": 1746,
+      "text": "Determine which hosts were compromised and isolate them by quarantining or taking them offline.",
+      "line_start": 1651
+    },
+    "u045": {
+      "start": 1747,
+      "end": 1829,
+      "text": "(Updated Aug. 18, 2026) Initiate threat hunting activities to scope the intrusion.",
+      "line_start": 1747
+    },
+    "u046": {
+      "start": 1830,
+      "end": 1983,
+      "text": "Collect and review relevant artifacts, logs, and other data to identify threat actor TTPs, compromised devices and accounts, a timeline of activity, etc.",
+      "line_start": 1747
+    },
+    "u047": {
+      "start": 1984,
+      "end": 2011,
+      "text": "Responders should consider:",
+      "line_start": 1747
+    },
+    "u048": {
+      "start": 2012,
+      "end": 2086,
+      "text": "Logs left behind by threat actor tooling, such as SimpleHelp and RDP logs.",
+      "line_start": 2012
+    },
+    "u049": {
+      "start": 2087,
+      "end": 2173,
+      "text": "Netflow showing unusually large traffic volume coming from normally low-traffic hosts.",
+      "line_start": 2087
+    },
+    "u050": {
+      "start": 2174,
+      "end": 2259,
+      "text": "Report the compromise to CISA and/or the FBI (see Reporting for contact information).",
+      "line_start": 2174
+    },
+    "u051": {
+      "start": 2260,
+      "end": 2418,
+      "text": "(Updated Aug. 18, 2026) Apply eviction countermeasures, including those listed below, to contain the incident and eradicate the threat actor from the network.",
+      "line_start": 2260
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0160",
+    "m002_T": "attack:T1071.001",
+    "m003_G": "local:ThreatGroup:medusa actors",
+    "m004_T": "attack:T1219",
+    "m005_T": "attack:T1136.002",
+    "m006_T": "attack:T1484.001",
+    "m007_T": "attack:T1486",
+    "m008_T": "attack:T1490",
+    "m009_S": "local:Software:gaze.exe",
+    "m010_T": "attack:T1657",
+    "m011_T": "attack:T1529",
+    "m012_T": "attack:T1489"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,583 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "TA0002",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1059.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1569.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1547",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "TA0004",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1548",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "UACMe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "User Account Control",
+      "codes": [
+        "M"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1480.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_A": {
+      "name": "TA0002",
+      "type": "Tactic",
+      "attack_id": "TA0002"
+    },
+    "m002_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1059.003",
+      "type": "Technique",
+      "attack_id": "T1059.003"
+    },
+    "m004_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m006_T": {
+      "name": "T1569.002",
+      "type": "Technique",
+      "attack_id": "T1569.002"
+    },
+    "m007_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1547",
+      "type": "Technique",
+      "attack_id": "T1547"
+    },
+    "m009_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m010_A": {
+      "name": "TA0004",
+      "type": "Tactic",
+      "attack_id": "TA0004"
+    },
+    "m011_T": {
+      "name": "T1548",
+      "type": "Technique",
+      "attack_id": "T1548"
+    },
+    "m012_S": {
+      "name": "UACMe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_M": {
+      "name": "User Account Control",
+      "type": "Mitigation",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    },
+    "m015_T": {
+      "name": "T1480.001",
+      "type": "Technique",
+      "attack_id": "T1480.001"
+    },
+    "m016_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 12,
+      "text": "– Execution",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 13,
+      "end": 28,
+      "text": "Technique Title",
+      "line_start": 13
+    },
+    "u003": {
+      "start": 29,
+      "end": 31,
+      "text": "ID",
+      "line_start": 29
+    },
+    "u004": {
+      "start": 32,
+      "end": 35,
+      "text": "Use",
+      "line_start": 32
+    },
+    "u005": {
+      "start": 36,
+      "end": 45,
+      "text": "Execution",
+      "line_start": 36
+    },
+    "u006": {
+      "start": 46,
+      "end": 52,
+      "text": "TA0002",
+      "line_start": 46
+    },
+    "u007": {
+      "start": 53,
+      "end": 104,
+      "text": "LockBit 3.0 launches commands during its execution.",
+      "line_start": 53
+    },
+    "u008": {
+      "start": 105,
+      "end": 161,
+      "text": "Command and Scripting Interpreter: Windows Command Shell",
+      "line_start": 105
+    },
+    "u009": {
+      "start": 162,
+      "end": 171,
+      "text": "T1059.003",
+      "line_start": 162
+    },
+    "u010": {
+      "start": 172,
+      "end": 239,
+      "text": "LockBit affiliates use batch scripts to execute malicious commands.",
+      "line_start": 172
+    },
+    "u011": {
+      "start": 240,
+      "end": 265,
+      "text": "Software Deployment Tools",
+      "line_start": 240
+    },
+    "u012": {
+      "start": 266,
+      "end": 271,
+      "text": "T1072",
+      "line_start": 266
+    },
+    "u013": {
+      "start": 272,
+      "end": 354,
+      "text": "LockBit affiliates may use Chocolatey, a command-line package manager for Windows.",
+      "line_start": 272
+    },
+    "u014": {
+      "start": 355,
+      "end": 370,
+      "text": "Technique Title",
+      "line_start": 355
+    },
+    "u015": {
+      "start": 371,
+      "end": 373,
+      "text": "ID",
+      "line_start": 371
+    },
+    "u016": {
+      "start": 374,
+      "end": 377,
+      "text": "Use",
+      "line_start": 374
+    },
+    "u017": {
+      "start": 378,
+      "end": 412,
+      "text": "System Services: Service Execution",
+      "line_start": 378
+    },
+    "u018": {
+      "start": 413,
+      "end": 422,
+      "text": "T1569.002",
+      "line_start": 413
+    },
+    "u019": {
+      "start": 423,
+      "end": 479,
+      "text": "LockBit 3.0 uses PsExec to execute commands or payloads.",
+      "line_start": 423
+    },
+    "u020": {
+      "start": 480,
+      "end": 555,
+      "text": "Table 7: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Persistence",
+      "line_start": 480
+    },
+    "u021": {
+      "start": 556,
+      "end": 571,
+      "text": "Technique Title",
+      "line_start": 556
+    },
+    "u022": {
+      "start": 572,
+      "end": 574,
+      "text": "ID",
+      "line_start": 572
+    },
+    "u023": {
+      "start": 575,
+      "end": 578,
+      "text": "Use",
+      "line_start": 575
+    },
+    "u024": {
+      "start": 579,
+      "end": 612,
+      "text": "Boot or Logon Autostart Execution",
+      "line_start": 579
+    },
+    "u025": {
+      "start": 613,
+      "end": 618,
+      "text": "T1547",
+      "line_start": 613
+    },
+    "u026": {
+      "start": 619,
+      "end": 678,
+      "text": "LockBit affiliates enables automatic logon for persistence.",
+      "line_start": 619
+    },
+    "u027": {
+      "start": 679,
+      "end": 693,
+      "text": "Valid Accounts",
+      "line_start": 679
+    },
+    "u028": {
+      "start": 694,
+      "end": 699,
+      "text": "T1078",
+      "line_start": 694
+    },
+    "u029": {
+      "start": 700,
+      "end": 800,
+      "text": "LockBit affiliates may use a compromised user account to maintain persistence on the target network.",
+      "line_start": 700
+    },
+    "u030": {
+      "start": 801,
+      "end": 885,
+      "text": "Table 8: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Privilege Escalation",
+      "line_start": 801
+    },
+    "u031": {
+      "start": 886,
+      "end": 901,
+      "text": "Technique Title",
+      "line_start": 886
+    },
+    "u032": {
+      "start": 902,
+      "end": 904,
+      "text": "ID",
+      "line_start": 902
+    },
+    "u033": {
+      "start": 905,
+      "end": 908,
+      "text": "Use",
+      "line_start": 905
+    },
+    "u034": {
+      "start": 909,
+      "end": 929,
+      "text": "Privilege Escalation",
+      "line_start": 909
+    },
+    "u035": {
+      "start": 930,
+      "end": 936,
+      "text": "TA0004",
+      "line_start": 930
+    },
+    "u036": {
+      "start": 937,
+      "end": 1055,
+      "text": "LockBit affiliates will attempt to escalate to the required privileges if current account privileges are insufficient.",
+      "line_start": 937
+    },
+    "u037": {
+      "start": 1056,
+      "end": 1089,
+      "text": "Abuse Elevation Control Mechanism",
+      "line_start": 1056
+    },
+    "u038": {
+      "start": 1090,
+      "end": 1095,
+      "text": "T1548",
+      "line_start": 1090
+    },
+    "u039": {
+      "start": 1096,
+      "end": 1219,
+      "text": "LockBit affiliates may use ucmDccwCOM Method in UACMe, a GitHub collection of User Account Control (UAC) bypass techniques.",
+      "line_start": 1096
+    },
+    "u040": {
+      "start": 1220,
+      "end": 1253,
+      "text": "Boot or Logon Autostart Execution",
+      "line_start": 1220
+    },
+    "u041": {
+      "start": 1254,
+      "end": 1259,
+      "text": "T1547",
+      "line_start": 1254
+    },
+    "u042": {
+      "start": 1260,
+      "end": 1327,
+      "text": "LockBit affiliates enable automatic logon for privilege escalation.",
+      "line_start": 1260
+    },
+    "u043": {
+      "start": 1328,
+      "end": 1381,
+      "text": "Domain Policy Modification: Group Policy Modification",
+      "line_start": 1328
+    },
+    "u044": {
+      "start": 1382,
+      "end": 1391,
+      "text": "T1484.001",
+      "line_start": 1382
+    },
+    "u045": {
+      "start": 1392,
+      "end": 1491,
+      "text": "LockBit affiliates may create Group Policy for lateral movement and can force group policy updates.",
+      "line_start": 1392
+    },
+    "u046": {
+      "start": 1492,
+      "end": 1506,
+      "text": "Valid Accounts",
+      "line_start": 1492
+    },
+    "u047": {
+      "start": 1507,
+      "end": 1512,
+      "text": "T1078",
+      "line_start": 1507
+    },
+    "u048": {
+      "start": 1513,
+      "end": 1612,
+      "text": "LockBit affiliates may use a compromised user account to escalate privileges on a victim’s network.",
+      "line_start": 1513
+    },
+    "u049": {
+      "start": 1613,
+      "end": 1692,
+      "text": "Table 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion",
+      "line_start": 1613
+    },
+    "u050": {
+      "start": 1693,
+      "end": 1708,
+      "text": "Technique Title",
+      "line_start": 1693
+    },
+    "u051": {
+      "start": 1709,
+      "end": 1711,
+      "text": "ID",
+      "line_start": 1709
+    },
+    "u052": {
+      "start": 1712,
+      "end": 1715,
+      "text": "Use",
+      "line_start": 1712
+    },
+    "u053": {
+      "start": 1716,
+      "end": 1758,
+      "text": "Execution Guardrails: Environmental Keying",
+      "line_start": 1716
+    },
+    "u054": {
+      "start": 1759,
+      "end": 1768,
+      "text": "T1480.001",
+      "line_start": 1759
+    },
+    "u055": {
+      "start": 1769,
+      "end": 1899,
+      "text": "LockBit 3.0 will only decrypt the main component or continue to decrypt and/or decompress data if the correct password is entered.",
+      "line_start": 1769
+    },
+    "u056": {
+      "start": 1900,
+      "end": 1940,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1900
+    },
+    "u057": {
+      "start": 1941,
+      "end": 1950,
+      "text": "T1562.001",
+      "line_start": 1941
+    },
+    "u058": {
+      "start": 1951,
+      "end": 2100,
+      "text": "LockBit 3.0 affiliates use Backstab, Defender Control, GMER, PCHunter, PowerTool, Process Hacker or TDSSKiller to disable EDR processes and services.",
+      "line_start": 1951
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_A": "attack:TA0002",
+    "m002_S": "attack:S1202",
+    "m003_T": "attack:T1059.003",
+    "m004_G": "local:ThreatGroup:lockbit affiliates",
+    "m005_T": "attack:T1072",
+    "m006_T": "attack:T1569.002",
+    "m007_S": "attack:S0029",
+    "m008_T": "attack:T1547",
+    "m009_T": "attack:T1078",
+    "m010_A": "attack:TA0004",
+    "m011_T": "attack:T1548",
+    "m012_S": "attack:S0116",
+    "m013_M": "attack:M1052",
+    "m014_T": "attack:T1484.001",
+    "m015_T": "attack:T1480.001",
+    "m016_T": "attack:T1562.001"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u039"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Play",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "Play",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 16,
+        "end": 113,
+        "quote": "Below are copies of YARA and Suricata rules related to Play’s custom data gathering tool, Grixba:"
+      },
+      "confidence": null
+    }
+  ]
+}

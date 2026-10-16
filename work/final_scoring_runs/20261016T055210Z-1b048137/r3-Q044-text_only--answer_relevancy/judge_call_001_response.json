@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:08:02.4384396Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 796230100,
+  "load_duration": 6801900,
+  "prompt_eval_count": 446,
+  "prompt_eval_duration": 166258000,
+  "eval_count": 32,
+  "eval_duration": 390783000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What technique do Medusa actors use to move laterally through the network?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

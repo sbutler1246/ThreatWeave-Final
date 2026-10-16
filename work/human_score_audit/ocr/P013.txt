@@ -1,0 +1,66 @@
+POI 3
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to PasswordFox in AA23-165A? Follow the two-hop software-to-
+technique-to-mitigation path. Distinguish advisory observations from reference
+recommendations.
+Displayed answer
+Pre-compromise (MI 056) mitigates Develop Capabilities (Tl 587) and Compromise Accounts
+(Tl 586). [Q, E4]
+User Account Management (M 1018) mitigates Impair Defenses (Tl 562) and Disable or Modify
+Tools (Tl 562.001). [E6, EIO]
+Execution Prevention (MI 038) mitigates Impair Defenses (Tl 562). [E8]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+The selected advisory row maps its reported use to Tl 555.003 (Credentials from Web Browsers).
+The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to:
+M 1017 (User Training), M1018 (User Account Management), M1021 (Restrict Web-Based Content),
+M 1027 (Password Policies), M 1051 (Update Software). These are reference mitigation associations,
+not incident-specific proof of effectiveness.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[Q; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (Tl 587)
+Mitigation: Pre-compromise (M 1056)
+[E3; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (Tl 586)
+Mitigation: Pre-compromise (M 1056)
+[E-5; ATTACK]
+Ensure proper user permissions are in place to prevent adversaries from disabling or interfering
+with security/logging services.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: User Account Management (MI 018)
+[E7; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of
+the organization's security policies (such as rootkit removal tools) that have been abused to
+impair system defenses. Ensure that only approved security applications are used and running on
+enterprise systems.
+
+--- IMAGE ---
+
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: Execution Prevention (MI 038)
+[E9; ATTACK]
+Ensure proper user permissions are in place to prevent adversaries from disabling or interfering
+with security services.
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Disable or Modify Tools (Tl 562.001)
+Mitigation: User Account Management (MI 018)
+GRAPH NODES
+GRAPH PATHS

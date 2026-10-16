@@ -1,0 +1,87 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u013",
+      "u014"
+    ],
+    "selected_units": [
+      {
+        "start": 1438,
+        "end": 1504,
+        "text": "Medusa actors are known to make use of common techniques, such as:",
+        "line_start": 1051
+      },
+      {
+        "start": 1505,
+        "end": 1584,
+        "text": "Phishing campaigns as a primary method for stealing victim credentials [T1566].",
+        "line_start": 1505
+      }
+    ],
+    "document_start": 6289,
+    "document_end": 6435,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u013",
+      "u015"
+    ],
+    "selected_units": [
+      {
+        "start": 1438,
+        "end": 1504,
+        "text": "Medusa actors are known to make use of common techniques, such as:",
+        "line_start": 1051
+      },
+      {
+        "start": 1585,
+        "end": 1704,
+        "text": "Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and Exposures (CVEs) such as:",
+        "line_start": 1585
+      }
+    ],
+    "document_start": 6289,
+    "document_end": 6555,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u013",
+      "u015",
+      "u016"
+    ],
+    "selected_units": [
+      {
+        "start": 1438,
+        "end": 1504,
+        "text": "Medusa actors are known to make use of common techniques, such as:",
+        "line_start": 1051
+      },
+      {
+        "start": 1585,
+        "end": 1704,
+        "text": "Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and Exposures (CVEs) such as:",
+        "line_start": 1585
+      },
+      {
+        "start": 1705,
+        "end": 1815,
+        "text": "ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an Alternate Path or Channel].",
+        "line_start": 1705
+      }
+    ],
+    "document_start": 6289,
+    "document_end": 6666,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

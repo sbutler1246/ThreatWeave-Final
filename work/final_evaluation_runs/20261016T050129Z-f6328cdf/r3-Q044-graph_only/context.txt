@@ -1,0 +1,12 @@
+SOURCE PASSAGES
+[E1; CISA]
+When provided with valid username and password credentials, Medusa actors use PsExec to:
+[E2; CISA]
+#StopRansomware: Medusa Ransomware
+[E3; CISA]
+Technical Details
+GRAPH NODES
+N1: Medusa actors
+N2: PsExec (S0029)
+GRAPH PATHS
+P1: N1 --USES[E1,E2,E3]--> N2

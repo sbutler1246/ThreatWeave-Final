@@ -1,0 +1,81 @@
+QUESTION: Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Chocolatey in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.
+MODE: hybrid
+SOURCE PASSAGES
+[E1; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.
+T1046
+Network Service Discovery
+[E2; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T1046)
+Mitigation: Network Segmentation (M1030)
+[E5; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[E6; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (T1219)
+Mitigation: Network Intrusion Prevention (M1031)
+[E8; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to prevent traffic to remote access services.
+[E9; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E10; CISA]
+Impacket
+[E11; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E12; CISA]
+TECHNICAL DETAILS
+[E13; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (T1587)
+Mitigation: Pre-compromise (M1056)
+[E15; CISA]
+LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.
+[E16; CISA]
+Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery
+[E17; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E18; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (T1586)
+Mitigation: Pre-compromise (M1056)
+GRAPH NODES
+N1: LockBit affiliates
+N2: Advanced Port Scanner
+N3: Network Service Discovery (T1046)
+N4: Network Segmentation (M1030)
+N5: AnyDesk
+N6: Remote Access Tools (T1219)
+N7: Network Intrusion Prevention (M1031)
+N8: Atera Remote Monitoring & Management (RMM)
+N9: Impacket (S0357)
+N10: SoftPerfect Network Scanner
+GRAPH PATHS
+P1: N1 --USES[E1,E2,E3]--> N2 --USES_TECHNIQUE[E1,E2,E3]--> N3 --MITIGATED_BY[E4,E5]--> N4
+P2: N1 --USES[E6,E2,E3]--> N5 --USES_TECHNIQUE[E6,E2,E3]--> N6 --MITIGATED_BY[E7,E8]--> N7
+P3: N1 --USES[E9,E2,E3]--> N8 --USES_TECHNIQUE[E9,E2,E3]--> N6 --MITIGATED_BY[E7,E8]--> N7
+P4: N1 --USES[E10,E11,E12,E2]--> N9
+P5: N1 --USES[E15,E11,E12,E16]--> N10
+Return the requested JSON. The displayed answer is assembled from claims.

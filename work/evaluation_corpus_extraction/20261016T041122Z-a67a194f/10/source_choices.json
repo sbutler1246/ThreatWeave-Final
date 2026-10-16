@@ -1,0 +1,395 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "When LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1189",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "TA0002",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1059.003",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_G": {
+      "name": "When LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1189",
+      "type": "Technique",
+      "attack_id": "T1189"
+    },
+    "m004_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m005_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m006_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m007_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m008_A": {
+      "name": "TA0002",
+      "type": "Tactic",
+      "attack_id": "TA0002"
+    },
+    "m009_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1059.003",
+      "type": "Technique",
+      "attack_id": "T1059.003"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 95,
+      "text": "F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 96,
+      "end": 155,
+      "text": "CVE-2020-1472: NetLogon Privilege Escalation Vulnerability,",
+      "line_start": 96
+    },
+    "u003": {
+      "start": 156,
+      "end": 245,
+      "text": "CVE-2019-0708: Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and",
+      "line_start": 156
+    },
+    "u004": {
+      "start": 246,
+      "end": 365,
+      "text": "CVE-2018-13379: Fortinet FortiOS Secure Sockets Layer (SSL) Virtual Private Network (VPN) Path Traversal Vulnerability.",
+      "line_start": 246
+    },
+    "u005": {
+      "start": 366,
+      "end": 462,
+      "text": "For further information on these CVEs, see CISA’s Known Exploited Vulnerabilities (KEV) Catalog.",
+      "line_start": 366
+    },
+    "u006": {
+      "start": 463,
+      "end": 483,
+      "text": "Post Detonation TTPs",
+      "line_start": 463
+    },
+    "u007": {
+      "start": 484,
+      "end": 728,
+      "text": "When LockBit affiliates target an organization responsible for managing other organizations’ networks, CERT NZ has observed LockBit affiliates attempt secondary ransomware extortion after detonation of the LockBit variant on the primary target.",
+      "line_start": 484
+    },
+    "u008": {
+      "start": 729,
+      "end": 858,
+      "text": "Once the primary target is hit, LockBit affiliates then attempt to extort the companies that are customers of the primary target.",
+      "line_start": 484
+    },
+    "u009": {
+      "start": 859,
+      "end": 962,
+      "text": "This extortion is in the form of secondary ransomware that locks down services those customers consume.",
+      "line_start": 484
+    },
+    "u010": {
+      "start": 963,
+      "end": 1108,
+      "text": "Additionally, the primary target’s customers may be extorted by LockBit affiliates threatening to release those customers’ sensitive information.",
+      "line_start": 484
+    },
+    "u011": {
+      "start": 1109,
+      "end": 1144,
+      "text": "MITRE ATT&CK Tactics and Techniques",
+      "line_start": 1109
+    },
+    "u012": {
+      "start": 1145,
+      "end": 1235,
+      "text": "Tables 5-16 show the LockBit affiliate tactics and techniques referenced in this advisory.",
+      "line_start": 1145
+    },
+    "u013": {
+      "start": 1236,
+      "end": 1314,
+      "text": "Table 5: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Initial Access",
+      "line_start": 1236
+    },
+    "u014": {
+      "start": 1315,
+      "end": 1330,
+      "text": "Technique Title",
+      "line_start": 1315
+    },
+    "u015": {
+      "start": 1331,
+      "end": 1333,
+      "text": "ID",
+      "line_start": 1331
+    },
+    "u016": {
+      "start": 1334,
+      "end": 1337,
+      "text": "Use",
+      "line_start": 1334
+    },
+    "u017": {
+      "start": 1338,
+      "end": 1357,
+      "text": "Drive-by Compromise",
+      "line_start": 1338
+    },
+    "u018": {
+      "start": 1358,
+      "end": 1363,
+      "text": "T1189",
+      "line_start": 1358
+    },
+    "u019": {
+      "start": 1364,
+      "end": 1476,
+      "text": "LockBit affiliates gain access to a system through a user visiting a website over the normal course of browsing.",
+      "line_start": 1364
+    },
+    "u020": {
+      "start": 1477,
+      "end": 1510,
+      "text": "Exploit Public-Facing Application",
+      "line_start": 1477
+    },
+    "u021": {
+      "start": 1511,
+      "end": 1516,
+      "text": "T1190",
+      "line_start": 1511
+    },
+    "u022": {
+      "start": 1517,
+      "end": 1644,
+      "text": "LockBit affiliates may exploit vulnerabilities (e.g., Log4Shell) in internet-facing systems to gain access to victims’ systems.",
+      "line_start": 1517
+    },
+    "u023": {
+      "start": 1645,
+      "end": 1669,
+      "text": "External Remote Services",
+      "line_start": 1645
+    },
+    "u024": {
+      "start": 1670,
+      "end": 1675,
+      "text": "T1133",
+      "line_start": 1670
+    },
+    "u025": {
+      "start": 1676,
+      "end": 1743,
+      "text": "LockBit affiliates exploit RDP to gain access to victims’ networks.",
+      "line_start": 1676
+    },
+    "u026": {
+      "start": 1744,
+      "end": 1752,
+      "text": "Phishing",
+      "line_start": 1744
+    },
+    "u027": {
+      "start": 1753,
+      "end": 1758,
+      "text": "T1566",
+      "line_start": 1753
+    },
+    "u028": {
+      "start": 1759,
+      "end": 1845,
+      "text": "LockBit affiliates use phishing and spearphishing to gain access to victims' networks.",
+      "line_start": 1759
+    },
+    "u029": {
+      "start": 1846,
+      "end": 1860,
+      "text": "Valid Accounts",
+      "line_start": 1846
+    },
+    "u030": {
+      "start": 1861,
+      "end": 1866,
+      "text": "T1078",
+      "line_start": 1861
+    },
+    "u031": {
+      "start": 1867,
+      "end": 1973,
+      "text": "LockBit affiliates obtain and abuse credentials of existing accounts as a means of gaining initial access.",
+      "line_start": 1867
+    },
+    "u032": {
+      "start": 1974,
+      "end": 2047,
+      "text": "Table 6: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Execution",
+      "line_start": 1974
+    },
+    "u033": {
+      "start": 2048,
+      "end": 2063,
+      "text": "Technique Title",
+      "line_start": 2048
+    },
+    "u034": {
+      "start": 2064,
+      "end": 2066,
+      "text": "ID",
+      "line_start": 2064
+    },
+    "u035": {
+      "start": 2067,
+      "end": 2070,
+      "text": "Use",
+      "line_start": 2067
+    },
+    "u036": {
+      "start": 2071,
+      "end": 2080,
+      "text": "Execution",
+      "line_start": 2071
+    },
+    "u037": {
+      "start": 2081,
+      "end": 2087,
+      "text": "TA0002",
+      "line_start": 2081
+    },
+    "u038": {
+      "start": 2088,
+      "end": 2139,
+      "text": "LockBit 3.0 launches commands during its execution.",
+      "line_start": 2088
+    },
+    "u039": {
+      "start": 2140,
+      "end": 2196,
+      "text": "Command and Scripting Interpreter: Windows Command Shell",
+      "line_start": 2140
+    },
+    "u040": {
+      "start": 2197,
+      "end": 2206,
+      "text": "T1059.003",
+      "line_start": 2197
+    },
+    "u041": {
+      "start": 2207,
+      "end": 2274,
+      "text": "LockBit affiliates use batch scripts to execute malicious commands.",
+      "line_start": 2207
+    },
+    "u042": {
+      "start": 2275,
+      "end": 2300,
+      "text": "Software Deployment Tools",
+      "line_start": 2275
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_G": "local:ThreatGroup:when lockbit affiliates",
+    "m002_G": "local:ThreatGroup:lockbit affiliates",
+    "m003_T": "attack:T1189",
+    "m004_T": "attack:T1190",
+    "m005_T": "attack:T1133",
+    "m006_T": "attack:T1566",
+    "m007_T": "attack:T1078",
+    "m008_A": "attack:TA0002",
+    "m009_S": "attack:S1202",
+    "m010_T": "attack:T1059.003"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+  "doc_id": "AA25-071A",
+  "start": 24695,
+  "end": 26937,
+  "text": " IABs use phishing campaigns as a primary method for delivering ransomware to victims.\nTable 4: Stealth\nTechnique Title\nID\nUse\nIndicator Removal: Clear Command History\nT1070.003\nMedusa actors attempt to cover their tracks by deleting the PowerShell command line history.\nObfuscated Files or Information: Encrypted/Encoded File\nT1027.013\nMedusa actors use a well-known stealth technique that executes a base64 encrypted command.\nObfuscated Files or Information\nT1027\nMedusa actors obfuscate a string by slicing it into pieces and referencing it via a variable.\nIndicator Removal\nT1070\nMedusa actors delete their previous work and tools installed.\nDisable or Modify Tools\nT1685\nMedusa actors kill or delete EDR tools.\nDirect Volume Access\nT1006\nMedusa actors use vssadmin to bypass Windows file access controls and file system monitoring tools to obtain copies of registry hives.\nHide Artifacts: File/Path Exclusions\nT1564.012\n(Updated Aug. 18, 2026) Medusa actors operate in pre-existing excluded folders within Windows Defender.\nTable 5: Discovery\nTechnique Title\nID\nUse\nNetwork Service Discovery\nT1046\nMedusa actors used LOTL techniques to perform network enumeration.\nFile and Directory Discovery\nT1083\nMedusa actors use Windows Command Prompt for filesystem enumeration.\nNetwork Share Discovery\nT1135\nMedusa actors query shared drives on the local system to gather sources of information.\nSystem Network Configuration Discovery\nT1016\nMedusa actors use OS administrative utilities to gather network information.\nSystem Information Discovery\nT1082\nMedusa actors use the command systeminfo to gather detailed system information.\nSystem Owner/User Discovery\nT1033\nMedusa actors use the command query user to gather information about the currently logged in user.\nSystem Network Connections Discovery\nT1049\nMedusa actors use the command netstat -a to gather a listing of network connections.\nPermission Groups Discovery: Domain Groups\nT1069.002\nMedusa actors attempt to find domain-level group and permission settings.\nTable 6: Credential Access\nTechnique Title\nID\nUse\nOS Credential Dumping: LSASS Memory\nT1003.001\nMedusa actors access credential material stored in process memory or LSASS using Mimikatz.\nSteal or Forge Kerberos Tickets\nT1558\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    },
+    {
+      "start": 24384,
+      "end": 24407,
+      "text": "Table 3: Initial Access"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

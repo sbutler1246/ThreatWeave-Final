@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u008"
+    ],
+    "selected_units": [
+      {
+        "start": 991,
+        "end": 1139,
+        "text": "LockBit competed with other RaaS operations, like Hive RaaS, to fill the gap in the cybercriminal market leading to an influx of LockBit affiliates.",
+        "line_start": 313
+      }
+    ],
+    "document_start": 10552,
+    "document_end": 10700,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

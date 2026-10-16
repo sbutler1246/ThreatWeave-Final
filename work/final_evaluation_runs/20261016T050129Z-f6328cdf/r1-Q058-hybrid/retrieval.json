@@ -1,0 +1,291 @@
+{
+  "mode": "hybrid",
+  "node2vec_enabled": true,
+  "rrf_k": 60,
+  "rrf_unit": "(source doc_id, parent extraction chunk_id)",
+  "rrf_group_aggregation": "sum of distinct source-parent scores; whole-path/text-context groups",
+  "source_ranks": [
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "ranks": {
+        "graph": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "AA23-319A",
+      "parent_chunk_id": "AA23-319A:development:llama500:19026:21144",
+      "ranks": {
+        "text": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "AA24-038A",
+      "parent_chunk_id": "AA24-038A:development:llama500:22202:24566",
+      "ranks": {
+        "graph": 2
+      },
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "doc_id": "AA24-060A",
+      "parent_chunk_id": "AA24-060A:development:llama500:18199:20450",
+      "ranks": {
+        "graph": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "AA24-109A",
+      "parent_chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "ranks": {
+        "graph": 4
+      },
+      "rrf_score": 0.015625
+    },
+    {
+      "doc_id": "AA24-109A",
+      "parent_chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+      "ranks": {
+        "text": 2
+      },
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "doc_id": "AA24-131A",
+      "parent_chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+      "ranks": {
+        "graph": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "AA25-071A",
+      "parent_chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+      "ranks": {
+        "graph": 6
+      },
+      "rrf_score": 0.015151515151515152
+    }
+  ],
+  "candidate_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.016129032258064516
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+      "score": 0.016129032258064516
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.015873015873015872
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.015625
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.015384615384615385
+    },
+    {
+      "kind": "graph",
+      "id": "P6",
+      "score": 0.015151515151515152
+    }
+  ],
+  "selected_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.016129032258064516
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+      "score": 0.016129032258064516
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.015625
+    }
+  ],
+  "selected_path_count": 3,
+  "selected_text_chunk_count": 2,
+  "selected_hops": [
+    1,
+    1,
+    1
+  ],
+  "skipped_groups": [
+    {
+      "kind": "graph",
+      "id": "P3",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "graph",
+      "id": "P6",
+      "reason": "context_budget"
+    }
+  ],
+  "evidence_utf8_bytes": 2991,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "graph_branch_empty": false,
+  "node2vec": {
+    "seed_groups": [
+      [
+        "attack:S0002"
+      ]
+    ],
+    "neighbors_by_seed": {
+      "attack:S0002": [
+        {
+          "canonical_id": "attack:S1200",
+          "name": "StealBit",
+          "cosine_distance": 0.2135690450668335
+        },
+        {
+          "canonical_id": "local:AA24-060A:software:3cd2c79d18ec",
+          "name": "Windows Management Instrumentation",
+          "cosine_distance": 0.2528705596923828
+        },
+        {
+          "canonical_id": "local:AA23-165A:lockbit-affiliates",
+          "name": "LockBit affiliates",
+          "cosine_distance": 0.26447921991348267
+        },
+        {
+          "canonical_id": "local:AA24-060A:software:ea63ca1308cf",
+          "name": "1saas.exe",
+          "cosine_distance": 0.2675546407699585
+        },
+        {
+          "canonical_id": "local:AA24-060A:phobos-actors",
+          "name": "Phobos actors",
+          "cosine_distance": 0.27242374420166016
+        }
+      ]
+    },
+    "neighbor_count_per_seed": 5,
+    "base_candidate_count": 6,
+    "expansion_candidate_count": 2,
+    "merged_candidate_count": 6,
+    "graph_index_fingerprint": "28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e",
+    "projection_sha256": "518924349a6dcaff49a61c726ab7bc974522be48102ac9d836539bac618a892c",
+    "graph_freshness_verified": true,
+    "similarity_is_fact_evidence": false
+  },
+  "graph_branch": {
+    "candidate_path_count": 6,
+    "selected_path_count": 6,
+    "selected_hops": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "evidence_utf8_bytes": 1874,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 0,
+    "seed_groups": [
+      [
+        "attack:S0002"
+      ]
+    ]
+  },
+  "text_branch": {
+    "candidate_ranks": [
+      {
+        "rank": 1,
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "parent_extraction_chunk_id": "AA23-319A:development:llama500:19026:21144",
+        "source_kind": "cisa",
+        "cosine_distance": 0.5992094874382019
+      },
+      {
+        "rank": 2,
+        "chunk_id": "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa",
+        "parent_extraction_chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+        "source_kind": "cisa",
+        "cosine_distance": 0.6164612174034119
+      },
+      {
+        "rank": 3,
+        "chunk_id": "retrieval:ea6551bc23ca29b7d33edbe561f293b5ae0503d7800bdad9c9f29f4f0edbaad9",
+        "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+        "source_kind": "cisa",
+        "cosine_distance": 0.6295828819274902
+      },
+      {
+        "rank": 4,
+        "chunk_id": "retrieval:45f43ba41a6094514bd470a74dc240bdcce3d54a63b67981f88714311d5062f6",
+        "parent_extraction_chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+        "source_kind": "cisa",
+        "cosine_distance": 0.6426491141319275
+      },
+      {
+        "rank": 5,
+        "chunk_id": "retrieval:79163afc81b22f2cff82a219cf123d89f435e9b4805b3cd960ba9a08d3c1c870",
+        "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+        "source_kind": "cisa",
+        "cosine_distance": 0.6448341608047485
+      }
+    ],
+    "candidate_chunk_count": 5,
+    "selected_chunk_ids": [
+      "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "retrieval:645441937b87c3fb437ee0f947488124f3bc03c3077bc982bf35619d4a939eaa"
+    ],
+    "selected_chunk_count": 2,
+    "selected_path_count": 0,
+    "evidence_utf8_bytes": 2082,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_chunks": 3,
+    "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+    "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+    "retrieval_ms": 19.787700002780184
+  },
+  "graph_source": "live_neo4j",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 519.2977000260726
+}

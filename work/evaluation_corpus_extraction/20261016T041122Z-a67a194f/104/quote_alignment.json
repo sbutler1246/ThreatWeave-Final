@@ -1,0 +1,29 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u002"
+    ],
+    "selected_units": [
+      {
+        "start": 17,
+        "end": 101,
+        "text": "When executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,",
+        "line_start": 17
+      }
+    ],
+    "document_start": 9623,
+    "document_end": 9707,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 7837,
+        "end": 7907,
+        "text": "Table 2: Freeware and Open-Source Tools Used by LockBit 3.0 Affiliates"
+      }
+    ],
+    "review_flags": []
+  }
+]

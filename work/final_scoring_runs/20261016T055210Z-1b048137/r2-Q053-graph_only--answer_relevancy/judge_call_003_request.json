@@ -1,0 +1,23 @@
+{
+  "phase": "answer_relevancy",
+  "endpoint": "/api/chat",
+  "parameters": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate a question for the given answer and Identify if answer is noncommittal. Give noncommittal as 1 if the answer is noncommittal and 0 if the answer is committal. A noncommittal answer is one that is evasive, vague, or ambiguous. For example, \"I don't know\" or \"I'm not sure\" are noncommittal answers\nPlease return the output in a JSON format that complies with the following schema as specified in JSON Schema:\n{\"properties\": {\"question\": {\"title\": \"Question\", \"type\": \"string\"}, \"noncommittal\": {\"title\": \"Noncommittal\", \"type\": \"integer\"}}, \"required\": [\"question\", \"noncommittal\"], \"title\": \"ResponseRelevanceOutput\", \"type\": \"object\"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.\n\n--------EXAMPLES-----------\nExample 1\nInput: {\n    \"response\": \"Albert Einstein was born in Germany.\"\n}\nOutput: {\n    \"question\": \"Where was Albert Einstein born?\",\n    \"noncommittal\": 0\n}\n\nExample 2\nInput: {\n    \"response\": \"I don't know about the  groundbreaking feature of the smartphone invented in 2023 as am unaware of information beyond 2022. \"\n}\nOutput: {\n    \"question\": \"What was the groundbreaking feature of the smartphone invented in 2023?\",\n    \"noncommittal\": 1\n}\n-----------------------------\n\nNow perform the same with the following input\ninput: {\n    \"response\": \"LockBit affiliates' use of Mimikatz is associated with the technique mapped to ThunderShell in AA23-165A. [E1, E2, E3]\\nNetwork Service Discovery (T1046) is the technique mapped to ThunderShell in AA23-165A. [E5, E6, E7]\\nNetwork Segmentation (M1030) is a mitigation for Network Service Discovery (T1046). [E8, E9]\\nNetwork Intrusion Prevention (M1031) is a mitigation for Remote Access Tools (T1219). [E11, E12]\\nUser Account Management (M1018) is a mitigation for Disable or Modify Tools (T1562.001). [E15, E16]\"\n}\nOutput: ",
+        "images": []
+      }
+    ],
+    "stream": false,
+    "model": "llama3.1:8b",
+    "format": null,
+    "options": {
+      "num_ctx": 8192,
+      "seed": 42,
+      "num_predict": 700,
+      "temperature": 0.0
+    },
+    "keep_alive": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "ready_for_live_evaluator_integration",
+  "environment": "S:\\ThreatWeave\\.venv-eval",
+  "lock_sha256": "5a69f2ee5ab2908405b5b9d3bbdbd66401451128c6f10e154cbd5ac563406bc4",
+  "model_calls": 0,
+  "scores_computed": false,
+  "finished_at": "2026-10-16T05:32:36.164927+00:00"
+}

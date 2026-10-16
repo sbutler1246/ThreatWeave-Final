@@ -1,0 +1,63 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u005"
+    ],
+    "selected_units": [
+      {
+        "start": 40,
+        "end": 162,
+        "text": "LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.",
+        "line_start": 40
+      }
+    ],
+    "document_start": 25385,
+    "document_end": 25507,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u006"
+    ],
+    "selected_units": [
+      {
+        "start": 163,
+        "end": 300,
+        "text": "LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.",
+        "line_start": 163
+      }
+    ],
+    "document_start": 25508,
+    "document_end": 25645,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u025"
+    ],
+    "selected_units": [
+      {
+        "start": 1120,
+        "end": 1204,
+        "text": "LockBit affiliates may use Cobalt Strike and target SMB shares for lateral movement.",
+        "line_start": 1120
+      }
+    ],
+    "document_start": 26465,
+    "document_end": 26549,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  }
+]

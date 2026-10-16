@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:06:59.7757586Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5308080700,
+  "load_duration": 9820600,
+  "prompt_eval_count": 1733,
+  "prompt_eval_duration": 238080000,
+  "eval_count": 380,
+  "eval_duration": 4984252000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use Mimikatz to dump credentials.\",\n      \"reason\": \"The context explicitly mentions LockBit affiliates using Mimikatz to dump credentials.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Volt Typhoon actors use Mimikatz to harvest credentials.\",\n      \"reason\": \"The context mentions Volt Typhoon actors leveraging Mimikatz to harvest credentials.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Akira threat actors use Mimikatz to dump credentials.\",\n      \"reason\": \"The context mentions Akira threat actors using tools like Mimikatz to dump credentials.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates' advisory software-to-technique mappings include Mimikatz for Defense Evasion.\",\n      \"reason\": \"The context does not mention LockBit affiliates' advisory software-to-technique mappings, and there is no information about Defense Evasion related to Mimikatz.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Volt Typhoon actors' advisory software-to-technique mappings include Mimikatz for Credential Access.\",\n      \"reason\": \"The context mentions Volt Typhoon actors leveraging Mimikatz for Credential Access, but it is not explicitly stated in the advisory software-to-technique mappings.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Akira threat actors' advisory software-to-technique mappings include Mimikatz for Credential Access.\",\n      \"reason\": \"The context mentions Akira threat actors using tools like Mimikatz for Credential Access, but it is not explicitly stated in the advisory software-to-technique mappings.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

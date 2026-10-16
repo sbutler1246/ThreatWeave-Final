@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:01:01.4054401Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6620850400,
+  "load_duration": 10833800,
+  "prompt_eval_count": 516,
+  "prompt_eval_duration": 234723000,
+  "eval_count": 496,
+  "eval_duration": 6268378000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"LockBit affiliates have a direct, active mitigates relationship to Network Service Discovery (T1046).\",\n        \"The direct, active mitigates relationship of LockBit affiliates to Network Service Discovery (T1046) is Network Segmentation (M1030).\",\n        \"LockBit affiliates have a direct, active mitigates relationship to Remote Access Tools (T1219).\",\n        \"The direct, active mitigates relationship of LockBit affiliates to Remote Access Tools (T1219) is Network Intrusion Prevention (M1031).\",\n        \"LockBit affiliates have a direct, active mitigates relationship to Disable or Modify Tools (T1562.001).\",\n        \"The direct, active mitigates relationship of LockBit affiliates to Disable or Modify Tools (T1562.001) is User Account Management (M1018).\"\n    ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"LockBit affiliates' direct, active mitigates relationship to Network Service Discovery (T1046) is Network Segmentation (M1030). [E4, E5]\"\n\t* \"LockBit affiliates have a direct, active mitigates relationship to Network Service Discovery (T1046).\"\n\t* \"The direct, active mitigates relationship of LockBit affiliates to Network Service Discovery (T1046) is Network Segmentation (M1030).\"\n2. \"LockBit affiliates' direct, active mitigates relationship to Remote Access Tools (T1219) is Network Intrusion Prevention (M1031). [E7, E8]\"\n\t* \"LockBit affiliates have a direct, active mitigates relationship to Remote Access Tools (T1219).\"\n\t* \"The direct, active mitigates relationship of LockBit affiliates to Remote Access Tools (T1219) is Network Intrusion Prevention (M1031).\"\n3. \"LockBit affiliates' direct, active mitigates relationship to Disable or Modify Tools (T1562.001) is User Account Management (M1018). [E11, E12]\"\n\t* \"LockBit affiliates have a direct, active mitigates relationship to Disable or Modify Tools (T1562.001).\"\n\t* \"The direct, active mitigates relationship of LockBit affiliates to Disable or Modify Tools (T1562.001) is User Account Management (M1018).\"",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

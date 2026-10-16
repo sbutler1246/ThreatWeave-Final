@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T05:53:32.0999591Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 459491500,
+  "load_duration": 10794700,
+  "prompt_eval_count": 443,
+  "prompt_eval_duration": 12860000,
+  "eval_count": 35,
+  "eval_duration": 431455000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is used by Royal actors to connect to Protocol Tunneling (T1572)?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

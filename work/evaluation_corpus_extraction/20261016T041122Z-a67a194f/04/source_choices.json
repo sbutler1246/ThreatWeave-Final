@@ -1,0 +1,264 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "LockBit Black",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "LockBit Black",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 89,
+      "text": "of instances different LockBit strains were observed by ANSSI from July 2020 to present.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 90,
+      "end": 152,
+      "text": "Table 3: ANSSI-Observed LockBit Strain and Number of Instances",
+      "line_start": 90
+    },
+    "u003": {
+      "start": 153,
+      "end": 172,
+      "text": "Name of the Strain*",
+      "line_start": 153
+    },
+    "u004": {
+      "start": 173,
+      "end": 192,
+      "text": "Number of Instances",
+      "line_start": 173
+    },
+    "u005": {
+      "start": 193,
+      "end": 218,
+      "text": "LockBit 2.0 (LockBit Red)",
+      "line_start": 193
+    },
+    "u006": {
+      "start": 219,
+      "end": 221,
+      "text": "26",
+      "line_start": 219
+    },
+    "u007": {
+      "start": 222,
+      "end": 249,
+      "text": "LockBit 3.0 (LockBit Black)",
+      "line_start": 222
+    },
+    "u008": {
+      "start": 250,
+      "end": 252,
+      "text": "23",
+      "line_start": 250
+    },
+    "u009": {
+      "start": 253,
+      "end": 260,
+      "text": "LockBit",
+      "line_start": 253
+    },
+    "u010": {
+      "start": 261,
+      "end": 263,
+      "text": "21",
+      "line_start": 261
+    },
+    "u011": {
+      "start": 264,
+      "end": 277,
+      "text": "LockBit Green",
+      "line_start": 264
+    },
+    "u012": {
+      "start": 278,
+      "end": 279,
+      "text": "1",
+      "line_start": 278
+    },
+    "u013": {
+      "start": 280,
+      "end": 304,
+      "text": "LockBit (pre-encryption)",
+      "line_start": 280
+    },
+    "u014": {
+      "start": 305,
+      "end": 306,
+      "text": "1",
+      "line_start": 305
+    },
+    "u015": {
+      "start": 307,
+      "end": 312,
+      "text": "Total",
+      "line_start": 307
+    },
+    "u016": {
+      "start": 313,
+      "end": 317,
+      "text": "72**",
+      "line_start": 313
+    },
+    "u017": {
+      "start": 318,
+      "end": 384,
+      "text": "* Name either obtained from ANSSI’s or the victim’s investigations",
+      "line_start": 318
+    },
+    "u018": {
+      "start": 385,
+      "end": 428,
+      "text": "** Includes incidents with multiple strains",
+      "line_start": 385
+    },
+    "u019": {
+      "start": 429,
+      "end": 477,
+      "text": "Figure 1: ANSSI-Observed LockBit Strains by Year",
+      "line_start": 429
+    },
+    "u020": {
+      "start": 478,
+      "end": 615,
+      "text": "From the incidents handled, ANSSI can infer that LockBit 3.0 widely took over from LockBit 2.0 and the original LockBit strain from 2022.",
+      "line_start": 478
+    },
+    "u021": {
+      "start": 616,
+      "end": 759,
+      "text": "In two cases, victims were infected with as many as three different strains of LockBit (LockBit 2.0/Red, LockBit 3.0/Black, and LockBit Green).",
+      "line_start": 478
+    },
+    "u022": {
+      "start": 760,
+      "end": 770,
+      "text": "Leak Sites",
+      "line_start": 760
+    },
+    "u023": {
+      "start": 771,
+      "end": 922,
+      "text": "The authoring agencies observe data leak sites, where attackers publish the names and captured data of victims if they do not pay ransom or hush money.",
+      "line_start": 771
+    },
+    "u024": {
+      "start": 923,
+      "end": 1029,
+      "text": "Additionally, these sites can be used to record alleged victims who have been threatened with a data leak.",
+      "line_start": 771
+    },
+    "u025": {
+      "start": 1030,
+      "end": 1177,
+      "text": "The term 'victims' may include those who have been attacked, or those who have been threatened or blackmailed (with the attack having taken place).",
+      "line_start": 771
+    },
+    "u026": {
+      "start": 1178,
+      "end": 1279,
+      "text": "The leak sites only show the portion of LockBit affiliates’ victims subjected to secondary extortion.",
+      "line_start": 1178
+    },
+    "u027": {
+      "start": 1280,
+      "end": 1463,
+      "text": "Since 2021, LockBit affiliates have employed double extortion by first encrypting victim data and then exfiltrating that data while threatening to post that stolen data on leak sites.",
+      "line_start": 1178
+    },
+    "u028": {
+      "start": 1464,
+      "end": 1682,
+      "text": "Because LockBit only reveals the names and leaked data of victims who refuse to pay the primary ransom to decrypt their data, some LockBit victims may never be named or have their exfiltrated data posted on leak sites.",
+      "line_start": 1178
+    },
+    "u029": {
+      "start": 1683,
+      "end": 1765,
+      "text": "As a result, the leak sites reveal a portion of LockBit affiliates’ total victims.",
+      "line_start": 1178
+    },
+    "u030": {
+      "start": 1766,
+      "end": 1873,
+      "text": "For these reasons, the leak sites are not a reliable indicator of when LockBit ransomware attacks occurred.",
+      "line_start": 1178
+    },
+    "u031": {
+      "start": 1874,
+      "end": 1997,
+      "text": "The date of data publication on the leak sites may be months after LockBit affiliates actually executed ransomware attacks.",
+      "line_start": 1178
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:lockbit",
+    "m002_S": "attack:S1199",
+    "m003_S": "attack:S1202",
+    "m004_S": "attack:S1202",
+    "m005_G": "local:ThreatGroup:lockbit affiliates"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,87 @@
+P079
+Question
+What is the two-hop relationship from LockBit affiliates through Advanced Internet Protocol (IP)
+Scanner to an ATT&CK technique in this advisory? Explain both the software-use link and the
+technique mapping.
+Displayed answer
+LockBit affiliates use Advanced IP Scanner to perform network scans. [E2, El]
+Advanced IP Scanner is used for Network Service Discovery (T 1046). [E2, El, E8]
+LockBit affiliates may use Advanced Port Scanner to enumerate connected machines in the
+network. [Q, El]
+Network Service Discovery (T 1046) is used by LockBit affiliates. [E2, E8]
+Network Intrusion Prevention (M 1031) can detect and prevent remote service scans. [El 0, El 1]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+The advisory lists Advanced Internet Protocol (IP) Scanner among tools used by LockBit affiliates
+and associates its repurposed use with T 1046 (Network Service Discovery in the frozen Enterprise
+ATT&CK 17.1 reference). This describes the advisory mapping, not all uses of that tool.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for
+exploitation.
+T 1046
+Network Service Discovery
+
+--- IMAGE ---
+
+[Q; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+[E4; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[E5; CISA]
+Use
+Network Service Discovery
+T 1046
+LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port
+Scanner to scan target networks.
+LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to
+enumerate connected machines in the network.
+System Information Discovery
+T 1082
+LockBit affiliates will enumerate system information to include hostname, host configuration,
+domain information, local drive configuration, remote shares, and mounted external storage
+devices.
+System Location Discovery: System Language Discovery
+
+--- IMAGE ---
+
+T 1614.001
+LockBit 3.0 will not infect machines with language settings that match a defined exclusion list.
+Table 12: LockBit Affiliates' ATT&CK Techniques for Enterprise — Lateral Movement
+Technique Title
+Use
+Lateral Movement
+TA0008
+LockBit affiliates will laterally move
+[E6; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E7; CISA]
+TECHNICAL DETAILS
+[E8; CISA]
+Table 11: LockBit Affiliates' ATT&CK Techniques for Enterprise — Discovery
+[E9; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[Elo; ATTACK]
+Use network intrusion detection/prevention systems to detect and prevent remote service scans.
+[El 1; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T 1046)
+Mitigation: Network Intrusion Prevention (M 1031)
+GRAPH NODES
+GRAPH PATHS

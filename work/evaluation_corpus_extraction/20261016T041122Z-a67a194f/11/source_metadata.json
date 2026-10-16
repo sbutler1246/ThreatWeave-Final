@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:21591:23692",
+    "doc_id": "AA23-165A",
+    "start": 21591,
+    "end": 23692,
+    "text": " – Execution\nTechnique Title\nID\nUse\nExecution\nTA0002\nLockBit 3.0 launches commands during its execution.\nCommand and Scripting Interpreter: Windows Command Shell\nT1059.003\nLockBit affiliates use batch scripts to execute malicious commands.\nSoftware Deployment Tools\nT1072\nLockBit affiliates may use Chocolatey, a command-line package manager for Windows.\nTechnique Title\nID\nUse\nSystem Services: Service Execution\nT1569.002\nLockBit 3.0 uses PsExec to execute commands or payloads.\nTable 7: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Persistence\nTechnique Title\nID\nUse\nBoot or Logon Autostart Execution\nT1547\nLockBit affiliates enables automatic logon for persistence.\nValid Accounts\nT1078\nLockBit affiliates may use a compromised user account to maintain persistence on the target network.\nTable 8: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Privilege Escalation\nTechnique Title\nID\nUse\nPrivilege Escalation\nTA0004\nLockBit affiliates will attempt to escalate to the required privileges if current account privileges are insufficient.\nAbuse Elevation Control Mechanism\nT1548\nLockBit affiliates may use ucmDccwCOM Method in UACMe, a GitHub collection of User Account Control (UAC) bypass techniques.\nBoot or Logon Autostart Execution\nT1547\nLockBit affiliates enable automatic logon for privilege escalation.\nDomain Policy Modification: Group Policy Modification\nT1484.001\nLockBit affiliates may create Group Policy for lateral movement and can force group policy updates.\nValid Accounts\nT1078\nLockBit affiliates may use a compromised user account to escalate privileges on a victim’s network.\nTable 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion\nTechnique Title\nID\nUse\nExecution Guardrails: Environmental Keying\nT1480.001\nLockBit 3.0 will only decrypt the main component or continue to decrypt and/or decompress data if the correct password is entered.\nImpair Defenses: Disable or Modify Tools\nT1562.001\nLockBit 3.0 affiliates use Backstab, Defender Control, GMER, PCHunter, PowerTool, Process Hacker or TDSSKiller to disable EDR processes and services.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 21530,
+        "end": 21591,
+        "text": "Table 6: LockBit Affiliates’ ATT&CK Techniques for Enterprise"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 497,
+  "inherited_context_tokens": 32,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "da7c47391e9952228421eada9cdb67cd317a47d32cb207ecdf8e65143fea54db",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

@@ -1,0 +1,448 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "MITRE ATT&CK",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "BlackSuit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "BlackSuit actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "phishing",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1566.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1566.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1650",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Once BlackSuit actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1105",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "Royal actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "MITRE ATT&CK",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "BlackSuit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "BlackSuit actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "phishing",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m005_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m006_T": {
+      "name": "T1566.001",
+      "type": "Technique",
+      "attack_id": "T1566.001"
+    },
+    "m007_T": {
+      "name": "T1566.002",
+      "type": "Technique",
+      "attack_id": "T1566.002"
+    },
+    "m008_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m009_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m010_T": {
+      "name": "T1650",
+      "type": "Technique",
+      "attack_id": "T1650"
+    },
+    "m011_G": {
+      "name": "Once BlackSuit actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1105",
+      "type": "Technique",
+      "attack_id": "T1105"
+    },
+    "m013_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_G": {
+      "name": "Royal actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m015_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 81,
+      "text": "Note: This advisory uses the MITRE ATT&CK® for Enterprise framework, version 15.",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 82,
+      "end": 223,
+      "text": "See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.",
+      "line_start": 1
+    },
+    "u003": {
+      "start": 224,
+      "end": 400,
+      "text": "For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.",
+      "line_start": 1
+    },
+    "u004": {
+      "start": 401,
+      "end": 415,
+      "text": "Initial Access",
+      "line_start": 401
+    },
+    "u005": {
+      "start": 416,
+      "end": 558,
+      "text": "BlackSuit uses a unique partial encryption approach that allows the threat actor to choose a specific percentage of data in a file to encrypt.",
+      "line_start": 416
+    },
+    "u006": {
+      "start": 559,
+      "end": 917,
+      "text": "This approach allows the actor to lower the encryption percentage for larger files, which helps evade detection, and also significantly improves ransomware speed.[1] In addition to encrypting files, BlackSuit actors also engage in double extortion tactics in which they threaten to publicly release the exfiltrated data if the victim does not pay the ransom.",
+      "line_start": 416
+    },
+    "u007": {
+      "start": 918,
+      "end": 1001,
+      "text": "BlackSuit actors gain initial access to victim networks in several ways, including:",
+      "line_start": 918
+    },
+    "u008": {
+      "start": 1002,
+      "end": 1011,
+      "text": "Phishing.",
+      "line_start": 1002
+    },
+    "u009": {
+      "start": 1012,
+      "end": 1146,
+      "text": "According to third-party reporting, BlackSuit actors most commonly gain initial access to victim networks via phishing emails [T1566].",
+      "line_start": 1002
+    },
+    "u010": {
+      "start": 1147,
+      "end": 1372,
+      "text": "According to open source reporting, victims have unknowingly installed malware that delivers BlackSuit ransomware after receiving phishing emails containing malicious PDF documents [T1566.001] and malvertising [T1566.002].[2]",
+      "line_start": 1147
+    },
+    "u011": {
+      "start": 1373,
+      "end": 1403,
+      "text": "Remote Desktop Protocol (RDP).",
+      "line_start": 1373
+    },
+    "u012": {
+      "start": 1404,
+      "end": 1532,
+      "text": "The second most common vector (around 13.3% of incidents) BlackSuit actors use for initial access is RDP compromise [T1021.001].",
+      "line_start": 1373
+    },
+    "u013": {
+      "start": 1533,
+      "end": 1560,
+      "text": "Public-facing applications.",
+      "line_start": 1533
+    },
+    "u014": {
+      "start": 1561,
+      "end": 1680,
+      "text": "FBI has observed BlackSuit actors gain initial access through exploiting vulnerable public-facing applications [T1190].",
+      "line_start": 1533
+    },
+    "u015": {
+      "start": 1681,
+      "end": 1689,
+      "text": "Brokers.",
+      "line_start": 1681
+    },
+    "u016": {
+      "start": 1690,
+      "end": 1922,
+      "text": "Reports from trusted third-party sources indicate that BlackSuit actors may leverage initial access brokers to gain initial access and source traffic by harvesting virtual private network (VPN) credentials from stealer logs [T1650].",
+      "line_start": 1681
+    },
+    "u017": {
+      "start": 1923,
+      "end": 1942,
+      "text": "Command and Control",
+      "line_start": 1923
+    },
+    "u018": {
+      "start": 1943,
+      "end": 2089,
+      "text": "Once BlackSuit actors gain access to a network, they communicate with command and control (C2) infrastructure and download multiple tools [T1105].",
+      "line_start": 1943
+    },
+    "u019": {
+      "start": 2090,
+      "end": 2209,
+      "text": "Legitimate Windows software is repurposed by BlackSuit actors to strengthen their foothold within the victim’s network.",
+      "line_start": 1943
+    },
+    "u020": {
+      "start": 2210,
+      "end": 2296,
+      "text": "Ransomware operators often use open source projects to aid their intrusion activities.",
+      "line_start": 1943
+    },
+    "u021": {
+      "start": 2297,
+      "end": 2421,
+      "text": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572]",
+      "line_start": 2297
+    },
+    "u022": {
+      "start": 2423,
+      "end": 2467,
+      "text": "to communicate with their C2 infrastructure.",
+      "line_start": 2297
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:mitre att&ck",
+    "m002_S": "local:Software:blacksuit",
+    "m003_G": "local:ThreatGroup:blacksuit actors",
+    "m004_T": "attack:T1566",
+    "m005_T": "attack:T1566",
+    "m006_T": "attack:T1566.001",
+    "m007_T": "attack:T1566.002",
+    "m008_T": "attack:T1021.001",
+    "m009_T": "attack:T1190",
+    "m010_T": "attack:T1650",
+    "m011_G": "local:ThreatGroup:once blacksuit actors",
+    "m012_T": "attack:T1105",
+    "m013_S": "attack:S1073",
+    "m014_G": "local:ThreatGroup:royal actors",
+    "m015_T": "attack:T1572"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T",
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u016"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G",
+        "m011_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m012_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007",
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    }
+  ]
+}

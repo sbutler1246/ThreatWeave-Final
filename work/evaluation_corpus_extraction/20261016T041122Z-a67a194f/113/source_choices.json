@@ -1,0 +1,641 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "TA0002",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1547",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "TA0004",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Lockbit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1070.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1480.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "LSASS.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1082",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1614.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_A": {
+      "name": "TA0002",
+      "type": "Tactic",
+      "attack_id": "TA0002"
+    },
+    "m002_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m004_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m005_T": {
+      "name": "T1547",
+      "type": "Technique",
+      "attack_id": "T1547"
+    },
+    "m006_A": {
+      "name": "TA0004",
+      "type": "Tactic",
+      "attack_id": "TA0004"
+    },
+    "m007_S": {
+      "name": "Lockbit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m009_T": {
+      "name": "T1070.004",
+      "type": "Technique",
+      "attack_id": "T1070.004"
+    },
+    "m010_T": {
+      "name": "T1480.001",
+      "type": "Technique",
+      "attack_id": "T1480.001"
+    },
+    "m011_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m012_S": {
+      "name": "LSASS.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m014_T": {
+      "name": "T1082",
+      "type": "Technique",
+      "attack_id": "T1082"
+    },
+    "m015_T": {
+      "name": "T1614.001",
+      "type": "Technique",
+      "attack_id": "T1614.001"
+    },
+    "m016_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 16,
+      "text": "Technique Title",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 17,
+      "end": 19,
+      "text": "ID",
+      "line_start": 17
+    },
+    "u003": {
+      "start": 20,
+      "end": 23,
+      "text": "Use",
+      "line_start": 20
+    },
+    "u004": {
+      "start": 24,
+      "end": 33,
+      "text": "Execution",
+      "line_start": 24
+    },
+    "u005": {
+      "start": 34,
+      "end": 40,
+      "text": "TA0002",
+      "line_start": 34
+    },
+    "u006": {
+      "start": 41,
+      "end": 92,
+      "text": "LockBit 3.0 launches commands during its execution.",
+      "line_start": 41
+    },
+    "u007": {
+      "start": 93,
+      "end": 118,
+      "text": "Software Deployment Tools",
+      "line_start": 93
+    },
+    "u008": {
+      "start": 119,
+      "end": 124,
+      "text": "T1072",
+      "line_start": 119
+    },
+    "u009": {
+      "start": 125,
+      "end": 198,
+      "text": "LockBit 3.0 uses Chocolatey, a command- line package manager for Windows.",
+      "line_start": 125
+    },
+    "u010": {
+      "start": 199,
+      "end": 210,
+      "text": "Persistence",
+      "line_start": 199
+    },
+    "u011": {
+      "start": 211,
+      "end": 226,
+      "text": "Technique Title",
+      "line_start": 211
+    },
+    "u012": {
+      "start": 227,
+      "end": 229,
+      "text": "ID",
+      "line_start": 227
+    },
+    "u013": {
+      "start": 230,
+      "end": 233,
+      "text": "Use",
+      "line_start": 230
+    },
+    "u014": {
+      "start": 234,
+      "end": 248,
+      "text": "Valid Accounts",
+      "line_start": 234
+    },
+    "u015": {
+      "start": 249,
+      "end": 254,
+      "text": "T1078",
+      "line_start": 249
+    },
+    "u016": {
+      "start": 255,
+      "end": 345,
+      "text": "LockBit 3.0 uses a compromised user account to maintain persistence on the target network.",
+      "line_start": 255
+    },
+    "u017": {
+      "start": 346,
+      "end": 378,
+      "text": "Boot or Logo Autostart Execution",
+      "line_start": 346
+    },
+    "u018": {
+      "start": 379,
+      "end": 384,
+      "text": "T1547",
+      "line_start": 379
+    },
+    "u019": {
+      "start": 385,
+      "end": 437,
+      "text": "LockBit 3.0 enables automatic logon for persistence.",
+      "line_start": 385
+    },
+    "u020": {
+      "start": 438,
+      "end": 458,
+      "text": "Privilege Escalation",
+      "line_start": 438
+    },
+    "u021": {
+      "start": 459,
+      "end": 474,
+      "text": "Technique Title",
+      "line_start": 459
+    },
+    "u022": {
+      "start": 475,
+      "end": 477,
+      "text": "ID",
+      "line_start": 475
+    },
+    "u023": {
+      "start": 478,
+      "end": 481,
+      "text": "Use",
+      "line_start": 478
+    },
+    "u024": {
+      "start": 482,
+      "end": 502,
+      "text": "Privilege Escalation",
+      "line_start": 482
+    },
+    "u025": {
+      "start": 503,
+      "end": 509,
+      "text": "TA0004",
+      "line_start": 503
+    },
+    "u026": {
+      "start": 510,
+      "end": 621,
+      "text": "Lockbit 3.0 will attempt to escalate to the required privileges if current account privileges are insufficient.",
+      "line_start": 510
+    },
+    "u027": {
+      "start": 622,
+      "end": 654,
+      "text": "Boot or Logo Autostart Execution",
+      "line_start": 622
+    },
+    "u028": {
+      "start": 655,
+      "end": 660,
+      "text": "T1547",
+      "line_start": 655
+    },
+    "u029": {
+      "start": 661,
+      "end": 722,
+      "text": "LockBit 3.0 enables automatic logon for privilege escalation.",
+      "line_start": 661
+    },
+    "u030": {
+      "start": 723,
+      "end": 738,
+      "text": "Defense Evasion",
+      "line_start": 723
+    },
+    "u031": {
+      "start": 739,
+      "end": 754,
+      "text": "Technique Title",
+      "line_start": 739
+    },
+    "u032": {
+      "start": 755,
+      "end": 757,
+      "text": "ID",
+      "line_start": 755
+    },
+    "u033": {
+      "start": 758,
+      "end": 761,
+      "text": "Use",
+      "line_start": 758
+    },
+    "u034": {
+      "start": 762,
+      "end": 793,
+      "text": "Obfuscated Files or Information",
+      "line_start": 762
+    },
+    "u035": {
+      "start": 794,
+      "end": 799,
+      "text": "T1027",
+      "line_start": 794
+    },
+    "u036": {
+      "start": 800,
+      "end": 875,
+      "text": "LockBit 3.0 will send encrypted host and bot information to its C2 servers.",
+      "line_start": 800
+    },
+    "u037": {
+      "start": 876,
+      "end": 908,
+      "text": "Indicator Removal: File Deletion",
+      "line_start": 876
+    },
+    "u038": {
+      "start": 909,
+      "end": 918,
+      "text": "T1070.004",
+      "line_start": 909
+    },
+    "u039": {
+      "start": 919,
+      "end": 964,
+      "text": "LockBit 3.0 will delete itself from the disk.",
+      "line_start": 919
+    },
+    "u040": {
+      "start": 965,
+      "end": 1007,
+      "text": "Execution Guardrails: Environmental Keying",
+      "line_start": 965
+    },
+    "u041": {
+      "start": 1008,
+      "end": 1017,
+      "text": "T1480.001",
+      "line_start": 1008
+    },
+    "u042": {
+      "start": 1018,
+      "end": 1148,
+      "text": "LockBit 3.0 will only decrypt the main component or continue to decrypt and/or decompress data if the correct password is entered.",
+      "line_start": 1018
+    },
+    "u043": {
+      "start": 1149,
+      "end": 1166,
+      "text": "Credential Access",
+      "line_start": 1149
+    },
+    "u044": {
+      "start": 1167,
+      "end": 1182,
+      "text": "Technique Title",
+      "line_start": 1167
+    },
+    "u045": {
+      "start": 1183,
+      "end": 1185,
+      "text": "ID",
+      "line_start": 1183
+    },
+    "u046": {
+      "start": 1186,
+      "end": 1189,
+      "text": "Use",
+      "line_start": 1186
+    },
+    "u047": {
+      "start": 1190,
+      "end": 1225,
+      "text": "OS Credential Dumping: LSASS Memory",
+      "line_start": 1190
+    },
+    "u048": {
+      "start": 1226,
+      "end": 1235,
+      "text": "T1003.001",
+      "line_start": 1226
+    },
+    "u049": {
+      "start": 1236,
+      "end": 1318,
+      "text": "LockBit 3.0 uses Microsoft Sysinternals ProDump to dump the contents of LSASS.exe.",
+      "line_start": 1236
+    },
+    "u050": {
+      "start": 1319,
+      "end": 1328,
+      "text": "Discovery",
+      "line_start": 1319
+    },
+    "u051": {
+      "start": 1329,
+      "end": 1344,
+      "text": "Technique Title",
+      "line_start": 1329
+    },
+    "u052": {
+      "start": 1345,
+      "end": 1347,
+      "text": "ID",
+      "line_start": 1345
+    },
+    "u053": {
+      "start": 1348,
+      "end": 1351,
+      "text": "Use",
+      "line_start": 1348
+    },
+    "u054": {
+      "start": 1352,
+      "end": 1377,
+      "text": "Network Service Discovery",
+      "line_start": 1352
+    },
+    "u055": {
+      "start": 1378,
+      "end": 1383,
+      "text": "T1046",
+      "line_start": 1378
+    },
+    "u056": {
+      "start": 1384,
+      "end": 1453,
+      "text": "LockBit 3.0 uses SoftPerfect Network Scanner to scan target networks.",
+      "line_start": 1384
+    },
+    "u057": {
+      "start": 1454,
+      "end": 1482,
+      "text": "System Information Discovery",
+      "line_start": 1454
+    },
+    "u058": {
+      "start": 1483,
+      "end": 1488,
+      "text": "T1082",
+      "line_start": 1483
+    },
+    "u059": {
+      "start": 1489,
+      "end": 1675,
+      "text": "LockBit 3.0 will enumerate system information to include hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices.",
+      "line_start": 1489
+    },
+    "u060": {
+      "start": 1676,
+      "end": 1728,
+      "text": "System Location Discovery: System Language Discovery",
+      "line_start": 1676
+    },
+    "u061": {
+      "start": 1729,
+      "end": 1738,
+      "text": "T1614.001",
+      "line_start": 1729
+    },
+    "u062": {
+      "start": 1739,
+      "end": 1835,
+      "text": "LockBit 3.0 will not infect machines with language settings that match a defined exclusion list.",
+      "line_start": 1739
+    },
+    "u063": {
+      "start": 1836,
+      "end": 1852,
+      "text": "Lateral Movement",
+      "line_start": 1836
+    },
+    "u064": {
+      "start": 1853,
+      "end": 1868,
+      "text": "Technique Title",
+      "line_start": 1853
+    },
+    "u065": {
+      "start": 1869,
+      "end": 1871,
+      "text": "ID",
+      "line_start": 1869
+    },
+    "u066": {
+      "start": 1872,
+      "end": 1875,
+      "text": "Use",
+      "line_start": 1872
+    },
+    "u067": {
+      "start": 1876,
+      "end": 1916,
+      "text": "Remote Services: Remote Desktop Protocol",
+      "line_start": 1876
+    },
+    "u068": {
+      "start": 1917,
+      "end": 1926,
+      "text": "T1021.001",
+      "line_start": 1917
+    },
+    "u069": {
+      "start": 1927,
+      "end": 2010,
+      "text": "LockBit 3.0 uses Splashtop remote- desktop software to facilitate lateral movement.",
+      "line_start": 1927
+    },
+    "u070": {
+      "start": 2011,
+      "end": 2030,
+      "text": "Command and Control",
+      "line_start": 2011
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_A": "attack:TA0002",
+    "m002_S": "attack:S1202",
+    "m003_T": "attack:T1072",
+    "m004_T": "attack:T1078",
+    "m005_T": "attack:T1547",
+    "m006_A": "attack:TA0004",
+    "m007_S": "attack:S1202",
+    "m008_T": "attack:T1027",
+    "m009_T": "attack:T1070.004",
+    "m010_T": "attack:T1480.001",
+    "m011_T": "attack:T1003.001",
+    "m012_S": "local:Software:lsass.exe",
+    "m013_T": "attack:T1046",
+    "m014_T": "attack:T1082",
+    "m015_T": "attack:T1614.001",
+    "m016_T": "attack:T1021.001"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

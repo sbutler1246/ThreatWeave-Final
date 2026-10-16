@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:30061:32570",
+  "doc_id": "AA25-071A",
+  "start": 30061,
+  "end": 32570,
+  "text": " a potential compromise is detected, but ransomware actors have not yet encrypted items, organizations should take the following actions:\nDetermine which hosts were compromised and isolate them by quarantining or taking them offline.\n(Updated Aug. 18, 2026) Initiate threat hunting activities to scope the intrusion. Collect and review relevant artifacts, logs, and other data to identify threat actor TTPs, compromised devices and accounts, a timeline of activity, etc. Responders should consider:\nLogs left behind by threat actor tooling, such as SimpleHelp and RDP logs.\nNetflow showing unusually large traffic volume coming from normally low-traffic hosts.\nReport the compromise to CISA and/or the FBI (see Reporting for contact information).\n(Updated Aug. 18, 2026) Apply eviction countermeasures, including those listed below, to contain the incident and eradicate the threat actor from the network.\nNote: Start applying countermeasures after collecting enough threat hunting data to inform effective countermeasure selection; this will likely overlap with threat hunting activities.\nRemove local administrator accounts and rotate credentials for service accounts and domain administrator accounts.\nRemove C2 software—including SimpleHelp, Nezha, Cloudflared, and Ligolo—and lock down access to legitimate company remote access tools, such as ConnectWise ScreenConnect, BeyondTrust (previously Bomgar), RDP, or any other remote access method used by the company.\nEnsure initial intrusion CVE is patched and any persistence on initial access machine is removed (e.g., reverse shells, web portal credentials).\nUse CISA’s Eviction Strategies Tool to assemble countermeasures for a systematic eviction plan—the tool comprises Playbook-NG (a web application) and COUN7ER (a database of post-compromise countermeasures mapped to adversary TTPs).\nUse Playbook-NG and COUN7ER together to assemble a systematic eviction plan, or playbook, that leverages distinct countermeasures to contain and evict cyber threat actors. The playbook features a list of recommended response actions based on threat actor TTPs and includes each action’s intended outcome, preparatory steps, and associated risks. For more information, see CISA’s Eviction Strategies Tool Fact Sheet.\nHarden the network to prevent additional malicious activity (see Mitigations for guidance).\nIf compromise is detected and items have been encrypted, see the “Ransomware and Data Extortion Response Checklist” in CISA’s joint #StopRansomware Guide.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    },
+    {
+      "start": 29339,
+      "end": 29355,
+      "text": "Table 12: Impact"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

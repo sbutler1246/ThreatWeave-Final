@@ -1,0 +1,337 @@
+{
+  "mode": "hybrid",
+  "node2vec_enabled": true,
+  "rrf_k": 60,
+  "rrf_unit": "(source doc_id, parent extraction chunk_id)",
+  "rrf_group_aggregation": "sum of distinct source-parent scores; whole-path/text-context groups",
+  "source_ranks": [
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:13738:15981",
+      "ranks": {
+        "graph": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "ranks": {
+        "graph": 2,
+        "text": 3
+      },
+      "rrf_score": 0.03200204813108039
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:evaluation:llama500:26834:28843",
+      "ranks": {
+        "graph": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row02",
+      "ranks": {
+        "graph": 4,
+        "text": 1
+      },
+      "rrf_score": 0.032018442622950824
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row03",
+      "ranks": {
+        "graph": 6,
+        "text": 2
+      },
+      "rrf_score": 0.03128054740957967
+    },
+    {
+      "doc_id": "AA23-165A",
+      "parent_chunk_id": "AA23-165A:table4:row04",
+      "ranks": {
+        "graph": 8,
+        "text": 4
+      },
+      "rrf_score": 0.030330882352941176
+    },
+    {
+      "doc_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2",
+      "parent_chunk_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2:description",
+      "ranks": {
+        "text": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788",
+      "parent_chunk_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788:description",
+      "ranks": {
+        "graph": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64",
+      "parent_chunk_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64:description",
+      "ranks": {
+        "graph": 7
+      },
+      "rrf_score": 0.014925373134328358
+    }
+  ],
+  "candidate_groups": [
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.04740305800756621
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.04620592054390803
+    },
+    {
+      "kind": "graph",
+      "id": "P6",
+      "score": 0.04525625548726953
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "score": 0.032018442622950824
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "score": 0.03128054740957967
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "score": 0.030330882352941176
+    },
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.015873015873015872
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "score": 0.015384615384615385
+    }
+  ],
+  "selected_groups": [
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.04740305800756621
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.04620592054390803
+    },
+    {
+      "kind": "graph",
+      "id": "P6",
+      "score": 0.04525625548726953
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "score": 0.032018442622950824
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "score": 0.03128054740957967
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "score": 0.030330882352941176
+    }
+  ],
+  "selected_path_count": 4,
+  "selected_text_chunk_count": 4,
+  "selected_hops": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "skipped_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "reason": "context_budget"
+    }
+  ],
+  "evidence_utf8_bytes": 3000,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "graph_branch_empty": false,
+  "node2vec": {
+    "seed_groups": [
+      [
+        "local:AA23-165A:lockbit-affiliates"
+      ]
+    ],
+    "neighbors_by_seed": {
+      "local:AA23-165A:lockbit-affiliates": [
+        {
+          "canonical_id": "local:AA23-165A:software:ad9798edd4be",
+          "name": "SoftPerfect Network Scanner",
+          "cosine_distance": 0.054613709449768066
+        },
+        {
+          "canonical_id": "attack:S1200",
+          "name": "StealBit",
+          "cosine_distance": 0.05508720874786377
+        },
+        {
+          "canonical_id": "attack:S0357",
+          "name": "Impacket",
+          "cosine_distance": 0.1124231219291687
+        },
+        {
+          "canonical_id": "local:AA23-165A:software:f084e63e6a62",
+          "name": "AnyDesk",
+          "cosine_distance": 0.11946702003479004
+        },
+        {
+          "canonical_id": "local:AA23-165A:software:3200bf51de7a",
+          "name": "Advanced Port Scanner",
+          "cosine_distance": 0.12401747703552246
+        }
+      ]
+    },
+    "neighbor_count_per_seed": 5,
+    "base_candidate_count": 30,
+    "expansion_candidate_count": 15,
+    "merged_candidate_count": 30,
+    "graph_index_fingerprint": "28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e",
+    "projection_sha256": "518924349a6dcaff49a61c726ab7bc974522be48102ac9d836539bac618a892c",
+    "graph_freshness_verified": true,
+    "similarity_is_fact_evidence": false
+  },
+  "graph_branch": {
+    "candidate_path_count": 25,
+    "selected_path_count": 6,
+    "selected_hops": [
+      1,
+      1,
+      1,
+      3,
+      3,
+      3
+    ],
+    "evidence_utf8_bytes": 2457,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 0,
+    "seed_groups": [
+      [
+        "local:AA23-165A:lockbit-affiliates"
+      ]
+    ]
+  },
+  "text_branch": {
+    "candidate_ranks": [
+      {
+        "rank": 1,
+        "chunk_id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row02",
+        "source_kind": "cisa",
+        "cosine_distance": 0.3902355432510376
+      },
+      {
+        "rank": 2,
+        "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row03",
+        "source_kind": "cisa",
+        "cosine_distance": 0.43236517906188965
+      },
+      {
+        "rank": 3,
+        "chunk_id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+        "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+        "source_kind": "cisa",
+        "cosine_distance": 0.43834614753723145
+      },
+      {
+        "rank": 4,
+        "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+        "parent_extraction_chunk_id": "AA23-165A:table4:row04",
+        "source_kind": "cisa",
+        "cosine_distance": 0.44150424003601074
+      },
+      {
+        "rank": 5,
+        "chunk_id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.4567177891731262
+      }
+    ],
+    "candidate_chunk_count": 5,
+    "selected_chunk_ids": [
+      "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f"
+    ],
+    "selected_chunk_count": 5,
+    "selected_path_count": 0,
+    "evidence_utf8_bytes": 2012,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_chunks": 0,
+    "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+    "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+    "retrieval_ms": 14.322400005767122
+  },
+  "graph_source": "live_neo4j",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 592.971200007014
+}

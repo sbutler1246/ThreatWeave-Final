@@ -1,0 +1,6 @@
+{"relations": [
+    {"unit_ids": ["u001"], "context_ids": [], "head": "m002_T", "predicate": "PART_OF_TACTIC", "tail": "m003_A"},
+    {"unit_ids": ["u001"], "context_ids": [], "head": "m006_T", "predicate": "PART_OF_TACTIC", "tail": "m005_A"},
+    {"unit_ids": ["u002"], "context_ids": [], "head": "m007_G", "predicate": "USES", "tail": "m001_S"},
+    {"unit_ids": ["u012"], "context_ids": [], "head": "m014_T", "predicate": "PART_OF_TACTIC", "tail": "m015_A"}
+]}

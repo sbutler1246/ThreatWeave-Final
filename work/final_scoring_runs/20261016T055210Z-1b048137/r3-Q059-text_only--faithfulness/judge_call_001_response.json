@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T05:55:37.8482268Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8021158300,
+  "load_duration": 9337500,
+  "prompt_eval_count": 540,
+  "prompt_eval_duration": 195827000,
+  "eval_count": 602,
+  "eval_duration": 7738541000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"Rhysida actors use Mimikatz to aid in privilege escalation.\",\n    \"Akira threat actors use Mimikatz and LaZagne to aid in privilege escalation.\",\n    \"Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities) and T1078 (Valid Accounts).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1087.002 (Account Discovery: Domain Account).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1482 (Domain Trust Discovery).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1003.001 (Kerberoasting).\",\n    \"Akira threat actors use Mimikatz to aid in privilege escalation.\"\n  ]\n}\n\nHere's the breakdown of each sentence into fully understandable statements:\n\n1. \"Rhysida actors use Mimikatz to aid in privilege escalation.\"\n\t* Rhysida actors use Mimikatz.\n\t* Rhysida actors use Mimikatz to aid in privilege escalation.\n2. \"Akira threat actors use Mimikatz and LaZagne to aid in privilege escalation.\"\n\t* Akira threat actors use Mimikatz.\n\t* Akira threat actors use LaZagne.\n\t* Akira threat actors use Mimikatz and LaZagne to aid in privilege escalation.\n3. \"Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities) and T1078 (Valid Accounts).\"\n\t* Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities).\n\t* Rhysida actors' advisory software-to-technique mapping includes T1078 (Valid Accounts).\n4. \"Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery), T1087.002 (Account Discovery: Domain Account), T1482 (Domain Trust Discovery), and T1003.001 (Kerberoasting).\"\n\t* Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery).\n\t* Akira threat actors' advisory software-to-technique mapping includes T1087.002 (Account Discovery: Domain Account).\n\t* Akira threat actors' advisory software-to-technique mapping includes T1482 (Domain Trust Discovery).\n\t* Akira threat actors' advisory software-to-technique mapping includes T1003.001 (Kerberoasting).\n5. \"Akira threat actors use Mimikatz to aid in privilege escalation.\"\n\t* Akira threat actors use Mimikatz.\n\t* Akira threat actors use Mimikatz to aid in privilege escalation.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

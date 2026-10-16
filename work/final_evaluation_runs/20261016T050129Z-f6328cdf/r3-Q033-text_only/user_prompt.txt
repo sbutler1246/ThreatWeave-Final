@@ -1,0 +1,52 @@
+QUESTION: In the AA24-109A command-and-control paragraph describing ngrok encrypted sessions that bypass perimeter monitoring, what two-hop path connects Akira actors through ngrok to the cited ATT&CK technique? Explain both source-supported links.
+MODE: text_only
+SOURCE PASSAGES
+[E1; CISA]
+beacons.
+Akira threat actors use STONESTOP malware to load additional payloads.
+End Update
+Remote Access Software
+T1219
+Akira threat actors use legitimate desktop support software like AnyDesk to obtain remote access to victim systems.
+Update Nov. 13, 2025
+Akira threat actors use SystemBC malware as a RAT.
+End Update
+Update Nov. 13, 2025
+Protocol Tunneling
+T1572
+Akira treat actors use Ngrok to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, bypass perimeter defenses, and maintain covert persistent access.
+End Update
+Table 20. Exfiltration
+Technique Title
+
+[E2; CISA]
+#StopRansomware: Akira Ransomware
+[E3; CISA]
+Technical Details
+[E4; CISA]
+Table 16. Discovery
+[E5; ATTACK]
+Train users to be aware of impersonation tricks and how to counter them, for example confirming incoming requests through an independent platform like a phone call or in-person, to reduce risk.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (T1656)
+Mitigation: User Training (M1017)
+[E7; CISA]
+ such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega [T1537], to connect to exfiltration servers. In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].
+After exfiltrating data, Akira threat actors use a double-extortion model [T1657], which involves threat actors both encrypting systems [T1486] and threatening to leak sensitive information. The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].
+(Note: Tor, short for The Onion Router, is a decentralized network designed to anonymize internet traffic by routing it through multiple servers, encrypting data at each step. This network is often leveraged by threat actors to conceal their identities and activities, enabling secure and 
+[E8; ATTACK]
+If a link is being visited by a user, network intrusion prevention systems and systems designed to scan and remove malicious downloads can be used to block activity.
+[E9; ATTACK]
+ATT&CK release: 17.1
+Technique: User Execution (T1204)
+Mitigation: Network Intrusion Prevention (M1031)
+[E10; ATTACK]
+Consider filtering network traffic to untrusted or known bad domains and resources. 
+[E11; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (T1572)
+Mitigation: Filter Network Traffic (M1037)
+GRAPH NODES
+GRAPH PATHS
+Return the requested JSON. The displayed answer is assembled from claims.

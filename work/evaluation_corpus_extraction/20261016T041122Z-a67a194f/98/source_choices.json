@@ -1,0 +1,65 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "PLAY",
+      "codes": [
+        "S",
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "PLAY",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m001_G": {
+      "name": "PLAY",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 126,
+      "text": "65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_8_detected; sid:1900009; rev:1;)",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 127,
+      "end": 631,
+      "text": "alert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 44 00 65 00 66 00 61 00 75 00 6c 00 74 00 20 00 55 00 73 00 65 00 72 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 52 00 6f 00 61 00 6d 00 69 00 6e 00 67 00 5c 00 4f 00 70 00 65 00 72 00 61 00 20 00 53 00 6f 00 66 00 74 00 77 00 61 00 72 00 65 00 5c 00 4f 00 70 00 65 00 72 00 61 00 20 00 53 00 74 00 61 00 62 00 6c 00 65 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_9_detected ;sid:1900010; rev:1;)",
+      "line_start": 127
+    },
+    "u003": {
+      "start": 632,
+      "end": 1253,
+      "text": "alert smb any any -> any any (msg:\"GRIXBA web history scanning detected - potential indicator of imminent PLAY Ransomware attack\"; flowbits:isset,GRXBA_webhist_path_1_detected; flowbits:isset,GRXBA_webhist_path_2_detected; flowbits:isset,GRXBA_webhist_path_3_detected; flowbits:isset,GRXBA_webhist_path_4_detected; flowbits:isset,GRXBA_webhist_path_5_detected;flowbits:isset,GRXBA_webhist_path_6_detected; flowbits:isset,GRXBA_webhist_path_7_detected; flowbits:isset,GRXBA_webhist_path_8_detected; flowbits:isset,GRXBA_webhist_path_9_detected; flowbits:set,GRXBA_hit_found; classtype:attempted-recon; sid:1900011; rev:1;)",
+      "line_start": 632
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1162",
+    "m001_G": "attack:G1040"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    }
+  ]
+}

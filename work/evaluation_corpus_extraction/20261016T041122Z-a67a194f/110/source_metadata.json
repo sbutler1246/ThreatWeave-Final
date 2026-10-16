@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:17999:19572",
+    "doc_id": "AA23-075A",
+    "start": 17999,
+    "end": 19572,
+    "text": "\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\nDisableRoutinelyTa kingAction\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Real-Time Protection\nDisableRealtimeMon itoring\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Real-Time Protection\nDisableBehaviorMon itoring\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Spynet\nSubmitSamplesConse nt\nREG_D WORD\n2\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Spynet\nSpynetReporting\nREG_D WORD\n0\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window sFirewall\\DomainProfile\nEnableFirewall\nREG_D WORD\n0\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window sFirewall\\StandardProfile\nEnableFirewall\nREG_D WORD\n0\nForce GPUpdate\nOnce new group policies are added, a PowerShell command using Group Policy update (GPUpdate) applies the new group policy changes to all computers on the AD domain.\nForce GPUpdate Powershell Command\npowershell Get-ADComputer -filter * -Searchbase '%s' | Foreach-Object { Invoke- GPUpdate -computer $_.name -force -RandomDelayInMinutes 0}\nServices Killed\nvss\nsql\nsvc$\nmemtas\nmepocs\nmsexchange\nsophos\nveeam\nbackup\nGxVss\nGxBlr\nGxFWD\nGxCVD\nGxCIMgr\nProcesses Killed\nsql\noracle\nocssd\ndbsnmp\nsynctime\nagntsvc\nisqlplussvc\nxfssvccon\nmydesktopservice\nocautoupds\nencsvc\nfirefox\ntbirdconfig\nmydesktopqos\nocomm\ndbeng50\nsqbcoreservice\nexcel\ninfopath\nmsaccess\nmspu\nonenote\noutlook\npowerpnt\nsteam\nthebat\nthunderbird\nvisio\nwinword\nwordpad\nnotepad\nLockBit 3.0 Ransom Note\n~~~ LockBit 3.0 the world's fastest and most stable ransomware from 2019~~~\n>>>>> Your data is stolen and encrypted.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 485,
+  "inherited_context_tokens": 18,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "6f4acaacdb51663e05f75d45e3d52982b5c85b15c487c73234a2a8d2ac2a7fea",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

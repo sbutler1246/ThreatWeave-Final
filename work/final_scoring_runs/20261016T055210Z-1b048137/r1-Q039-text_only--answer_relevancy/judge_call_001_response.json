@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:42:51.1505833Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 712101300,
+  "load_duration": 9804600,
+  "prompt_eval_count": 417,
+  "prompt_eval_duration": 122235000,
+  "eval_count": 36,
+  "eval_duration": 449131000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is the connection between Black Basta affiliates and the ATT&CK technique T1190?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

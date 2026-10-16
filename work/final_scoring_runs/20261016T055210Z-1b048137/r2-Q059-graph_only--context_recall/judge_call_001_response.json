@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:23:18.8151933Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4594811800,
+  "load_duration": 10664000,
+  "prompt_eval_count": 1633,
+  "prompt_eval_duration": 315138000,
+  "eval_count": 319,
+  "eval_duration": 4140823000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"AA24-109A reports Akira threat actors using Mimikatz, with advisory mappings T1003;\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"AA25-071A reports Medusa actors using Mimikatz, with advisory mappings T1003.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"These mappings describe the cited reports and do not establish that every use of the software has these behaviors.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"The first report uses the parent technique T1003 (OS Credential Dumping);\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"the Medusa report specifies T1003.001 (LSASS Memory), a sub-technique of T1003.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"This is a difference in specificity of the reported mapping.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

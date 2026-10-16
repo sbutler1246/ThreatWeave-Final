@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u016"
+    ],
+    "selected_units": [
+      {
+        "start": 650,
+        "end": 793,
+        "text": "Akira threat actors use POORTRY malware written as a signed vulnerable Windows driver to deploy BYOVD techniques to obtain elevated privileges.",
+        "line_start": 650
+      }
+    ],
+    "document_start": 31473,
+    "document_end": 31616,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

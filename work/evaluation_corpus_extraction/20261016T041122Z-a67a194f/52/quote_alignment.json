@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 61,
+        "end": 254,
+        "text": "To further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490].",
+        "line_start": 61
+      }
+    ],
+    "document_start": 14754,
+    "document_end": 14947,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

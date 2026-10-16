@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:35:43.5136048Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3102180500,
+  "load_duration": 10566500,
+  "prompt_eval_count": 1842,
+  "prompt_eval_duration": 337143000,
+  "eval_count": 205,
+  "eval_duration": 2668409000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"classifications\": [\n{\n\"statement\": \"The AA23-165A Table 4 caption lists ThunderShell as a tool used by LockBit affiliates.\",\n\"reason\": \"The context mentions Table 4, but it does not list ThunderShell as a tool used by LockBit affiliates.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"The selected advisory row maps its reported use to T1071.001 (Web Protocols).\",\n\"reason\": \"There is no mention of T1071.001 (Web Protocols) in the given context.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1031 (Network Intrusion Prevention).\",\n\"reason\": \"The context mentions M1031 (Network Intrusion Prevention) as a mitigation, but it is not directly connected to the technique mapped to ThunderShell.\",\n\"attributed\": 0\n}\n]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

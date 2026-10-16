@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-05",
+  "solver": "uv 0.12.9",
+  "python": "3.12",
+  "platform": "Windows x86-64",
+  "dependency_resolution": "passed",
+  "locked_package_count": 96,
+  "ragas_api_exports": [
+    "EvaluationDataset",
+    "evaluate",
+    "Faithfulness",
+    "ResponseRelevancy",
+    "LLMContextRecall"
+  ],
+  "verification": "Official RAGAS 0.2.15 wheel source exports inspected; full environment imports and live integration not run.",
+  "live_model_evaluation": "not run",
+  "minilm_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "lock_sha256": "5a69f2ee5ab2908405b5b9d3bbdbd66401451128c6f10e154cbd5ac563406bc4",
+  "checkout_integrity": "PDF and evaluator lock are marked -text to preserve bytes on Windows."
+}

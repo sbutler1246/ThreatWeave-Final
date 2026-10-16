@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:16524:18208",
+    "doc_id": "AA23-075A",
+    "start": 16524,
+    "end": 18208,
+    "text": "-92F9-005FBFBA1A43}\"\nname=\"SQLWriter\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SQLWriter\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"SQLTELEMETRY\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"SQLTELEMETRY\" serviceAction=\"STOP\" timeout=\"30\"/>\n</NTService>\n<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"\nname=\"MSSQLSERVER\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">\n<Properties startupType=\"DISABLED\" serviceName=\"MSSQLSERVER\" serviceAction=\"STOP\" timeout=\"60\"/>\n</NTService>\n</NTServices>\nRegistry.pol\nThe following registry configuration changes values for the Group Policy refresh time, disable SmartScreen, and disable Windows Defender.\nRegistry Key\nRegistry Value\nValue type\nData\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System\nGroupPolicyRefresh TimeDC\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System\nGroupPolicyRefresh TimeOffsetDC\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System\nGroupPolicyRefresh Time\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System\nGroupPolicyRefresh TimeOffset\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System\nEnableSmartScreen\nREG_D WORD\n0\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System\n**del.ShellSmartSc reenLevel\nREG_S Z\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\nDisableAntiSpyware\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\nDisableRoutinelyTa kingAction\nREG_D WORD\n1\nHKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Real-Time Protection\nDisableRealtimeMon itoring\nREG_D WORD\n1\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 499,
+  "inherited_context_tokens": 18,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "ccc7932a9d61b1a8937bd164732dabb9c403ac4b0fb5aa175c352ad0ce9de87d",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

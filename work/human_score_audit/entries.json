@@ -1,0 +1,750 @@
+[
+  {
+    "id": "P001",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-file-preview-isGLQw\\image(20261016-075943).png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-file-preview-0fxyCb\\image(20261016-080316).png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-file-preview-MeJNlX\\image(20261016-080329).png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-file-preview-tUoDOU\\image(20261016-080342).png"
+    ],
+    "review": "Corrected to 4/1/4 in P052. Initial provisional 1/1/3."
+  },
+  {
+    "id": "P002",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1dd87c0e-6e3a-4caf-b7da-899b3ec8d6bf.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c63b9158-9ba7-41ed-8f92-3ff9027c1918.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c184dfb8-9b39-4fd7-8bc0-4065fb20d173.png"
+    ],
+    "review": "For **P002**, I recommend:\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **1/5** | The answer gives mitigation relationships for unrelated techniques. Although its citations support those individual relationships, they do not establish the requested ProcDump → T1003.001 → mitigation path. |\n| Completeness | **1/5** | It omits T1003.001, all seven required mitigations, and the distinction between advisory observations and reference recommendations. |\n| Coherence | **4/5** | The answer is readable, consistently structured, and internally consistent. Its incorrect relevance is assessed separately above. |\n\nThe supplied evidence covers T1587, T1586, and T1562; it provides no demonstrated path from ProcDump to T1003.001. That evidence gap helps explain the failure, but the answer should have acknowledged it.\n\nYou can paste this into the reasons field:\n\n:::writing{variant=\"standard\" id=\"62841\"}\nThe answer follows unrelated techniques (T1587, T1586, T1562) instead of the required ProcDump → T1003.001 (LSASS Memory) path. Its citations support the unrelated relationships but do not answer the question. It omits all seven reference mitigations: M1017, M1025, M1026, M1027, M1028, M1040, and M1043. It also omits the distinction between advisory observations and reference mitigation associations, and does not acknowledge that the supplied evidence lacks the requested path. The prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P003",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-71f8d5a8-07d4-4093-8860-138c12c6b2de.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a3ab3cdd-556a-40ec-b543-71e1f125bc9a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b224edea-7a8b-40bc-87df-71d6128018f4.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-4552be90-b05e-4f19-a5a1-986ddf391e6b.png"
+    ],
+    "review": "For **P003**, select **N/A for all three dimensions**.\n\n| Dimension | Rating | Reason |\n|---|---|---|\n| Factuality | **N/A** | No generated answer exists to check for accuracy. |\n| Completeness | **N/A** | The saved outcome is **failed**; the guide requires failed cases to remain unrated. |\n| Coherence | **N/A** | No substantive response exists to assess. |\n\nThe reference expects **Play actors → Mimikatz → T1003 (OS Credential Dumping)**. The visible evidence does not establish that complete path, but it does not reveal why generation failed.\n\n:::writing{variant=\"standard\" id=\"73926\"}\nSaved outcome is “failed,” and the displayed text states that no valid answer was produced. Per the rating guide, factuality, completeness, and coherence are N/A. The visible evidence does not establish the required Play → Mimikatz → T1003 path; the cause of the generation failure is unknown.\n:::"
+  },
+  {
+    "id": "P004",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9b3f65c7-29a3-4494-b3ad-7743e643b04a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-fcb13949-8d74-4fc7-9169-ec9bf2005797.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c7cd51cf-7074-44a2-8931-fb109e2571aa.png"
+    ],
+    "review": "For **P004**, I recommend **Factuality 1/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **1/5** | The cited relationships concern unrelated techniques and do not establish the requested Splashtop → T1021.001 mitigation path. |\n| Completeness | **1/5** | It omits the correct technique and required relationships, plus the distinction between advisory observations and reference recommendations. M1042 appears, but attached to the wrong technique. |\n| Coherence | **4/5** | The prose is clear, organized, and internally consistent despite answering the wrong question. |\n\n:::writing{variant=\"standard\" id=\"85417\"}\nThe answer discusses T1587 and T1562 instead of establishing Splashtop → T1021.001 (Remote Desktop Protocol) → its eight direct, active mitigation relationships. Although M1042 appears, it is linked to the wrong technique; the other seven required mitigations are absent. The supplied evidence supports unrelated relationships and does not establish the requested path. The answer neither acknowledges this evidence gap nor distinguishes advisory observations from reference recommendations. Its prose is clear and internally consistent.\n:::\n\nThis matches P001’s displayed content. For consistent independent scoring, I recommend revising **P001’s provisional coherence from 3 to 4** as well."
+  },
+  {
+    "id": "P005",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c0b64056-a062-47e8-bcd1-762f679ce8bb.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-212eaf03-1421-42a3-9b0e-fcccc49b3a65.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-13a226c4-3177-4855-a72a-5d60e1e7fcaf.png"
+    ],
+    "review": "For **P005**, I recommend **Factuality 5/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **5/5** | Correctly identifies Medusa → PsExec → T1569.002. E5 explicitly supports both links and the lateral movement claim. |\n| Completeness | **4/5** | Gives the technique ID, both hops, and supporting evidence, but omits the technique name **Service Execution**. |\n| Coherence | **4/5** | Clear and consistent, with some repetition and unnecessary node labels. |\n\n:::writing{variant=\"standard\" id=\"91638\"}\nCorrectly establishes Medusa actors → PsExec → T1569.002, matching the verified reference. E5 directly supports the reported PsExec use, technique mapping, and lateral movement claim. The answer omits the technique name “Service Execution.” Its explanation is clear but repetitive. E6 is truncated and E2/E3 are contextual headings; these citations add little, although E5 provides sufficient support for the central claims.\n:::"
+  },
+  {
+    "id": "P006",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a247af57-377d-4f73-9a36-6d787a93b3cb.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b3959738-3c08-4d5a-9bdb-275d571ff76c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e6bb4758-f708-46ba-9937-5ecf2a55c833.png"
+    ],
+    "review": "For **P006**, I recommend **Factuality 1/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **1/5** | It asserts unsupported connections between FreeFileSync and unrelated techniques. The citations do not establish those connections. |\n| Completeness | **1/5** | It omits the required **FreeFileSync → T1567.002 → M1021** path and the advisory/reference distinction. |\n| Coherence | **4/5** | Readable and consistently organized, although repetitive and vague about what “related” means. |\n\n:::writing{variant=\"standard\" id=\"38291\"}\nThe answer fails to establish FreeFileSync → T1567.002 (Exfiltration to Cloud Storage) → M1021 (Restrict Web-Based Content), the path identified in the verified reference. It instead asserts unsupported FreeFileSync connections to M1056 and T1562. The cited evidence concerns unrelated techniques and does not support these connections. It also omits the distinction between advisory observations and reference mitigation recommendations and does not acknowledge the evidence gap. The prose is readable and organized, though repetitive.\n:::"
+  },
+  {
+    "id": "P007",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a05314c6-b4a1-4fec-9c63-c39b7b07e0e3.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-df052ae5-2ae3-492c-b220-98211f280259.png"
+    ],
+    "review": "For **P007**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Correctly identifies Akira’s use of Mimikatz, supported by E1. However, it incorrectly treats “Defense Evasion” as the requested technique; E4 is only a table heading. |\n| Completeness | **2/5** | Covers the first hop but misses **Mimikatz → T1003 (OS Credential Dumping)** and evidence establishing that second hop. |\n| Coherence | **4/5** | Clear and internally consistent, although repetitive. The incorrect classification is assessed under factuality. |\n\n:::writing{variant=\"standard\" id=\"50724\"}\nThe first hop, Akira threat actors → Mimikatz, is supported by E1 and the supplied graph. The second hop is incorrect: the verified reference identifies T1003 (OS Credential Dumping), while the answer substitutes “Defense Evasion,” a tactic/table heading. E4 does not establish a Mimikatz-to-technique relationship, and the supplied graph contains only the actor-to-software link. The answer therefore provides partial coverage but misses the central technique mapping. Its prose is clear and internally consistent, though repetitive.\n:::"
+  },
+  {
+    "id": "P008",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9fba0a9d-6109-499d-bf8e-a71d532b053e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a0f78ba2-1d9b-4a1b-9614-3b0614d7cd9c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3dc30719-374f-444d-8206-2b50f642d67e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a29419b1-02e5-4f9c-84f7-4725990e2b72.png"
+    ],
+    "review": "For **P008**, I recommend **Factuality 2/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | The evidence supports associations for the other tools listed, but “is mitigated by” overstates reference associations as established effectiveness against the actors’ use. |\n| Completeness | **1/5** | Omits ThunderShell and T1071.001 entirely. M1031 appears only in paths involving other software, so the requested three-hop path is missing. |\n| Coherence | **4/5** | Clear, consistently organized statements, despite addressing the wrong software. |\n\n:::writing{variant=\"standard\" id=\"68143\"}\nThe answer substitutes paths involving Advanced Port Scanner, AnyDesk, Atera, and Backstab for the requested LockBit affiliates → ThunderShell → T1071.001 (Web Protocols) → M1031 (Network Intrusion Prevention) path. The supplied evidence supports associations for those other tools, but does not establish the ThunderShell path. Mentioning M1031 for other software does not satisfy the requested relationship. The wording “is mitigated by” also fails to distinguish reference mitigation associations from demonstrated effectiveness against the reported activity. The answer is readable and consistently organized.\n:::"
+  },
+  {
+    "id": "P009",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0c589e6a-4dc2-4407-99ad-48cb77a9fa30.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-950e2b61-632a-4ea8-9700-66a3bfe887fc.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b92f10fa-d7bf-4095-838c-7fa08f586a0e.png"
+    ],
+    "review": "For **P009**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | M1018 matches the reference, but its citations concern unrelated techniques. M1056 and M1038 are incorrect for the requested direct mitigation set. |\n| Completeness | **2/5** | Includes one of five required mitigations. Omits T1555.003, the other four mitigations, and the advisory/reference distinction. |\n| Coherence | **4/5** | Clear and consistently structured, though repetitive and leaves the technique unnamed. |\n\n:::writing{variant=\"standard\" id=\"29476\"}\nThe answer includes M1018, one of the five reference mitigations, but does not establish PasswordFox → T1555.003 (Credentials from Web Browsers) → mitigation. Its citations for M1018 concern T1562 and T1562.001, so they do not support the requested relationship. M1056 and M1038 are outside the verified direct mitigation set. It omits M1017, M1021, M1027, and M1051, and does not distinguish advisory observations from reference recommendations or acknowledge the evidence gap. The prose is clear and consistently organized.\n:::"
+  },
+  {
+    "id": "P010",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-04f42c4b-e5dd-4be1-91ae-a7533f59d07a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1ce1592e-f656-44a0-a0ae-5e7d02260dd7.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-05b2e1da-12fb-4439-9aef-675bbb33c953.png"
+    ],
+    "review": "For **P010**, select **N/A for factuality, completeness, and coherence**.\n\nThe saved outcome is **failed**, and no substantive answer was produced. The rating guide requires failed cases to remain unrated rather than receive 1/5.\n\n:::writing{variant=\"standard\" id=\"46382\"}\nSaved outcome is “failed,” with no valid answer produced. Factuality, completeness, and coherence are N/A under the rating guide. The supplied evidence does not establish the requested LockBit affiliates → Chocolatey → T1072 → mitigation path. The cause of the generation failure is unknown.\n:::"
+  },
+  {
+    "id": "P011",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-6765075c-7d75-4a58-b86f-1c5bdbacf146.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b5dc6fe7-884f-4aff-845e-d228d2fc99b2.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-79cfb87b-ffaa-47ba-ad19-e13cecbd0d2a.png"
+    ],
+    "review": "For **P011**, I recommend **Factuality 3/5, Completeness 4/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Correctly identifies Akira → ngrok → T1572, supported by E1. However, it misattributes claims to E7/E5 and changes “untrusted” to “trusted” in the filtering guidance, materially reversing its meaning. |\n| Completeness | **4/5** | Includes both required links and the correct technique, but does not clearly explain their shared support in the specified C2 context. |\n| Coherence | **3/5** | Repetitive, with an unfinished path explanation and unnecessary mitigation discussion. |\n\n:::writing{variant=\"standard\" id=\"17583\"}\nThe answer identifies the correct Akira → ngrok → T1572 (Protocol Tunneling) path, which E1 supports. However, E7 concerns a separate exfiltration context citing T1090, and E5 discusses impersonation training rather than T1572. The added filtering guidance incorrectly says “trusted” where E10 says “untrusted,” materially changing the recommendation. Both requested links are present, but their explanation is repetitive and the stated path trails off unfinished. Unrequested mitigation details further distract from the C2 paragraph.\n:::"
+  },
+  {
+    "id": "P012",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2202634c-c850-472e-9788-b06ede126470.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-92ae3e3a-4afd-445a-b86b-6fc1162ec250.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-477ffb5d-7691-412d-8a29-1e602b85283a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-7fca9bd9-8040-4609-8edd-a6e73ebca6e2.png"
+    ],
+    "review": "For **P012**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Most actor-use statements are supported, including Medusa’s use. However, the claim that LockBit and Phobos use Mimikatz for defense evasion relies only on table headings, which do not establish that relationship. |\n| Completeness | **2/5** | Omits Play actors and the central comparison: **T1003 in AA23-352A versus T1003.001 in AA25-071A**, a difference in mapping specificity. |\n| Coherence | **4/5** | Readable and consistently structured, but presents a broad list without organizing the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"73169\"}\nThe answer correctly reports Medusa’s use of Mimikatz and several other supported actor-use relationships, but omits Play ransomware actors entirely. It does not compare AA23-352A’s T1003 (OS Credential Dumping) mapping with AA25-071A’s T1003.001 (LSASS Memory) mapping or explain the parent/sub-technique distinction. The defense-evasion claim for LockBit and Phobos is unsupported by the cited table headings. The supplied evidence lacks the Play mapping, but the answer does not acknowledge that gap. Its prose is clear, although the broad actor list does not deliver the requested comparison.\n:::"
+  },
+  {
+    "id": "P013",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3e4c6c4d-343e-4881-9a28-23cb814722d0.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-75a33002-4346-4f62-8425-1ee4e5a1653a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5ce50fdc-7f3c-4205-a258-0a2fbdf5799f.png"
+    ],
+    "review": "For **P013**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated relationships match E2/E4, E6/E10, and E8. However, the answer does not qualify their relevance to the requested PasswordFox path. |\n| Completeness | **1/5** | Omits PasswordFox → T1555.003 and every requested mitigation relationship. M1018 appears only against unrelated techniques. |\n| Coherence | **4/5** | Clear, concise, and internally consistent, despite addressing unrelated techniques. |\n\nHere, the individual claims are supported; the main failure is answering the requested question. That distinction matters when rating the dimensions independently.\n\n:::writing{variant=\"standard\" id=\"80952\"}\nThe stated mitigation relationships are supported by the cited evidence, but concern unrelated techniques. The answer does not establish PasswordFox → T1555.003 (Credentials from Web Browsers) or its direct mitigation relationships with M1017, M1018, M1021, M1027, and M1051. M1018 is mentioned only for T1562/T1562.001, which does not satisfy the requested path. It also omits the advisory/reference distinction and does not acknowledge the missing relevant evidence. The prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P014",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e4f2e0ed-7dfc-4025-9608-c42c82711cac.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-d8763773-07af-473e-84a6-6932caccee48.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8c15ce98-5fa7-494b-9191-056ad4c56f00.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0d6dff89-b394-46cf-ab1d-6e3dd2983b2d.png"
+    ],
+    "review": "For **P014**, I recommend **Factuality 2/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | The technique–mitigation pairs are supported, but the answer incorrectly describes them as direct relationships belonging to LockBit affiliates, conflating actor and mitigation relationships. |\n| Completeness | **1/5** | Omits Chocolatey, T1072, and the requested three-hop path. M1018 and M1030 appear only against unrelated techniques. |\n| Coherence | **3/5** | Consistently formatted, but “affiliates’ direct, active mitigates relationship” makes the relationship direction unclear. |\n\n:::writing{variant=\"standard\" id=\"64720\"}\nThe answer gives supported mitigation pairs for T1046, T1219, and T1562.001, but incorrectly frames them as direct mitigation relationships belonging to LockBit affiliates. It does not establish LockBit affiliates → Chocolatey → T1072 (Software Deployment Tools) → the ten reference mitigations. M1018 and M1030 appear only in unrelated paths, and M1031 is outside the requested mitigation set. It omits the advisory/reference distinction and does not acknowledge that the supplied evidence lacks the Chocolatey path. The repeated structure is readable, but the relationship wording is confusing.\n:::"
+  },
+  {
+    "id": "P015",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-edc60864-150a-4ad6-8208-3c9a8f61c0c5.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f2fe22cf-e0a9-43d4-a227-468b4b447f62.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2589a53b-202c-4498-af64-15f09b30bb5c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5244daee-0abc-4cf1-9639-8642d2a7dac3.png"
+    ],
+    "review": "For **P015**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated actor–technique and technique–mitigation associations are supported. It leaves their status as reference recommendations insufficiently qualified. |\n| Completeness | **1/5** | Omits Ligolo, T1095, and the requested three-hop path. M1030 and M1031 appear against unrelated techniques; M1037 and M1047 are absent. |\n| Coherence | **4/5** | Clear and consistently organized, although it never connects its statements to Ligolo. |\n\n:::writing{variant=\"standard\" id=\"59308\"}\nThe answer states supported associations for T1046, T1219, and T1562.001, but does not establish the requested LockBit affiliates → Ligolo → T1095 (Non-Application Layer Protocol) → mitigation path. M1030 and M1031 appear only against unrelated techniques, while M1037 and M1047 are omitted. It does not distinguish advisory observations from reference mitigation recommendations or acknowledge that the supplied evidence lacks the Ligolo path. The prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P016",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5cab314b-2552-4913-a28c-2b6e7dfbce60.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-be777b45-d2f1-4ca9-bea0-76466a0e6866.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-4bcf9bd7-bb00-4600-ac27-3e2e45f908e6.png"
+    ],
+    "review": "For **P016**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Each stated technique–mitigation pair matches its cited evidence, though the answer omits relevant qualifications. |\n| Completeness | **1/5** | Omits ProcDump → T1003.001, all seven required mitigations, and the advisory/reference distinction. |\n| Coherence | **4/5** | Clear, organized, and internally consistent. |\n\n:::writing{variant=\"standard\" id=\"32695\"}\nThe stated mitigation relationships match the supplied evidence but concern T1587, T1586, and T1562. The answer does not establish ProcDump → T1003.001 (LSASS Memory) → M1017, M1025, M1026, M1027, M1028, M1040, and M1043. It also omits the advisory/reference distinction and does not acknowledge that the supplied evidence lacks the requested path. The prose is clear and internally consistent.\n:::\n\n**Consistency correction:** P016 matches P002’s answer and evidence. My earlier **P002 factuality score of 1/5 was too harsh** because it conflated relevance with factual accuracy. I recommend updating P002 to **4/1/4** as well."
+  },
+  {
+    "id": "P017",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-85543f2e-febd-476c-a72b-cb5986b98dd4.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-32c581a1-940c-40a2-bf48-bbac746c2b6a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-40e13116-e8b2-4239-9854-404c0cc3f6f7.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-12e11f3b-9c5d-4b16-b1d3-63bbb1ccc82e.png"
+    ],
+    "review": "For **P017**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Matches the verified reference and correctly identifies T1567.002. However, the visible E9 fragment supports only the software–technique link; E2/E3 are headings, and the graph lacks the actor–software link. |\n| Completeness | **4/5** | States both hops and names the technique, but does not explain the advisory evidence establishing LockBit 3.0 affiliates’ use of rclone. |\n| Coherence | **4/5** | The explicit path is clear. “Connect to Exfiltration” is awkward, and the extra mitigation discussion distracts slightly. |\n\n:::writing{variant=\"standard\" id=\"41872\"}\nThe answer correctly states LockBit 3.0 affiliates → rclone → T1567.002 (Exfiltration to Cloud Storage), matching the verified reference. E9 directly supports the rclone-to-technique mapping, but the visible fragment does not establish the actor-to-rclone link; E2/E3 are contextual headings, and the supplied graph also omits that link. Both hops are stated, but their source support is not fully explained. The additional M1021 recommendation is supported by E10/E11 but was not requested. The answer is readable, with minor awkwardness and repetition.\n:::"
+  },
+  {
+    "id": "P018",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2031ebce-e3df-44bd-aa13-239c0679099e.png"
+    ],
+    "review": "For **P018**, I recommend **Factuality 5/5, Completeness 1/5, Coherence 5/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **5/5** | Accurately acknowledges insufficient evidence: the supplied passages, nodes, and paths are empty. |\n| Completeness | **1/5** | Provides none of the requested technique or mitigation relationships. The justified abstention still leaves the question unanswered. |\n| Coherence | **5/5** | Clear, concise, and unambiguous. |\n\nThis is an **abstention**, so meaningful dimensions receive ratings; it is different from a failed case with no valid answer.\n\n:::writing{variant=\"standard\" id=\"96241\"}\nThe abstention accurately reflects the empty supplied evidence: no source passages, graph nodes, or graph paths are shown. It avoids unsupported claims and clearly states the limitation. However, it provides none of the requested PasswordFox → T1555.003 → M1017, M1018, M1021, M1027, and M1051 relationships. Factuality and coherence are excellent, while substantive completeness is poor.\n:::"
+  },
+  {
+    "id": "P019",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5c49e2cb-225c-4247-80c5-1cd9ffd35f41.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f3733420-4395-4f60-b1f7-2da2aa1e1859.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-873d7c87-6d99-45ef-b604-44a78d2cfcce.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-4d25a13e-1d78-42c2-b493-801afaa64c30.png"
+    ],
+    "review": "For **P019**, I recommend **Factuality 3/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Several actor-use claims are supported, but E9 cites T1537, not the asserted T1567.002. E12 does not establish the claimed LockBit → T1537 mapping. |\n| Completeness | **1/5** | Omits both requested actors and their comparison: **Akira → T1048** versus **Medusa → T1567.002**. Neither requested report is cited. |\n| Coherence | **3/5** | Individual sentences are readable, but the answer repeats claims and never develops a comparison. |\n\n:::writing{variant=\"standard\" id=\"74603\"}\nThe answer discusses BianLian and LockBit instead of the requested Akira and Medusa reports. It omits AA24-109A’s Akira → Rclone → T1048 mapping and AA25-071A’s Medusa → Rclone → T1567.002 mapping, including their source-specific distinction. Several general use claims match the evidence, but the BianLian T1567.002 claim conflicts with E9’s T1537 citation, and E12 does not establish LockBit’s claimed T1537 mapping. The supplied evidence lacks the requested report pair, which the answer does not acknowledge. The prose is readable but repetitive and lacks a comparative structure.\n:::"
+  },
+  {
+    "id": "P020",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-de5440e3-77b9-4c15-8b62-c2fb546ad89c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e52b7053-7747-4ef4-9702-d3cdc469c5e8.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-12e79702-0e11-4626-9cf6-9a9421c84be2.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c0b147a4-653b-48f1-b002-d446ca4a261d.png"
+    ],
+    "review": "For **P020**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | The statements about Advanced Port Scanner are supported, but it substitutes that tool for the requested **Advanced IP Scanner**. E4/E5 support mitigation guidance, not the actor-use claim attached to them. |\n| Completeness | **2/5** | Identifies the correct technique, T1046, but never establishes the requested actor → Advanced IP Scanner → technique path. |\n| Coherence | **4/5** | Readable and organized, with repetitive, unrequested mitigation details. |\n\n:::writing{variant=\"standard\" id=\"28519\"}\nThe answer substitutes Advanced Port Scanner for the requested Advanced IP Scanner. Although it correctly identifies T1046 (Network Service Discovery), it does not explain LockBit affiliates → Advanced IP Scanner → T1046. E14 directly supports both requested links, but the answer does not use it. Its statements about Advanced Port Scanner are supported elsewhere in the evidence; however, E4/E5 do not establish LockBit’s technique use. The additional network segmentation discussion is supported but unnecessary. The prose is clear, with some repetition.\n:::"
+  },
+  {
+    "id": "P021",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5f7b55b8-7270-4b82-8a84-b79dcbb3a403.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-715bd444-b705-4928-b6cd-bd89d3ba1f30.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-52dbbc73-cdca-4665-99fa-b7ae88754d4e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1b8079dc-334a-40ee-b3e1-7480b86b4380.png"
+    ],
+    "review": "For **P021**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Akira’s Mimikatz use is supported by E15. However, the answer substitutes tactic labels for technique mappings, and the LockBit defense-evasion claim is unsupported by the cited heading and unrelated E5 passage. |\n| Completeness | **2/5** | Identifies Akira but omits Medusa, both technique IDs, and the comparison of **T1003 versus T1003.001**. |\n| Coherence | **4/5** | Readable and consistently organized, although the extra actors distract from the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"65184\"}\nThe answer correctly identifies Akira’s use of Mimikatz, supported by E15, but omits Medusa and the requested comparison: AA24-109A maps the reported use to T1003 (OS Credential Dumping), while AA25-071A specifies T1003.001 (LSASS Memory). It substitutes tactic labels for these technique mappings and does not explain the difference in specificity. The LockBit defense-evasion claim is not established by E4’s table heading or E5’s unrelated Rhysida passage. The supplied evidence shown lacks the Medusa side, but the answer does not acknowledge that gap. Its prose is clear and consistently structured.\n:::"
+  },
+  {
+    "id": "P022",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ed598480-a9a1-4ed4-b53a-2b2a4e3e4a77.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-cd7d566e-7b58-4b77-8e91-2a2d93b3176a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-94d17e1b-5809-4042-82de-6b76c61e8aed.png"
+    ],
+    "review": "For **P022**, I recommend **Factuality 1/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **1/5** | Explicitly asserts unsupported connections from FreeFileSync’s mapped technique to M1056 and T1562. The citations establish only unrelated relationships. |\n| Completeness | **1/5** | Omits **FreeFileSync → T1567.002 → M1021** and the advisory/reference distinction. |\n| Coherence | **4/5** | Readable and consistently structured, though repetitive and vague about “related.” |\n\n:::writing{variant=\"standard\" id=\"53716\"}\nThe answer asserts unsupported connections between FreeFileSync’s mapped technique, M1056, and T1562. The cited evidence concerns unrelated techniques and does not establish these connections. It omits the required FreeFileSync → T1567.002 (Exfiltration to Cloud Storage) → M1021 (Restrict Web-Based Content) path. It also fails to distinguish advisory observations from reference recommendations or acknowledge the missing relevant evidence. The prose is readable and organized, though repetitive.\n:::\n\nThis matches **P006**, so the same **1/1/4** ratings apply."
+  },
+  {
+    "id": "P023",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-4765b3c3-0415-44fe-b1e3-cd47e567a248.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c4ffdc58-7110-40b7-bc83-b95ed5ed8beb.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-096f9390-2006-4f61-a351-6e9869852177.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-6a890a4d-2a8e-4990-acf0-63c36d53697b.png"
+    ],
+    "review": "For **P023**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Correct actor, software, behavior, and technique. However, it drops the reference’s **“in some instances”** qualification, and E4 is only a heading. |\n| Completeness | **4/5** | Explains both hops and names T1562.001, but omits the source qualification and does not cite E5’s visible technique row. |\n| Coherence | **4/5** | Clear and logically organized, with minor repetition between the explanation and explicit path. |\n\n:::writing{variant=\"standard\" id=\"90357\"}\nThe answer correctly identifies Black Basta affiliates → Backstab → T1562.001 (Disable or Modify Tools) and explains the reported disabling of EDR tooling. E1 supports the actor-to-software link, while the visible technique row in E5 supports the second hop. However, the answer cites E4’s heading instead of that row and omits the verified reference’s “in some instances” qualification. Both hops are covered clearly, with minor repetition.\n:::"
+  },
+  {
+    "id": "P024",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-4a41eb31-b008-4140-b32a-0f2dd3d4820a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ad3fff87-1780-4bfc-82fb-338f153b5582.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-fb5ee3be-2468-4792-93fa-d91367691db9.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-943c242a-b568-43f2-9ad5-7ad1b8a79d6f.png"
+    ],
+    "review": "For **P024**, I recommend **Factuality 2/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | The central Mimikatz claims are unsupported. It attributes DiskCheck’s behavior to Mimikatz and incorrectly maps `net group /domain` to T1082. Some other tool mappings match the evidence. |\n| Completeness | **1/5** | Omits Play actors and both requested Mimikatz → T1003 mappings, providing no comparison of the two reports. |\n| Coherence | **3/5** | Sentences are readable, but the answer shifts among unrelated tools without developing the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"16842\"}\nThe answer does not establish the requested comparison: AA24-109A reports Akira using Mimikatz with T1003, and AA23-352A reports Play using Mimikatz with the same parent technique. Play and T1003 are absent. The Rhysida–Mimikatz claim is unsupported by E1/E2, and the Akira–Mimikatz discovery claim incorrectly assigns DiskCheck’s behavior to Mimikatz. The net group /domain command is also incorrectly assigned to the following T1082 row. Several other tool mappings are supported but do not answer the question. The supplied evidence lacks the requested Mimikatz comparison, which the answer does not acknowledge. The prose is readable but lacks a comparative structure.\n:::"
+  },
+  {
+    "id": "P025",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9dc35fe6-7016-4066-bbab-069ce1a7cad3.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-fb019aa1-0039-4b25-b1e8-e4a946b4194f.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ab6a27d0-9e84-4961-b996-5acbf1af8dd2.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-aa644a0b-ab54-4567-9658-102097580950.png"
+    ],
+    "review": "For **P025**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Correctly connects Black Basta affiliates to Backstab, but assigns the wrong technique: **T1190** concerns ConnectWise exploitation, while Backstab maps to **T1562.001**. |\n| Completeness | **2/5** | States the first hop but misses the correct second hop, the EDR-disabling behavior, and the “in some instances” qualification. |\n| Coherence | **4/5** | Clear and internally consistent, with minor repetition. |\n\n:::writing{variant=\"standard\" id=\"47286\"}\nThe answer correctly identifies Black Basta affiliates’ use of Backstab but incorrectly maps it to T1190 (Exploit Public-Facing Application). The supplied evidence associates T1190 with exploitation of ConnectWise CVE-2024-1709, while the Backstab row appears under T1562.001 (Disable or Modify Tools). The correct path is Black Basta affiliates → Backstab → T1562.001, involving EDR disabling, with the reference’s “in some instances” qualification retained. The cited headings and initial-access passage do not support the asserted Backstab-to-T1190 link. The prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P026",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-949a4cb4-5f89-4fa2-9bca-f548ee33420b.png"
+    ],
+    "review": "For **P026**, I recommend **Factuality 5/5, Completeness 1/5, Coherence 5/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **5/5** | The insufficient-evidence statement matches the empty supplied evidence section. |\n| Completeness | **1/5** | Provides neither link in **Play actors → Mimikatz → T1003**. |\n| Coherence | **5/5** | Clear, concise, and unambiguous. |\n\nThis is an **abstention**, so rate the meaningful dimensions rather than selecting N/A.\n\n:::writing{variant=\"standard\" id=\"68423\"}\nThe abstention accurately reflects the empty supplied evidence: no source passages, graph nodes, or graph paths are shown. It clearly acknowledges the limitation without inventing relationships. However, it does not provide or explain the requested Play ransomware actors → Mimikatz → T1003 (OS Credential Dumping) path. Factuality and coherence are excellent; completeness is poor.\n:::"
+  },
+  {
+    "id": "P027",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-284c56cb-3f49-40e6-adee-1b4b21d5f5bf.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-cc4ec38c-d142-487f-afab-691cdd965e34.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-27781d50-c57d-4368-b512-909382aaa9cf.png"
+    ],
+    "review": "For **P027**, I recommend **Factuality 2/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | The mitigation names and IDs match the evidence, but their application to LockBit activity is unsupported. “May” does not establish the missing relationships. |\n| Completeness | **1/5** | Omits Ligolo, T1095, all four required mitigations, and the requested three-hop path. |\n| Coherence | **4/5** | Clear and consistently structured, though repetitive and nonspecific. |\n\n:::writing{variant=\"standard\" id=\"72951\"}\nThe answer applies M1056, M1038, and M1042 to LockBit affiliates’ activity without supporting actor, software, or technique links. The cited evidence concerns unrelated techniques; cautious wording such as “may” does not establish relevance. It omits LockBit affiliates → Ligolo → T1095 (Non-Application Layer Protocol) → M1030, M1031, M1037, and M1047. It also fails to distinguish advisory observations from reference recommendations or acknowledge the missing relevant evidence. The prose is clear and internally consistent, though repetitive.\n:::"
+  },
+  {
+    "id": "P028",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ac94434d-629e-455f-b7d3-0bf5298ab089.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-284e0466-607b-4fbf-9807-a4f995f832a4.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9f614e38-5725-4c1b-901d-9192f271cb08.png"
+    ],
+    "review": "For **P028**, I recommend **Factuality 3/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Most mitigation pairs match the evidence, but E1 does not support the opening claim that AA23-165A maps LockBit activity to T1587. |\n| Completeness | **1/5** | Omits **LockBit affiliates → ThunderShell → T1071.001 → M1031**, along with the advisory/reference distinction. |\n| Coherence | **4/5** | Readable and consistently organized, though repetitive and disconnected from the requested software. |\n\n:::writing{variant=\"standard\" id=\"83742\"}\nThe opening LockBit-to-T1587 claim is unsupported: E1 is generic ATT&CK mitigation guidance and contains no LockBit advisory mapping. Most subsequent mitigation pairs match their cited evidence but concern unrelated techniques. The answer omits the required LockBit affiliates → ThunderShell → T1071.001 (Web Protocols) → M1031 (Network Intrusion Prevention) path. It also fails to distinguish advisory observations from reference recommendations or acknowledge the missing relevant evidence. The prose is clear and internally consistent, though repetitive.\n:::"
+  },
+  {
+    "id": "P029",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-d19c752a-31d6-4a65-b45b-0191915e7158.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0f9a912b-7f3e-49e3-9044-d373cdb4f760.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-441d97e8-2484-4aa7-9c0b-0b256cd3ee6f.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3a4cf55e-1fa7-4136-9464-1194c6927ba5.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-810da0a6-e5b6-44da-9532-1cec7ae6eab1.png"
+    ],
+    "review": "For **P029**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Most listed tool-use associations are supported. However, saying no direct mitigation is specified for SoftPerfect’s network service discovery overlooks the supplied T1046 mitigation evidence in E8 and E14. |\n| Completeness | **2/5** | Mentions network service discovery and M1030, but substitutes Advanced Port Scanner for **Advanced IP Scanner**. It omits M1042 and never connects M1031 to the requested technique. |\n| Coherence | **4/5** | Readable and consistently structured, though the unrelated tool list obscures the requested path. |\n\n:::writing{variant=\"standard\" id=\"35179\"}\nThe answer does not establish LockBit affiliates → Advanced IP Scanner → T1046 (Network Service Discovery) → M1030, M1031, and M1042. It substitutes Advanced Port Scanner, mentions M1030 for that tool, and places M1031 only in unrelated remote-access paths. M1042 and the advisory/reference distinction are absent. Most listed tool-use claims are supported, but the statement that no direct mitigation is specified for SoftPerfect’s network service discovery overlooks the supplied T1046 mitigation associations in E8 and E14. Missing graph edges do not establish that no mitigation exists. The prose is clear and consistently organized.\n:::"
+  },
+  {
+    "id": "P030",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ed60ef59-af79-4ee8-9fa4-9e476191f651.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-286d7155-edc8-4fbc-a048-96cc4710fda7.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-787c6a84-f569-4df1-a63f-e2626b0d8035.png"
+    ],
+    "review": "For **P030**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**, consistent with P016.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated mitigation pairs match their citations, but omit relevant qualifications and concern unrelated techniques. |\n| Completeness | **1/5** | Omits ProcDump → T1003.001, all seven required mitigations, and the advisory/reference distinction. |\n| Coherence | **4/5** | Clear, organized, and internally consistent. |\n\n:::writing{variant=\"standard\" id=\"91462\"}\nThe stated mitigation relationships match the supplied evidence but concern T1587, T1586, and T1562. The answer does not establish ProcDump → T1003.001 (LSASS Memory) → M1017, M1025, M1026, M1027, M1028, M1040, and M1043. It also omits the distinction between advisory observations and reference mitigation recommendations and does not acknowledge the missing relevant evidence. The prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P031",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ac962a7b-c845-47f0-a5b0-66cae6dccb50.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1110ea1c-996c-4b1f-a8aa-96096f372046.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2b23fec2-fc60-4bb2-acbb-a7fc8aa2feca.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-bcce3db9-cc7a-4da6-8225-84dcbca12571.png"
+    ],
+    "review": "For **P031**, I recommend **Factuality 4/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated associations match the supplied evidence. However, it substitutes Advanced Port Scanner and omits qualifications distinguishing reference recommendations from observed effectiveness. |\n| Completeness | **2/5** | Includes T1046 → M1030, but omits Advanced IP Scanner and T1046’s relationships to M1031 and M1042. |\n| Coherence | **4/5** | Clear and consistently organized, though unrelated AnyDesk and Backstab paths distract from the question. |\n\n:::writing{variant=\"standard\" id=\"56028\"}\nThe stated associations are supported by the supplied evidence, but the answer substitutes Advanced Port Scanner for Advanced IP Scanner. It provides the relevant T1046 → M1030 relationship, while mentioning M1031 only for T1219 and omitting M1042 entirely. It therefore does not establish the complete LockBit affiliates → Advanced IP Scanner → T1046 → mitigation path. It also omits the distinction between advisory observations and reference recommendations and does not acknowledge the missing evidence for the requested software. The prose is clear and consistently structured.\n:::"
+  },
+  {
+    "id": "P032",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-edfa24ef-222f-4811-811a-12ce487fab46.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3dd7fca0-6fcb-4830-bcb1-c28f829dbb8a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-d85005f1-8a69-41f6-94e9-c5d8d6eaa5f6.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1de3d5b5-e37d-413f-9eb7-81ea6f1b0d61.png"
+    ],
+    "review": "For **P032**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Incorrectly maps Chisel to T1210. E9 concerns Rhysida and provides no support for the Royal–Chisel claim. Some unrelated guidance is supported elsewhere in the evidence. |\n| Completeness | **2/5** | Names Royal and Chisel, but omits **T1572 (Protocol Tunneling)**, the C2 purpose, and the historical-use qualification. |\n| Coherence | **3/5** | Readable sentences, but repetitive guidance and an abrupt shift to Rhysida disrupt the explanation. |\n\n:::writing{variant=\"standard\" id=\"20386\"}\nThe answer incorrectly states Royal → Chisel → T1210. The verified reference identifies historically observed Royal use of Chisel for C2 communication, mapped to T1572 (Protocol Tunneling). E9 concerns Rhysida and does not support either Royal–Chisel link. The answer omits the historical qualification and C2 purpose, adding unrelated mitigation guidance and Rhysida activity instead. Some added claims are supported elsewhere in the supplied passages, but several citations point only to metadata or headings. The prose is readable but repetitive and poorly focused.\n:::"
+  },
+  {
+    "id": "P033",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-96ce07e2-73c4-495b-bebb-1e004fead397.png",
+      "C:\\Users\\djfro\\OneDrive\\Pictures\\Screenshots\\Screenshot 2026-10-16 035157.png",
+      "C:\\Users\\djfro\\OneDrive\\Pictures\\Screenshots\\Screenshot 2026-10-16 035208.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-61163478-5c10-4e1f-a7d6-c61436ac9a0c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5fdf40cb-91db-4aa3-b7d0-7f09a30aef31.png"
+    ],
+    "review": "For **P033**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Actor-use claims are supported, but E4’s heading does not establish Mimikatz’s defense-evasion mapping. Tactic labels also do not supply the requested technique mappings. |\n| Completeness | **2/5** | Identifies Akira’s Mimikatz use but omits Play and the finding that **both reports map the use to T1003**. |\n| Coherence | **4/5** | Clear and consistently structured, though repetitive and lacking the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"39175\"}\nThe answer correctly reports Akira’s use of Mimikatz, supported by E15, but omits Play ransomware actors and both reports’ T1003 (OS Credential Dumping) mappings. It therefore misses the central comparison: AA24-109A and AA23-352A cite the same parent technique for their reported Mimikatz use. The LockBit defense-evasion claim relies on a table heading that does not establish that relationship. Credential Access and Defense Evasion are tactic labels rather than the requested technique mappings. The supplied evidence lacks the Play side, but the answer does not acknowledge this gap. The prose is clear and organized, though repetitive.\n:::"
+  },
+  {
+    "id": "P034",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f82eeeac-2440-4957-9cd9-703e45c68469.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-dd8c2572-53c4-44e7-b2a9-dbfac7d20b5a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-943f015a-9775-4d88-a7c1-d320c6358ec7.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c1c06bfe-68be-47b0-9494-83f34771041b.png"
+    ],
+    "review": "For **P034**, select **N/A for factuality, completeness, and coherence**.\n\nThe displayed message is **“No valid answer was produced”**, and the saved outcome is **failed**. Under the rating guide, this case remains unrated.\n\n:::writing{variant=\"standard\" id=\"82504\"}\nSaved outcome is “failed,” with no valid answer produced. Factuality, completeness, and coherence are N/A under the rating guide. The requested path is LockBit affiliates → Advanced IP Scanner → T1046, but no generated response exists to assess. The supplied evidence primarily concerns Advanced Port Scanner and other tools; the cause of generation failure is unknown.\n:::"
+  },
+  {
+    "id": "P035",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-20090619-4509-4fe8-b251-12e302359357.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-69da326e-c1f1-49d4-af5f-7376097dc069.png"
+    ],
+    "review": "For **P035**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | E1 supports Black Basta’s use of Backstab to disable EDR. The claimed **Bypass UAC** mapping is unsupported and conflicts with the reference’s **T1562.001** mapping. |\n| Completeness | **2/5** | Covers the actor–software link and EDR behavior, but misses the correct technique and the “in some instances” qualification. |\n| Coherence | **4/5** | Concise and easy to follow; the mapping error is assessed separately above. |\n\n:::writing{variant=\"standard\" id=\"70631\"}\nThe answer correctly reports Black Basta affiliates’ use of Backstab to disable EDR tooling, supported by E1. However, it incorrectly identifies the second hop as Bypass User Account Control. E3/E4 are headings and do not establish that mapping; the verified reference identifies T1562.001 (Disable or Modify Tools). The supplied graph establishes only Black Basta → Backstab. The answer also omits the reference’s “in some instances” qualification and does not acknowledge the missing technique evidence. Its prose is concise and clear.\n:::"
+  },
+  {
+    "id": "P036",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-fd16407b-f0a5-4ddb-bf13-51db8dd8c139.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3dc1d6ee-2cce-4683-981b-f776739513dd.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ae59fcd8-c4d0-430c-ab57-ba94fa20f71a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-cee7e0cb-b983-4f9e-8006-62bb27f89730.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-4599a6b5-d25c-4707-adc3-482ed394643b.png"
+    ],
+    "review": "For **P036**, I recommend **Factuality 2/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Incorrectly maps Chocolatey to T1046 and invents a connection through Mimikatz. The later mitigation pairs are supported but concern unrelated techniques. |\n| Completeness | **1/5** | Omits Chocolatey → T1072 and its ten required mitigation relationships. M1030 and M1018 appear only against other techniques. |\n| Coherence | **3/5** | Readable sentences, but repeats three mitigation claims and never develops a clear three-hop path. |\n\n:::writing{variant=\"standard\" id=\"42817\"}\nThe answer incorrectly identifies T1046 as Chocolatey’s advisory mapping and asserts an unsupported connection through Mimikatz. E1 concerns credential dumping with Mimikatz, while E5 concerns Advanced Port Scanner; neither establishes the claimed Chocolatey relationships. The required path is LockBit affiliates → Chocolatey → T1072 (Software Deployment Tools) → its ten reference mitigations. The answer instead supplies and repeats mitigation pairs for unrelated techniques. It also omits the advisory/reference distinction and does not acknowledge the missing relevant evidence. The prose is readable but repetitive and poorly connected.\n:::"
+  },
+  {
+    "id": "P037",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c2b96f26-d92b-47a4-b39a-c9f037afaf46.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c87d4786-8003-4216-a5fd-7d7b647ba1ff.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3b67fa16-9186-4d0d-8025-cfdc029fb157.png"
+    ],
+    "review": "For **P037**, select **N/A for factuality, completeness, and coherence**.\n\nThe saved outcome is **failed**, and the displayed text says **“No valid answer was produced.”** The rating guide requires failed cases to remain unrated.\n\n:::writing{variant=\"standard\" id=\"57834\"}\nSaved outcome is “failed,” with no valid answer produced. Factuality, completeness, and coherence are N/A under the rating guide. The visible evidence does not establish the required Play ransomware actors → Mimikatz → T1003 path. The cause of generation failure is unknown.\n:::"
+  },
+  {
+    "id": "P038",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2ae71706-a537-4c64-bc7b-f061f97c9d30.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3e48d115-a00f-4b73-a184-85e0efec9c21.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a95a0869-e3a9-42f5-9808-78fba28f7734.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c82d449c-245e-47ae-adce-421d0058dfff.png"
+    ],
+    "review": "For **P038**, I recommend **Factuality 2/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Incorrectly maps Ligolo to T1046 and asserts an unsupported connection through Mimikatz. The remaining mitigation pairs concern other techniques. |\n| Completeness | **1/5** | Omits **LockBit → Ligolo → T1095** and its required mitigation relationships. M1030/M1031 appear only against unrelated techniques; M1037/M1047 are absent. |\n| Coherence | **3/5** | Readable sentences, but the opening connection is unclear and the M1030 claim is repeated. |\n\n:::writing{variant=\"standard\" id=\"68702\"}\nThe answer incorrectly assigns Ligolo to T1046 and asserts an unsupported connection through Mimikatz. E1 concerns Mimikatz credential dumping, while E5 maps Advanced Port Scanner to T1046; neither supports these Ligolo claims. The required path is LockBit affiliates → Ligolo → T1095 (Non-Application Layer Protocol) → M1030, M1031, M1037, and M1047. The answer instead lists mitigation relationships for unrelated techniques, omits the advisory/reference distinction, and does not acknowledge the evidence gap. Its sentences are readable, but the explanation is poorly connected and repetitive.\n:::"
+  },
+  {
+    "id": "P039",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-73e7611d-9b53-4f3f-b9fb-1678d71abbf4.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8314850d-f63f-4f61-a0bc-7df3e3f9794a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e02a10a8-7447-4b95-9a3b-bb93f9149179.png"
+    ],
+    "review": "For **P039**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Correctly identifies T1567.002 and matches the reference. However, the visible citations establish the software–technique link without directly demonstrating affiliates’ use of rclone. |\n| Completeness | **4/5** | States both hops, but does not explain the advisory evidence supporting the actor–software link. |\n| Coherence | **4/5** | The explicit path is clear, with minor repetition and an unnecessary mitigation discussion. |\n\n:::writing{variant=\"standard\" id=\"75420\"}\nThe answer correctly states LockBit 3.0 affiliates → rclone → T1567.002 (Exfiltration to Cloud Storage), matching the verified reference. E9 supports the software-to-technique mapping, but the visible fragment and supplied graph do not establish the actor-to-rclone link; E2/E3 are contextual headings, and E10 is reference mitigation metadata. Both hops are stated, but their source support is not fully explained. The added M1021 guidance is supported by E10/E11 but was not requested. The prose is clear, with minor repetition and awkward wording.\n:::"
+  },
+  {
+    "id": "P040",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0b1d89de-862c-4949-9c3c-dbf75e724d90.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-482c9426-b8c0-4711-93f2-2a3571c1bb4b.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-30a5a1c0-7a55-4416-824a-910b7e05c767.png"
+    ],
+    "review": "For **P040**, I recommend **Factuality 4/5, Completeness 3/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Correctly identifies Royal → Chisel → T1572, but changes E1’s historical observation into an unqualified present-tense claim. Both added mitigation associations are supported. |\n| Completeness | **3/5** | Names both hops and the technique, but does not explain Chisel’s C2 communication role or retain the historical qualification. |\n| Coherence | **4/5** | Concise and readable, though “connect to Protocol Tunneling” is awkward and the mitigation details distract from explaining the path. |\n\n:::writing{variant=\"standard\" id=\"31947\"}\nThe answer correctly identifies Royal actors → Chisel → T1572 (Protocol Tunneling), supported by E1. However, it says actors “use” Chisel rather than retaining the source’s historical observation, and it does not explain the reported communication with C2 infrastructure. The added M1037 and M1031 associations are supported by E4–E7 but do not replace the requested explanation of both links. The prose is concise and clear, with minor awkward wording.\n:::"
+  },
+  {
+    "id": "P041",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1dd03bc2-1305-4f95-acda-96014de36d2e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-99640d5e-ead9-4814-a540-cdaf6a38af9f.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-48b3373b-3f12-45ea-8c80-387953e23377.png"
+    ],
+    "review": "For **P041**, I recommend **Factuality 4/5, Completeness 3/5, Coherence 4/5**, consistent with P040.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Correctly identifies Royal → Chisel → T1572, but drops E1’s historical qualification. The added mitigation associations are supported. |\n| Completeness | **3/5** | Names both hops but omits Chisel’s C2 communication purpose and does not explain each link. |\n| Coherence | **4/5** | Concise and readable, though “connect to Protocol Tunneling” is awkward and mitigation details displace the requested explanation. |\n\n:::writing{variant=\"standard\" id=\"86273\"}\nThe answer correctly identifies Royal actors → Chisel → T1572 (Protocol Tunneling), supported by E1. However, it states present use rather than retaining the source’s historical observation and does not explain the reported communication with C2 infrastructure. The M1031 and M1037 associations are supported by E4–E7, but they do not replace the requested explanation of both actor-to-software and software-to-technique links. The prose is concise and clear, with minor awkward wording.\n:::"
+  },
+  {
+    "id": "P042",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-d8d8811a-1b56-4749-85e3-16d272805946.png"
+    ],
+    "review": "For **P042**, I recommend **Factuality 5/5, Completeness 1/5, Coherence 5/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **5/5** | The insufficient-evidence statement accurately reflects the empty supplied evidence. |\n| Completeness | **1/5** | Provides none of the requested ProcDump → T1003.001 → mitigation relationships. |\n| Coherence | **5/5** | Clear, concise, and unambiguous. |\n\nThis is an **abstention**, so meaningful dimensions receive scores rather than N/A.\n\n:::writing{variant=\"standard\" id=\"14598\"}\nThe abstention accurately reflects the empty supplied evidence: no source passages, graph nodes, or graph paths are shown. It clearly acknowledges the limitation without inventing relationships. However, it omits the requested ProcDump → T1003.001 (LSASS Memory) → M1017, M1025, M1026, M1027, M1028, M1040, and M1043 path and the advisory/reference distinction. Factuality and coherence are excellent; completeness is poor.\n:::"
+  },
+  {
+    "id": "P043",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-4ec7e2b4-e161-4d25-b5f8-7ac34672ca30.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-7cdd1a90-05b0-4df9-98c2-3bf0e9285833.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0c23f900-e4b6-4280-a368-fcaed809f7fb.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5de11f8d-872f-49df-b313-884e58470244.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e190a65e-5aad-4326-97de-e4b985115dc4.png"
+    ],
+    "review": "For **P043**, I recommend **Factuality 3/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Actor-use statements are supported, but the LockBit defense-evasion mapping relies on a heading. Tactic labels do not establish the claimed technique mappings. |\n| Completeness | **1/5** | Omits both requested actors—**Play and Medusa**—and the **T1003 versus T1003.001** comparison. |\n| Coherence | **4/5** | Readable and consistently organized, though repetitive and lacking a comparative structure. |\n\n:::writing{variant=\"standard\" id=\"24863\"}\nThe answer discusses LockBit, Volt Typhoon, and Akira instead of the requested Play and Medusa reports. It omits AA23-352A’s Play → Mimikatz → T1003 (OS Credential Dumping) mapping and AA25-071A’s Medusa → Mimikatz → T1003.001 (LSASS Memory) mapping, including the difference in specificity. The actor-use claims are supported, but E4’s heading does not establish a LockBit–Mimikatz defense-evasion mapping, and tactic labels do not supply the requested technique mappings. The supplied evidence lacks both requested report contexts, which the answer does not acknowledge. The prose is clear but repetitive.\n:::"
+  },
+  {
+    "id": "P044",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-40bba502-ad4e-40e4-af73-d4e245a574cf.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1493a583-58b0-409f-8f2b-a9b8a654b7e5.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-be2f9b22-52f0-4a27-890c-844dab84d44c.png"
+    ],
+    "review": "For **P044**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Correctly reports Akira’s Mimikatz use for credential dumping, but misidentifies the technique as “Defense Evasion (T1204).” E12 identifies T1204 as **User Execution**. |\n| Completeness | **2/5** | Establishes the first hop but omits the correct second hop: **Mimikatz → T1003 (OS Credential Dumping)**. |\n| Coherence | **4/5** | Concise and easy to follow; the classification errors are assessed under factuality. |\n\n:::writing{variant=\"standard\" id=\"48391\"}\nE1 supports Akira threat actors’ use of Mimikatz to dump credentials. However, the answer incorrectly substitutes “Defense Evasion (T1204)” for T1003 (OS Credential Dumping). Defense Evasion is a tactic, E4 is only a table heading, and E12 explicitly identifies T1204 as User Execution without connecting it to Mimikatz. The supplied graph establishes only Akira → Mimikatz. The answer misses the required software-to-technique link and does not acknowledge the evidence gap. Its prose is concise and readable.\n:::"
+  },
+  {
+    "id": "P045",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-09a5da4d-21a1-48e2-be94-38e311f07cfe.png"
+    ],
+    "review": "For **P045**, I recommend **Factuality 5/5, Completeness 1/5, Coherence 5/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **5/5** | The insufficient-evidence statement matches the empty supplied evidence. |\n| Completeness | **1/5** | Omits **FreeFileSync → T1567.002 → M1021** and the advisory/reference distinction. |\n| Coherence | **5/5** | Clear, concise, and unambiguous. |\n\nThis is an **abstention**, so use scores rather than N/A.\n\n:::writing{variant=\"standard\" id=\"61743\"}\nThe abstention accurately reflects the empty supplied evidence: no source passages, graph nodes, or graph paths are shown. It clearly acknowledges the limitation without inventing relationships. However, it provides none of the requested FreeFileSync → T1567.002 (Exfiltration to Cloud Storage) → M1021 (Restrict Web-Based Content) path or the distinction between advisory observations and reference recommendations. Factuality and coherence are excellent; completeness is poor.\n:::"
+  },
+  {
+    "id": "P046",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-90fdc091-9225-4834-bf42-782461101310.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-96a5e006-2df4-464c-b8b0-d3c9282f019e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a131cc4d-3506-47bf-82f7-94bdd76bc58f.png"
+    ],
+    "review": "For **P046**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | The Play → Mimikatz link matches the reference, but the asserted T1552.004 mapping is wrong. E8/E10 do not support either claimed link. |\n| Completeness | **2/5** | States the first hop but omits **T1003 (OS Credential Dumping)** and evidence explaining both relationships. |\n| Coherence | **4/5** | Clear and internally consistent, with minor repetition. |\n\n:::writing{variant=\"standard\" id=\"93628\"}\nThe answer identifies the correct actor and software but incorrectly maps Mimikatz to T1552.004 instead of the verified T1003 (OS Credential Dumping). E8 discusses other Play activity, including WinRAR, while E10 is only a Technical Details heading; neither establishes the claimed path. The supplied evidence does not show the required Play → Mimikatz → T1003 relationships, and the answer does not acknowledge that gap. Its prose and explicit path are readable and internally consistent.\n:::"
+  },
+  {
+    "id": "P047",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-838387d8-d287-4fc0-9a90-16f366166b65.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8c3a10d7-2a75-4246-8428-9a292b889d44.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-579b2b0d-0217-4b03-b090-79a6a64dd716.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a1abd7b3-5689-4bee-b11a-f1b52fe9b68b.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1d71c43a-928d-46d5-96af-efb25a3f6ad9.png"
+    ],
+    "review": "For **P047**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Actor-use claims are supported, but E4/E5 do not establish the asserted LockBit–Mimikatz defense-evasion mapping. Tactic labels substitute for technique mappings. |\n| Completeness | **2/5** | Identifies Akira’s use but omits Play and the finding that **both reports map Mimikatz use to T1003**. |\n| Coherence | **4/5** | Clear and consistently structured, though repetitive and lacking the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"97531\"}\nThe answer correctly reports Akira’s use of Mimikatz, supported by E15, but omits Play ransomware actors and both reports’ T1003 (OS Credential Dumping) mappings. It misses the central comparison that AA24-109A and AA23-352A cite the same parent technique for their reported Mimikatz use. The LockBit defense-evasion claim relies on E4’s heading and E5’s unrelated Rhysida passage. Credential Access and Defense Evasion are tactic labels rather than the requested technique mappings. The supplied evidence lacks the Play side, which the answer does not acknowledge. The prose is clear but repetitive.\n:::"
+  },
+  {
+    "id": "P048",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-72afda21-f75b-4920-9dd9-c1ac209105cf.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-090b42ab-d3b9-40fd-a53c-6c06993103ee.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9c61882e-c197-4025-9483-d2ddbaf0d002.png"
+    ],
+    "review": "For **P048**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**, consistent with P013.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated relationships match their citations, but their relevance to PasswordFox is not established or qualified. |\n| Completeness | **1/5** | Omits PasswordFox → T1555.003 and all five requested mitigation relationships. M1018 appears only against unrelated techniques. |\n| Coherence | **4/5** | Clear, concise, and internally consistent. |\n\n:::writing{variant=\"standard\" id=\"57492\"}\nThe stated mitigation relationships are supported by the cited evidence but concern unrelated techniques. The answer does not establish PasswordFox → T1555.003 (Credentials from Web Browsers) → M1017, M1018, M1021, M1027, and M1051. M1018 appears only for T1562/T1562.001, which does not satisfy the requested relationship. It also omits the advisory/reference distinction and does not acknowledge the missing relevant evidence. The prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P049",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-81f35580-5b04-4bca-a9e0-a56658e17ad0.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-48246713-3fe2-4beb-b927-2f5c2a50a565.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1aba47ff-c7c7-43f1-b908-b6193f6265b2.png"
+    ],
+    "review": "For **P049**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Akira’s use of Mimikatz is supported, but “to evade defenses” is unsupported. Defense Evasion is a tactic, not the requested technique. |\n| Completeness | **2/5** | Includes the actor–software link but omits credential dumping and **Mimikatz → T1003 (OS Credential Dumping)**. |\n| Coherence | **4/5** | Concise, readable, and internally consistent, despite the incorrect mapping. |\n\n:::writing{variant=\"standard\" id=\"85216\"}\nE1 supports Akira threat actors’ use of Mimikatz to dump credentials. The answer instead claims it is used to evade defenses and treats Defense Evasion as an ATT&CK technique. E4 is only a table heading and does not establish that purpose or mapping. The verified reference identifies T1003 (OS Credential Dumping), which the answer omits. The supplied graph establishes only Akira → Mimikatz, and the answer does not acknowledge the missing second-hop evidence. Its prose is concise and clear.\n:::"
+  },
+  {
+    "id": "P050",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8f5ee67a-9ac8-49df-96c1-682c3370fbdb.png"
+    ],
+    "review": "For **P050**, I recommend **Factuality 5/5, Completeness 1/5, Coherence 5/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **5/5** | The insufficient-evidence statement accurately reflects the empty supplied evidence. |\n| Completeness | **1/5** | Provides none of the requested Splashtop → T1021.001 → mitigation relationships. |\n| Coherence | **5/5** | Clear, concise, and unambiguous. |\n\nThis is an **abstention**, so use scores rather than N/A.\n\n:::writing{variant=\"standard\" id=\"36785\"}\nThe abstention accurately reflects the empty supplied evidence: no source passages, graph nodes, or graph paths are shown. It clearly acknowledges the limitation without inventing relationships. However, it omits Splashtop → T1021.001 (Remote Desktop Protocol) → M1018, M1026, M1028, M1030, M1032, M1035, M1042, and M1047, along with the advisory/reference distinction. Factuality and coherence are excellent; completeness is poor.\n:::"
+  },
+  {
+    "id": "P051",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2d773bfa-fc8a-4b47-9b24-5d46163de2d2.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-50017cae-62f5-4b11-8d7e-a8f3e369310a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-6d308541-d1d0-4f8c-bdbd-fdd03ead5774.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-dc7150e6-f4dd-479f-86ac-236139187d98.png"
+    ],
+    "review": "For **P051**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The path matches the verified reference, but E5 concerns **Advanced Port Scanner**, so the citations do not establish the claimed Advanced IP Scanner relationships. |\n| Completeness | **4/5** | States both requested hops and T1046, but omits the qualification that this is the advisory’s reported use and does not explain the evidence mismatch. |\n| Coherence | **4/5** | Clear and logically ordered, with repetitive, unrequested mitigation details. |\n\n:::writing{variant=\"standard\" id=\"69418\"}\nThe answer correctly states LockBit affiliates → Advanced IP Scanner → T1046 (Network Service Discovery), matching the verified reference. However, E5 describes Advanced Port Scanner, E6/E7 provide table context, and E8 supplies mitigation metadata; these citations do not establish the requested software-specific links. It also omits the qualification that the mapping concerns the advisory’s reported use rather than all uses of the tool. The added M1030 guidance is supported but unnecessary. The prose is clear and organized, with minor repetition.\n:::"
+  },
+  {
+    "id": "P052",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b15454c4-32fe-41b0-aeba-6ca0ca8bc655.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-815c2710-9005-4da4-836a-70d7698711fe.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b3b9ebbc-55d0-4fe6-b321-9ed287edf5a3.png"
+    ],
+    "review": "For **P052**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated mitigation pairs are supported, although some accompanying citations concern other relationships and relevant qualifications are omitted. |\n| Completeness | **1/5** | Omits Splashtop → T1021.001 and all eight required mitigation relationships. M1042 appears only against T1562. |\n| Coherence | **4/5** | Clear, organized, and internally consistent. |\n\n:::writing{variant=\"standard\" id=\"71846\"}\nThe answer gives supported mitigation relationships for unrelated techniques but does not establish Splashtop → T1021.001 (Remote Desktop Protocol) → M1018, M1026, M1028, M1030, M1032, M1035, M1042, and M1047. M1042 appears only against T1562, which does not satisfy the requested relationship. Some accompanying citations concern different techniques or mitigations. The answer also omits the advisory/reference distinction and does not acknowledge the missing relevant evidence. The prose is clear and internally consistent.\n:::\n\n**Consistency correction:** This matches P001/P004. Their factuality recommendations should also be **4/5**, giving **4/1/4**, because the individual claims are supported even though they fail to answer the question."
+  },
+  {
+    "id": "P053",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-62067cb7-8862-4d13-befd-2947c3d52e1e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-92901770-b4ac-4388-9723-9f09afed3ba8.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-dc464999-b2a0-4f02-84ce-0bf095f078c0.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1acdb001-032e-46ca-b160-29cd4436d442.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0257d774-82b7-4da2-95f5-5446e0c183ed.png"
+    ],
+    "review": "For **P053**, I recommend **Factuality 3/5, Completeness 1/5, Coherence 4/5**, consistent with P043.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Actor-use claims are supported, but E4’s heading does not establish the claimed defense-evasion mapping. Tactic labels substitute for technique mappings. |\n| Completeness | **1/5** | Omits both requested actors—Play and Medusa—and the **T1003 versus T1003.001** comparison. |\n| Coherence | **4/5** | Readable and consistently structured, though repetitive and lacking a comparison. |\n\n:::writing{variant=\"standard\" id=\"62480\"}\nThe answer discusses LockBit, Volt Typhoon, and Akira instead of Play and Medusa. It omits AA23-352A’s Play → Mimikatz → T1003 (OS Credential Dumping) mapping and AA25-071A’s Medusa → Mimikatz → T1003.001 (LSASS Memory) mapping, including the parent/sub-technique distinction. The actor-use claims are supported, but E4’s table heading does not establish the claimed LockBit defense-evasion mapping. Tactic labels do not provide the requested technique mappings. The supplied evidence lacks both requested report contexts, which the answer does not acknowledge. The prose is clear but repetitive.\n:::"
+  },
+  {
+    "id": "P054",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e3355e78-1196-468d-b066-aaa8cbe315eb.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-6ce9f56d-5fcd-4604-b399-3d91112cb1b3.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-aa0d9eab-6426-4adc-8cd2-ab64eb741993.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-6ddc1970-ff2b-4569-8c3d-ff081233e8b1.png"
+    ],
+    "review": "For **P054**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated associations match the evidence, but the M1056 summary omits the supplied limitations on preventive controls. |\n| Completeness | **1/5** | Omits Chocolatey, T1072, and all ten requested mitigation relationships. M1030 appears only against T1046. |\n| Coherence | **4/5** | Clear and consistently organized, although the statements do not develop the requested path. |\n\n:::writing{variant=\"standard\" id=\"46029\"}\nThe answer gives supported associations for Advanced Port Scanner and unrelated techniques but does not establish LockBit affiliates → Chocolatey → T1072 (Software Deployment Tools) → its ten reference mitigations. M1030 appears only against T1046, which does not satisfy the requested relationship. The M1056 summary also omits the evidence’s limitations on preventive controls. The answer neither distinguishes advisory observations from reference recommendations nor acknowledges the missing Chocolatey evidence. Its prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P055",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-67932cb7-b7fd-461f-ae0b-5d999704eb49.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f1628c1f-ff3e-4ff7-86ef-9d6973214fd6.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8684c062-f0d1-469c-8bdf-197c9a4dcbee.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-57e66af2-6252-4461-8b6c-23ca38a9ad79.png"
+    ],
+    "review": "For **P055**, I recommend **Factuality 3/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Several claims are supported, including Akira’s Mimikatz use in E8. However, Rhysida’s Mimikatz use and Akira’s VPN-access claim are unsupported by their citations. |\n| Completeness | **1/5** | Omits Play, Medusa, both requested mappings, and the **T1003 versus T1003.001** comparison. |\n| Coherence | **3/5** | Readable sentences, but shifts among unrelated activities without developing the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"90526\"}\nThe answer substitutes Rhysida and Akira for the requested Play and Medusa comparison. It omits AA23-352A’s Play → Mimikatz → T1003 mapping and AA25-071A’s Medusa → Mimikatz → T1003.001 mapping, including their difference in specificity. E8 supports Akira’s Mimikatz use for privilege escalation, but E1/E7 do not establish Rhysida’s Mimikatz use, and E4/E3 do not support the Akira VPN-access claim. Several remaining tool-use statements are supported but unrelated to the question. The answer does not acknowledge the missing requested report contexts. Its prose is readable but lacks comparative organization.\n:::"
+  },
+  {
+    "id": "P056",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c22eb461-3be9-4594-b79b-ee9b211a0f96.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-93e57f77-785d-4cd9-9580-52057652c241.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c649d3b9-5b8f-432a-9b1d-6cbd1b2f8e7f.png"
+    ],
+    "review": "For **P056**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Several claims match the evidence, but it incorrectly attributes small-batch exfiltration to Rclone; E5 assigns that behavior to **rdpclip.exe**. E6 is only a report title. |\n| Completeness | **2/5** | Identifies Medusa’s Rclone use but omits Akira and the required **T1048 versus T1567.002** comparison. |\n| Coherence | **3/5** | Mostly readable, but the Rhysida sentence is malformed, claims repeat, and deployment details interrupt the comparison. |\n\n:::writing{variant=\"standard\" id=\"30764\"}\nThe answer identifies Medusa’s Rclone use but omits AA24-109A’s Akira → Rclone → T1048 mapping and AA25-071A’s Medusa → Rclone → T1567.002 mapping, including their source-specific comparison. E5 supports renaming Rclone files, but attributes small-batch exfiltration to rdpclip.exe, not Rclone. E6 is a report title and does not substantiate the custom-playbook claim by itself. Several other statements are supported but concern unrelated actors or deployment activity. The answer does not acknowledge the missing Akira evidence. Its organization is weakened by repetition, irrelevant details, and a malformed Rhysida sentence.\n:::"
+  },
+  {
+    "id": "P057",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-cd6ea173-ef9f-4a8d-a957-2bc7018f74f9.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-bab9305e-4b59-4fd8-b312-b1ffe445a07a.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-d9a730c8-6563-475d-9821-69d8151700d0.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e5dcd947-b259-4384-a880-7ffc6bafa058.png"
+    ],
+    "review": "For **P057**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Matches the reference and correctly identifies T1567.002. However, the visible citations do not directly establish affiliates’ use of rclone. |\n| Completeness | **4/5** | States both hops and names the technique, but does not explain the advisory support for the actor–software link. |\n| Coherence | **3/5** | Understandable and consistent, but repeats essentially the same conclusion three times without developing the explanation. |\n\n:::writing{variant=\"standard\" id=\"58137\"}\nThe answer correctly states LockBit 3.0 affiliates → rclone → T1567.002 (Exfiltration to Cloud Storage), matching the verified reference. E11 supports the software-to-technique mapping, but the visible fragment does not establish affiliates’ use of rclone. E2/E3 are contextual headings, E12 is mitigation metadata, and the supplied graph omits the actor-to-rclone link. Both hops are stated without fully explaining their source support. The answer remains understandable but repeats the same conclusion three times.\n:::"
+  },
+  {
+    "id": "P058",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-7983b4bd-043b-4f2c-a4f5-aa2ba08f9a5f.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-06899415-24f7-491e-90a3-36906212dc29.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1ccf91f0-64d0-44d9-b4a1-ab32379155d3.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1ce96e7c-fa5a-4b82-8099-422d2823257b.png"
+    ],
+    "review": "For **P058**, I recommend **Factuality 4/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The associations are supported, but “is mitigated by” drops qualifications and does not distinguish reference associations from demonstrated effectiveness. |\n| Completeness | **2/5** | Includes T1046 → M1030, but omits Advanced IP Scanner, T1046 → M1031, and M1042. |\n| Coherence | **4/5** | Readable and consistently structured, though unrelated tool paths distract from the requested explanation. |\n\n:::writing{variant=\"standard\" id=\"82617\"}\nThe answer includes the supported T1046 → M1030 relationship but does not establish LockBit affiliates → Advanced IP Scanner → T1046. M1031 appears only in remote-access paths, despite E17/E18 supplying its relationship to T1046, and M1042 is omitted. The AnyDesk, Atera, and Backstab associations are supported but do not complete the requested path. The wording also fails to distinguish reference mitigation associations from demonstrated effectiveness against the reported activity. The prose is clear and organized.\n:::"
+  },
+  {
+    "id": "P059",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8c5a783a-7016-417c-a1c6-adf69618bd8e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-94069feb-60a4-4709-8481-71f28ed2d8d2.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e7014318-be16-481c-a43c-199e3e5ccf54.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-236b2456-1445-4ac5-b973-2d1375ba350c.png"
+    ],
+    "review": "For **P059**, I recommend **Factuality 3/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | The three mitigation pairs are supported, but the opening connection between Mimikatz and ThunderShell’s mapped technique is unsupported. |\n| Completeness | **1/5** | Omits **LockBit → ThunderShell → T1071.001 → M1031**. M1031 appears only against T1219. |\n| Coherence | **3/5** | Readable sentences, but the opening association is vague and the remaining statements do not form the requested path. |\n\n:::writing{variant=\"standard\" id=\"18472\"}\nThe opening claim associates LockBit’s Mimikatz use with ThunderShell’s mapped technique without supporting evidence. E1 concerns credential dumping with Mimikatz, while E2/E3 provide only report context. The remaining mitigation pairs match their citations but concern unrelated techniques. The answer omits LockBit affiliates → ThunderShell → T1071.001 (Web Protocols) → M1031 (Network Intrusion Prevention), the advisory/reference distinction, and acknowledgment of the missing relevant evidence. Its sentences are readable, but the explanation lacks a connected path.\n:::"
+  },
+  {
+    "id": "P060",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9a930997-a6d7-4284-89cc-0d7b7d29eb8d.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-dffb246b-f229-4914-8ac4-bb46abd47465.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-a449c55e-5625-4bc0-be1e-2eb527af8dcb.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-39e4d644-20c6-46ee-89b8-79ed9d587137.png"
+    ],
+    "review": "For **P060**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated associations match the evidence, but the M1056 summary omits limitations on preventive controls. |\n| Completeness | **1/5** | Omits Ligolo → T1095 and all four requested mitigation relationships. M1030/M1031 appear only against unrelated techniques. |\n| Coherence | **4/5** | Clear and consistently organized, although it never develops the requested path. |\n\n:::writing{variant=\"standard\" id=\"23581\"}\nThe answer gives supported associations for Advanced Port Scanner and unrelated techniques but does not establish LockBit affiliates → Ligolo → T1095 (Non-Application Layer Protocol) → M1030, M1031, M1037, and M1047. M1030 and M1031 appear only against other techniques; M1037 and M1047 are absent. The M1056 summary omits the supplied limitations on preventive controls. The answer also omits the advisory/reference distinction and does not acknowledge the missing Ligolo evidence. Its prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P061",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-11173efb-6a9d-449c-bd90-04c38288088c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-eae26db3-9f13-4f88-b60f-4fb27fd85d22.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-cf34bbbc-d907-4e4d-81be-2d574486e52f.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ed2faab2-26ff-4289-8ed9-098954d0ca93.png"
+    ],
+    "review": "For **P061**, I recommend **Factuality 4/5, Completeness 1/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | The stated associations match the evidence, but the M1056 summary omits the supplied limitations on preventive controls. |\n| Completeness | **1/5** | Omits **LockBit → ThunderShell → T1071.001 → M1031**. M1031 appears only against T1219. |\n| Coherence | **4/5** | Clear and consistently organized, though it does not develop the requested path. |\n\n:::writing{variant=\"standard\" id=\"95308\"}\nThe answer gives supported associations for Advanced Port Scanner and unrelated techniques but does not establish LockBit affiliates → ThunderShell → T1071.001 (Web Protocols) → M1031 (Network Intrusion Prevention). Mentioning M1031 for T1219 does not satisfy the requested relationship. The M1056 summary omits the supplied limitations on preventive controls. The answer also omits the advisory/reference distinction and does not acknowledge the missing ThunderShell evidence. Its prose is clear and internally consistent.\n:::"
+  },
+  {
+    "id": "P062",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-3c397e48-71c2-4ad8-ab64-ad01eb1f1b21.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8d97a830-7133-4cab-b62a-fe8c8b2010c8.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9f4ae80e-c04e-4271-905f-7e24b1bf47e4.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-43e9ed25-8cde-461f-aa39-65ce3b1ca97f.png"
+    ],
+    "review": "For **P062**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Correctly identifies Akira → ngrok → T1572, supported by E1. However, it drops E6’s “in some instances” qualification and mixes its T1090 exfiltration context into the C2 explanation. |\n| Completeness | **4/5** | Includes the complete requested path, but does not explain the encrypted C2 sessions or clearly separate the two source contexts. |\n| Coherence | **3/5** | Repetitive; initially labels a single edge as a two-hop path, then supplies the full path. Added mitigation details dilute the explanation. |\n\n:::writing{variant=\"standard\" id=\"40378\"}\nThe answer correctly supplies Akira actors → ngrok → T1572 (Protocol Tunneling), supported by E1’s C2 observation. However, it mixes in E6’s separate exfiltration context, which cites T1090, and omits that passage’s “in some instances” qualification. It does not explain the encrypted C2 sessions described in the reference. The first purported two-hop path contains only ngrok → T1572, although the following statement supplies both hops. The mitigation claims are supported but unrequested. Repetition and the inconsistent path presentation reduce coherence.\n:::"
+  },
+  {
+    "id": "P063",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-e7e59f26-47ee-4788-938b-ebe0db45d258.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b2af404e-d2b4-4142-8684-a2c53ea82fbc.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-d32dfe75-c073-4d69-9525-5bba9d9de96e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-04ef1e96-e586-4279-98f3-d7979fee7596.png"
+    ],
+    "review": "For **P063**, I recommend **Factuality 3/5, Completeness 1/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Most BianLian-use claims are supported, but it incorrectly transfers the LockBit-context T1567.002 mapping to BianLian. |\n| Completeness | **1/5** | Omits Akira, Medusa, and the requested **T1048 versus T1567.002** comparison. |\n| Coherence | **3/5** | Readable but repetitive, with competing mappings and unnecessary mitigation details obscuring the comparison. |\n\n:::writing{variant=\"standard\" id=\"63817\"}\nThe answer discusses BianLian and LockBit rather than the requested Akira and Medusa reports. It omits AA24-109A’s Akira → Rclone → T1048 mapping and AA25-071A’s Medusa → Rclone → T1567.002 mapping. Several BianLian-use statements are supported, but the answer incorrectly attributes E1’s LockBit-context T1567.002 mapping to BianLian; E9 instead cites T1537 for BianLian’s reported Rclone use. Reference mitigation metadata does not establish an actor-specific advisory mapping. The answer does not acknowledge the missing requested report contexts. Repetition and unrelated mitigation details weaken its organization.\n:::"
+  },
+  {
+    "id": "P064",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ca47d933-2dd1-465a-8445-0a4007b83fed.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1eff57f8-f7c7-4c5d-a1a7-de9c4b1d11dc.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-66701e26-881d-4efd-88d9-8bba86181e0b.png"
+    ],
+    "review": "For **P064**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Most actor-use claims are supported. However, E4/E11 are headings and do not establish Mimikatz use for defense evasion. |\n| Completeness | **2/5** | Names both Akira and Medusa, but omits their **T1003 versus T1003.001** mappings and the difference in specificity. |\n| Coherence | **4/5** | Clear and consistently structured, though the broad actor list does not develop the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"76209\"}\nThe answer correctly identifies both Akira and Medusa as Mimikatz users, supported by E12 and E20. However, it omits AA24-109A’s T1003 (OS Credential Dumping) mapping and AA25-071A’s T1003.001 (LSASS Memory) mapping, including the parent/sub-technique distinction and source-specific qualification. E4/E11 are table headings and do not support the additional claim that LockBit and Phobos use Mimikatz for defense evasion. Most other actor-use statements are supported but distract from the comparison. The prose is clear and consistently organized.\n:::"
+  },
+  {
+    "id": "P065",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-7d97ee15-9145-43cd-921e-e9dd81c10aa8.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-5f9324e8-b675-437e-b399-b323104a2cb0.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-10de47b3-a48f-4bb5-84c1-8325b6dd45db.png"
+    ],
+    "review": "For **P065**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Most actor-use claims are supported, but E4/E11 are headings and do not establish Mimikatz use for defense evasion. |\n| Completeness | **2/5** | Identifies Akira but omits Play and the central finding that **both reports map Mimikatz use to T1003**. |\n| Coherence | **4/5** | Clear and consistently structured, though the broad actor list lacks the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"41706\"}\nThe answer correctly identifies Akira’s Mimikatz use, supported by E12, but omits Play ransomware actors. It does not explain that AA24-109A and AA23-352A both map their reported Mimikatz use to T1003 (OS Credential Dumping), or retain that comparison within each report’s context. Most additional actor-use statements are supported, but E4/E11 are table headings and do not substantiate the LockBit/Phobos defense-evasion claim. The supplied evidence lacks the Play side, which the answer does not acknowledge. Its prose is clear and organized, but it does not develop a comparison.\n:::"
+  },
+  {
+    "id": "P066",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-66c7bebd-4428-4195-9c4e-8019d5bf3006.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f3b53795-5024-48df-a597-f7ace762e65c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-1056739a-d94d-459a-9f8d-3746385dc7f3.png"
+    ],
+    "review": "For **P066**, I recommend **Factuality 5/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **5/5** | Correctly identifies Medusa → PsExec → T1569.002. E5 directly supports both links and the lateral-movement claim. |\n| Completeness | **4/5** | Includes both hops, the technique ID, and evidence, but omits the name **Service Execution**. |\n| Coherence | **4/5** | Clear and consistent, though repetitive; “execute T1569.002” is awkward wording. |\n\n:::writing{variant=\"standard\" id=\"52790\"}\nThe answer correctly establishes Medusa actors → PsExec → T1569.002, matching the verified reference. E5 directly supports the reported PsExec use, technique mapping, and lateral movement. It omits the technique name “Service Execution.” E6 is truncated before the relevant PsExec material, while E2/E3 are contextual headings, but E5 sufficiently supports the central claims. The explanation is clear, with some repetition and awkward wording.\n:::"
+  },
+  {
+    "id": "P067",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0e8bb814-9604-4cd1-9f6a-92a1b973b0b0.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0801a451-90c2-4e44-8564-a823aade7e3f.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-c38dd6be-e5b7-4c4f-8496-527dcbc4a95d.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-11ad3b1c-a032-4286-82fb-7b8769b85114.png"
+    ],
+    "review": "For **P067**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Correct actor and software, but incorrectly maps rclone to T1219. The cited T1219 evidence concerns other remote-access tools. |\n| Completeness | **2/5** | States the actor–software link but misses **rclone → T1567.002 (Exfiltration to Cloud Storage)** and supporting evidence. |\n| Coherence | **4/5** | Understandable and internally consistent, though repetitive and awkwardly worded. |\n\n:::writing{variant=\"standard\" id=\"78034\"}\nThe answer names the correct actor and software but incorrectly states LockBit 3.0 affiliates → rclone → T1219. The verified reference identifies T1567.002 (Exfiltration to Cloud Storage). E4 concerns AnyDesk, while E5 associates T1219 with AnyDesk, Atera RMM, ScreenConnect, and TeamViewer; neither establishes an rclone-to-T1219 relationship or the claimed use of rclone to connect to remote-access software. The answer does not acknowledge the missing rclone evidence. Its prose and explicit path are understandable but repetitive.\n:::"
+  },
+  {
+    "id": "P068",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-191a9022-04e5-49b5-b1ca-6342f5971689.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8cc596ea-6aca-422e-a824-2a8923826394.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-fd76ab29-dd31-44cd-a74f-a0727dc02bd4.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ef7c3e0f-8f16-4cde-b074-d67a5a5ab1a5.png"
+    ],
+    "review": "For **P068**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | E8 supports Akira’s Mimikatz use, but Rhysida’s Mimikatz claim relies on an unrelated heading. The listed discovery mappings concern other tools. |\n| Completeness | **2/5** | Identifies Akira but omits Medusa and the required **T1003 versus T1003.001** comparison. |\n| Coherence | **4/5** | Readable and consistently structured, though it never connects the listed mappings to Mimikatz. |\n\n:::writing{variant=\"standard\" id=\"69042\"}\nE8 directly supports Akira’s use of Mimikatz and explicitly associates the credential-scraping tools with T1003, but the answer omits that mapping. It substitutes Rhysida for Medusa, and E7’s Credential Access heading does not support Rhysida’s claimed Mimikatz use. E1/E4 contain mappings for other behaviors and tools, not the requested Mimikatz comparison. The answer omits AA25-071A’s Medusa → Mimikatz → T1003.001 mapping and the parent/sub-technique distinction. It does not acknowledge the missing Medusa evidence. The prose is clear and consistently organized.\n:::"
+  },
+  {
+    "id": "P069",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-9777fa13-8b8f-4595-86f0-babdb1f19b8c.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-fa731f55-0318-4ede-9498-88b92154957b.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2441f795-fb27-4b00-b50d-c5c237b01518.png"
+    ],
+    "review": "For **P069**, select **N/A for factuality, completeness, and coherence**.\n\nThe saved outcome is **failed**, and no valid answer was produced. The rating guide requires failed cases to remain unrated.\n\n:::writing{variant=\"standard\" id=\"84932\"}\nSaved outcome is “failed,” with no valid answer produced. Factuality, completeness, and coherence are N/A under the rating guide. The supplied evidence concerns LockBit and BianLian rather than the requested Akira–Medusa comparison. No generated response exists to assess, and the cause of generation failure is unknown.\n:::"
+  },
+  {
+    "id": "P070",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ae53be04-70db-405f-b407-1c0cd5212cd1.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-96d7f434-3c92-4b30-9afa-d4b69308f934.png"
+    ],
+    "review": "For **P070**, I recommend **Factuality 4/5, Completeness 3/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **4/5** | Correctly identifies Royal → Chisel → T1572, but drops the source’s historical qualification. The added mitigation guidance is supported. |\n| Completeness | **3/5** | States both links but omits the reported C2 communication purpose and does not explain each link. |\n| Coherence | **4/5** | Clear and organized, though mitigation details displace the requested path explanation. |\n\n:::writing{variant=\"standard\" id=\"39168\"}\nThe answer correctly identifies Royal actors → Chisel → T1572 (Protocol Tunneling), supported by E1. However, it states present use rather than preserving the source’s historical observation and omits Chisel’s reported role in communicating with C2 infrastructure. The M1031 and M1037 guidance is supported by E4–E7 but does not replace the requested explanation of both links. The prose is clear and logically organized.\n:::"
+  },
+  {
+    "id": "P071",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0e2c7196-80c6-4f20-8f17-27fc62324ed7.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b0216045-e608-46c5-909e-4562bb210fc2.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-b7e84864-e6e2-4e68-99b0-5fe3bfd98a05.png"
+    ],
+    "review": "For **P071**, I recommend **Factuality 1/5, Completeness 1/5, Coherence 4/5**, consistent with P006/P022.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **1/5** | Explicitly asserts unsupported connections between FreeFileSync’s mapped technique, M1056, and T1562. |\n| Completeness | **1/5** | Omits **FreeFileSync → T1567.002 → M1021** and the advisory/reference distinction. |\n| Coherence | **4/5** | Readable and consistently structured, though repetitive and vague about “related.” |\n\n:::writing{variant=\"standard\" id=\"27058\"}\nThe answer asserts unsupported connections between FreeFileSync’s mapped technique, M1056, and T1562. The citations establish only unrelated technique–mitigation relationships. It omits FreeFileSync → T1567.002 (Exfiltration to Cloud Storage) → M1021 (Restrict Web-Based Content), the advisory/reference distinction, and acknowledgment of the missing relevant evidence. The prose is readable and organized, though repetitive.\n:::"
+  },
+  {
+    "id": "P072",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8edd1416-f816-4f9c-a855-9cd2212838a5.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0347828b-482c-49f3-a300-793186310f5c.png"
+    ],
+    "review": "For **P072**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **2/5** | Correct actor and software, but incorrectly maps Mimikatz to T1204. E8–E10 contain generic ATT&CK guidance without supporting either actor-specific link. |\n| Completeness | **2/5** | States the first hop but omits **T1003 (OS Credential Dumping)**, the credential-dumping behavior, and supporting advisory evidence. |\n| Coherence | **4/5** | Clear and internally consistent, with minor repetition. |\n\n:::writing{variant=\"standard\" id=\"86142\"}\nThe answer names the correct actor and software but incorrectly states Akira → Mimikatz → T1204 (User Execution). The verified reference identifies T1003 (OS Credential Dumping). E8 identifies T1204 and its mitigation, while E9/E10 concern phishing-related training; none establishes Akira’s Mimikatz use or the asserted software-to-technique relationship. The supplied evidence contains no advisory passages or graph paths supporting the requested chain, which the answer does not acknowledge. Its prose and explicit path are clear but repetitive.\n:::"
+  },
+  {
+    "id": "P073",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-6199d9b6-4490-4bed-914e-d66a67ab2793.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-51717721-4c15-48bc-b914-11634cb2e7af.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2b8fc183-ccda-4815-851c-70481075c783.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-09fa7333-69ad-4300-b98c-72d20b663c29.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ca05f4e8-5406-46a0-8939-fce99c9bbd99.png"
+    ],
+    "review": "For **P073**, I recommend **Factuality 3/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | **3/5** | Actor-use claims are supported, but E4’s heading does not establish the LockBit defense-evasion mapping. Tactic labels substitute for technique mappings. |\n| Completeness | **2/5** | Identifies Akira but omits Medusa and the **T1003 versus T1003.001** comparison. |\n| Coherence | **4/5** | Clear and consistently structured, though repetitive and lacking the requested comparison. |\n\n:::writing{variant=\"standard\" id=\"74628\"}\nThe answer correctly identifies Akira’s use of Mimikatz, supported by E15, but omits Medusa and the central comparison: AA24-109A maps the reported use to T1003 (OS Credential Dumping), while AA25-071A specifies T1003.001 (LSASS Memory). It does not explain the parent/sub-technique distinction or preserve both report contexts. The LockBit defense-evasion claim relies on a table heading that does not establish that relationship. Tactic labels do not provide the requested technique mappings. The supplied evidence lacks the Medusa side, which the answer does not acknowledge. The prose is clear but repetitive.\n:::"
+  },
+  {
+    "id": "P074",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-aa28d2b7-a3e4-412b-b341-a9567000e3ec.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8f1e31a1-f0a3-437c-9b50-8aab3fba1ba1.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ed562452-dd9d-467a-8e55-b7fcee157f29.png"
+    ],
+    "review": "For **P074**, I recommend **Factuality 4/5, Completeness 3/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | 4 | Correctly identifies ngrok → T1572 and Akira’s use of ngrok, but blends the separate exfiltration passage into the requested C2 context and drops “in some instances.” |\n| Completeness | 3 | Provides the central facts, but omits encrypted sessions and substitutes software → technique → mitigation paths for the requested actor → software → technique path. |\n| Coherence | 3 | Repeats the path introduction and labels two mitigation paths as the requested actor-to-technique path, although neither includes the actor. |\n\n:::writing{variant=\"standard\" id=\"91304\"}\nThe answer correctly identifies Protocol Tunneling (T1572) and Akira’s use of ngrok to bypass perimeter monitoring. However, the requested path is Akira actors → USES → ngrok → USES_TECHNIQUE → T1572, supported by the C2 passage in E1. The displayed paths instead start with ngrok and end with unrequested mitigations. The answer omits encrypted sessions and mixes in the separate exfiltration observation from E8, which cites T1090 and includes the qualification “in some instances.” Repetition and incorrect path framing reduce clarity.\n:::"
+  },
+  {
+    "id": "P075",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2d286415-20ec-45f7-abdd-743dc8a83d5e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f2e46a2f-d48d-475e-bbd8-a0ae6655e725.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-ae162279-246f-4fb9-8004-f1fe867ecc9b.png"
+    ],
+    "review": "For **P075**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | 4 | Correct actor, software, behavior, and technique, but omits the reference’s “in some instances” qualification. |\n| Completeness | 4 | Gives both hops, but cites E4’s table heading instead of E5’s actual technique row. |\n| Coherence | 4 | Clear and consistent, though the second sentence largely repeats the first. |\n\n:::writing{variant=\"standard\" id=\"58216\"}\nThe answer correctly gives Black Basta affiliates → Backstab → T1562.001 (Disable or Modify Tools) and explains the reported disabling of EDR tooling. E1 supports the actor-to-software link, while E5 supplies the technique mapping; the cited E4 is only a table heading. The answer omits the reference’s “in some instances” qualification and repeats the path rather than explaining the evidence for each link separately. It is otherwise accurate and clear.\n:::"
+  },
+  {
+    "id": "P076",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f0d70df5-2929-4e46-b634-d761e2ef247d.png"
+    ],
+    "review": "For **P076**, I recommend **Factuality 2/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | 2 | Correctly identifies Medusa’s use of PsExec, but gives unsupported T1052 instead of T1569.002. |\n| Completeness | 2 | Includes the actor-to-software link but fails to establish the correct software-to-technique link. |\n| Coherence | 4 | Clear and concise, although the technique is unnamed and the evidence is not explained. |\n\n:::writing{variant=\"standard\" id=\"63729\"}\nThe answer correctly identifies Medusa actors using PsExec, but its central technique mapping is wrong: the reference specifies T1569.002 (Service Execution), not T1052. E1 and the supplied graph support only Medusa actors → USES → PsExec; E2 and E3 are a report title and section heading. The supplied evidence does not establish the second hop, and the answer asserts an unsupported technique instead of acknowledging that gap. The prose is clear but does not explain both requested links.\n:::"
+  },
+  {
+    "id": "P077",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-bf73e1cb-ac45-4e74-9162-5ddf4c2733b8.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-af9ad790-158b-46ca-b11a-af2160ebd914.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-882170be-f617-4c3a-9971-fd6e89776c64.png"
+    ],
+    "review": "For **P077**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | 4 | E4 supports the correct path and T1569.002 mapping. E5 does not support attributing reverse TCP connections to PsExec. |\n| Completeness | 4 | Includes both hops with supporting evidence, but omits the technique name, Service Execution. |\n| Coherence | 4 | Understandable and organized, though repetitive and distracted by the unsupported TCP claim. |\n\n:::writing{variant=\"standard\" id=\"82461\"}\nThe answer correctly gives Medusa actors → PsExec → T1569.002, supported by E4’s explicit description of PsExec use and its technique mapping. However, it incorrectly attributes the reverse TCP connection material in E5 to PsExec; that fragment does not establish this association. The answer also omits the technique name, Service Execution, and repeats the central mapping. Both requested hops are otherwise present and supported.\n:::"
+  },
+  {
+    "id": "P078",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-db7ff797-0470-4114-8ce1-d70c14535e01.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-694a6eee-36a4-42d1-92c8-0690a88fed2e.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-7d1c0cc4-97c5-47dd-b05a-d1be333682d9.png"
+    ],
+    "review": "For **P078**, I recommend **Factuality 4/5, Completeness 2/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | 4 | The technique–mitigation pairs are supported, but their connection to LockBit’s reported scanner use is not established. |\n| Completeness | 2 | Includes M1031 and M1042, but omits M1030, the scanner, both advisory links, and the distinction between observations and recommendations. |\n| Coherence | 4 | Readable, though repetitive and expanded with unrelated techniques. |\n\n:::writing{variant=\"standard\" id=\"29583\"}\nThe answer correctly lists M1031 and M1042 as mitigations associated with T1046, but omits M1030 (Network Segmentation). It never establishes the requested path: LockBit affiliates → Advanced IP Scanner → T1046 → mitigations. The supplied evidence contains reference mitigation relationships but no advisory passage supporting the actor-to-software or software-to-technique links, and the answer does not acknowledge this gap. It also fails to distinguish advisory observations from reference recommendations and introduces unrelated T1219 and T1048 mappings. The prose remains understandable.\n:::"
+  },
+  {
+    "id": "P079",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-f6c3973e-2c1d-4611-9d45-7837d84c3a13.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-691f4cd9-6c98-450e-b4c9-3fb486921696.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-77ded222-654f-417d-b5d8-5a550a84cc73.png"
+    ],
+    "review": "For **P079**, I recommend **Factuality 4/5, Completeness 4/5, Coherence 4/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | 4 | The central relationship is correct, but its citations rely on the Advanced **Port** Scanner row rather than E5’s explicit Advanced **IP** Scanner evidence. |\n| Completeness | 4 | Covers both requested links, but does not clearly limit the mapping to the advisory’s reported use. |\n| Coherence | 4 | Understandable, though repetitive and distracted by another scanner and an unrequested mitigation. |\n\n:::writing{variant=\"standard\" id=\"47192\"}\nThe answer correctly identifies LockBit affiliates → Advanced IP Scanner → T1046 (Network Service Discovery). E5 explicitly supports both links, but the answer instead cites E1’s Advanced Port Scanner row and table headings. These are distinct tools, so those citations do not establish the requested relationship. The response also adds unnecessary Port Scanner and mitigation details and does not explicitly preserve the advisory-specific scope of the mapping. The central answer is present and readable.\n:::"
+  },
+  {
+    "id": "P080",
+    "paths": [
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-0be50e8b-22b3-441c-81d7-27f070387368.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-8f0997d1-d798-4310-845a-7efb61315cd9.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-2105db22-1473-4ffb-a5b0-d141257c2fc3.png",
+      "C:\\Users\\djfro\\AppData\\Local\\Temp\\codex-clipboard-6f32c8c4-c464-4348-85a0-e2f0052022a2.png"
+    ],
+    "review": "For **P080**, I recommend **Factuality 3/5, Completeness 3/5, Coherence 3/5**.\n\n| Dimension | Score | Reason |\n|---|---:|---|\n| Factuality | 3 | Identifies the correct actor, software, and technique, but incorrectly transfers the C2 mapping T1572 to the separate exfiltration observation, which cites T1090. |\n| Completeness | 3 | Includes the core relationship but omits encrypted C2 sessions bypassing perimeter monitoring—the context specifically requested. |\n| Coherence | 3 | Repeats the central claim and adds unrelated mitigations and system-recovery material. |\n\n:::writing{variant=\"standard\" id=\"36825\"}\nThe answer identifies Akira actors, ngrok, and T1572, but repeatedly blends two distinct advisory contexts. E1 supports Akira actors → ngrok → T1572 for C2 communications; E8’s separate exfiltration observation cites T1090 and is qualified by “in some instances.” The answer assigns T1572 to that exfiltration behavior and omits the requested encrypted sessions bypassing perimeter monitoring. Unrequested mitigation and system-recovery details, together with repetition, obscure the two source-supported links.\n:::"
+  }
+]

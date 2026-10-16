@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-352A
+CHUNK_ID: AA23-352A:evaluation:llama500:22768:24022
+SOURCE_UNITS:
+{"u001": "65 00 72 00 20 00 44 00 61 00 74 00 61 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_8_detected; sid:1900009; rev:1;)", "u002": "alert smb any any -> any any (noalert; content:\"|55 00 73 00 65 00 72 00 73 00 5c 00 44 00 65 00 66 00 61 00 75 00 6c 00 74 00 20 00 55 00 73 00 65 00 72 00 5c 00 41 00 70 00 70 00 44 00 61 00 74 00 61 00 5c 00 52 00 6f 00 61 00 6d 00 69 00 6e 00 67 00 5c 00 4f 00 70 00 65 00 72 00 61 00 20 00 53 00 6f 00 66 00 74 00 77 00 61 00 72 00 65 00 5c 00 4f 00 70 00 65 00 72 00 61 00 20 00 53 00 74 00 61 00 62 00 6c 00 65 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_9_detected ;sid:1900010; rev:1;)", "u003": "alert smb any any -> any any (msg:\"GRIXBA web history scanning detected - potential indicator of imminent PLAY Ransomware attack\"; flowbits:isset,GRXBA_webhist_path_1_detected; flowbits:isset,GRXBA_webhist_path_2_detected; flowbits:isset,GRXBA_webhist_path_3_detected; flowbits:isset,GRXBA_webhist_path_4_detected; flowbits:isset,GRXBA_webhist_path_5_detected;flowbits:isset,GRXBA_webhist_path_6_detected; flowbits:isset,GRXBA_webhist_path_7_detected; flowbits:isset,GRXBA_webhist_path_8_detected; flowbits:isset,GRXBA_webhist_path_9_detected; flowbits:set,GRXBA_hit_found; classtype:attempted-recon; sid:1900011; rev:1;)"}
+SOURCE_MENTIONS:
+[{"id": "m001", "text": "PLAY", "codes": ["S", "G"]}]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[{"unit_ids": ["u003"], "context_ids": [], "heads": ["m001_G"], "predicate": "USES", "tails": ["m001_S"]}]

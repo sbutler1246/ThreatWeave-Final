@@ -1,0 +1,29 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "BlackSuit actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1486",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1486",
+    "canonical_name": "Data Encrypted for Impact",
+    "source_attack_id": "T1486"
+  },
+  {
+    "local_id": "e3",
+    "mention": "vssadmin.exe",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  }
+]

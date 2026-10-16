@@ -1,0 +1,325 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "inhibit system recovery",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "w.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Build ID",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "AdFind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1087.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "inhibit system recovery",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m002_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "w.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m005_S": {
+      "name": "Build ID",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "AdFind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1087.002",
+      "type": "Technique",
+      "attack_id": "T1087.002"
+    },
+    "m009_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 49,
+      "text": "powerranges extension, or with .akiranew or .aki.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 50,
+      "end": 60,
+      "text": "End Update",
+      "line_start": 50
+    },
+    "u003": {
+      "start": 61,
+      "end": 254,
+      "text": "To further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490].",
+      "line_start": 61
+    },
+    "u004": {
+      "start": 255,
+      "end": 276,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 255
+    },
+    "u005": {
+      "start": 277,
+      "end": 420,
+      "text": "Additionally, a ransom note named fn.txt or akira_readme.txt appears in both the root directory (C:) and each user’s home directory (C:\\Users).",
+      "line_start": 277
+    },
+    "u006": {
+      "start": 421,
+      "end": 431,
+      "text": "End Update",
+      "line_start": 421
+    },
+    "u007": {
+      "start": 432,
+      "end": 605,
+      "text": "Trusted third-party analysis determined the Akira_v2 encryptor is an upgrade from its previous version and includes additional functionalities because it is written in Rust.",
+      "line_start": 432
+    },
+    "u008": {
+      "start": 606,
+      "end": 700,
+      "text": "Previous versions of the encryptor provided options to insert arguments at runtime, including:",
+      "line_start": 432
+    },
+    "u009": {
+      "start": 701,
+      "end": 751,
+      "text": "- p –encryption_path (targeted file/folder paths);",
+      "line_start": 701
+    },
+    "u010": {
+      "start": 752,
+      "end": 797,
+      "text": "-s –share_file (targeted network drive path);",
+      "line_start": 752
+    },
+    "u011": {
+      "start": 798,
+      "end": 852,
+      "text": "-n –encryption_percent (percentage of encryption); and",
+      "line_start": 798
+    },
+    "u012": {
+      "start": 853,
+      "end": 900,
+      "text": "--fork (create a child process for encryption).",
+      "line_start": 853
+    },
+    "u013": {
+      "start": 901,
+      "end": 1065,
+      "text": "Including threads allows the threat actors more granular control over the number of CPU cores in use, increasing the speed and efficiency of the encryption process.",
+      "line_start": 901
+    },
+    "u014": {
+      "start": 1066,
+      "end": 1187,
+      "text": "The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis.",
+      "line_start": 901
+    },
+    "u015": {
+      "start": 1188,
+      "end": 1266,
+      "text": "The encryptor is unable to successfully execute without the specific Build ID.",
+      "line_start": 901
+    },
+    "u016": {
+      "start": 1267,
+      "end": 1371,
+      "text": "Akira_v2 also can deploy against only VMs using vmonly and stop running VMs with stopvm functionalities.",
+      "line_start": 901
+    },
+    "u017": {
+      "start": 1372,
+      "end": 1574,
+      "text": "After encryption, the Linux ESXi variant may include the file extension akiranew or an added file named akiranew.txt as a ransom note in directories where files were encrypted with the new nomenclature.",
+      "line_start": 901
+    },
+    "u018": {
+      "start": 1575,
+      "end": 1590,
+      "text": "Leveraged Tools",
+      "line_start": 1575
+    },
+    "u019": {
+      "start": 1591,
+      "end": 1735,
+      "text": "Table 1 lists publicly available tools and applications used by Akira threat actors, including legitimate tools repurposed for their operations.",
+      "line_start": 1591
+    },
+    "u020": {
+      "start": 1736,
+      "end": 1874,
+      "text": "These tools and applications should not be attributed as malicious without analytical evidence to support threat actor use and/or control.",
+      "line_start": 1591
+    },
+    "u021": {
+      "start": 1875,
+      "end": 1883,
+      "text": "Table 1.",
+      "line_start": 1875
+    },
+    "u022": {
+      "start": 1884,
+      "end": 1926,
+      "text": "Tools Leveraged by Akira Ransomware Actors",
+      "line_start": 1875
+    },
+    "u023": {
+      "start": 1927,
+      "end": 1931,
+      "text": "Name",
+      "line_start": 1927
+    },
+    "u024": {
+      "start": 1932,
+      "end": 1943,
+      "text": "Description",
+      "line_start": 1932
+    },
+    "u025": {
+      "start": 1944,
+      "end": 1950,
+      "text": "AdFind",
+      "line_start": 1944
+    },
+    "u026": {
+      "start": 1951,
+      "end": 2044,
+      "text": "A command-line tool used to query and retrieve information from Active Directory [T1087.002].",
+      "line_start": 1951
+    },
+    "u027": {
+      "start": 2045,
+      "end": 2064,
+      "text": "Advanced IP Scanner",
+      "line_start": 2045
+    },
+    "u028": {
+      "start": 2065,
+      "end": 2188,
+      "text": "A network scanning tool used for reconnaissance that locates all computers on a network and conducts a scan of their ports.",
+      "line_start": 2065
+    },
+    "u029": {
+      "start": 2189,
+      "end": 2330,
+      "text": "The program shows all network devices, gives access to shared folders, and provides remote control of computers (via RDP and Radmin) [T1046].",
+      "line_start": 2065
+    },
+    "u030": {
+      "start": 2331,
+      "end": 2338,
+      "text": "AnyDesk",
+      "line_start": 2331
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1490",
+    "m002_S": "attack:S1129",
+    "m003_S": "local:Software:w.exe",
+    "m004_T": "attack:T1490",
+    "m005_S": "local:Software:build id",
+    "m006_G": "local:ThreatGroup:akira threat actors",
+    "m007_S": "attack:S0552",
+    "m008_T": "attack:T1087.002",
+    "m009_T": "attack:T1046"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S",
+        "m003_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m004_T"
+      ]
+    }
+  ]
+}

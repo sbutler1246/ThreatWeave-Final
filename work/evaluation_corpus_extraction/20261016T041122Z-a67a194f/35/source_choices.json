@@ -1,0 +1,487 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "TOR",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1650",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "BlackSuit actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "BlacSuit actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1566.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1566.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1078.002",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "TOR",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "T1650",
+      "type": "Technique",
+      "attack_id": "T1650"
+    },
+    "m003_G": {
+      "name": "BlackSuit actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m005_G": {
+      "name": "BlacSuit actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m007_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m008_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m009_T": {
+      "name": "T1566.001",
+      "type": "Technique",
+      "attack_id": "T1566.001"
+    },
+    "m010_T": {
+      "name": "T1566.002",
+      "type": "Technique",
+      "attack_id": "T1566.002"
+    },
+    "m011_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m012_T": {
+      "name": "T1078.002",
+      "type": "Technique",
+      "attack_id": "T1078.002"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 111,
+      "text": "reports, intellectual property, accounting, law actions and complaints, personal files and so on and so forth.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 112,
+      "end": 159,
+      "text": "We are able to solve this problem in one touch.",
+      "line_start": 112
+    },
+    "u003": {
+      "start": 160,
+      "end": 275,
+      "text": "We (BlackSuit) are ready to give you an opportunity to get all the things back if you agree to make a deal with us.",
+      "line_start": 160
+    },
+    "u004": {
+      "start": 276,
+      "end": 415,
+      "text": "You have a chance to get rid of all possible financial, legal, insurance and many others risks and problems for a quite small compensation.",
+      "line_start": 276
+    },
+    "u005": {
+      "start": 416,
+      "end": 461,
+      "text": "You can have a safety review of your systems.",
+      "line_start": 416
+    },
+    "u006": {
+      "start": 462,
+      "end": 552,
+      "text": "All your files will be decrypted, your data will be reset, your systems will stay in safe.",
+      "line_start": 462
+    },
+    "u007": {
+      "start": 553,
+      "end": 599,
+      "text": "Contact us through TOR browser using the link:",
+      "line_start": 553
+    },
+    "u008": {
+      "start": 600,
+      "end": 635,
+      "text": "MITRE ATT&CK Tactics and Techniques",
+      "line_start": 600
+    },
+    "u009": {
+      "start": 636,
+      "end": 808,
+      "text": "See Table 18 through Table 23 for all referenced threat actor tactics and techniques in this advisory, as well as corresponding detection and/or mitigation recommendations.",
+      "line_start": 636
+    },
+    "u010": {
+      "start": 809,
+      "end": 865,
+      "text": "For additional mitigations, see the Mitigations section.",
+      "line_start": 636
+    },
+    "u011": {
+      "start": 866,
+      "end": 935,
+      "text": "Table 18: BlackSuit Actors ATT&CK Techniques for Resource Development",
+      "line_start": 866
+    },
+    "u012": {
+      "start": 936,
+      "end": 951,
+      "text": "Technique Title",
+      "line_start": 936
+    },
+    "u013": {
+      "start": 952,
+      "end": 954,
+      "text": "ID",
+      "line_start": 952
+    },
+    "u014": {
+      "start": 955,
+      "end": 958,
+      "text": "Use",
+      "line_start": 955
+    },
+    "u015": {
+      "start": 959,
+      "end": 973,
+      "text": "Acquire Access",
+      "line_start": 959
+    },
+    "u016": {
+      "start": 974,
+      "end": 979,
+      "text": "T1650",
+      "line_start": 974
+    },
+    "u017": {
+      "start": 980,
+      "end": 1055,
+      "text": "BlackSuit actors may leverage brokers in support of gaining initial access.",
+      "line_start": 980
+    },
+    "u018": {
+      "start": 1056,
+      "end": 1122,
+      "text": "Table 19: Cyber Threat Actors ATT&CK Techniques for Initial Access",
+      "line_start": 1056
+    },
+    "u019": {
+      "start": 1123,
+      "end": 1138,
+      "text": "Technique Title",
+      "line_start": 1123
+    },
+    "u020": {
+      "start": 1139,
+      "end": 1141,
+      "text": "ID",
+      "line_start": 1139
+    },
+    "u021": {
+      "start": 1142,
+      "end": 1145,
+      "text": "Use",
+      "line_start": 1142
+    },
+    "u022": {
+      "start": 1146,
+      "end": 1186,
+      "text": "Remote Services: Remote Desktop Protocol",
+      "line_start": 1146
+    },
+    "u023": {
+      "start": 1187,
+      "end": 1196,
+      "text": "T1021.001",
+      "line_start": 1187
+    },
+    "u024": {
+      "start": 1197,
+      "end": 1267,
+      "text": "BlacSuit actors use RDP compromise as secondary initial access vector.",
+      "line_start": 1197
+    },
+    "u025": {
+      "start": 1268,
+      "end": 1292,
+      "text": "External Remote Services",
+      "line_start": 1268
+    },
+    "u026": {
+      "start": 1293,
+      "end": 1298,
+      "text": "T1133",
+      "line_start": 1293
+    },
+    "u027": {
+      "start": 1299,
+      "end": 1370,
+      "text": "BlackSuit actors gain initial access through a variety of RMM software.",
+      "line_start": 1299
+    },
+    "u028": {
+      "start": 1371,
+      "end": 1404,
+      "text": "Exploit Public Facing Application",
+      "line_start": 1371
+    },
+    "u029": {
+      "start": 1405,
+      "end": 1410,
+      "text": "T1190",
+      "line_start": 1405
+    },
+    "u030": {
+      "start": 1411,
+      "end": 1483,
+      "text": "BlackSuit actors gain initial access through public-facing applications.",
+      "line_start": 1411
+    },
+    "u031": {
+      "start": 1484,
+      "end": 1492,
+      "text": "Phishing",
+      "line_start": 1484
+    },
+    "u032": {
+      "start": 1493,
+      "end": 1498,
+      "text": "T1566",
+      "line_start": 1493
+    },
+    "u033": {
+      "start": 1499,
+      "end": 1582,
+      "text": "BlackSuit actors most commonly gain initial access to victim networks via phishing.",
+      "line_start": 1499
+    },
+    "u034": {
+      "start": 1583,
+      "end": 1618,
+      "text": "Phishing: Spear phishing Attachment",
+      "line_start": 1583
+    },
+    "u035": {
+      "start": 1619,
+      "end": 1628,
+      "text": "T1566.001",
+      "line_start": 1619
+    },
+    "u036": {
+      "start": 1629,
+      "end": 1708,
+      "text": "BlackSuit actors used malicious PDF document attachments in phishing campaigns.",
+      "line_start": 1629
+    },
+    "u037": {
+      "start": 1709,
+      "end": 1738,
+      "text": "Phishing: Spear phishing Link",
+      "line_start": 1709
+    },
+    "u038": {
+      "start": 1739,
+      "end": 1748,
+      "text": "T1566.002",
+      "line_start": 1739
+    },
+    "u039": {
+      "start": 1749,
+      "end": 1840,
+      "text": "The actors gain initial access using malvertising links via emails and public-facing sites.",
+      "line_start": 1749
+    },
+    "u040": {
+      "start": 1841,
+      "end": 1913,
+      "text": "Table 20: Cyber Threat Actors ATT&CK Techniques for Privilege Escalation",
+      "line_start": 1841
+    },
+    "u041": {
+      "start": 1914,
+      "end": 1929,
+      "text": "Technique Title",
+      "line_start": 1914
+    },
+    "u042": {
+      "start": 1930,
+      "end": 1932,
+      "text": "ID",
+      "line_start": 1930
+    },
+    "u043": {
+      "start": 1933,
+      "end": 1936,
+      "text": "Use",
+      "line_start": 1933
+    },
+    "u044": {
+      "start": 1937,
+      "end": 1972,
+      "text": "(New August 7, 2024) Valid Accounts",
+      "line_start": 1937
+    },
+    "u045": {
+      "start": 1973,
+      "end": 1978,
+      "text": "T1078",
+      "line_start": 1973
+    },
+    "u046": {
+      "start": 1979,
+      "end": 2079,
+      "text": "BlackSuit actors used a legitimate admin account to gain access privileges to the domain controller.",
+      "line_start": 1979
+    },
+    "u047": {
+      "start": 2080,
+      "end": 2111,
+      "text": "Valid Accounts: Domain Accounts",
+      "line_start": 2080
+    },
+    "u048": {
+      "start": 2112,
+      "end": 2121,
+      "text": "T1078.002",
+      "line_start": 2112
+    },
+    "u049": {
+      "start": 2122,
+      "end": 2194,
+      "text": "BlackSuit actors used encrypted files to create new admin user accounts.",
+      "line_start": 2122
+    },
+    "u050": {
+      "start": 2195,
+      "end": 2262,
+      "text": "Table 21: Cyber Threat Actors ATT&CK Techniques for Defense Evasion",
+      "line_start": 2195
+    },
+    "u051": {
+      "start": 2263,
+      "end": 2278,
+      "text": "Technique Title",
+      "line_start": 2263
+    },
+    "u052": {
+      "start": 2279,
+      "end": 2281,
+      "text": "ID",
+      "line_start": 2279
+    },
+    "u053": {
+      "start": 2282,
+      "end": 2285,
+      "text": "Use",
+      "line_start": 2282
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0183",
+    "m002_T": "attack:T1650",
+    "m003_G": "local:ThreatGroup:blacksuit actors",
+    "m004_T": "attack:T1021.001",
+    "m005_G": "local:ThreatGroup:blacsuit actors",
+    "m006_T": "attack:T1133",
+    "m007_T": "attack:T1190",
+    "m008_T": "attack:T1566",
+    "m009_T": "attack:T1566.001",
+    "m010_T": "attack:T1566.002",
+    "m011_T": "attack:T1078",
+    "m012_T": "attack:T1078.002"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

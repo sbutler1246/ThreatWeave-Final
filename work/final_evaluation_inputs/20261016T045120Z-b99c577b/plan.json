@@ -1,0 +1,1884 @@
+{
+  "version": 1,
+  "purpose": "frozen_final_four_mode_answer_experiment",
+  "evaluation_scope": {
+    "name": "frozen_shared_evaluation_sources_v1",
+    "sha256": "75547d824c6b0386fdac3ed17b3a50f03b97c1eaabc2ae1692961a2d7fb5d599",
+    "cisa_scope_count": 101,
+    "attack_reference_count": 190,
+    "evaluation_plan_fingerprint": "89764a8af84a83b36f3aa17425775142376c305bddfd9ce07fc7019ded39945b",
+    "mitigation_import_receipt_sha256": "74c8cfb98f2de2c16b4b1c1b9b0c389c2459a9c3880f6d59442689a29c8f7d3d",
+    "source_import_receipt_sha256": "ce307d711963f680eefaad626b1db581d5fc151fbf8899a6234f18b10cbd82dd",
+    "policy": "Same reviewed development plus evaluation source windows and direct references for all four modes; no labels or reference answers."
+  },
+  "text_index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "graph_index_fingerprint": "28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e",
+  "projection_sha256": "518924349a6dcaff49a61c726ab7bc974522be48102ac9d836539bac618a892c",
+  "questions_sha256": "ebe205f3d6cfe28c746e461f6579babe1b31e3a8652799175751b43c1056c960",
+  "protocol": {
+    "version": 1,
+    "stage": "source_processing_and_method_freeze; final_evaluation_indexes_not_built",
+    "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "config_sha256": "63d2c05e091578e66600844378afe73d69af490da06bd6c247d6ccaa5ee9cbf0",
+    "implementation_sha256": {
+      "schemas.py": "a12ab45557eac63a5522e4b1a3363d82d0651c16da5249698224a520fec65790",
+      "resolve.py": "ae76b28b8933e08d2e69d4f104f55f2fa689a3e3eb199cbba6bdf6eb8af11fd4",
+      "graph_qa.py": "87f40fb5b10d11e3d8c5bdabcae38535c9975be70f10ee80e4916a0be4d917b4",
+      "graph_pilot_qa.py": "d264c04e1e5cf1a54617eed40b8561d1dafba23888b5c27ebec9509b32e2a328",
+      "application_engine.py": "711eceb6bb5c8592c75d8d8e443d57fb3f957b1990b867de6cbc086bf1bd651f",
+      "extraction/source_choices.py": "63eb524a721e1e2d6220936b1bee4d448fd8ad510363531e175d66e4748ec207",
+      "extraction/development_batch.py": "a705aa5926c3ab9dd5dc69018349f3eccee0e832624fd152b6b37764fc2f005b",
+      "extraction/corpus_chunking.py": "3d287661ca6dfa9d49f5833c9349eba11e270243b58e35f4f8773e8d2c70d9d3",
+      "extraction/corpus_pilot.py": "27e453311e3ea60f955073034d9ed708b5245f086c3d868955aa7c5423ce9608",
+      "graph/development_retrieval.py": "f9d2fa261eaf36df5b5541e667c9c77867068aad581135c7c0dde56ae0a1e782",
+      "graph/development_projection.py": "1eddd21f4632771d8c4baefc8f19a9f5cd938e6e0ea7ff16910f1a9ec79b89b6",
+      "graph/node2vec_training.py": "8706250888f18f57221321842a8958634f40053f3cf1035d51305b4a635dcca2",
+      "retrieval/development_text.py": "bbd6ab4b667d4e8a22d26c18b8df2a1e5a3ee3a6870920fbba3bf75ff66dbd01",
+      "retrieval/text_retrieval.py": "d58eb34501d30f70479253d268cea72d1117e07680307f94b47d9d629a702591",
+      "retrieval/combined_retrieval.py": "651e7c1941218c1669180f9fcc0950960e1a35fa09ce9ae6053101e477f43223",
+      "retrieval/graph_vectors.py": "874b856e3e8baff1e680f15b3476fb5f4d5efbbbaaba89b7dea402370a16a3d2",
+      "retrieval/hybrid_retrieval.py": "92c13b3732b4c6f89b86117d052b60afdcdb68007580def60429341a0d4ca115",
+      "evaluation/corpus_preparation.py": "bb85345c4e4c57386fa27c63acdf05eea139bfddd2cece936f3192e6341fce9c",
+      "evaluation/corpus_runner.py": "a4a3896e0bc96a3d3895d32b90c009c762364b2a70afde3d205ea592788f81d6",
+      "prepare_evaluation_corpus.py": "ba056547c6c8b45b700461431c665fd601643f76062bc9ca76bec3d8bc423b3a",
+      "extract_evaluation_corpus.py": "cc1689134d8e50bc2f5dba4bc3804a579426c90a336facf69d1bab901868bec1"
+    },
+    "development_snapshot": {
+      "scope": {
+        "name": "expanded_reviewed_development_sources",
+        "sha256": "ab3732f875177906c400d82268fbbeed719b9a26b4f3836215d713821bd9beb8",
+        "cisa_scope_count": 53,
+        "attack_reference_count": 139
+      },
+      "text_fingerprint": "be0883e8cea7af855c365a4c8644366a76838fe0a895fc79b46bc24dfd8b2367",
+      "graph_fingerprint": "01001b3705b49fd95fb1acb11b4ea1695cc11090bf96093df0eca0217f02402c",
+      "text_receipt_sha256": "5011c36a816c3f61c4897704ae9e249cd9602cd053d334da2782b06ab01d2cd3",
+      "graph_receipt_sha256": "3ced59254efc2d5d5fe90cd9752d61bbdf8310671b5a6fdf618aa08a385f7dde"
+    },
+    "reports_with_preexisting_bounded_development_evidence": [
+      "AA23-165A"
+    ],
+    "overlap_policy": "report overlap retained and disclosed; final/development question evidence assignments remain frozen and disjoint",
+    "question_ids": [
+      "Q001",
+      "Q030",
+      "Q031",
+      "Q033",
+      "Q039",
+      "Q040",
+      "Q041",
+      "Q044",
+      "Q050",
+      "Q051",
+      "Q052",
+      "Q053",
+      "Q054",
+      "Q055",
+      "Q056",
+      "Q057",
+      "Q058",
+      "Q059",
+      "Q060",
+      "Q061"
+    ],
+    "modes": [
+      "text_only",
+      "graph_only",
+      "hybrid_no_node2vec",
+      "hybrid"
+    ],
+    "repeats": 3,
+    "measured_answer_runs": 240,
+    "warmup": "one per mode, excluded from measured runs",
+    "randomization_seed": 42,
+    "human_review_repeat": 1,
+    "human_review_answer_count": 80,
+    "secondary_review": "five questions across four modes, or delayed 25 percent re-score",
+    "packing_policy": "same conservative 3000 UTF-8 byte cap in every mode; below designed token ceiling",
+    "mode_label_policy": "retain frozen MODE prompt field; mode differences are not purely retrieval effects",
+    "isolation": "source text and split IDs only; no gold triples or reference answers in processing",
+    "tuning_policy": "no prompt, selector, generation, retrieval or embedding tuning from held-out results",
+    "extraction_scoring": "score frozen model predictions before review filtering and fusion; preserve rejected predictions, failures and empty windows",
+    "graph_policy": "source-only reviewed Supported assertions, with excluded dispositions retained separately",
+    "error_policy": "retain failures and undefined metrics; do not substitute modes or scores",
+    "analysis": "paired question-level comparisons; 10000 question-cluster bootstrap samples; exploratory 95 percent intervals"
+  },
+  "warmup_question": "According to CISA, how do Rhysida actors use valid accounts (T1078) for access? Explain the supplied ATT&CK mitigation guidance and cite the sources separately.",
+  "schedule": [
+    {
+      "case_id": "warmup-hybrid_no_node2vec",
+      "question_id": "warmup",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 0,
+      "measured": false
+    },
+    {
+      "case_id": "warmup-graph_only",
+      "question_id": "warmup",
+      "mode": "graph_only",
+      "repeat": 0,
+      "measured": false
+    },
+    {
+      "case_id": "warmup-hybrid",
+      "question_id": "warmup",
+      "mode": "hybrid",
+      "repeat": 0,
+      "measured": false
+    },
+    {
+      "case_id": "warmup-text_only",
+      "question_id": "warmup",
+      "mode": "text_only",
+      "repeat": 0,
+      "measured": false
+    },
+    {
+      "case_id": "r1-Q057-graph_only",
+      "question_id": "Q057",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q056-graph_only",
+      "question_id": "Q056",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q051-hybrid",
+      "question_id": "Q051",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q044-hybrid_no_node2vec",
+      "question_id": "Q044",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q056-text_only",
+      "question_id": "Q056",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q058-graph_only",
+      "question_id": "Q058",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q061-hybrid",
+      "question_id": "Q061",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q039-hybrid",
+      "question_id": "Q039",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q057-hybrid_no_node2vec",
+      "question_id": "Q057",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q041-hybrid_no_node2vec",
+      "question_id": "Q041",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q060-text_only",
+      "question_id": "Q060",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q060-graph_only",
+      "question_id": "Q060",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q040-text_only",
+      "question_id": "Q040",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q054-hybrid_no_node2vec",
+      "question_id": "Q054",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q033-hybrid",
+      "question_id": "Q033",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q050-graph_only",
+      "question_id": "Q050",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q059-hybrid_no_node2vec",
+      "question_id": "Q059",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q033-hybrid_no_node2vec",
+      "question_id": "Q033",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q031-text_only",
+      "question_id": "Q031",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q033-text_only",
+      "question_id": "Q033",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q058-hybrid_no_node2vec",
+      "question_id": "Q058",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q051-text_only",
+      "question_id": "Q051",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q055-text_only",
+      "question_id": "Q055",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q054-graph_only",
+      "question_id": "Q054",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q050-hybrid",
+      "question_id": "Q050",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q053-hybrid",
+      "question_id": "Q053",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q001-graph_only",
+      "question_id": "Q001",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q052-text_only",
+      "question_id": "Q052",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q052-graph_only",
+      "question_id": "Q052",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q052-hybrid",
+      "question_id": "Q052",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q050-text_only",
+      "question_id": "Q050",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q040-hybrid",
+      "question_id": "Q040",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q039-hybrid_no_node2vec",
+      "question_id": "Q039",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q053-graph_only",
+      "question_id": "Q053",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q058-hybrid",
+      "question_id": "Q058",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q030-hybrid",
+      "question_id": "Q030",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q050-hybrid_no_node2vec",
+      "question_id": "Q050",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q059-text_only",
+      "question_id": "Q059",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q001-hybrid_no_node2vec",
+      "question_id": "Q001",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q039-text_only",
+      "question_id": "Q039",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q051-hybrid_no_node2vec",
+      "question_id": "Q051",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q052-hybrid_no_node2vec",
+      "question_id": "Q052",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q040-hybrid_no_node2vec",
+      "question_id": "Q040",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q053-hybrid_no_node2vec",
+      "question_id": "Q053",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q041-text_only",
+      "question_id": "Q041",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q030-graph_only",
+      "question_id": "Q030",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q030-hybrid_no_node2vec",
+      "question_id": "Q030",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q056-hybrid_no_node2vec",
+      "question_id": "Q056",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q061-text_only",
+      "question_id": "Q061",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q031-graph_only",
+      "question_id": "Q031",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q057-text_only",
+      "question_id": "Q057",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q040-graph_only",
+      "question_id": "Q040",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q060-hybrid",
+      "question_id": "Q060",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q053-text_only",
+      "question_id": "Q053",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q031-hybrid_no_node2vec",
+      "question_id": "Q031",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q056-hybrid",
+      "question_id": "Q056",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q054-text_only",
+      "question_id": "Q054",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q001-text_only",
+      "question_id": "Q001",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q055-hybrid",
+      "question_id": "Q055",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q054-hybrid",
+      "question_id": "Q054",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q061-graph_only",
+      "question_id": "Q061",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q051-graph_only",
+      "question_id": "Q051",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q057-hybrid",
+      "question_id": "Q057",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q061-hybrid_no_node2vec",
+      "question_id": "Q061",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q055-graph_only",
+      "question_id": "Q055",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q041-graph_only",
+      "question_id": "Q041",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q059-hybrid",
+      "question_id": "Q059",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q058-text_only",
+      "question_id": "Q058",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q044-graph_only",
+      "question_id": "Q044",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q041-hybrid",
+      "question_id": "Q041",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q060-hybrid_no_node2vec",
+      "question_id": "Q060",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q001-hybrid",
+      "question_id": "Q001",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q030-text_only",
+      "question_id": "Q030",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q055-hybrid_no_node2vec",
+      "question_id": "Q055",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q031-hybrid",
+      "question_id": "Q031",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q059-graph_only",
+      "question_id": "Q059",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q033-graph_only",
+      "question_id": "Q033",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q039-graph_only",
+      "question_id": "Q039",
+      "mode": "graph_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q044-text_only",
+      "question_id": "Q044",
+      "mode": "text_only",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r1-Q044-hybrid",
+      "question_id": "Q044",
+      "mode": "hybrid",
+      "repeat": 1,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q057-hybrid_no_node2vec",
+      "question_id": "Q057",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q051-hybrid",
+      "question_id": "Q051",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q001-graph_only",
+      "question_id": "Q001",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q031-hybrid",
+      "question_id": "Q031",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q054-graph_only",
+      "question_id": "Q054",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q058-graph_only",
+      "question_id": "Q058",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q054-text_only",
+      "question_id": "Q054",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q055-graph_only",
+      "question_id": "Q055",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q040-hybrid_no_node2vec",
+      "question_id": "Q040",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q044-text_only",
+      "question_id": "Q044",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q040-graph_only",
+      "question_id": "Q040",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q055-text_only",
+      "question_id": "Q055",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q033-text_only",
+      "question_id": "Q033",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q039-hybrid",
+      "question_id": "Q039",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q001-hybrid_no_node2vec",
+      "question_id": "Q001",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q030-hybrid_no_node2vec",
+      "question_id": "Q030",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q041-hybrid_no_node2vec",
+      "question_id": "Q041",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q061-hybrid",
+      "question_id": "Q061",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q051-text_only",
+      "question_id": "Q051",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q044-hybrid_no_node2vec",
+      "question_id": "Q044",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q056-hybrid",
+      "question_id": "Q056",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q058-hybrid",
+      "question_id": "Q058",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q057-text_only",
+      "question_id": "Q057",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q060-hybrid_no_node2vec",
+      "question_id": "Q060",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q056-graph_only",
+      "question_id": "Q056",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q033-graph_only",
+      "question_id": "Q033",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q053-text_only",
+      "question_id": "Q053",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q053-hybrid_no_node2vec",
+      "question_id": "Q053",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q052-hybrid_no_node2vec",
+      "question_id": "Q052",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q040-text_only",
+      "question_id": "Q040",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q055-hybrid_no_node2vec",
+      "question_id": "Q055",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q059-text_only",
+      "question_id": "Q059",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q053-graph_only",
+      "question_id": "Q053",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q001-text_only",
+      "question_id": "Q001",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q058-hybrid_no_node2vec",
+      "question_id": "Q058",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q058-text_only",
+      "question_id": "Q058",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q061-graph_only",
+      "question_id": "Q061",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q052-hybrid",
+      "question_id": "Q052",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q041-text_only",
+      "question_id": "Q041",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q061-text_only",
+      "question_id": "Q061",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q051-hybrid_no_node2vec",
+      "question_id": "Q051",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q055-hybrid",
+      "question_id": "Q055",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q031-hybrid_no_node2vec",
+      "question_id": "Q031",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q059-hybrid_no_node2vec",
+      "question_id": "Q059",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q031-graph_only",
+      "question_id": "Q031",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q061-hybrid_no_node2vec",
+      "question_id": "Q061",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q001-hybrid",
+      "question_id": "Q001",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q030-graph_only",
+      "question_id": "Q030",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q044-hybrid",
+      "question_id": "Q044",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q050-text_only",
+      "question_id": "Q050",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q060-text_only",
+      "question_id": "Q060",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q033-hybrid_no_node2vec",
+      "question_id": "Q033",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q040-hybrid",
+      "question_id": "Q040",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q041-graph_only",
+      "question_id": "Q041",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q056-text_only",
+      "question_id": "Q056",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q059-graph_only",
+      "question_id": "Q059",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q051-graph_only",
+      "question_id": "Q051",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q057-graph_only",
+      "question_id": "Q057",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q039-text_only",
+      "question_id": "Q039",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q060-graph_only",
+      "question_id": "Q060",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q050-hybrid",
+      "question_id": "Q050",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q053-hybrid",
+      "question_id": "Q053",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q033-hybrid",
+      "question_id": "Q033",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q039-graph_only",
+      "question_id": "Q039",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q050-graph_only",
+      "question_id": "Q050",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q039-hybrid_no_node2vec",
+      "question_id": "Q039",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q056-hybrid_no_node2vec",
+      "question_id": "Q056",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q054-hybrid_no_node2vec",
+      "question_id": "Q054",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q057-hybrid",
+      "question_id": "Q057",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q059-hybrid",
+      "question_id": "Q059",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q060-hybrid",
+      "question_id": "Q060",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q041-hybrid",
+      "question_id": "Q041",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q031-text_only",
+      "question_id": "Q031",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q050-hybrid_no_node2vec",
+      "question_id": "Q050",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q054-hybrid",
+      "question_id": "Q054",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q052-text_only",
+      "question_id": "Q052",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q030-text_only",
+      "question_id": "Q030",
+      "mode": "text_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q044-graph_only",
+      "question_id": "Q044",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q030-hybrid",
+      "question_id": "Q030",
+      "mode": "hybrid",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r2-Q052-graph_only",
+      "question_id": "Q052",
+      "mode": "graph_only",
+      "repeat": 2,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q060-hybrid_no_node2vec",
+      "question_id": "Q060",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q040-hybrid_no_node2vec",
+      "question_id": "Q040",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q055-hybrid",
+      "question_id": "Q055",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q031-graph_only",
+      "question_id": "Q031",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q060-graph_only",
+      "question_id": "Q060",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q053-graph_only",
+      "question_id": "Q053",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q030-graph_only",
+      "question_id": "Q030",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q057-hybrid",
+      "question_id": "Q057",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q033-text_only",
+      "question_id": "Q033",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q054-graph_only",
+      "question_id": "Q054",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q060-hybrid",
+      "question_id": "Q060",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q052-hybrid",
+      "question_id": "Q052",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q059-hybrid_no_node2vec",
+      "question_id": "Q059",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q058-graph_only",
+      "question_id": "Q058",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q040-text_only",
+      "question_id": "Q040",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q044-graph_only",
+      "question_id": "Q044",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q031-hybrid",
+      "question_id": "Q031",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q051-text_only",
+      "question_id": "Q051",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q039-hybrid",
+      "question_id": "Q039",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q059-graph_only",
+      "question_id": "Q059",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q061-hybrid_no_node2vec",
+      "question_id": "Q061",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q033-graph_only",
+      "question_id": "Q033",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q041-text_only",
+      "question_id": "Q041",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q058-hybrid_no_node2vec",
+      "question_id": "Q058",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q056-text_only",
+      "question_id": "Q056",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q041-hybrid_no_node2vec",
+      "question_id": "Q041",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q039-hybrid_no_node2vec",
+      "question_id": "Q039",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q056-hybrid",
+      "question_id": "Q056",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q053-hybrid",
+      "question_id": "Q053",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q050-hybrid_no_node2vec",
+      "question_id": "Q050",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q030-hybrid_no_node2vec",
+      "question_id": "Q030",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q044-hybrid",
+      "question_id": "Q044",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q039-graph_only",
+      "question_id": "Q039",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q055-graph_only",
+      "question_id": "Q055",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q050-text_only",
+      "question_id": "Q050",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q051-hybrid_no_node2vec",
+      "question_id": "Q051",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q054-hybrid_no_node2vec",
+      "question_id": "Q054",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q001-hybrid_no_node2vec",
+      "question_id": "Q001",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q057-graph_only",
+      "question_id": "Q057",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q053-text_only",
+      "question_id": "Q053",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q001-hybrid",
+      "question_id": "Q001",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q052-text_only",
+      "question_id": "Q052",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q054-hybrid",
+      "question_id": "Q054",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q001-text_only",
+      "question_id": "Q001",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q053-hybrid_no_node2vec",
+      "question_id": "Q053",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q054-text_only",
+      "question_id": "Q054",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q055-text_only",
+      "question_id": "Q055",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q050-hybrid",
+      "question_id": "Q050",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q051-graph_only",
+      "question_id": "Q051",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q001-graph_only",
+      "question_id": "Q001",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q061-graph_only",
+      "question_id": "Q061",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q030-text_only",
+      "question_id": "Q030",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q033-hybrid_no_node2vec",
+      "question_id": "Q033",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q033-hybrid",
+      "question_id": "Q033",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q061-hybrid",
+      "question_id": "Q061",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q056-hybrid_no_node2vec",
+      "question_id": "Q056",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q058-hybrid",
+      "question_id": "Q058",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q056-graph_only",
+      "question_id": "Q056",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q044-text_only",
+      "question_id": "Q044",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q040-hybrid",
+      "question_id": "Q040",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q052-graph_only",
+      "question_id": "Q052",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q052-hybrid_no_node2vec",
+      "question_id": "Q052",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q058-text_only",
+      "question_id": "Q058",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q051-hybrid",
+      "question_id": "Q051",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q041-graph_only",
+      "question_id": "Q041",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q041-hybrid",
+      "question_id": "Q041",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q055-hybrid_no_node2vec",
+      "question_id": "Q055",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q050-graph_only",
+      "question_id": "Q050",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q040-graph_only",
+      "question_id": "Q040",
+      "mode": "graph_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q057-text_only",
+      "question_id": "Q057",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q059-hybrid",
+      "question_id": "Q059",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q039-text_only",
+      "question_id": "Q039",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q059-text_only",
+      "question_id": "Q059",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q031-text_only",
+      "question_id": "Q031",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q057-hybrid_no_node2vec",
+      "question_id": "Q057",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q061-text_only",
+      "question_id": "Q061",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q031-hybrid_no_node2vec",
+      "question_id": "Q031",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q060-text_only",
+      "question_id": "Q060",
+      "mode": "text_only",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q044-hybrid_no_node2vec",
+      "question_id": "Q044",
+      "mode": "hybrid_no_node2vec",
+      "repeat": 3,
+      "measured": true
+    },
+    {
+      "case_id": "r3-Q030-hybrid",
+      "question_id": "Q030",
+      "mode": "hybrid",
+      "repeat": 3,
+      "measured": true
+    }
+  ],
+  "frozen_files_sha256": {
+    "application_engine.py": "711eceb6bb5c8592c75d8d8e443d57fb3f957b1990b867de6cbc086bf1bd651f",
+    "benchmarks/corpus_manifest.json": "82912f1045c928388bf612eec178468d883f582f622d539cb992bd9ed16c3885",
+    "benchmarks/eval_queries.json": "5cfb2f84360f86c101965f66281adbca5aa373e5296e2c1d17f712da6e900662",
+    "benchmarks/split_manifest.json": "02f4818675b5977d2b830a66e31d798081a3d581e35894fc0e69c5d928e3d0f7",
+    "config.json": "63d2c05e091578e66600844378afe73d69af490da06bd6c247d6ccaa5ee9cbf0",
+    "data/AA22-321A.txt": "ccee462d187eddc2ec4e5ef5237b5ddcde691ea144fe6009b0639570f3669d13",
+    "data/AA23-061A.txt": "9ce6d9f8de188a4b9729d1efa1ef5af9007f66f8f194efc9a95b91eb5a5d0a8f",
+    "data/AA23-075A.txt": "3d791ec6e766f5cb6905e8509b3a0adcb303d974d16d228d06d7caae61743b0e",
+    "data/AA23-136A.txt": "79141b62c800375f70474913061fe8ff4b46fc51c4d265c59bac0fe235274430",
+    "data/AA23-144A.txt": "22529cb8eab2608ca280b1476f698a5c516e46109740752cb6229df82b1108f4",
+    "data/AA23-165A.txt": "fc715335097cfeb799a1176c124a353f045aac707523ba2acfbf2b6d07c548bf",
+    "data/AA23-319A.txt": "325277d7b284c667edcf5d8aba6100e1ba2afb3e1fe35e8116762cf81a8abc00",
+    "data/AA23-320A.txt": "5bd6cf2615594f777778d3a6ef9ca43e6e24982636d8d48c2e7a54307d9d0bd2",
+    "data/AA23-352A.txt": "a7e5c1cce86e270d5d5b3aa7cc94ef652294c041904bf0030146445f4dcf4914",
+    "data/AA23-353A.txt": "27bb3ade10e84281b104992e82acae99fb77a31a0d07fddd9465b04cb9dd80ba",
+    "data/AA24-038A.txt": "90a8a7ce09ca74259471a261f9fe1af41951deafe00fb3238b0b28f14649da35",
+    "data/AA24-060A.txt": "14e4896e5e13ea430fde27b687d3ae961da011cb0ab36f6afd856537e06b20f8",
+    "data/AA24-109A.txt": "760598e48e30ec5b17f0fdb83496c77b1f54d392aae3e156606b439ed8e20fa5",
+    "data/AA24-131A.txt": "128102b55f3252f50dbfdae150c36b0e03c1f72b0f8ec6dbd4e88b19752717a6",
+    "data/AA25-071A.txt": "335c81fe5bb1ffe1bbbb5920b54eed7b5acd77183faaaa9ba9beef7b5a7caaeb",
+    "data/enterprise-attack-17.1.json": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+    "evaluation/corpus_preparation.py": "bb85345c4e4c57386fa27c63acdf05eea139bfddd2cece936f3192e6341fce9c",
+    "evaluation/corpus_runner.py": "a4a3896e0bc96a3d3895d32b90c009c762364b2a70afde3d205ea592788f81d6",
+    "evaluation/corpus_scope.py": "5080ca02b9bafd45127933dabc561875a9843935898f29e377abb2786b66f1e7",
+    "evaluation/experiment_plan.py": "280c68fdc6b020afa7b398ccb79cdd086f12b4fd704cb0881b6b99d22bdd9920",
+    "evaluation/experiment_runner.py": "6905ce0eb60479aa1349fee42a3dfb90f188065bed5ceb3bcf2fc5f1f38a59be",
+    "evaluation/experiment_runtime.py": "b60d422aabdad9e44176257ae3291fa0ca06b528d871a68a0ce67ad08d347aca",
+    "evaluation/index_assets.py": "dc1f3ef06147d43c59c9f42f6fc8d801d269062314b709794e6828a67aa8c9aa",
+    "evaluation/retrievers.py": "7425629ca60caabe26d2d9f85817f459a38e96c83d2b82d3ebe5f0dd4bd1645a",
+    "evaluation/text_sources.py": "332d4dfc6ca044ced5d2a675880b039fb201a8c33b8346380ee217a0439c0da0",
+    "extract_evaluation_corpus.py": "cc1689134d8e50bc2f5dba4bc3804a579426c90a336facf69d1bab901868bec1",
+    "extraction/corpus_chunking.py": "3d287661ca6dfa9d49f5833c9349eba11e270243b58e35f4f8773e8d2c70d9d3",
+    "extraction/corpus_pilot.py": "27e453311e3ea60f955073034d9ed708b5245f086c3d868955aa7c5423ce9608",
+    "extraction/development_batch.py": "a705aa5926c3ab9dd5dc69018349f3eccee0e832624fd152b6b37764fc2f005b",
+    "extraction/source_choices.py": "63eb524a721e1e2d6220936b1bee4d448fd8ad510363531e175d66e4748ec207",
+    "graph/development_projection.py": "1eddd21f4632771d8c4baefc8f19a9f5cd938e6e0ea7ff16910f1a9ec79b89b6",
+    "graph/development_retrieval.py": "f9d2fa261eaf36df5b5541e667c9c77867068aad581135c7c0dde56ae0a1e782",
+    "graph/node2vec_training.py": "8706250888f18f57221321842a8958634f40053f3cf1035d51305b4a635dcca2",
+    "graph_pilot_qa.py": "d264c04e1e5cf1a54617eed40b8561d1dafba23888b5c27ebec9509b32e2a328",
+    "graph_qa.py": "87f40fb5b10d11e3d8c5bdabcae38535c9975be70f10ee80e4916a0be4d917b4",
+    "prepare_evaluation_corpus.py": "ba056547c6c8b45b700461431c665fd601643f76062bc9ca76bec3d8bc423b3a",
+    "prepare_final_evaluation.py": "dcafedcd0bb2a0631a8429714650189bb515483ce5f41b4abb728f30ef01d02b",
+    "resolve.py": "ae76b28b8933e08d2e69d4f104f55f2fa689a3e3eb199cbba6bdf6eb8af11fd4",
+    "retrieval/combined_retrieval.py": "651e7c1941218c1669180f9fcc0950960e1a35fa09ce9ae6053101e477f43223",
+    "retrieval/development_text.py": "bbd6ab4b667d4e8a22d26c18b8df2a1e5a3ee3a6870920fbba3bf75ff66dbd01",
+    "retrieval/graph_vectors.py": "874b856e3e8baff1e680f15b3476fb5f4d5efbbbaaba89b7dea402370a16a3d2",
+    "retrieval/hybrid_retrieval.py": "92c13b3732b4c6f89b86117d052b60afdcdb68007580def60429341a0d4ca115",
+    "retrieval/text_retrieval.py": "d58eb34501d30f70479253d268cea72d1117e07680307f94b47d9d629a702591",
+    "run_final_evaluation.py": "042057a97f1d90c6f1ce54292e65d0455bf35bfd1b300d5cfac53b086db96c3f",
+    "schemas.py": "a12ab45557eac63a5522e4b1a3363d82d0651c16da5249698224a520fec65790",
+    "work/evaluation_graph_index/current.json": "81e9ede10536a75d7c2514a43c456ff92133027e94c46b13375b0e53166904cf",
+    "work/evaluation_graph_index_runs/20261016T044432Z-6c86d43a/index_receipt.json": "a16d70727bdc60d7c09cfa926b298ccc3621731f2c17d8ef0de3ef5b719ebc63",
+    "work/evaluation_text_index_runs/20261016T043755Z-ddd54a27/index_receipt.json": "aeca5844303fd1ec91fb4ed48ce0930f7b8c8727766440fd6f9514ccd8fd926f",
+    "work/graph_index/current.json": "38c8f5840fefa8a9f3e3e91e4b4d5de9586d66f24293c16baf2b16c2de09c0d4",
+    "work\\evaluation_corpus_chunks\\20261016T040604Z-bccf59fb\\summary.json": "804df7471379743ee02d011fdf8cadcb84e2375faca9ed8c1c6e08e95644fe6a",
+    "work\\evaluation_graph_index\\28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e\\manifest.json": "68dd8292b96a409238e6003dcb3575ddc17dfa6415bd9996f2fe1f984b2343dd",
+    "work\\evaluation_graph_index\\28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e\\projection.json": "388c29f50444ea2444d36a6d4278c0f75cbf39a781d3db6a82b6c88c5746889c",
+    "work\\evaluation_graph_index\\28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e\\vectors.npz": "8fca1c65af17509b1e63f307760084b6509b6d3b9f768ed364f300e089743c17",
+    "work\\evaluation_text_index\\0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73\\manifest.json": "8eff802d5c407ba8d3954c1a42c8d3a6a8c4a45996e70d73189fbe8b6f39ef7a",
+    "work\\evaluation_text_index\\0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73\\records.json": "72a5a13892995a75a725987db70af70392978c051f3b0ae9ae949a4227825d45"
+  },
+  "latency_policy": "Initialize all retrievers/vector bindings before warmups. Measured case time covers retrieval, packing, generation/repair and initial answer/evidence persistence; excludes setup, file/model guards and final timing/receipt updates. Record retrieval_ms and generation_ms separately.",
+  "resume_policy": "Skip valid terminal measured answers, abstentions and failures; rerun only interrupted/unstarted measured cases. Retry failed warmups separately before measured work. Preserve every run/attempt.",
+  "scope_policy": "All modes use the same fixed reviewed source/reference scope; generator and retrieval settings unchanged.",
+  "reference_isolation": "Only id, question and category are exported from the benchmark; only question/mode/corpus_version reach QueryRequest.",
+  "fingerprint": "bdd8f75d7a3ad17c5c434c6f7728c14a3e72a96ad4b25f2a876035885e006895"
+}

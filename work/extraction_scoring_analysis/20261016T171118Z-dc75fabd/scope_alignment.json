@@ -1,0 +1,642 @@
+[
+  {
+    "scope_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "start": 6445,
+    "end": 6615,
+    "text": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572], to communicate with their C2 infrastructure.",
+    "covered_characters": 170,
+    "total_characters": 170,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-061A:evaluation:llama500:4148:6616",
+      "AA23-061A:evaluation:llama500:6346:8622"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 2
+    }
+  },
+  {
+    "scope_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "start": 6201,
+    "end": 6862,
+    "text": "LockBit 3.0 affiliates use Stealbit, a custom exfiltration tool used previously with LockBit 2.0 [TA0010]; rclone, an open-source command line cloud storage manager [T1567.002]; and publicly available file sharing services, such as MEGA [T1567.002], to exfiltrate sensitive company data files prior to encryption. While rclone and many publicly available file sharing services are primarily used for legitimate purposes, they can also be used by threat actors to aid in system compromise, network exploration, or data exfiltration. LockBit 3.0 affiliates often use other publicly available file sharing services to exfiltrate data as well [T1567] (see Table 1).",
+    "covered_characters": 661,
+    "total_characters": 661,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-075A:evaluation:llama500:5977:8086"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row01",
+    "doc_id": "AA23-165A",
+    "start": 12511,
+    "end": 12694,
+    "text": "Advanced Internet Protocol (IP) Scanner\nPerforms network scans and shows network devices.\nMaps a victim’s network to identify potential access vectors.\nT1046\nNetwork Service Discovery",
+    "covered_characters": 183,
+    "total_characters": 183,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row02",
+    "doc_id": "AA23-165A",
+    "start": 12695,
+    "end": 12872,
+    "text": "Advanced Port Scanner\nPerforms network scans.\nFinds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.\nT1046\nNetwork Service Discovery",
+    "covered_characters": 177,
+    "total_characters": 177,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row03",
+    "doc_id": "AA23-165A",
+    "start": 13043,
+    "end": 13178,
+    "text": "AnyDesk\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+    "covered_characters": 135,
+    "total_characters": 135,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row04",
+    "doc_id": "AA23-165A",
+    "start": 13179,
+    "end": 13349,
+    "text": "Atera Remote Monitoring & Management (RMM)\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+    "covered_characters": 170,
+    "total_characters": 170,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row05",
+    "doc_id": "AA23-165A",
+    "start": 13350,
+    "end": 13524,
+    "text": "Backstab\nTerminates antimalware-protected processes.\nTerminates endpoint detection and response (EDR)- protected processes.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 174,
+    "total_characters": 174,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row06",
+    "doc_id": "AA23-165A",
+    "start": 13525,
+    "end": 13670,
+    "text": "Bat Armor\nGenerates .bat files using PowerShell scripts.\nBypasses PowerShell execution policy.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 145,
+    "total_characters": 145,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row07",
+    "doc_id": "AA23-165A",
+    "start": 13671,
+    "end": 13873,
+    "text": "Bloodhound\nPerforms reconnaissance of AD for attack path management.\nEnables identification of AD relationships that can be exploited to gain access onto a victim’s network.\nT1482\nDomain Trust Discovery",
+    "covered_characters": 202,
+    "total_characters": 202,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040",
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1,
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row08",
+    "doc_id": "AA23-165A",
+    "start": 13874,
+    "end": 14039,
+    "text": "Chocolatey\nHandles command-line package management on Microsoft Windows.\nFacilitates installation of LockBit affiliate actors’ tools.\nT1072\nSoftware Deployment Tools",
+    "covered_characters": 165,
+    "total_characters": 165,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:11762:14040",
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1,
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row09",
+    "doc_id": "AA23-165A",
+    "start": 14040,
+    "end": 14199,
+    "text": "Defender Control\nDisables Microsoft Defender.\nEnables LockBit affiliate actors to bypass Microsoft Defender.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 159,
+    "total_characters": 159,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row10",
+    "doc_id": "AA23-165A",
+    "start": 14200,
+    "end": 14356,
+    "text": "ExtPassword\nRecovers passwords from Windows systems.\nObtains credentials for network access and exploitation.\nT1003\nOperating System (OS) Credential Dumping",
+    "covered_characters": 156,
+    "total_characters": 156,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row11",
+    "doc_id": "AA23-165A",
+    "start": 14601,
+    "end": 14798,
+    "text": "FreeFileSync\nFacilitates cloud-based file synchronization.\nFacilitates cloud-based file synchronization for data exfiltration.\nT1567.002\nExfiltration Over Web Service: Exfiltration to Cloud Storage",
+    "covered_characters": 197,
+    "total_characters": 197,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row12",
+    "doc_id": "AA23-165A",
+    "start": 14799,
+    "end": 14909,
+    "text": "GMER\nRemoves rootkits.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 110,
+    "total_characters": 110,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row13",
+    "doc_id": "AA23-165A",
+    "start": 15188,
+    "end": 15390,
+    "text": "Ligolo\nEstablishes SOCKS5 or TCP tunnels from a reverse connection for pen testing.\nEnables connections to systems within the victim’s network via reverse tunneling.\nT1095\nNon-Application Layer Protocol",
+    "covered_characters": 202,
+    "total_characters": 202,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row14",
+    "doc_id": "AA23-165A",
+    "start": 15391,
+    "end": 15531,
+    "text": "LostMyPassword\nRecovers passwords from Windows systems.\nObtains credentials for network access and exploitation.\nT1003\nOS Credential Dumping",
+    "covered_characters": 140,
+    "total_characters": 140,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981"
+    ],
+    "statuses": {
+      "validation_failed": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row15",
+    "doc_id": "AA23-165A",
+    "start": 15532,
+    "end": 15734,
+    "text": "MEGA Ltd MegaSync\nFacilitates cloud-based file synchronization.\nFacilitates cloud-based file synchronization for data exfiltration.\nT1567.002\nExfiltration Over Web Service: Exfiltration to Cloud Storage",
+    "covered_characters": 202,
+    "total_characters": 202,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981",
+      "AA23-165A:evaluation:llama500:15691:17884"
+    ],
+    "statuses": {
+      "validation_failed": 1,
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row16",
+    "doc_id": "AA23-165A",
+    "start": 15735,
+    "end": 16016,
+    "text": "Microsoft Sysinternals ProcDump\nMonitors applications for central processing unit (CPU) spikes and generates crash dumps during a spike.\nObtains credentials by dumping the contents of Local Security Authority Subsystem Service (LSASS).\nT1003.001\nOS Credential Dumping: LSASS Memory",
+    "covered_characters": 281,
+    "total_characters": 281,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:13738:15981",
+      "AA23-165A:evaluation:llama500:15691:17884"
+    ],
+    "statuses": {
+      "validation_failed": 1,
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row17",
+    "doc_id": "AA23-165A",
+    "start": 16511,
+    "end": 16660,
+    "text": "PasswordFox\nRecovers passwords from Firefox Browser.\nObtains credentials for network access and exploitation.\nT1555.003\nCredentials from Web Browsers",
+    "covered_characters": 149,
+    "total_characters": 149,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row18",
+    "doc_id": "AA23-165A",
+    "start": 16661,
+    "end": 16848,
+    "text": "PCHunter\nEnables advanced task management including system processes and kernels.\nTerminates and circumvents EDR processes and services.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 187,
+    "total_characters": 187,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row19",
+    "doc_id": "AA23-165A",
+    "start": 16849,
+    "end": 17040,
+    "text": "PowerTool\nRemoves rootkits, as well as detecting, analyzing, and fixing kernel structure modifications.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 191,
+    "total_characters": 191,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row20",
+    "doc_id": "AA23-165A",
+    "start": 17041,
+    "end": 17161,
+    "text": "Process Hacker\nRemoves rootkits.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 120,
+    "total_characters": 120,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row21",
+    "doc_id": "AA23-165A",
+    "start": 17162,
+    "end": 17307,
+    "text": "PuTTY Link (Plink)\nAutomates Secure Shell (SSH) actions on Windows.\nEnables LockBit affiliate actors to avoid detection.\nT1572\nProtocol Tunneling",
+    "covered_characters": 145,
+    "total_characters": 145,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row22",
+    "doc_id": "AA23-165A",
+    "start": 17436,
+    "end": 17599,
+    "text": "Seatbelt\nPerforms numerous security-oriented checks.\nPerforms numerous security-oriented checks to enumerate system information.\nT1082\nSystem Information Discovery",
+    "covered_characters": 163,
+    "total_characters": 163,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884",
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 2
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row23",
+    "doc_id": "AA23-165A",
+    "start": 17600,
+    "end": 17808,
+    "text": "ScreenConnect (also known as ConnectWise)\nEnables remote connections to network devices for management.\nEnables LockBit affiliate actors to remotely connect to a victim’s systems.\nT1219\nRemote Access Software",
+    "covered_characters": 208,
+    "total_characters": 208,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884",
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 2
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row24",
+    "doc_id": "AA23-165A",
+    "start": 17809,
+    "end": 18008,
+    "text": "SoftPerfect Network Scanner\nPerforms network scans for systems management.\nEnables LockBit affiliate actors to obtain information about a victim’s systems and network.\nT1046\nNetwork Service Discovery",
+    "covered_characters": 199,
+    "total_characters": 199,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:15691:17884",
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 2
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row25",
+    "doc_id": "AA23-165A",
+    "start": 18009,
+    "end": 18231,
+    "text": "Splashtop\nEnables remote connections to network devices for management.\nEnables LockBit affiliate actors to remotely connect to systems over Remote Desktop Protocol (RDP).\nT1021.001\nRemote Services: Remote Desktop Protocol",
+    "covered_characters": 222,
+    "total_characters": 222,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row26",
+    "doc_id": "AA23-165A",
+    "start": 18232,
+    "end": 18348,
+    "text": "TDSSKiller\nRemoves rootkits.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools",
+    "covered_characters": 116,
+    "total_characters": 116,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row27",
+    "doc_id": "AA23-165A",
+    "start": 18349,
+    "end": 18526,
+    "text": "TeamViewer\nEnables remote connections to network devices for management.\nEnables LockBit affiliate actors to remotely connect to a victim’s systems.\nT1219\nRemote Access Software",
+    "covered_characters": 177,
+    "total_characters": 177,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row28",
+    "doc_id": "AA23-165A",
+    "start": 18527,
+    "end": 18760,
+    "text": "ThunderShell\nFacilitates remote access via Hypertext Transfer Protocol (HTTP) requests.\nEnables LockBit affiliate actors to remotely access systems while encrypting network traffic.\nT1071.001\nApplication Layer Protocol: Web Protocols",
+    "covered_characters": 233,
+    "total_characters": 233,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-165A:table4:row29",
+    "doc_id": "AA23-165A",
+    "start": 18761,
+    "end": 18956,
+    "text": "WinSCP\nFacilitates file transfer using SSH File Transfer Protocol for Microsoft Windows.\nEnables data exfiltration via the SSH File Transfer Protocol.\nT1048\nExfiltration Over Alternative Protocol",
+    "covered_characters": 195,
+    "total_characters": 195,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-165A:evaluation:llama500:17571:19802"
+    ],
+    "statuses": {
+      "empty_extraction": 1
+    }
+  },
+  {
+    "scope_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "start": 5544,
+    "end": 6198,
+    "text": "Play ransomware actors use command and control (C2) applications, including Cobalt Strike and SystemBC, and tools like PsExec to assist with lateral movement and file execution. Once established on a network, the ransomware actors search for unsecured credentials [T1552] and use the Mimikatz credential dumper to gain domain administrator access [T1003]. According to open source reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) [T1059] to search for additional privilege escalation paths. Actors then distribute executables [T1570] via Group Policy Objects [T1484.001].",
+    "covered_characters": 654,
+    "total_characters": 654,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA23-352A:evaluation:llama500:3851:6199",
+      "AA23-352A:evaluation:llama500:5924:7968"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 2
+    }
+  },
+  {
+    "scope_id": "AA24-109A:paragraph:11788",
+    "doc_id": "AA24-109A",
+    "start": 11788,
+    "end": 12162,
+    "text": "The authoring organizations observed Akira threat actors establishing command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572], to initiate encrypted sessions that bypass perimeter monitoring. They also use PowerShell and Windows Management Instrumentation Command-line (WMIC) [T1059.001] to disable services and execute malicious scripts.",
+    "covered_characters": 374,
+    "total_characters": 374,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA24-109A:evaluation:llama500:10612:12792"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "start": 12198,
+    "end": 12791,
+    "text": "Akira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001] and WinSCP and RClone to exfiltrate data [T1048]. To establish C2 channels, threat actors leverage readily available tools like AnyDesk, MobaXterm, RustDesk, and Cloudflare Tunnel. These tools enable exfiltration through various protocols such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega [T1537], to connect to exfiltration servers. In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+    "covered_characters": 593,
+    "total_characters": 593,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA24-109A:evaluation:llama500:10612:12792",
+      "AA24-109A:evaluation:llama500:12528:14948"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 2
+    }
+  },
+  {
+    "scope_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "start": 8222,
+    "end": 8881,
+    "text": "According to the authoring organizations and open source reporting, Akira threat actors leverage post-exploitation techniques, such as Kerberoasting,8 to extract credentials stored in the process memory of the Local Security Authority Subsystem Service (LSASS)9 [T1003.001]. Akira threat actors also use credential scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation. For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+    "covered_characters": 659,
+    "total_characters": 659,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA24-109A:evaluation:llama500:6537:8882",
+      "AA24-109A:evaluation:llama500:8607:10825"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 2
+    }
+  },
+  {
+    "scope_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "start": 7045,
+    "end": 7795,
+    "text": "Black Basta affiliates use RClone to facilitate data exfiltration prior to encryption. Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486]. A .basta or otherwise random file extension is added to file names and a ransom note titled readme.txt is left on the compromised system.[4] To further inhibit system recovery, affiliates use the vssadmin.exe program to delete volume shadow copies [T1490].[5]",
+    "covered_characters": 750,
+    "total_characters": 750,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA24-131A:evaluation:llama500:6550:8835"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "start": 13808,
+    "end": 14518,
+    "text": "(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]. To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:",
+    "covered_characters": 710,
+    "total_characters": 710,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA25-071A:evaluation:llama500:12220:14519",
+      "AA25-071A:evaluation:llama500:14289:16172"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 2
+    }
+  },
+  {
+    "scope_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "start": 15368,
+    "end": 15706,
+    "text": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement. They disable Windows Defender using the local Group Policy Editor during the LSASS exfiltration and re-enable Defender when they are done with exfiltration.",
+    "covered_characters": 338,
+    "total_characters": 338,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA25-071A:evaluation:llama500:14289:16172"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  },
+  {
+    "scope_id": "AA25-071A:paragraph:17253",
+    "doc_id": "AA25-071A",
+    "start": 17253,
+    "end": 17441,
+    "text": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002].",
+    "covered_characters": 188,
+    "total_characters": 188,
+    "fully_covered": true,
+    "overlapping_windows": [
+      "AA25-071A:evaluation:llama500:16025:18061"
+    ],
+    "statuses": {
+      "candidates_ready_for_review": 1
+    }
+  }
+]

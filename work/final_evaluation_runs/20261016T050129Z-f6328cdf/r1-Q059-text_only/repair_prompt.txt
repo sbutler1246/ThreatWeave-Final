@@ -1,0 +1,98 @@
+QUESTION: Compare AA24-109A and AA25-071A: which actors are reported using Mimikatz, and how do their advisory software-to-technique mappings compare? Cite both reports and keep each mapping within its source context.
+MODE: text_only
+SOURCE PASSAGES
+[E1; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.
+Additional notable TTPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+ID
+Use
+Develop Capabilities
+T1587
+Rhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+ID
+Use
+Valid Accounts
+T1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+Table 11: Execution
+Technique Title
+ID
+Use
+Command and Scripting Interpreter: Cloud API
+T1059.009
+Rhysida actors leverage AZCopy, a command-line utility that 
+[E2; CISA]
+#StopRansomware: Rhysida Ransomware
+[E3; CISA]
+Technical Details
+[E4; CISA]
+002
+Akira threat actors use the net group /domain command to find domain level groups and permission settings.
+System Information Discovery
+T1082
+Akira threat actors use tools like PCHunter64 to acquire detailed process and system information.
+Update Nov. 13, 2025
+Akira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software.
+End Update
+Update Nov. 13, 2025
+Account Discovery: Domain Account
+T1087.002
+Akira threat actors use Adfind.exe to query and retrieve information from Active Directory.
+End Update
+Domain Trust Discovery
+T1482
+Akira threat actors use the net Windows command to enumerate domain information.
+Update Nov. 13, 2025
+Akira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.
+End Update
+Table 17. Lateral Movement
+Technique Title
+ID
+Use
+Update Nov. 13, 2025
+Remote Services
+
+[E5; CISA]
+#StopRansomware: Akira Ransomware
+[E6; CISA]
+Technical Details
+[E7; CISA]
+Table 15. Credential Access
+[E8; CISA]
+.002] to abuse the functions of domain controllers. In some instances, the authoring organizations identified Akira threat actors creating an administrative account named itadm.
+According to the authoring organizations and open source reporting, Akira threat actors leverage post-exploitation techniques, such as Kerberoasting,8 to extract credentials stored in the process memory of the Local Security Authority Subsystem Service (LSASS)9 [T1003.001]. Akira threat actors also use credential scraping tools [T1003], like Mimikatz and LaZagne, to aid in privilege escalation. For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].
+
+GRAPH NODES
+GRAPH PATHS
+Return the requested JSON. The displayed answer is assembled from claims.
+Repair only output/citation errors using the original evidence: 1 validation error for CompactAnswer
+  Value error, Repeated citation IDs within a claim are not allowed. [type=value_error, input_value={'answer': 'See cited cla...]}], 'abstained': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/value_error
+PREVIOUS OUTPUT:
+{
+  "answer": "See cited claims.",
+  "claims": [
+    {
+      "text": "Rhysida actors use Mimikatz to aid in privilege escalation.",
+      "citations": ["E1", "E7"]
+    },
+    {
+      "text": "Akira threat actors use Mimikatz and LaZagne to aid in privilege escalation.",
+      "citations": ["E8", "E7"]
+    },
+    {
+      "text": "Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities) and T1078 (Valid Accounts).",
+      "citations": ["E1", "E1"]
+    },
+    {
+      "text": "Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery), T1087.002 (Account Discovery: Domain Account), and T1482 (Domain Trust Discovery).",
+      "citations": ["E4", "E4"]
+    }
+  ],
+  "abstained": false
+}

@@ -1,0 +1,744 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "nltest",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1021",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1021.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1550.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1560.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "WinRAR",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1090",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Ngrok",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "SystemBC",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1105",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "STONESTOP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "AnyDesk",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "T1572",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "nltest",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1021",
+      "type": "Technique",
+      "attack_id": "T1021"
+    },
+    "m005_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m006_T": {
+      "name": "T1021.004",
+      "type": "Technique",
+      "attack_id": "T1021.004"
+    },
+    "m007_T": {
+      "name": "T1550.002",
+      "type": "Technique",
+      "attack_id": "T1550.002"
+    },
+    "m008_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1560.001",
+      "type": "Technique",
+      "attack_id": "T1560.001"
+    },
+    "m010_S": {
+      "name": "WinRAR",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_T": {
+      "name": "T1090",
+      "type": "Technique",
+      "attack_id": "T1090"
+    },
+    "m012_S": {
+      "name": "Ngrok",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "SystemBC",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1105",
+      "type": "Technique",
+      "attack_id": "T1105"
+    },
+    "m015_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "STONESTOP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m018_S": {
+      "name": "AnyDesk",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_T": {
+      "name": "T1572",
+      "type": "Technique",
+      "attack_id": "T1572"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 20,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 21,
+      "end": 103,
+      "text": "Akira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.",
+      "line_start": 21
+    },
+    "u003": {
+      "start": 104,
+      "end": 114,
+      "text": "End Update",
+      "line_start": 104
+    },
+    "u004": {
+      "start": 115,
+      "end": 124,
+      "text": "Table 17.",
+      "line_start": 115
+    },
+    "u005": {
+      "start": 125,
+      "end": 141,
+      "text": "Lateral Movement",
+      "line_start": 115
+    },
+    "u006": {
+      "start": 142,
+      "end": 157,
+      "text": "Technique Title",
+      "line_start": 142
+    },
+    "u007": {
+      "start": 158,
+      "end": 160,
+      "text": "ID",
+      "line_start": 158
+    },
+    "u008": {
+      "start": 161,
+      "end": 164,
+      "text": "Use",
+      "line_start": 161
+    },
+    "u009": {
+      "start": 165,
+      "end": 185,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 165
+    },
+    "u010": {
+      "start": 186,
+      "end": 201,
+      "text": "Remote Services",
+      "line_start": 186
+    },
+    "u011": {
+      "start": 202,
+      "end": 207,
+      "text": "T1021",
+      "line_start": 202
+    },
+    "u012": {
+      "start": 208,
+      "end": 409,
+      "text": "Akira threat actors can abuse remote services (such as SSH and Virtual Network Computing [VNC]), to remotely access compromised systems, move laterally, and maintain persistence across networked hosts.",
+      "line_start": 208
+    },
+    "u013": {
+      "start": 410,
+      "end": 429,
+      "text": "Remote Service: RDP",
+      "line_start": 410
+    },
+    "u014": {
+      "start": 430,
+      "end": 439,
+      "text": "T1021.001",
+      "line_start": 430
+    },
+    "u015": {
+      "start": 440,
+      "end": 531,
+      "text": "Akira threat actors leverage RDP connections as an initial access vector to victim systems.",
+      "line_start": 440
+    },
+    "u016": {
+      "start": 532,
+      "end": 551,
+      "text": "Remote Service: SSH",
+      "line_start": 532
+    },
+    "u017": {
+      "start": 552,
+      "end": 561,
+      "text": "T1021.004",
+      "line_start": 552
+    },
+    "u018": {
+      "start": 562,
+      "end": 638,
+      "text": "Akira threat actors use SSHs through router IP addresses for initial access.",
+      "line_start": 562
+    },
+    "u019": {
+      "start": 639,
+      "end": 691,
+      "text": "Use Alternate Authentication Material: Pass the Hash",
+      "line_start": 639
+    },
+    "u020": {
+      "start": 692,
+      "end": 701,
+      "text": "T1550.002",
+      "line_start": 692
+    },
+    "u021": {
+      "start": 702,
+      "end": 805,
+      "text": "Akira threat actors use Mimikatz to view and save authentication credentials, such as Kerberos tickets.",
+      "line_start": 702
+    },
+    "u022": {
+      "start": 806,
+      "end": 816,
+      "text": "End Update",
+      "line_start": 806
+    },
+    "u023": {
+      "start": 817,
+      "end": 826,
+      "text": "Table 18.",
+      "line_start": 817
+    },
+    "u024": {
+      "start": 827,
+      "end": 837,
+      "text": "Collection",
+      "line_start": 817
+    },
+    "u025": {
+      "start": 838,
+      "end": 853,
+      "text": "Technique Title",
+      "line_start": 838
+    },
+    "u026": {
+      "start": 854,
+      "end": 856,
+      "text": "ID",
+      "line_start": 854
+    },
+    "u027": {
+      "start": 857,
+      "end": 860,
+      "text": "Use",
+      "line_start": 857
+    },
+    "u028": {
+      "start": 861,
+      "end": 904,
+      "text": "Archive Collected Data: Archive via Utility",
+      "line_start": 861
+    },
+    "u029": {
+      "start": 905,
+      "end": 914,
+      "text": "T1560.001",
+      "line_start": 905
+    },
+    "u030": {
+      "start": 915,
+      "end": 975,
+      "text": "Akira threat actors use tools like WinRAR to compress files.",
+      "line_start": 915
+    },
+    "u031": {
+      "start": 976,
+      "end": 985,
+      "text": "Table 19.",
+      "line_start": 976
+    },
+    "u032": {
+      "start": 986,
+      "end": 1005,
+      "text": "Command and Control",
+      "line_start": 976
+    },
+    "u033": {
+      "start": 1006,
+      "end": 1021,
+      "text": "Technique Title",
+      "line_start": 1006
+    },
+    "u034": {
+      "start": 1022,
+      "end": 1024,
+      "text": "ID",
+      "line_start": 1022
+    },
+    "u035": {
+      "start": 1025,
+      "end": 1028,
+      "text": "Use",
+      "line_start": 1025
+    },
+    "u036": {
+      "start": 1029,
+      "end": 1034,
+      "text": "Proxy",
+      "line_start": 1029
+    },
+    "u037": {
+      "start": 1035,
+      "end": 1040,
+      "text": "T1090",
+      "line_start": 1035
+    },
+    "u038": {
+      "start": 1041,
+      "end": 1142,
+      "text": "Akira threat actors use Ngrok to create a secure tunnel to servers the actors use to exfiltrate data.",
+      "line_start": 1041
+    },
+    "u039": {
+      "start": 1143,
+      "end": 1163,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1143
+    },
+    "u040": {
+      "start": 1164,
+      "end": 1220,
+      "text": "Akira threat actors use SystemBC malware as a proxy bot.",
+      "line_start": 1164
+    },
+    "u041": {
+      "start": 1221,
+      "end": 1231,
+      "text": "End Update",
+      "line_start": 1221
+    },
+    "u042": {
+      "start": 1232,
+      "end": 1252,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1232
+    },
+    "u043": {
+      "start": 1253,
+      "end": 1274,
+      "text": "Ingress Tool Transfer",
+      "line_start": 1253
+    },
+    "u044": {
+      "start": 1275,
+      "end": 1280,
+      "text": "T1105",
+      "line_start": 1275
+    },
+    "u045": {
+      "start": 1281,
+      "end": 1449,
+      "text": "Akira threat actors download tools, many of which are staged in the PerfLogs directory, and use the WebClient.DownloadString() method to download Cobalt Strike beacons.",
+      "line_start": 1281
+    },
+    "u046": {
+      "start": 1450,
+      "end": 1520,
+      "text": "Akira threat actors use STONESTOP malware to load additional payloads.",
+      "line_start": 1450
+    },
+    "u047": {
+      "start": 1521,
+      "end": 1531,
+      "text": "End Update",
+      "line_start": 1521
+    },
+    "u048": {
+      "start": 1532,
+      "end": 1554,
+      "text": "Remote Access Software",
+      "line_start": 1532
+    },
+    "u049": {
+      "start": 1555,
+      "end": 1560,
+      "text": "T1219",
+      "line_start": 1555
+    },
+    "u050": {
+      "start": 1561,
+      "end": 1676,
+      "text": "Akira threat actors use legitimate desktop support software like AnyDesk to obtain remote access to victim systems.",
+      "line_start": 1561
+    },
+    "u051": {
+      "start": 1677,
+      "end": 1697,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1677
+    },
+    "u052": {
+      "start": 1698,
+      "end": 1748,
+      "text": "Akira threat actors use SystemBC malware as a RAT.",
+      "line_start": 1698
+    },
+    "u053": {
+      "start": 1749,
+      "end": 1759,
+      "text": "End Update",
+      "line_start": 1749
+    },
+    "u054": {
+      "start": 1760,
+      "end": 1780,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1760
+    },
+    "u055": {
+      "start": 1781,
+      "end": 1799,
+      "text": "Protocol Tunneling",
+      "line_start": 1781
+    },
+    "u056": {
+      "start": 1800,
+      "end": 1805,
+      "text": "T1572",
+      "line_start": 1800
+    },
+    "u057": {
+      "start": 1806,
+      "end": 1985,
+      "text": "Akira treat actors use Ngrok to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, bypass perimeter defenses, and maintain covert persistent access.",
+      "line_start": 1806
+    },
+    "u058": {
+      "start": 1986,
+      "end": 1996,
+      "text": "End Update",
+      "line_start": 1986
+    },
+    "u059": {
+      "start": 1997,
+      "end": 2006,
+      "text": "Table 20.",
+      "line_start": 1997
+    },
+    "u060": {
+      "start": 2007,
+      "end": 2019,
+      "text": "Exfiltration",
+      "line_start": 1997
+    },
+    "u061": {
+      "start": 2020,
+      "end": 2035,
+      "text": "Technique Title",
+      "line_start": 2020
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1129",
+    "m002_G": "local:ThreatGroup:akira threat actors",
+    "m003_S": "attack:S0359",
+    "m004_T": "attack:T1021",
+    "m005_T": "attack:T1021.001",
+    "m006_T": "attack:T1021.004",
+    "m007_T": "attack:T1550.002",
+    "m008_S": "attack:S0002",
+    "m009_T": "attack:T1560.001",
+    "m010_S": "local:Software:winrar",
+    "m011_T": "attack:T1090",
+    "m012_S": "attack:S0508",
+    "m013_S": "local:Software:systembc",
+    "m014_T": "attack:T1105",
+    "m015_S": "attack:S0154",
+    "m016_S": "local:Software:stonestop",
+    "m017_T": "attack:T1219",
+    "m018_S": "local:Software:anydesk",
+    "m019_T": "attack:T1572"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u030"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m010_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u038"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u040"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m013_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u045"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m015_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u046"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m016_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u050"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u052"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m013_S"
+      ]
+    }
+  ]
+}

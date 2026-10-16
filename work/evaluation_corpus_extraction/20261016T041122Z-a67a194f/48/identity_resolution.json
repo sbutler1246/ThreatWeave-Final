@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Akira threat actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1110.003",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1110.003",
+    "canonical_name": "Password Spraying",
+    "source_attack_id": "T1110.003"
+  },
+  {
+    "local_id": "e3",
+    "mention": "T1021.004",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1021.004",
+    "canonical_name": "SSH",
+    "source_attack_id": "T1021.004"
+  },
+  {
+    "local_id": "e4",
+    "mention": "T1059.005",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1059.005",
+    "canonical_name": "Visual Basic",
+    "source_attack_id": "T1059.005"
+  },
+  {
+    "local_id": "e5",
+    "mention": "net",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0039",
+    "canonical_name": "Net",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e6",
+    "mention": "T1016",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1016",
+    "canonical_name": "System Network Configuration Discovery",
+    "source_attack_id": "T1016"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:20:41.6755145Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6090603300,
+  "load_duration": 12072400,
+  "prompt_eval_count": 1363,
+  "prompt_eval_duration": 135465000,
+  "eval_count": 452,
+  "eval_duration": 5869950000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates' activity is mapped to the technique Develop Capabilities (T1587) in AA23-165A.\",\n      \"reason\": \"The context does not mention LockBit affiliates or their activity being mapped to the technique Develop Capabilities (T1587) in AA23-165A.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Pre-compromise (M1056) is a mitigation for the technique Develop Capabilities (T1587) in ATT&CK 17.1.\",\n      \"reason\": \"The context explicitly states that Pre-compromise (M1056) is a mitigation for the technique Develop Capabilities (T1587) in ATT&CK 17.1.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Pre-compromise (M1056) is a mitigation for the technique Compromise Accounts (T1586) in ATT&CK 17.1.\",\n      \"reason\": \"The context does not mention Pre-compromise (M1056) being a mitigation for the technique Compromise Accounts (T1586) in ATT&CK 17.1.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Execution Prevention (M1038) is a mitigation for the technique Impair Defenses (T1562) in ATT&CK 17.1.\",\n      \"reason\": \"The context explicitly states that Execution Prevention (M1038) is a mitigation for the technique Impair Defenses (T1562) in ATT&CK 17.1.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Disable or Remove Feature or Program (M1042) is a mitigation for the technique Impair Defenses (T1562) in ATT&CK 17.1.\",\n      \"reason\": \"The context does not mention Disable or Remove Feature or Program (M1042) being a mitigation for the technique Impair Defenses (T1562) in ATT&CK 17.1.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

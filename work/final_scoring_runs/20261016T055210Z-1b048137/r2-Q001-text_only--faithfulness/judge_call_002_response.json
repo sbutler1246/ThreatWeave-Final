@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:58:45.3840699Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5545205300,
+  "load_duration": 11050700,
+  "prompt_eval_count": 1401,
+  "prompt_eval_duration": 141384000,
+  "eval_count": 405,
+  "eval_duration": 5294542000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use Advanced IP Scanner.\",\n      \"reason\": \"The context explicitly mentions that LockBit affiliates use Advanced IP Scanner, Advanced Port Scanner, or Advanced IP Scanner to scan target networks.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Advanced IP Scanner performs network scans.\",\n      \"reason\": \"The context states that Advanced Port Scanner performs network scans, but it does not explicitly mention Advanced IP Scanner.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Advanced IP Scanner finds open TCP and UDP ports for exploitation.\",\n      \"reason\": \"The context states that Advanced Port Scanner finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation, but it does not explicitly mention Advanced IP Scanner.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Service Discovery (T1046) is the ATT&CK technique used by LockBit affiliates.\",\n      \"reason\": \"The context explicitly mentions that Network Service Discovery (T1046) is the ATT&CK technique used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) is a mitigation for Network Service Discovery (T1046).\",\n      \"reason\": \"The context explicitly mentions that Network Intrusion Prevention (M1031) is a mitigation for Network Service Discovery (T1046).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) guidance is to use network intrusion detection/prevention systems to detect and prevent remote service scans.\",\n      \"reason\": \"The context explicitly mentions that Network Intrusion Prevention (M1031) guidance is to use network intrusion detection/prevention systems to detect and prevent remote service scans.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

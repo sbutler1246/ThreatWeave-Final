@@ -1,0 +1,334 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 20,
+      "text": "-92F9-005FBFBA1A43}\"",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 21,
+      "end": 83,
+      "text": "name=\"SQLWriter\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 21
+    },
+    "u003": {
+      "start": 84,
+      "end": 178,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQLWriter\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 84
+    },
+    "u004": {
+      "start": 179,
+      "end": 191,
+      "text": "</NTService>",
+      "line_start": 179
+    },
+    "u005": {
+      "start": 192,
+      "end": 249,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 192
+    },
+    "u006": {
+      "start": 250,
+      "end": 315,
+      "text": "name=\"SQLTELEMETRY\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 250
+    },
+    "u007": {
+      "start": 316,
+      "end": 413,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"SQLTELEMETRY\" serviceAction=\"STOP\" timeout=\"30\"/>",
+      "line_start": 316
+    },
+    "u008": {
+      "start": 414,
+      "end": 426,
+      "text": "</NTService>",
+      "line_start": 414
+    },
+    "u009": {
+      "start": 427,
+      "end": 484,
+      "text": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"",
+      "line_start": 427
+    },
+    "u010": {
+      "start": 485,
+      "end": 549,
+      "text": "name=\"MSSQLSERVER\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">",
+      "line_start": 485
+    },
+    "u011": {
+      "start": 550,
+      "end": 646,
+      "text": "<Properties startupType=\"DISABLED\" serviceName=\"MSSQLSERVER\" serviceAction=\"STOP\" timeout=\"60\"/>",
+      "line_start": 550
+    },
+    "u012": {
+      "start": 647,
+      "end": 659,
+      "text": "</NTService>",
+      "line_start": 647
+    },
+    "u013": {
+      "start": 660,
+      "end": 673,
+      "text": "</NTServices>",
+      "line_start": 660
+    },
+    "u014": {
+      "start": 674,
+      "end": 686,
+      "text": "Registry.pol",
+      "line_start": 674
+    },
+    "u015": {
+      "start": 687,
+      "end": 824,
+      "text": "The following registry configuration changes values for the Group Policy refresh time, disable SmartScreen, and disable Windows Defender.",
+      "line_start": 687
+    },
+    "u016": {
+      "start": 825,
+      "end": 837,
+      "text": "Registry Key",
+      "line_start": 825
+    },
+    "u017": {
+      "start": 838,
+      "end": 852,
+      "text": "Registry Value",
+      "line_start": 838
+    },
+    "u018": {
+      "start": 853,
+      "end": 863,
+      "text": "Value type",
+      "line_start": 853
+    },
+    "u019": {
+      "start": 864,
+      "end": 868,
+      "text": "Data",
+      "line_start": 864
+    },
+    "u020": {
+      "start": 869,
+      "end": 917,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System",
+      "line_start": 869
+    },
+    "u021": {
+      "start": 918,
+      "end": 943,
+      "text": "GroupPolicyRefresh TimeDC",
+      "line_start": 918
+    },
+    "u022": {
+      "start": 944,
+      "end": 954,
+      "text": "REG_D WORD",
+      "line_start": 944
+    },
+    "u023": {
+      "start": 955,
+      "end": 956,
+      "text": "1",
+      "line_start": 955
+    },
+    "u024": {
+      "start": 957,
+      "end": 1005,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System",
+      "line_start": 957
+    },
+    "u025": {
+      "start": 1006,
+      "end": 1037,
+      "text": "GroupPolicyRefresh TimeOffsetDC",
+      "line_start": 1006
+    },
+    "u026": {
+      "start": 1038,
+      "end": 1048,
+      "text": "REG_D WORD",
+      "line_start": 1038
+    },
+    "u027": {
+      "start": 1049,
+      "end": 1050,
+      "text": "1",
+      "line_start": 1049
+    },
+    "u028": {
+      "start": 1051,
+      "end": 1099,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System",
+      "line_start": 1051
+    },
+    "u029": {
+      "start": 1100,
+      "end": 1123,
+      "text": "GroupPolicyRefresh Time",
+      "line_start": 1100
+    },
+    "u030": {
+      "start": 1124,
+      "end": 1134,
+      "text": "REG_D WORD",
+      "line_start": 1124
+    },
+    "u031": {
+      "start": 1135,
+      "end": 1136,
+      "text": "1",
+      "line_start": 1135
+    },
+    "u032": {
+      "start": 1137,
+      "end": 1185,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System",
+      "line_start": 1137
+    },
+    "u033": {
+      "start": 1186,
+      "end": 1215,
+      "text": "GroupPolicyRefresh TimeOffset",
+      "line_start": 1186
+    },
+    "u034": {
+      "start": 1216,
+      "end": 1226,
+      "text": "REG_D WORD",
+      "line_start": 1216
+    },
+    "u035": {
+      "start": 1227,
+      "end": 1228,
+      "text": "1",
+      "line_start": 1227
+    },
+    "u036": {
+      "start": 1229,
+      "end": 1277,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System",
+      "line_start": 1229
+    },
+    "u037": {
+      "start": 1278,
+      "end": 1295,
+      "text": "EnableSmartScreen",
+      "line_start": 1278
+    },
+    "u038": {
+      "start": 1296,
+      "end": 1306,
+      "text": "REG_D WORD",
+      "line_start": 1296
+    },
+    "u039": {
+      "start": 1307,
+      "end": 1308,
+      "text": "0",
+      "line_start": 1307
+    },
+    "u040": {
+      "start": 1309,
+      "end": 1357,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s\\System",
+      "line_start": 1309
+    },
+    "u041": {
+      "start": 1358,
+      "end": 1386,
+      "text": "**del.ShellSmartSc reenLevel",
+      "line_start": 1358
+    },
+    "u042": {
+      "start": 1387,
+      "end": 1394,
+      "text": "REG_S Z",
+      "line_start": 1387
+    },
+    "u043": {
+      "start": 1395,
+      "end": 1445,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender",
+      "line_start": 1395
+    },
+    "u044": {
+      "start": 1446,
+      "end": 1464,
+      "text": "DisableAntiSpyware",
+      "line_start": 1446
+    },
+    "u045": {
+      "start": 1465,
+      "end": 1475,
+      "text": "REG_D WORD",
+      "line_start": 1465
+    },
+    "u046": {
+      "start": 1476,
+      "end": 1477,
+      "text": "1",
+      "line_start": 1476
+    },
+    "u047": {
+      "start": 1478,
+      "end": 1528,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender",
+      "line_start": 1478
+    },
+    "u048": {
+      "start": 1529,
+      "end": 1558,
+      "text": "DisableRoutinelyTa kingAction",
+      "line_start": 1529
+    },
+    "u049": {
+      "start": 1559,
+      "end": 1569,
+      "text": "REG_D WORD",
+      "line_start": 1559
+    },
+    "u050": {
+      "start": 1570,
+      "end": 1571,
+      "text": "1",
+      "line_start": 1570
+    },
+    "u051": {
+      "start": 1572,
+      "end": 1643,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Real-Time Protection",
+      "line_start": 1572
+    },
+    "u052": {
+      "start": 1644,
+      "end": 1670,
+      "text": "DisableRealtimeMon itoring",
+      "line_start": 1644
+    },
+    "u053": {
+      "start": 1671,
+      "end": 1681,
+      "text": "REG_D WORD",
+      "line_start": 1671
+    },
+    "u054": {
+      "start": 1682,
+      "end": 1683,
+      "text": "1",
+      "line_start": 1682
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

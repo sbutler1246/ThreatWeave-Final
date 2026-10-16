@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "purpose": "Post-collection scoring-only alignment of frozen source extraction to existing human-verified complete annotation scopes; no source/model/label tuning or new generation.",
+  "gold": "benchmarks/gold_triples.json",
+  "identity_reference": "benchmarks/entity_reference.json",
+  "latest_extraction_run": "work/evaluation_corpus_extraction/20261016T041738Z-f6bd403c",
+  "primary_population": "Strict successful terminal outputs from the frozen initial extraction, with the existing earliest-valid-success retry policy for the failed connection. Persistent schema/duplicate failures produce no validated extraction output and remain failed windows with all their gold facts retained in recall accounting.",
+  "sensitivity_population": "All deterministic duplicate-normalized selections reconstructed by the already saved first-support policy before semantic review filtering. Initial strict results remain separately reported. No favorable retry output is selected for persistent failures.",
+  "annotation_alignment": "Expand the existing additional_support records into their own existing complete scopes. Verify document offsets and quotes against frozen normalized CISA text. Retain every gold assertion in all 39 scopes, including scopes with empty, failed, partial-window, or uncovered extraction.",
+  "prediction_eligibility": "Selected evidence units must all lie within one complete annotation scope in the same document. Inherited caption evidence can be outside that scope. Predictions outside or crossing the complete scope are retained and listed as unscorable, not assumed false. No corpus-wide precision claim is made for unannotated text.",
+  "identity_alignment": "Scoring-only exact NFKC/casefold/whitespace normalization of type-compatible frozen benchmark names/source_name/verified aliases, restricted to the same document for local identities. No fuzzy matching, parent/subtechnique collapse, actor qualifier removal, or newly invented aliases. Otherwise retain saved canonical resolution or a deterministic unresolved typed name. Preserve the alignment decisions and system IDs.",
+  "true_positive": "Exact source-scoped head/predicate/tail identity match with a literal valid evidence span and valid inherited caption context. Preserve source scope so one advisory cannot supply another advisory's technique mapping.",
+  "duplicates": "Deduplicate identical canonical triples within the same annotated scope, consistent with the existing set-based scorer. Retain occurrence counts, raw failures, and cross-window duplication diagnostics.",
+  "metrics": "Sum TP, FP and FN across complete scopes. Precision=TP/(TP+FP), recall=TP/(TP+FN), harmonic F1. Undefined denominators remain null. Report per-document and per-scope outcomes, missed gold IDs, wrong predictions, mapping coverage, and both strict and normalized sensitivity results.",
+  "comparison": "Also preserve the existing score_triples.score aggregate as an explicitly scope-collapsing diagnostic; the main result preserves each advisory/scope. Fused ATT&CK reference assertions and post-review accept/reject decisions are not scoring inputs.",
+  "disclosure": "This alignment protocol is documented after collection and before numeric extraction metrics are computed. Original 146 gold records and their verification statuses are not edited. Four-relation/window limits, bounded typed mention choices, overlap with development, source qualifications, and unannotated-population exclusions remain limitations."
+}

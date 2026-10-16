@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:55:29.4593029Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2769523900,
+  "load_duration": 11564100,
+  "prompt_eval_count": 1367,
+  "prompt_eval_duration": 334854000,
+  "eval_count": 183,
+  "eval_duration": 2340941000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1567.002 (Exfiltration to Cloud Storage).\",\n            \"reason\": \"There is no mention about T1567.002 in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1021 (Restrict Web-Based Content).\",\n            \"reason\": \"There is no mention about M1021 in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

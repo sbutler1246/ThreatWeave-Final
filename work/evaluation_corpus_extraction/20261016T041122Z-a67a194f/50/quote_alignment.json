@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u001"
+    ],
+    "selected_units": [
+      {
+        "start": 0,
+        "end": 162,
+        "text": "1003.003].11 Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068].",
+        "line_start": 0
+      }
+    ],
+    "document_start": 10612,
+    "document_end": 10774,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u005"
+    ],
+    "selected_units": [
+      {
+        "start": 213,
+        "end": 320,
+        "text": "To pivot laterally, Akira threat actors use legitimate remote access tools like AnyDesk or LogMeIn [T1219].",
+        "line_start": 213
+      }
+    ],
+    "document_start": 10825,
+    "document_end": 10932,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u017"
+    ],
+    "selected_units": [
+      {
+        "start": 1176,
+        "end": 1337,
+        "text": "The authoring organizations observed Akira threat actors establishing command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572]",
+        "line_start": 1176
+      }
+    ],
+    "document_start": 11788,
+    "document_end": 11949,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u022"
+    ],
+    "selected_units": [
+      {
+        "start": 1586,
+        "end": 1727,
+        "text": "Akira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001] and WinSCP and RClone to exfiltrate data [T1048].",
+        "line_start": 1586
+      }
+    ],
+    "document_start": 12198,
+    "document_end": 12339,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

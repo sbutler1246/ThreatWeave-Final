@@ -1,0 +1,568 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1566.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1566.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Ngrok",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1059.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "cmd.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1059.005",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1569.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "PSEXESVC.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1098",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1136.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1136.002",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m002_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1566.001",
+      "type": "Technique",
+      "attack_id": "T1566.001"
+    },
+    "m005_T": {
+      "name": "T1566.002",
+      "type": "Technique",
+      "attack_id": "T1566.002"
+    },
+    "m006_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m007_S": {
+      "name": "Ngrok",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1059.003",
+      "type": "Technique",
+      "attack_id": "T1059.003"
+    },
+    "m010_S": {
+      "name": "cmd.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_T": {
+      "name": "T1059.005",
+      "type": "Technique",
+      "attack_id": "T1059.005"
+    },
+    "m012_T": {
+      "name": "T1569.002",
+      "type": "Technique",
+      "attack_id": "T1569.002"
+    },
+    "m013_S": {
+      "name": "PSEXESVC.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1098",
+      "type": "Technique",
+      "attack_id": "T1098"
+    },
+    "m015_T": {
+      "name": "T1136.001",
+      "type": "Technique",
+      "attack_id": "T1136.001"
+    },
+    "m016_T": {
+      "name": "T1136.002",
+      "type": "Technique",
+      "attack_id": "T1136.002"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 98,
+      "text": "threat actors use remote access services, such as RDP or VPN connections, to gain initial access.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 99,
+      "end": 132,
+      "text": "Exploit Public Facing Application",
+      "line_start": 99
+    },
+    "u003": {
+      "start": 133,
+      "end": 138,
+      "text": "T1190",
+      "line_start": 133
+    },
+    "u004": {
+      "start": 139,
+      "end": 236,
+      "text": "Akira threat actors exploit vulnerabilities in internet-facing systems to gain access to systems.",
+      "line_start": 139
+    },
+    "u005": {
+      "start": 237,
+      "end": 271,
+      "text": "Phishing: Spearphishing Attachment",
+      "line_start": 237
+    },
+    "u006": {
+      "start": 272,
+      "end": 281,
+      "text": "T1566.001",
+      "line_start": 272
+    },
+    "u007": {
+      "start": 282,
+      "end": 376,
+      "text": "Akira threat actors use phishing emails with malicious attachments to gain access to networks.",
+      "line_start": 282
+    },
+    "u008": {
+      "start": 377,
+      "end": 405,
+      "text": "Phishing: Spearphishing Link",
+      "line_start": 377
+    },
+    "u009": {
+      "start": 406,
+      "end": 415,
+      "text": "T1566.002",
+      "line_start": 406
+    },
+    "u010": {
+      "start": 416,
+      "end": 504,
+      "text": "Akira threat actors use phishing emails with malicious links to gain access to networks.",
+      "line_start": 416
+    },
+    "u011": {
+      "start": 505,
+      "end": 514,
+      "text": "Table 11.",
+      "line_start": 505
+    },
+    "u012": {
+      "start": 515,
+      "end": 524,
+      "text": "Execution",
+      "line_start": 505
+    },
+    "u013": {
+      "start": 525,
+      "end": 540,
+      "text": "Technique Title",
+      "line_start": 525
+    },
+    "u014": {
+      "start": 541,
+      "end": 543,
+      "text": "ID",
+      "line_start": 541
+    },
+    "u015": {
+      "start": 544,
+      "end": 547,
+      "text": "Use",
+      "line_start": 544
+    },
+    "u016": {
+      "start": 548,
+      "end": 568,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 548
+    },
+    "u017": {
+      "start": 569,
+      "end": 614,
+      "text": "Command and Scripting Interpreter: PowerShell",
+      "line_start": 569
+    },
+    "u018": {
+      "start": 615,
+      "end": 624,
+      "text": "T1059.001",
+      "line_start": 615
+    },
+    "u019": {
+      "start": 625,
+      "end": 858,
+      "text": "Akira threat actors use PowerShell to execute malicious scripts and Living Off the Land Binary (LOLBin) commands for execution, persistence, credential harvesting, lateral movement, and disabling security controls to evade detection.",
+      "line_start": 625
+    },
+    "u020": {
+      "start": 859,
+      "end": 1004,
+      "text": "After using Ngrok to establish encrypted sessions, Akira threat actors use PowerShell and WMIC to disable services and execute malicious scripts.",
+      "line_start": 859
+    },
+    "u021": {
+      "start": 1005,
+      "end": 1194,
+      "text": "Akira threat actors use commercial penetration testing tools, namely Cobalt Strike, during their operations to achieve lateral movement, perform C2 procedures, and gain elevated privileges.",
+      "line_start": 1005
+    },
+    "u022": {
+      "start": 1195,
+      "end": 1205,
+      "text": "End Update",
+      "line_start": 1195
+    },
+    "u023": {
+      "start": 1206,
+      "end": 1262,
+      "text": "Command and Scripting Interpreter: Windows Command Shell",
+      "line_start": 1206
+    },
+    "u024": {
+      "start": 1263,
+      "end": 1272,
+      "text": "T1059.003",
+      "line_start": 1263
+    },
+    "u025": {
+      "start": 1273,
+      "end": 1479,
+      "text": "Akira threat actors use the Windows command shell (cmd.exe) to run batch scripts and native commands for execution, persistence, lateral movement, and to disable or manipulate security controls for evasion.",
+      "line_start": 1273
+    },
+    "u026": {
+      "start": 1480,
+      "end": 1500,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1480
+    },
+    "u027": {
+      "start": 1501,
+      "end": 1548,
+      "text": "Command and Scripting Interpreter: Visual Basic",
+      "line_start": 1501
+    },
+    "u028": {
+      "start": 1549,
+      "end": 1558,
+      "text": "T1059.005",
+      "line_start": 1549
+    },
+    "u029": {
+      "start": 1559,
+      "end": 1724,
+      "text": "Akira threat actors use VB scripts to execute malicious code, deploy ransomware payloads, or establish persistence through legitimate Windows scripting capabilities.",
+      "line_start": 1559
+    },
+    "u030": {
+      "start": 1725,
+      "end": 1759,
+      "text": "System Services: Service Execution",
+      "line_start": 1725
+    },
+    "u031": {
+      "start": 1760,
+      "end": 1769,
+      "text": "T1569.002",
+      "line_start": 1760
+    },
+    "u032": {
+      "start": 1770,
+      "end": 1859,
+      "text": "Akira threat actors use PSEXESVC.exe to enable remote code execution and deploy payloads.",
+      "line_start": 1770
+    },
+    "u033": {
+      "start": 1860,
+      "end": 1870,
+      "text": "End Update",
+      "line_start": 1860
+    },
+    "u034": {
+      "start": 1871,
+      "end": 1880,
+      "text": "Table 12.",
+      "line_start": 1871
+    },
+    "u035": {
+      "start": 1881,
+      "end": 1892,
+      "text": "Persistence",
+      "line_start": 1871
+    },
+    "u036": {
+      "start": 1893,
+      "end": 1908,
+      "text": "Technique Title",
+      "line_start": 1893
+    },
+    "u037": {
+      "start": 1909,
+      "end": 1911,
+      "text": "ID",
+      "line_start": 1909
+    },
+    "u038": {
+      "start": 1912,
+      "end": 1915,
+      "text": "Use",
+      "line_start": 1912
+    },
+    "u039": {
+      "start": 1916,
+      "end": 1936,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1916
+    },
+    "u040": {
+      "start": 1937,
+      "end": 1957,
+      "text": "Account Manipulation",
+      "line_start": 1937
+    },
+    "u041": {
+      "start": 1958,
+      "end": 1963,
+      "text": "T1098",
+      "line_start": 1958
+    },
+    "u042": {
+      "start": 1964,
+      "end": 2009,
+      "text": "Akira threat actors modify account passwords.",
+      "line_start": 1964
+    },
+    "u043": {
+      "start": 2010,
+      "end": 2039,
+      "text": "Create Account: Local Account",
+      "line_start": 2010
+    },
+    "u044": {
+      "start": 2040,
+      "end": 2049,
+      "text": "T1136.001",
+      "line_start": 2040
+    },
+    "u045": {
+      "start": 2050,
+      "end": 2172,
+      "text": "Akira threat actors can create local user accounts by adding them to local admin groups to establish persistent backdoors.",
+      "line_start": 2050
+    },
+    "u046": {
+      "start": 2173,
+      "end": 2183,
+      "text": "End Update",
+      "line_start": 2173
+    },
+    "u047": {
+      "start": 2184,
+      "end": 2214,
+      "text": "Create Account: Domain Account",
+      "line_start": 2184
+    },
+    "u048": {
+      "start": 2215,
+      "end": 2224,
+      "text": "T1136.002",
+      "line_start": 2215
+    },
+    "u049": {
+      "start": 2225,
+      "end": 2355,
+      "text": "Akira threat actors attempt to abuse the functions of domain controllers by creating new domain accounts to establish persistence.",
+      "line_start": 2225
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1190",
+    "m002_S": "attack:S1129",
+    "m003_G": "local:ThreatGroup:akira threat actors",
+    "m004_T": "attack:T1566.001",
+    "m005_T": "attack:T1566.002",
+    "m006_T": "attack:T1059.001",
+    "m007_S": "attack:S0508",
+    "m008_S": "attack:S0154",
+    "m009_T": "attack:T1059.003",
+    "m010_S": "attack:S0106",
+    "m011_T": "attack:T1059.005",
+    "m012_T": "attack:T1569.002",
+    "m013_S": "local:Software:psexesvc.exe",
+    "m014_T": "attack:T1098",
+    "m015_T": "attack:T1136.001",
+    "m016_T": "attack:T1136.002"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m010_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u032"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m013_S"
+      ]
+    }
+  ]
+}

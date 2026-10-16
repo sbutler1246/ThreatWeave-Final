@@ -1,0 +1,15 @@
+{
+  "status": "import_complete",
+  "scope_count": 48,
+  "target_entity_count": 91,
+  "verified_assertion_count": 118,
+  "factual_relationship_count": 99,
+  "excluded_candidate_count": 78,
+  "transaction_seconds": 2.0286991999892052,
+  "verified_assertions_per_second": 58.16535048696617,
+  "timing_scope": "execute_write including conflict checks, verification and any driver retries; preparation/connectivity excluded",
+  "database": "neo4j",
+  "human_review_status": "pending",
+  "review_manifest_sha256": "fe08c2c9059e6fd3069512f40f31b1a75920499bb4dec4a2143d03cdcde3964a",
+  "completed_at": "2026-10-16T04:28:06.082847+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "task": {
+    "task_id": "r1-Q001-hybrid_no_node2vec--faithfulness",
+    "case_id": "r1-Q001-hybrid_no_node2vec",
+    "metric": "faithfulness",
+    "eligible": false
+  },
+  "input_sha256": "5d394092823e529fa6e43ec1272a022de77da10b98d02900b589bc60908810e7",
+  "status": "unavailable_answer",
+  "value": null,
+  "reason": "Original generation failed; no valid response exists.",
+  "judge_calls": 0,
+  "elapsed_ms": 0.008000002708286047,
+  "files_sha256": {
+    "input.json": "5750d09ec7a55dad2159dd5649cf0efe368865cd171aee163f920eded3363509",
+    "result.json": "e201783a76535acfc7d4324e5b036e1027a2082e798bfa7d9749fcf30e6c792c"
+  }
+}

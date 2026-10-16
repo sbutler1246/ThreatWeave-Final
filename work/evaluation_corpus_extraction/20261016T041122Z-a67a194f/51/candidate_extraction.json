@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Akira threat actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "Ngrok",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1090",
+      "attack_id": "T1090"
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "Akira",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1090.003",
+      "attack_id": "T1090.003"
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1573.002",
+      "attack_id": "T1573.002"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 159,
+        "end": 263,
+        "quote": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 159,
+        "end": 263,
+        "quote": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e4",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 455,
+        "end": 649,
+        "quote": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e4",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 455,
+        "end": 649,
+        "quote": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002]."
+      },
+      "confidence": null
+    }
+  ]
+}

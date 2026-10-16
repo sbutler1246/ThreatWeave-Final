@@ -1,0 +1,48 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u040"
+    ],
+    "selected_units": [
+      {
+        "start": 2412,
+        "end": 2515,
+        "text": "Black Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.",
+        "line_start": 2412
+      }
+    ],
+    "document_start": 15219,
+    "document_end": 15322,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u028"
+    ],
+    "selected_units": [
+      {
+        "start": 2031,
+        "end": 2088,
+        "text": "Table 2: Black Basta ATT&CK Techniques for Initial Access",
+        "line_start": 2031
+      }
+    ],
+    "document_start": 14838,
+    "document_end": 14895,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 12459,
+        "end": 12504,
+        "text": "Table 1: Tools Used by Black Basta Affiliates"
+      }
+    ],
+    "review_flags": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:03:04.6842187Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 645519000,
+  "load_duration": 10691200,
+  "prompt_eval_count": 444,
+  "prompt_eval_duration": 89730000,
+  "eval_count": 28,
+  "eval_duration": 341485000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"How can LockBit affiliates' activity be mitigated?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

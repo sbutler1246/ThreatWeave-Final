@@ -1,0 +1,554 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Black Basta",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Black Basta affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Backstab",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1204",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "AnyDesk",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Microsoft’s Quick Assist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Quick Assist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "vssadmin.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m002_S": {
+      "name": "Black Basta",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Black Basta affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Backstab",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1204",
+      "type": "Technique",
+      "attack_id": "T1204"
+    },
+    "m006_S": {
+      "name": "AnyDesk",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "Microsoft’s Quick Assist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "Quick Assist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m010_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m011_S": {
+      "name": "vssadmin.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m013_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 26,
+      "text": "Dell, to evade detection.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 27,
+      "end": 67,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 27
+    },
+    "u003": {
+      "start": 68,
+      "end": 77,
+      "text": "T1562.001",
+      "line_start": 68
+    },
+    "u004": {
+      "start": 78,
+      "end": 195,
+      "text": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.",
+      "line_start": 78
+    },
+    "u005": {
+      "start": 196,
+      "end": 270,
+      "text": "Black Basta affiliates have used PowerShell to disable antivirus products.",
+      "line_start": 196
+    },
+    "u006": {
+      "start": 271,
+      "end": 323,
+      "text": "Table 5: Black Basta ATT&CK Techniques for Execution",
+      "line_start": 271
+    },
+    "u007": {
+      "start": 324,
+      "end": 339,
+      "text": "Technique Title",
+      "line_start": 324
+    },
+    "u008": {
+      "start": 340,
+      "end": 342,
+      "text": "ID",
+      "line_start": 340
+    },
+    "u009": {
+      "start": 343,
+      "end": 346,
+      "text": "Use",
+      "line_start": 343
+    },
+    "u010": {
+      "start": 347,
+      "end": 361,
+      "text": "User Execution",
+      "line_start": 347
+    },
+    "u011": {
+      "start": 362,
+      "end": 367,
+      "text": "T1204",
+      "line_start": 362
+    },
+    "u012": {
+      "start": 368,
+      "end": 536,
+      "text": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+      "line_start": 368
+    },
+    "u013": {
+      "start": 537,
+      "end": 582,
+      "text": "Command and Scripting Interpreter: PowerShell",
+      "line_start": 537
+    },
+    "u014": {
+      "start": 583,
+      "end": 592,
+      "text": "T1059.001",
+      "line_start": 583
+    },
+    "u015": {
+      "start": 593,
+      "end": 667,
+      "text": "Black Basta affiliates have used PowerShell to disable antivirus products.",
+      "line_start": 593
+    },
+    "u016": {
+      "start": 668,
+      "end": 717,
+      "text": "Table 6: Black Basta ATT&CK Techniques for Impact",
+      "line_start": 668
+    },
+    "u017": {
+      "start": 718,
+      "end": 733,
+      "text": "Technique Title",
+      "line_start": 718
+    },
+    "u018": {
+      "start": 734,
+      "end": 736,
+      "text": "ID",
+      "line_start": 734
+    },
+    "u019": {
+      "start": 737,
+      "end": 740,
+      "text": "Use",
+      "line_start": 737
+    },
+    "u020": {
+      "start": 741,
+      "end": 764,
+      "text": "Inhibit System Recovery",
+      "line_start": 741
+    },
+    "u021": {
+      "start": 765,
+      "end": 770,
+      "text": "T1490",
+      "line_start": 765
+    },
+    "u022": {
+      "start": 771,
+      "end": 853,
+      "text": "Black Basta affiliates have used the vssadmin.exe program to delete shadow copies.",
+      "line_start": 771
+    },
+    "u023": {
+      "start": 854,
+      "end": 879,
+      "text": "Data Encrypted for Impact",
+      "line_start": 854
+    },
+    "u024": {
+      "start": 880,
+      "end": 885,
+      "text": "T1486",
+      "line_start": 880
+    },
+    "u025": {
+      "start": 886,
+      "end": 955,
+      "text": "Black Basta affiliates have used a public key to fully encrypt files.",
+      "line_start": 886
+    },
+    "u026": {
+      "start": 956,
+      "end": 980,
+      "text": "Indicators of Compromise",
+      "line_start": 956
+    },
+    "u027": {
+      "start": 981,
+      "end": 1005,
+      "text": "Update November 8, 2024:",
+      "line_start": 981
+    },
+    "u028": {
+      "start": 1006,
+      "end": 1118,
+      "text": "Many indicators provided in this advisory’s initial publication have been removed considering they are outdated.",
+      "line_start": 1006
+    },
+    "u029": {
+      "start": 1119,
+      "end": 1204,
+      "text": "For historic reference, see AA24-131A #StopRansomware: Black Basta (Initial Version).",
+      "line_start": 1006
+    },
+    "u030": {
+      "start": 1205,
+      "end": 1316,
+      "text": "The IOCs listed in Tables 7–8 were obtained from trusted third-party reporting and are considered most current.",
+      "line_start": 1205
+    },
+    "u031": {
+      "start": 1317,
+      "end": 1576,
+      "text": "Disclaimer: The authoring organizations recommend network defenders investigate or vet IP addresses prior to taking action, such as blocking, as many cyber actors are known to change IP addresses, sometimes daily, and some IP addresses may host valid domains.",
+      "line_start": 1317
+    },
+    "u032": {
+      "start": 1577,
+      "end": 1604,
+      "text": "Table 7: Network Indicators",
+      "line_start": 1577
+    },
+    "u033": {
+      "start": 1605,
+      "end": 1615,
+      "text": "IP Address",
+      "line_start": 1605
+    },
+    "u034": {
+      "start": 1616,
+      "end": 1626,
+      "text": "First Seen",
+      "line_start": 1616
+    },
+    "u035": {
+      "start": 1627,
+      "end": 1638,
+      "text": "Description",
+      "line_start": 1627
+    },
+    "u036": {
+      "start": 1639,
+      "end": 1655,
+      "text": "170.130.165[.]73",
+      "line_start": 1639
+    },
+    "u037": {
+      "start": 1656,
+      "end": 1672,
+      "text": "October 14, 2024",
+      "line_start": 1656
+    },
+    "u038": {
+      "start": 1673,
+      "end": 1708,
+      "text": "Likely Cobalt Strike infrastructure",
+      "line_start": 1673
+    },
+    "u039": {
+      "start": 1709,
+      "end": 1723,
+      "text": "45.11.181[.]44",
+      "line_start": 1709
+    },
+    "u040": {
+      "start": 1724,
+      "end": 1740,
+      "text": "October 24, 2024",
+      "line_start": 1724
+    },
+    "u041": {
+      "start": 1741,
+      "end": 1776,
+      "text": "Likely Cobalt Strike infrastructure",
+      "line_start": 1741
+    },
+    "u042": {
+      "start": 1777,
+      "end": 1791,
+      "text": "66.42.118[.]54",
+      "line_start": 1777
+    },
+    "u043": {
+      "start": 1792,
+      "end": 1808,
+      "text": "October 15, 2024",
+      "line_start": 1792
+    },
+    "u044": {
+      "start": 1809,
+      "end": 1828,
+      "text": "Exfiltration server",
+      "line_start": 1809
+    },
+    "u045": {
+      "start": 1829,
+      "end": 1845,
+      "text": "79.132.130[.]211",
+      "line_start": 1829
+    },
+    "u046": {
+      "start": 1846,
+      "end": 1862,
+      "text": "October 24, 2024",
+      "line_start": 1846
+    },
+    "u047": {
+      "start": 1863,
+      "end": 1898,
+      "text": "Likely Cobalt Strike infrastructure",
+      "line_start": 1863
+    },
+    "u048": {
+      "start": 1899,
+      "end": 1951,
+      "text": "Table 8: Suspected Black Basta Cobalt Strike Domains",
+      "line_start": 1899
+    },
+    "u049": {
+      "start": 1952,
+      "end": 1958,
+      "text": "Domain",
+      "line_start": 1952
+    },
+    "u050": {
+      "start": 1959,
+      "end": 1969,
+      "text": "First Seen",
+      "line_start": 1959
+    },
+    "u051": {
+      "start": 1970,
+      "end": 1983,
+      "text": "Moereng[.]com",
+      "line_start": 1970
+    },
+    "u052": {
+      "start": 1984,
+      "end": 1999,
+      "text": "October 9, 2024",
+      "line_start": 1984
+    },
+    "u053": {
+      "start": 2000,
+      "end": 2014,
+      "text": "Exckicks[.]com",
+      "line_start": 2000
+    },
+    "u054": {
+      "start": 2015,
+      "end": 2030,
+      "text": "October 2, 2024",
+      "line_start": 2015
+    },
+    "u055": {
+      "start": 2031,
+      "end": 2041,
+      "text": "Update End",
+      "line_start": 2031
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1562.001",
+    "m002_S": "attack:S1070",
+    "m003_G": "local:ThreatGroup:black basta affiliates",
+    "m004_S": "local:Software:backstab",
+    "m005_T": "attack:T1204",
+    "m006_S": "local:Software:anydesk",
+    "m007_S": "local:Software:microsoft’s quick assist",
+    "m008_S": "attack:S1209",
+    "m009_T": "attack:T1059.001",
+    "m010_T": "attack:T1490",
+    "m011_S": "local:Software:vssadmin.exe",
+    "m012_T": "attack:T1486",
+    "m013_S": "attack:S0154"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S",
+        "m007_S",
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    }
+  ]
+}

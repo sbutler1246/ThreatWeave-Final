@@ -1,0 +1,122 @@
+[
+  {
+    "mode": "text_only",
+    "dimension": "factuality",
+    "denominator": 20,
+    "numeric_count": 18,
+    "mean": 2.9444444444444446,
+    "median": 3.0,
+    "failed_count": 2,
+    "abstained_count": 0
+  },
+  {
+    "mode": "text_only",
+    "dimension": "completeness",
+    "denominator": 20,
+    "numeric_count": 18,
+    "mean": 1.8888888888888888,
+    "median": 2.0,
+    "failed_count": 2,
+    "abstained_count": 0
+  },
+  {
+    "mode": "text_only",
+    "dimension": "coherence",
+    "denominator": 20,
+    "numeric_count": 18,
+    "mean": 3.8333333333333335,
+    "median": 4.0,
+    "failed_count": 2,
+    "abstained_count": 0
+  },
+  {
+    "mode": "graph_only",
+    "dimension": "factuality",
+    "denominator": 20,
+    "numeric_count": 20,
+    "mean": 3.5,
+    "median": 3.5,
+    "failed_count": 0,
+    "abstained_count": 5
+  },
+  {
+    "mode": "graph_only",
+    "dimension": "completeness",
+    "denominator": 20,
+    "numeric_count": 20,
+    "mean": 1.9,
+    "median": 2.0,
+    "failed_count": 0,
+    "abstained_count": 5
+  },
+  {
+    "mode": "graph_only",
+    "dimension": "coherence",
+    "denominator": 20,
+    "numeric_count": 20,
+    "mean": 4,
+    "median": 4.0,
+    "failed_count": 0,
+    "abstained_count": 5
+  },
+  {
+    "mode": "hybrid_no_node2vec",
+    "dimension": "factuality",
+    "denominator": 20,
+    "numeric_count": 17,
+    "mean": 3.5294117647058822,
+    "median": 4,
+    "failed_count": 3,
+    "abstained_count": 0
+  },
+  {
+    "mode": "hybrid_no_node2vec",
+    "dimension": "completeness",
+    "denominator": 20,
+    "numeric_count": 17,
+    "mean": 2,
+    "median": 2,
+    "failed_count": 3,
+    "abstained_count": 0
+  },
+  {
+    "mode": "hybrid_no_node2vec",
+    "dimension": "coherence",
+    "denominator": 20,
+    "numeric_count": 17,
+    "mean": 3.8823529411764706,
+    "median": 4,
+    "failed_count": 3,
+    "abstained_count": 0
+  },
+  {
+    "mode": "hybrid",
+    "dimension": "factuality",
+    "denominator": 20,
+    "numeric_count": 20,
+    "mean": 3.35,
+    "median": 4.0,
+    "failed_count": 0,
+    "abstained_count": 0
+  },
+  {
+    "mode": "hybrid",
+    "dimension": "completeness",
+    "denominator": 20,
+    "numeric_count": 20,
+    "mean": 2,
+    "median": 2.0,
+    "failed_count": 0,
+    "abstained_count": 0
+  },
+  {
+    "mode": "hybrid",
+    "dimension": "coherence",
+    "denominator": 20,
+    "numeric_count": 20,
+    "mean": 3.9,
+    "median": 4.0,
+    "failed_count": 0,
+    "abstained_count": 0
+  }
+]

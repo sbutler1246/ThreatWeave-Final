@@ -1,0 +1,537 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Group Policy",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Group Policy",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 2,
+      "text": "1",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 3,
+      "end": 53,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender",
+      "line_start": 3
+    },
+    "u003": {
+      "start": 54,
+      "end": 83,
+      "text": "DisableRoutinelyTa kingAction",
+      "line_start": 54
+    },
+    "u004": {
+      "start": 84,
+      "end": 94,
+      "text": "REG_D WORD",
+      "line_start": 84
+    },
+    "u005": {
+      "start": 95,
+      "end": 96,
+      "text": "1",
+      "line_start": 95
+    },
+    "u006": {
+      "start": 97,
+      "end": 168,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Real-Time Protection",
+      "line_start": 97
+    },
+    "u007": {
+      "start": 169,
+      "end": 195,
+      "text": "DisableRealtimeMon itoring",
+      "line_start": 169
+    },
+    "u008": {
+      "start": 196,
+      "end": 206,
+      "text": "REG_D WORD",
+      "line_start": 196
+    },
+    "u009": {
+      "start": 207,
+      "end": 208,
+      "text": "1",
+      "line_start": 207
+    },
+    "u010": {
+      "start": 209,
+      "end": 280,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Real-Time Protection",
+      "line_start": 209
+    },
+    "u011": {
+      "start": 281,
+      "end": 307,
+      "text": "DisableBehaviorMon itoring",
+      "line_start": 281
+    },
+    "u012": {
+      "start": 308,
+      "end": 318,
+      "text": "REG_D WORD",
+      "line_start": 308
+    },
+    "u013": {
+      "start": 319,
+      "end": 320,
+      "text": "1",
+      "line_start": 319
+    },
+    "u014": {
+      "start": 321,
+      "end": 378,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Spynet",
+      "line_start": 321
+    },
+    "u015": {
+      "start": 379,
+      "end": 400,
+      "text": "SubmitSamplesConse nt",
+      "line_start": 379
+    },
+    "u016": {
+      "start": 401,
+      "end": 411,
+      "text": "REG_D WORD",
+      "line_start": 401
+    },
+    "u017": {
+      "start": 412,
+      "end": 413,
+      "text": "2",
+      "line_start": 412
+    },
+    "u018": {
+      "start": 414,
+      "end": 471,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window s Defender\\Spynet",
+      "line_start": 414
+    },
+    "u019": {
+      "start": 472,
+      "end": 487,
+      "text": "SpynetReporting",
+      "line_start": 472
+    },
+    "u020": {
+      "start": 488,
+      "end": 498,
+      "text": "REG_D WORD",
+      "line_start": 488
+    },
+    "u021": {
+      "start": 499,
+      "end": 500,
+      "text": "0",
+      "line_start": 499
+    },
+    "u022": {
+      "start": 501,
+      "end": 564,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window sFirewall\\DomainProfile",
+      "line_start": 501
+    },
+    "u023": {
+      "start": 565,
+      "end": 579,
+      "text": "EnableFirewall",
+      "line_start": 565
+    },
+    "u024": {
+      "start": 580,
+      "end": 590,
+      "text": "REG_D WORD",
+      "line_start": 580
+    },
+    "u025": {
+      "start": 591,
+      "end": 592,
+      "text": "0",
+      "line_start": 591
+    },
+    "u026": {
+      "start": 593,
+      "end": 658,
+      "text": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Window sFirewall\\StandardProfile",
+      "line_start": 593
+    },
+    "u027": {
+      "start": 659,
+      "end": 673,
+      "text": "EnableFirewall",
+      "line_start": 659
+    },
+    "u028": {
+      "start": 674,
+      "end": 684,
+      "text": "REG_D WORD",
+      "line_start": 674
+    },
+    "u029": {
+      "start": 685,
+      "end": 686,
+      "text": "0",
+      "line_start": 685
+    },
+    "u030": {
+      "start": 687,
+      "end": 701,
+      "text": "Force GPUpdate",
+      "line_start": 687
+    },
+    "u031": {
+      "start": 702,
+      "end": 866,
+      "text": "Once new group policies are added, a PowerShell command using Group Policy update (GPUpdate) applies the new group policy changes to all computers on the AD domain.",
+      "line_start": 702
+    },
+    "u032": {
+      "start": 867,
+      "end": 900,
+      "text": "Force GPUpdate Powershell Command",
+      "line_start": 867
+    },
+    "u033": {
+      "start": 901,
+      "end": 1039,
+      "text": "powershell Get-ADComputer -filter * -Searchbase '%s' | Foreach-Object { Invoke- GPUpdate -computer $_.name -force -RandomDelayInMinutes 0}",
+      "line_start": 901
+    },
+    "u034": {
+      "start": 1040,
+      "end": 1055,
+      "text": "Services Killed",
+      "line_start": 1040
+    },
+    "u035": {
+      "start": 1056,
+      "end": 1059,
+      "text": "vss",
+      "line_start": 1056
+    },
+    "u036": {
+      "start": 1060,
+      "end": 1063,
+      "text": "sql",
+      "line_start": 1060
+    },
+    "u037": {
+      "start": 1064,
+      "end": 1068,
+      "text": "svc$",
+      "line_start": 1064
+    },
+    "u038": {
+      "start": 1069,
+      "end": 1075,
+      "text": "memtas",
+      "line_start": 1069
+    },
+    "u039": {
+      "start": 1076,
+      "end": 1082,
+      "text": "mepocs",
+      "line_start": 1076
+    },
+    "u040": {
+      "start": 1083,
+      "end": 1093,
+      "text": "msexchange",
+      "line_start": 1083
+    },
+    "u041": {
+      "start": 1094,
+      "end": 1100,
+      "text": "sophos",
+      "line_start": 1094
+    },
+    "u042": {
+      "start": 1101,
+      "end": 1106,
+      "text": "veeam",
+      "line_start": 1101
+    },
+    "u043": {
+      "start": 1107,
+      "end": 1113,
+      "text": "backup",
+      "line_start": 1107
+    },
+    "u044": {
+      "start": 1114,
+      "end": 1119,
+      "text": "GxVss",
+      "line_start": 1114
+    },
+    "u045": {
+      "start": 1120,
+      "end": 1125,
+      "text": "GxBlr",
+      "line_start": 1120
+    },
+    "u046": {
+      "start": 1126,
+      "end": 1131,
+      "text": "GxFWD",
+      "line_start": 1126
+    },
+    "u047": {
+      "start": 1132,
+      "end": 1137,
+      "text": "GxCVD",
+      "line_start": 1132
+    },
+    "u048": {
+      "start": 1138,
+      "end": 1145,
+      "text": "GxCIMgr",
+      "line_start": 1138
+    },
+    "u049": {
+      "start": 1146,
+      "end": 1162,
+      "text": "Processes Killed",
+      "line_start": 1146
+    },
+    "u050": {
+      "start": 1163,
+      "end": 1166,
+      "text": "sql",
+      "line_start": 1163
+    },
+    "u051": {
+      "start": 1167,
+      "end": 1173,
+      "text": "oracle",
+      "line_start": 1167
+    },
+    "u052": {
+      "start": 1174,
+      "end": 1179,
+      "text": "ocssd",
+      "line_start": 1174
+    },
+    "u053": {
+      "start": 1180,
+      "end": 1186,
+      "text": "dbsnmp",
+      "line_start": 1180
+    },
+    "u054": {
+      "start": 1187,
+      "end": 1195,
+      "text": "synctime",
+      "line_start": 1187
+    },
+    "u055": {
+      "start": 1196,
+      "end": 1203,
+      "text": "agntsvc",
+      "line_start": 1196
+    },
+    "u056": {
+      "start": 1204,
+      "end": 1215,
+      "text": "isqlplussvc",
+      "line_start": 1204
+    },
+    "u057": {
+      "start": 1216,
+      "end": 1225,
+      "text": "xfssvccon",
+      "line_start": 1216
+    },
+    "u058": {
+      "start": 1226,
+      "end": 1242,
+      "text": "mydesktopservice",
+      "line_start": 1226
+    },
+    "u059": {
+      "start": 1243,
+      "end": 1253,
+      "text": "ocautoupds",
+      "line_start": 1243
+    },
+    "u060": {
+      "start": 1254,
+      "end": 1260,
+      "text": "encsvc",
+      "line_start": 1254
+    },
+    "u061": {
+      "start": 1261,
+      "end": 1268,
+      "text": "firefox",
+      "line_start": 1261
+    },
+    "u062": {
+      "start": 1269,
+      "end": 1280,
+      "text": "tbirdconfig",
+      "line_start": 1269
+    },
+    "u063": {
+      "start": 1281,
+      "end": 1293,
+      "text": "mydesktopqos",
+      "line_start": 1281
+    },
+    "u064": {
+      "start": 1294,
+      "end": 1299,
+      "text": "ocomm",
+      "line_start": 1294
+    },
+    "u065": {
+      "start": 1300,
+      "end": 1307,
+      "text": "dbeng50",
+      "line_start": 1300
+    },
+    "u066": {
+      "start": 1308,
+      "end": 1322,
+      "text": "sqbcoreservice",
+      "line_start": 1308
+    },
+    "u067": {
+      "start": 1323,
+      "end": 1328,
+      "text": "excel",
+      "line_start": 1323
+    },
+    "u068": {
+      "start": 1329,
+      "end": 1337,
+      "text": "infopath",
+      "line_start": 1329
+    },
+    "u069": {
+      "start": 1338,
+      "end": 1346,
+      "text": "msaccess",
+      "line_start": 1338
+    },
+    "u070": {
+      "start": 1347,
+      "end": 1351,
+      "text": "mspu",
+      "line_start": 1347
+    },
+    "u071": {
+      "start": 1352,
+      "end": 1359,
+      "text": "onenote",
+      "line_start": 1352
+    },
+    "u072": {
+      "start": 1360,
+      "end": 1367,
+      "text": "outlook",
+      "line_start": 1360
+    },
+    "u073": {
+      "start": 1368,
+      "end": 1376,
+      "text": "powerpnt",
+      "line_start": 1368
+    },
+    "u074": {
+      "start": 1377,
+      "end": 1382,
+      "text": "steam",
+      "line_start": 1377
+    },
+    "u075": {
+      "start": 1383,
+      "end": 1389,
+      "text": "thebat",
+      "line_start": 1383
+    },
+    "u076": {
+      "start": 1390,
+      "end": 1401,
+      "text": "thunderbird",
+      "line_start": 1390
+    },
+    "u077": {
+      "start": 1402,
+      "end": 1407,
+      "text": "visio",
+      "line_start": 1402
+    },
+    "u078": {
+      "start": 1408,
+      "end": 1415,
+      "text": "winword",
+      "line_start": 1408
+    },
+    "u079": {
+      "start": 1416,
+      "end": 1423,
+      "text": "wordpad",
+      "line_start": 1416
+    },
+    "u080": {
+      "start": 1424,
+      "end": 1431,
+      "text": "notepad",
+      "line_start": 1424
+    },
+    "u081": {
+      "start": 1432,
+      "end": 1455,
+      "text": "LockBit 3.0 Ransom Note",
+      "line_start": 1432
+    },
+    "u082": {
+      "start": 1456,
+      "end": 1531,
+      "text": "~~~ LockBit 3.0 the world's fastest and most stable ransomware from 2019~~~",
+      "line_start": 1456
+    },
+    "u083": {
+      "start": 1532,
+      "end": 1572,
+      "text": ">>>>> Your data is stolen and encrypted.",
+      "line_start": 1532
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:group policy",
+    "m002_S": "attack:S1202"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,519 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LaZagne",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1555",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1550.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Ngrok",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "proxy",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1090",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1082",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "RClone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Mega. Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "netscan.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "ping",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "Archive",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1560.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m002_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m003_S": {
+      "name": "LaZagne",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1555",
+      "type": "Technique",
+      "attack_id": "T1555"
+    },
+    "m005_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1550.002",
+      "type": "Technique",
+      "attack_id": "T1550.002"
+    },
+    "m007_S": {
+      "name": "Ngrok",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "proxy",
+      "type": "Technique",
+      "attack_id": "T1090"
+    },
+    "m009_T": {
+      "name": "T1090",
+      "type": "Technique",
+      "attack_id": "T1090"
+    },
+    "m010_T": {
+      "name": "T1082",
+      "type": "Technique",
+      "attack_id": "T1082"
+    },
+    "m011_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m012_S": {
+      "name": "RClone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_G": {
+      "name": "Mega. Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m016_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m017_S": {
+      "name": "netscan.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "ping",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "Archive",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1560.001",
+      "type": "Technique",
+      "attack_id": "T1560.001"
+    },
+    "m021_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 8,
+      "text": "Scanner",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 9,
+      "end": 132,
+      "text": "A network scanning tool used for reconnaissance that locates all computers on a network and conducts a scan of their ports.",
+      "line_start": 9
+    },
+    "u003": {
+      "start": 133,
+      "end": 274,
+      "text": "The program shows all network devices, gives access to shared folders, and provides remote control of computers (via RDP and Radmin) [T1046].",
+      "line_start": 9
+    },
+    "u004": {
+      "start": 275,
+      "end": 282,
+      "text": "AnyDesk",
+      "line_start": 275
+    },
+    "u005": {
+      "start": 283,
+      "end": 425,
+      "text": "Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",
+      "line_start": 283
+    },
+    "u006": {
+      "start": 426,
+      "end": 537,
+      "text": "The software can be maliciously used by threat actors to obtain remote access and maintain persistence [T1219].",
+      "line_start": 283
+    },
+    "u007": {
+      "start": 538,
+      "end": 545,
+      "text": "LaZagne",
+      "line_start": 538
+    },
+    "u008": {
+      "start": 546,
+      "end": 661,
+      "text": "An open source tool that enables users to recover stored passwords on Windows, Linux, and Mac OS X systems [T1555].",
+      "line_start": 546
+    },
+    "u009": {
+      "start": 662,
+      "end": 670,
+      "text": "Mimikatz",
+      "line_start": 662
+    },
+    "u010": {
+      "start": 671,
+      "end": 792,
+      "text": "A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets [T1550.002].",
+      "line_start": 671
+    },
+    "u011": {
+      "start": 793,
+      "end": 798,
+      "text": "Ngrok",
+      "line_start": 793
+    },
+    "u012": {
+      "start": 799,
+      "end": 933,
+      "text": "A reverse proxy tool [T1090] used to create a secure tunnel to servers behind firewalls or local machines without a public IP address.",
+      "line_start": 799
+    },
+    "u013": {
+      "start": 934,
+      "end": 944,
+      "text": "PCHunter64",
+      "line_start": 934
+    },
+    "u014": {
+      "start": 945,
+      "end": 1018,
+      "text": "A tool used to acquire detailed process and system information [T1082].14",
+      "line_start": 945
+    },
+    "u015": {
+      "start": 1019,
+      "end": 1029,
+      "text": "PowerShell",
+      "line_start": 1019
+    },
+    "u016": {
+      "start": 1030,
+      "end": 1189,
+      "text": "A cross-platform task automation solution used for various malicious activities, including deleting shadow copies, and, potentially, for credential harvesting.",
+      "line_start": 1030
+    },
+    "u017": {
+      "start": 1190,
+      "end": 1346,
+      "text": "It is composed of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS [T1059.001].",
+      "line_start": 1030
+    },
+    "u018": {
+      "start": 1347,
+      "end": 1353,
+      "text": "RClone",
+      "line_start": 1347
+    },
+    "u019": {
+      "start": 1354,
+      "end": 1449,
+      "text": "A legitimate command-line program used to sync files with cloud storage services, such as Mega.",
+      "line_start": 1354
+    },
+    "u020": {
+      "start": 1450,
+      "end": 1550,
+      "text": "Akira threat actors use it maliciously to exfiltrate data to compromised cloud services [T1567.002].",
+      "line_start": 1354
+    },
+    "u021": {
+      "start": 1551,
+      "end": 1562,
+      "text": "SoftPerfect",
+      "line_start": 1551
+    },
+    "u022": {
+      "start": 1563,
+      "end": 1818,
+      "text": "A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, SSH, and PowerShell.",
+      "line_start": 1563
+    },
+    "u023": {
+      "start": 1819,
+      "end": 1904,
+      "text": "It also scans for remote services, registry, files, and performance counters [T1046].",
+      "line_start": 1563
+    },
+    "u024": {
+      "start": 1905,
+      "end": 1911,
+      "text": "WinRAR",
+      "line_start": 1905
+    },
+    "u025": {
+      "start": 1912,
+      "end": 2046,
+      "text": "Archive utility used to split compromised data into segments and to compress [T1560.001] files into .RAR format prior to exfiltration.",
+      "line_start": 1912
+    },
+    "u026": {
+      "start": 2047,
+      "end": 2053,
+      "text": "WinSCP",
+      "line_start": 2047
+    },
+    "u027": {
+      "start": 2054,
+      "end": 2150,
+      "text": "A free, open source FTP (including SSH FTP), WebDAV, Amazon S3, and secure copy protocol client.",
+      "line_start": 2054
+    },
+    "u028": {
+      "start": 2151,
+      "end": 2259,
+      "text": "Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts [T1048].",
+      "line_start": 2054
+    },
+    "u029": {
+      "start": 2260,
+      "end": 2281,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 2260
+    },
+    "u030": {
+      "start": 2282,
+      "end": 2287,
+      "text": "7-zip",
+      "line_start": 2282
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1046",
+    "m002_T": "attack:T1219",
+    "m003_S": "attack:S0349",
+    "m004_T": "attack:T1555",
+    "m005_S": "attack:S0002",
+    "m006_T": "attack:T1550.002",
+    "m007_S": "attack:S0508",
+    "m008_T": "attack:T1090",
+    "m009_T": "attack:T1090",
+    "m010_T": "attack:T1082",
+    "m011_T": "attack:T1059.001",
+    "m012_S": "attack:S1040",
+    "m013_G": "local:ThreatGroup:mega. akira threat actors",
+    "m014_S": "attack:S1129",
+    "m015_G": "local:ThreatGroup:akira threat actors",
+    "m016_T": "attack:T1567.002",
+    "m017_S": "local:Software:netscan.exe",
+    "m018_S": "attack:S0097",
+    "m019_S": "local:Software:archive",
+    "m020_T": "attack:T1560.001",
+    "m021_S": "attack:S0095",
+    "m022_T": "attack:T1048"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u020"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m015_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m016_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m019_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m020_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u028"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m015_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m022_T"
+      ]
+    }
+  ]
+}

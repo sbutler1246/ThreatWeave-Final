@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:02:40.6195861Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 9006453100,
+  "load_duration": 10298400,
+  "prompt_eval_count": 1974,
+  "prompt_eval_duration": 297852000,
+  "eval_count": 651,
+  "eval_duration": 8625478000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"Network Segmentation (M1030) is a mitigation option.\",\n      \"reason\": \"The context explicitly mentions Network Segmentation (M1030) as a mitigation option.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Segmentation (M1030) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to the technique mapped to Ligolo in AA23-165A.\",\n      \"reason\": \"The context does not provide information about the specific relationships between mitigation options and techniques in Enterprise ATT&CK 17.1.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Segmentation (M1030) mitigates Network Service Discovery (T1046) used by LockBit affiliates.\",\n      \"reason\": \"The context explicitly mentions that Network Segmentation (M1030) is a mitigation for Network Service Discovery (T1046).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) is a mitigation option.\",\n      \"reason\": \"The context explicitly mentions Network Intrusion Prevention (M1031) as a mitigation option.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to the technique mapped to Ligolo in AA23-165A.\",\n      \"reason\": \"The context does not provide information about the specific relationships between mitigation options and techniques in Enterprise ATT&CK 17.1.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) mitigates Remote Access Tools (T1219) used by LockBit affiliates.\",\n      \"reason\": \"The context explicitly mentions that Network Intrusion Prevention (M1031) is a mitigation for Remote Access Tools (T1219).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"User Account Management (M1018) is a mitigation option.\",\n      \"reason\": \"The context explicitly mentions User Account Management (M1018) as a mitigation option.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"User Account Management (M1018) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to the technique mapped to Ligolo in AA23-165A.\",\n      \"reason\": \"The context does not provide information about the specific relationships between mitigation options and techniques in Enterprise ATT&CK 17.1.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"User Account Management (M1018) mitigates Disable or Modify Tools (T1562.001) used by LockBit affiliates.\",\n      \"reason\": \"The context explicitly mentions that User Account Management (M1018) is a mitigation for Disable or Modify Tools (T1562.001).\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

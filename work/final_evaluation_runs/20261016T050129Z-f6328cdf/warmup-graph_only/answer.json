@@ -1,0 +1,359 @@
+{
+  "answer": "Rhysida actors use valid accounts (T1078) for access by authenticating to internal VPN access points with compromised valid credentials. [E1, E2, E3]\nApplication Developer Guidance (M1013) mitigates Valid Accounts (T1078) by ensuring applications do not store sensitive data or credentials insecurely. [E4, E5]\nActive Directory Configuration (M1015) mitigates Valid Accounts (T1078) by disabling legacy authentication and requiring modern authentication protocols. [E6, E7]\nUser Training (M1017) mitigates Valid Accounts (T1078) by training users to only accept valid push notifications and report suspicious ones. [E8, E9]\nUser Account Management (M1018) mitigates Valid Accounts (T1078) by regularly auditing user accounts for activity and deactivating or removing unnecessary ones. [E10, E11]\nPrivileged Account Management (M1026) mitigates Valid Accounts (T1078) by auditing domain and local accounts, permission levels, and default accounts, and following best practices for enterprise network design and administration. [E12, E13]",
+  "claims": [
+    {
+      "text": "Rhysida actors use valid accounts (T1078) for access by authenticating to internal VPN access points with compromised valid credentials.",
+      "citations": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "text": "Application Developer Guidance (M1013) mitigates Valid Accounts (T1078) by ensuring applications do not store sensitive data or credentials insecurely.",
+      "citations": [
+        "E4",
+        "E5"
+      ]
+    },
+    {
+      "text": "Active Directory Configuration (M1015) mitigates Valid Accounts (T1078) by disabling legacy authentication and requiring modern authentication protocols.",
+      "citations": [
+        "E6",
+        "E7"
+      ]
+    },
+    {
+      "text": "User Training (M1017) mitigates Valid Accounts (T1078) by training users to only accept valid push notifications and report suspicious ones.",
+      "citations": [
+        "E8",
+        "E9"
+      ]
+    },
+    {
+      "text": "User Account Management (M1018) mitigates Valid Accounts (T1078) by regularly auditing user accounts for activity and deactivating or removing unnecessary ones.",
+      "citations": [
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "text": "Privileged Account Management (M1026) mitigates Valid Accounts (T1078) by auditing domain and local accounts, permission levels, and default accounts, and following best practices for enterprise network design and administration.",
+      "citations": [
+        "E12",
+        "E13"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA23-319A",
+        "chunk_id": "AA23-319A:development:llama500:2651:5181",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "Rhysida actors have commonly been observed authenticating to internal VPN access points with compromised valid credentials [T1078]",
+        "start": 3892,
+        "end": 4022,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA23-319A",
+        "chunk_id": "AA23-319A:development:llama500:2651:5181",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "#StopRansomware: Rhysida Ransomware",
+        "start": 23,
+        "end": 58,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA23-319A",
+        "chunk_id": "AA23-319A:development:llama500:2651:5181",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "Technical Details",
+        "start": 2634,
+        "end": 2651,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+        "chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Application Developer Guidance (M1013)",
+        "start": 0,
+        "end": 105,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+        "chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).",
+        "start": 283,
+        "end": 479,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+        "chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Active Directory Configuration (M1015)",
+        "start": 0,
+        "end": 105,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+        "chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Disable legacy authentication, which does not support MFA, and require the use of modern authentication protocols instead.",
+        "start": 283,
+        "end": 405,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013",
+        "chunk_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: User Training (M1017)",
+        "start": 0,
+        "end": 88,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013",
+        "chunk_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Applications may send push notifications to verify a login as a form of multi-factor authentication (MFA). Train users to only accept valid push notifications and to report suspicious push notifications.",
+        "start": 266,
+        "end": 469,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+        "chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: User Account Management (M1018)",
+        "start": 0,
+        "end": 98,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E11",
+        "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+        "chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Regularly audit user accounts for activity and deactivate or remove any that are no longer needed.",
+        "start": 276,
+        "end": 374,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E12",
+        "doc_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69",
+        "chunk_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Privileged Account Management (M1026)",
+        "start": 0,
+        "end": 104,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E13",
+        "doc_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69",
+        "chunk_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69:description",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Audit domain and local accounts as well as their permission levels routinely to look for situations that could allow an adversary to gain wide access by obtaining credentials of a privileged account. (Citation: TechNet Credential Theft) (Citation: TechNet Least Privilege) These audits should also include if default accounts have been enabled, or if new local accounts are created that have not been authorized. Follow best practices for design and administration of an enterprise network to limit privileged account use across administrative tiers. (Citation: Microsoft Securing Privileged Access)",
+        "start": 282,
+        "end": 881,
+        "source_kind": "attack"
+      }
+    ],
+    "paths": [
+      {
+        "path_id": "P1",
+        "edges": [
+          {
+            "head_id": "local:AA23-319A:rhysida-actors",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1078",
+            "assertion_ids": [
+              "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1078",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1013",
+            "assertion_ids": [
+              "assertion:65dd2e5f361ab6e6063621fbb5e7d4707c46704ff8d57185994aea34322339c5"
+            ],
+            "citation_ids": [
+              "E4",
+              "E5"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P2",
+        "edges": [
+          {
+            "head_id": "local:AA23-319A:rhysida-actors",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1078",
+            "assertion_ids": [
+              "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1078",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1015",
+            "assertion_ids": [
+              "assertion:92b52232b0e0c3669bd644cd4e6cb6212c67bed05411e9a3539f1ee38818f511"
+            ],
+            "citation_ids": [
+              "E6",
+              "E7"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P3",
+        "edges": [
+          {
+            "head_id": "local:AA23-319A:rhysida-actors",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1078",
+            "assertion_ids": [
+              "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1078",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1017",
+            "assertion_ids": [
+              "assertion:89f926f903632d1d5b70997194a03868f9939d34ce7335433f0b4a056d354528"
+            ],
+            "citation_ids": [
+              "E8",
+              "E9"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P4",
+        "edges": [
+          {
+            "head_id": "local:AA23-319A:rhysida-actors",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1078",
+            "assertion_ids": [
+              "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1078",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1018",
+            "assertion_ids": [
+              "assertion:9166e4985ff19d1239a1f975d1e882c67b6ad323e71530c7eefd6b3c3fd6bb56"
+            ],
+            "citation_ids": [
+              "E10",
+              "E11"
+            ]
+          }
+        ]
+      },
+      {
+        "path_id": "P5",
+        "edges": [
+          {
+            "head_id": "local:AA23-319A:rhysida-actors",
+            "predicate": "USES_TECHNIQUE",
+            "tail_id": "attack:T1078",
+            "assertion_ids": [
+              "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+            ],
+            "citation_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          {
+            "head_id": "attack:T1078",
+            "predicate": "MITIGATED_BY",
+            "tail_id": "attack:M1026",
+            "assertion_ids": [
+              "assertion:de11e5c478f861f3d92a164c9a9cdd89749f61982792b4d9ee14ac0062a4172c"
+            ],
+            "citation_ids": [
+              "E12",
+              "E13"
+            ]
+          }
+        ]
+      }
+    ],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "retrieval_ms": 39.654399995924905,
+    "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 4886.207100003958,
+  "generation_timestamp": "2026-10-16T05:02:28.960902Z",
+  "warnings": [
+    "Development graph_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

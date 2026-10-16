@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+  "doc_id": "AA24-131A",
+  "start": 15803,
+  "end": 17845,
+  "text": " Dell, to evade detection.\nImpair Defenses: Disable or Modify Tools\nT1562.001\nBlack Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.\nBlack Basta affiliates have used PowerShell to disable antivirus products.\nTable 5: Black Basta ATT&CK Techniques for Execution\nTechnique Title\nID\nUse\nUser Execution\nT1204\nBlack Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.\nCommand and Scripting Interpreter: PowerShell\nT1059.001\nBlack Basta affiliates have used PowerShell to disable antivirus products.\nTable 6: Black Basta ATT&CK Techniques for Impact\nTechnique Title\nID\nUse\nInhibit System Recovery\nT1490\nBlack Basta affiliates have used the vssadmin.exe program to delete shadow copies.\nData Encrypted for Impact\nT1486\nBlack Basta affiliates have used a public key to fully encrypt files.\nIndicators of Compromise\nUpdate November 8, 2024:\nMany indicators provided in this advisory’s initial publication have been removed considering they are outdated. For historic reference, see AA24-131A #StopRansomware: Black Basta (Initial Version).\nThe IOCs listed in Tables 7–8 were obtained from trusted third-party reporting and are considered most current.\nDisclaimer: The authoring organizations recommend network defenders investigate or vet IP addresses prior to taking action, such as blocking, as many cyber actors are known to change IP addresses, sometimes daily, and some IP addresses may host valid domains.\nTable 7: Network Indicators\nIP Address\nFirst Seen\nDescription\n170.130.165[.]73\nOctober 14, 2024\nLikely Cobalt Strike infrastructure\n45.11.181[.]44\nOctober 24, 2024\nLikely Cobalt Strike infrastructure\n66.42.118[.]54\nOctober 15, 2024\nExfiltration server\n79.132.130[.]211\nOctober 24, 2024\nLikely Cobalt Strike infrastructure\nTable 8: Suspected Black Basta Cobalt Strike Domains\nDomain\nFirst Seen\nMoereng[.]com\nOctober 9, 2024\nExckicks[.]com\nOctober 2, 2024\nUpdate End\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: Black Basta"
+    },
+    {
+      "start": 4157,
+      "end": 4174,
+      "text": "Technical Details"
+    },
+    {
+      "start": 15590,
+      "end": 15648,
+      "text": "Table 4: Black Basta ATT&CK Techniques for Defense Evasion"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

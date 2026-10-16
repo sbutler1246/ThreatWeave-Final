@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-352A:evaluation:llama500:7618:10055",
+    "doc_id": "AA23-352A",
+    "start": 7618,
+    "end": 10055,
+    "text": "onion URL).\nPlay ransomware targets regularly receive phone calls from threat actors encouraging payment and threatening the release of company information. These calls can be routed to a variety of phone numbers within the organization, including those discovered in open source, such as help desks or customer service representatives.\nESXi Variant\nThe ESXi variant of Play ransomware invokes shell commands specific to the ESXi environment to conduct tasks, including powering off all running Virtual Machines (VMs), listing machines names, and setting the welcome message of the ESXi interface to the campaign-specific ransom note. The ransomware binary supports command line arguments; however, if no command line arguments are passed, the malware powers off all VMs and encrypts files related to VMs using randomly generated per-file keys. The targeted file extensions include .vmdk, .vmem, .vmsd, .vmsn, .vmx, .vmxf, .vswp, .vmss, .nvram, .vmtx, and .log. The ransomware binary employs AES-256 as its encryption algorithm. The binary creates a copy of the ransom note titled PLAY_Readme.txt in the root directory and in the path /vmfs/volumes/, as well as the welcome message of the ESXi interface.\nLike the Windows variant of Play ransomware, the ESXi variant must be recompiled for each campaign. Through command line flags, the binary supports additional functionality likely used for development and debugging, including exempting specific VMs from encryption, targeting only one file for encryption, or skipping the file extension check and attempting to encrypt all files. Please see below for YARA rules.\nEnd Update\nLeveraged Tools\nTable 1 lists legitimate tools Play ransomware actors have repurposed for their operations. The legitimate tools listed in this product are all publicly available. Use of these tools and applications should not be attributed as malicious without analytical evidence to support they are used at the direction of, or controlled by, threat actors.\nTable 1: Tools Leveraged by Play Ransomware Actors\nName\nDescription\nAdFind\nUsed to query and retrieve information from Active Directory.\nBloodhound\nUsed to query and retrieve information from Active Directory.\nGMER\nA software tool intended to be used for detecting and removing rootkits.\nIOBit\nAn anti-malware and anti-virus program for the Microsoft Windows operating system. Play actors have accessed IOBit to disable antivirus software.\nPsExec\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 55,
+        "text": "#StopRansomware: Play Ransomware"
+      },
+      {
+        "start": 3834,
+        "end": 3851,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 500,
+  "inherited_context_tokens": 13,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "8fd48b474122f9dde630b612a275033d05c5c8c7b26f57a14c2e8cde18bfb8b6",
+  "doc_id": "AA23-352A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+  "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc"
+}

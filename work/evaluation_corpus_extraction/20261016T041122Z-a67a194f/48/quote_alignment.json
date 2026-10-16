@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u002"
+    ],
+    "selected_units": [
+      {
+        "start": 158,
+        "end": 316,
+        "text": "Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003].",
+        "line_start": 0
+      }
+    ],
+    "document_start": 6695,
+    "document_end": 6853,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u004"
+    ],
+    "selected_units": [
+      {
+        "start": 634,
+        "end": 808,
+        "text": "In other incidents, indicators suggest that Akira threat actors gained initial access through the Secure Shell (SSH) protocol by exploiting a router’s IP address [T1021.004].",
+        "line_start": 634
+      }
+    ],
+    "document_start": 7171,
+    "document_end": 7345,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 1105,
+        "end": 1345,
+        "text": "Akira threat actors frequently execute malicious commands by using Visual Basic (VB) scripts (event-driven programming languages that allow documents to contain macros to improve functionality through autonomous task execution) [T1059.005].",
+        "line_start": 1105
+      }
+    ],
+    "document_start": 7642,
+    "document_end": 7882,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u017"
+    ],
+    "selected_units": [
+      {
+        "start": 2083,
+        "end": 2344,
+        "text": "For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+        "line_start": 1685
+      }
+    ],
+    "document_start": 8620,
+    "document_end": 8881,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

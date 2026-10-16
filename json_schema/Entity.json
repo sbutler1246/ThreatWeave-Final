@@ -1,0 +1,119 @@
+{
+  "$defs": {
+    "EntityType": {
+      "enum": [
+        "ThreatGroup",
+        "Software",
+        "Technique",
+        "Tactic",
+        "Mitigation",
+        "Campaign"
+      ],
+      "title": "EntityType",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "canonical_id": {
+      "title": "Canonical Id",
+      "type": "string"
+    },
+    "type": {
+      "$ref": "#/$defs/EntityType"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Aliases",
+      "type": "array"
+    },
+    "attack_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Attack Id"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description"
+    },
+    "stix_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Stix Id"
+    },
+    "attack_release": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Attack Release"
+    },
+    "resolution_status": {
+      "enum": [
+        "canonical",
+        "local",
+        "review"
+      ],
+      "title": "Resolution Status",
+      "type": "string"
+    },
+    "graph_embedding": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 128,
+          "minItems": 128,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Graph Embedding"
+    }
+  },
+  "required": [
+    "canonical_id",
+    "type",
+    "name",
+    "resolution_status"
+  ],
+  "title": "Entity",
+  "type": "object"
+}

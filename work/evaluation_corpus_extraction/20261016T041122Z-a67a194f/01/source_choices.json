@@ -1,0 +1,197 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "ABCD",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit-named",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "StealBit",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "ABCD",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "LockBit-named",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "StealBit",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 82,
+      "text": "Note: This advisory uses the MITRE ATT&CK for Enterprise framework, version 13.1.",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 83,
+      "end": 215,
+      "text": "See the MITRE ATT&CK Tactics and Techniques section for tables of LockBit’s activity mapped to MITRE ATT&CK® tactics and techniques.",
+      "line_start": 1
+    },
+    "u003": {
+      "start": 216,
+      "end": 228,
+      "text": "Introduction",
+      "line_start": 216
+    },
+    "u004": {
+      "start": 229,
+      "end": 344,
+      "text": "The LockBit RaaS and its affiliates have negatively impacted organizations, both large and small, across the world.",
+      "line_start": 229
+    },
+    "u005": {
+      "start": 345,
+      "end": 901,
+      "text": "In 2022, LockBit was the most active global ransomware group and RaaS provider in terms of the number of victims claimed on their data leak site. [1] A RaaS cybercrime group maintains the functionality of a particular ransomware variant, sells access to that ransomware variant to individuals or groups of operators (often referred to as “affiliates”), and supports affiliates’ deployment of their ransomware in exchange for upfront payment, subscription fees, a cut of profits, or a combination of upfront payment, subscription fees, and a cut of profits.",
+      "line_start": 229
+    },
+    "u006": {
+      "start": 902,
+      "end": 1006,
+      "text": "Some of the methods LockBit has used to successfully attract affiliates include, but are not limited to:",
+      "line_start": 229
+    },
+    "u007": {
+      "start": 1007,
+      "end": 1237,
+      "text": "Assuring payment by allowing affiliates to receive ransom payments before sending a cut to the core group; this practice stands in stark contrast to other RaaS groups who pay themselves first and then disburse the affiliates’ cut.",
+      "line_start": 1007
+    },
+    "u008": {
+      "start": 1238,
+      "end": 1285,
+      "text": "Disparaging other RaaS groups in online forums.",
+      "line_start": 1238
+    },
+    "u009": {
+      "start": 1286,
+      "end": 1521,
+      "text": "Engaging in publicity-generating activities stunts, such as paying people to get LockBit tattoos and putting a $1 million bounty on information related to the real-world identity of LockBit’s lead who goes by the persona “LockBitSupp.”",
+      "line_start": 1286
+    },
+    "u010": {
+      "start": 1522,
+      "end": 1685,
+      "text": "Developing and maintaining a simplified, point-and-click interface for its ransomware, making it accessible to those with a lower degree of technical skill. [2, 3]",
+      "line_start": 1522
+    },
+    "u011": {
+      "start": 1686,
+      "end": 1827,
+      "text": "LockBit has been successful through innovation and ongoing development of the group’s administrative panel and the RaaS supporting functions.",
+      "line_start": 1686
+    },
+    "u012": {
+      "start": 1828,
+      "end": 1979,
+      "text": "In parallel, affiliates that work with LockBit and other notable variants are constantly revising the TTPs used for deploying and executing ransomware.",
+      "line_start": 1686
+    },
+    "u013": {
+      "start": 1980,
+      "end": 2036,
+      "text": "Table 1 shows LockBit RaaS’s innovation and development.",
+      "line_start": 1980
+    },
+    "u014": {
+      "start": 2037,
+      "end": 2071,
+      "text": "Table 1: Evolution of LockBit RaaS",
+      "line_start": 2037
+    },
+    "u015": {
+      "start": 2072,
+      "end": 2076,
+      "text": "Date",
+      "line_start": 2072
+    },
+    "u016": {
+      "start": 2077,
+      "end": 2082,
+      "text": "Event",
+      "line_start": 2077
+    },
+    "u017": {
+      "start": 2083,
+      "end": 2097,
+      "text": "September 2019",
+      "line_start": 2083
+    },
+    "u018": {
+      "start": 2098,
+      "end": 2173,
+      "text": "First observed activity of ABCD ransomware, the predecessor to LockBit. [4]",
+      "line_start": 2098
+    },
+    "u019": {
+      "start": 2174,
+      "end": 2186,
+      "text": "January 2020",
+      "line_start": 2174
+    },
+    "u020": {
+      "start": 2187,
+      "end": 2267,
+      "text": "LockBit-named ransomware first seen on Russian-language based cybercrime forums.",
+      "line_start": 2187
+    },
+    "u021": {
+      "start": 2268,
+      "end": 2277,
+      "text": "June 2021",
+      "line_start": 2268
+    },
+    "u022": {
+      "start": 2278,
+      "end": 2408,
+      "text": "Appearance of LockBit version 2 (LockBit 2.0), also known as LockBit Red including StealBit, a built-in information-stealing tool.",
+      "line_start": 2278
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:abcd",
+    "m002_S": "local:Software:lockbit-named",
+    "m003_S": "attack:S1199",
+    "m004_S": "attack:S1200"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

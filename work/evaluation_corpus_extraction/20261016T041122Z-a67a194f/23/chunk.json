@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:15072:16294",
+  "doc_id": "AA23-061A",
+  "start": 15072,
+  "end": 16294,
+  "text": "runanddelete.bat\n342B398647073159DFA8A7D36510171F731B760089A546E96FBB8A292791EFEE\nRoyal and BlackSuit IOCs as of June 2023 (New November 13, 2023)\nTable 6: Royal Ransomware Associated Files, Tools, and Hashes as of June 2023\nName\nDescription or SHA 256 Hash Value\nC:\\Users\\Public\\conhost.exe client 149.28.73.161:443 R:149.28.73.161:43657:socks\nExecuted on the victim’s machine, uses a Chisel client to tunnel traffic through port 443 instead of port 43657.\nroyal_w\nEncryption extension\n%PROGRAMDATA%\nRansomware Filepath\n%TEMP%\\execute.bat\nInstallerV20.8.msi\nwindows_encryptor.exe\n85087f28a84205e344d7e8e06979e6622fab0cfe1759fd24e38cd0390bca5fa6\n%PROGRAMDATA%\\wine.exe\n5b08c02c141eab94a40b56240a26cab7ff07e9a6e760dfde8b8b053a3526f0e6\n%USERPROFILE%\\Downloads\\run1.bat\nbc609cf53dde126b766d35b5bcf0a530c24d91fe23633dad6c2c59fd1843f781\n%USERPROFILE%\\Downloads\\run2.bat\n13c25164791d3436cf2efbc410caec6b6dd6978d7e83c4766917630e24e1af10\n%USERPROFILE%\\Downloads\\run3.bat\n2b93206d7a36cccdf7d7596b90ead301b2ff7e9a96359f39b6ba31bb13d11f45\n%USERPROFILE%\\Downloads\\run4.bat\n84e1efbed6bb7720caea6720a8bff7cd93b5d42fb1d71ef8031bfd3897ed4435\n%USERPROFILE%\\Downloads\\sc.bat\ne0dbe3a2d07ee10731b68a142c65db077cfb88e5ec5c8415e548d3ede40e7ffc\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    },
+    {
+      "start": 14620,
+      "end": 14671,
+      "text": "Table 5: Batch Script Tools Used by Royal Operators"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

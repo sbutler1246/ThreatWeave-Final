@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-352A:evaluation:llama500:23163:24531",
+    "doc_id": "AA23-352A",
+    "start": 23163,
+    "end": 24531,
+    "text": "00 65 00 72 00 61 00 20 00 53 00 6f 00 66 00 74 00 77 00 61 00 72 00 65 00 5c 00 4f 00 70 00 65 00 72 00 61 00 20 00 53 00 74 00 61 00 62 00 6c 00 65 00|\"; flow:to_server; flowbits:set,GRXBA_webhist_path_9_detected ;sid:1900010; rev:1;)\nalert smb any any -> any any (msg:\"GRIXBA web history scanning detected - potential indicator of imminent PLAY Ransomware attack\"; flowbits:isset,GRXBA_webhist_path_1_detected; flowbits:isset,GRXBA_webhist_path_2_detected; flowbits:isset,GRXBA_webhist_path_3_detected; flowbits:isset,GRXBA_webhist_path_4_detected; flowbits:isset,GRXBA_webhist_path_5_detected;flowbits:isset,GRXBA_webhist_path_6_detected; flowbits:isset,GRXBA_webhist_path_7_detected; flowbits:isset,GRXBA_webhist_path_8_detected; flowbits:isset,GRXBA_webhist_path_9_detected; flowbits:set,GRXBA_hit_found; classtype:attempted-recon; sid:1900011; rev:1;)\nalert smb any any -> any any (noalert; flowbits:isset,GRXBA_hit_found; flowbits:unset,GRXBA_webhist_path_1_detected;flowbits:unset,GRXBA_webhist_path_2_detected;flowbits:unset,GRXBA_webhist_path_3_detected;flowbits:unset,GRXBA_webhist_path_4_detected;flowbits:unset,GRXBA_webhist_path_5_detected;flowbits:unset,GRXBA_webhist_path_6_detected;flowbits:unset,GRXBA_webhist_path_7_detected;flowbits:unset,GRXBA_webhist_path_8_detected;flowbits:unset,GRXBA_webhist_path_9_detected; sid:1900012; rev:1;)\nEnd Update\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 55,
+        "text": "#StopRansomware: Play Ransomware"
+      },
+      {
+        "start": 3834,
+        "end": 3851,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 500,
+  "inherited_context_tokens": 13,
+  "overlap_with_previous_tokens": 329,
+  "terminal_reanchored": true,
+  "short_section": false,
+  "source_text_sha256": "08de0ebc5d33300a9eda4af705c9df8af4f1ff29e0acd9e28f37365c3c073ead",
+  "doc_id": "AA23-352A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+  "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc"
+}

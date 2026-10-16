@@ -1,0 +1,56 @@
+{
+  "candidate_ranks": [
+    {
+      "rank": 1,
+      "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "parent_extraction_chunk_id": "AA23-165A:table4:row04",
+      "source_kind": "cisa",
+      "cosine_distance": 0.4638436436653137
+    },
+    {
+      "rank": 2,
+      "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "parent_extraction_chunk_id": "AA23-165A:table4:row03",
+      "source_kind": "cisa",
+      "cosine_distance": 0.46770238876342773
+    },
+    {
+      "rank": 3,
+      "chunk_id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+      "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:26834:28843",
+      "source_kind": "cisa",
+      "cosine_distance": 0.4680395722389221
+    },
+    {
+      "rank": 4,
+      "chunk_id": "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+      "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "source_kind": "cisa",
+      "cosine_distance": 0.476462721824646
+    },
+    {
+      "rank": 5,
+      "chunk_id": "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2",
+      "parent_extraction_chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "source_kind": "cisa",
+      "cosine_distance": 0.48006749153137207
+    }
+  ],
+  "candidate_chunk_count": 5,
+  "selected_chunk_ids": [
+    "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+    "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+    "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+    "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+    "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2"
+  ],
+  "selected_chunk_count": 5,
+  "selected_path_count": 0,
+  "evidence_utf8_bytes": 2718,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_chunks": 0,
+  "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 19.97520000441
+}

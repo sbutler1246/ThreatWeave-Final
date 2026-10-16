@@ -1,0 +1,354 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "gaze.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "PDQ Deploy",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Secure File Transfer Protocol",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1675",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1489",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1529",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1070",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1657",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m002_S": {
+      "name": "gaze.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "PDQ Deploy",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Secure File Transfer Protocol",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1675",
+      "type": "Technique",
+      "attack_id": "T1675"
+    },
+    "m007_T": {
+      "name": "T1489",
+      "type": "Technique",
+      "attack_id": "T1489"
+    },
+    "m008_T": {
+      "name": "T1529",
+      "type": "Technique",
+      "attack_id": "T1529"
+    },
+    "m009_T": {
+      "name": "T1070",
+      "type": "Technique",
+      "attack_id": "T1070"
+    },
+    "m010_T": {
+      "name": "T1657",
+      "type": "Technique",
+      "attack_id": "T1657"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 175,
+      "text": ", or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 176,
+      "end": 250,
+      "text": "(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:",
+      "line_start": 176
+    },
+    "u003": {
+      "start": 251,
+      "end": 344,
+      "text": "Run a PowerShell base64 encoded command to exclude the entire C: drive from Windows Defender.",
+      "line_start": 251
+    },
+    "u004": {
+      "start": 345,
+      "end": 432,
+      "text": "Use robocopy to copy gaze.exe into C:\\Windows\\System32\\ via the RunFileCopy.cmd script.",
+      "line_start": 345
+    },
+    "u005": {
+      "start": 433,
+      "end": 499,
+      "text": "Verify if gaze.exe exists, then run it via the command.cmd script.",
+      "line_start": 433
+    },
+    "u006": {
+      "start": 500,
+      "end": 584,
+      "text": "Use command.cmd script to return a print statement indicating if gaze.exe was found.",
+      "line_start": 500
+    },
+    "u007": {
+      "start": 585,
+      "end": 665,
+      "text": "(Updated Aug. 18, 2026) The actors do not use PDQ Deploy for Linux environments.",
+      "line_start": 585
+    },
+    "u008": {
+      "start": 666,
+      "end": 782,
+      "text": "Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",
+      "line_start": 585
+    },
+    "u009": {
+      "start": 783,
+      "end": 851,
+      "text": "They execute the encryptor using the command nohup python gaze.py &.",
+      "line_start": 585
+    },
+    "u010": {
+      "start": 852,
+      "end": 955,
+      "text": "Medusa actors also make use of an ESXi host profile [T1675] to change root passwords on Linux machines.",
+      "line_start": 585
+    },
+    "u011": {
+      "start": 956,
+      "end": 1002,
+      "text": "Encrypted files have a .medusa file extension.",
+      "line_start": 956
+    },
+    "u012": {
+      "start": 1003,
+      "end": 1235,
+      "text": "The process gaze.exe terminates all services [T1489] related to backups, security, databases, communication, file sharing, and websites, and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note.",
+      "line_start": 956
+    },
+    "u013": {
+      "start": 1236,
+      "end": 1363,
+      "text": "Next, the actors remotely turn off [T1529] virtual machines, encrypt them, and delete their previously installed tools [T1070].",
+      "line_start": 956
+    },
+    "u014": {
+      "start": 1364,
+      "end": 1373,
+      "text": "Extortion",
+      "line_start": 1364
+    },
+    "u015": {
+      "start": 1374,
+      "end": 1507,
+      "text": "Medusa RaaS uses a double-extortion model, where victims must pay [T1657] to decrypt files and prevent further release of their data.",
+      "line_start": 1374
+    },
+    "u016": {
+      "start": 1508,
+      "end": 1674,
+      "text": "The ransom note demands victims make contact within 48 hours via either a Tor browser-based live chat, or via Tox, an end-to-end encrypted instant-messaging platform.",
+      "line_start": 1374
+    },
+    "u017": {
+      "start": 1675,
+      "end": 1783,
+      "text": "If the victim does not respond to the ransom note, Medusa actors contact victims directly by phone or email.",
+      "line_start": 1374
+    },
+    "u018": {
+      "start": 1784,
+      "end": 1893,
+      "text": "Medusa operates a .onion data leak site divulging victims alongside countdowns to the release of information.",
+      "line_start": 1374
+    },
+    "u019": {
+      "start": 1894,
+      "end": 2064,
+      "text": "(Updated Aug. 18, 2026) Medusa actors post ransom demands on the leak site with direct hyperlinks to Medusa-affiliated cryptocurrency wallets and claimed number of views.",
+      "line_start": 1894
+    },
+    "u020": {
+      "start": 2065,
+      "end": 2233,
+      "text": "Victims that are still actively negotiating sometimes do not appear on the ransom site, and the Medusa actors use the threat of posting victims as negotiation leverage.",
+      "line_start": 1894
+    },
+    "u021": {
+      "start": 2234,
+      "end": 2358,
+      "text": "Medusa actors offer a “lower rate” for quick payments, stating that discounts will expire after an arbitrary amount of time.",
+      "line_start": 1894
+    },
+    "u022": {
+      "start": 2359,
+      "end": 2471,
+      "text": "Additionally, Medusa actors research victim financial details and base their demands on publicly posted revenue.",
+      "line_start": 1894
+    },
+    "u023": {
+      "start": 2472,
+      "end": 2573,
+      "text": "After a victim pays the ransom, Medusa actors claim to remove the victim’s information from the site.",
+      "line_start": 1894
+    },
+    "u024": {
+      "start": 2574,
+      "end": 2658,
+      "text": "Note: There is no way to verify that Medusa actors remove victim data from the site.",
+      "line_start": 1894
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1072",
+    "m002_S": "local:Software:gaze.exe",
+    "m003_G": "local:ThreatGroup:medusa actors",
+    "m004_S": "local:Software:pdq deploy",
+    "m005_S": "local:Software:secure file transfer protocol",
+    "m006_T": "attack:T1675",
+    "m007_T": "attack:T1489",
+    "m008_T": "attack:T1529",
+    "m009_T": "attack:T1070",
+    "m010_T": "attack:T1657"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m001_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u002",
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    }
+  ]
+}

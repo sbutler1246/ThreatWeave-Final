@@ -1,0 +1,32 @@
+{
+  "document": "ThreatWeave_GraphRAG_Proposal.pdf",
+  "author": "Stephen Butler",
+  "course": "CS 6338",
+  "sha256": "ca09acbe52677561221103cc725b0104a3194d08a061464feeeba01c1f5f76fa",
+  "authority": "Submitted Milestone 1 proposal defines project scope; Milestone 2 screenshots define structure, rubric, and submission artifacts.",
+  "proposal_hops": [
+    2,
+    3
+  ],
+  "proposal_max_hops": 3,
+  "extraction_tokens": [
+    400,
+    600
+  ],
+  "extraction_overlap_tokens": 60,
+  "node2vec_dimension": 128,
+  "walk_length": 20,
+  "walks_per_node": 10,
+  "p": 1,
+  "q": 1,
+  "text_hits": 5,
+  "neighbors_per_seed": 5,
+  "context_tokens": 3000,
+  "qa_mix": {
+    "actor_software_technique": 8,
+    "technique_mitigation": 8,
+    "cross_report_comparison": 4
+  },
+  "planned_pipeline_target": "2026-10-10",
+  "planned_final_deadline": "2026-10-17"
+}

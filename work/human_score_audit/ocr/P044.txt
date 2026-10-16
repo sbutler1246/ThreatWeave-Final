@@ -1,0 +1,68 @@
+P044
+Question
+According to AA24-109A, which ATT&CK technique is connected to Akira threat actors through
+the reported use of Mimikatz? Explain the two-hop actor-to-software-to-technique path with
+evidence.
+Displayed answer
+The ATT&CK technique connected to Akira threat actors through the reported use of Mimikatz
+is Defense Evasion. [El, E4]
+The two-hop actor-to-software-to-technique path is: Akira threat actors use tools like Mimikatz
+(N2) to dump credentials, which is a Defense Evasion (T 1204) technique. [El, E4, El 2]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+Akira threat actors use Mimikatz; the advisory associates the described use of Mimikatz with
+T 1003 (OS Credential Dumping in Enterprise ATT&CK 17.1). Both links must be supported in the
+advisory context.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.
+[Q; CISA]
+#StopRansomware: Akira Ransomware
+[E3; CISA]
+Technical Details
+[E4; CISA]
+Table 14. Defense Evasion
+
+--- IMAGE ---
+
+[E-5; ATTACK]
+Train users to be aware of impersonation tricks and how to counter them, for example confirming
+incoming requests through an independent platform like a phone call or in-person, to reduce risk.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (Tl 656)
+Mitigation: User Training (MI 017)
+[E7; ATTACK]
+Threat intelligence helps defenders and users be aware of and defend against common lures and
+active campaigns that have been used for impersonation.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (Tl 656)
+Mitigation: Threat Intelligence Program (M 1019)
+[E9; ATTACK]
+Users can be trained to identify social engineering techniques and spearphishing emails.
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Spearphishing Attachment (Tl 566.001)
+Mitigation: User Training (MI 017)
+[El 1; ATTACK]
+Use user training as a way to bring awareness to common phishing and spearphishing techniques
+and how to raise suspicion for potentially malicious events.
+[El 2; ATTACK]
+ATT&CK release: 17.1
+Technique: User Execution (T 1204)
+Mitigation: User Training (M 1017)
+[El 3; ATTACK]
+Users can be trained to identify social engineering techniques and spearphishing attempts.
+
+--- IMAGE ---
+
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Phishing for Information (Tl 598)
+Mitigation: User Training (MI 017)
+GRAPH NODES
+N 1: Akira threat actors
+N2: Mimikatz (S0002)
+GRAPH PATHS

@@ -1,0 +1,74 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.",
+      "start": 15881,
+      "end": 15998,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "#StopRansomware: Black Basta",
+      "start": 23,
+      "end": 51,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "Technical Details",
+      "start": 4157,
+      "end": 4174,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "Table 4: Black Basta ATT&CK Techniques for Defense Evasion",
+      "start": 15590,
+      "end": 15648,
+      "source_kind": "cisa"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA24-131A:black-basta-affiliates",
+          "predicate": "USES",
+          "tail_id": "local:AA24-131A:software:e0937ebfa805",
+          "assertion_ids": [
+            "assertion:4da67727be0e6b2b35cb4afa5decfd94105806ccaaade0d14f523bd6ccd2b845"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3",
+            "E4"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+  ],
+  "retrieval_ms": 27.689000009559095,
+  "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

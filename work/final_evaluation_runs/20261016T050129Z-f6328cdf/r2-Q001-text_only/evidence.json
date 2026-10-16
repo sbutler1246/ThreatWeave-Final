@@ -1,0 +1,131 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Advanced Port Scanner\nPerforms network scans.\nFinds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.\nT1046\nNetwork Service Discovery",
+      "start": 12695,
+      "end": 12872,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates",
+      "start": 12066,
+      "end": 12132,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:2cee638cc381c3336cc3907e0081c0360c2e8ae123b536d6dd1166bbac2119f8",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Tool\nIntended Use\nRepurposed Use by LockBit Affiliates\nMITRE ATT&CK ID\n",
+      "start": 12133,
+      "end": 12204,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "AnyDesk\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+      "start": 13043,
+      "end": 13178,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "\nID\nUse\nNetwork Service Discovery\nT1046\nLockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.\nLockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.\nSystem Information Discovery\nT1082\nLockBit affiliates will enumerate system information to include hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices.\nSystem Location Discovery: System Language Discovery\nT1614.001\nLockBit 3.0 will not infect machines with language settings that match a defined exclusion list.\nTable 12: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Lateral Movement\nTechnique Title\nID\nUse\nLateral Movement\nTA0008\nLockBit affiliates will laterally move ",
+      "start": 25345,
+      "end": 26203,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Understanding Ransomware Threat Actors: LockBit",
+      "start": 23,
+      "end": 70,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "TECHNICAL DETAILS",
+      "start": 2293,
+      "end": 2310,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E8",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:f7ddd858d0ce685b14010725a1d9a4a436a0e809866c62db5ce36a72708b9244",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery",
+      "start": 25255,
+      "end": 25329,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E9",
+      "doc_id": "AA23-165A",
+      "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Atera Remote Monitoring & Management (RMM)\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+      "start": 13179,
+      "end": 13349,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E10",
+      "doc_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2",
+      "chunk_id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Use network intrusion detection/prevention systems to detect and prevent remote service scans.",
+      "start": 292,
+      "end": 386,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E11",
+      "doc_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2",
+      "chunk_id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Network Service Discovery (T1046)\nMitigation: Network Intrusion Prevention (M1031)",
+      "start": 0,
+      "end": 114,
+      "source_kind": "attack"
+    }
+  ],
+  "paths": [],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11"
+  ],
+  "retrieval_ms": 16.258499992545694,
+  "configuration_hash": "fb3bca230c45e4ecdb2fdaf776826d2f60d68182c76c16cb4da564aad97521f7",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

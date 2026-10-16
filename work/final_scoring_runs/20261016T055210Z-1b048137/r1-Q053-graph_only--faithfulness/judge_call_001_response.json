@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T05:56:10.951496Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5665088700,
+  "load_duration": 10173100,
+  "prompt_eval_count": 558,
+  "prompt_eval_duration": 153958000,
+  "eval_count": 409,
+  "eval_duration": 5183420000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"LockBit affiliates use Mimikatz.\",\n    \"The use of Mimikatz by LockBit affiliates is associated with the technique mapped to ThunderShell in AA23-165A.\",\n    \"Network Segmentation is a mitigation for Network Service Discovery in Enterprise ATT&CK 17.1.\",\n    \"Network Intrusion Prevention is a mitigation for Remote Access Tools in Enterprise ATT&CK 17.1.\",\n    \"User Account Management is a mitigation for Disable or Modify Tools in Enterprise ATT&CK 17.1.\"\n  ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"LockBit affiliates' use of Mimikatz is associated with the technique mapped to ThunderShell in AA23-165A.\"\n\t* \"LockBit affiliates use Mimikatz.\"\n\t* \"The use of Mimikatz by LockBit affiliates is associated with the technique mapped to ThunderShell in AA23-165A.\"\n2. \"Network Segmentation (M1030) is a mitigation for Network Service Discovery (T1046) in Enterprise ATT&CK 17.1.\"\n\t* \"Network Segmentation is a mitigation for Network Service Discovery in Enterprise ATT&CK 17.1.\"\n3. \"Network Intrusion Prevention (M1031) is a mitigation for Remote Access Tools (T1219) in Enterprise ATT&CK 17.1.\"\n\t* \"Network Intrusion Prevention is a mitigation for Remote Access Tools in Enterprise ATT&CK 17.1.\"\n4. \"User Account Management (M1018) is a mitigation for Disable or Modify Tools (T1562.001) in Enterprise ATT&CK 17.1.\"\n\t* \"User Account Management is a mitigation for Disable or Modify Tools in Enterprise ATT&CK 17.1.\"\n\nNote that I've removed the reference numbers [E1, E2, E3] etc. as they are not relevant to the breakdown of the sentences.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

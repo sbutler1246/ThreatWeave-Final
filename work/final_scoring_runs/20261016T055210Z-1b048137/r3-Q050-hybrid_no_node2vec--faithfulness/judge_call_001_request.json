@@ -1,0 +1,23 @@
+{
+  "phase": "faithfulness",
+  "endpoint": "/api/chat",
+  "parameters": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Given a question and an answer, analyze the complexity of each sentence in the answer. Break down each sentence into one or more fully understandable statements. Ensure that no pronouns are used in any statement. Format the outputs in JSON.\nPlease return the output in a JSON format that complies with the following schema as specified in JSON Schema:\n{\"properties\": {\"statements\": {\"description\": \"The generated statements\", \"items\": {\"type\": \"string\"}, \"title\": \"Statements\", \"type\": \"array\"}}, \"required\": [\"statements\"], \"title\": \"StatementGeneratorOutput\", \"type\": \"object\"}Do not use single quotes in your response but double quotes,properly escaped with a backslash.\n\n--------EXAMPLES-----------\nExample 1\nInput: {\n    \"question\": \"Who was Albert Einstein and what is he best known for?\",\n    \"answer\": \"He was a German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential physicists of all time. He was best known for developing the theory of relativity, he also made important contributions to the development of the theory of quantum mechanics.\"\n}\nOutput: {\n    \"statements\": [\n        \"Albert Einstein was a German-born theoretical physicist.\",\n        \"Albert Einstein is recognized as one of the greatest and most influential physicists of all time.\",\n        \"Albert Einstein was best known for developing the theory of relativity.\",\n        \"Albert Einstein also made important contributions to the development of the theory of quantum mechanics.\"\n    ]\n}\n-----------------------------\n\nNow perform the same with the following input\ninput: {\n    \"question\": \"Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Advanced Internet Protocol (IP) Scanner in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.\",\n    \"answer\": \"LockBit affiliates' AnyDesk enables remote connections to network devices, which can be mitigated by Network Intrusion Prevention (M1031). [E1, E2, E3, E4]\\nLockBit affiliates' Atera Remote Monitoring & Management (RMM) enables remote connections to network devices, which can be mitigated by Network Intrusion Prevention (M1031). [E6, E2, E3, E4]\\nLockBit affiliates' Advanced Port Scanner performs network scans, which can be mitigated by Network Segmentation (M1030). [E7, E2, E3, E8]\\nLockBit affiliates' Backstab terminates antimalware-protected processes, which can be mitigated by User Account Management (M1018). [E10, E2, E3, E11]\"\n}\nOutput: ",
+        "images": []
+      }
+    ],
+    "stream": false,
+    "model": "llama3.1:8b",
+    "format": null,
+    "options": {
+      "num_ctx": 8192,
+      "seed": 42,
+      "num_predict": 700,
+      "temperature": 0.0
+    },
+    "keep_alive": null
+  }
+}

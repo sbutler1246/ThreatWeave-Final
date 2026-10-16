@@ -1,0 +1,700 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1482",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1071.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Impacket",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "S0357",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "LaZagne",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "S0349",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1095",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "LockBit Affiliates",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1482",
+      "type": "Technique",
+      "attack_id": "T1482"
+    },
+    "m002_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m003_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m004_T": {
+      "name": "T1003",
+      "type": "Technique",
+      "attack_id": "T1003"
+    },
+    "m005_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1071.002",
+      "type": "Technique",
+      "attack_id": "T1071.002"
+    },
+    "m007_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m008_S": {
+      "name": "Impacket",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "S0357",
+      "type": "Software",
+      "attack_id": "S0357"
+    },
+    "m010_S": {
+      "name": "LaZagne",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "S0349",
+      "type": "Software",
+      "attack_id": "S0349"
+    },
+    "m012_T": {
+      "name": "T1095",
+      "type": "Technique",
+      "attack_id": "T1095"
+    },
+    "m013_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m014_G": {
+      "name": "LockBit Affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 1,
+      "text": ".",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 2,
+      "end": 106,
+      "text": "Enables identification of AD relationships that can be exploited to gain access onto a victim’s network.",
+      "line_start": 2
+    },
+    "u003": {
+      "start": 107,
+      "end": 112,
+      "text": "T1482",
+      "line_start": 107
+    },
+    "u004": {
+      "start": 113,
+      "end": 135,
+      "text": "Domain Trust Discovery",
+      "line_start": 113
+    },
+    "u005": {
+      "start": 136,
+      "end": 146,
+      "text": "Chocolatey",
+      "line_start": 136
+    },
+    "u006": {
+      "start": 147,
+      "end": 208,
+      "text": "Handles command-line package management on Microsoft Windows.",
+      "line_start": 147
+    },
+    "u007": {
+      "start": 209,
+      "end": 269,
+      "text": "Facilitates installation of LockBit affiliate actors’ tools.",
+      "line_start": 209
+    },
+    "u008": {
+      "start": 270,
+      "end": 275,
+      "text": "T1072",
+      "line_start": 270
+    },
+    "u009": {
+      "start": 276,
+      "end": 301,
+      "text": "Software Deployment Tools",
+      "line_start": 276
+    },
+    "u010": {
+      "start": 302,
+      "end": 318,
+      "text": "Defender Control",
+      "line_start": 302
+    },
+    "u011": {
+      "start": 319,
+      "end": 347,
+      "text": "Disables Microsoft Defender.",
+      "line_start": 319
+    },
+    "u012": {
+      "start": 348,
+      "end": 410,
+      "text": "Enables LockBit affiliate actors to bypass Microsoft Defender.",
+      "line_start": 348
+    },
+    "u013": {
+      "start": 411,
+      "end": 420,
+      "text": "T1562.001",
+      "line_start": 411
+    },
+    "u014": {
+      "start": 421,
+      "end": 461,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 421
+    },
+    "u015": {
+      "start": 462,
+      "end": 473,
+      "text": "ExtPassword",
+      "line_start": 462
+    },
+    "u016": {
+      "start": 474,
+      "end": 514,
+      "text": "Recovers passwords from Windows systems.",
+      "line_start": 474
+    },
+    "u017": {
+      "start": 515,
+      "end": 571,
+      "text": "Obtains credentials for network access and exploitation.",
+      "line_start": 515
+    },
+    "u018": {
+      "start": 572,
+      "end": 577,
+      "text": "T1003",
+      "line_start": 572
+    },
+    "u019": {
+      "start": 578,
+      "end": 618,
+      "text": "Operating System (OS) Credential Dumping",
+      "line_start": 578
+    },
+    "u020": {
+      "start": 619,
+      "end": 628,
+      "text": "FileZilla",
+      "line_start": 619
+    },
+    "u021": {
+      "start": 629,
+      "end": 709,
+      "text": "Performs cross-platform File Transfer Protocol (FTP) to a site, server, or host.",
+      "line_start": 629
+    },
+    "u022": {
+      "start": 710,
+      "end": 800,
+      "text": "Enables data exfiltration over FTP to the LockBit affiliate actors’ site, server, or host.",
+      "line_start": 710
+    },
+    "u023": {
+      "start": 801,
+      "end": 810,
+      "text": "T1071.002",
+      "line_start": 801
+    },
+    "u024": {
+      "start": 811,
+      "end": 862,
+      "text": "Application Layer Protocol: File Transfer Protocols",
+      "line_start": 811
+    },
+    "u025": {
+      "start": 863,
+      "end": 875,
+      "text": "FreeFileSync",
+      "line_start": 863
+    },
+    "u026": {
+      "start": 876,
+      "end": 921,
+      "text": "Facilitates cloud-based file synchronization.",
+      "line_start": 876
+    },
+    "u027": {
+      "start": 922,
+      "end": 989,
+      "text": "Facilitates cloud-based file synchronization for data exfiltration.",
+      "line_start": 922
+    },
+    "u028": {
+      "start": 990,
+      "end": 999,
+      "text": "T1567.002",
+      "line_start": 990
+    },
+    "u029": {
+      "start": 1000,
+      "end": 1060,
+      "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+      "line_start": 1000
+    },
+    "u030": {
+      "start": 1061,
+      "end": 1065,
+      "text": "GMER",
+      "line_start": 1061
+    },
+    "u031": {
+      "start": 1066,
+      "end": 1083,
+      "text": "Removes rootkits.",
+      "line_start": 1066
+    },
+    "u032": {
+      "start": 1084,
+      "end": 1120,
+      "text": "Terminates and removes EDR software.",
+      "line_start": 1084
+    },
+    "u033": {
+      "start": 1121,
+      "end": 1130,
+      "text": "T1562.001",
+      "line_start": 1121
+    },
+    "u034": {
+      "start": 1131,
+      "end": 1171,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1131
+    },
+    "u035": {
+      "start": 1172,
+      "end": 1180,
+      "text": "Impacket",
+      "line_start": 1172
+    },
+    "u036": {
+      "start": 1181,
+      "end": 1245,
+      "text": "Collection of Python classes for working with network protocols.",
+      "line_start": 1181
+    },
+    "u037": {
+      "start": 1246,
+      "end": 1293,
+      "text": "Enables lateral movement on a victim’s network.",
+      "line_start": 1246
+    },
+    "u038": {
+      "start": 1294,
+      "end": 1299,
+      "text": "S0357",
+      "line_start": 1294
+    },
+    "u039": {
+      "start": 1300,
+      "end": 1308,
+      "text": "Impacket",
+      "line_start": 1300
+    },
+    "u040": {
+      "start": 1309,
+      "end": 1316,
+      "text": "LaZagne",
+      "line_start": 1309
+    },
+    "u041": {
+      "start": 1317,
+      "end": 1369,
+      "text": "Recovers system passwords across multiple platforms.",
+      "line_start": 1317
+    },
+    "u042": {
+      "start": 1370,
+      "end": 1435,
+      "text": "Collect credentials for accessing a victim’s systems and network.",
+      "line_start": 1370
+    },
+    "u043": {
+      "start": 1436,
+      "end": 1441,
+      "text": "S0349",
+      "line_start": 1436
+    },
+    "u044": {
+      "start": 1442,
+      "end": 1449,
+      "text": "LaZagne",
+      "line_start": 1442
+    },
+    "u045": {
+      "start": 1450,
+      "end": 1456,
+      "text": "Ligolo",
+      "line_start": 1450
+    },
+    "u046": {
+      "start": 1457,
+      "end": 1533,
+      "text": "Establishes SOCKS5 or TCP tunnels from a reverse connection for pen testing.",
+      "line_start": 1457
+    },
+    "u047": {
+      "start": 1534,
+      "end": 1615,
+      "text": "Enables connections to systems within the victim’s network via reverse tunneling.",
+      "line_start": 1534
+    },
+    "u048": {
+      "start": 1616,
+      "end": 1621,
+      "text": "T1095",
+      "line_start": 1616
+    },
+    "u049": {
+      "start": 1622,
+      "end": 1652,
+      "text": "Non-Application Layer Protocol",
+      "line_start": 1622
+    },
+    "u050": {
+      "start": 1653,
+      "end": 1667,
+      "text": "LostMyPassword",
+      "line_start": 1653
+    },
+    "u051": {
+      "start": 1668,
+      "end": 1708,
+      "text": "Recovers passwords from Windows systems.",
+      "line_start": 1668
+    },
+    "u052": {
+      "start": 1709,
+      "end": 1765,
+      "text": "Obtains credentials for network access and exploitation.",
+      "line_start": 1709
+    },
+    "u053": {
+      "start": 1766,
+      "end": 1771,
+      "text": "T1003",
+      "line_start": 1766
+    },
+    "u054": {
+      "start": 1772,
+      "end": 1793,
+      "text": "OS Credential Dumping",
+      "line_start": 1772
+    },
+    "u055": {
+      "start": 1794,
+      "end": 1811,
+      "text": "MEGA Ltd MegaSync",
+      "line_start": 1794
+    },
+    "u056": {
+      "start": 1812,
+      "end": 1857,
+      "text": "Facilitates cloud-based file synchronization.",
+      "line_start": 1812
+    },
+    "u057": {
+      "start": 1858,
+      "end": 1925,
+      "text": "Facilitates cloud-based file synchronization for data exfiltration.",
+      "line_start": 1858
+    },
+    "u058": {
+      "start": 1926,
+      "end": 1935,
+      "text": "T1567.002",
+      "line_start": 1926
+    },
+    "u059": {
+      "start": 1936,
+      "end": 1996,
+      "text": "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+      "line_start": 1936
+    },
+    "u060": {
+      "start": 1997,
+      "end": 2028,
+      "text": "Microsoft Sysinternals ProcDump",
+      "line_start": 1997
+    },
+    "u061": {
+      "start": 2029,
+      "end": 2133,
+      "text": "Monitors applications for central processing unit (CPU) spikes and generates crash dumps during a spike.",
+      "line_start": 2029
+    },
+    "u062": {
+      "start": 2134,
+      "end": 2232,
+      "text": "Obtains credentials by dumping the contents of Local Security Authority Subsystem Service (LSASS).",
+      "line_start": 2134
+    },
+    "u063": {
+      "start": 2233,
+      "end": 2242,
+      "text": "T1003.001",
+      "line_start": 2233
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 12066,
+      "end": 12132,
+      "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates"
+    }
+  },
+  "identities": {
+    "m001_T": "attack:T1482",
+    "m002_T": "attack:T1072",
+    "m003_T": "attack:T1562.001",
+    "m004_T": "attack:T1003",
+    "m005_S": "attack:S0095",
+    "m006_T": "attack:T1071.002",
+    "m007_T": "attack:T1567.002",
+    "m008_S": "attack:S0357",
+    "m009_S": "attack:S0357",
+    "m010_S": "attack:S0349",
+    "m011_S": "attack:S0349",
+    "m012_T": "attack:T1095",
+    "m013_T": "attack:T1003.001",
+    "m014_G": "local:ThreatGroup:lockbit affiliates"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u035"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u038"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u039"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u040"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m010_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u043"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u044"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m014_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m010_S"
+      ]
+    }
+  ]
+}

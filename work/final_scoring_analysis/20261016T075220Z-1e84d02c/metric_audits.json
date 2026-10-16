@@ -1,0 +1,3530 @@
+[
+  {
+    "task_id": "r1-Q053-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q053-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q053-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q050-hybrid--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q050-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q050-hybrid--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q031-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q031-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q031-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q030-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q030-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q030-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q041-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q041-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q041-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q051-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q051-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q051-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q054-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q054-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q054-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q055-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q055-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q055-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q059-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q059-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q059-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q053-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q053-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q053-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q053-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q053-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q053-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q050-hybrid--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q050-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q050-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q044-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q044-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q044-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q061-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q061-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q061-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q050-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q050-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q050-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q057-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q057-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q057-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q040-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q040-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q040-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q052-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q052-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q052-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q044-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q044-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q044-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q053-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q053-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q053-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q060-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q060-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q060-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q039-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q039-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q039-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q058-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q058-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q058-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q052-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q052-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q052-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q059-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q059-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q059-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q057-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q057-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q057-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q030-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q030-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q030-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q059-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q059-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q059-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q052-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q052-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q052-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q051-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q051-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q051-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q001-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q001-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q001-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q057-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q057-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q057-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q060-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q060-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q060-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q060-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q060-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q060-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q033-graph_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q033-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q033-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q061-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q061-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q061-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q040-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q040-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q040-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q041-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q041-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q041-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q052-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q052-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q052-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q044-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q044-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q044-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q056-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q056-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q056-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q031-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q031-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q031-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q056-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q056-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q056-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q044-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q044-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q044-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q052-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q052-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q052-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q055-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q055-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q055-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q040-text_only--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q040-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q040-text_only--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q031-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q031-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q031-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q030-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q030-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q030-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q040-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q040-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q040-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q052-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q052-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q052-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q055-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q055-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q055-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q030-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q030-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q030-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q054-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q054-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q054-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q057-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q057-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q057-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q001-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q001-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q001-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q033-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q033-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q033-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q060-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q060-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q060-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q052-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q052-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q052-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q061-hybrid--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q061-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q061-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q058-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q058-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q058-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q050-graph_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q050-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q050-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q039-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q039-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q039-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q052-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q052-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q052-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q001-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q001-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q001-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q060-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q060-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q060-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q058-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q058-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q058-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q001-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q001-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q001-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q039-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q039-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q039-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q059-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q059-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q059-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q058-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q058-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q058-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q053-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q053-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q053-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q050-graph_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q050-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q050-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q030-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q030-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q030-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q061-hybrid--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q061-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q061-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q051-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q051-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q051-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q033-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q033-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q033-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q061-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q061-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q061-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q058-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q058-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q058-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q058-graph_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q058-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q058-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q050-hybrid--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q050-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q050-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q001-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q001-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q001-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q055-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q055-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q055-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q052-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q052-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q052-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q051-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q051-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q051-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q051-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q051-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q051-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q001-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q001-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q001-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q041-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q041-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q041-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q001-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q001-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q001-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q050-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q050-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q050-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q054-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q054-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q054-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q061-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q061-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q061-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q044-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q044-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q044-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q033-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q033-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q033-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q041-hybrid_no_node2vec--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q041-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q041-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q053-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 11,
+    "verdict_count": 11,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q053-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q053-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q060-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q060-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q060-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q050-graph_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q050-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q050-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q055-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q055-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q055-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q055-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q055-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q055-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q041-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q041-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q041-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q054-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q054-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q054-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q059-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q059-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q059-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q033-hybrid_no_node2vec--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q033-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q033-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q061-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q061-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q061-graph_only--context_recall",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q053-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 10,
+    "verdict_count": 10,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q053-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q053-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q051-text_only--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q051-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q051-text_only--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q055-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q055-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q055-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q030-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q030-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q030-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q060-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q060-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q060-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q039-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q039-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q039-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q058-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q058-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q058-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q044-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q044-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q044-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q056-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q056-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q056-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q040-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q040-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q040-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q031-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q031-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q031-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q054-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q054-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q054-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q058-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q058-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q058-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q033-graph_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q033-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q033-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q061-hybrid_no_node2vec--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q061-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q061-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q053-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q053-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q053-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q054-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q054-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q054-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q053-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q053-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q053-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q053-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q053-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q053-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q055-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q055-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q055-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q031-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q031-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q031-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q033-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q033-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q033-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q054-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q054-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q054-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q057-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q057-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q057-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q060-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q060-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q060-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q041-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q041-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q041-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q051-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q051-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q051-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q041-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q041-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q041-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q040-hybrid--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q040-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q040-hybrid--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q053-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q053-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q053-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q055-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q055-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q055-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q054-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q054-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q054-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q055-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q055-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q055-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q039-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q039-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q039-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q061-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q061-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q061-graph_only--context_recall",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q040-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q040-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q040-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q001-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q001-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q001-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q057-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q057-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q057-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q031-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q031-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q031-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q033-hybrid_no_node2vec--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q033-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q033-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q001-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q001-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q001-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q054-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q054-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q054-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q057-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q057-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q057-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q059-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q059-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q059-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q030-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q030-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q030-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q051-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q051-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q051-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q039-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q039-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q039-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q060-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q060-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q060-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q056-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q056-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q056-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q052-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q052-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q052-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q039-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q039-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q039-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q059-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q059-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q059-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q055-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q055-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q055-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q031-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q031-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q031-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q033-hybrid_no_node2vec--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q033-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q033-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q052-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q052-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q052-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q033-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q033-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q033-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q051-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 9,
+    "verdict_count": 9,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q051-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q051-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q051-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q051-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q051-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q044-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q044-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q044-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q041-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q041-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q041-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q056-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q056-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q056-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q040-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q040-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q040-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q060-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q060-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q060-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q056-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q056-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q056-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q031-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q031-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q031-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q041-hybrid--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q041-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q041-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q039-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q039-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q039-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q054-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q054-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q054-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q058-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q058-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q058-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q033-graph_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q033-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q033-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q061-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q061-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q061-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q001-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q001-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q001-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q060-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q060-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q060-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q057-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q057-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q057-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q040-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q040-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q040-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q039-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q039-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q039-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q044-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q044-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q044-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q056-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q056-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q056-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q051-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q051-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q051-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q031-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q031-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q031-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q058-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q058-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q058-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q056-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q056-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q056-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q031-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q031-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q031-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q031-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q031-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q031-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q041-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q041-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q041-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q039-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q039-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q039-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q057-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q057-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q057-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q059-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q059-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q059-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q030-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q030-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q030-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q050-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q050-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q050-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q057-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q057-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q057-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q051-text_only--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q051-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q051-text_only--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q053-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q053-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q053-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q030-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r2-Q030-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q030-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q058-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q058-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q058-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q039-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q039-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q039-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q052-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 7,
+    "verdict_count": 7,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q052-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q052-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q050-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q050-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q050-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q001-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q001-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q001-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q059-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q059-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q059-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q059-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q059-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q059-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q050-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q050-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q050-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q056-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q056-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q056-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q041-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q041-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q041-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q058-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q058-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q058-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q039-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q039-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q039-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q030-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q030-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q030-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q040-text_only--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q040-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q040-text_only--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q054-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q054-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q054-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q057-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q057-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q057-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q061-hybrid--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q061-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q061-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q060-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q060-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q060-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q054-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q054-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q054-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q056-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q056-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q056-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q055-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q055-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q055-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q040-text_only--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q040-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q040-text_only--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q030-text_only--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q030-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q030-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q031-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q031-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q031-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q044-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q044-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q044-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r2-Q059-text_only--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q059-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q059-text_only--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q040-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q040-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q040-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q056-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r2-Q056-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r2-Q056-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q061-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q061-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q061-graph_only--context_recall",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r3-Q033-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q033-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q033-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q041-hybrid_no_node2vec--faithfulness",
+    "failure_cause": "judge_output_limit",
+    "last_reply_eval_count": 700,
+    "last_reply_done_reason": "length"
+  },
+  {
+    "task_id": "r1-Q041-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q041-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q044-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q044-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q044-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q050-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 8,
+    "verdict_count": 8,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q050-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q050-text_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q056-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 3,
+    "verdict_count": 3,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q056-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q056-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q057-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q057-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q057-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q059-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q059-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q059-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q044-hybrid--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 6,
+    "verdict_count": 6,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q044-hybrid--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q044-hybrid--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q030-hybrid_no_node2vec--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 4,
+    "verdict_count": 4,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q030-hybrid_no_node2vec--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q030-hybrid_no_node2vec--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r1-Q044-graph_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 2,
+    "verdict_count": 2,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r1-Q044-graph_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r1-Q044-graph_only--context_recall",
+    "formula_recomputed": true
+  },
+  {
+    "task_id": "r3-Q001-text_only--faithfulness",
+    "formula_recomputed": true,
+    "statement_count": 5,
+    "verdict_count": 5,
+    "statement_verdict_count_mismatch": false
+  },
+  {
+    "task_id": "r3-Q001-text_only--answer_relevancy",
+    "formula_recomputed": false
+  },
+  {
+    "task_id": "r3-Q001-text_only--context_recall",
+    "formula_recomputed": true
+  }
+]

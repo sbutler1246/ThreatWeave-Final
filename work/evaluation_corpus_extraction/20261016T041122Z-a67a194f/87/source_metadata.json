@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-352A:evaluation:llama500:11828:12848",
+    "doc_id": "AA23-352A",
+    "start": 11828,
+    "end": 12848,
+    "text": "D0321532A7515C244A1E\nSVCHost.dll\nBackdoor\n75B525B220169F07AECFB3B1991702FBD9A1E170CAF0040D1FCB07C3E819F54A\n453257C3494ADDAFB39CB6815862403E827947A1E7737EB8168CD10522465DEB\nC59F3C8D61D940B56436C14BC148C1FE98862921B8F7BAD97FBC96B31D71193C\nGRIXBA\nGt_net.exe\nCustom data gathering tool\n1409E010675BF4A40DB0A845B60DB3AAE5B302834E80ADEEC884AEBC55ECCBF7\nPSexesvc.exe\nCustom Play “psexesvc”\n0E408AED1ACF902A9F97ABF71CF0DD354024109C5D52A79054C421BE35D93549\nHRsword.exe\nDisables endpoint protection\n90040340EE101CAC7831D7035230AC8AD4224D432E5636F34F13AA1C4A0C2041\nUsysdiag.exe\nAssociated with HRsword; changes settings of System certificates\n3D86555ACAA19AEDDB5896071D1E3711B062EDBE\nfThe9C.exe\n6DE8DD5757F9A3AC5E2AC28E8A77682D7A29BE25C106F785A061DCF582A20DC6\nHi.exe\nAssociated with ransomware\n75404543DE25513B376F097CEB383E8EFB9C9B95DA8945FD4AA37C7B2F226212\nSystemBC Malware EXE\n7A42F96599DF8090CF89D6E3CE4316D24C6C00E499C8557A2E09D61C00C11986\n7DEA671BE77A2CA5772B86CF8831B02BFF0567BCE6A3AE023825AA40354F8ACA\nSystemBC malware DLL\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 55,
+        "text": "#StopRansomware: Play Ransomware"
+      },
+      {
+        "start": 3834,
+        "end": 3851,
+        "text": "Technical Details"
+      },
+      {
+        "start": 11690,
+        "end": 11744,
+        "text": "Table 2: Hashes Associated with Play Ransomware Actors"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 497,
+  "inherited_context_tokens": 27,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "28733f88d7003b0ba13f62566deb8f02ffc8e6f9d9197ddf5dc0512455e0b161",
+  "doc_id": "AA23-352A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+  "source_hash": "017d4d3ab4cc1e4f2e3da4b933cb6dd4764969612d3a53d9a1d2781daeaf93bc"
+}

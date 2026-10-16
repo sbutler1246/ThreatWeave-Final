@@ -1,0 +1,87 @@
+QUESTION: Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Chocolatey in AA23-165A? Start from LockBit affiliates and follow the three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.
+MODE: hybrid_no_node2vec
+SOURCE PASSAGES
+[E1; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.
+T1046
+Network Service Discovery
+[E2; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T1046)
+Mitigation: Network Segmentation (M1030)
+[E5; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[E6; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (T1219)
+Mitigation: Network Intrusion Prevention (M1031)
+[E8; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to prevent traffic to remote access services.
+[E9; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E10; CISA]
+Backstab
+Terminates antimalware-protected processes.
+Terminates endpoint detection and response (EDR)- protected processes.
+T1562.001
+Impair Defenses: Disable or Modify Tools
+[E11; ATTACK]
+ATT&CK release: 17.1
+Technique: Disable or Modify Tools (T1562.001)
+Mitigation: User Account Management (M1018)
+[E12; ATTACK]
+Ensure proper user permissions are in place to prevent adversaries from disabling or interfering with security services.
+[E13; CISA]
+LockBit affiliates have used Mimikatz to dump credentials.
+[E14; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E15; CISA]
+TECHNICAL DETAILS
+[E16; CISA]
+Table 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion
+[E17; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+[E18; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (T1587)
+Mitigation: Pre-compromise (M1056)
+GRAPH NODES
+N1: LockBit affiliates
+N2: Advanced Port Scanner
+N3: Network Service Discovery (T1046)
+N4: Network Segmentation (M1030)
+N5: AnyDesk
+N6: Remote Access Tools (T1219)
+N7: Network Intrusion Prevention (M1031)
+N8: Atera Remote Monitoring & Management (RMM)
+N9: Backstab
+N10: Disable or Modify Tools (T1562.001)
+N11: User Account Management (M1018)
+N12: Mimikatz (S0002)
+GRAPH PATHS
+P1: N1 --USES[E1,E2,E3]--> N2 --USES_TECHNIQUE[E1,E2,E3]--> N3 --MITIGATED_BY[E4,E5]--> N4
+P2: N1 --USES[E6,E2,E3]--> N5 --USES_TECHNIQUE[E6,E2,E3]--> N6 --MITIGATED_BY[E7,E8]--> N7
+P3: N1 --USES[E9,E2,E3]--> N8 --USES_TECHNIQUE[E9,E2,E3]--> N6 --MITIGATED_BY[E7,E8]--> N7
+P4: N1 --USES[E10,E2,E3]--> N9 --USES_TECHNIQUE[E10,E2,E3]--> N10 --MITIGATED_BY[E11,E12]--> N11
+P5: N1 --USES[E13,E14,E15,E16]--> N12
+Return the requested JSON. The displayed answer is assembled from claims.

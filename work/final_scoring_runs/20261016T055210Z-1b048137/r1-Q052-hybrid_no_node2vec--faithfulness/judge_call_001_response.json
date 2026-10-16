@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:12:30.1309114Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3778580600,
+  "load_duration": 10518800,
+  "prompt_eval_count": 522,
+  "prompt_eval_duration": 265269999,
+  "eval_count": 270,
+  "eval_duration": 3396031000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"Network Segmentation (M1030) is a mitigation option.\",\n    \"Network Segmentation (M1030) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to the technique mapped to Ligolo in AA23-165A.\",\n    \"Network Segmentation (M1030) mitigates Network Service Discovery (T1046) used by LockBit affiliates.\",\n    \"Network Intrusion Prevention (M1031) is a mitigation option.\",\n    \"Network Intrusion Prevention (M1031) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to the technique mapped to Ligolo in AA23-165A.\",\n    \"Network Intrusion Prevention (M1031) mitigates Remote Access Tools (T1219) used by LockBit affiliates.\",\n    \"User Account Management (M1018) is a mitigation option.\",\n    \"User Account Management (M1018) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to the technique mapped to Ligolo in AA23-165A.\",\n    \"User Account Management (M1018) mitigates Disable or Modify Tools (T1562.001) used by LockBit affiliates.\"\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,56 @@
+SOURCE PASSAGES
+[E1; CISA]
+Bit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.
+Table 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Exfiltration
+
+[E2; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; CISA]
+Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery
+[E5; CISA]
+
+Note: This advisory uses the MITRE ATT&CK® Matrix for Enterprise framework, version 19. See the MITRE ATT&CK Tactics and Techniques section of this advisory for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.
+Background
+(Updated Aug. 18, 2026) Since 2021, Medusa actors have used the Medusa variant to conduct ransomware attacks through at least April 2026. Medusa originally operated as a closed ransomware operation, meaning the same group of cyber threat actors controlled all development and associated ransomware campaigns. Since at least early 2023, Medusa progressed to using an affiliate model, selling RaaS to affiliates who are granted varying levels of trust based upon experience and profitability. For newer or less experienced affiliates, important operations such as ransom negotiation may be centrally controlled by the developers. Medusa actors use a double-extortion model where they encr
+[E6; CISA]
+#StopRansomware: Medusa Ransomware
+[E7; CISA]
+Technical Details
+[E8; CISA]
+s via Group Policy Objects.
+Table 9: Play ATT&CK Techniques for Enterprise for Collection
+Technique Title
+ID
+Use
+Archive Collected Data: Archive via Utility
+T1560.001
+Play ransomware actors use tools like WinRAR to compress files.
+Table 10: Play ATT&CK Techniques for Enterprise for Exfiltration
+Technique Title
+ID
+Use
+Exfiltration Over Alternative Protocol
+T1048
+Play ransomware actors use file transfer tools like WinSCP to transfer data.
+Table 11: Play ATT&CK Techniques for Enterprise for Impact
+Technique Title
+ID
+Use
+Data Encrypted for Impact
+T1486
+Play ransomware actors encrypt data on target systems to interrupt availability to system and network resources.
+Financial Theft
+T1657
+Play ransomware actors use a double-extortion model for financial gain.
+Update June 4, 2025:
+
+[E9; CISA]
+#StopRansomware: Play Ransomware
+[E10; CISA]
+Technical Details
+[E11; CISA]
+Table 4: Play ATT&CK Techniques for
+GRAPH NODES
+GRAPH PATHS

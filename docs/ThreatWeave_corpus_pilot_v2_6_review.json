@@ -1,0 +1,306 @@
+{
+  "purpose": "AI_assisted_development_source_review",
+  "human_review_status": "pending",
+  "run": "20261015T035023Z-f4b7051e",
+  "summary_sha256": "08dadc8020f1074354af53b367f205bdb436cebf0b07481138e3cb23f91265db",
+  "configuration_hash": "232c1e52f76801b11f89c1e7acd3bb1125806e871c355d4cfcd2ffa40015677b",
+  "supported_count": 34,
+  "excluded_count": 3,
+  "windows": [
+    {
+      "folder": "01",
+      "scope_id": "AA23-136A:development:llama500:3551:5862",
+      "file_sha256": {
+        "candidate_extraction.json": "690dfa6d944f157db3303ee7cc69d8c2ef6f023ec09d9070d9c64a4033052636",
+        "quote_alignment.json": "0620bbb7313aefbf9ad5fea3b1efe685eddac82d6f9745ebd768548b46b3c9f4",
+        "raw_extraction.json": "db2e6cb6b6f44070e5b0609be64bb72989b265fc55977e1a0a1c388872cedc87"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The actor uses compromised RDP credentials; likely qualifies credential provenance, not the reported credential use."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The source explicitly reports actor initial access through RDP with T1133."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "Phishing is within qualified alternatives for likely credential acquisition; do not import as categorical use."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The source describes the actor-specific custom Go backdoor and explicitly annotates T1587.001."
+        }
+      ]
+    },
+    {
+      "folder": "02",
+      "scope_id": "AA23-136A:development:llama500:5605:7833",
+      "file_sha256": {
+        "candidate_extraction.json": "354d39e196a6161d49857bfa02964ae606731fd1f8b7306c44414af12568d5bc",
+        "quote_alignment.json": "e60b9406be653ffa666922ceb56b1987e0ef1f5372560afaaa30d6d9139659ec",
+        "raw_extraction.json": "f9c1e9743049bf526d722039fd600908dfb1df0dea4b771aff3405afefdfe5d2"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The source says may have used Rsocks for SOCKS5 tunnels; the selected behavior remains inside an uncertain event."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "Explicit actor use of PowerShell with T1059.001."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "Explicit actor use of Windows Command Shell with T1059.003."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The actors disable antivirus tools, explicitly annotated T1562.001."
+        }
+      ]
+    },
+    {
+      "folder": "03",
+      "scope_id": "AA23-319A:development:llama500:2651:5181",
+      "file_sha256": {
+        "candidate_extraction.json": "a736de96c970945fa0f6ae395ccc463f2636434da95f721bba3fcc3f0f574d53",
+        "quote_alignment.json": "395496a60b62928cdc1ca02052aea0c8b1ecbd9549af559f9fd54b7592a79938",
+        "raw_extraction.json": "5027a9607b4a241ce3532b3f13c52a7979b03a2cb77923145781247a20af983e"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The full source subject Threat actors leveraging Rhysida ransomware preserves the restriction and explicitly describes their use of that ransomware."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The source directly reports actor VPN authentication using compromised valid credentials."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The source explicitly reports actor use of Gootloader malware; at times is not a software endpoint."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The source directly reports actors creating RDP connections for lateral movement with T1021.001."
+        }
+      ]
+    },
+    {
+      "folder": "04",
+      "scope_id": "AA23-319A:development:llama500:4860:7286",
+      "file_sha256": {
+        "candidate_extraction.json": "ee42ae1bd64512449b0946fba8cb16ae1b25afbb53c17623b021d113de7ec38b",
+        "quote_alignment.json": "2dc10a6638e32acc2e57ab14653c22e726299d11c3ef31c9842de07c49b2451e",
+        "raw_extraction.json": "9a2e61e6c614d70944f3b5372bceb2d6d478a606ce7520eb489e31f27bee00de"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "Literal net user domain command with its T1087.002 annotation."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "Literal net domain-computers group command with T1018."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "Literal net domain-admins group command with T1069.002."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The source directly reports actors launching Windows PowerShell Integrated Scripting Environment before executing a malicious script."
+        }
+      ]
+    },
+    {
+      "folder": "05",
+      "scope_id": "AA23-320A:development:llama500:2887:5261",
+      "file_sha256": {
+        "candidate_extraction.json": "577cec087ad014402b4448ce0efce321f6f3f1f08d66b4bf04bf3d1f71f7f5a4",
+        "quote_alignment.json": "a3c075070c2224ead0363d6ee41b49c057b178b6975eec2261e83c51456fae50",
+        "raw_extraction.json": "b680702d5e19928f560e3114ffe1d02a79de14709d4bc246f7f3f643540cf279"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The explicit public-reporting subject scopes the phone/SMS credential-targeting list item with T1598; retain that attribution."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The same explicit subject/list reports IT/helpdesk impersonation and T1656."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The named subject scopes employee execution of remote access tools and T1204."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The same subject/list item explicitly reports remote access tools and T1219."
+        }
+      ]
+    },
+    {
+      "folder": "06",
+      "scope_id": "AA23-320A:development:llama500:4957:7101",
+      "file_sha256": {
+        "candidate_extraction.json": "45985e0c4291024a96fae72d42107d4a92df3968d5c0d17a9c6873f4103c5eef",
+        "quote_alignment.json": "258e44d58427984cdc0d78b0aa46c7d2882ca3394f697284a24fef10688af656",
+        "raw_extraction.json": "15507905c1a885390de4a624b69510a6838eac45eb83ea72b19a1828c623e8c5"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The Malware Used by Scattered Spider caption scopes AveMaria, explicitly also known as WarZone [S0670]; the source alias now shares that catalog identity."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The explicit actor-use malware caption scopes the Raccoon Stealer [S1148] row."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The Raccoon Stealer row description says it steals browser history, annotated T1217; the contiguous literal quote includes the action."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The same row description reports stealing cookies, annotated T1539."
+        }
+      ]
+    },
+    {
+      "folder": "07",
+      "scope_id": "AA23-353A:development:llama500:3078:5323",
+      "file_sha256": {
+        "candidate_extraction.json": "d3d9c8c2b25a4a786df628ad4127d5becf945332dbd52ba47c4f1b952a0b231f",
+        "quote_alignment.json": "0518d3c3be578407fa0798a1301436fe0bcc1340fb2c397bb4cdff7d81277774",
+        "raw_extraction.json": "08dd005ce91b7f7679ac6651e5cad114b53d99f4a21b73fc67e28b0c146267d5"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "Named affiliates scope the adjacent Actors continuation, which explicitly reports phone/SMS credential targeting and T1598."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The same controlled continuation explicitly reports credentials used for target access and T1586."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The source directly says affiliates deploy remote access software including AnyDesk."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The same deployment list names the complete software phrase Mega sync."
+        }
+      ]
+    },
+    {
+      "folder": "08",
+      "scope_id": "AA23-353A:development:llama500:5039:6758",
+      "file_sha256": {
+        "candidate_extraction.json": "3c0df4d4beaa2749d63b985bb477744061fc5b5a95dc303f9bdeb87860ac8b56",
+        "quote_alignment.json": "ff42367437f8a0c5b7121c20ac5dd84508625d809a8fe4f559c0fc3cec98f85a",
+        "raw_extraction.json": "59445c9239db6e14dc1d94ccfebe5079b5b7eb3638a70f681033ba5bebdd11fe"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The source directly names ALPHV Blackcat affiliates communicating with victims via TOR [S0183], without a copied Some qualifier."
+        }
+      ]
+    },
+    {
+      "folder": "09",
+      "scope_id": "AA24-060A:development:llama500:2332:4570",
+      "file_sha256": {
+        "candidate_extraction.json": "e588b6205bbf2bd1bdf0a36084e0440b759d0b485fd2290cee3805166befddfd",
+        "quote_alignment.json": "1b045422832b63c5a1e46f833033d78804b3510e351702ba50ed79a88c9271b4",
+        "raw_extraction.json": "df468fca7eea1d331c10aa78d8bd40e561e6ec73c5280ce0d14b12608822fca4"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The source explicitly reports Phobos actors initial access through phishing campaigns with T1598."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The passage begins If Phobos actors gain successful RDP authentication; a conditional is not a confirmed T1133 access event."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The full source subject Threat actors leveraging Phobos preserves its restriction and explicitly describes use of Phobos."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "That restricted source subject explicitly reports deployed remote access tools with T1219."
+        }
+      ]
+    },
+    {
+      "folder": "10",
+      "scope_id": "AA24-060A:development:llama500:4275:6493",
+      "file_sha256": {
+        "candidate_extraction.json": "6ae89c2b1b74b85441b0bc8ee317910003d73ccc040ae290fb0c316b02a536f1",
+        "quote_alignment.json": "4577171c0bb9230174041df27c00fdc31cdbbed5919556005006123f9f0eb04b",
+        "raw_extraction.json": "8a69a32ffab3a2a030e76436f41241c151c02ef4f72efc73eefc562f0d71b06e"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The actors explicitly deploy additional Phobos payloads; the software mention occurs independently of the qualified actor name."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The source directly says Phobos actors run 1saas.exe."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The source directly says Phobos actors run cmd.exe; catalog resolution is separate from a source-reported ID."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The source directly reports Smokeloader API manipulation enabling process injection and T1055.002."
+        }
+      ]
+    }
+  ]
+}

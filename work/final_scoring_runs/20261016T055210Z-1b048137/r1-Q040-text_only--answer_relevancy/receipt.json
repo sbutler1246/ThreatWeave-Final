@@ -1,0 +1,18 @@
+{
+  "task": {
+    "task_id": "r1-Q040-text_only--answer_relevancy",
+    "case_id": "r1-Q040-text_only",
+    "metric": "answer_relevancy",
+    "eligible": false
+  },
+  "input_sha256": "6a4b5f1934a58b4d25446f7caa524e8334c207545425a6ce89351c4c32635c3f",
+  "status": "unavailable_answer",
+  "value": null,
+  "reason": "Original generation failed; no valid response exists.",
+  "judge_calls": 0,
+  "elapsed_ms": 0.002900022082030773,
+  "files_sha256": {
+    "input.json": "d9ae644c0fae4c8adb104af3f49836994cb555ed6b8cf9af0a29a360208c8857",
+    "result.json": "848eb62b90370bda6773a7fdc20eba3c39a291e127ca3f7ff30d86e5ff1c11bf"
+  }
+}

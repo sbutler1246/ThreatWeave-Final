@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Black Basta affiliates",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "SoftPerfect",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e3",
+    "mention": "netscan.exe",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "Mimikatz",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0002",
+    "canonical_name": "Mimikatz",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1068",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1068",
+    "canonical_name": "Exploitation for Privilege Escalation",
+    "source_attack_id": "T1068"
+  }
+]

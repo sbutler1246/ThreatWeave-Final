@@ -1,0 +1,471 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "sombrat",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "sombrat",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 5,
+      "text": "[.]51",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 6,
+      "end": 19,
+      "text": "November 2022",
+      "line_start": 6
+    },
+    "u003": {
+      "start": 20,
+      "end": 34,
+      "text": "42.189.12[.]36",
+      "line_start": 20
+    },
+    "u004": {
+      "start": 35,
+      "end": 48,
+      "text": "November 2022",
+      "line_start": 35
+    },
+    "u005": {
+      "start": 49,
+      "end": 65,
+      "text": "45.227.251[.]167",
+      "line_start": 49
+    },
+    "u006": {
+      "start": 66,
+      "end": 79,
+      "text": "November 2022",
+      "line_start": 66
+    },
+    "u007": {
+      "start": 80,
+      "end": 92,
+      "text": "5.44.42[.]20",
+      "line_start": 80
+    },
+    "u008": {
+      "start": 93,
+      "end": 106,
+      "text": "November 2022",
+      "line_start": 93
+    },
+    "u009": {
+      "start": 107,
+      "end": 122,
+      "text": "61.166.221[.]46",
+      "line_start": 107
+    },
+    "u010": {
+      "start": 123,
+      "end": 136,
+      "text": "November 2022",
+      "line_start": 123
+    },
+    "u011": {
+      "start": 137,
+      "end": 151,
+      "text": "68.83.169[.]91",
+      "line_start": 137
+    },
+    "u012": {
+      "start": 152,
+      "end": 165,
+      "text": "November 2022",
+      "line_start": 152
+    },
+    "u013": {
+      "start": 166,
+      "end": 182,
+      "text": "81.184.181[.]215",
+      "line_start": 166
+    },
+    "u014": {
+      "start": 183,
+      "end": 196,
+      "text": "November 2022",
+      "line_start": 183
+    },
+    "u015": {
+      "start": 197,
+      "end": 212,
+      "text": "82.12.196[.]197",
+      "line_start": 197
+    },
+    "u016": {
+      "start": 213,
+      "end": 226,
+      "text": "November 2022",
+      "line_start": 213
+    },
+    "u017": {
+      "start": 227,
+      "end": 242,
+      "text": "98.143.70[.]147",
+      "line_start": 227
+    },
+    "u018": {
+      "start": 243,
+      "end": 256,
+      "text": "November 2022",
+      "line_start": 243
+    },
+    "u019": {
+      "start": 257,
+      "end": 272,
+      "text": "140.82.48[.]158",
+      "line_start": 257
+    },
+    "u020": {
+      "start": 273,
+      "end": 286,
+      "text": "December 2022",
+      "line_start": 273
+    },
+    "u021": {
+      "start": 287,
+      "end": 303,
+      "text": "147.135.36[.]162",
+      "line_start": 287
+    },
+    "u022": {
+      "start": 304,
+      "end": 317,
+      "text": "December 2022",
+      "line_start": 304
+    },
+    "u023": {
+      "start": 318,
+      "end": 334,
+      "text": "147.135.11[.]223",
+      "line_start": 318
+    },
+    "u024": {
+      "start": 335,
+      "end": 348,
+      "text": "December 2022",
+      "line_start": 335
+    },
+    "u025": {
+      "start": 349,
+      "end": 364,
+      "text": "152.89.247[.]50",
+      "line_start": 349
+    },
+    "u026": {
+      "start": 365,
+      "end": 378,
+      "text": "December 2022",
+      "line_start": 365
+    },
+    "u027": {
+      "start": 379,
+      "end": 392,
+      "text": "172.64.80[.]1",
+      "line_start": 379
+    },
+    "u028": {
+      "start": 393,
+      "end": 406,
+      "text": "December 2022",
+      "line_start": 393
+    },
+    "u029": {
+      "start": 407,
+      "end": 422,
+      "text": "179.43.167[.]10",
+      "line_start": 407
+    },
+    "u030": {
+      "start": 423,
+      "end": 436,
+      "text": "December 2022",
+      "line_start": 423
+    },
+    "u031": {
+      "start": 437,
+      "end": 452,
+      "text": "185.7.214[.]218",
+      "line_start": 437
+    },
+    "u032": {
+      "start": 453,
+      "end": 466,
+      "text": "December 2022",
+      "line_start": 453
+    },
+    "u033": {
+      "start": 467,
+      "end": 484,
+      "text": "193.149.176[.]157",
+      "line_start": 467
+    },
+    "u034": {
+      "start": 485,
+      "end": 498,
+      "text": "December 2022",
+      "line_start": 485
+    },
+    "u035": {
+      "start": 499,
+      "end": 516,
+      "text": "193.235.146[.]104",
+      "line_start": 499
+    },
+    "u036": {
+      "start": 517,
+      "end": 530,
+      "text": "December 2022",
+      "line_start": 517
+    },
+    "u037": {
+      "start": 531,
+      "end": 547,
+      "text": "209.141.36[.]116",
+      "line_start": 531
+    },
+    "u038": {
+      "start": 548,
+      "end": 561,
+      "text": "December 2022",
+      "line_start": 548
+    },
+    "u039": {
+      "start": 562,
+      "end": 576,
+      "text": "45.61.136[.]47",
+      "line_start": 562
+    },
+    "u040": {
+      "start": 577,
+      "end": 590,
+      "text": "December 2022",
+      "line_start": 577
+    },
+    "u041": {
+      "start": 591,
+      "end": 605,
+      "text": "45.8.158[.]104",
+      "line_start": 591
+    },
+    "u042": {
+      "start": 606,
+      "end": 619,
+      "text": "December 2022",
+      "line_start": 606
+    },
+    "u043": {
+      "start": 620,
+      "end": 634,
+      "text": "5.181.234[.]58",
+      "line_start": 620
+    },
+    "u044": {
+      "start": 635,
+      "end": 648,
+      "text": "December 2022",
+      "line_start": 635
+    },
+    "u045": {
+      "start": 649,
+      "end": 663,
+      "text": "5.188.86[.]195",
+      "line_start": 649
+    },
+    "u046": {
+      "start": 664,
+      "end": 677,
+      "text": "December 2022",
+      "line_start": 664
+    },
+    "u047": {
+      "start": 678,
+      "end": 692,
+      "text": "77.73.133[.]84",
+      "line_start": 678
+    },
+    "u048": {
+      "start": 693,
+      "end": 706,
+      "text": "December 2022",
+      "line_start": 693
+    },
+    "u049": {
+      "start": 707,
+      "end": 722,
+      "text": "89.108.65[.]136",
+      "line_start": 707
+    },
+    "u050": {
+      "start": 723,
+      "end": 736,
+      "text": "December 2022",
+      "line_start": 723
+    },
+    "u051": {
+      "start": 737,
+      "end": 752,
+      "text": "94.232.41[.]105",
+      "line_start": 737
+    },
+    "u052": {
+      "start": 753,
+      "end": 766,
+      "text": "December 2022",
+      "line_start": 753
+    },
+    "u053": {
+      "start": 767,
+      "end": 781,
+      "text": "47.87.229[.]39",
+      "line_start": 767
+    },
+    "u054": {
+      "start": 782,
+      "end": 794,
+      "text": "January 2023",
+      "line_start": 782
+    },
+    "u055": {
+      "start": 795,
+      "end": 858,
+      "text": "Table 3: Royal Ransomware Associated Domains as of January 2023",
+      "line_start": 795
+    },
+    "u056": {
+      "start": 859,
+      "end": 875,
+      "text": "Malicious Domain",
+      "line_start": 859
+    },
+    "u057": {
+      "start": 876,
+      "end": 898,
+      "text": "Last Observed Activity",
+      "line_start": 876
+    },
+    "u058": {
+      "start": 899,
+      "end": 912,
+      "text": "sombrat[.]com",
+      "line_start": 899
+    },
+    "u059": {
+      "start": 913,
+      "end": 925,
+      "text": "October 2022",
+      "line_start": 913
+    },
+    "u060": {
+      "start": 926,
+      "end": 940,
+      "text": "gororama[.]com",
+      "line_start": 926
+    },
+    "u061": {
+      "start": 941,
+      "end": 954,
+      "text": "November 2022",
+      "line_start": 941
+    },
+    "u062": {
+      "start": 955,
+      "end": 973,
+      "text": "softeruplive[.]com",
+      "line_start": 955
+    },
+    "u063": {
+      "start": 974,
+      "end": 987,
+      "text": "November 2022",
+      "line_start": 974
+    },
+    "u064": {
+      "start": 988,
+      "end": 1008,
+      "text": "altocloudzone[.]live",
+      "line_start": 988
+    },
+    "u065": {
+      "start": 1009,
+      "end": 1022,
+      "text": "December 2022",
+      "line_start": 1009
+    },
+    "u066": {
+      "start": 1023,
+      "end": 1040,
+      "text": "ciborkumari[.]xyz",
+      "line_start": 1023
+    },
+    "u067": {
+      "start": 1041,
+      "end": 1054,
+      "text": "December 2022",
+      "line_start": 1041
+    },
+    "u068": {
+      "start": 1055,
+      "end": 1072,
+      "text": "myappearinc[.]com",
+      "line_start": 1055
+    },
+    "u069": {
+      "start": 1073,
+      "end": 1086,
+      "text": "December 2022",
+      "line_start": 1073
+    },
+    "u070": {
+      "start": 1087,
+      "end": 1105,
+      "text": "parkerpublic[.]com",
+      "line_start": 1087
+    },
+    "u071": {
+      "start": 1106,
+      "end": 1119,
+      "text": "December 2022",
+      "line_start": 1106
+    },
+    "u072": {
+      "start": 1120,
+      "end": 1155,
+      "text": "pastebin.mozilla[.]org/Z54Vudf9/raw",
+      "line_start": 1120
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1073",
+    "m002_S": "attack:S0615"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

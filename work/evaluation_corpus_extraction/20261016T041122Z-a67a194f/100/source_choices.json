@@ -1,0 +1,206 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit Black",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Blackcat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1480.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1614.001",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "LockBit Black",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Blackcat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1480.001",
+      "type": "Technique",
+      "attack_id": "T1480.001"
+    },
+    "m005_T": {
+      "name": "T1614.001",
+      "type": "Technique",
+      "attack_id": "T1614.001"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 81,
+      "text": "Note: This advisory uses the MITRE ATT&CK® for Enterprise framework, version 12.",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 82,
+      "end": 215,
+      "text": "See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK for Enterprise.",
+      "line_start": 1
+    },
+    "u003": {
+      "start": 216,
+      "end": 228,
+      "text": "CAPABILITIES",
+      "line_start": 216
+    },
+    "u004": {
+      "start": 229,
+      "end": 393,
+      "text": "LockBit 3.0, also known as “LockBit Black,” is more modular and evasive than its previous versions and shares similarities with Blackmatter and Blackcat ransomware.",
+      "line_start": 229
+    },
+    "u005": {
+      "start": 394,
+      "end": 511,
+      "text": "LockBit 3.0 is configured upon compilation with many different options that determine the behavior of the ransomware.",
+      "line_start": 394
+    },
+    "u006": {
+      "start": 512,
+      "end": 668,
+      "text": "Upon the actual execution of the ransomware within a victim environment, various arguments can be supplied to further modify the behavior of the ransomware.",
+      "line_start": 394
+    },
+    "u007": {
+      "start": 669,
+      "end": 865,
+      "text": "For example, LockBit 3.0 accepts additional arguments for specific operations in lateral movement and rebooting into Safe Mode (see LockBit Command Line parameters under Indicators of Compromise).",
+      "line_start": 394
+    },
+    "u008": {
+      "start": 866,
+      "end": 1027,
+      "text": "If a LockBit affiliate does not have access to passwordless LockBit 3.0 ransomware, then a password argument is mandatory during the execution of the ransomware.",
+      "line_start": 394
+    },
+    "u009": {
+      "start": 1028,
+      "end": 1142,
+      "text": "LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001].",
+      "line_start": 394
+    },
+    "u010": {
+      "start": 1143,
+      "end": 1220,
+      "text": "The password is a cryptographic key which decodes the LockBit 3.0 executable.",
+      "line_start": 394
+    },
+    "u011": {
+      "start": 1221,
+      "end": 1383,
+      "text": "By protecting the code in such a manner, LockBit 3.0 hinders malware detection and analysis with the code being unexecutable and unreadable in its encrypted form.",
+      "line_start": 394
+    },
+    "u012": {
+      "start": 1384,
+      "end": 1591,
+      "text": "Signature-based detections may fail to detect the LockBit 3.0 executable as the executable’s encrypted potion will vary based on the cryptographic key used for encryption while also generating a unique hash.",
+      "line_start": 394
+    },
+    "u013": {
+      "start": 1592,
+      "end": 1744,
+      "text": "When provided the correct password, LockBit 3.0 will decrypt the main component, continue to decrypt or decompress its code, and execute the ransomware.",
+      "line_start": 394
+    },
+    "u014": {
+      "start": 1745,
+      "end": 1852,
+      "text": "LockBit 3.0 will only infect machines that do not have language settings matching a defined exclusion list.",
+      "line_start": 1745
+    },
+    "u015": {
+      "start": 1853,
+      "end": 1983,
+      "text": "However, whether a system language is checked at runtime is determined by a configuration flag originally set at compilation time.",
+      "line_start": 1745
+    },
+    "u016": {
+      "start": 1984,
+      "end": 2104,
+      "text": "Languages on the exclusion list include, but are not limited to, Romanian (Moldova), Arabic (Syria), and Tatar (Russia).",
+      "line_start": 1745
+    },
+    "u017": {
+      "start": 2105,
+      "end": 2166,
+      "text": "If a language from the exclusion list is detected [T1614.001]",
+      "line_start": 1745
+    },
+    "u018": {
+      "start": 2168,
+      "end": 2229,
+      "text": "LockBit 3.0 will stop execution without infecting the system.",
+      "line_start": 1745
+    },
+    "u019": {
+      "start": 2230,
+      "end": 2244,
+      "text": "INITIAL ACCESS",
+      "line_start": 2230
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1202",
+    "m002_S": "attack:S1202",
+    "m003_S": "attack:S1068",
+    "m004_T": "attack:T1480.001",
+    "m005_T": "attack:T1614.001"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m004_T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Play",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1162",
+    "canonical_name": "Playcrypt",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1048",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1048",
+    "canonical_name": "Exfiltration Over Alternative Protocol",
+    "source_attack_id": "T1048"
+  },
+  {
+    "local_id": "e3",
+    "mention": "Play Ransomware Actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "PsExec",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0029",
+    "canonical_name": "PsExec",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "A Windows",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  }
+]

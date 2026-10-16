@@ -1,0 +1,21 @@
+{
+  "task": {
+    "task_id": "r3-Q057-text_only--context_recall",
+    "case_id": "r3-Q057-text_only",
+    "metric": "context_recall",
+    "eligible": true
+  },
+  "input_sha256": "549c4367fd920896bc04e5169bcadb4c3a039c5a0423c32f39dd28a7212789c4",
+  "status": "scored",
+  "value": 0.6666666666666666,
+  "judge_calls": 1,
+  "elapsed_ms": 7612.729499989655,
+  "files_sha256": {
+    "input.json": "75551e89585486fe8d252d9614b1255647a2091ec32512507cf43f917156e19d",
+    "judge_call_001_request.json": "7f3e195acee7237aad13304a5fafd2743f093556942e615ad35b6f1c4a426a05",
+    "judge_call_001_response.json": "b6d806d5d333aa94b9fd493a92d068ded0b16f1184177070dc108a950357c298",
+    "model_tags_after.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "model_tags_before.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "result.json": "88d3c9bb6e580fdb1ed7ab3637edb154c3bc4492445c651afad09be38fad8816"
+  }
+}

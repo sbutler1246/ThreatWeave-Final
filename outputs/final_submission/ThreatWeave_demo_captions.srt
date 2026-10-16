@@ -1,0 +1,229 @@
+1
+00:00:00,000 --> 00:00:08,592
+This is ThreatWeave, Stephen Butler's cybersecurity Graph RAG
+project for CS sixty-three thirty-eight. This demonstration
+
+2
+00:00:08,592 --> 00:00:17,184
+uses real saved application outputs from October fifteenth. It
+makes no new model or database
+
+3
+00:00:17,184 --> 00:00:24,630
+calls. Synthetic narration accompanies captured application
+states so the evidence workflow remains reproducible.
+
+4
+00:00:25,880 --> 00:00:33,183
+The question asks how Rhysida actors used valid accounts for
+access and asks for separate
+
+5
+00:00:33,183 --> 00:00:40,485
+mitigation guidance. The saved graph-only result identifies
+compromised credentials used at internal VPN access points.
+
+6
+00:00:40,485 --> 00:00:47,787
+Each claim lists the evidence identifiers supplied to the model.
+The interface warns that a
+
+7
+00:00:47,787 --> 00:00:51,195
+citation does not by itself establish correctness.
+
+8
+00:00:52,445 --> 00:01:00,233
+Opening evidence E one reveals the exact CISA passage, its
+advisory identifier and normalized source
+
+9
+00:01:00,233 --> 00:01:08,021
+offsets. Here the source explicitly connects Rhysida actors,
+compromised valid credentials and internal VPN access.
+
+10
+00:01:08,021 --> 00:01:15,809
+This lets the analyst check a particular incident observation
+instead of assuming that a generally
+
+11
+00:01:15,809 --> 00:01:17,885
+plausible answer is supported.
+
+12
+00:01:19,135 --> 00:01:26,232
+Reference guidance has a different label. This passage comes from
+the frozen Enterprise ATT and
+
+13
+00:01:26,232 --> 00:01:33,328
+CK seventeen point one snapshot and describes secure handling of
+credentials in applications. The relationship
+
+14
+00:01:33,328 --> 00:01:40,425
+is a reference recommendation. It does not prove that this
+mitigation worked against Rhysida in
+
+15
+00:01:40,425 --> 00:01:46,575
+the reported incident. Keeping these source roles separate is a
+core project requirement.
+
+16
+00:01:47,825 --> 00:01:55,483
+The query graph displays the accepted directed paths actually
+returned for this question. Selecting Valid
+
+17
+00:01:55,483 --> 00:02:03,141
+Accounts exposes the technique identity and type. Actor-to-
+technique and technique-to-mitigation links remain visible as
+different
+
+18
+00:02:03,141 --> 00:02:10,799
+relationships. The graph is a saved query-time snapshot rather
+than a continuously refreshed picture of
+
+19
+00:02:10,799 --> 00:02:11,820
+the database.
+
+20
+00:02:13,070 --> 00:02:19,956
+The graph supports zoom, reset and panning. This captured state
+follows the zoom-in control. These
+
+21
+00:02:19,956 --> 00:02:26,841
+controls help inspect a returned path, but they do not validate
+its meaning. The source
+
+22
+00:02:26,841 --> 00:02:33,726
+passages remain necessary for checking whether the path supports
+the wording of the generated answer.
+
+23
+00:02:34,976 --> 00:02:41,433
+The sidebar can switch to the preserved full-hybrid run of the
+same question. Full hybrid
+
+24
+00:02:41,433 --> 00:02:47,891
+combines text retrieval and structural paths with candidates
+proposed by Node to Vec graph neighbors.
+
+25
+00:02:47,891 --> 00:02:54,348
+The displayed answer and timestamp belong to that original run.
+This replay is not a
+
+26
+00:02:54,348 --> 00:02:57,792
+new performance measurement or a live benchmark query.
+
+27
+00:02:59,042 --> 00:03:07,301
+The hybrid result also exposes its returned graph. Graph
+similarity only proposes candidates. An accepted
+
+28
+00:03:07,301 --> 00:03:15,560
+directed path with source evidence must support a factual claim.
+The replay shows this distinction
+
+29
+00:03:15,560 --> 00:03:23,819
+without changing any frozen question, source, model output or
+index. Additional live text-only and ablation
+
+30
+00:03:23,819 --> 00:03:26,022
+interface flows remain unverified.
+
+31
+00:03:27,272 --> 00:03:35,613
+Run details retain the model digest, evidence budget and
+retrieval metadata. The actual evidence cap
+
+32
+00:03:35,613 --> 00:03:43,955
+is three thousand UTF-eight bytes, even though the original
+design discussed tokens. The download control
+
+33
+00:03:43,955 --> 00:03:52,297
+exports the structured displayed run. Graph inspection can add
+display-position metadata to entity records. The
+
+34
+00:03:52,297 --> 00:04:00,638
+saved answer and evidence remain unchanged. Original pending-
+review notices describe the October fifteenth development
+checkpoint.
+
+35
+00:04:01,888 --> 00:04:10,109
+The frozen evaluation contains twenty questions, four conditions
+and three repeats, giving two hundred forty
+
+36
+00:04:10,109 --> 00:04:18,330
+measured outcomes. Two hundred ten returned valid non-abstaining
+answers, fifteen abstained and fifteen failed generation
+
+37
+00:04:18,330 --> 00:04:26,552
+validation. Valid here refers to output validation, not semantic
+correctness. Automatic scoring retains missing and
+
+38
+00:04:26,552 --> 00:04:32,032
+failed metric slots instead of filling them with invented values.
+
+39
+00:04:33,282 --> 00:04:40,278
+Source-only extraction achieved precision zero point four five
+five, recall zero point zero six seven
+
+40
+00:04:40,278 --> 00:04:47,274
+and F one zero point one one seven against the frozen source-
+scoped inventory. The proposed
+
+41
+00:04:47,274 --> 00:04:54,270
+F one target of zero point eight was not met. Five exact-
+reference nonmatches may expose
+
+42
+00:04:54,270 --> 00:05:01,266
+annotation or granularity gaps, so disagreement with the
+inventory is not always proof of semantic
+
+43
+00:05:01,266 --> 00:05:01,732
+falsehood.
+
+44
+00:05:02,982 --> 00:05:10,972
+ThreatWeave demonstrates a local workflow with cited answers,
+exact source passages and inspectable graph paths.
+
+45
+00:05:10,972 --> 00:05:18,962
+The preserved experiment, input hashes, validation failures and
+scoring records make its limitations reviewable. The
+
+46
+00:05:18,962 --> 00:05:26,952
+project does not establish operational effectiveness or a general
+advantage for graph retrieval. The final
+
+47
+00:05:26,952 --> 00:05:32,811
+report and slides provide the comparison results and their
+coverage limitations.

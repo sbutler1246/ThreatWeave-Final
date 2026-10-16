@@ -1,0 +1,934 @@
+[
+  {
+    "canonical_id": "local:AA23-165A:lockbit-affiliates",
+    "type": "ThreatGroup",
+    "name": "LockBit affiliates",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:01321fa688d5",
+    "type": "Software",
+    "name": "Advanced Internet Protocol (IP) Scanner",
+    "source_name": "Advanced Internet Protocol (IP) Scanner",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1046",
+    "type": "Technique",
+    "name": "Network Service Discovery",
+    "attack_id": "T1046",
+    "stix_id": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:3200bf51de7a",
+    "type": "Software",
+    "name": "Advanced Port Scanner",
+    "source_name": "Advanced Port Scanner",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:f084e63e6a62",
+    "type": "Software",
+    "name": "AnyDesk",
+    "source_name": "AnyDesk",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1219",
+    "name": "Remote Access Tools",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1219",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:66a07ba808e8",
+    "type": "Software",
+    "name": "Atera Remote Monitoring & Management (RMM)",
+    "source_name": "Atera Remote Monitoring & Management (RMM)",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:e0937ebfa805",
+    "type": "Software",
+    "name": "Backstab",
+    "source_name": "Backstab",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1562.001",
+    "name": "Disable or Modify Tools",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1562.001",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:71f199334790",
+    "type": "Software",
+    "name": "Bat Armor",
+    "source_name": "Bat Armor",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:S0521",
+    "type": "Software",
+    "name": "BloodHound",
+    "source_name": "Bloodhound",
+    "attack_id": "S0521",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1482",
+    "type": "Technique",
+    "name": "Domain Trust Discovery",
+    "attack_id": "T1482",
+    "stix_id": "attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:f0e3ff918eb7",
+    "type": "Software",
+    "name": "Chocolatey",
+    "source_name": "Chocolatey",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1072",
+    "type": "Technique",
+    "name": "Software Deployment Tools",
+    "attack_id": "T1072",
+    "stix_id": "attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:e75f81e2b9c1",
+    "type": "Software",
+    "name": "Defender Control",
+    "source_name": "Defender Control",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:ca44de7df757",
+    "type": "Software",
+    "name": "ExtPassword",
+    "source_name": "ExtPassword",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1003",
+    "name": "OS Credential Dumping",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1003",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:c19a332bf44b",
+    "type": "Software",
+    "name": "FreeFileSync",
+    "source_name": "FreeFileSync",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1567.002",
+    "name": "Exfiltration to Cloud Storage",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1567.002",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:77eaa36ca5b3",
+    "type": "Software",
+    "name": "GMER",
+    "source_name": "GMER",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:e80ac0ab47a5",
+    "type": "Software",
+    "name": "Ligolo",
+    "source_name": "Ligolo",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1095",
+    "type": "Technique",
+    "name": "Non-Application Layer Protocol",
+    "attack_id": "T1095",
+    "stix_id": "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:45e4afe86adc",
+    "type": "Software",
+    "name": "LostMyPassword",
+    "source_name": "LostMyPassword",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:43e3b99d68d1",
+    "type": "Software",
+    "name": "MEGA Ltd MegaSync",
+    "source_name": "MEGA Ltd MegaSync",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:9e3f2de9075a",
+    "type": "Software",
+    "name": "Microsoft Sysinternals ProcDump",
+    "source_name": "Microsoft Sysinternals ProcDump",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1003.001",
+    "name": "LSASS Memory",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1003.001",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:4543ed34eef1",
+    "type": "Software",
+    "name": "PasswordFox",
+    "source_name": "PasswordFox",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1555.003",
+    "type": "Technique",
+    "name": "Credentials from Web Browsers",
+    "attack_id": "T1555.003",
+    "stix_id": "attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:83bb30f693bb",
+    "type": "Software",
+    "name": "PCHunter",
+    "source_name": "PCHunter",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:6d2f3088bde8",
+    "type": "Software",
+    "name": "PowerTool",
+    "source_name": "PowerTool",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:af1cdd24af11",
+    "type": "Software",
+    "name": "Process Hacker",
+    "source_name": "Process Hacker",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:29949244c49a",
+    "type": "Software",
+    "name": "PuTTY Link (Plink)",
+    "source_name": "PuTTY Link (Plink)",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1572",
+    "name": "Protocol Tunneling",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1572",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:f41f88fa5f85",
+    "type": "Software",
+    "name": "Seatbelt",
+    "source_name": "Seatbelt",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1082",
+    "type": "Technique",
+    "name": "System Information Discovery",
+    "attack_id": "T1082",
+    "stix_id": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:8a2cf8c01c3b",
+    "type": "Software",
+    "name": "ScreenConnect (also known as ConnectWise)",
+    "source_name": "ScreenConnect (also known as ConnectWise)",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:ad9798edd4be",
+    "type": "Software",
+    "name": "SoftPerfect Network Scanner",
+    "source_name": "SoftPerfect Network Scanner",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:02f6f0c9f7e2",
+    "type": "Software",
+    "name": "Splashtop",
+    "source_name": "Splashtop",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1021.001",
+    "type": "Technique",
+    "name": "Remote Desktop Protocol",
+    "attack_id": "T1021.001",
+    "stix_id": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:44fadb595b5e",
+    "type": "Software",
+    "name": "TDSSKiller",
+    "source_name": "TDSSKiller",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:248c803623b9",
+    "type": "Software",
+    "name": "TeamViewer",
+    "source_name": "TeamViewer",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:73ce0c7e28f1",
+    "type": "Software",
+    "name": "ThunderShell",
+    "source_name": "ThunderShell",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1071.001",
+    "type": "Technique",
+    "name": "Web Protocols",
+    "attack_id": "T1071.001",
+    "stix_id": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-165A:software:673fa557d7aa",
+    "type": "Software",
+    "name": "WinSCP",
+    "source_name": "WinSCP",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1048",
+    "name": "Exfiltration Over Alternative Protocol",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1048",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA23-061A:68e54d28b188",
+    "name": "Royal actors",
+    "type": "ThreatGroup",
+    "resolution_status": "local",
+    "review_note": "Actor scope retained as reported; consolidate only after verified alias review."
+  },
+  {
+    "canonical_id": "local:AA23-061A:software:4437f8f0e447",
+    "name": "Chisel",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-109A:0e1c53812ace",
+    "name": "Akira threat actors",
+    "type": "ThreatGroup",
+    "resolution_status": "local",
+    "review_note": "Actor scope retained as reported; consolidate only after verified alias review."
+  },
+  {
+    "canonical_id": "attack:S0002",
+    "name": "Mimikatz",
+    "type": "Software",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:S0349",
+    "name": "LaZagne",
+    "type": "Software",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:S0508",
+    "name": "ngrok",
+    "type": "Software",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:2557667d4228",
+    "name": "FileZilla",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1560.001",
+    "name": "Archive via Utility",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1560.001",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:aedba2c710c4",
+    "name": "WinRAR",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:b6c676547196",
+    "name": "WinSCP",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:S1040",
+    "name": "Rclone",
+    "type": "Software",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1090",
+    "name": "Proxy",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1090",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA24-131A:f75b50ea0eb3",
+    "name": "Black Basta affiliates",
+    "type": "ThreatGroup",
+    "resolution_status": "local",
+    "review_note": "Actor scope retained as reported; consolidate only after verified alias review."
+  },
+  {
+    "canonical_id": "local:AA24-131A:software:fe36d4218d2e",
+    "name": "Backstab",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-352A:99cc2849cecd",
+    "name": "Play ransomware actors",
+    "type": "ThreatGroup",
+    "resolution_status": "local",
+    "review_note": "Actor scope retained as reported; consolidate only after verified alias review."
+  },
+  {
+    "canonical_id": "local:AA23-075A:0a79cffd0da5",
+    "name": "LockBit 3.0 affiliates",
+    "type": "ThreatGroup",
+    "resolution_status": "local",
+    "review_note": "Actor scope retained as reported; consolidate only after verified alias review."
+  },
+  {
+    "canonical_id": "local:AA25-071A:5d82fba77abf",
+    "name": "Medusa actors",
+    "type": "ThreatGroup",
+    "resolution_status": "local",
+    "review_note": "Actor scope retained as reported; consolidate only after verified alias review."
+  },
+  {
+    "canonical_id": "attack:S0029",
+    "name": "PsExec",
+    "type": "Software",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1569.002",
+    "name": "Service Execution",
+    "type": "Technique",
+    "resolution_status": "canonical",
+    "attack_id": "T1569.002",
+    "release": "17.1"
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:7046ebeaf064",
+    "name": "AnyDesk",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:3989835d8972",
+    "name": "Atera",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:S0591",
+    "name": "ConnectWise",
+    "type": "Software",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:ed1dd4d534c7",
+    "name": "SimpleHelp",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:768ca45aa0ce",
+    "name": "Splashtop",
+    "type": "Software",
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:M1030",
+    "name": "Network Segmentation",
+    "type": "Mitigation",
+    "attack_id": "M1030",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1031",
+    "name": "Network Intrusion Prevention",
+    "type": "Mitigation",
+    "attack_id": "M1031",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1042",
+    "name": "Disable or Remove Feature or Program",
+    "type": "Mitigation",
+    "attack_id": "M1042",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1015",
+    "name": "Active Directory Configuration",
+    "type": "Mitigation",
+    "attack_id": "M1015",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1017",
+    "name": "User Training",
+    "type": "Mitigation",
+    "attack_id": "M1017",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1018",
+    "name": "User Account Management",
+    "type": "Mitigation",
+    "attack_id": "M1018",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1026",
+    "name": "Privileged Account Management",
+    "type": "Mitigation",
+    "attack_id": "M1026",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1027",
+    "name": "Password Policies",
+    "type": "Mitigation",
+    "attack_id": "M1027",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1029",
+    "name": "Remote Data Storage",
+    "type": "Mitigation",
+    "attack_id": "M1029",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1032",
+    "name": "Multi-factor Authentication",
+    "type": "Mitigation",
+    "attack_id": "M1032",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1033",
+    "name": "Limit Software Installation",
+    "type": "Mitigation",
+    "attack_id": "M1033",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1051",
+    "name": "Update Software",
+    "type": "Mitigation",
+    "attack_id": "M1051",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1037",
+    "name": "Filter Network Traffic",
+    "type": "Mitigation",
+    "attack_id": "M1037",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1047",
+    "name": "Audit",
+    "type": "Mitigation",
+    "attack_id": "M1047",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1028",
+    "name": "Operating System Configuration",
+    "type": "Mitigation",
+    "attack_id": "M1028",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1035",
+    "name": "Limit Access to Resource Over Network",
+    "type": "Mitigation",
+    "attack_id": "M1035",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1021",
+    "name": "Restrict Web-Based Content",
+    "type": "Mitigation",
+    "attack_id": "M1021",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1025",
+    "name": "Privileged Process Integrity",
+    "type": "Mitigation",
+    "attack_id": "M1025",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1040",
+    "name": "Behavior Prevention on Endpoint",
+    "type": "Mitigation",
+    "attack_id": "M1040",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:M1043",
+    "name": "Credential Access Protection",
+    "type": "Mitigation",
+    "attack_id": "M1043",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-061A:software:fe439fc2d972",
+    "name": "Secure Shell (SSH) client",
+    "source_name": "Secure Shell (SSH) client",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-061A:software:d653a7844124",
+    "name": "PuTTY",
+    "source_name": "PuTTY",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-061A:software:b34a5d5691ad",
+    "name": "OpenSSH",
+    "source_name": "OpenSSH",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-061A:software:660d560aa10c",
+    "name": "MobaXterm",
+    "source_name": "MobaXterm",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:05e71c1ca386",
+    "name": "SoftPerfect",
+    "source_name": "SoftPerfect",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:16798b10924f",
+    "name": "Advanced IP Scanner",
+    "source_name": "Advanced IP Scanner",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:00190c5ad713",
+    "name": "NetScan",
+    "source_name": "NetScan",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:55947b6cce20",
+    "name": "PowerShell",
+    "source_name": "PowerShell",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-109A:software:75134abdfc94",
+    "name": "Windows Management Instrumentation Command-line (WMIC)",
+    "source_name": "Windows Management Instrumentation Command-line (WMIC)",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA24-131A:software:55947b6cce20",
+    "name": "PowerShell",
+    "source_name": "PowerShell",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1059.001",
+    "name": "PowerShell",
+    "type": "Technique",
+    "attack_id": "T1059.001",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA24-131A:software:ff80268dfba6",
+    "name": "vssadmin.exe",
+    "source_name": "vssadmin.exe",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "attack:T1490",
+    "name": "Inhibit System Recovery",
+    "type": "Technique",
+    "attack_id": "T1490",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:S0154",
+    "name": "Cobalt Strike",
+    "type": "Software",
+    "attack_id": "S0154",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1552",
+    "name": "Unsecured Credentials",
+    "type": "Technique",
+    "attack_id": "T1552",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1059",
+    "name": "Command and Scripting Interpreter",
+    "type": "Technique",
+    "attack_id": "T1059",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1570",
+    "name": "Lateral Tool Transfer",
+    "type": "Technique",
+    "attack_id": "T1570",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1484.001",
+    "name": "Group Policy Modification",
+    "type": "Technique",
+    "attack_id": "T1484.001",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-352A:software:0cf55febf567",
+    "name": "SystemBC",
+    "source_name": "SystemBC",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA23-352A:software:700b22b1e590",
+    "name": "WinPEAS",
+    "source_name": "Windows Privilege Escalation Awesome Scripts (WinPEAS)",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "aliases": [
+      "Windows Privilege Escalation Awesome Scripts"
+    ]
+  },
+  {
+    "canonical_id": "attack:S1200",
+    "name": "StealBit",
+    "type": "Software",
+    "attack_id": "S1200",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "attack:T1567",
+    "name": "Exfiltration Over Web Service",
+    "type": "Technique",
+    "attack_id": "T1567",
+    "release": "17.1",
+    "resolution_status": "canonical"
+  },
+  {
+    "canonical_id": "local:AA23-075A:software:84c390678a6f",
+    "name": "MEGA",
+    "source_name": "MEGA",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "review_note": "Named file-sharing software service, retained locally. The source does not identify a particular MEGA client. Do not merge this identity with MEGA Ltd MegaSync without separate evidence."
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:71aae4ecb516",
+    "name": "Windows Task Manager",
+    "source_name": "Windows Task Manager",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "review_note": "Source-named Windows utility or software component; no ATT&CK Software ID is assumed."
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:17db0a0b4bdb",
+    "name": "comsvcs.dll",
+    "source_name": "comsvcs.dll",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "review_note": "Source-named Windows utility or software component; no ATT&CK Software ID is assumed."
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:4c2bbbdbcacc",
+    "name": "local Group Policy Editor",
+    "source_name": "local Group Policy Editor",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "review_note": "Source-named Windows utility or software component; no ATT&CK Software ID is assumed."
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:02391c929763",
+    "name": "Bandizip",
+    "source_name": "Bandizip",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local"
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:4e45bb06c9d0",
+    "name": "eHorus",
+    "source_name": "eHorus",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "review_note": "Remote-access software identity retained exactly as named in the advisory. No particular vendor product, version, or ATT&CK Software identity is inferred."
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:664d55891d79",
+    "name": "N-able",
+    "source_name": "N-able",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "review_note": "Remote-access software identity retained exactly as named in the advisory. No particular vendor product, version, or ATT&CK Software identity is inferred."
+  },
+  {
+    "canonical_id": "local:AA25-071A:software:7b1f660dabe3",
+    "name": "BeyondTrust",
+    "source_name": "BeyondTrust",
+    "type": "Software",
+    "attack_id": null,
+    "resolution_status": "local",
+    "review_note": "Remote-access software identity retained exactly as named in the advisory. No particular vendor product, version, or ATT&CK Software identity is inferred."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:17:33.0399051Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 469028500,
+  "load_duration": 10767300,
+  "prompt_eval_count": 565,
+  "prompt_eval_duration": 12928000,
+  "eval_count": 36,
+  "eval_duration": 440020000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do Rhysida and Akira threat actors use to gain access to victim systems?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

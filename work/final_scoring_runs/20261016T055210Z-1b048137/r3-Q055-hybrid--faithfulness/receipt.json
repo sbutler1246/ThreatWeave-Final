@@ -1,0 +1,23 @@
+{
+  "task": {
+    "task_id": "r3-Q055-hybrid--faithfulness",
+    "case_id": "r3-Q055-hybrid",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "4f10d51d16dbbb9c514bb5a7eca1c240cf13ad2b9349f630674e7b32b6add33c",
+  "status": "scored",
+  "value": 0.25,
+  "judge_calls": 2,
+  "elapsed_ms": 18352.304300002288,
+  "files_sha256": {
+    "input.json": "e657188665900b007b190ba4b142a6b9667b911da4d3f8c923e23324594f3732",
+    "judge_call_001_request.json": "1992f85aa5667fba9aedb8dd606ddb51d12417d3222e7c9f6f0946f4a11f8f62",
+    "judge_call_001_response.json": "e67bff776f076c9f84afa7ffc6edae667a843cb13a834a070d8f7f45c1bbb5d3",
+    "judge_call_002_request.json": "454fde4b2d4fe2b0778b1994ce3bc26b8336cbbd304d3ed66ce8ce441e2ebe51",
+    "judge_call_002_response.json": "02e2918b8c58e9529e86c3cb3328bc959667a7f033d71a8964d232e17739fc47",
+    "model_tags_after.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "model_tags_before.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "result.json": "4be4d91f6c0aabafcd207fde1aca23b1db99b27ea8d7cde58faafab8aa6d3e78"
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "User Account Control",
+      "codes": [
+        "M"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "dllhost.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "LockBit 3.0 Affiliates",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_M": {
+      "name": "User Account Control",
+      "type": "Mitigation",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "dllhost.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_G": {
+      "name": "LockBit 3.0 Affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 16,
+      "text": "(Mutex) Created",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 17,
+      "end": 101,
+      "text": "When executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,",
+      "line_start": 17
+    },
+    "u003": {
+      "start": 102,
+      "end": 216,
+      "text": "and check to see if this mutex has already been created to avoid running more than one instance of the ransomware.",
+      "line_start": 102
+    },
+    "u004": {
+      "start": 217,
+      "end": 254,
+      "text": "UAC Bypass via Elevated COM Interface",
+      "line_start": 217
+    },
+    "u005": {
+      "start": 255,
+      "end": 411,
+      "text": "LockBit 3.0 is capable of bypassing User Account Control (UAC) to execute code with elevated privileges via elevated Component Object Model (COM) Interface.",
+      "line_start": 255
+    },
+    "u006": {
+      "start": 412,
+      "end": 538,
+      "text": "C:\\Windows\\System32\\dllhost.exe is spawned with high integrity with the command line GUID 3E5FC7F9-9A51-4367-9063-A120244FBEC.",
+      "line_start": 255
+    },
+    "u007": {
+      "start": 539,
+      "end": 625,
+      "text": "For example, %SYSTEM32%\\dllhost.exe/Processid:{3E5FC7F9-9A51-4367-9063- A120244FBEC7}.",
+      "line_start": 539
+    },
+    "u008": {
+      "start": 626,
+      "end": 653,
+      "text": "Volume Shadow Copy Deletion",
+      "line_start": 626
+    },
+    "u009": {
+      "start": 654,
+      "end": 756,
+      "text": "LockBit 3.0 uses Windows Management Instrumentation (WMI) to identify and delete Volume Shadow Copies.",
+      "line_start": 654
+    },
+    "u010": {
+      "start": 757,
+      "end": 944,
+      "text": "LockBit 3.0 uses select * from Win32_ShadowCopy to query for Volume Shadow copies, Win32_ShadowCopy.ID to obtain the ID of the shadow copy, and DeleteInstance to delete any shadow copies.",
+      "line_start": 654
+    },
+    "u011": {
+      "start": 945,
+      "end": 963,
+      "text": "Registry Artifacts",
+      "line_start": 945
+    },
+    "u012": {
+      "start": 964,
+      "end": 980,
+      "text": "LockBit 3.0 Icon",
+      "line_start": 964
+    },
+    "u013": {
+      "start": 981,
+      "end": 993,
+      "text": "Registry Key",
+      "line_start": 981
+    },
+    "u014": {
+      "start": 994,
+      "end": 999,
+      "text": "Value",
+      "line_start": 994
+    },
+    "u015": {
+      "start": 1000,
+      "end": 1004,
+      "text": "Data",
+      "line_start": 1000
+    },
+    "u016": {
+      "start": 1005,
+      "end": 1031,
+      "text": "HKCR\\. <Malware Extension>",
+      "line_start": 1005
+    },
+    "u017": {
+      "start": 1032,
+      "end": 1041,
+      "text": "(Default)",
+      "line_start": 1032
+    },
+    "u018": {
+      "start": 1042,
+      "end": 1061,
+      "text": "<Malware Extension>",
+      "line_start": 1042
+    },
+    "u019": {
+      "start": 1062,
+      "end": 1098,
+      "text": "HKCR\\<Malware Extension>\\DefaultIcon",
+      "line_start": 1062
+    },
+    "u020": {
+      "start": 1099,
+      "end": 1108,
+      "text": "(Default)",
+      "line_start": 1099
+    },
+    "u021": {
+      "start": 1109,
+      "end": 1148,
+      "text": "C:\\ProgramData\\<Mal ware Extension>.ico",
+      "line_start": 1109
+    },
+    "u022": {
+      "start": 1149,
+      "end": 1170,
+      "text": "LockBit 3.0 Wallpaper",
+      "line_start": 1149
+    },
+    "u023": {
+      "start": 1171,
+      "end": 1183,
+      "text": "Registry Key",
+      "line_start": 1171
+    },
+    "u024": {
+      "start": 1184,
+      "end": 1189,
+      "text": "Value",
+      "line_start": 1184
+    },
+    "u025": {
+      "start": 1190,
+      "end": 1194,
+      "text": "Data",
+      "line_start": 1190
+    },
+    "u026": {
+      "start": 1195,
+      "end": 1231,
+      "text": "HKCU\\Control Panel\\Desktop\\WallPaper",
+      "line_start": 1195
+    },
+    "u027": {
+      "start": 1232,
+      "end": 1241,
+      "text": "(Default)",
+      "line_start": 1232
+    },
+    "u028": {
+      "start": 1242,
+      "end": 1281,
+      "text": "C:\\ProgramData\\<Mal ware Extension>.bmp",
+      "line_start": 1242
+    },
+    "u029": {
+      "start": 1282,
+      "end": 1317,
+      "text": "Disable Privacy Settings Experience",
+      "line_start": 1282
+    },
+    "u030": {
+      "start": 1318,
+      "end": 1330,
+      "text": "Registry Key",
+      "line_start": 1318
+    },
+    "u031": {
+      "start": 1331,
+      "end": 1336,
+      "text": "Value",
+      "line_start": 1331
+    },
+    "u032": {
+      "start": 1337,
+      "end": 1341,
+      "text": "Data",
+      "line_start": 1337
+    },
+    "u033": {
+      "start": 1342,
+      "end": 1383,
+      "text": "SOFTWARE\\Policies\\Microsoft\\Win dows\\OOBE",
+      "line_start": 1342
+    },
+    "u034": {
+      "start": 1384,
+      "end": 1409,
+      "text": "DisablePrivacyE xperience",
+      "line_start": 1384
+    },
+    "u035": {
+      "start": 1410,
+      "end": 1411,
+      "text": "0",
+      "line_start": 1410
+    },
+    "u036": {
+      "start": 1412,
+      "end": 1434,
+      "text": "Enable Automatic Logon",
+      "line_start": 1412
+    },
+    "u037": {
+      "start": 1435,
+      "end": 1447,
+      "text": "Registry Key",
+      "line_start": 1435
+    },
+    "u038": {
+      "start": 1448,
+      "end": 1453,
+      "text": "Value",
+      "line_start": 1448
+    },
+    "u039": {
+      "start": 1454,
+      "end": 1458,
+      "text": "Data",
+      "line_start": 1454
+    },
+    "u040": {
+      "start": 1459,
+      "end": 1512,
+      "text": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+      "line_start": 1459
+    },
+    "u041": {
+      "start": 1513,
+      "end": 1527,
+      "text": "AutoAdminLogon",
+      "line_start": 1513
+    },
+    "u042": {
+      "start": 1528,
+      "end": 1529,
+      "text": "1",
+      "line_start": 1528
+    },
+    "u043": {
+      "start": 1530,
+      "end": 1545,
+      "text": "DefaultUserName",
+      "line_start": 1530
+    },
+    "u044": {
+      "start": 1546,
+      "end": 1556,
+      "text": "<username>",
+      "line_start": 1546
+    },
+    "u045": {
+      "start": 1557,
+      "end": 1575,
+      "text": "DefaultDomainNa me",
+      "line_start": 1557
+    },
+    "u046": {
+      "start": 1576,
+      "end": 1589,
+      "text": "<domain name>",
+      "line_start": 1576
+    },
+    "u047": {
+      "start": 1590,
+      "end": 1605,
+      "text": "DefaultPassword",
+      "line_start": 1590
+    },
+    "u048": {
+      "start": 1606,
+      "end": 1616,
+      "text": "<password>",
+      "line_start": 1606
+    },
+    "u049": {
+      "start": 1617,
+      "end": 1653,
+      "text": "Disable and Clear Windows Event Logs",
+      "line_start": 1617
+    },
+    "u050": {
+      "start": 1654,
+      "end": 1666,
+      "text": "Registry Key",
+      "line_start": 1654
+    },
+    "u051": {
+      "start": 1667,
+      "end": 1672,
+      "text": "Value",
+      "line_start": 1667
+    },
+    "u052": {
+      "start": 1673,
+      "end": 1677,
+      "text": "Data",
+      "line_start": 1673
+    },
+    "u053": {
+      "start": 1678,
+      "end": 1744,
+      "text": "HKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\*",
+      "line_start": 1678
+    },
+    "u054": {
+      "start": 1745,
+      "end": 1752,
+      "text": "Enabled",
+      "line_start": 1745
+    },
+    "u055": {
+      "start": 1753,
+      "end": 1754,
+      "text": "0",
+      "line_start": 1753
+    },
+    "u056": {
+      "start": 1755,
+      "end": 1836,
+      "text": "HKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\* \\ChannelAccess",
+      "line_start": 1755
+    },
+    "u057": {
+      "start": 1837,
+      "end": 1850,
+      "text": "ChannelAccess",
+      "line_start": 1837
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 7837,
+      "end": 7907,
+      "text": "Table 2: Freeware and Open-Source Tools Used by LockBit 3.0 Affiliates"
+    }
+  },
+  "identities": {
+    "m001_S": "attack:S1202",
+    "m002_M": "attack:M1052",
+    "m003_S": "local:Software:dllhost.exe",
+    "m004_G": "local:ThreatGroup:lockbit 3.0 affiliates"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    }
+  ]
+}

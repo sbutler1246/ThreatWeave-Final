@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:24:54.6141569Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8584175700,
+  "load_duration": 9023600,
+  "prompt_eval_count": 1907,
+  "prompt_eval_duration": 266317999,
+  "eval_count": 624,
+  "eval_duration": 8234910000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use AnyDesk to enable remote connections to network devices.\",\n      \"reason\": \"The context explicitly states that AnyDesk enables remote connections to network devices, and it is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Remote connections to network devices enabled by LockBit affiliates' AnyDesk can be mitigated by Network Intrusion Prevention (M1031).\",\n      \"reason\": \"The context explicitly states that Network Intrusion Prevention (M1031) can mitigate remote connections to network devices, and it is mentioned in the context that AnyDesk enables remote connections to network devices.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use Atera Remote Monitoring & Management (RMM) to enable remote connections to network devices.\",\n      \"reason\": \"The context explicitly states that Atera Remote Monitoring & Management (RMM) enables remote connections to network devices, and it is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Remote connections to network devices enabled by LockBit affiliates' Atera Remote Monitoring & Management (RMM) can be mitigated by Network Intrusion Prevention (M1031).\",\n      \"reason\": \"The context explicitly states that Network Intrusion Prevention (M1031) can mitigate remote connections to network devices, and it is mentioned in the context that Atera Remote Monitoring & Management (RMM) enables remote connections to network devices.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use Advanced Port Scanner to perform network scans.\",\n      \"reason\": \"The context explicitly states that Advanced Port Scanner performs network scans, and it is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network scans performed by LockBit affiliates' Advanced Port Scanner can be mitigated by Network Segmentation (M1030).\",\n      \"reason\": \"The context explicitly states that Network Segmentation (M1030) can mitigate network scans, and it is mentioned in the context that Advanced Port Scanner performs network scans.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use Backstab to terminate antimalware-protected processes.\",\n      \"reason\": \"The context explicitly states that Backstab terminates antimalware-protected processes, and it is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Antimalware-protected processes terminated by LockBit affiliates' Backstab can be mitigated by User Account Management (M1018).\",\n      \"reason\": \"The context explicitly states that User Account Management (M1018) can mitigate antimalware-protected processes, and it is mentioned in the context that Backstab terminates antimalware-protected processes.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

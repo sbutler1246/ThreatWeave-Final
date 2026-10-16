@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:9606:11457",
+    "doc_id": "AA23-075A",
+    "start": 9606,
+    "end": 11457,
+    "text": " (Mutex) Created\nWhen executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,\nand check to see if this mutex has already been created to avoid running more than one instance of the ransomware.\nUAC Bypass via Elevated COM Interface\nLockBit 3.0 is capable of bypassing User Account Control (UAC) to execute code with elevated privileges via elevated Component Object Model (COM) Interface. C:\\Windows\\System32\\dllhost.exe is spawned with high integrity with the command line GUID 3E5FC7F9-9A51-4367-9063-A120244FBEC.\nFor example, %SYSTEM32%\\dllhost.exe/Processid:{3E5FC7F9-9A51-4367-9063- A120244FBEC7}.\nVolume Shadow Copy Deletion\nLockBit 3.0 uses Windows Management Instrumentation (WMI) to identify and delete Volume Shadow Copies. LockBit 3.0 uses select * from Win32_ShadowCopy to query for Volume Shadow copies, Win32_ShadowCopy.ID to obtain the ID of the shadow copy, and DeleteInstance to delete any shadow copies.\nRegistry Artifacts\nLockBit 3.0 Icon\nRegistry Key\nValue\nData\nHKCR\\. <Malware Extension>\n(Default)\n<Malware Extension>\nHKCR\\<Malware Extension>\\DefaultIcon\n(Default)\nC:\\ProgramData\\<Mal ware Extension>.ico\nLockBit 3.0 Wallpaper\nRegistry Key\nValue\nData\nHKCU\\Control Panel\\Desktop\\WallPaper\n(Default)\nC:\\ProgramData\\<Mal ware Extension>.bmp\nDisable Privacy Settings Experience\nRegistry Key\nValue\nData\nSOFTWARE\\Policies\\Microsoft\\Win dows\\OOBE\nDisablePrivacyE xperience\n0\nEnable Automatic Logon\nRegistry Key\nValue\nData\nSOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\nAutoAdminLogon\n1\nDefaultUserName\n<username>\nDefaultDomainNa me\n<domain name>\nDefaultPassword\n<password>\nDisable and Clear Windows Event Logs\nRegistry Key\nValue\nData\nHKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\*\nEnabled\n0\nHKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\* \\ChannelAccess\nChannelAccess\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 7837,
+        "end": 7907,
+        "text": "Table 2: Freeware and Open-Source Tools Used by LockBit 3.0 Affiliates"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 496,
+  "inherited_context_tokens": 41,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "6fd90526a0a8a13bddd985738105aecfa47c858bf49a32d15ac133666b446921",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:2310:4719",
+    "doc_id": "AA23-165A",
+    "start": 2310,
+    "end": 4719,
+    "text": "\nNote: This advisory uses the MITRE ATT&CK for Enterprise framework, version 13.1. See the MITRE ATT&CK Tactics and Techniques section for tables of LockBit’s activity mapped to MITRE ATT&CK® tactics and techniques.\nIntroduction\nThe LockBit RaaS and its affiliates have negatively impacted organizations, both large and small, across the world. In 2022, LockBit was the most active global ransomware group and RaaS provider in terms of the number of victims claimed on their data leak site. [1] A RaaS cybercrime group maintains the functionality of a particular ransomware variant, sells access to that ransomware variant to individuals or groups of operators (often referred to as “affiliates”), and supports affiliates’ deployment of their ransomware in exchange for upfront payment, subscription fees, a cut of profits, or a combination of upfront payment, subscription fees, and a cut of profits. Some of the methods LockBit has used to successfully attract affiliates include, but are not limited to:\nAssuring payment by allowing affiliates to receive ransom payments before sending a cut to the core group; this practice stands in stark contrast to other RaaS groups who pay themselves first and then disburse the affiliates’ cut.\nDisparaging other RaaS groups in online forums.\nEngaging in publicity-generating activities stunts, such as paying people to get LockBit tattoos and putting a $1 million bounty on information related to the real-world identity of LockBit’s lead who goes by the persona “LockBitSupp.”\nDeveloping and maintaining a simplified, point-and-click interface for its ransomware, making it accessible to those with a lower degree of technical skill. [2, 3]\nLockBit has been successful through innovation and ongoing development of the group’s administrative panel and the RaaS supporting functions. In parallel, affiliates that work with LockBit and other notable variants are constantly revising the TTPs used for deploying and executing ransomware.\nTable 1 shows LockBit RaaS’s innovation and development.\nTable 1: Evolution of LockBit RaaS\nDate\nEvent\nSeptember 2019\nFirst observed activity of ABCD ransomware, the predecessor to LockBit. [4]\nJanuary 2020\nLockBit-named ransomware first seen on Russian-language based cybercrime forums.\nJune 2021\nAppearance of LockBit version 2 (LockBit 2.0), also known as LockBit Red including StealBit, a built-in information-stealing tool.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 512,
+  "inherited_context_tokens": 15,
+  "overlap_with_previous_tokens": 0,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "068c73615ebd38977984bd323ad08be608e6b96876a4e36ed4b68d0af42e13dc",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:32:40.1330811Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8278833300,
+  "load_duration": 8099100,
+  "prompt_eval_count": 1884,
+  "prompt_eval_duration": 251603000,
+  "eval_count": 599,
+  "eval_duration": 7938118000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use AnyDesk to enable remote connections to network devices.\",\n      \"reason\": \"The context explicitly states that AnyDesk enables remote connections to network devices, and it is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) mitigates the use of AnyDesk by LockBit affiliates.\",\n      \"reason\": \"The context states that Network Intrusion Prevention (M1031) mitigates the use of AnyDesk, but it does not explicitly state that it mitigates the use of AnyDesk by LockBit affiliates.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"LockBit affiliates use Atera Remote Monitoring & Management (RMM) to enable remote connections to network devices.\",\n      \"reason\": \"The context explicitly states that Atera Remote Monitoring & Management (RMM) enables remote connections to network devices, and it is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) mitigates the use of Atera Remote Monitoring & Management (RMM) by LockBit affiliates.\",\n      \"reason\": \"The context states that Network Intrusion Prevention (M1031) mitigates the use of Atera Remote Monitoring & Management (RMM), but it does not explicitly state that it mitigates the use of Atera Remote Monitoring & Management (RMM) by LockBit affiliates.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Service Discovery (T1046) is a technique used by attackers.\",\n      \"reason\": \"The context explicitly states that Network Service Discovery (T1046) is a technique used by attackers.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Segmentation (M1030) mitigates the technique Network Service Discovery (T1046).\",\n      \"reason\": \"The context states that Network Segmentation (M1030) mitigates the technique Network Service Discovery (T1046).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates use Backstab to terminate antimalware-protected processes.\",\n      \"reason\": \"The context explicitly states that LockBit affiliates use Backstab to terminate antimalware-protected processes.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"User Account Management (M1018) mitigates the use of Backstab by LockBit affiliates.\",\n      \"reason\": \"The context states that User Account Management (M1018) mitigates the use of Backstab, but it does not explicitly state that it mitigates the use of Backstab by LockBit affiliates.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

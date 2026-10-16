@@ -1,0 +1,148 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA23-061A",
+      "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+      "text": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572]",
+      "start": 6445,
+      "end": 6569,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA23-061A",
+      "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware",
+      "start": 23,
+      "end": 68,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA23-061A",
+      "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+      "text": "Technical Details",
+      "start": 4131,
+      "end": 4148,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324",
+      "chunk_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Protocol Tunneling (T1572)\nMitigation: Network Intrusion Prevention (M1031)",
+      "start": 0,
+      "end": 107,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324",
+      "chunk_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. ",
+      "start": 285,
+      "end": 470,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98",
+      "chunk_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Protocol Tunneling (T1572)\nMitigation: Filter Network Traffic (M1037)",
+      "start": 0,
+      "end": 101,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98",
+      "chunk_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Consider filtering network traffic to untrusted or known bad domains and resources. ",
+      "start": 279,
+      "end": 363,
+      "source_kind": "attack"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA23-061A:royal-actors",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1572",
+          "assertion_ids": [
+            "assertion:438ed5869d11f5b35c789dda0c5683c1b1fabea1abbba54ab7fae22b39c8aa0f"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1572",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1031",
+          "assertion_ids": [
+            "assertion:beb7b8893092a2445708407f076326c681ac4f6def6c9110d9ae18e465014847"
+          ],
+          "citation_ids": [
+            "E4",
+            "E5"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P2",
+      "edges": [
+        {
+          "head_id": "local:AA23-061A:royal-actors",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1572",
+          "assertion_ids": [
+            "assertion:438ed5869d11f5b35c789dda0c5683c1b1fabea1abbba54ab7fae22b39c8aa0f"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1572",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1037",
+          "assertion_ids": [
+            "assertion:8bc5d4ff9d4fc99257ef1991e15d6989da786d91767488e1b86c2686f7c615fd"
+          ],
+          "citation_ids": [
+            "E6",
+            "E7"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7"
+  ],
+  "retrieval_ms": 33.6206000065431,
+  "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

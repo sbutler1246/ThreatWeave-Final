@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:37:33.7371895Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3312646400,
+  "load_duration": 5978500,
+  "prompt_eval_count": 1372,
+  "prompt_eval_duration": 263430000,
+  "eval_count": 221,
+  "eval_duration": 2837455000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1555.003 (Credentials from Web Browsers).\",\n            \"reason\": \"There is no mention about advisory rows in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1017 (User Training), M1018 (User Account Management), M1021 (Restrict Web-Based Content), M1027 (Password Policies), M1051 (Update Software).\",\n            \"reason\": \"The exact sentence is present in the given context, but it is not clear if it is a direct, active mitigates relationship.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

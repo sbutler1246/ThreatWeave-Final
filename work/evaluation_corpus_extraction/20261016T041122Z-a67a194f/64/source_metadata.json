@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+    "doc_id": "AA24-109A",
+    "start": 32784,
+    "end": 35082,
+    "text": " evade endpoint detection.\nEnd Update\nUpdate Nov. 13, 2025\nImpair Defenses: Disable or Modify System Firewall\nT1562.004\nAkira threat actors use the allssh modify_firewall command to open specific ports on the eth0 interface.\nProxy Through Victim\nT1604\nAkira threat actors use a compromised device as a proxy server to conceal their malicious C2 infrastructure and associated IP address from network defenders.\nEnd Update\nTable 15. Credential Access\nTechnique Title\nID\nUse\nOS Credential Dumping\nT1003\nAkira threat actors use tools like Mimikatz and LaZagne to dump credentials.\nOS Credential Dumping: LSASS Memory\nT1003.001\nAkira threat actors attempt to access credential material stored in the process memory of LSASS.\nUpdate Nov. 13, 2025\nOS Credential Dumping: Security Account Manager\nT1003.002\nAkira threat actors dump the Windows security account manager (SAM) database to extract local account password hashes for offline cracking or pass-the-hash techniques, enabling lateral movement and privilege escalation on compromised hosts.\nOS Credential Dumping: NTDS\nT1003.003\nAkira threat actors dump the Active Directory database (NTDS.dit) from compromised domain controllers to harvest domain credentials, enabling privilege escalation, lateral movement, and full domain takeover.\nBrute Force\nT1110\nAkira threat actors gain access by brute-forcing VPN logins and SSH endpoints.\nBrute Force: Password Spraying\nT1110.003\nAkira threat actors use tools like SharpDomainSpray for password spraying.\nCredentials from Password Stores\nT1555\nAkira threat actors dump credentials from repositories like the Variable Bit Rate (VBR)-configuration database.\nAkira threat actors use LaZagne to recover stored passwords on Windows, Linux, and macOS systems.\nCredentials from Password Stores: Credentials from Web Browsers\nT1555.003\nAkira threat actors use NetExec with the --dpapi option to dump credentials from the Windows Credential Manager and web browsers.\nCredentials from Password Stores: Windows Credential Manager\nT1555.004\nAkira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.\nEnd Update\nTable 16. Discovery\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      },
+      {
+        "start": 31628,
+        "end": 31653,
+        "text": "Table 14. Defense Evasion"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 498,
+  "inherited_context_tokens": 22,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "74ea7d2d7629b5f2ea528276a3c10080b1591140b32be647b986462e76bf9cbc",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

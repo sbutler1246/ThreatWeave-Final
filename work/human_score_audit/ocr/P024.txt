@@ -1,0 +1,98 @@
+P024
+Question
+Compare AA24-109A and AA23-352A: which actors are reported using Mimikatz, and how do
+their advisory software-to-technique mappings compare? Cite both reports and keep each
+mapping within its source context.
+Displayed answer
+Rhysida actors use Mimikatz to gain access to victim systems. [El, E2]
+Akira threat actors use Mimikatz to query remote systems for information on disk drives and
+installed software. [E3, E4]
+CISA maps Rhysida's use of AZCopy to T 1059.009 Command and Scripting Interpreter. Cloud
+API. [El, E5]
+CISA maps Akira's use of net group /domain command to T 1082 System Information Discovery.
+CISA maps Akira's use of PCHunter64 to T 1082 System Information Discovery. [E3, E4]
+CISA maps Akira's use of DiskCheck software to Tl 082 System Information Discovery. [E3, E4]
+CISA maps Akira's use of Adfind.exe to T 1087.002 Account Discovery: Domain Account. [E3, E4]
+CISA maps Akira's use of net Windows command to T 1482 Domain Trust Discovery. [E3, E4]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+AA24-109A reports Akira threat actors using Mimikatz, with advisory mappings T 1003; AA23-352A
+reports Play ransomware actors using Mimikatz, with advisory mappings Tl 003. These mappings
+describe the cited reports and do not establish that every use of the software has these behaviors.
+Both reports cite the same parent technique, T 1003 (OS Credential Dumping), for their reported
+Mimikatz use.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance
+with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE
+ATT&CK's Best Practices for MITRE ATT&CK Mapping and CISA's Decider Tool.
+Additional notable T TPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+Use
+Develop Capabilities
+T 1587
+Rhysida actors have been observed developing resources and custom tools, particularly with
+program names set to "Rhysida-0.1 " to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+Use
+Valid Accounts
+T 1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+Table 11: Execution
+Technique Title
+Use
+Command and Scripting Interpreter: Cloud API
+T 1059.009
+
+--- IMAGE ---
+
+Rhysida actors leverage AZCopy, a command-line utility that
+[Q; CISA]
+#StopRansomware: Rhysida Ransomware
+[E3; CISA]
+Technical Details
+[E4; CISA]
+002
+Akira threat actors use the net group /domain command to find domain level groups and
+permission settings.
+System Information Discovery
+T 1082
+Akira threat actors use tools like PCHunter64 to acquire detailed process and system information.
+Update Nov. 13, 2025
+Akira threat actors use DiskCheck software to query remote systems for information on disk drives
+and installed software.
+End Update
+Update Nov. 13, 2025
+Account Discovery: Domain Account
+T 1087.002
+Akira threat actors use Adfind.exe to query and retrieve information from Active Directory.
+End Update
+Domain Trust Discovery
+T 1482
+Akira threat actors use the net Windows command to enumerate domain information.
+Update Nov. 13, 2025
+Akira threat actors use nltest /DOMAIN TRUSTS commands to enumerate domain trusts.
+End Update
+Table 17. Lateral Movement
+Technique Title
+
+--- IMAGE ---
+
+Use
+Update Nov. 13, 2025
+Remote Services
+[E-5; CISA]
+#StopRansomware: Akira Ransomware
+[E6; CISA]
+Technical Details
+[E7; CISA]
+Table 15. Credential Access
+GRAPH NODES
+GRAPH PATHS

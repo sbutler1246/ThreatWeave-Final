@@ -1,0 +1,8 @@
+{
+  "user_input": "According to AA23-352A, which ATT&CK technique is connected to Play ransomware actors through the reported use of Mimikatz? Explain the two-hop actor-to-software-to-technique path with evidence.",
+  "response": "The retrieved evidence is insufficient to answer this question.",
+  "retrieved_contexts": [
+    "SOURCE PASSAGES\nGRAPH NODES\nGRAPH PATHS"
+  ],
+  "reference": "Play ransomware actors use Mimikatz; the advisory associates the described use of Mimikatz with T1003 (OS Credential Dumping in Enterprise ATT&CK 17.1). Both links must be supported in the advisory context."
+}

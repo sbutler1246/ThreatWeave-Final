@@ -1,0 +1,47 @@
+QUESTION: According to AA24-109A, which ATT&CK technique is connected to Akira threat actors through the reported use of Mimikatz? Explain the two-hop actor-to-software-to-technique path with evidence.
+MODE: hybrid
+SOURCE PASSAGES
+[E1; CISA]
+Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.
+[E2; CISA]
+#StopRansomware: Akira Ransomware
+[E3; CISA]
+Technical Details
+[E4; CISA]
+Table 14. Defense Evasion
+[E5; ATTACK]
+Train users to be aware of impersonation tricks and how to counter them, for example confirming incoming requests through an independent platform like a phone call or in-person, to reduce risk.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (T1656)
+Mitigation: User Training (M1017)
+[E7; ATTACK]
+Threat intelligence helps defenders and users be aware of and defend against common lures and active campaigns that have been used for impersonation.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (T1656)
+Mitigation: Threat Intelligence Program (M1019)
+[E9; ATTACK]
+Users can be trained to identify social engineering techniques and spearphishing emails.
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Spearphishing Attachment (T1566.001)
+Mitigation: User Training (M1017)
+[E11; ATTACK]
+Use user training as a way to bring awareness to common phishing and spearphishing techniques and how to raise suspicion for potentially malicious events.
+[E12; ATTACK]
+ATT&CK release: 17.1
+Technique: User Execution (T1204)
+Mitigation: User Training (M1017)
+[E13; ATTACK]
+Users can be trained to identify social engineering techniques and spearphishing attempts.
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Phishing for Information (T1598)
+Mitigation: User Training (M1017)
+GRAPH NODES
+N1: Akira threat actors
+N2: Mimikatz (S0002)
+GRAPH PATHS
+P1: N1 --USES[E1,E2,E3,E4]--> N2
+Return the requested JSON. The displayed answer is assembled from claims.

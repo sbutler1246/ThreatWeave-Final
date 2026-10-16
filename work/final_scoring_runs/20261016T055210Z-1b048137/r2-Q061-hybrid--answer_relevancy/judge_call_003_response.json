@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:18:45.5855253Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 433633400,
+  "load_duration": 11348300,
+  "prompt_eval_count": 637,
+  "prompt_eval_duration": 12982000,
+  "eval_count": 33,
+  "eval_duration": 403466000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tool is used by BianLian group actors to exfiltrate data?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

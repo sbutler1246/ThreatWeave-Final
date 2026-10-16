@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r1-Q052-hybrid--faithfulness",
+    "case_id": "r1-Q052-hybrid",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "a72587fc408be92b1993e3cf2a2270dbd3f3569f7d2e857f5be2f04fb96b1450",
+  "status": "scored",
+  "value": 0.8333333333333334,
+  "judge_calls": 2,
+  "elapsed_ms": 15169.98920001788
+}

@@ -1,0 +1,527 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "FTP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Vssadmin.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "A Windows",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1068",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1105",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "IMPACKET",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "IOCs",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "w.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "Win.exe",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "FTP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    },
+    "m003_S": {
+      "name": "Vssadmin.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "A Windows",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m007_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m008_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m009_T": {
+      "name": "T1068",
+      "type": "Technique",
+      "attack_id": "T1068"
+    },
+    "m010_T": {
+      "name": "T1105",
+      "type": "Technique",
+      "attack_id": "T1105"
+    },
+    "m011_S": {
+      "name": "IMPACKET",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "IOCs",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "w.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "Win.exe",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 78,
+      "text": "FTP tools that can be used for data exfiltration or remote management [T1048].",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 79,
+      "end": 91,
+      "text": "Vssadmin.exe",
+      "line_start": 79
+    },
+    "u003": {
+      "start": 92,
+      "end": 170,
+      "text": "A Windows executable used by Akira threat actors to delete VSS copies [T1490].",
+      "line_start": 92
+    },
+    "u004": {
+      "start": 171,
+      "end": 179,
+      "text": "Level.io",
+      "line_start": 171
+    },
+    "u005": {
+      "start": 180,
+      "end": 257,
+      "text": "A remote monitoring and management platform leveraged by Akira threat actors.",
+      "line_start": 180
+    },
+    "u006": {
+      "start": 258,
+      "end": 268,
+      "text": "HeartCrypt",
+      "line_start": 258
+    },
+    "u007": {
+      "start": 269,
+      "end": 363,
+      "text": "A packer-as-a-service obfuscation tool used by Akira threat actors to hinder analysis [T1027].",
+      "line_start": 269
+    },
+    "u008": {
+      "start": 364,
+      "end": 368,
+      "text": "MEGA",
+      "line_start": 364
+    },
+    "u009": {
+      "start": 369,
+      "end": 461,
+      "text": "A cloud storage utility used by Akira threat actors as the destination for exfiltrated data.",
+      "line_start": 369
+    },
+    "u010": {
+      "start": 462,
+      "end": 469,
+      "text": "POORTRY",
+      "line_start": 462
+    },
+    "u011": {
+      "start": 470,
+      "end": 525,
+      "text": "Malware written as a signed vulnerable Windows deriver.",
+      "line_start": 470
+    },
+    "u012": {
+      "start": 526,
+      "end": 636,
+      "text": "Akira threat actors used the malware to implement the Bring Your Own Vulnerable Driver (BYOVD) tactic [T1068].",
+      "line_start": 470
+    },
+    "u013": {
+      "start": 637,
+      "end": 646,
+      "text": "STONESTOP",
+      "line_start": 637
+    },
+    "u014": {
+      "start": 647,
+      "end": 729,
+      "text": "Malware that Akira threat actors used as the loader/installer for POORTRY [T1105].",
+      "line_start": 647
+    },
+    "u015": {
+      "start": 730,
+      "end": 746,
+      "text": "SharpDomainSpray",
+      "line_start": 730
+    },
+    "u016": {
+      "start": 747,
+      "end": 800,
+      "text": "A password spraying tool used by Akira threat actors.",
+      "line_start": 747
+    },
+    "u017": {
+      "start": 801,
+      "end": 808,
+      "text": "OpenSSH",
+      "line_start": 801
+    },
+    "u018": {
+      "start": 809,
+      "end": 898,
+      "text": "An open source SSH tool used by Akira threat actors for cross-platform remote management.",
+      "line_start": 809
+    },
+    "u019": {
+      "start": 899,
+      "end": 910,
+      "text": "CLOUDFLARED",
+      "line_start": 899
+    },
+    "u020": {
+      "start": 911,
+      "end": 1086,
+      "text": "A legitimate, publicly available command-line client for Cloudflare Tunnel, a tunneling daemon that serves as a proxy for traffic from the Cloudflare network to the endpoints.",
+      "line_start": 911
+    },
+    "u021": {
+      "start": 1087,
+      "end": 1095,
+      "text": "IMPACKET",
+      "line_start": 1087
+    },
+    "u022": {
+      "start": 1096,
+      "end": 1170,
+      "text": "A Python library that allows users to work with various network protocols.",
+      "line_start": 1096
+    },
+    "u023": {
+      "start": 1171,
+      "end": 1181,
+      "text": "End Update",
+      "line_start": 1171
+    },
+    "u024": {
+      "start": 1182,
+      "end": 1206,
+      "text": "Indicators of Compromise",
+      "line_start": 1182
+    },
+    "u025": {
+      "start": 1207,
+      "end": 1278,
+      "text": "Disclaimer: These IOCs were observed between June 2023 and August 2025.",
+      "line_start": 1207
+    },
+    "u026": {
+      "start": 1279,
+      "end": 1394,
+      "text": "The authoring organizations recommend vetting or investigating these IOCs prior to taking action, such as blocking.",
+      "line_start": 1207
+    },
+    "u027": {
+      "start": 1395,
+      "end": 1449,
+      "text": "See Table 2 through Table 9 for Akira ransomware IOCs.",
+      "line_start": 1395
+    },
+    "u028": {
+      "start": 1450,
+      "end": 1458,
+      "text": "Table 2.",
+      "line_start": 1450
+    },
+    "u029": {
+      "start": 1459,
+      "end": 1491,
+      "text": "Malicious Files and SHA-256 Hash",
+      "line_start": 1450
+    },
+    "u030": {
+      "start": 1492,
+      "end": 1501,
+      "text": "File Name",
+      "line_start": 1492
+    },
+    "u031": {
+      "start": 1502,
+      "end": 1516,
+      "text": "Hash (SHA-256)",
+      "line_start": 1502
+    },
+    "u032": {
+      "start": 1517,
+      "end": 1528,
+      "text": "Description",
+      "line_start": 1517
+    },
+    "u033": {
+      "start": 1529,
+      "end": 1534,
+      "text": "w.exe",
+      "line_start": 1529
+    },
+    "u034": {
+      "start": 1535,
+      "end": 1599,
+      "text": "d2fd0654710c27dcf37b6c1437880020824e161dd0bf28e3a133ed777242a0ca",
+      "line_start": 1535
+    },
+    "u035": {
+      "start": 1600,
+      "end": 1627,
+      "text": "Akira ransomware encryptor.",
+      "line_start": 1600
+    },
+    "u036": {
+      "start": 1628,
+      "end": 1635,
+      "text": "Win.exe",
+      "line_start": 1628
+    },
+    "u037": {
+      "start": 1636,
+      "end": 1700,
+      "text": "dcfa2800754e5722acf94987bb03e814edcb9acebda37df6da1987bf48e5b05e",
+      "line_start": 1636
+    },
+    "u038": {
+      "start": 1701,
+      "end": 1728,
+      "text": "Akira ransomware encryptor.",
+      "line_start": 1701
+    },
+    "u039": {
+      "start": 1729,
+      "end": 1737,
+      "text": "Akira_v2",
+      "line_start": 1729
+    },
+    "u040": {
+      "start": 1738,
+      "end": 1802,
+      "text": "3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f75",
+      "line_start": 1738
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0095",
+    "m002_T": "attack:T1048",
+    "m003_S": "local:Software:vssadmin.exe",
+    "m004_S": "local:Software:a windows",
+    "m005_S": "attack:S1129",
+    "m006_G": "local:ThreatGroup:akira threat actors",
+    "m007_T": "attack:T1490",
+    "m008_T": "attack:T1027",
+    "m009_T": "attack:T1068",
+    "m010_T": "attack:T1105",
+    "m011_S": "attack:S0357",
+    "m012_S": "local:Software:iocs",
+    "m013_S": "local:Software:w.exe",
+    "m014_S": "local:Software:win.exe"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m002_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m009_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m006_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    }
+  ]
+}

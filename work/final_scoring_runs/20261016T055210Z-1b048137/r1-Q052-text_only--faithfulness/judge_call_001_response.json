@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:02:55.9842782Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5074026200,
+  "load_duration": 10703400,
+  "prompt_eval_count": 511,
+  "prompt_eval_duration": 231036000,
+  "eval_count": 368,
+  "eval_duration": 4638942000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"LockBit affiliates' activity may be mitigated by Pre-compromise (M1056) as per ATT&CK 17.1.\",\n    \"LockBit affiliates' activity may be mitigated by Execution Prevention (M1038) as per ATT&CK 17.1.\",\n    \"LockBit affiliates' activity may be mitigated by Disable or Remove Feature or Program (M1042) as per ATT&CK 17.1.\"\n  ]\n}\n\nHere's the breakdown of each sentence into fully understandable statements:\n\n1. \"LockBit affiliates' activity may be mitigated by Pre-compromise (M1056) as per ATT&CK 17.1.\"\n\t* \"LockBit affiliates' activity may be mitigated.\"\n\t* \"The mitigation is Pre-compromise (M1056).\"\n\t* \"The mitigation is as per ATT&CK 17.1.\"\n2. \"LockBit affiliates' activity may be mitigated by Execution Prevention (M1038) as per ATT&CK 17.1.\"\n\t* \"LockBit affiliates' activity may be mitigated.\"\n\t* \"The mitigation is Execution Prevention (M1038).\"\n\t* \"The mitigation is as per ATT&CK 17.1.\"\n3. \"LockBit affiliates' activity may be mitigated by Disable or Remove Feature or Program (M1042) as per ATT&CK 17.1.\"\n\t* \"LockBit affiliates' activity may be mitigated.\"\n\t* \"The mitigation is Disable or Remove Feature or Program (M1042).\"\n\t* \"The mitigation is as per ATT&CK 17.1.\"\n\nNote that I've avoided using pronouns in each statement, as per your request.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

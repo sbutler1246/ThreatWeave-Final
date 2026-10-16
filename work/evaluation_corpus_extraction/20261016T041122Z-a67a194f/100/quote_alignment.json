@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 1028,
+        "end": 1142,
+        "text": "LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001].",
+        "line_start": 394
+      }
+    ],
+    "document_start": 3093,
+    "document_end": 3207,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

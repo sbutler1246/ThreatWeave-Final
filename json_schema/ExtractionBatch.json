@@ -1,0 +1,155 @@
+{
+  "$defs": {
+    "EntityCandidate": {
+      "additionalProperties": false,
+      "properties": {
+        "local_id": {
+          "minLength": 1,
+          "title": "Local Id",
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/$defs/EntityType"
+        },
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "attack_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Attack Id"
+        }
+      },
+      "required": [
+        "local_id",
+        "type",
+        "name"
+      ],
+      "title": "EntityCandidate",
+      "type": "object"
+    },
+    "EntityType": {
+      "enum": [
+        "ThreatGroup",
+        "Software",
+        "Technique",
+        "Tactic",
+        "Mitigation",
+        "Campaign"
+      ],
+      "title": "EntityType",
+      "type": "string"
+    },
+    "EvidenceSpan": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "integer"
+        },
+        "quote": {
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "quote"
+      ],
+      "title": "EvidenceSpan",
+      "type": "object"
+    },
+    "Predicate": {
+      "enum": [
+        "USES",
+        "USES_TECHNIQUE",
+        "PART_OF_TACTIC",
+        "MITIGATED_BY",
+        "ASSOCIATED_WITH"
+      ],
+      "title": "Predicate",
+      "type": "string"
+    },
+    "RelationCandidate": {
+      "additionalProperties": false,
+      "properties": {
+        "head": {
+          "title": "Head",
+          "type": "string"
+        },
+        "predicate": {
+          "$ref": "#/$defs/Predicate"
+        },
+        "tail": {
+          "title": "Tail",
+          "type": "string"
+        },
+        "evidence": {
+          "$ref": "#/$defs/EvidenceSpan"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "head",
+        "predicate",
+        "tail",
+        "evidence"
+      ],
+      "title": "RelationCandidate",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "entities": {
+      "items": {
+        "$ref": "#/$defs/EntityCandidate"
+      },
+      "title": "Entities",
+      "type": "array"
+    },
+    "relations": {
+      "items": {
+        "$ref": "#/$defs/RelationCandidate"
+      },
+      "title": "Relations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "entities",
+    "relations"
+  ],
+  "title": "ExtractionBatch",
+  "type": "object"
+}

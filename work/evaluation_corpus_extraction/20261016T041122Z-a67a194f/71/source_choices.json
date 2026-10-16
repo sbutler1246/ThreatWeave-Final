@@ -1,0 +1,291 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "PowerShell",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "powerfun.ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1071.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1685",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1564.012",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "PowerShell",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "powerfun.ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1071.001",
+      "type": "Technique",
+      "attack_id": "T1071.001"
+    },
+    "m005_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1685",
+      "type": "Technique",
+      "attack_id": "T1685"
+    },
+    "m007_S": {
+      "name": "Rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1564.012",
+      "type": "Technique",
+      "attack_id": "T1564.012"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 119,
+      "text": "the payload is an obfuscated base64 string read into memory, decompressed from gzip, and used to create a scriptblock.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 120,
+      "end": 302,
+      "text": "The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 303,
+      "end": 371,
+      "text": "powershell -nop -w hidden -noni -ep bypass &([scriptblock]::create((",
+      "line_start": 303
+    },
+    "u004": {
+      "start": 372,
+      "end": 406,
+      "text": "New-Object System.IO.StreamReader(",
+      "line_start": 372
+    },
+    "u005": {
+      "start": 407,
+      "end": 452,
+      "text": "New-Object System.IO.Compression.GzipStream((",
+      "line_start": 407
+    },
+    "u006": {
+      "start": 453,
+      "end": 523,
+      "text": "New-Object System.IO.MemoryStream(,[System.Convert]::FromBase64String(",
+      "line_start": 453
+    },
+    "u007": {
+      "start": 524,
+      "end": 711,
+      "text": "(('<base64 payload string>')-f'<character replacement 0>','<character replacement 1>', '<character replacement 2>')))),[System.IO.Compression.CompressionMode]::Decompress))).ReadToEnd()))",
+      "line_start": 524
+    },
+    "u008": {
+      "start": 712,
+      "end": 928,
+      "text": "The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script that can create either a reverse or bind shell over Transport Layer Security (TLS) to load additional modules.",
+      "line_start": 712
+    },
+    "u009": {
+      "start": 929,
+      "end": 1078,
+      "text": "In the bind shell, the script awaits a connection on local port 443 [T1071.001] and initiates a connection to a remote port 443 in the reverse shell.",
+      "line_start": 712
+    },
+    "u010": {
+      "start": 1079,
+      "end": 1228,
+      "text": "In some instances, Medusa actors attempted to use vulnerable or signed drivers to kill or delete endpoint detection and response (EDR) tools [T1685].",
+      "line_start": 1079
+    },
+    "u011": {
+      "start": 1229,
+      "end": 1373,
+      "text": "(Updated Aug. 18, 2026) Medusa actors place tooling, such as Rclone, in pre-existing Windows Defender excluded folders for stealth. [T1564.012].",
+      "line_start": 1229
+    },
+    "u012": {
+      "start": 1374,
+      "end": 1479,
+      "text": "FBI has observed Medusa actors using the following tools to support command and control (C2) and stealth:",
+      "line_start": 1374
+    },
+    "u013": {
+      "start": 1480,
+      "end": 1489,
+      "text": "Ligolo-ng",
+      "line_start": 1480
+    },
+    "u014": {
+      "start": 1490,
+      "end": 1609,
+      "text": "A reverse tunneling tool often used to create secure connections between a compromised host and threat actor’s machine.",
+      "line_start": 1490
+    },
+    "u015": {
+      "start": 1610,
+      "end": 1621,
+      "text": "Cloudflared",
+      "line_start": 1610
+    },
+    "u016": {
+      "start": 1622,
+      "end": 1651,
+      "text": "Formerly known as ArgoTunnel.",
+      "line_start": 1622
+    },
+    "u017": {
+      "start": 1652,
+      "end": 1780,
+      "text": "Used to securely expose applications, services, or servers to the internet via Cloudflare Tunnel without exposing them directly.",
+      "line_start": 1652
+    },
+    "u018": {
+      "start": 1781,
+      "end": 1847,
+      "text": "(Updated Aug. 18, 2026) FBI has also observed Medusa actors using:",
+      "line_start": 1781
+    },
+    "u019": {
+      "start": 1848,
+      "end": 1853,
+      "text": "Nezha",
+      "line_start": 1848
+    },
+    "u020": {
+      "start": 1854,
+      "end": 1994,
+      "text": "An operations and maintenance server monitoring tool used to allow backdoor visibility to compromised hosts from the threat actor’s machine.",
+      "line_start": 1854
+    },
+    "u021": {
+      "start": 1995,
+      "end": 2024,
+      "text": "Publicly available on GitHub.",
+      "line_start": 1995
+    },
+    "u022": {
+      "start": 2025,
+      "end": 2072,
+      "text": "Installed using PowerShell on victim’s machine:",
+      "line_start": 2025
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:powershell",
+    "m002_S": "local:Software:powerfun.ps1",
+    "m003_S": "attack:S0613",
+    "m004_T": "attack:T1071.001",
+    "m005_G": "local:ThreatGroup:medusa actors",
+    "m006_T": "local:Technique:t1685",
+    "m007_S": "attack:S1040",
+    "m008_T": "attack:T1564.012"
+  },
+  "unavailable_choices": [
+    "m006_T"
+  ],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m005_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m005_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit Affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Repurposed Use",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1562",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "AdFind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "S0552",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "TA0004",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "Bloodhound",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1482",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_G": {
+      "name": "LockBit Affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Repurposed Use",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1562",
+      "type": "Technique",
+      "attack_id": "T1562"
+    },
+    "m004_S": {
+      "name": "AdFind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "S0552",
+      "type": "Software",
+      "attack_id": "S0552"
+    },
+    "m006_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m007_A": {
+      "name": "TA0004",
+      "type": "Tactic",
+      "attack_id": "TA0004"
+    },
+    "m008_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m009_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m010_S": {
+      "name": "Bloodhound",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_T": {
+      "name": "T1482",
+      "type": "Technique",
+      "attack_id": "T1482"
+    },
+    "m012_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 77,
+      "text": "-source tools mentioned in this product are all publicly available and legal.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 78,
+      "end": 303,
+      "text": "The use of these tools by a threat actor should not be attributed to the freeware and open-source tools, absent specific articulable facts tending to show they are used at the direction or under the control of a threat actor.",
+      "line_start": 0
+    },
+    "u003": {
+      "start": 304,
+      "end": 370,
+      "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates",
+      "line_start": 304
+    },
+    "u004": {
+      "start": 371,
+      "end": 375,
+      "text": "Tool",
+      "line_start": 371
+    },
+    "u005": {
+      "start": 376,
+      "end": 388,
+      "text": "Intended Use",
+      "line_start": 376
+    },
+    "u006": {
+      "start": 389,
+      "end": 425,
+      "text": "Repurposed Use by LockBit Affiliates",
+      "line_start": 389
+    },
+    "u007": {
+      "start": 426,
+      "end": 441,
+      "text": "MITRE ATT&CK ID",
+      "line_start": 426
+    },
+    "u008": {
+      "start": 442,
+      "end": 447,
+      "text": "7-zip",
+      "line_start": 442
+    },
+    "u009": {
+      "start": 448,
+      "end": 481,
+      "text": "Compresses files into an archive.",
+      "line_start": 448
+    },
+    "u010": {
+      "start": 482,
+      "end": 537,
+      "text": "Compresses data to avoid detection before exfiltration.",
+      "line_start": 482
+    },
+    "u011": {
+      "start": 538,
+      "end": 543,
+      "text": "T1562",
+      "line_start": 538
+    },
+    "u012": {
+      "start": 544,
+      "end": 559,
+      "text": "Impair Defenses",
+      "line_start": 544
+    },
+    "u013": {
+      "start": 560,
+      "end": 566,
+      "text": "AdFind",
+      "line_start": 560
+    },
+    "u014": {
+      "start": 567,
+      "end": 622,
+      "text": "Searches Active Directory (AD) and gathers information.",
+      "line_start": 567
+    },
+    "u015": {
+      "start": 623,
+      "end": 735,
+      "text": "Gathers AD information used to exploit a victim’s network, escalate privileges, and facilitate lateral movement.",
+      "line_start": 623
+    },
+    "u016": {
+      "start": 736,
+      "end": 741,
+      "text": "S0552",
+      "line_start": 736
+    },
+    "u017": {
+      "start": 742,
+      "end": 748,
+      "text": "AdFind",
+      "line_start": 742
+    },
+    "u018": {
+      "start": 749,
+      "end": 788,
+      "text": "Advanced Internet Protocol (IP) Scanner",
+      "line_start": 749
+    },
+    "u019": {
+      "start": 789,
+      "end": 838,
+      "text": "Performs network scans and shows network devices.",
+      "line_start": 789
+    },
+    "u020": {
+      "start": 839,
+      "end": 900,
+      "text": "Maps a victim’s network to identify potential access vectors.",
+      "line_start": 839
+    },
+    "u021": {
+      "start": 901,
+      "end": 906,
+      "text": "T1046",
+      "line_start": 901
+    },
+    "u022": {
+      "start": 907,
+      "end": 932,
+      "text": "Network Service Discovery",
+      "line_start": 907
+    },
+    "u023": {
+      "start": 933,
+      "end": 954,
+      "text": "Advanced Port Scanner",
+      "line_start": 933
+    },
+    "u024": {
+      "start": 955,
+      "end": 978,
+      "text": "Performs network scans.",
+      "line_start": 955
+    },
+    "u025": {
+      "start": 979,
+      "end": 1078,
+      "text": "Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.",
+      "line_start": 979
+    },
+    "u026": {
+      "start": 1079,
+      "end": 1084,
+      "text": "T1046",
+      "line_start": 1079
+    },
+    "u027": {
+      "start": 1085,
+      "end": 1110,
+      "text": "Network Service Discovery",
+      "line_start": 1085
+    },
+    "u028": {
+      "start": 1111,
+      "end": 1122,
+      "text": "AdvancedRun",
+      "line_start": 1111
+    },
+    "u029": {
+      "start": 1123,
+      "end": 1173,
+      "text": "Allows software to be run with different settings.",
+      "line_start": 1123
+    },
+    "u030": {
+      "start": 1174,
+      "end": 1252,
+      "text": "Enables escalation of privileges by changing settings before running software.",
+      "line_start": 1174
+    },
+    "u031": {
+      "start": 1253,
+      "end": 1259,
+      "text": "TA0004",
+      "line_start": 1253
+    },
+    "u032": {
+      "start": 1260,
+      "end": 1280,
+      "text": "Privilege Escalation",
+      "line_start": 1260
+    },
+    "u033": {
+      "start": 1281,
+      "end": 1288,
+      "text": "AnyDesk",
+      "line_start": 1281
+    },
+    "u034": {
+      "start": 1289,
+      "end": 1335,
+      "text": "Enables remote connections to network devices.",
+      "line_start": 1289
+    },
+    "u035": {
+      "start": 1336,
+      "end": 1387,
+      "text": "Enables remote control of victim’s network devices.",
+      "line_start": 1336
+    },
+    "u036": {
+      "start": 1388,
+      "end": 1393,
+      "text": "T1219",
+      "line_start": 1388
+    },
+    "u037": {
+      "start": 1394,
+      "end": 1416,
+      "text": "Remote Access Software",
+      "line_start": 1394
+    },
+    "u038": {
+      "start": 1417,
+      "end": 1459,
+      "text": "Atera Remote Monitoring & Management (RMM)",
+      "line_start": 1417
+    },
+    "u039": {
+      "start": 1460,
+      "end": 1506,
+      "text": "Enables remote connections to network devices.",
+      "line_start": 1460
+    },
+    "u040": {
+      "start": 1507,
+      "end": 1558,
+      "text": "Enables remote control of victim’s network devices.",
+      "line_start": 1507
+    },
+    "u041": {
+      "start": 1559,
+      "end": 1564,
+      "text": "T1219",
+      "line_start": 1559
+    },
+    "u042": {
+      "start": 1565,
+      "end": 1587,
+      "text": "Remote Access Software",
+      "line_start": 1565
+    },
+    "u043": {
+      "start": 1588,
+      "end": 1596,
+      "text": "Backstab",
+      "line_start": 1588
+    },
+    "u044": {
+      "start": 1597,
+      "end": 1640,
+      "text": "Terminates antimalware-protected processes.",
+      "line_start": 1597
+    },
+    "u045": {
+      "start": 1641,
+      "end": 1711,
+      "text": "Terminates endpoint detection and response (EDR)- protected processes.",
+      "line_start": 1641
+    },
+    "u046": {
+      "start": 1712,
+      "end": 1721,
+      "text": "T1562.001",
+      "line_start": 1712
+    },
+    "u047": {
+      "start": 1722,
+      "end": 1762,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1722
+    },
+    "u048": {
+      "start": 1763,
+      "end": 1772,
+      "text": "Bat Armor",
+      "line_start": 1763
+    },
+    "u049": {
+      "start": 1773,
+      "end": 1819,
+      "text": "Generates .bat files using PowerShell scripts.",
+      "line_start": 1773
+    },
+    "u050": {
+      "start": 1820,
+      "end": 1857,
+      "text": "Bypasses PowerShell execution policy.",
+      "line_start": 1820
+    },
+    "u051": {
+      "start": 1858,
+      "end": 1867,
+      "text": "T1562.001",
+      "line_start": 1858
+    },
+    "u052": {
+      "start": 1868,
+      "end": 1908,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1868
+    },
+    "u053": {
+      "start": 1909,
+      "end": 1919,
+      "text": "Bloodhound",
+      "line_start": 1909
+    },
+    "u054": {
+      "start": 1920,
+      "end": 1977,
+      "text": "Performs reconnaissance of AD for attack path management.",
+      "line_start": 1920
+    },
+    "u055": {
+      "start": 1978,
+      "end": 2082,
+      "text": "Enables identification of AD relationships that can be exploited to gain access onto a victim’s network.",
+      "line_start": 1978
+    },
+    "u056": {
+      "start": 2083,
+      "end": 2088,
+      "text": "T1482",
+      "line_start": 2083
+    },
+    "u057": {
+      "start": 2089,
+      "end": 2111,
+      "text": "Domain Trust Discovery",
+      "line_start": 2089
+    },
+    "u058": {
+      "start": 2112,
+      "end": 2122,
+      "text": "Chocolatey",
+      "line_start": 2112
+    },
+    "u059": {
+      "start": 2123,
+      "end": 2184,
+      "text": "Handles command-line package management on Microsoft Windows.",
+      "line_start": 2123
+    },
+    "u060": {
+      "start": 2185,
+      "end": 2245,
+      "text": "Facilitates installation of LockBit affiliate actors’ tools.",
+      "line_start": 2185
+    },
+    "u061": {
+      "start": 2246,
+      "end": 2251,
+      "text": "T1072",
+      "line_start": 2246
+    },
+    "u062": {
+      "start": 2252,
+      "end": 2277,
+      "text": "Software Deployment Tools",
+      "line_start": 2252
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_G": "local:ThreatGroup:lockbit affiliates",
+    "m002_S": "local:Software:repurposed use",
+    "m003_T": "attack:T1562",
+    "m004_S": "attack:S0552",
+    "m005_S": "attack:S0552",
+    "m006_T": "attack:T1046",
+    "m007_A": "attack:TA0004",
+    "m008_T": "attack:T1219",
+    "m009_T": "attack:T1562.001",
+    "m010_S": "attack:S0521",
+    "m011_T": "attack:T1482",
+    "m012_T": "attack:T1072"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    }
+  ]
+}

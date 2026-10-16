@@ -1,0 +1,6 @@
+# Development application pins; full transitive lock is still pending.
+-r requirements-text.txt
+node2vec==0.5.0
+gensim==4.4.0
+networkx==3.7
+scipy==1.17.1

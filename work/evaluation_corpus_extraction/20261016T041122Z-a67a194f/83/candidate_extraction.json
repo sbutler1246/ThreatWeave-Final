@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Play",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1078",
+      "attack_id": "T1078"
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "Play",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1133",
+      "attack_id": "T1133"
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1190",
+      "attack_id": "T1190"
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1016",
+      "attack_id": "T1016"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 256,
+        "end": 399,
+        "quote": "The Play ransomware group gains initial access to victim networks through the abuse of valid accounts, likely purchased on the dark web [T1078]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 620,
+        "end": 793,
+        "quote": "Play ransomware actors have been observed using external-facing services [T1133] such as Remote Desktop Protocol (RDP) and Virtual Private Networks (VPN) for initial access."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 815,
+        "end": 1141,
+        "quote": "Multiple ransomware groups, including initial access brokers with ties to Play ransomware operators, exploited CVE-2024-57727 in remote monitoring and management (RMM) tool SimpleHelp [T1190] to conduct remote code execution [T1059.001] at many U.S.-based entities following the vulnerabilities’ disclosure on 16 January 2025."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 1183,
+        "end": 1392,
+        "quote": "Play ransomware actors use tools like AdFind to run Active Directory queries [TA0007] and Grixba,1 an information-stealer, to enumerate network information [T1016] and scan for anti-virus software [T1518.001]."
+      },
+      "confidence": null
+    }
+  ]
+}

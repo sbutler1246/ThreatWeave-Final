@@ -1,0 +1,11 @@
+{
+  "source": "docs\\ThreatWeave_secondary_review_progress.json",
+  "completed_export": "docs\\ThreatWeave_secondary_completed_ratings.json",
+  "entries": 20,
+  "only_changed_field": "review_status: in_progress -> completed",
+  "ratings_and_notes_unchanged": true,
+  "files_sha256": {
+    "docs\\ThreatWeave_secondary_review_progress.json": "29a4fa19812e0dd25a84f7e0a5c169a097a0557d63ac37f0518a3feaa4fe97d5",
+    "docs\\ThreatWeave_secondary_completed_ratings.json": "ef9fa361fad326fa9b910a7ccb8ae71623d71d95c872c8cc16ede73c0b9e88d0"
+  }
+}

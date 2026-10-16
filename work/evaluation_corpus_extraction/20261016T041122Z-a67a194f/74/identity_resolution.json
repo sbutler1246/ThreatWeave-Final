@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Medusa actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1567.002",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1567.002",
+    "canonical_name": "Exfiltration to Cloud Storage",
+    "source_attack_id": "T1567.002"
+  },
+  {
+    "local_id": "e3",
+    "mention": "gaze.exe",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "T1072",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1072",
+    "canonical_name": "Software Deployment Tools",
+    "source_attack_id": "T1072"
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1484.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1484.001",
+    "canonical_name": "Group Policy Modification",
+    "source_attack_id": "T1484.001"
+  },
+  {
+    "local_id": "e6",
+    "mention": "Rclone",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1040",
+    "canonical_name": "Rclone",
+    "source_attack_id": null
+  }
+]

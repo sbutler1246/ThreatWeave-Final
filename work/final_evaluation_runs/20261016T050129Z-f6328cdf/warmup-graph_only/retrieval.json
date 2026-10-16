@@ -1,0 +1,23 @@
+{
+  "candidate_path_count": 9,
+  "selected_path_count": 5,
+  "selected_hops": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "evidence_utf8_bytes": 2699,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_paths": 3,
+  "seed_groups": [
+    [
+      "attack:T1078"
+    ],
+    [
+      "local:AA23-319A:rhysida-actors"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r2-Q052-text_only--answer_relevancy",
+    "case_id": "r2-Q052-text_only",
+    "metric": "answer_relevancy",
+    "eligible": true
+  },
+  "input_sha256": "701b11968c190de785446d6ec07a06f7eb272dbf832e66a2f022bcaead362c07",
+  "status": "scored",
+  "value": 0.5326914016212408,
+  "judge_calls": 3,
+  "elapsed_ms": 5726.324799994472
+}

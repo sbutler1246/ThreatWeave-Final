@@ -1,0 +1,604 @@
+{
+  "purpose": "evaluation_text_index",
+  "status": "ready",
+  "fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "development_scope": {
+    "name": "expanded_reviewed_development_sources",
+    "sha256": "ab3732f875177906c400d82268fbbeed719b9a26b4f3836215d713821bd9beb8",
+    "cisa_scope_count": 53,
+    "attack_reference_count": 139
+  },
+  "evaluation_scope": {
+    "name": "frozen_shared_evaluation_sources_v1",
+    "sha256": "75547d824c6b0386fdac3ed17b3a50f03b97c1eaabc2ae1692961a2d7fb5d599",
+    "cisa_scope_count": 101,
+    "attack_reference_count": 190,
+    "evaluation_plan_fingerprint": "89764a8af84a83b36f3aa17425775142376c305bddfd9ce07fc7019ded39945b",
+    "mitigation_import_receipt_sha256": "74c8cfb98f2de2c16b4b1c1b9b0c389c2459a9c3880f6d59442689a29c8f7d3d",
+    "source_import_receipt_sha256": "ce307d711963f680eefaad626b1db581d5fc151fbf8899a6234f18b10cbd82dd",
+    "policy": "Same reviewed development plus evaluation source windows and direct references for all four modes; no labels or reference answers."
+  },
+  "cisa_scope_count": 101,
+  "attack_reference_count": 190,
+  "chunk_count": 510,
+  "corpus_version": "cisa-selected-2026-10-03",
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dimension": 384,
+    "normalize": true
+  },
+  "chunking": {
+    "extraction_llama_token_target": 500,
+    "extraction_llama_token_range": [
+      400,
+      600
+    ],
+    "extraction_overlap_tokens": 60,
+    "retrieval_minilm_wordpiece_ceiling": 240,
+    "retrieval_overlap_wordpieces": 40,
+    "retrieval_character_ceiling": 1000,
+    "relationship": "Retrieval child chunks retain parent extraction-chunk ID and normalized document offsets."
+  },
+  "packages": {
+    "sentence-transformers": "3.4.1",
+    "transformers": "4.49.0",
+    "torch": "2.6.0+cpu",
+    "numpy": "1.26.4",
+    "chromadb": "1.0.15"
+  },
+  "collection_name": "threatweave_text_eval_0fe7f0c80769a67a",
+  "chroma_path": "S:\\ThreatWeave\\work\\chroma",
+  "records_path": "S:\\ThreatWeave\\work\\evaluation_text_index\\0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73\\records.json",
+  "records_sha256": "3d88914136180ea4f7ea3c6f4e20ae07deb6d52d7bde02a4766343a9d1b07d0a",
+  "smoke_queries": [
+    {
+      "question": "According to CISA, what information does Raccoon Stealer steal? Explain the supplied ATT&CK mitigations for its web session cookie technique, citing observations and references separately.",
+      "hits": [
+        {
+          "rank": 1,
+          "cosine_distance": 0.4120493531227112,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:68413ebdbaf07c38a03c40a930c8f05922334d4ae4b980446a671c20c721bfd9",
+              "doc_id": "attack:17.1:relationship--1a5bf948-33fd-4025-aadd-117e99512e6a",
+              "start": 268,
+              "end": 510,
+              "text": "Implement auditing for authentication activities and user logins to detect the use of stolen session cookies. Monitor for impossible travel scenarios and anomalous behavior that could indicate the use of compromised session tokens or cookies.",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 90,
+                  "text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Audit (M1047)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--1a5bf948-33fd-4025-aadd-117e99512e6a:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Audit (M1047)\n\nImplement auditing for authentication activities and user logins to detect the use of stolen session cookies. Monitor for impossible travel scenarios and anomalous behavior that could indicate the use of compromised session tokens or cookies.",
+            "wordpiece_count": 72,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "439bfc93107c8644673dad9240b595fcc9d237b520d8db2ecb226d4c670e12b2",
+            "title": "ATT&CK 17.1: M1047 mitigates T1539",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--1a5bf948-33fd-4025-aadd-117e99512e6a",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "cosine_distance": 0.4361361861228943,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:7656600073c9d4774112f2bfb40354008b8ecc66c7434b6447f41524fc639461",
+              "doc_id": "attack:17.1:relationship--248a0d72-d9cd-43d3-985f-a33a49a79e8b",
+              "start": 285,
+              "end": 810,
+              "text": "Configure browsers or tasks to regularly delete persistent cookies.\n\nAdditionally, minimize the length of time a web cookie is viable to potentially reduce the impact of stolen cookies while also increasing the needed frequency of cookie theft attempts – providing defenders with additional chances at detection.(Citation: Token tactics) For example, use non-persistent cookies to limit the duration a session ID will remain on the web client cache where an attacker could obtain it.(Citation: Session Management Cheat Sheet)",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 107,
+                  "text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Software Configuration (M1054)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--248a0d72-d9cd-43d3-985f-a33a49a79e8b:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Software Configuration (M1054)\n\nConfigure browsers or tasks to regularly delete persistent cookies.\n\nAdditionally, minimize the length of time a web cookie is viable to potentially reduce the impact of stolen cookies while also increasing the needed frequency of cookie theft attempts – providing defenders with additional chances at detection.(Citation: Token tactics) For example, use non-persistent cookies to limit the duration a session ID will remain on the web client cache where an attacker could obtain it.(Citation: Session Management Cheat Sheet)",
+            "wordpiece_count": 128,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "e3aac24be795ef719a745a0c3ef2db52395e8fcd21baf5704d75716c261b73ee",
+            "title": "ATT&CK 17.1: M1054 mitigates T1539",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--248a0d72-d9cd-43d3-985f-a33a49a79e8b",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "cosine_distance": 0.44487541913986206,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:19720952d54d733903c34d5a136961ae427076304a3d010fa64b64b61bff20ab",
+              "doc_id": "attack:17.1:relationship--44c91929-3473-443c-91be-5afa81582dfa",
+              "start": 289,
+              "end": 539,
+              "text": "Restrict or block web-based content that could be used to extract session cookies or credentials stored in browsers. Use browser security settings, such as disabling third-party cookies and restricting browser extensions, to limit the attack surface.",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 111,
+                  "text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Restrict Web-Based Content (M1021)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--44c91929-3473-443c-91be-5afa81582dfa:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Restrict Web-Based Content (M1021)\n\nRestrict or block web-based content that could be used to extract session cookies or credentials stored in browsers. Use browser security settings, such as disabling third-party cookies and restricting browser extensions, to limit the attack surface.",
+            "wordpiece_count": 81,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "0c98ef2517b54108fd15256a6d792fd674a37ae84021e9c9a7796c593c6d429f",
+            "title": "ATT&CK 17.1: M1021 mitigates T1539",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--44c91929-3473-443c-91be-5afa81582dfa",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        },
+        {
+          "rank": 4,
+          "cosine_distance": 0.4572111964225769,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:60fd9e7dd55e81d425b95eb15ee2914ad26f434495f1cab228a810924e7d2188",
+              "doc_id": "attack:17.1:relationship--7a1cf82e-68e5-49ca-89ae-e492cd85dab4",
+              "start": 290,
+              "end": 733,
+              "text": "A physical second factor key that uses the target login domain as part of the negotiation protocol will prevent session cookie theft through proxy methods.(Citation: Evilginx 2 July 2018)\n\nImplement Conditional Access policies with Token Protection to bind session tokens to their originating device and user. This reduces the risk of session cookie theft by ensuring that stolen tokens cannot be reused from unauthorized locations or devices.",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 112,
+                  "text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Multi-factor Authentication (M1032)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--7a1cf82e-68e5-49ca-89ae-e492cd85dab4:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: Multi-factor Authentication (M1032)\n\nA physical second factor key that uses the target login domain as part of the negotiation protocol will prevent session cookie theft through proxy methods.(Citation: Evilginx 2 July 2018)\n\nImplement Conditional Access policies with Token Protection to bind session tokens to their originating device and user. This reduces the risk of session cookie theft by ensuring that stolen tokens cannot be reused from unauthorized locations or devices.",
+            "wordpiece_count": 112,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "cc65495a40b3597d5bea6e65086985478616faa7246afe1108d5319d4e310e47",
+            "title": "ATT&CK 17.1: M1032 mitigates T1539",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--7a1cf82e-68e5-49ca-89ae-e492cd85dab4",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        },
+        {
+          "rank": 5,
+          "cosine_distance": 0.4627333879470825,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:6edb27fedd9afe0742872acbb42caea6d5699dbccf04e8b0266b3475301ef7f7",
+              "doc_id": "attack:17.1:relationship--f780f9d8-1baa-41b7-b7a1-acba717df0ab",
+              "start": 276,
+              "end": 605,
+              "text": "Train users to identify aspects of phishing attempts where they're asked to enter credentials into a site that has the incorrect domain for the application they are logging into. Additionally, train users not to run untrusted JavaScript in their browser, such as by copying and pasting code or dragging and dropping bookmarklets.",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 98,
+                  "text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: User Training (M1017)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--f780f9d8-1baa-41b7-b7a1-acba717df0ab:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Steal Web Session Cookie (T1539)\nMitigation: User Training (M1017)\n\nTrain users to identify aspects of phishing attempts where they're asked to enter credentials into a site that has the incorrect domain for the application they are logging into. Additionally, train users not to run untrusted JavaScript in their browser, such as by copying and pasting code or dragging and dropping bookmarklets.",
+            "wordpiece_count": 96,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "2b7663077e1d34a81ec244d2fecd16f12c3e771d04cb975fed9a67b9a61d71f5",
+            "title": "ATT&CK 17.1: M1017 mitigates T1539",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--f780f9d8-1baa-41b7-b7a1-acba717df0ab",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question": "According to CISA, how do Rhysida actors use valid accounts (T1078) for access? Explain the supplied ATT&CK mitigation guidance and cite the sources separately.",
+      "hits": [
+        {
+          "rank": 1,
+          "cosine_distance": 0.4246218204498291,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+              "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+              "start": 276,
+              "end": 374,
+              "text": "Regularly audit user accounts for activity and deactivate or remove any that are no longer needed.",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 98,
+                  "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: User Account Management (M1018)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: User Account Management (M1018)\n\nRegularly audit user accounts for activity and deactivate or remove any that are no longer needed.",
+            "wordpiece_count": 50,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "8c5e44d8b3f329dafc3cdf80ded61fc53adbc566e68cf5a38366055353b90871",
+            "title": "ATT&CK 17.1: M1018 mitigates T1078",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "cosine_distance": 0.4624486565589905,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+              "doc_id": "AA23-319A",
+              "start": 19026,
+              "end": 19970,
+              "text": "9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nAdditional notable TTPs have been published by the Check Point Incident Response Team.[10]\nTable 9: Resource Development\nTechnique Title\nID\nUse\nDevelop Capabilities\nT1587\nRhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.\nTable 10: Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nRhysida actors are known to use valid credentials to access internal VPN access points of victims.\nUpdate April 30, 2025:\nTable 11: Execution\nTechnique Title\nID\nUse\nCommand and Scripting Interpreter: Cloud API\nT1059.009\nRhysida actors leverage AZCopy, a command-line utility that ",
+              "inherited_context": [
+                {
+                  "start": 23,
+                  "end": 58,
+                  "text": "#StopRansomware: Rhysida Ransomware"
+                },
+                {
+                  "start": 2634,
+                  "end": 2651,
+                  "text": "Technical Details"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "AA23-319A:development:llama500:19026:21144",
+              "embedding": null
+            },
+            "embedding_text": "#StopRansomware: Rhysida Ransomware\nTechnical Details\n\n9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nAdditional notable TTPs have been published by the Check Point Incident Response Team.[10]\nTable 9: Resource Development\nTechnique Title\nID\nUse\nDevelop Capabilities\nT1587\nRhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.\nTable 10: Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nRhysida actors are known to use valid credentials to access internal VPN access points of victims.\nUpdate April 30, 2025:\nTable 11: Execution\nTechnique Title\nID\nUse\nCommand and Scripting Interpreter: Cloud API\nT1059.009\nRhysida actors leverage AZCopy, a command-line utility that ",
+            "wordpiece_count": 219,
+            "source_kind": "cisa",
+            "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+            "source_hash": "d4e64c89974c1865305c06d603def9de2cebec3bb591a89724c446e197b4c479",
+            "title": "#StopRansomware: Rhysida Ransomware",
+            "provenance": {}
+          }
+        },
+        {
+          "rank": 3,
+          "cosine_distance": 0.46962422132492065,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+              "doc_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867",
+              "start": 273,
+              "end": 451,
+              "text": "Use conditional access policies to block logins from non-compliant devices or from outside defined organization IP ranges.(Citation: Microsoft Common Conditional Access Policies)",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 95,
+                  "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Account Use Policies (M1036)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Account Use Policies (M1036)\n\nUse conditional access policies to block logins from non-compliant devices or from outside defined organization IP ranges.(Citation: Microsoft Common Conditional Access Policies)",
+            "wordpiece_count": 61,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "1e406fdc190e94b47232dec0c0fcc280458869dba38ba841e985ac19d7862b6e",
+            "title": "ATT&CK 17.1: M1036 mitigates T1078",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--f2d01f19-b4e7-417a-a936-11af9386b867",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        },
+        {
+          "rank": 4,
+          "cosine_distance": 0.4703676700592041,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+              "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+              "start": 283,
+              "end": 479,
+              "text": "Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 105,
+                  "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Application Developer Guidance (M1013)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Application Developer Guidance (M1013)\n\nEnsure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).",
+            "wordpiece_count": 72,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "ec005fa5b4b15bd316ddf1647b6916938dfc40663f9dd0163067a0ac9160f401",
+            "title": "ATT&CK 17.1: M1013 mitigates T1078",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--c8acdf40-8237-487f-8255-91afa327705d",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        },
+        {
+          "rank": 5,
+          "cosine_distance": 0.48076897859573364,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:16d6b5a38af231085c281b393fca295f9531f5b16a6c02d23a43d4f0c2155ac4",
+              "doc_id": "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1",
+              "start": 260,
+              "end": 401,
+              "text": "Limit credential overlap across accounts and systems by training users and administrators not to use the same password for multiple accounts.",
+              "inherited_context": [
+                {
+                  "start": 0,
+                  "end": 82,
+                  "text": "ATT&CK release: 17.1\nTechnique: NTDS (T1003.003)\nMitigation: User Training (M1017)"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1:description",
+              "embedding": null
+            },
+            "embedding_text": "ATT&CK release: 17.1\nTechnique: NTDS (T1003.003)\nMitigation: User Training (M1017)\n\nLimit credential overlap across accounts and systems by training users and administrators not to use the same password for multiple accounts.",
+            "wordpiece_count": 56,
+            "source_kind": "attack",
+            "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+            "source_hash": "91b834ac519aa33bbe10612d85e84c709d529970f64485cb095c299c1338dee7",
+            "title": "ATT&CK 17.1: M1017 mitigates T1003.003",
+            "provenance": {
+              "source_snapshot_sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b",
+              "source_stix_relationship_id": "relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1",
+              "attack_release": "17.1",
+              "normalization": "Structured STIX fields followed by the exact relationship description."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question": "According to CISA, how do ALPHV Blackcat affiliates use AnyDesk and Mega sync before data exfiltration?",
+      "hits": [
+        {
+          "rank": 1,
+          "cosine_distance": 0.4130721092224121,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:c340c7e853728c4c1214048c5389bf2475376ddc01b346776de91e70ec61c8f2",
+              "doc_id": "AA23-353A",
+              "start": 5039,
+              "end": 5986,
+              "text": " Then Mega.nz or Dropbox are used to move, exfiltrate, and/or download victim data. The ransomware is then deployed, and the ransom note is embedded as a file.txt. According to public reporting, affiliates have additionally used POORTRY and STONESTOP to terminate security processes.\nSome ALPHV Blackcat affiliates exfiltrate data after gaining access and extort victims without deploying ransomware. After exfiltrating and/or encrypting data, ALPHV Blackcat affiliates communicate with victims via TOR [S0183], Tox, email, or encrypted applications. The threat actors then delete victim data from the victim’s system.\nALPHV Blackcat affiliates offer to provide unsolicited cyber remediation advice as an incentive for payment, offering to provide victims with “vulnerability reports” and “security recommendations” detailing how they penetrated the system and how to prevent future re-victimization upon receipt of ransom payment. The ALPHV Black",
+              "inherited_context": [
+                {
+                  "start": 23,
+                  "end": 54,
+                  "text": "#StopRansomware: ALPHV Blackcat"
+                },
+                {
+                  "start": 3061,
+                  "end": 3078,
+                  "text": "TECHNICAL DETAILS"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "AA23-353A:development:llama500:5039:6758",
+              "embedding": null
+            },
+            "embedding_text": "#StopRansomware: ALPHV Blackcat\nTECHNICAL DETAILS\n\n Then Mega.nz or Dropbox are used to move, exfiltrate, and/or download victim data. The ransomware is then deployed, and the ransom note is embedded as a file.txt. According to public reporting, affiliates have additionally used POORTRY and STONESTOP to terminate security processes.\nSome ALPHV Blackcat affiliates exfiltrate data after gaining access and extort victims without deploying ransomware. After exfiltrating and/or encrypting data, ALPHV Blackcat affiliates communicate with victims via TOR [S0183], Tox, email, or encrypted applications. The threat actors then delete victim data from the victim’s system.\nALPHV Blackcat affiliates offer to provide unsolicited cyber remediation advice as an incentive for payment, offering to provide victims with “vulnerability reports” and “security recommendations” detailing how they penetrated the system and how to prevent future re-victimization upon receipt of ransom payment. The ALPHV Black",
+            "wordpiece_count": 224,
+            "source_kind": "cisa",
+            "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-353a",
+            "source_hash": "fb6a31601f8857e080043ef9151606074a717fb7a9d6164a00545b2ba90deafd",
+            "title": "#StopRansomware: ALPHV Blackcat",
+            "provenance": {}
+          }
+        },
+        {
+          "rank": 2,
+          "cosine_distance": 0.49018335342407227,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:8f5d04589338f1d11a43be5ba943d7dd8bd64267fcb9ce9de276a5b9e2e86c8d",
+              "doc_id": "AA23-353A",
+              "start": 3836,
+              "end": 4785,
+              "text": "Ls) to live-chat with victims to convey demands and initiate processes to restore the victims’ encrypted files.\nAfter gaining access to a victim network, ALPHV Blackcat affiliates deploy remote access software such as AnyDesk, Mega sync, and Splashtop in preparation of data exfiltration. ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access [T1558]. After gaining access to networks, they use legitimate remote access and tunneling tools, such as Plink and Ngrok [S0508]. ALPHV Blackcat affiliates claim to use Brute Ratel C4 [S1063] and Cobalt Strike [S1054] as beacons to command and control servers. ALPHV Blackcat affiliates use the open source adversary-in-the-middle attack [T1557] framework Evilginx2, which allows them to obtain multifactor authentication (MFA) credentials, login credentials, and session cookies. The actors also obtain passwords from the domain controller, local ",
+              "inherited_context": [
+                {
+                  "start": 23,
+                  "end": 54,
+                  "text": "#StopRansomware: ALPHV Blackcat"
+                },
+                {
+                  "start": 3061,
+                  "end": 3078,
+                  "text": "TECHNICAL DETAILS"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "AA23-353A:development:llama500:3078:5323",
+              "embedding": null
+            },
+            "embedding_text": "#StopRansomware: ALPHV Blackcat\nTECHNICAL DETAILS\n\nLs) to live-chat with victims to convey demands and initiate processes to restore the victims’ encrypted files.\nAfter gaining access to a victim network, ALPHV Blackcat affiliates deploy remote access software such as AnyDesk, Mega sync, and Splashtop in preparation of data exfiltration. ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access [T1558]. After gaining access to networks, they use legitimate remote access and tunneling tools, such as Plink and Ngrok [S0508]. ALPHV Blackcat affiliates claim to use Brute Ratel C4 [S1063] and Cobalt Strike [S1054] as beacons to command and control servers. ALPHV Blackcat affiliates use the open source adversary-in-the-middle attack [T1557] framework Evilginx2, which allows them to obtain multifactor authentication (MFA) credentials, login credentials, and session cookies. The actors also obtain passwords from the domain controller, local ",
+            "wordpiece_count": 239,
+            "source_kind": "cisa",
+            "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-353a",
+            "source_hash": "fb6a31601f8857e080043ef9151606074a717fb7a9d6164a00545b2ba90deafd",
+            "title": "#StopRansomware: ALPHV Blackcat",
+            "provenance": {}
+          }
+        },
+        {
+          "rank": 3,
+          "cosine_distance": 0.4956575036048889,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:7f66a8052f39d5ea6d8dc7f74e57629dbc77fa18d30950237a5cf2c1973834c8",
+              "doc_id": "AA23-353A",
+              "start": 3078,
+              "end": 4023,
+              "text": "\nNote: This advisory uses the MITRE ATT&CK® for Enterprise framework, version 14. See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nALPHV Blackcat affiliates use advanced social engineering techniques and open source research on a company to gain initial access. Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages [T1598] to obtain credentials from employees to access the target network [T1586]. ALPHV Blackcat affiliates use uniform resource locators (URLs) to live-chat with victims to convey demands and initiate processes to restore the victims’ encrypted files.\nAfter gaining access to a victim network, ALPHV Blackcat affiliates deploy ",
+              "inherited_context": [
+                {
+                  "start": 23,
+                  "end": 54,
+                  "text": "#StopRansomware: ALPHV Blackcat"
+                },
+                {
+                  "start": 3061,
+                  "end": 3078,
+                  "text": "TECHNICAL DETAILS"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "AA23-353A:development:llama500:3078:5323",
+              "embedding": null
+            },
+            "embedding_text": "#StopRansomware: ALPHV Blackcat\nTECHNICAL DETAILS\n\n\nNote: This advisory uses the MITRE ATT&CK® for Enterprise framework, version 14. See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nALPHV Blackcat affiliates use advanced social engineering techniques and open source research on a company to gain initial access. Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages [T1598] to obtain credentials from employees to access the target network [T1586]. ALPHV Blackcat affiliates use uniform resource locators (URLs) to live-chat with victims to convey demands and initiate processes to restore the victims’ encrypted files.\nAfter gaining access to a victim network, ALPHV Blackcat affiliates deploy ",
+            "wordpiece_count": 232,
+            "source_kind": "cisa",
+            "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-353a",
+            "source_hash": "fb6a31601f8857e080043ef9151606074a717fb7a9d6164a00545b2ba90deafd",
+            "title": "#StopRansomware: ALPHV Blackcat",
+            "provenance": {}
+          }
+        },
+        {
+          "rank": 4,
+          "cosine_distance": 0.5311381220817566,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:c065cdda75f1509ef3d2f35c0e571a3fda16a979d05a47b02f8b1214ec3f7345",
+              "doc_id": "AA23-353A",
+              "start": 9068,
+              "end": 9988,
+              "text": "\nIP Address\n45.32.141[.]168\nCommand and Control Server\nIP Address\n45.77.0[.]92\nCommand and Control Server\nMITRE ATT&CK TACTICS AND TECHNIQUES\nSee Table 5 through Table 7 for all referenced threat actor tactics and techniques in this advisory.\nTable 5: ALPHV Blackcat/ALPHV Threat Actors ATT&CK Techniques - Reconnaissance\nTechnique Title\nID\nUse\nPhishing for Information\nT1598\nALPHV Blackcat affiliates pose as company IT and/or helpdesk staff using phone calls or SMS messages to obtain credentials from employees to access the target network.\nTable 6: ALPHV Blackcat/ALPHV Threat Actors ATT&CK Techniques – Resource Development\nTechnique Title\nID\nUse\nCompromise Accounts\nT1586\nALPHV Blackcat affiliates use compromised accounts to gain access to victims’ networks.\nTable 7: ALPHV Blackcat/ALPHV Threat Actors ATT&CK Techniques – Credential Access\nTechnique Title\nID\nUse\nObtain Credentials from Passwords Stores\nT1555\nAL",
+              "inherited_context": [
+                {
+                  "start": 23,
+                  "end": 54,
+                  "text": "#StopRansomware: ALPHV Blackcat"
+                },
+                {
+                  "start": 3061,
+                  "end": 3078,
+                  "text": "TECHNICAL DETAILS"
+                },
+                {
+                  "start": 8332,
+                  "end": 8359,
+                  "text": "Table 4: Network Indicators"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "AA23-353A:development:llama500:9068:11166",
+              "embedding": null
+            },
+            "embedding_text": "#StopRansomware: ALPHV Blackcat\nTECHNICAL DETAILS\nTable 4: Network Indicators\n\n\nIP Address\n45.32.141[.]168\nCommand and Control Server\nIP Address\n45.77.0[.]92\nCommand and Control Server\nMITRE ATT&CK TACTICS AND TECHNIQUES\nSee Table 5 through Table 7 for all referenced threat actor tactics and techniques in this advisory.\nTable 5: ALPHV Blackcat/ALPHV Threat Actors ATT&CK Techniques - Reconnaissance\nTechnique Title\nID\nUse\nPhishing for Information\nT1598\nALPHV Blackcat affiliates pose as company IT and/or helpdesk staff using phone calls or SMS messages to obtain credentials from employees to access the target network.\nTable 6: ALPHV Blackcat/ALPHV Threat Actors ATT&CK Techniques – Resource Development\nTechnique Title\nID\nUse\nCompromise Accounts\nT1586\nALPHV Blackcat affiliates use compromised accounts to gain access to victims’ networks.\nTable 7: ALPHV Blackcat/ALPHV Threat Actors ATT&CK Techniques – Credential Access\nTechnique Title\nID\nUse\nObtain Credentials from Passwords Stores\nT1555\nAL",
+            "wordpiece_count": 228,
+            "source_kind": "cisa",
+            "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-353a",
+            "source_hash": "fb6a31601f8857e080043ef9151606074a717fb7a9d6164a00545b2ba90deafd",
+            "title": "#StopRansomware: ALPHV Blackcat",
+            "provenance": {}
+          }
+        },
+        {
+          "rank": 5,
+          "cosine_distance": 0.5693074464797974,
+          "record": {
+            "chunk": {
+              "chunk_id": "retrieval:0d78655e7c8fe8ce039a7f2b3c65c9e66d81f1ef9741c6d9a28bad17beb0a2af",
+              "doc_id": "AA24-131A",
+              "start": 12233,
+              "end": 13129,
+              "text": "and applications should not be attributed as malicious without analytical evidence to support threat actor use and/or control. Black Basta affiliates were observed using these legitimate tools for intended malicious purposes.\nTable 1: Tools Used by Black Basta Affiliates\nTool Name\nDescription\nAnyDesk\nA remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.\nMicrosoft Teams\nA messaging application used within organizations and maliciously used by Black Basta affiliates to contact employees.\nMicrosoft Quick Assist\nA remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.\nBITSAdmin\nA command-line utility that manages downloads/uploads between a client and server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.\nCobalt Strike\n",
+              "inherited_context": [
+                {
+                  "start": 23,
+                  "end": 51,
+                  "text": "#StopRansomware: Black Basta"
+                },
+                {
+                  "start": 4157,
+                  "end": 4174,
+                  "text": "Technical Details"
+                }
+              ],
+              "role": "retrieval",
+              "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:10786:13129",
+              "embedding": null
+            },
+            "embedding_text": "#StopRansomware: Black Basta\nTechnical Details\n\nand applications should not be attributed as malicious without analytical evidence to support threat actor use and/or control. Black Basta affiliates were observed using these legitimate tools for intended malicious purposes.\nTable 1: Tools Used by Black Basta Affiliates\nTool Name\nDescription\nAnyDesk\nA remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.\nMicrosoft Teams\nA messaging application used within organizations and maliciously used by Black Basta affiliates to contact employees.\nMicrosoft Quick Assist\nA remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.\nBITSAdmin\nA command-line utility that manages downloads/uploads between a client and server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.\nCobalt Strike\n",
+            "wordpiece_count": 177,
+            "source_kind": "cisa",
+            "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+            "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149",
+            "title": "#StopRansomware: Black Basta",
+            "provenance": {}
+          }
+        }
+      ]
+    }
+  ],
+  "verified_chunk_count": 510,
+  "note": "Shared evaluation text index and unchanged development smoke checks; no LLM answers or final benchmark scores.",
+  "finished_at": "2026-10-16T04:38:00.289534+00:00"
+}

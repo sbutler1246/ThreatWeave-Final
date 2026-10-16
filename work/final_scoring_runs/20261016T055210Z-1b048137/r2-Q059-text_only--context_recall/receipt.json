@@ -1,0 +1,18 @@
+{
+  "task": {
+    "task_id": "r2-Q059-text_only--context_recall",
+    "case_id": "r2-Q059-text_only",
+    "metric": "context_recall",
+    "eligible": false
+  },
+  "input_sha256": "619d80a3b91f296103e7d3ffcc81473f7dd805da57f8d313dc0694d0675391ec",
+  "status": "unavailable_answer",
+  "value": null,
+  "reason": "Original generation failed; no valid response exists.",
+  "judge_calls": 0,
+  "elapsed_ms": 0.0030999945010989904,
+  "files_sha256": {
+    "input.json": "ac7548e49a0ed77f9ae21b55c1f6d0d7746d770aa55e9b66470363ae9cf45d6a",
+    "result.json": "8855ca01499d83bc679110a9d2e2f80dc6ccefed080282579c89ab25b0a3df97"
+  }
+}

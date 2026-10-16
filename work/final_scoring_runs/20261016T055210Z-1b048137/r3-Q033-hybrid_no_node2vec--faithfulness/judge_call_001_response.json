@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:39:24.7187487Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9547936300,
+  "load_duration": 10975400,
+  "prompt_eval_count": 688,
+  "prompt_eval_duration": 314244000,
+  "eval_count": 700,
+  "eval_duration": 9103502000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Akira threat actors use ngrok to create secure tunnels for data exfiltration.\",\n        \"Data exfiltration is a technique described as Protocol Tunneling (T1572).\",\n        \"Ngrok is used by Akira threat actors to connect to exfiltration servers.\",\n        \"Exfiltration servers use protocols such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega.\",\n        \"The ATT&CK technique Protocol Tunneling (T1572) is mitigated by filtering network traffic to untrusted or known bad domains and resources.\",\n        \"Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.\",\n        \"The mitigation for Inhibit System Recovery (T1490) is to limit the user accounts that have access to backups to only those required.\",\n        \"The mitigation for Inhibit System Recovery (T1490) is to consider using Service Control Policies to restrict API calls to delete backups, snapshots, and images in AWS environments.\",\n        \"Akira threat actors use ngrok to create secure tunnels for data exfiltration, which is a two-hop path connecting Akira actors through ngrok to the ATT&CK technique Protocol Tunneling (T1572).\"\n    ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"Akira threat actors use ngrok to create secure tunnels for data exfiltration.\"\n\t* Akira threat actors use ngrok.\n\t* Ngrok is used to create secure tunnels.\n\t* Secure tunnels are used for data exfiltration.\n2. \"Data exfiltration is a technique described as Protocol Tunneling (T1572).\"\n\t* Data exfiltration is a technique.\n\t* The technique is described as Protocol Tunneling (T1572).\n3. \"Ngrok is used by Akira threat actors to connect to exfiltration servers.\"\n\t* Ngrok is used by Akira threat actors.\n\t* Ngrok is used to connect to exfiltration servers.\n4. \"Exfiltration servers use protocols such as File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega.\"\n\t* Exfiltration servers use protocols.\n\t* The protocols used are File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega.\n5. \"The ATT&CK technique Protocol Tunneling (T1572) is mitigated by filtering network traffic to untrusted or known bad domains and resources.\"\n\t* The ATT&CK technique Protocol Tunneling (T1572) is mitigated.\n\t* Mitigation is achieved by filtering network traffic.\n\t* Network traffic is filtered to untrusted or known bad domains and resources.\n6. \"Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.\"\n\t* Network intrusion detection and prevention systems can be used to mitigate activity.\n\t* Mitigation is achieved by identifying traffic for specific adversary malware.\n\t* Identification is done using network signatures.\n7. \"The mitigation for Inhibit System Recovery (T1490) is to limit the user accounts that have access to backups to only those required.\"\n\t* The mitigation for Inhibit System Recovery (T",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

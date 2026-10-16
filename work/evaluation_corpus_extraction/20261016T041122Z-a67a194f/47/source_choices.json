@@ -1,0 +1,380 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Page",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1566.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1566.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1110",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "password spraying",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "SharpDomainSpray",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1110.003",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m004_S": {
+      "name": "Page",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1566.001",
+      "type": "Technique",
+      "attack_id": "T1566.001"
+    },
+    "m006_T": {
+      "name": "T1566.002",
+      "type": "Technique",
+      "attack_id": "T1566.002"
+    },
+    "m007_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m008_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m009_T": {
+      "name": "T1110",
+      "type": "Technique",
+      "attack_id": "T1110"
+    },
+    "m010_T": {
+      "name": "password spraying",
+      "type": "Technique",
+      "attack_id": "T1110.003"
+    },
+    "m011_S": {
+      "name": "SharpDomainSpray",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1110.003",
+      "type": "Technique",
+      "attack_id": "T1110.003"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 88,
+      "text": "Note: This advisory uses the MITRE ATT&CK® Matrix for Enterprise framework, version 18.",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 89,
+      "end": 248,
+      "text": "See the MITRE ATT&CK Tactics and Techniques section of this advisory for tables with the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.",
+      "line_start": 1
+    },
+    "u003": {
+      "start": 249,
+      "end": 263,
+      "text": "Initial Access",
+      "line_start": 249
+    },
+    "u004": {
+      "start": 264,
+      "end": 542,
+      "text": "FBI and cybersecurity researchers1 observed Akira threat actors obtaining initial access to organizations through a virtual private network (VPN) service without multifactor authentication (MFA) configured,2 mostly using known Common Vulnerabilities and Exposures (CVEs) [T1190]",
+      "line_start": 264
+    },
+    "u005": {
+      "start": 544,
+      "end": 554,
+      "text": "including:",
+      "line_start": 264
+    },
+    "u006": {
+      "start": 555,
+      "end": 669,
+      "text": "CVE-2020-3259 [Common Weakness Enumeration (CWE)-200: Exposure of Sensitive Information to an Unauthorized Actor];",
+      "line_start": 555
+    },
+    "u007": {
+      "start": 670,
+      "end": 753,
+      "text": "CVE-2023-20269 [CWE-288: Authentication Bypass Using an Alternate Path or Channel];",
+      "line_start": 670
+    },
+    "u008": {
+      "start": 754,
+      "end": 775,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 754
+    },
+    "u009": {
+      "start": 776,
+      "end": 885,
+      "text": "CVE-2020-3580 [CWE-79: Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’)]3",
+      "line_start": 776
+    },
+    "u010": {
+      "start": 886,
+      "end": 944,
+      "text": "CVE-2023-28252 [CWE-122: Heap-based Buffer Overflow];4 and",
+      "line_start": 886
+    },
+    "u011": {
+      "start": 945,
+      "end": 1014,
+      "text": "CVE-2024-37085 [CWE-305: Authentication Bypass by Primary Weakness].5",
+      "line_start": 945
+    },
+    "u012": {
+      "start": 1015,
+      "end": 1130,
+      "text": "Additionally, the authoring organizations observed Akira threat actors using these CVE exploits for initial access:",
+      "line_start": 1015
+    },
+    "u013": {
+      "start": 1131,
+      "end": 1202,
+      "text": "CVE-2023-27532 [CWE-306: Missing Authentication for Critical Function];",
+      "line_start": 1131
+    },
+    "u014": {
+      "start": 1203,
+      "end": 1262,
+      "text": "CVE-2024-40711 [CWE-502: Deserialization of Untrusted Data]",
+      "line_start": 1203
+    },
+    "u015": {
+      "start": 1264,
+      "end": 1267,
+      "text": "and",
+      "line_start": 1203
+    },
+    "u016": {
+      "start": 1268,
+      "end": 1318,
+      "text": "CVE-2024-40766 [CWE-284: Improper Access Control].",
+      "line_start": 1268
+    },
+    "u017": {
+      "start": 1319,
+      "end": 1329,
+      "text": "End Update",
+      "line_start": 1319
+    },
+    "u018": {
+      "start": 1330,
+      "end": 1436,
+      "text": "For initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002]",
+      "line_start": 1330
+    },
+    "u019": {
+      "start": 1438,
+      "end": 1471,
+      "text": "abusing valid credentials [T1078]",
+      "line_start": 1330
+    },
+    "u020": {
+      "start": 1473,
+      "end": 1572,
+      "text": "and techniques that leverage external-facing services, like Remote Desktop Protocol (RDP) [T1133].6",
+      "line_start": 1330
+    },
+    "u021": {
+      "start": 1573,
+      "end": 1594,
+      "text": "Update Nov. 13, 2025:",
+      "line_start": 1573
+    },
+    "u022": {
+      "start": 1595,
+      "end": 1742,
+      "text": "Akira threat actors gain access to VPN products such as SonicWall, by stealing login credentials or exploiting vulnerabilities like CVE-2024-40766.",
+      "line_start": 1595
+    },
+    "u023": {
+      "start": 1743,
+      "end": 1907,
+      "text": "In some instances, they gain initial access through compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints [T1110].",
+      "line_start": 1595
+    },
+    "u024": {
+      "start": 1908,
+      "end": 2066,
+      "text": "Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003].",
+      "line_start": 1595
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1129",
+    "m002_G": "local:ThreatGroup:akira threat actors",
+    "m003_T": "attack:T1190",
+    "m004_S": "attack:S0081",
+    "m005_T": "attack:T1566.001",
+    "m006_T": "attack:T1566.002",
+    "m007_T": "attack:T1078",
+    "m008_T": "attack:T1133",
+    "m009_T": "attack:T1110",
+    "m010_T": "attack:T1110.003",
+    "m011_S": "local:Software:sharpdomainspray",
+    "m012_T": "attack:T1110.003"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T",
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m012_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u024"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m012_T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Play actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "IOBit",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "ThreatGroup",
+      "name": "Play Ransomware Actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "Play",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 2367,
+        "end": 2429,
+        "quote": "Play actors have accessed IOBit to disable antivirus software."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 1990,
+        "end": 2040,
+        "quote": "Table 1: Tools Leveraged by Play Ransomware Actors"
+      },
+      "confidence": null
+    }
+  ]
+}

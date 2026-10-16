@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:00:18.165802Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2755281800,
+  "load_duration": 7791400,
+  "prompt_eval_count": 1560,
+  "prompt_eval_duration": 360880000,
+  "eval_count": 155,
+  "eval_duration": 2179828000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"Medusa actors use PsExec;\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"the advisory associates the described use of PsExec with T1569.002 (Service Execution in Enterprise ATT&CK 17.1).\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"Both links must be supported in the advisory context.\",\n            \"reason\": \"There is no supporting evidence for this in the given context.\",\n            \"attributed\": 0\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

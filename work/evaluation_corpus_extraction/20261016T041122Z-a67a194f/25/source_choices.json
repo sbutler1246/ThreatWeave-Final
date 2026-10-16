@@ -1,0 +1,407 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "defw10.bat",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "ll.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "b34v2.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "1.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "34.dll",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "sys32.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "BlackSuit threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Chisel",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "Cloudflared",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Secure Shell",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "SSH",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Client",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "OpenSSH",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "MobaXterm",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "defw10.bat",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "ll.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "b34v2.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "1.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "34.dll",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "sys32.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_G": {
+      "name": "BlackSuit threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "Chisel",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "Cloudflared",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "Secure Shell",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "SSH",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Client",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "OpenSSH",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "MobaXterm",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 9,
+      "text": "4ee9fa0b1",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 10,
+      "end": 22,
+      "text": "f24dc8ea.msi",
+      "line_start": 10
+    },
+    "u003": {
+      "start": 23,
+      "end": 87,
+      "text": "91605641a4c7e859b7071a9841d1cd154b9027e6a58c20ec4cadafeaf47c9055",
+      "line_start": 23
+    },
+    "u004": {
+      "start": 88,
+      "end": 98,
+      "text": "defw10.bat",
+      "line_start": 88
+    },
+    "u005": {
+      "start": 99,
+      "end": 163,
+      "text": "fb638dba20e5fec72f5501d7e0627b302834ec5eaf331dd999763ee925cbc0f9",
+      "line_start": 99
+    },
+    "u006": {
+      "start": 164,
+      "end": 170,
+      "text": "ll.exe",
+      "line_start": 164
+    },
+    "u007": {
+      "start": 171,
+      "end": 235,
+      "text": "f0197bd7ccd568c523df9c7d9afcbac222f14d344312322c04c92e7968859726",
+      "line_start": 171
+    },
+    "u008": {
+      "start": 236,
+      "end": 257,
+      "text": "Royal Ransomware Hash",
+      "line_start": 236
+    },
+    "u009": {
+      "start": 258,
+      "end": 322,
+      "text": "b987f738a1e185f71e358b02cafa5fe56a4e3457df3b587d6b40e9c9de1da410",
+      "line_start": 258
+    },
+    "u010": {
+      "start": 323,
+      "end": 332,
+      "text": "b34v2.dll",
+      "line_start": 323
+    },
+    "u011": {
+      "start": 333,
+      "end": 373,
+      "text": "a51b1f1f0636bff199c0f87e2bb300d42e06698b",
+      "line_start": 333
+    },
+    "u012": {
+      "start": 374,
+      "end": 379,
+      "text": "1.exe",
+      "line_start": 374
+    },
+    "u013": {
+      "start": 380,
+      "end": 420,
+      "text": "d93f1ef533e6b8c95330ba0962e3670eaf94a026",
+      "line_start": 380
+    },
+    "u014": {
+      "start": 421,
+      "end": 427,
+      "text": "34.dll",
+      "line_start": 421
+    },
+    "u015": {
+      "start": 428,
+      "end": 468,
+      "text": "9e19afc15c5781e8a89a75607578760aabad8e65",
+      "line_start": 428
+    },
+    "u016": {
+      "start": 469,
+      "end": 475,
+      "text": "ll.exe",
+      "line_start": 469
+    },
+    "u017": {
+      "start": 476,
+      "end": 516,
+      "text": "9a92b147cad814bfbd4632b6034b8abf8d84b1a5",
+      "line_start": 476
+    },
+    "u018": {
+      "start": 517,
+      "end": 538,
+      "text": "Royal Ransomware Hash",
+      "line_start": 517
+    },
+    "u019": {
+      "start": 539,
+      "end": 579,
+      "text": "a4ef01d55e55cebdd37ba71c28b0c448a9c833c0",
+      "line_start": 539
+    },
+    "u020": {
+      "start": 580,
+      "end": 661,
+      "text": "Table 7: BlackSuit Ransomware Associated Files, Tools, and Hashes as of June 2023",
+      "line_start": 580
+    },
+    "u021": {
+      "start": 662,
+      "end": 672,
+      "text": "IP Address",
+      "line_start": 662
+    },
+    "u022": {
+      "start": 673,
+      "end": 687,
+      "text": "MD5 Hash Value",
+      "line_start": 673
+    },
+    "u023": {
+      "start": 688,
+      "end": 697,
+      "text": "sys32.exe",
+      "line_start": 688
+    },
+    "u024": {
+      "start": 698,
+      "end": 738,
+      "text": "30cc7724be4a09d5bcd9254197af05e9fab76455",
+      "line_start": 698
+    },
+    "u025": {
+      "start": 739,
+      "end": 753,
+      "text": "esxi_encryptor",
+      "line_start": 739
+    },
+    "u026": {
+      "start": 754,
+      "end": 794,
+      "text": "861793c4e0d4a92844994b640cc6bc3e20944a73",
+      "line_start": 754
+    },
+    "u027": {
+      "start": 795,
+      "end": 915,
+      "text": "BlackSuit threat actors have been observed using legitimate software and open source tools during ransomware operations.",
+      "line_start": 795
+    },
+    "u028": {
+      "start": 916,
+      "end": 1113,
+      "text": "Threat actors have been observed using open source network tunneling tools such as Chisel and Cloudflared, as well as Secure Shell (SSH) Client, OpenSSH, and MobaXterm to establish SSH connections.",
+      "line_start": 795
+    },
+    "u029": {
+      "start": 1114,
+      "end": 1253,
+      "text": "The publicly available credential stealing tool Mimikatz and password harvesting tools from Nirsoft have also been found on victim systems.",
+      "line_start": 795
+    },
+    "u030": {
+      "start": 1254,
+      "end": 1326,
+      "text": "Legitimate RMM tools have also been observed as backdoor access vectors.",
+      "line_start": 795
+    },
+    "u031": {
+      "start": 1327,
+      "end": 1398,
+      "text": "Some legitimate software and open source tools can be found in Table 8.",
+      "line_start": 795
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:defw10.bat",
+    "m002_S": "local:Software:ll.exe",
+    "m003_S": "attack:S1073",
+    "m004_S": "local:Software:b34v2.dll",
+    "m005_S": "local:Software:1.exe",
+    "m006_S": "local:Software:34.dll",
+    "m007_S": "local:Software:sys32.exe",
+    "m008_G": "local:ThreatGroup:blacksuit threat actors",
+    "m009_S": "local:Software:chisel",
+    "m010_S": "local:Software:cloudflared",
+    "m011_S": "local:Software:secure shell",
+    "m012_S": "local:Software:ssh",
+    "m013_S": "local:Software:client",
+    "m014_S": "local:Software:openssh",
+    "m015_S": "local:Software:mobaxterm",
+    "m016_S": "attack:S0002"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

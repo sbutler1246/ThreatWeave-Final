@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u020"
+    ],
+    "selected_units": [
+      {
+        "start": 859,
+        "end": 1004,
+        "text": "After using Ngrok to establish encrypted sessions, Akira threat actors use PowerShell and WMIC to disable services and execute malicious scripts.",
+        "line_start": 859
+      }
+    ],
+    "document_start": 29636,
+    "document_end": 29781,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u021"
+    ],
+    "selected_units": [
+      {
+        "start": 1005,
+        "end": 1194,
+        "text": "Akira threat actors use commercial penetration testing tools, namely Cobalt Strike, during their operations to achieve lateral movement, perform C2 procedures, and gain elevated privileges.",
+        "line_start": 1005
+      }
+    ],
+    "document_start": 29782,
+    "document_end": 29971,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u025"
+    ],
+    "selected_units": [
+      {
+        "start": 1273,
+        "end": 1479,
+        "text": "Akira threat actors use the Windows command shell (cmd.exe) to run batch scripts and native commands for execution, persistence, lateral movement, and to disable or manipulate security controls for evasion.",
+        "line_start": 1273
+      }
+    ],
+    "document_start": 30050,
+    "document_end": 30256,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u032"
+    ],
+    "selected_units": [
+      {
+        "start": 1770,
+        "end": 1859,
+        "text": "Akira threat actors use PSEXESVC.exe to enable remote code execution and deploy payloads.",
+        "line_start": 1770
+      }
+    ],
+    "document_start": 30547,
+    "document_end": 30636,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

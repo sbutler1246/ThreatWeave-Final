@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:8607:10825",
+  "doc_id": "AA24-109A",
+  "start": 8607,
+  "end": 10825,
+  "text": " escalation. For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].\nSee Table 1 for a descriptive listing of tools leveraged for malicious purposes by Akira threat actors.\nUpdate Nov. 13, 2025:\nThe authoring organizations observed Akira threat actors using nltest /dclist: and nltest /DOMAIN_TRUSTS [T1018][T1482] for network and domain discovery.\nEnd Update\nDefense Evasion\nAs Akira threat actors prepare for lateral movement, they commonly disable security software to avoid detection. Cybersecurity researchers observed Akira threat actors using PowerTool to exploit the Zemana AntiMalware driver10 and terminate antivirus-related processes [T1562.001].\nUpdate Nov. 13, 2025:\nIn addition, the authoring organizations observed Akira threat actors abusing remote access tools such as AnyDesk and LogMeIn [T1219] to maintain persistence and blend in with administrator activity. Akira threat actors leverage Impacket (an open source tool designed for network protocol manipulation) to execute the remote command wmiexec.py. To evade detection, Akira threat actors implement techniques such as uninstalling endpoint detection and response (EDR) systems [T1562.001].\nEnd Update\nPrivilege Escalation\nUpdate Nov. 13, 2025:\nThe authoring organizations observed Akira threat actors creating new user accounts and adding them to the administrator group to establish a foothold in the environment [T1136.001]. In a reported incident, Akira threat actors bypassed Virtual Machine Disk (VMDK) file protection by temporarily powering down the domain controller’s VM, copying the VMDK files, and attaching them to a newly created VM. This sequence of actions enabled them to extract the NTDS.dit file and the SYSTEM hive, ultimately compromising a highly privileged domain administrator’s account [T1003.002][T1003.003].11 Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068].\nEnd Update\nLateral Movement\nUpdate Nov. 13, 2025:\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

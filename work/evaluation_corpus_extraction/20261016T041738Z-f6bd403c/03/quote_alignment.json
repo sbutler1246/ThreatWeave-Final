@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u018"
+    ],
+    "selected_units": [
+      {
+        "start": 500,
+        "end": 576,
+        "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+        "line_start": 500
+      }
+    ],
+    "document_start": 33284,
+    "document_end": 33360,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u034"
+    ],
+    "selected_units": [
+      {
+        "start": 1424,
+        "end": 1498,
+        "text": "Akira threat actors use tools like SharpDomainSpray for password spraying.",
+        "line_start": 1424
+      }
+    ],
+    "document_start": 34208,
+    "document_end": 34282,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u038"
+    ],
+    "selected_units": [
+      {
+        "start": 1650,
+        "end": 1747,
+        "text": "Akira threat actors use LaZagne to recover stored passwords on Windows, Linux, and macOS systems.",
+        "line_start": 1650
+      }
+    ],
+    "document_start": 34434,
+    "document_end": 34531,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u041"
+    ],
+    "selected_units": [
+      {
+        "start": 1822,
+        "end": 1951,
+        "text": "Akira threat actors use NetExec with the --dpapi option to dump credentials from the Windows Credential Manager and web browsers.",
+        "line_start": 1822
+      }
+    ],
+    "document_start": 34606,
+    "document_end": 34735,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u015"
+    ],
+    "selected_units": [
+      {
+        "start": 258,
+        "end": 296,
+        "text": "Table 4: Tools Used by Royal Operators",
+        "line_start": 258
+      }
+    ],
+    "document_start": 12621,
+    "document_end": 12659,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u015",
+      "u017"
+    ],
+    "selected_units": [
+      {
+        "start": 258,
+        "end": 296,
+        "text": "Table 4: Tools Used by Royal Operators",
+        "line_start": 258
+      },
+      {
+        "start": 302,
+        "end": 308,
+        "text": "SHA256",
+        "line_start": 302
+      }
+    ],
+    "document_start": 12621,
+    "document_end": 12671,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

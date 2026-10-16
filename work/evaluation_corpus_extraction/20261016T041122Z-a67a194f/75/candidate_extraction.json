@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "gaze.exe",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1072",
+      "attack_id": "T1072"
+    },
+    {
+      "local_id": "e3",
+      "type": "ThreatGroup",
+      "name": "Medusa actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "PDQ Deploy",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1675",
+      "attack_id": "T1675"
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1489",
+      "attack_id": "T1489"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 0,
+        "end": 175,
+        "quote": ", or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 176,
+        "end": 250,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 852,
+        "end": 955,
+        "quote": "Medusa actors also make use of an ESXi host profile [T1675] to change root passwords on Linux machines."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 1003,
+        "end": 1235,
+        "quote": "The process gaze.exe terminates all services [T1489] related to backups, security, databases, communication, file sharing, and websites, and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note."
+      },
+      "confidence": null
+    }
+  ]
+}

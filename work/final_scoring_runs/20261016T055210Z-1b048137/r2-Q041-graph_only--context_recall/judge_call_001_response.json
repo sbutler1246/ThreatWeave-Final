@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:38:14.8277821Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2129574300,
+  "load_duration": 6197300,
+  "prompt_eval_count": 1716,
+  "prompt_eval_duration": 388860000,
+  "eval_count": 129,
+  "eval_duration": 1665192000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"LockBit 3.0 affiliates use rclone; the advisory associates the described use of rclone with T1567.002 (Exfiltration to Cloud Storage in Enterprise ATT&CK 17.1).\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"Both links must be supported in the advisory context.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

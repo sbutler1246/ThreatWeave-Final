@@ -1,0 +1,20 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Play",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:G1040",
+    "canonical_name": "Play",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "Play",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1162",
+    "canonical_name": "Playcrypt",
+    "source_attack_id": null
+  }
+]

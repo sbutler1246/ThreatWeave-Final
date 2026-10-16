@@ -1,0 +1,43 @@
+{
+  "advisory_snapshots_checked": 15,
+  "attack_release": "17.1",
+  "unique_source_checked_triple_candidates": 146,
+  "multi_hop_qa_candidates": 61,
+  "qa_category_counts": {
+    "actor_software_technique": 49,
+    "technique_mitigation": 8,
+    "cross_report_comparison": 4
+  },
+  "separate_fused_reference_triples": 39,
+  "gold_source_documents": 7,
+  "human_verified_triples": 146,
+  "source_reviewed_qa_pairs": 61,
+  "human_verified_qa_pairs": 61,
+  "ai_only_reviewed_qa_pairs": 0,
+  "selected_final_qa_pairs": 20,
+  "development_qa_pairs": 21,
+  "held_out_reserve_qa_pairs": 20,
+  "selected_final_qa_category_counts": {
+    "actor_software_technique": 8,
+    "technique_mitigation": 8,
+    "cross_report_comparison": 4
+  },
+  "provenance_validation": "passed exact spans, contexts, checksums, unique triples, reversed STIX mitigation links, and two-/three-edge path continuity",
+  "annotation_scope_complete": true,
+  "complete_scope_count": 39,
+  "readiness": "Gold triple review and annotation scope confirmed by author; QA source/reference review completed with reviewer provenance recorded. Live integration, model answer generation, and human answer scoring have not run. These provenance checks do not independently establish semantic truth or completeness.",
+  "unit_tests": "16 passed",
+  "live_service_integration": "not run",
+  "benchmark_structural_gate": {
+    "status": "passed",
+    "errors": {}
+  },
+  "evaluator_dependency_resolution": "passed; Windows/Python 3.12 lock with 96 exact package versions and hashes",
+  "evaluator_api_check": "RAGAS 0.2.15 wheel exports inspected; full environment imports and live model evaluation not run",
+  "human_verified_reference_triples": 39,
+  "reference_review": {
+    "reviewer": "Stephen Butler",
+    "confirmation_recorded_at": "2026-10-05",
+    "basis": "Stephen Butler has confirmed and verified each RF record."
+  }
+}

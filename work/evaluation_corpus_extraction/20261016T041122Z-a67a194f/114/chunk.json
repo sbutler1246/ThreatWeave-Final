@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-075A:evaluation:llama500:23852:25424",
+  "doc_id": "AA23-075A",
+  "start": 23852,
+  "end": 25424,
+  "text": " machines with language settings that match a defined exclusion list.\nLateral Movement\nTechnique Title\nID\nUse\nRemote Services: Remote Desktop Protocol\nT1021.001\nLockBit 3.0 uses Splashtop remote- desktop software to facilitate lateral movement.\nCommand and Control\nTechnique Title\nID\nUse\nApplication Layer Protocol: File Transfer Protocols\nT1071.002\nLockBit 3.0 uses FileZilla for C2.\nProtocol Tunnel\nT1572\nLockBit 3.0 uses Plink to automate SSH actions on Windows.\nExfiltration\nTechnique Title\nID\nUse\nExfiltration\nTA0010\nLockBit 3.0 uses Stealbit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target network.\nExfiltration Over Web Service\nT1567\nLockBit 3.0 uses publicly available file sharing services to exfiltrate a target’s data.\nExfiltration Over Web Service: Exfiltration to Cloud Storage\nT1567.002\nLockBit 3.0 actors use (1) rclone, an open source command line cloud storage manager to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.\nImpact\nTechnique Title\nID\nUse\nData Destruction\nT1485\nLockBit 3.0 deletes log files and empties the recycle bin.\nData Encrypted for Impact\nT1486\nLockBit 3.0 encrypts data on target systems to interrupt availability to system and network resources.\nService Stop\nT1489\nLockBit 3.0 terminates processes and services.\nInhibit System Recovery\nT1490\nLockBit 3.0 deletes volume shadow copies residing on disk.\nDefacement: Internal Defacement\nT1491.001\nLockBit 3.0 changes the host system’s wallpaper and icons to the LockBit 3.0 wallpaper and icons, respectively.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: LockBit 3.0"
+    },
+    {
+      "start": 2048,
+      "end": 2065,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

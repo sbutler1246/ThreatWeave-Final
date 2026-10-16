@@ -1,0 +1,19 @@
+{
+  "candidate_path_count": 1,
+  "selected_path_count": 1,
+  "selected_hops": [
+    1
+  ],
+  "evidence_utf8_bytes": 316,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_paths": 0,
+  "seed_groups": [
+    [
+      "local:AA24-109A:akira-threat-actors"
+    ],
+    [
+      "attack:S0002"
+    ]
+  ]
+}

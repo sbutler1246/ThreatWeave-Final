@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-eval/
+venv/
+.env
+.env.*
+!.env.example
+/work/
+/.chart-data-*/
+/archives/
+/work_archive/

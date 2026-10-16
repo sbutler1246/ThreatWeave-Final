@@ -1,0 +1,545 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "File",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Black Suit Ransomware (1 of 3)",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "share.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "181.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "222wqc.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "gmer.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "GMER",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Rootkit Hunter",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "PowerTool64",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "PowerTool64.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Psexesvc.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Socks5.ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Socks.ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "netscan.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "3iSDtcX.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "Putty",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "File.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "Putty.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "Mwntv.sys",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "Potential Tool Ingress",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "File",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Black Suit Ransomware (1 of 3)",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "share.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "181.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "222wqc.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "gmer.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "GMER",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "Rootkit Hunter",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "PowerTool64",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "PowerTool64.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "Psexesvc.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Socks5.ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "Socks.ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_S": {
+      "name": "netscan.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_S": {
+      "name": "3iSDtcX.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_S": {
+      "name": "Putty",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "File.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_S": {
+      "name": "Putty.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m021_S": {
+      "name": "Mwntv.sys",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_S": {
+      "name": "Potential Tool Ingress",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 6,
+      "text": "[.]122",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 7,
+      "end": 15,
+      "text": "Nov 2023",
+      "line_start": 7
+    },
+    "u003": {
+      "start": 16,
+      "end": 31,
+      "text": "45.76.225[.]156",
+      "line_start": 16
+    },
+    "u004": {
+      "start": 32,
+      "end": 40,
+      "text": "Nov 2023",
+      "line_start": 32
+    },
+    "u005": {
+      "start": 41,
+      "end": 116,
+      "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)",
+      "line_start": 41
+    },
+    "u006": {
+      "start": 117,
+      "end": 126,
+      "text": "File name",
+      "line_start": 117
+    },
+    "u007": {
+      "start": 127,
+      "end": 147,
+      "text": "Hash Value – SHA-256",
+      "line_start": 127
+    },
+    "u008": {
+      "start": 148,
+      "end": 159,
+      "text": "Description",
+      "line_start": 148
+    },
+    "u009": {
+      "start": 160,
+      "end": 169,
+      "text": "share.exe",
+      "line_start": 160
+    },
+    "u010": {
+      "start": 170,
+      "end": 234,
+      "text": "f02af8ffc37d1874b971307fdec80e33e583b56d9ebabda78a4b8ad038bc3bf0",
+      "line_start": 170
+    },
+    "u011": {
+      "start": 235,
+      "end": 248,
+      "text": "Cobalt Strike",
+      "line_start": 235
+    },
+    "u012": {
+      "start": 249,
+      "end": 256,
+      "text": "181.exe",
+      "line_start": 249
+    },
+    "u013": {
+      "start": 257,
+      "end": 321,
+      "text": "b028eaa0ec452c6844881dc34be813834813a40591b89ea9a57dd4fb4084e477",
+      "line_start": 257
+    },
+    "u014": {
+      "start": 322,
+      "end": 347,
+      "text": "Cobalt Strike – File name",
+      "line_start": 322
+    },
+    "u015": {
+      "start": 348,
+      "end": 358,
+      "text": "222wqc.exe",
+      "line_start": 348
+    },
+    "u016": {
+      "start": 359,
+      "end": 423,
+      "text": "ae724dce252c7b05a84bc264993172cf86950d22744b5e3a1b15ba645d9d3733",
+      "line_start": 359
+    },
+    "u017": {
+      "start": 424,
+      "end": 437,
+      "text": "Cobalt Strike",
+      "line_start": 424
+    },
+    "u018": {
+      "start": 438,
+      "end": 446,
+      "text": "gmer.exe",
+      "line_start": 438
+    },
+    "u019": {
+      "start": 447,
+      "end": 468,
+      "text": "GMER / Rootkit Hunter",
+      "line_start": 447
+    },
+    "u020": {
+      "start": 469,
+      "end": 484,
+      "text": "PowerTool64.exe",
+      "line_start": 469
+    },
+    "u021": {
+      "start": 485,
+      "end": 508,
+      "text": "PowerTool64 for hacking",
+      "line_start": 485
+    },
+    "u022": {
+      "start": 509,
+      "end": 521,
+      "text": "Psexesvc.exe",
+      "line_start": 509
+    },
+    "u023": {
+      "start": 522,
+      "end": 586,
+      "text": "141b2190f51397dbd0dfde0e3904b264c91b6f81febc823ff0c33da980b69944",
+      "line_start": 522
+    },
+    "u024": {
+      "start": 587,
+      "end": 599,
+      "text": "Sysinternals",
+      "line_start": 587
+    },
+    "u025": {
+      "start": 600,
+      "end": 610,
+      "text": "Socks5.ps1",
+      "line_start": 600
+    },
+    "u026": {
+      "start": 611,
+      "end": 620,
+      "text": "Socks.ps1",
+      "line_start": 611
+    },
+    "u027": {
+      "start": 621,
+      "end": 685,
+      "text": "25a6f82936134a6c5c0066f382530b9d6bf2c8da6feafe028f166b1a9d7283cf",
+      "line_start": 621
+    },
+    "u028": {
+      "start": 686,
+      "end": 710,
+      "text": "PowerShell Reverse Proxy",
+      "line_start": 686
+    },
+    "u029": {
+      "start": 711,
+      "end": 722,
+      "text": "netscan.exe",
+      "line_start": 711
+    },
+    "u030": {
+      "start": 723,
+      "end": 752,
+      "text": "A network reconnaissance tool",
+      "line_start": 723
+    },
+    "u031": {
+      "start": 753,
+      "end": 764,
+      "text": "3iSDtcX.exe",
+      "line_start": 753
+    },
+    "u032": {
+      "start": 765,
+      "end": 829,
+      "text": "e87512ea12288acec611cf8e995c4ced3971d9e35c0c5dcfd9ee17c9e3ed913d",
+      "line_start": 765
+    },
+    "u033": {
+      "start": 830,
+      "end": 841,
+      "text": "Putty suite",
+      "line_start": 830
+    },
+    "u034": {
+      "start": 842,
+      "end": 850,
+      "text": "File.exe",
+      "line_start": 842
+    },
+    "u035": {
+      "start": 851,
+      "end": 915,
+      "text": "f805dafb3c0b7e18aa7d8c96db8e8d4e9301ff619622d1aecc8080e0ecd9ebbe",
+      "line_start": 851
+    },
+    "u036": {
+      "start": 916,
+      "end": 926,
+      "text": "Putty.exe.",
+      "line_start": 916
+    },
+    "u037": {
+      "start": 927,
+      "end": 947,
+      "text": "Possibly used for C2",
+      "line_start": 916
+    },
+    "u038": {
+      "start": 948,
+      "end": 957,
+      "text": "Mwntv.sys",
+      "line_start": 948
+    },
+    "u039": {
+      "start": 958,
+      "end": 1022,
+      "text": "6332f189cc71df646ff0f1b9b02a005c9ebda3fe7b9712976660746913b030de",
+      "line_start": 958
+    },
+    "u040": {
+      "start": 1023,
+      "end": 1045,
+      "text": "Potential Tool Ingress",
+      "line_start": 1023
+    },
+    "u041": {
+      "start": 1046,
+      "end": 1053,
+      "text": "AnyDesk",
+      "line_start": 1046
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:file",
+    "m002_G": "local:ThreatGroup:black suit ransomware (1 of 3)",
+    "m003_S": "local:Software:share.exe",
+    "m004_S": "attack:S0154",
+    "m005_S": "local:Software:181.exe",
+    "m006_S": "local:Software:222wqc.exe",
+    "m007_S": "local:Software:gmer.exe",
+    "m008_S": "local:Software:gmer",
+    "m009_S": "local:Software:rootkit hunter",
+    "m010_S": "local:Software:powertool64",
+    "m011_S": "local:Software:powertool64.exe",
+    "m012_S": "local:Software:psexesvc.exe",
+    "m013_S": "local:Software:socks5.ps1",
+    "m014_S": "attack:S0613",
+    "m015_S": "local:Software:socks.ps1",
+    "m016_S": "local:Software:netscan.exe",
+    "m017_S": "local:Software:3isdtcx.exe",
+    "m018_S": "local:Software:putty",
+    "m019_S": "local:Software:file.exe",
+    "m020_S": "local:Software:putty.exe",
+    "m021_S": "local:Software:mwntv.sys",
+    "m022_S": "local:Software:potential tool ingress"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

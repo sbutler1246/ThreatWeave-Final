@@ -1,0 +1,56 @@
+SOURCE PASSAGES
+[E1; ATTACK]
+Train users to be aware of impersonation tricks and how to counter them, for example confirming incoming requests through an independent platform like a phone call or in-person, to reduce risk.
+[E2; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (T1656)
+Mitigation: User Training (M1017)
+[E3; ATTACK]
+Threat intelligence helps defenders and users be aware of and defend against common lures and active campaigns that have been used for impersonation.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (T1656)
+Mitigation: Threat Intelligence Program (M1019)
+[E5; ATTACK]
+Users can be trained to identify social engineering techniques and spearphishing emails.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Spearphishing Attachment (T1566.001)
+Mitigation: User Training (M1017)
+[E7; ATTACK]
+Use user training as a way to bring awareness to common phishing and spearphishing techniques and how to raise suspicion for potentially malicious events.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: User Execution (T1204)
+Mitigation: User Training (M1017)
+[E9; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.
+Additional notable TTPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+ID
+Use
+Develop Capabilities
+T1587
+Rhysida actors have been observed developing resources and custom tools, particularly with program names set to “Rhysida-0.1” to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+ID
+Use
+Valid Accounts
+T1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+Table 11: Execution
+Technique Title
+ID
+Use
+Command and Scripting Interpreter: Cloud API
+T1059.009
+Rhysida actors leverage AZCopy, a command-line utility that 
+[E10; CISA]
+#StopRansomware: Rhysida Ransomware
+[E11; CISA]
+Technical Details
+GRAPH NODES
+GRAPH PATHS

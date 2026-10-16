@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "packet_kind": "secondary",
+  "packet_fingerprint": "d5a80f6739a7c7067828945f068e265bfd709d044481f24da0768b5c9109dcc7",
+  "review_status": "in_progress",
+  "reviewer": "Stephen Butler",
+  "review_date": "2026-10-16",
+  "secondary_method": "delayed_rescore",
+  "progress_state": {
+    "reviewer": "Stephen Butler",
+    "review_date": "2026-10-16",
+    "secondary_method": "delayed_rescore",
+    "ratings": {
+      "S001": {
+        "factuality": "2",
+        "completeness": "1",
+        "coherence": "3",
+        "reason": "",
+        "notes": "The answer omits Play ransomware actors and the shared T1003 (OS Credential Dumping) mapping identified in the verified reference. It introduces unrelated LockBit and Volt Typhoon reports and treats tactic headings as evidence of software-to-technique mappings. Akira’s Mimikatz use is supported, but the supplied evidence lacks Play and the requested technique mappings; this limitation should be acknowledged. The prose is readable, but it does not deliver the requested source-specific comparison or retain its contextual qualification. Assessment completed independently."
+      },
+      "S002": {
+        "factuality": "4",
+        "completeness": "4",
+        "coherence": "4",
+        "reason": "",
+        "notes": "The answer correctly identifies T1569.002 and explains Medusa actors → PsExec → technique, supported by E1 and E5. It omits the technique name, Service Execution, and the stated condition that PsExec use requires valid credentials. E6 does not independently establish the PsExec-to-technique mapping. The explanation is understandable but repetitive; “execute T1569.002” would be clearer as “perform Service Execution.” Assessment completed independently."
+      },
+      "S003": {
+        "factuality": "3",
+        "completeness": "2",
+        "coherence": "3",
+        "reason": "",
+        "notes": "The answer supports T1046 → M1030 using E8–E9 but substitutes Advanced Port Scanner without resolving its naming difference from the requested Advanced IP Scanner. It omits T1046’s M1031 and M1042 mitigation relationships identified in the verified reference; mentioning M1031 for T1219 does not satisfy that requirement. The supplied evidence lacks those two T1046 relationships, so this limitation should be acknowledged. Unrelated AnyDesk and Backstab paths distract from the requested chain. The answer also fails to distinguish advisory observations from ATT&CK reference recommendations or clarify that mitigation associations do not establish incident-specific effectiveness. Assessment completed independently."
+      },
+      "S004": {
+        "factuality": "3",
+        "completeness": "2",
+        "coherence": "3",
+        "reason": "",
+        "notes": "The answer correctly identifies T1046 (Network Service Discovery), but answers for Advanced Port Scanner instead of the requested Advanced IP Scanner. E10 and E14 explicitly support LockBit affiliates → Advanced IP Scanner → T1046, so the requested path was available. The technique claim cites E4–E5, which describe an ATT&CK mitigation association rather than the advisory’s actor-to-software-to-technique mapping. It also omits the qualification that this mapping concerns the reported use, not every use of the tool. Unrequested, repetitive mitigation details weaken focus. Assessment completed independently."
+      },
+      "S005": {
+        "factuality": "2",
+        "completeness": "1",
+        "coherence": "3",
+        "reason": "",
+        "notes": "Akira’s Mimikatz use is supported by E15, but the answer omits Play ransomware actors and the shared T1003 (OS Credential Dumping) mapping identified in the verified reference. It substitutes unrelated LockBit and Volt Typhoon reports and presents tactic labels as software-to-technique mappings; E4’s Defense Evasion heading does not establish a Mimikatz mapping. The supplied evidence lacks Play and the requested T1003 mappings, which should be acknowledged. The answer is readable but repetitive and fails to compare the two requested advisories or retain the source-specific qualification. Assessment completed independently."
+      },
+      "S006": {
+        "factuality": "1",
+        "completeness": "1",
+        "coherence": "2",
+        "reason": "",
+        "notes": "The central Mimikatz claims are unsupported: E1–E2 do not establish Rhysida’s use, and E4 attributes remote disk/software queries to DiskCheck. The answer also incorrectly assigns net group /domain to T1082 by taking the following row’s technique label. It omits Play ransomware actors, both reports’ T1003 (OS Credential Dumping) mappings, and the required source-specific qualification. Instead of comparing the requested advisories, it lists mostly unrelated tools and techniques. The supplied passages contain no Mimikatz evidence, so the answer should acknowledge insufficient evidence. Individual sentences are readable, but the overall response lacks a focused comparison. Assessment completed independently."
+      },
+      "S007": {
+        "factuality": "3",
+        "completeness": "2",
+        "coherence": "3",
+        "reason": "",
+        "notes": "The T1046 mitigation relationships to M1031 and M1042 are supported by E2 and E6. However, the answer omits M1030 (Network Segmentation) and never establishes LockBit affiliates → Advanced IP Scanner → T1046. All supplied passages are ATT&CK reference material, so the missing advisory evidence should be acknowledged. The answer applies general recommendations to LockBit activity without clearly distinguishing reference associations from advisory observations or incident-specific effectiveness. Unrelated T1219 and T1048 mappings and repeated mitigation statements weaken focus. Assessment completed independently."
+      },
+      "S008": {
+        "factuality": "4",
+        "completeness": "4",
+        "coherence": "4",
+        "reason": "",
+        "notes": "The answer correctly identifies T1569.002 and explains Medusa actors → PsExec → technique. E1 supports the software-use link, and E5 explicitly supplies the technique mapping. It omits the technique name, Service Execution, and the valid-credentials condition stated in E1 and E5. E6 does not independently support the PsExec mapping. The explanation stays within the advisory context and is understandable, though repetitive. Assessment completed independently."
+      },
+      "S009": {
+        "factuality": "3",
+        "completeness": "4",
+        "coherence": "4",
+        "reason": "",
+        "notes": "The answer correctly identifies Medusa actors → PsExec → T1569.002, with both links supported by E4. However, it adds an unsupported claim that Medusa uses PsExec to create reverse TCP connections: E5’s shell-command passage does not establish that attribution. It also omits the technique name, Service Execution, and the valid-credentials condition stated in E4. The requested path is clear and mostly complete, though the explanation is repetitive and includes an unsupported extra behavior. Assessment completed independently."
+      },
+      "S010": {
+        "factuality": "4",
+        "completeness": "4",
+        "coherence": "4",
+        "reason": "",
+        "notes": "The answer correctly gives LockBit affiliates → Advanced IP Scanner → T1046 (Network Service Discovery), which E5 directly supports. However, its citations rely on E1, which concerns Advanced Port Scanner, and E8, which is only a table heading, instead of citing E5. It omits the qualification that the mapping describes the advisory’s reported use rather than every use of the software. Additional Port Scanner and mitigation statements are supported but unnecessary, and the repeated T1046 statement weakens concision. Assessment completed independently."
+      },
+      "S011": {
+        "factuality": "NA",
+        "completeness": "NA",
+        "coherence": "NA",
+        "reason": "The saved outcome is “failed,” and no valid answer was produced. The displayed text is a failure notice, so there is no substantive response to assess for factuality, completeness, or coherence. Assessment completed independently.",
+        "notes": ""
+      },
+      "S012": {
+        "factuality": "2",
+        "completeness": "3",
+        "coherence": "2",
+        "reason": "",
+        "notes": "The answer identifies the correct entities and technique, Akira → ngrok → T1572 (Protocol Tunneling), but conflates separate source contexts. E1 associates ngrok with command-and-control communications and T1572; E8–E9 describe exfiltration tunnels mapped to T1090. Repeatedly assigning the exfiltration behavior to T1572 misrepresents those passages. The answer omits the requested explanation of encrypted C2 sessions bypassing perimeter monitoring. Lengthy mitigation and system-recovery details distract from the two supported links, while repeated claims weaken organization. Assessment completed independently."
+      },
+      "S013": {
+        "factuality": "3",
+        "completeness": "1",
+        "coherence": "3",
+        "reason": "",
+        "notes": "Most actor-use statements are supported, including Akira’s credential dumping in E12. However, E4 and E11 are table headings and do not establish that LockBit and Phobos use Mimikatz for defense evasion. The answer omits Play ransomware actors, both advisories’ T1003 (OS Credential Dumping) mappings, and the required source-specific qualification. It lists unrelated actors instead of comparing AA24-109A with AA23-352A. The supplied evidence lacks Play and the requested technique mappings, so that limitation should be acknowledged. The prose is readable but does not form the requested comparison. Assessment completed independently."
+      },
+      "S014": {
+        "factuality": "2",
+        "completeness": "2",
+        "coherence": "4",
+        "reason": "",
+        "notes": "E1 supports Medusa actors using PsExec, but the answer gives the wrong technique, T1052, instead of the verified T1569.002 (Service Execution). E1–E3 provide no technique mapping and do not substantiate the stated remote-connection behavior. The answer should acknowledge that the supplied evidence supports only the actor-to-software link. It also omits E1’s valid-credentials condition. The response is concise and readable, but the requested second link is incorrect and unsupported. Assessment completed independently."
+      },
+      "S015": {
+        "factuality": "3",
+        "completeness": "2",
+        "coherence": "3",
+        "reason": "",
+        "notes": "The T1046 → M1030 relationship is supported by E8–E9, but the answer never establishes LockBit affiliates → Advanced IP Scanner → T1046. It omits T1046 → M1031 despite E18 explicitly supplying that relationship; mentioning M1031 for AnyDesk and Atera does not satisfy this requirement. M1042 is also missing, and the supplied evidence lacks that relationship and the requested IP Scanner link, which should be acknowledged. Unrelated software paths distract from the question. The answer also presents mitigation associations without clearly distinguishing advisory observations from reference recommendations or qualifying incident-specific effectiveness. Assessment completed independently."
+      },
+      "S016": {
+        "factuality": "4",
+        "completeness": "4",
+        "coherence": "3",
+        "reason": "",
+        "notes": "The answer eventually gives the correct full path, Akira actors → ngrok → T1572 (Protocol Tunneling), and E1 supports both links in the C2 context. However, its first purported “two-hop” path contains only the ngrok-to-technique link. It also mixes in E6’s separate exfiltration context, which cites T1090, without distinguishing that mapping. The explanation mentions bypassing perimeter monitoring but omits encrypted C2 sessions. Repeated path descriptions and extensive unrequested mitigation details weaken focus and organization. Assessment completed independently."
+      },
+      "S017": {
+        "factuality": "3",
+        "completeness": "3",
+        "coherence": "2",
+        "reason": "",
+        "notes": "The answer identifies Akira’s ngrok use and T1572 (Protocol Tunneling), but both displayed paths start at ngrok and end at a mitigation. Neither represents the requested Akira actors → ngrok → T1572 path, although E1 supports both required links. It mentions bypassing perimeter monitoring but does not explain encrypted C2 sessions. The separate exfiltration observation in E8 cites T1090 and should remain distinct from the C2 mapping. Repeated, incorrectly scoped paths and unrequested mitigation details make the response confusing. Assessment completed independently."
+      },
+      "S018": {
+        "factuality": "2",
+        "completeness": "2",
+        "coherence": "2",
+        "reason": "",
+        "notes": "The answer substitutes Advanced Port Scanner for the requested Advanced IP Scanner, despite E15 naming the latter. It includes M1030 but omits T1046 → M1031 despite E14, and omits M1042 from the verified reference. The claim that no direct mitigation is specified for SoftPerfect is misleading: the answer assigns it Network Service Discovery, for which E8 and E14 supply mitigations. Missing graph edges do not establish absent mitigation relationships. Unrelated software statements obscure the requested chain, and advisory observations are not clearly distinguished from reference recommendations. The missing M1042 evidence should be acknowledged. Assessment completed independently."
+      },
+      "S019": {
+        "factuality": "3",
+        "completeness": "4",
+        "coherence": "4",
+        "reason": "",
+        "notes": "The stated LockBit affiliates → Advanced IP Scanner → T1046 path matches the verified reference. However, E5 explicitly describes Advanced Port Scanner, while E6–E7 are table headings; these citations do not establish the requested IP Scanner links. The answer should acknowledge this evidence gap rather than silently transfer the Port Scanner mapping. It also omits the qualification that the mapping concerns the advisory’s reported use, not every use of the tool. The mitigation statements are supported but unrequested. The response is readable and logically ordered. Assessment completed independently."
+      },
+      "S020": {
+        "factuality": "3",
+        "completeness": "3",
+        "coherence": "2",
+        "reason": "",
+        "notes": "The answer correctly identifies T1572 (Protocol Tunneling), and E1 supports Akira’s ngrok use to conceal traffic within HTTPS connections and bypass perimeter defenses. However, it cites E7 for that behavior and E5 for T1572; E7 concerns a separate exfiltration context mapped to T1090, while E5 discusses impersonation training. The purported two-hop explanation is repetitive, ends mid-word, and never clearly states Akira actors → ngrok → T1572 with evidence for each link. Unrequested mitigation details further distract from the answer. Assessment completed independently."
+      }
+    }
+  },
+  "ratings": [
+    {
+      "review_id": "S001",
+      "factuality": 2,
+      "completeness": 1,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer omits Play ransomware actors and the shared T1003 (OS Credential Dumping) mapping identified in the verified reference. It introduces unrelated LockBit and Volt Typhoon reports and treats tactic headings as evidence of software-to-technique mappings. Akira’s Mimikatz use is supported, but the supplied evidence lacks Play and the requested technique mappings; this limitation should be acknowledged. The prose is readable, but it does not deliver the requested source-specific comparison or retain its contextual qualification. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S002",
+      "factuality": 4,
+      "completeness": 4,
+      "coherence": 4,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer correctly identifies T1569.002 and explains Medusa actors → PsExec → technique, supported by E1 and E5. It omits the technique name, Service Execution, and the stated condition that PsExec use requires valid credentials. E6 does not independently establish the PsExec-to-technique mapping. The explanation is understandable but repetitive; “execute T1569.002” would be clearer as “perform Service Execution.” Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S003",
+      "factuality": 3,
+      "completeness": 2,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer supports T1046 → M1030 using E8–E9 but substitutes Advanced Port Scanner without resolving its naming difference from the requested Advanced IP Scanner. It omits T1046’s M1031 and M1042 mitigation relationships identified in the verified reference; mentioning M1031 for T1219 does not satisfy that requirement. The supplied evidence lacks those two T1046 relationships, so this limitation should be acknowledged. Unrelated AnyDesk and Backstab paths distract from the requested chain. The answer also fails to distinguish advisory observations from ATT&CK reference recommendations or clarify that mitigation associations do not establish incident-specific effectiveness. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S004",
+      "factuality": 3,
+      "completeness": 2,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer correctly identifies T1046 (Network Service Discovery), but answers for Advanced Port Scanner instead of the requested Advanced IP Scanner. E10 and E14 explicitly support LockBit affiliates → Advanced IP Scanner → T1046, so the requested path was available. The technique claim cites E4–E5, which describe an ATT&CK mitigation association rather than the advisory’s actor-to-software-to-technique mapping. It also omits the qualification that this mapping concerns the reported use, not every use of the tool. Unrequested, repetitive mitigation details weaken focus. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S005",
+      "factuality": 2,
+      "completeness": 1,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "Akira’s Mimikatz use is supported by E15, but the answer omits Play ransomware actors and the shared T1003 (OS Credential Dumping) mapping identified in the verified reference. It substitutes unrelated LockBit and Volt Typhoon reports and presents tactic labels as software-to-technique mappings; E4’s Defense Evasion heading does not establish a Mimikatz mapping. The supplied evidence lacks Play and the requested T1003 mappings, which should be acknowledged. The answer is readable but repetitive and fails to compare the two requested advisories or retain the source-specific qualification. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S006",
+      "factuality": 1,
+      "completeness": 1,
+      "coherence": 2,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The central Mimikatz claims are unsupported: E1–E2 do not establish Rhysida’s use, and E4 attributes remote disk/software queries to DiskCheck. The answer also incorrectly assigns net group /domain to T1082 by taking the following row’s technique label. It omits Play ransomware actors, both reports’ T1003 (OS Credential Dumping) mappings, and the required source-specific qualification. Instead of comparing the requested advisories, it lists mostly unrelated tools and techniques. The supplied passages contain no Mimikatz evidence, so the answer should acknowledge insufficient evidence. Individual sentences are readable, but the overall response lacks a focused comparison. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S007",
+      "factuality": 3,
+      "completeness": 2,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The T1046 mitigation relationships to M1031 and M1042 are supported by E2 and E6. However, the answer omits M1030 (Network Segmentation) and never establishes LockBit affiliates → Advanced IP Scanner → T1046. All supplied passages are ATT&CK reference material, so the missing advisory evidence should be acknowledged. The answer applies general recommendations to LockBit activity without clearly distinguishing reference associations from advisory observations or incident-specific effectiveness. Unrelated T1219 and T1048 mappings and repeated mitigation statements weaken focus. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S008",
+      "factuality": 4,
+      "completeness": 4,
+      "coherence": 4,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer correctly identifies T1569.002 and explains Medusa actors → PsExec → technique. E1 supports the software-use link, and E5 explicitly supplies the technique mapping. It omits the technique name, Service Execution, and the valid-credentials condition stated in E1 and E5. E6 does not independently support the PsExec mapping. The explanation stays within the advisory context and is understandable, though repetitive. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S009",
+      "factuality": 3,
+      "completeness": 4,
+      "coherence": 4,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer correctly identifies Medusa actors → PsExec → T1569.002, with both links supported by E4. However, it adds an unsupported claim that Medusa uses PsExec to create reverse TCP connections: E5’s shell-command passage does not establish that attribution. It also omits the technique name, Service Execution, and the valid-credentials condition stated in E4. The requested path is clear and mostly complete, though the explanation is repetitive and includes an unsupported extra behavior. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S010",
+      "factuality": 4,
+      "completeness": 4,
+      "coherence": 4,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer correctly gives LockBit affiliates → Advanced IP Scanner → T1046 (Network Service Discovery), which E5 directly supports. However, its citations rely on E1, which concerns Advanced Port Scanner, and E8, which is only a table heading, instead of citing E5. It omits the qualification that the mapping describes the advisory’s reported use rather than every use of the software. Additional Port Scanner and mitigation statements are supported but unnecessary, and the repeated T1046 statement weakens concision. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S011",
+      "factuality": null,
+      "completeness": null,
+      "coherence": null,
+      "not_ratable_dimensions": [
+        "factuality",
+        "completeness",
+        "coherence"
+      ],
+      "not_ratable_reason": "The saved outcome is “failed,” and no valid answer was produced. The displayed text is a failure notice, so there is no substantive response to assess for factuality, completeness, or coherence. Assessment completed independently.",
+      "notes": "",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S012",
+      "factuality": 2,
+      "completeness": 3,
+      "coherence": 2,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer identifies the correct entities and technique, Akira → ngrok → T1572 (Protocol Tunneling), but conflates separate source contexts. E1 associates ngrok with command-and-control communications and T1572; E8–E9 describe exfiltration tunnels mapped to T1090. Repeatedly assigning the exfiltration behavior to T1572 misrepresents those passages. The answer omits the requested explanation of encrypted C2 sessions bypassing perimeter monitoring. Lengthy mitigation and system-recovery details distract from the two supported links, while repeated claims weaken organization. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S013",
+      "factuality": 3,
+      "completeness": 1,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "Most actor-use statements are supported, including Akira’s credential dumping in E12. However, E4 and E11 are table headings and do not establish that LockBit and Phobos use Mimikatz for defense evasion. The answer omits Play ransomware actors, both advisories’ T1003 (OS Credential Dumping) mappings, and the required source-specific qualification. It lists unrelated actors instead of comparing AA24-109A with AA23-352A. The supplied evidence lacks Play and the requested technique mappings, so that limitation should be acknowledged. The prose is readable but does not form the requested comparison. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S014",
+      "factuality": 2,
+      "completeness": 2,
+      "coherence": 4,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "E1 supports Medusa actors using PsExec, but the answer gives the wrong technique, T1052, instead of the verified T1569.002 (Service Execution). E1–E3 provide no technique mapping and do not substantiate the stated remote-connection behavior. The answer should acknowledge that the supplied evidence supports only the actor-to-software link. It also omits E1’s valid-credentials condition. The response is concise and readable, but the requested second link is incorrect and unsupported. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S015",
+      "factuality": 3,
+      "completeness": 2,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The T1046 → M1030 relationship is supported by E8–E9, but the answer never establishes LockBit affiliates → Advanced IP Scanner → T1046. It omits T1046 → M1031 despite E18 explicitly supplying that relationship; mentioning M1031 for AnyDesk and Atera does not satisfy this requirement. M1042 is also missing, and the supplied evidence lacks that relationship and the requested IP Scanner link, which should be acknowledged. Unrelated software paths distract from the question. The answer also presents mitigation associations without clearly distinguishing advisory observations from reference recommendations or qualifying incident-specific effectiveness. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S016",
+      "factuality": 4,
+      "completeness": 4,
+      "coherence": 3,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer eventually gives the correct full path, Akira actors → ngrok → T1572 (Protocol Tunneling), and E1 supports both links in the C2 context. However, its first purported “two-hop” path contains only the ngrok-to-technique link. It also mixes in E6’s separate exfiltration context, which cites T1090, without distinguishing that mapping. The explanation mentions bypassing perimeter monitoring but omits encrypted C2 sessions. Repeated path descriptions and extensive unrequested mitigation details weaken focus and organization. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S017",
+      "factuality": 3,
+      "completeness": 3,
+      "coherence": 2,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer identifies Akira’s ngrok use and T1572 (Protocol Tunneling), but both displayed paths start at ngrok and end at a mitigation. Neither represents the requested Akira actors → ngrok → T1572 path, although E1 supports both required links. It mentions bypassing perimeter monitoring but does not explain encrypted C2 sessions. The separate exfiltration observation in E8 cites T1090 and should remain distinct from the C2 mapping. Repeated, incorrectly scoped paths and unrequested mitigation details make the response confusing. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S018",
+      "factuality": 2,
+      "completeness": 2,
+      "coherence": 2,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer substitutes Advanced Port Scanner for the requested Advanced IP Scanner, despite E15 naming the latter. It includes M1030 but omits T1046 → M1031 despite E14, and omits M1042 from the verified reference. The claim that no direct mitigation is specified for SoftPerfect is misleading: the answer assigns it Network Service Discovery, for which E8 and E14 supply mitigations. Missing graph edges do not establish absent mitigation relationships. Unrelated software statements obscure the requested chain, and advisory observations are not clearly distinguished from reference recommendations. The missing M1042 evidence should be acknowledged. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S019",
+      "factuality": 3,
+      "completeness": 4,
+      "coherence": 4,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The stated LockBit affiliates → Advanced IP Scanner → T1046 path matches the verified reference. However, E5 explicitly describes Advanced Port Scanner, while E6–E7 are table headings; these citations do not establish the requested IP Scanner links. The answer should acknowledge this evidence gap rather than silently transfer the Port Scanner mapping. It also omits the qualification that the mapping concerns the advisory’s reported use, not every use of the tool. The mitigation statements are supported but unrequested. The response is readable and logically ordered. Assessment completed independently.",
+      "entry_complete": true
+    },
+    {
+      "review_id": "S020",
+      "factuality": 3,
+      "completeness": 3,
+      "coherence": 2,
+      "not_ratable_dimensions": [],
+      "not_ratable_reason": null,
+      "notes": "The answer correctly identifies T1572 (Protocol Tunneling), and E1 supports Akira’s ngrok use to conceal traffic within HTTPS connections and bypass perimeter defenses. However, it cites E7 for that behavior and E5 for T1572; E7 concerns a separate exfiltration context mapped to T1090, while E5 discusses impersonation training. The purported two-hop explanation is repetitive, ends mid-word, and never clearly states Akira actors → ngrok → T1572 with evidence for each link. Unrequested mitigation details further distract from the answer. Assessment completed independently.",
+      "entry_complete": true
+    }
+  ]
+}

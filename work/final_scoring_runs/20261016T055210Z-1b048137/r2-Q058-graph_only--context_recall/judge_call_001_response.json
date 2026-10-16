@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:43:25.413964Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3643715800,
+  "load_duration": 10472100,
+  "prompt_eval_count": 1605,
+  "prompt_eval_duration": 269736000,
+  "eval_count": 243,
+  "eval_duration": 3135863000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"AA24-109A reports Akira threat actors using Mimikatz, with advisory mappings T1003;\",\n            \"reason\": \"There is no mention about AA24-109A in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"AA23-352A reports Play ransomware actors using Mimikatz, with advisory mappings T1003.\",\n            \"reason\": \"There is no mention about AA23-352A in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"These mappings describe the cited reports and do not establish that every use of the software has these behaviors.\",\n            \"reason\": \"There is no mention about the behavior of the software in the given context.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"Both reports cite the same parent technique, T1003 (OS Credential Dumping), for their reported Mimikatz use.\",\n            \"reason\": \"The exact sentence is present in the given context.\",\n            \"attributed\": 1\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Non-LockBit affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "LockBit",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "LockBit 3.0",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 543,
+        "end": 626,
+        "quote": "Non-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 543,
+        "end": 626,
+        "quote": "Non-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]"
+      },
+      "confidence": null
+    }
+  ]
+}

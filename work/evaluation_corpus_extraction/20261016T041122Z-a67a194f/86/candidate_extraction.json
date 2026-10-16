@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "Play",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1048",
+      "attack_id": "T1048"
+    },
+    {
+      "local_id": "e3",
+      "type": "ThreatGroup",
+      "name": "Play Ransomware Actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "PsExec",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "A Windows",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1419,
+        "end": 1536,
+        "quote": "Play ransomware actors have used it to transfer data [T1048] from a compromised network to actor-controlled accounts."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES",
+      "tail": "e1",
+      "evidence": {
+        "start": 1930,
+        "end": 1984,
+        "quote": "Table 2: Hashes Associated with Play Ransomware Actors"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 288,
+        "end": 294,
+        "quote": "PsExec"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES",
+      "tail": "e5",
+      "evidence": {
+        "start": 377,
+        "end": 507,
+        "quote": "A Windows utility designed to improve speed, remove bloatware, protect privacy, and eliminate data collection, among other things."
+      },
+      "confidence": null
+    }
+  ]
+}

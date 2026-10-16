@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:23412:24966",
+  "doc_id": "AA25-071A",
+  "start": 23412,
+  "end": 24966,
+  "text": "\nD796259C44BE852327623FD2E40C47F2\nRootkit\nnezha-agent.exe\n4D0B6E3C9C33550A005E41663A1977CB\nNezha monitoring agent\nmimilib.dll\neb05429d25fc57b476428cdb0a134b2f\nMimikatz password logger\ncommand.cmd\n04b13b6cd5e5291b1cde78975a140feea\n7fd3bc3777c53caa1ab33426c83bfcc\nPDQ Deploy script to run gaze.exe\nRunFileCopy.cmd\nb29defbbc4ebaa243c1712ccc4943374f\n1b6fb864c39ed9f70fceb17eee098db\nPDQ Deploy script to copy gaze.exe to system32\nopenrdp.bat\n44370f5c977e415981febf7dbb87a85c\nAllows incoming RDP and remote WMI connections\nNgconf.txt\n8f11d9067da087cb4185fa804caac2df\nRClone configuration file\nMain_new.exe\n2df705c9be0465f1c73a9f5d35147723deb16b5e\nSimpleHelp executable\nMITRE ATT&CK Tactics and Techniques\nSee Table 3 – Table 12 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nTable 3: Initial Access\nTactic/Technique Title\nID\nUse\nExploit Public-Facing Application\nT1190\nMedusa actors exploit unpatched software or n-day vulnerabilities through CVEs.\nInitial Access\nTA0001\nMedusa actors recruit IABs in cybercriminal forums and marketplaces to obtain initial access.\nPhishing\nT1566\nMedusa IABs use phishing campaigns as a primary method for delivering ransomware to victims.\nTable 4: Stealth\nTechnique Title\nID\nUse\nIndicator Removal: Clear Command History\nT1070.003\nMedusa actors attempt to cover their tracks by deleting the PowerShell command line history.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    },
+    {
+      "start": 23187,
+      "end": 23235,
+      "text": "Table 2. Malicious Files (Updated Aug. 18, 2026)"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

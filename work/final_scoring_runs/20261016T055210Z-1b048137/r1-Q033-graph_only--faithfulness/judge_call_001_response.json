@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:07:58.8922925Z",
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 9462281300,
+  "load_duration": 7807000,
+  "prompt_eval_count": 686,
+  "prompt_eval_duration": 189873000,
+  "eval_count": 700,
+  "eval_duration": 8947094000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Akira threat actors use ngrok to create secure tunnels for data exfiltration.\",\n        \"Ngrok is used by Akira threat actors to bypass perimeter monitoring.\",\n        \"The two-hop path connecting Akira actors through ngrok to Protocol Tunneling (T1572) is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2).\",\n        \"The two-hop path connecting Akira actors through ngrok to Protocol Tunneling (T1572) is Akira threat actors (N4) --USES--> ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2).\",\n        \"Network Intrusion Prevention (M1031) can be used to mitigate Protocol Tunneling (T1572).\",\n        \"Network Intrusion Prevention (M1031) uses network signatures to identify traffic for specific adversary malware.\",\n        \"Filter Network Traffic (M1037) can be used to mitigate Protocol Tunneling (T1572).\",\n        \"Filter Network Traffic (M1037) considers filtering network traffic to untrusted or known bad domains and resources.\"\n    ]\n}\n\nHere's the breakdown of each sentence into fully understandable statements:\n\n1. \"Akira threat actors use ngrok to create secure tunnels for data exfiltration.\"\n\t* \"Akira threat actors\" refers to the actors involved in the attack.\n\t* \"use\" is a verb indicating the action taken by the actors.\n\t* \"ngrok\" is the tool used by the actors.\n\t* \"to create secure tunnels for data exfiltration\" is the purpose of using ngrok.\n2. \"Ngrok is used by Akira threat actors to bypass perimeter monitoring.\"\n\t* \"Ngrok\" is the tool used.\n\t* \"is used\" is a verb indicating the action taken by the actors.\n\t* \"by Akira threat actors\" refers to the actors involved in the attack.\n\t* \"to bypass perimeter monitoring\" is the purpose of using ngrok.\n3. \"The two-hop path connecting Akira actors through ngrok to Protocol Tunneling (T1572) is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2).\"\n\t* \"The two-hop path\" refers to the path taken by the actors.\n\t* \"connecting\" is a verb indicating the relationship between the actors and the path.\n\t* \"Akira actors\" refers to the actors involved in the attack.\n\t* \"through ngrok\" indicates the tool used by the actors.\n\t* \"to Protocol Tunneling (T1572)\" indicates the destination of the path.\n\t* \"is ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2)\" is the specific path taken.\n4. \"The two-hop path connecting Akira actors through ngrok to Protocol Tunneling (T1572) is Akira threat actors (N4) --USES--> ngrok (N1) --USES_TECHNIQUE--> Protocol Tunneling (T1572) (N2).\"\n\t* This sentence is similar to the previous one, but with a different path.\n5. \"Network Intrusion Prevention (M1031) can be used to mitigate",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

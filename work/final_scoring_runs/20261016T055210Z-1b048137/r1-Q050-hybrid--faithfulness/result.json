@@ -1,0 +1,15 @@
+{
+  "task": {
+    "task_id": "r1-Q050-hybrid--faithfulness",
+    "case_id": "r1-Q050-hybrid",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "0dc6750861e6269eb5f82655eb4dc10d61e6935c14980ca986bcc015bfb907b1",
+  "status": "failed",
+  "value": null,
+  "error_type": "LLMDidNotFinishException",
+  "error": "The LLM generation was not completed. Please increase the max_tokens and try again.",
+  "judge_calls": 2,
+  "elapsed_ms": 22903.380200004904
+}

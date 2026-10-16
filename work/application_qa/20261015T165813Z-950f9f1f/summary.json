@@ -1,0 +1,28 @@
+{
+  "purpose": "development_application_qa",
+  "mode": "hybrid",
+  "status": "answer_ready_for_review",
+  "generator_version": "development-shared-cited-generator-v2",
+  "semantic_review_status": "pending",
+  "development_scope": {
+    "name": "expanded_reviewed_development_sources",
+    "sha256": "920801a20df03fcdb45d29534ef9b14b169f3f6ab22f4be1785f375f0b6d1b7c",
+    "cisa_scope_count": 16,
+    "attack_reference_count": 58
+  },
+  "latency_scope": "Service/index initialization, retrieval, packing and generation for this request.",
+  "model": "llama3.1:8b",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "options": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 700
+  },
+  "configuration_hash": "e58ce56404aea565cceb8625ae90c215ae416dcf89e525fc38c980f52d787250",
+  "attempts": 1,
+  "prompt_hash": "9cb3a599bab4a3099c58de18f23b7bba62a5d3cad2a93fdb8a70147d8900f026",
+  "prompt_eval_count": 1467,
+  "eval_count": 341,
+  "execution_time_ms": 47358.58470000676,
+  "finished_at": "2026-10-15T16:59:01.038814+00:00"
+}

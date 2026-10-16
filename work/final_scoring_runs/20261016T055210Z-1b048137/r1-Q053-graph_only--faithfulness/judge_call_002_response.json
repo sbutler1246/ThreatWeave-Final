@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T05:56:16.0556388Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5098671100,
+  "load_duration": 7810200,
+  "prompt_eval_count": 1754,
+  "prompt_eval_duration": 245087000,
+  "eval_count": 363,
+  "eval_duration": 4765239000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use Mimikatz.\",\n      \"reason\": \"The context explicitly mentions that LockBit affiliates have used Mimikatz to dump credentials.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"The use of Mimikatz by LockBit affiliates is associated with the technique mapped to ThunderShell in AA23-165A.\",\n      \"reason\": \"The context does not mention any association between Mimikatz and ThunderShell in AA23-165A.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Segmentation is a mitigation for Network Service Discovery in Enterprise ATT&CK 17.1.\",\n      \"reason\": \"The context explicitly mentions that Network Segmentation (M1030) is a mitigation for Network Service Discovery (T1046) in Enterprise ATT&CK 17.1.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention is a mitigation for Remote Access Tools in Enterprise ATT&CK 17.1.\",\n      \"reason\": \"The context explicitly mentions that Network Intrusion Prevention (M1031) is a mitigation for Remote Access Tools (T1219) in Enterprise ATT&CK 17.1.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"User Account Management is a mitigation for Disable or Modify Tools in Enterprise ATT&CK 17.1.\",\n      \"reason\": \"The context explicitly mentions that User Account Management (M1018) is a mitigation for Disable or Modify Tools (T1562.001) in Enterprise ATT&CK 17.1.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

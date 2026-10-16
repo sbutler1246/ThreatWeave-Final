@@ -1,0 +1,236 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Phishing",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_T": {
+      "name": "Phishing",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m003_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m004_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m005_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 88,
+      "text": "Note: This advisory uses the MITRE ATT&CK® Matrix for Enterprise framework, version 19.",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 89,
+      "end": 247,
+      "text": "See the MITRE ATT&CK Tactics and Techniques section of this advisory for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.",
+      "line_start": 1
+    },
+    "u003": {
+      "start": 248,
+      "end": 258,
+      "text": "Background",
+      "line_start": 248
+    },
+    "u004": {
+      "start": 259,
+      "end": 396,
+      "text": "(Updated Aug. 18, 2026) Since 2021, Medusa actors have used the Medusa variant to conduct ransomware attacks through at least April 2026.",
+      "line_start": 259
+    },
+    "u005": {
+      "start": 397,
+      "end": 567,
+      "text": "Medusa originally operated as a closed ransomware operation, meaning the same group of cyber threat actors controlled all development and associated ransomware campaigns.",
+      "line_start": 259
+    },
+    "u006": {
+      "start": 568,
+      "end": 749,
+      "text": "Since at least early 2023, Medusa progressed to using an affiliate model, selling RaaS to affiliates who are granted varying levels of trust based upon experience and profitability.",
+      "line_start": 259
+    },
+    "u007": {
+      "start": 750,
+      "end": 886,
+      "text": "For newer or less experienced affiliates, important operations such as ransom negotiation may be centrally controlled by the developers.",
+      "line_start": 259
+    },
+    "u008": {
+      "start": 887,
+      "end": 1035,
+      "text": "Medusa actors use a double-extortion model where they encrypt victim data and threaten to publicly release exfiltrated data if a ransom is not paid.",
+      "line_start": 259
+    },
+    "u009": {
+      "start": 1036,
+      "end": 1050,
+      "text": "Initial Access",
+      "line_start": 1036
+    },
+    "u010": {
+      "start": 1051,
+      "end": 1200,
+      "text": "Medusa actors typically recruit initial access brokers (IABs) in cybercriminal forums and marketplaces to obtain initial access to potential victims.",
+      "line_start": 1051
+    },
+    "u011": {
+      "start": 1201,
+      "end": 1348,
+      "text": "They offer payments between $100 United States dollars (USD) and $1 million USD to IABs, as well as the opportunity to work exclusively for Medusa.",
+      "line_start": 1051
+    },
+    "u012": {
+      "start": 1349,
+      "end": 1437,
+      "text": "Most IABs, however, appear to be willing to work for multiple variants at the same time.",
+      "line_start": 1051
+    },
+    "u013": {
+      "start": 1438,
+      "end": 1504,
+      "text": "Medusa actors are known to make use of common techniques, such as:",
+      "line_start": 1051
+    },
+    "u014": {
+      "start": 1505,
+      "end": 1584,
+      "text": "Phishing campaigns as a primary method for stealing victim credentials [T1566].",
+      "line_start": 1505
+    },
+    "u015": {
+      "start": 1585,
+      "end": 1704,
+      "text": "Exploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and Exposures (CVEs) such as:",
+      "line_start": 1585
+    },
+    "u016": {
+      "start": 1705,
+      "end": 1815,
+      "text": "ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an Alternate Path or Channel].",
+      "line_start": 1705
+    },
+    "u017": {
+      "start": 1816,
+      "end": 1896,
+      "text": "Fortinet EMS SQL injection vulnerability CVE-2023-48788 [CWE 89: SQL Injection].",
+      "line_start": 1816
+    },
+    "u018": {
+      "start": 1897,
+      "end": 2014,
+      "text": "(Updated, Aug. 18, 2026) Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502: Deserialization of Untrusted Data].",
+      "line_start": 1897
+    },
+    "u019": {
+      "start": 2015,
+      "end": 2111,
+      "text": "(Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command Injection].",
+      "line_start": 2015
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_G": "local:ThreatGroup:medusa actors",
+    "m002_T": "attack:T1566",
+    "m003_T": "attack:T1566",
+    "m004_T": "attack:T1190",
+    "m005_S": "attack:S0591"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u013",
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013",
+        "u015"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m004_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013",
+        "u015",
+        "u016"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    }
+  ]
+}

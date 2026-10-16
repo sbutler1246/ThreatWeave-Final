@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r1-Q030-text_only--context_recall",
+    "case_id": "r1-Q030-text_only",
+    "metric": "context_recall",
+    "eligible": true
+  },
+  "input_sha256": "85807d3ea9ab7c86a63ea607af4140b0b9972345b8afece6d12a19e03bd979be",
+  "status": "scored",
+  "value": 1.0,
+  "judge_calls": 1,
+  "elapsed_ms": 7651.561300008325
+}

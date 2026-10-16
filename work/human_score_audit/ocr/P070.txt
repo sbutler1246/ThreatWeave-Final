@@ -1,0 +1,47 @@
+P070
+Question
+According to AA23-061A, which ATT&CK technique is connected to Royal actors through the
+reported use of Chisel? Explain the two-hop actor-to-software-to-technique path with evidence.
+Displayed answer
+Royal actors use Chisel, which is connected to Protocol Tunneling (Tl 572). [El, E2, E3, E4]
+Network Intrusion Prevention (M 1031) can mitigate Protocol Tunneling (Tl 572) by identifying
+traffic for specific adversary malware. [E4, E5]
+Filter Network Traffic (MI 037) can mitigate Protocol Tunneling (Tl 572) by filtering network
+traffic to untrusted or known bad domains and resources. [E6, E7]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+AA23-061A reports that Royal actors were historically observed using Chisel to communicate with
+their C2 infrastructure. The advisory associates this tool use with Tl 572 (Protocol Tunneling). The
+two links are Royal actors -4 USES Chisel USES TECHNIQUE -4 Tl 572; this preserves the
+historical observation rather than asserting current use.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY,
+OpenSSH, and MobaXterm [Tl 572]
+[Q; CISA]
+#StopRansomware: Blacksuit (Royal) Ransomware
+[E3; CISA]
+Technical Details
+
+--- IMAGE ---
+
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (Tl 572)
+Mitigation: Network Intrusion Prevention (M 1031)
+[E-5; ATTACK]
+Network intrusion detection and prevention systems that use network signatures to identify traffic
+for specific adversary malware can be used to mitigate activity at the network level.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (Tl 572)
+Mitigation: Filter Network Traffic (MI 037)
+[E7; ATTACK]
+Consider filtering network traffic to untrusted or known bad domains and resources.
+GRAPH NODES
+N 1: Royal actors
+N2: Protocol Tunneling (Tl 572)
+N3: Network Intrusion Prevention (MI 031)
+N4: Filter Network Traffic (M 1037)
+GRAPH PATHS

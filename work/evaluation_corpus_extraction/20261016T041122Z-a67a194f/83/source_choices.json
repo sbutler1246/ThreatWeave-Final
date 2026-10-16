@@ -1,0 +1,926 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "In",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "The Play",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Play",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "valid accounts",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Multiple",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "SimpleHelp",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1059",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "AdFind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Active Directory",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "TA0007",
+      "codes": [
+        "A"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Grixba",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1016",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1518.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "Actors",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "GMER",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "IOBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "PowerTool",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m023",
+      "text": "T1070.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m024",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m025",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m026",
+      "text": "Once",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m027",
+      "text": "unsecured credentials",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m028",
+      "text": "T1552",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m029",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m030",
+      "text": "T1003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m031",
+      "text": "Windows Privilege Escalation Awesome Scripts",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m032",
+      "text": "T1570",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m033",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "In",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "The Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Play",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "valid accounts",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m005_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m006_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m007_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m008_S": {
+      "name": "Multiple",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "SimpleHelp",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1059",
+      "type": "Technique",
+      "attack_id": "T1059"
+    },
+    "m011_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m012_S": {
+      "name": "AdFind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Active Directory",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_A": {
+      "name": "TA0007",
+      "type": "Tactic",
+      "attack_id": "TA0007"
+    },
+    "m015_S": {
+      "name": "Grixba",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_T": {
+      "name": "T1016",
+      "type": "Technique",
+      "attack_id": "T1016"
+    },
+    "m017_T": {
+      "name": "T1518.001",
+      "type": "Technique",
+      "attack_id": "T1518.001"
+    },
+    "m018_S": {
+      "name": "Actors",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m019_S": {
+      "name": "GMER",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_S": {
+      "name": "IOBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m021_S": {
+      "name": "PowerTool",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m022_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m023_T": {
+      "name": "T1070.001",
+      "type": "Technique",
+      "attack_id": "T1070.001"
+    },
+    "m024_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m025_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m026_S": {
+      "name": "Once",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m027_T": {
+      "name": "unsecured credentials",
+      "type": "Technique",
+      "attack_id": "T1552"
+    },
+    "m028_T": {
+      "name": "T1552",
+      "type": "Technique",
+      "attack_id": "T1552"
+    },
+    "m029_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m030_T": {
+      "name": "T1003",
+      "type": "Technique",
+      "attack_id": "T1003"
+    },
+    "m031_S": {
+      "name": "Windows Privilege Escalation Awesome Scripts",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m032_T": {
+      "name": "T1570",
+      "type": "Technique",
+      "attack_id": "T1570"
+    },
+    "m033_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 81,
+      "text": "Note: This advisory uses the MITRE ATT&CK® for Enterprise framework, version 17.",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 82,
+      "end": 240,
+      "text": "See the MITRE ATT&CK Tactics and Techniques section of this advisory for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.",
+      "line_start": 1
+    },
+    "u003": {
+      "start": 241,
+      "end": 255,
+      "text": "Initial Access",
+      "line_start": 241
+    },
+    "u004": {
+      "start": 256,
+      "end": 399,
+      "text": "The Play ransomware group gains initial access to victim networks through the abuse of valid accounts, likely purchased on the dark web [T1078]",
+      "line_start": 256
+    },
+    "u005": {
+      "start": 401,
+      "end": 455,
+      "text": "and exploitation of public-facing applications [T1190]",
+      "line_start": 256
+    },
+    "u006": {
+      "start": 457,
+      "end": 619,
+      "text": "specifically through known FortiOS (CVE-2018-13379 and CVE-2020-12812) and Microsoft Exchange (ProxyNotShell [CVE-2022-41040 and CVE-2022-41082]) vulnerabilities.",
+      "line_start": 256
+    },
+    "u007": {
+      "start": 620,
+      "end": 793,
+      "text": "Play ransomware actors have been observed using external-facing services [T1133] such as Remote Desktop Protocol (RDP) and Virtual Private Networks (VPN) for initial access.",
+      "line_start": 256
+    },
+    "u008": {
+      "start": 794,
+      "end": 814,
+      "text": "Update June 4, 2025:",
+      "line_start": 794
+    },
+    "u009": {
+      "start": 815,
+      "end": 1141,
+      "text": "Multiple ransomware groups, including initial access brokers with ties to Play ransomware operators, exploited CVE-2024-57727 in remote monitoring and management (RMM) tool SimpleHelp [T1190] to conduct remote code execution [T1059.001] at many U.S.-based entities following the vulnerabilities’ disclosure on 16 January 2025.",
+      "line_start": 815
+    },
+    "u010": {
+      "start": 1142,
+      "end": 1152,
+      "text": "End Update",
+      "line_start": 1142
+    },
+    "u011": {
+      "start": 1153,
+      "end": 1182,
+      "text": "Discovery and Defense Evasion",
+      "line_start": 1153
+    },
+    "u012": {
+      "start": 1183,
+      "end": 1392,
+      "text": "Play ransomware actors use tools like AdFind to run Active Directory queries [TA0007] and Grixba,1 an information-stealer, to enumerate network information [T1016] and scan for anti-virus software [T1518.001].",
+      "line_start": 1183
+    },
+    "u013": {
+      "start": 1393,
+      "end": 1523,
+      "text": "Actors also use tools like GMER, IOBit, and PowerTool to disable anti-virus software [T1562.001] and remove log files [T1070.001].",
+      "line_start": 1183
+    },
+    "u014": {
+      "start": 1524,
+      "end": 1661,
+      "text": "In some instances, cybersecurity researchers have observed Play ransomware actors using PowerShell scripts to target Microsoft Defender.2",
+      "line_start": 1183
+    },
+    "u015": {
+      "start": 1662,
+      "end": 1692,
+      "text": "Lateral Movement and Execution",
+      "line_start": 1662
+    },
+    "u016": {
+      "start": 1693,
+      "end": 1870,
+      "text": "Play ransomware actors use command and control (C2) applications, including Cobalt Strike and SystemBC, and tools like PsExec to assist with lateral movement and file execution.",
+      "line_start": 1693
+    },
+    "u017": {
+      "start": 1871,
+      "end": 2048,
+      "text": "Once established on a network, the ransomware actors search for unsecured credentials [T1552] and use the Mimikatz credential dumper to gain domain administrator access [T1003].",
+      "line_start": 1693
+    },
+    "u018": {
+      "start": 2049,
+      "end": 2266,
+      "text": "According to open source reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) [T1059] to search for additional privilege escalation paths.",
+      "line_start": 1693
+    },
+    "u019": {
+      "start": 2267,
+      "end": 2347,
+      "text": "Actors then distribute executables [T1570] via Group Policy Objects [T1484.001].",
+      "line_start": 1693
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:in",
+    "m002_S": "local:Software:the play",
+    "m003_S": "attack:S1162",
+    "m003_G": "attack:G1040",
+    "m004_T": "attack:T1078",
+    "m005_T": "attack:T1078",
+    "m006_T": "attack:T1190",
+    "m007_T": "attack:T1133",
+    "m008_S": "local:Software:multiple",
+    "m009_S": "local:Software:simplehelp",
+    "m010_T": "attack:T1059",
+    "m011_T": "attack:T1059.001",
+    "m012_S": "attack:S0552",
+    "m013_S": "local:Software:active directory",
+    "m014_A": "attack:TA0007",
+    "m015_S": "local:Software:grixba",
+    "m016_T": "attack:T1016",
+    "m017_T": "attack:T1518.001",
+    "m018_S": "local:Software:actors",
+    "m019_S": "local:Software:gmer",
+    "m020_S": "local:Software:iobit",
+    "m021_S": "local:Software:powertool",
+    "m022_T": "attack:T1562.001",
+    "m023_T": "attack:T1070.001",
+    "m024_S": "attack:S0154",
+    "m025_S": "attack:S0029",
+    "m026_S": "local:Software:once",
+    "m027_T": "attack:T1552",
+    "m028_T": "attack:T1552",
+    "m029_S": "attack:S0002",
+    "m030_T": "attack:T1003",
+    "m031_S": "local:Software:windows privilege escalation awesome scripts",
+    "m032_T": "attack:T1570",
+    "m033_T": "attack:T1484.001"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_S",
+        "m003_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S",
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m005_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_S",
+        "m008_S",
+        "m009_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T",
+        "m011_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m008_S",
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T",
+        "m011_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_S",
+        "m012_S",
+        "m013_S",
+        "m015_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m016_T",
+        "m017_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m016_T",
+        "m017_T"
+      ],
+      "predicate": "PART_OF_TACTIC",
+      "tails": [
+        "m014_A"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m012_S",
+        "m013_S",
+        "m015_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m016_T",
+        "m017_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m018_S",
+        "m019_S",
+        "m020_S",
+        "m021_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m022_T",
+        "m023_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u016"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m024_S",
+        "m025_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m026_S",
+        "m029_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m028_T",
+        "m030_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_S",
+        "m031_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m031_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m018_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m032_T",
+        "m033_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012",
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m018_S",
+        "m019_S",
+        "m020_S",
+        "m021_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012",
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m022_T",
+        "m023_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018",
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m018_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018",
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m032_T",
+        "m033_T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Akira threat actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1068",
+      "attack_id": "T1068"
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "AnyDesk",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1219",
+      "attack_id": "T1219"
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "Ngrok",
+      "attack_id": null
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1572",
+      "attack_id": "T1572"
+    },
+    {
+      "local_id": "e7",
+      "type": "Software",
+      "name": "FileZilla",
+      "attack_id": null
+    },
+    {
+      "local_id": "e8",
+      "type": "Technique",
+      "name": "T1560.001",
+      "attack_id": "T1560.001"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 0,
+        "end": 162,
+        "quote": "1003.003].11 Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 213,
+        "end": 320,
+        "quote": "To pivot laterally, Akira threat actors use legitimate remote access tools like AnyDesk or LogMeIn [T1219]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e5",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 1176,
+        "end": 1337,
+        "quote": "The authoring organizations observed Akira threat actors establishing command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e7",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e8",
+      "evidence": {
+        "start": 1586,
+        "end": 1727,
+        "quote": "Akira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001] and WinSCP and RClone to exfiltrate data [T1048]."
+      },
+      "confidence": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 94,
+        "end": 187,
+        "text": "Play ransomware actors use tools like GRIXBA to identify network configurations and settings.",
+        "line_start": 94
+      }
+    ],
+    "document_start": 14239,
+    "document_end": 14332,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u017"
+    ],
+    "selected_units": [
+      {
+        "start": 439,
+        "end": 534,
+        "text": "Play ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.",
+        "line_start": 439
+      }
+    ],
+    "document_start": 14584,
+    "document_end": 14679,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u017"
+    ],
+    "selected_units": [
+      {
+        "start": 439,
+        "end": 534,
+        "text": "Play ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.",
+        "line_start": 439
+      }
+    ],
+    "document_start": 14584,
+    "document_end": 14679,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u017"
+    ],
+    "selected_units": [
+      {
+        "start": 439,
+        "end": 534,
+        "text": "Play ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.",
+        "line_start": 439
+      }
+    ],
+    "document_start": 14584,
+    "document_end": 14679,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

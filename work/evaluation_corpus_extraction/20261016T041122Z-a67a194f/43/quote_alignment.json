@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 200,
+        "end": 326,
+        "text": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement.",
+        "line_start": 200
+      }
+    ],
+    "document_start": 10986,
+    "document_end": 11112,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 582,
+        "end": 985,
+        "text": "Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486].",
+        "line_start": 495
+      }
+    ],
+    "document_start": 11368,
+    "document_end": 11771,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u014"
+    ],
+    "selected_units": [
+      {
+        "start": 1673,
+        "end": 1718,
+        "text": "Table 1: Tools Used by Black Basta Affiliates",
+        "line_start": 1673
+      }
+    ],
+    "document_start": 12459,
+    "document_end": 12504,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 582,
+        "end": 985,
+        "text": "Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486].",
+        "line_start": 495
+      }
+    ],
+    "document_start": 11368,
+    "document_end": 11771,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

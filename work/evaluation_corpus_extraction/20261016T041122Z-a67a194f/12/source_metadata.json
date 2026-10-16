@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+    "doc_id": "AA23-165A",
+    "start": 23461,
+    "end": 25646,
+    "text": " correct password is entered.\nImpair Defenses: Disable or Modify Tools\nT1562.001\nLockBit 3.0 affiliates use Backstab, Defender Control, GMER, PCHunter, PowerTool, Process Hacker or TDSSKiller to disable EDR processes and services.\nLockBit 3.0 affiliates use Bat Armor to bypass the PowerShell execution Policy.\nLockBit affiliates may deploy a batch script, 123.bat, to disable and uninstall antivirus software.\nLockbit 3.0 may modify and/or disable security tools including EDR and antivirus to avoid possible detection of malware, tools, and activities.\nIndicator Removal: Clear Windows Event Logs\nT1070.001\nLockBit executable clears the Windows Event Logs files.\nIndicator Removal: File Deletion\nT1070.004\nLockBit 3.0 will delete itself from the disk.\nObfuscated Files or Information\nT1027\nLockBit 3.0 will send encrypted host and bot information to its command and control (C2) servers.\nObfuscated Files or Information: Software Packing\nT1027.002\nLockBit affiliates may perform software packing or virtual machine software protection to conceal their code. Blister Loader has been used for such purpose.\nTable 10: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Credential Access\nTechnique Title\nID\nUse\nBrute Force\nT1110\nLockBit affiliates may leverage VPN or RDP brute force credentials as an initial access.\nCredentials from Password Stores: Credentials from Web Browsers\nT1555.003\nLockBit 3.0 actors use PasswordFox to recover passwords from Firefox Browser.\nOS Credential Dumping\nT1003\nLockBit 3.0 actors use ExtPassword or LostMyPassword to recover passwords from Windows systems.\nOS Credential Dumping: LSASS Memory\nT1003.001\nLockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe.\nLockBit affiliates have used Mimikatz to dump credentials.\nTable 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery\nTechnique Title\nID\nUse\nNetwork Service Discovery\nT1046\nLockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.\nLockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 70,
+        "text": "Understanding Ransomware Threat Actors: LockBit"
+      },
+      {
+        "start": 2293,
+        "end": 2310,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 23204,
+        "end": 23283,
+        "text": "Table 9: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Defense Evasion"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 499,
+  "inherited_context_tokens": 36,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "986d870098b3151a75241be4ade31914a919501097ac0f9ec0ab3b23c8958f4b",
+  "doc_id": "AA23-165A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+  "source_hash": "7e9a69553beaaef6890dfb59db02e15242a75d14413b1e28b0307b80873a9e98"
+}

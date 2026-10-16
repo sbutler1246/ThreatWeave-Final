@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 159,
+        "end": 263,
+        "text": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+        "line_start": 0
+      }
+    ],
+    "document_start": 12687,
+    "document_end": 12791,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 159,
+        "end": 263,
+        "text": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+        "line_start": 0
+      }
+    ],
+    "document_start": 12687,
+    "document_end": 12791,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u006"
+    ],
+    "selected_units": [
+      {
+        "start": 455,
+        "end": 649,
+        "text": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].",
+        "line_start": 264
+      }
+    ],
+    "document_start": 12983,
+    "document_end": 13177,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u006"
+    ],
+    "selected_units": [
+      {
+        "start": 455,
+        "end": 649,
+        "text": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].",
+        "line_start": 264
+      }
+    ],
+    "document_start": 12983,
+    "document_end": 13177,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

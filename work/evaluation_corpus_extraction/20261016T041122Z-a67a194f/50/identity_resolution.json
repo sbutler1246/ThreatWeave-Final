@@ -1,0 +1,74 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Akira threat actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1068",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1068",
+    "canonical_name": "Exploitation for Privilege Escalation",
+    "source_attack_id": "T1068"
+  },
+  {
+    "local_id": "e3",
+    "mention": "AnyDesk",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "T1219",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1219",
+    "canonical_name": "Remote Access Tools",
+    "source_attack_id": "T1219"
+  },
+  {
+    "local_id": "e5",
+    "mention": "Ngrok",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0508",
+    "canonical_name": "ngrok",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e6",
+    "mention": "T1572",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1572",
+    "canonical_name": "Protocol Tunneling",
+    "source_attack_id": "T1572"
+  },
+  {
+    "local_id": "e7",
+    "mention": "FileZilla",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e8",
+    "mention": "T1560.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1560.001",
+    "canonical_name": "Archive via Utility",
+    "source_attack_id": "T1560.001"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-075A:evaluation:llama500:22086:24117",
+  "doc_id": "AA23-075A",
+  "start": 22086,
+  "end": 24117,
+  "text": "\nTechnique Title\nID\nUse\nExecution\nTA0002\nLockBit 3.0 launches commands during its execution.\nSoftware Deployment Tools\nT1072\nLockBit 3.0 uses Chocolatey, a command- line package manager for Windows.\nPersistence\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nLockBit 3.0 uses a compromised user account to maintain persistence on the target network.\nBoot or Logo Autostart Execution\nT1547\nLockBit 3.0 enables automatic logon for persistence.\nPrivilege Escalation\nTechnique Title\nID\nUse\nPrivilege Escalation\nTA0004\nLockbit 3.0 will attempt to escalate to the required privileges if current account privileges are insufficient.\nBoot or Logo Autostart Execution\nT1547\nLockBit 3.0 enables automatic logon for privilege escalation.\nDefense Evasion\nTechnique Title\nID\nUse\nObfuscated Files or Information\nT1027\nLockBit 3.0 will send encrypted host and bot information to its C2 servers.\nIndicator Removal: File Deletion\nT1070.004\nLockBit 3.0 will delete itself from the disk.\nExecution Guardrails: Environmental Keying\nT1480.001\nLockBit 3.0 will only decrypt the main component or continue to decrypt and/or decompress data if the correct password is entered.\nCredential Access\nTechnique Title\nID\nUse\nOS Credential Dumping: LSASS Memory\nT1003.001\nLockBit 3.0 uses Microsoft Sysinternals ProDump to dump the contents of LSASS.exe.\nDiscovery\nTechnique Title\nID\nUse\nNetwork Service Discovery\nT1046\nLockBit 3.0 uses SoftPerfect Network Scanner to scan target networks.\nSystem Information Discovery\nT1082\nLockBit 3.0 will enumerate system information to include hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices.\nSystem Location Discovery: System Language Discovery\nT1614.001\nLockBit 3.0 will not infect machines with language settings that match a defined exclusion list.\nLateral Movement\nTechnique Title\nID\nUse\nRemote Services: Remote Desktop Protocol\nT1021.001\nLockBit 3.0 uses Splashtop remote- desktop software to facilitate lateral movement.\nCommand and Control\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: LockBit 3.0"
+    },
+    {
+      "start": 2048,
+      "end": 2065,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

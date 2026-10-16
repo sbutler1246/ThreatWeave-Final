@@ -1,0 +1,462 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Nezha",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "j.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "def.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "nezha-agent.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "mimilib.dll",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Nezha",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "j.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "def.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "nezha-agent.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "mimilib.dll",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 51,
+      "text": "IP used to access BeyondTrust session (Mullvad VPN)",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 52,
+      "end": 66,
+      "text": "155.2.215[.]71",
+      "line_start": 52
+    },
+    "u003": {
+      "start": 67,
+      "end": 77,
+      "text": "IP Address",
+      "line_start": 67
+    },
+    "u004": {
+      "start": 78,
+      "end": 115,
+      "text": "IP used to access BeyondTrust session",
+      "line_start": 78
+    },
+    "u005": {
+      "start": 116,
+      "end": 132,
+      "text": "23.234.106[.]242",
+      "line_start": 116
+    },
+    "u006": {
+      "start": 133,
+      "end": 143,
+      "text": "IP Address",
+      "line_start": 133
+    },
+    "u007": {
+      "start": 144,
+      "end": 195,
+      "text": "IP used to access BeyondTrust session (Mullvad VPN)",
+      "line_start": 144
+    },
+    "u008": {
+      "start": 196,
+      "end": 211,
+      "text": "23.234.93[.]112",
+      "line_start": 196
+    },
+    "u009": {
+      "start": 212,
+      "end": 222,
+      "text": "IP Address",
+      "line_start": 212
+    },
+    "u010": {
+      "start": 223,
+      "end": 274,
+      "text": "IP used to access BeyondTrust session (Mullvad VPN)",
+      "line_start": 223
+    },
+    "u011": {
+      "start": 275,
+      "end": 289,
+      "text": "37.19.21[.]180",
+      "line_start": 275
+    },
+    "u012": {
+      "start": 290,
+      "end": 300,
+      "text": "IP Address",
+      "line_start": 290
+    },
+    "u013": {
+      "start": 301,
+      "end": 352,
+      "text": "IP used to access BeyondTrust session (Mullvad VPN)",
+      "line_start": 301
+    },
+    "u014": {
+      "start": 353,
+      "end": 367,
+      "text": "155.2.215[.]69",
+      "line_start": 353
+    },
+    "u015": {
+      "start": 368,
+      "end": 378,
+      "text": "IP Address",
+      "line_start": 368
+    },
+    "u016": {
+      "start": 379,
+      "end": 416,
+      "text": "IP used to access BeyondTrust session",
+      "line_start": 379
+    },
+    "u017": {
+      "start": 417,
+      "end": 433,
+      "text": "185.238.231[.]98",
+      "line_start": 417
+    },
+    "u018": {
+      "start": 434,
+      "end": 444,
+      "text": "IP Address",
+      "line_start": 434
+    },
+    "u019": {
+      "start": 445,
+      "end": 495,
+      "text": "IP used to access BeyondTrust session (ExpressVPN)",
+      "line_start": 445
+    },
+    "u020": {
+      "start": 496,
+      "end": 511,
+      "text": "37.221.66[.]239",
+      "line_start": 496
+    },
+    "u021": {
+      "start": 512,
+      "end": 522,
+      "text": "IP Address",
+      "line_start": 512
+    },
+    "u022": {
+      "start": 523,
+      "end": 557,
+      "text": "Bash TCP reverse shell destination",
+      "line_start": 523
+    },
+    "u023": {
+      "start": 558,
+      "end": 574,
+      "text": "185.135.86[.]185",
+      "line_start": 558
+    },
+    "u024": {
+      "start": 575,
+      "end": 585,
+      "text": "IP Address",
+      "line_start": 575
+    },
+    "u025": {
+      "start": 586,
+      "end": 623,
+      "text": "IP associated with SimpleHelp session",
+      "line_start": 586
+    },
+    "u026": {
+      "start": 624,
+      "end": 639,
+      "text": "83.138.53[.]139",
+      "line_start": 624
+    },
+    "u027": {
+      "start": 640,
+      "end": 650,
+      "text": "IP Address",
+      "line_start": 640
+    },
+    "u028": {
+      "start": 651,
+      "end": 684,
+      "text": "IP associated with Nezha backdoor",
+      "line_start": 651
+    },
+    "u029": {
+      "start": 685,
+      "end": 700,
+      "text": "185.238.231[.]4",
+      "line_start": 685
+    },
+    "u030": {
+      "start": 701,
+      "end": 711,
+      "text": "IP Address",
+      "line_start": 701
+    },
+    "u031": {
+      "start": 712,
+      "end": 762,
+      "text": "IP used to access BeyondTrust session (ExpressVPN)",
+      "line_start": 712
+    },
+    "u032": {
+      "start": 763,
+      "end": 779,
+      "text": "185.238.231[.]77",
+      "line_start": 763
+    },
+    "u033": {
+      "start": 780,
+      "end": 790,
+      "text": "IP Address",
+      "line_start": 780
+    },
+    "u034": {
+      "start": 791,
+      "end": 841,
+      "text": "IP used to access BeyondTrust session (ExpressVPN)",
+      "line_start": 791
+    },
+    "u035": {
+      "start": 842,
+      "end": 858,
+      "text": "185.238.231[.]85",
+      "line_start": 842
+    },
+    "u036": {
+      "start": 859,
+      "end": 869,
+      "text": "IP Address",
+      "line_start": 859
+    },
+    "u037": {
+      "start": 870,
+      "end": 920,
+      "text": "IP used to access BeyondTrust session (ExpressVPN)",
+      "line_start": 870
+    },
+    "u038": {
+      "start": 921,
+      "end": 937,
+      "text": "85.155.186[.]121",
+      "line_start": 921
+    },
+    "u039": {
+      "start": 938,
+      "end": 948,
+      "text": "IP Address",
+      "line_start": 938
+    },
+    "u040": {
+      "start": 949,
+      "end": 986,
+      "text": "IP associated with SimpleHelp session",
+      "line_start": 949
+    },
+    "u041": {
+      "start": 987,
+      "end": 1024,
+      "text": "http//45.61.150[.]94:8000/storm[.]exe",
+      "line_start": 987
+    },
+    "u042": {
+      "start": 1025,
+      "end": 1028,
+      "text": "URL",
+      "line_start": 1025
+    },
+    "u043": {
+      "start": 1029,
+      "end": 1084,
+      "text": "SimpleHelp agent was downloaded to victim using this IP",
+      "line_start": 1029
+    },
+    "u044": {
+      "start": 1085,
+      "end": 1100,
+      "text": "94.156.67[.]145",
+      "line_start": 1085
+    },
+    "u045": {
+      "start": 1101,
+      "end": 1111,
+      "text": "IP Address",
+      "line_start": 1101
+    },
+    "u046": {
+      "start": 1112,
+      "end": 1139,
+      "text": "IP associated with backdoor",
+      "line_start": 1112
+    },
+    "u047": {
+      "start": 1140,
+      "end": 1148,
+      "text": "Table 2.",
+      "line_start": 1140
+    },
+    "u048": {
+      "start": 1149,
+      "end": 1188,
+      "text": "Malicious Files (Updated Aug. 18, 2026)",
+      "line_start": 1140
+    },
+    "u049": {
+      "start": 1189,
+      "end": 1193,
+      "text": "File",
+      "line_start": 1189
+    },
+    "u050": {
+      "start": 1194,
+      "end": 1222,
+      "text": "Hash (MD5, SHA1, or SHA 256)",
+      "line_start": 1194
+    },
+    "u051": {
+      "start": 1223,
+      "end": 1234,
+      "text": "Description",
+      "line_start": 1223
+    },
+    "u052": {
+      "start": 1235,
+      "end": 1259,
+      "text": "!!!READ_ME_MEDUSA!!!.txt",
+      "line_start": 1235
+    },
+    "u053": {
+      "start": 1260,
+      "end": 1268,
+      "text": "Redacted",
+      "line_start": 1260
+    },
+    "u054": {
+      "start": 1269,
+      "end": 1285,
+      "text": "Ransom note file",
+      "line_start": 1269
+    },
+    "u055": {
+      "start": 1286,
+      "end": 1291,
+      "text": "j.exe",
+      "line_start": 1286
+    },
+    "u056": {
+      "start": 1292,
+      "end": 1324,
+      "text": "2C7F328FEEB94608AAAF99EC70CB0323",
+      "line_start": 1292
+    },
+    "u057": {
+      "start": 1325,
+      "end": 1357,
+      "text": "MeshAgent remote management tool",
+      "line_start": 1325
+    },
+    "u058": {
+      "start": 1358,
+      "end": 1365,
+      "text": "def.exe",
+      "line_start": 1358
+    },
+    "u059": {
+      "start": 1366,
+      "end": 1398,
+      "text": "D796259C44BE852327623FD2E40C47F2",
+      "line_start": 1366
+    },
+    "u060": {
+      "start": 1399,
+      "end": 1406,
+      "text": "Rootkit",
+      "line_start": 1399
+    },
+    "u061": {
+      "start": 1407,
+      "end": 1422,
+      "text": "nezha-agent.exe",
+      "line_start": 1407
+    },
+    "u062": {
+      "start": 1423,
+      "end": 1455,
+      "text": "4D0B6E3C9C33550A005E41663A1977CB",
+      "line_start": 1423
+    },
+    "u063": {
+      "start": 1456,
+      "end": 1478,
+      "text": "Nezha monitoring agent",
+      "line_start": 1456
+    },
+    "u064": {
+      "start": 1479,
+      "end": 1490,
+      "text": "mimilib.dll",
+      "line_start": 1479
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:nezha",
+    "m002_S": "local:Software:j.exe",
+    "m003_S": "local:Software:def.exe",
+    "m004_S": "local:Software:nezha-agent.exe",
+    "m005_S": "local:Software:mimilib.dll"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 99,
+        "end": 223,
+        "text": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572]",
+        "line_start": 99
+      }
+    ],
+    "document_start": 6445,
+    "document_end": 6569,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u006"
+    ],
+    "selected_units": [
+      {
+        "start": 303,
+        "end": 472,
+        "text": "(Updated August 7, 2024) Historically, Royal threat actors used RDP and legitimate operating system (OS) diagnostic tools to move laterally across a network [T1021.001].",
+        "line_start": 303
+      }
+    ],
+    "document_start": 6649,
+    "document_end": 6818,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 473,
+        "end": 565,
+        "text": "BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally.",
+        "line_start": 303
+      }
+    ],
+    "document_start": 6819,
+    "document_end": 6911,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 473,
+        "end": 565,
+        "text": "BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally.",
+        "line_start": 303
+      }
+    ],
+    "document_start": 6819,
+    "document_end": 6911,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

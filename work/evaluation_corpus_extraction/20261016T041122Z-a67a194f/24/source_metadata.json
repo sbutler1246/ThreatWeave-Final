@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:16175:17122",
+    "doc_id": "AA23-061A",
+    "start": 16175,
+    "end": 17122,
+    "text": "d71ef8031bfd3897ed4435\n%USERPROFILE%\\Downloads\\sc.bat\ne0dbe3a2d07ee10731b68a142c65db077cfb88e5ec5c8415e548d3ede40e7ffc\n%USERPROFILE%\\Downloads\\sr.bat\n34a98f2b54ebab999f218b0990665485eb2bb74babdf7e714cc10a306616b00c\nrunanddelete.bat\n342b398647073159dfa8a7d36510171f731b760089a546e96fbb8a292791efee\nscripttodo.ps1 (94.232.41.105)\n4cd00234b18e04dcd745cc81bb928c8451f6601affb5fa45f20bb11bfb5383ce\ndontsleep.exe\nf8cff7082a936912baf2124d42ed82403c75c87cb160553a7df862f8d81809ee\nwstart.exe\nd47d4b52e75e8cf3b11ea171163a66c06d1792227c1cf7ca49d7df60804a1681\nInstallerV8.1.ms\n3e6e2e0de75896033d91dfd07550c478590ca4cd4598004d9e19246e8a09cb97\nshutdowni.bat\n8a983042278bc5897dbcdd54d1d7e3143f8b7ead553b5a4713e30deffda16375\nf827.exe\n5654f32a4f0f2e900a35761e8caf7ef0c50ee7800e0a3b19354b571bc6876f61\nd2ef5.exe\nbe030e685536eb38ba1fec1c90e90a4165f6641c8dc39291db1d23f4ee9fa0b1\nf24dc8ea.msi\n91605641a4c7e859b7071a9841d1cd154b9027e6a58c20ec4cadafeaf47c9055\ndefw10.bat\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 15219,
+        "end": 15296,
+        "text": "Table 6: Royal Ransomware Associated Files, Tools, and Hashes as of June 2023"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 500,
+  "inherited_context_tokens": 40,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "df8268ae908d8a31dbf8651753377db265cd48a28c06c8884713422470a634cb",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

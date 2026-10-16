@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:17023:18422",
+  "doc_id": "AA23-061A",
+  "start": 17023,
+  "end": 18422,
+  "text": "4ee9fa0b1\nf24dc8ea.msi\n91605641a4c7e859b7071a9841d1cd154b9027e6a58c20ec4cadafeaf47c9055\ndefw10.bat\nfb638dba20e5fec72f5501d7e0627b302834ec5eaf331dd999763ee925cbc0f9\nll.exe\nf0197bd7ccd568c523df9c7d9afcbac222f14d344312322c04c92e7968859726\nRoyal Ransomware Hash\nb987f738a1e185f71e358b02cafa5fe56a4e3457df3b587d6b40e9c9de1da410\nb34v2.dll\na51b1f1f0636bff199c0f87e2bb300d42e06698b\n1.exe\nd93f1ef533e6b8c95330ba0962e3670eaf94a026\n34.dll\n9e19afc15c5781e8a89a75607578760aabad8e65\nll.exe\n9a92b147cad814bfbd4632b6034b8abf8d84b1a5\nRoyal Ransomware Hash\na4ef01d55e55cebdd37ba71c28b0c448a9c833c0\nTable 7: BlackSuit Ransomware Associated Files, Tools, and Hashes as of June 2023\nIP Address\nMD5 Hash Value\nsys32.exe\n30cc7724be4a09d5bcd9254197af05e9fab76455\nesxi_encryptor\n861793c4e0d4a92844994b640cc6bc3e20944a73\nBlackSuit threat actors have been observed using legitimate software and open source tools during ransomware operations. Threat actors have been observed using open source network tunneling tools such as Chisel and Cloudflared, as well as Secure Shell (SSH) Client, OpenSSH, and MobaXterm to establish SSH connections. The publicly available credential stealing tool Mimikatz and password harvesting tools from Nirsoft have also been found on victim systems. Legitimate RMM tools have also been observed as backdoor access vectors. Some legitimate software and open source tools can be found in Table 8.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    },
+    {
+      "start": 15219,
+      "end": 15296,
+      "text": "Table 6: Royal Ransomware Associated Files, Tools, and Hashes as of June 2023"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

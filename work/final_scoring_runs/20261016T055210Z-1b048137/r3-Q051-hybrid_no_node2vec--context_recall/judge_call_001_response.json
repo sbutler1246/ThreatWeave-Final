@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:07:44.1609161Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4500289000,
+  "load_duration": 10342300,
+  "prompt_eval_count": 1983,
+  "prompt_eval_duration": 419091000,
+  "eval_count": 303,
+  "eval_duration": 3974680000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"classifications\": [\n{\n\"statement\": \"The AA23-165A Table 4 caption lists Chocolatey as a tool used by LockBit affiliates.\",\n\"reason\": \"The context mentions Table 4 and lists Chocolatey as a tool used by LockBit affiliates.\",\n\"attributed\": 1\n},\n{\n\"statement\": \"The selected advisory row maps its reported use to T1072 (Software Deployment Tools).\",\n\"reason\": \"The context does not mention T1072 (Software Deployment Tools) or the selected advisory row.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1015 (Active Directory Configuration), M1017 (User Training), M1018 (User Account Management), M1026 (Privileged Account Management), M1027 (Password Policies), M1029 (Remote Data Storage), M1030 (Network Segmentation), M1032 (Multi-factor Authentication), M1033 (Limit Software Installation), M1051 (Update Software).\",\n\"reason\": \"The context mentions M1030 (Network Segmentation) as a mitigation, but the other listed mitigations are not mentioned.\",\n\"attributed\": 0\n},\n{\n\"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n\"reason\": \"The context does not mention incident-specific proof of effectiveness.\",\n\"attributed\": 0\n}\n]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

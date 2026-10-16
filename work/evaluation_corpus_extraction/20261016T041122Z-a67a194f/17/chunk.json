@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:8314:10530",
+  "doc_id": "AA23-061A",
+  "start": 8314,
+  "end": 10530,
+  "text": "Encryption\nBefore starting the encryption process, BlackSuit actors:\nUse Windows Restart Manager to determine whether targeted files are currently in use or blocked by other applications [T1486].[1]\nUse Windows Volume Shadow Copy service (vssadmin.exe) to delete shadow copies to inhibit system recovery.[1]\nFBI has found numerous batch (.bat) files on impacted systems which are typically transferred as an encrypted 7zip file. Batch files create a new admin user [T1078.002], force a group policy update, set pertinent registry keys to auto-extract [T1119] and execute the ransomware, monitor the encryption process, and delete files upon completion—including Application, System, and Security event logs [T1070.001]. Registry Keys created can be modified and deleted to enable persistence on the victim’s system.\nMalicious files have been found in victim networks in the following directories:\nC:\\Temp\\\nC:\\Users\\<user>\\AppData\\Roaming\\\nC:\\Users\\<users>\\\nC:\\ProgramData\\\nRoot C:\\ directory has also served as a storage location for malicious files. BlackSuit actors have been observed using legitimate software and open source tools during ransomware operations.\nIndicators of Compromise (IOCs)\nSee Table 1 through Table 5 for Royal ransomware IOCs obtained by FBI during threat response activities as of January 2023.\n(New November 13, 2023) See Table 6 and Table 7 for Royal and BlackSuit Ransomware IOCs as of June 2023. See Table 8 for a list of legitimate software used by Royal and BlackSuit threat actors identified through FBI investigations as of June 2023.\n(New August 7, 2024) See Table 9 through Table 15 for BlackSuit ransomware IOCs obtained by FBI during threat response activities as of July 2024 and Figure 1 for a sample ransom note.\nDisclaimer: Some of the observed IP addresses are several years old. FBI and CISA recommend vetting or investigating these IP addresses prior to taking forward-looking action, such as blocking.\nRoyal IOCs as of January 2023\nTable 1: Royal Ransomware Associated Files as of January 2023\nIOC\nDescription\n.royal\nEncrypted file extension\nREADME.TXT\nRansom note\nTable 2: Royal Ransomware Associated IP addresses as of January 2023\nMalicious IP\nLast Observed Activity\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

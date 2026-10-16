@@ -1,0 +1,361 @@
+{
+  "mode": "hybrid",
+  "node2vec_enabled": true,
+  "rrf_k": 60,
+  "rrf_unit": "(source doc_id, parent extraction chunk_id)",
+  "rrf_group_aggregation": "sum of distinct source-parent scores; whole-path/text-context groups",
+  "source_ranks": [
+    {
+      "doc_id": "AA24-109A",
+      "parent_chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+      "ranks": {
+        "graph": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "AA24-109A",
+      "parent_chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+      "ranks": {
+        "graph": 3,
+        "text": 3
+      },
+      "rrf_score": 0.031746031746031744
+    },
+    {
+      "doc_id": "AA24-109A",
+      "parent_chunk_id": "AA24-109A:evaluation:llama500:14693:17032",
+      "ranks": {
+        "graph": 4
+      },
+      "rrf_score": 0.015625
+    },
+    {
+      "doc_id": "AA24-109A",
+      "parent_chunk_id": "AA24-109A:evaluation:llama500:36883:38919",
+      "ranks": {
+        "text": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a",
+      "parent_chunk_id": "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a:description",
+      "ranks": {
+        "text": 2
+      },
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "doc_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98",
+      "parent_chunk_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98:description",
+      "ranks": {
+        "graph": 6,
+        "text": 5
+      },
+      "rrf_score": 0.030536130536130537
+    },
+    {
+      "doc_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324",
+      "parent_chunk_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324:description",
+      "ranks": {
+        "graph": 2
+      },
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "doc_id": "attack:17.1:relationship--8e567361-e2de-4dc6-b953-ec82dc143f58",
+      "parent_chunk_id": "attack:17.1:relationship--8e567361-e2de-4dc6-b953-ec82dc143f58:description",
+      "ranks": {
+        "text": 4
+      },
+      "rrf_score": 0.015625
+    },
+    {
+      "doc_id": "attack:17.1:relationship--c4cd9acb-aaea-4b77-890e-f153a58623a4",
+      "parent_chunk_id": "attack:17.1:relationship--c4cd9acb-aaea-4b77-890e-f153a58623a4:description",
+      "ranks": {
+        "graph": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--f9e62f6d-a091-44a9-91e6-3660b89ba2b9",
+      "parent_chunk_id": "attack:17.1:relationship--f9e62f6d-a091-44a9-91e6-3660b89ba2b9:description",
+      "ranks": {
+        "graph": 7
+      },
+      "rrf_score": 0.014925373134328358
+    }
+  ],
+  "candidate_groups": [
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.04692957315908136
+    },
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.03252247488101534
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.031746031746031744
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:bf46dd7f3830bd311596317c6cf684bb2b61928a04a6a7840ec27a4ff6d4539a",
+      "score": 0.031746031746031744
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.031009615384615385
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.03055037313432836
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:21ccd5c160a96675e0d5bb61565df56aec49b233b87bba1f97399cd0dcf214ac",
+      "score": 0.030536130536130537
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+      "score": 0.016129032258064516
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:1af110402c395816710490278cc3c01afdf29fd2e8797056064cdadf43715c3a",
+      "score": 0.015625
+    }
+  ],
+  "selected_groups": [
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.04692957315908136
+    },
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.03252247488101534
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.031746031746031744
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:bf46dd7f3830bd311596317c6cf684bb2b61928a04a6a7840ec27a4ff6d4539a",
+      "score": 0.031746031746031744
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.031009615384615385
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:21ccd5c160a96675e0d5bb61565df56aec49b233b87bba1f97399cd0dcf214ac",
+      "score": 0.030536130536130537
+    }
+  ],
+  "selected_path_count": 4,
+  "selected_text_chunk_count": 2,
+  "selected_hops": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "skipped_groups": [
+    {
+      "kind": "graph",
+      "id": "P5",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:1af110402c395816710490278cc3c01afdf29fd2e8797056064cdadf43715c3a",
+      "reason": "context_budget"
+    }
+  ],
+  "evidence_utf8_bytes": 2962,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "graph_branch_empty": false,
+  "node2vec": {
+    "seed_groups": [
+      [
+        "attack:S0508",
+        "attack:S1129"
+      ]
+    ],
+    "neighbors_by_seed": {
+      "attack:S0508": [
+        {
+          "canonical_id": "attack:T1572",
+          "name": "Protocol Tunneling",
+          "cosine_distance": 0.08224260807037354
+        },
+        {
+          "canonical_id": "local:AA23-061A:royal-actors",
+          "name": "Royal actors",
+          "cosine_distance": 0.10430824756622314
+        },
+        {
+          "canonical_id": "attack:S0154",
+          "name": "Cobalt Strike",
+          "cosine_distance": 0.2268926501274109
+        },
+        {
+          "canonical_id": "local:AA24-109A:software:84c396084ae5",
+          "name": "SharpDomainSpray",
+          "cosine_distance": 0.22823292016983032
+        },
+        {
+          "canonical_id": "local:AA24-109A:software:3882f5af0e75",
+          "name": "POORTRY",
+          "cosine_distance": 0.23079651594161987
+        }
+      ],
+      "attack:S1129": [
+        {
+          "canonical_id": "attack:T1490",
+          "name": "Inhibit System Recovery",
+          "cosine_distance": 0.05715465545654297
+        },
+        {
+          "canonical_id": "attack:M1028",
+          "name": "Operating System Configuration",
+          "cosine_distance": 0.17301523685455322
+        },
+        {
+          "canonical_id": "attack:M1053",
+          "name": "Data Backup",
+          "cosine_distance": 0.17737925052642822
+        },
+        {
+          "canonical_id": "attack:T1486",
+          "name": "Data Encrypted for Impact",
+          "cosine_distance": 0.2987847328186035
+        },
+        {
+          "canonical_id": "attack:T1491.001",
+          "name": "Internal Defacement",
+          "cosine_distance": 0.30975884199142456
+        }
+      ]
+    },
+    "neighbor_count_per_seed": 5,
+    "base_candidate_count": 12,
+    "expansion_candidate_count": 11,
+    "merged_candidate_count": 12,
+    "graph_index_fingerprint": "28add4ee7fb789cbcf92ae837fbeb60ce4660b561ba057139fe5be985d63378e",
+    "projection_sha256": "518924349a6dcaff49a61c726ab7bc974522be48102ac9d836539bac618a892c",
+    "graph_freshness_verified": true,
+    "similarity_is_fact_evidence": false
+  },
+  "graph_branch": {
+    "candidate_path_count": 9,
+    "selected_path_count": 5,
+    "selected_hops": [
+      2,
+      1,
+      2,
+      2,
+      2
+    ],
+    "evidence_utf8_bytes": 2972,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 2,
+    "seed_groups": [
+      [
+        "attack:S0508",
+        "attack:S1129"
+      ]
+    ]
+  },
+  "text_branch": {
+    "candidate_ranks": [
+      {
+        "rank": 1,
+        "chunk_id": "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+        "parent_extraction_chunk_id": "AA24-109A:evaluation:llama500:36883:38919",
+        "source_kind": "cisa",
+        "cosine_distance": 0.5027859807014465
+      },
+      {
+        "rank": 2,
+        "chunk_id": "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.5204538106918335
+      },
+      {
+        "rank": 3,
+        "chunk_id": "retrieval:bf46dd7f3830bd311596317c6cf684bb2b61928a04a6a7840ec27a4ff6d4539a",
+        "parent_extraction_chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+        "source_kind": "cisa",
+        "cosine_distance": 0.5242912173271179
+      },
+      {
+        "rank": 4,
+        "chunk_id": "retrieval:1af110402c395816710490278cc3c01afdf29fd2e8797056064cdadf43715c3a",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--8e567361-e2de-4dc6-b953-ec82dc143f58:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.5325909852981567
+      },
+      {
+        "rank": 5,
+        "chunk_id": "retrieval:21ccd5c160a96675e0d5bb61565df56aec49b233b87bba1f97399cd0dcf214ac",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.5357986092567444
+      }
+    ],
+    "candidate_chunk_count": 5,
+    "selected_chunk_ids": [
+      "retrieval:b58a446ab5d94958a5c69ec3bf7a443ec3d7cea10f658174c908c2ef4a95cabc",
+      "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+      "retrieval:bf46dd7f3830bd311596317c6cf684bb2b61928a04a6a7840ec27a4ff6d4539a",
+      "retrieval:1af110402c395816710490278cc3c01afdf29fd2e8797056064cdadf43715c3a",
+      "retrieval:21ccd5c160a96675e0d5bb61565df56aec49b233b87bba1f97399cd0dcf214ac"
+    ],
+    "selected_chunk_count": 5,
+    "selected_path_count": 0,
+    "evidence_utf8_bytes": 2521,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_chunks": 0,
+    "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+    "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+    "retrieval_ms": 19.215599982999265
+  },
+  "graph_source": "live_neo4j",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 570.5153000017162
+}

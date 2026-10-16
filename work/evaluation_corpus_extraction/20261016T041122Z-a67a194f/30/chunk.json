@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:23031:24536",
+  "doc_id": "AA23-061A",
+  "start": 23031,
+  "end": 24536,
+  "text": "27d8878d63827c9ee421ed62\nExe.exe, aaaa.exe, qq.exe\n338228a3e79f3993abc102cbac2ff253c84965213d59ac30892538cdd9b0a22b\nRansomware file\nMwntv.sys\n6332f189cc71df646ff0f1b9b02a005c9ebda3fe7b9712976660746913b030de\nPotential Tool Ingress\nUn_A.exe\nMalicious binary for attempting to disable/uninstall security software\nUn_B.erxe\nMalicious binary for attempting to disable/uninstall security software\nTable 11: Batch Script Tools Used by BlackSuit Ransomware Operators and Hash Values\nFilename\nDescription\nHash Value – SHA-256\n2.bat\nBatch Script to copy and execute encryptor\n3041dfc13f356c2f0133a9c11a258f87cb7de1e17bc435e9b623d74bc5e1c6be\nC:\\share$\\_EXEC.bat\nExecute encrypter\n8F87A1542EE790623896BBAAB933D1883484DE02A7B3D65D6C791D50173A923D\nfstart.bat\nA batch script used to enable remote services, perform anti-forensics, and enable clear-text passwords in memory\nNLA.bat\nA batch script used to disable Network Level Authentication (NLA) for Remote Desktop Services (RDS)\nav.bat\nA batch script that searches for presence of an application and uninstalls it\nsysteminfo.bat\nA batch script used for system enumeration\nmv.bat\nA batch script used to move the PsExec executable and delete the netscan executable\nTable 12: IP addresses from BlackSuit Ransomware Deployments (from November 2023 to July 2024)\nIP Address\nTime Range of Use\nDescription\n143[.]244[.]146[.]183:443\nMay 2024\nUnknown C2 – potential SOCKS Proxy\n45[.]141[.]87[.]218:9000\nMay 2024\nArechclient2 Backdoor/SecTopRAT\n45[.]141[.]87[.]218:443\nMay 2024\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    },
+    {
+      "start": 21113,
+      "end": 21176,
+      "text": "Table 10: BlackSuit Ransomware Associated Files and Hash Values"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

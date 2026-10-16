@@ -1,0 +1,54 @@
+{
+  "candidate_ranks": [
+    {
+      "rank": 1,
+      "chunk_id": "retrieval:7fcd3d35376a96c668ca6e0e2955e51861f4b53b920acac0f4256ba72f99235d",
+      "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+      "source_kind": "cisa",
+      "cosine_distance": 0.4256552457809448
+    },
+    {
+      "rank": 2,
+      "chunk_id": "retrieval:195aecfde27870ded24ceecbfa6f0f8ee9564bf8c083b4b86b6781ea4c785761",
+      "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:4174:6733",
+      "source_kind": "cisa",
+      "cosine_distance": 0.46039170026779175
+    },
+    {
+      "rank": 3,
+      "chunk_id": "retrieval:65f6bd966907d8d737bf76198ee2628833c9dca9b0efe430f2395a7fd70b26f8",
+      "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:6550:8835",
+      "source_kind": "cisa",
+      "cosine_distance": 0.4992283582687378
+    },
+    {
+      "rank": 4,
+      "chunk_id": "retrieval:ea6551bc23ca29b7d33edbe561f293b5ae0503d7800bdad9c9f29f4f0edbaad9",
+      "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+      "source_kind": "cisa",
+      "cosine_distance": 0.5016939640045166
+    },
+    {
+      "rank": 5,
+      "chunk_id": "retrieval:d88f8fb1693d8f3b04c0af97a25d0fadd8623cbe28dc389101d9754456803a1d",
+      "parent_extraction_chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+      "source_kind": "cisa",
+      "cosine_distance": 0.517061710357666
+    }
+  ],
+  "candidate_chunk_count": 5,
+  "selected_chunk_ids": [
+    "retrieval:7fcd3d35376a96c668ca6e0e2955e51861f4b53b920acac0f4256ba72f99235d",
+    "retrieval:195aecfde27870ded24ceecbfa6f0f8ee9564bf8c083b4b86b6781ea4c785761",
+    "retrieval:ea6551bc23ca29b7d33edbe561f293b5ae0503d7800bdad9c9f29f4f0edbaad9"
+  ],
+  "selected_chunk_count": 3,
+  "selected_path_count": 0,
+  "evidence_utf8_bytes": 2958,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_chunks": 2,
+  "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+  "index_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "retrieval_ms": 19.138600007863715
+}

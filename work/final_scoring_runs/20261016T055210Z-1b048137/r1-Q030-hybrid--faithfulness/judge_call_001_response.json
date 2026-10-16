@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:15:17.0701306Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4594014400,
+  "load_duration": 10463500,
+  "prompt_eval_count": 461,
+  "prompt_eval_duration": 298951000,
+  "eval_count": 302,
+  "eval_duration": 4176694000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"Royal actors use Chisel to connect to Protocol Tunneling.\",\n        \"Protocol Tunneling is ATT&CK technique T1572.\",\n        \"Filter Network Traffic can mitigate Protocol Tunneling.\",\n        \"Filter Network Traffic is ATT&CK mitigation M1037.\",\n        \"Network Intrusion Prevention can mitigate Protocol Tunneling.\",\n        \"Network Intrusion Prevention is ATT&CK mitigation M1031.\"\n    ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"Royal actors use Chisel to connect to Protocol Tunneling (T1572).\"\n\t* \"Royal actors use Chisel to connect to Protocol Tunneling.\"\n\t* \"Protocol Tunneling is ATT&CK technique T1572.\"\n2. \"Filter Network Traffic (M1037) can mitigate Protocol Tunneling (T1572).\"\n\t* \"Filter Network Traffic can mitigate Protocol Tunneling.\"\n\t* \"Filter Network Traffic is ATT&CK mitigation M1037.\"\n3. \"Network Intrusion Prevention (M1031) can mitigate Protocol Tunneling (T1572).\"\n\t* \"Network Intrusion Prevention can mitigate Protocol Tunneling.\"\n\t* \"Network Intrusion Prevention is ATT&CK mitigation M1031.\"\n\nNote that I've removed the evidence references [E1, E2, E3, E4, E5, E6, E7] as they are not relevant to the breakdown of the sentences.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

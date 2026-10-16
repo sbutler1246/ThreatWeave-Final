@@ -1,0 +1,33 @@
+P035
+Question
+According to AA24-131 A, which ATT&CK technique is connected to Black Basta affiliates through
+the reported use of Backstab? Explain the two-hop actor-to-software-to-technique path with
+evidence.
+Displayed answer
+Black Basta affiliates use Backstab to disable EDR tooling. [El, E2, E3, E4]
+The reported use of Backstab by Black Basta affiliates connects to the Bypass User Account
+Control (UAC) technique. [E4, E3]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+AA24-131A reports Black Basta affiliates deploying Backstab in some instances to disable
+endpoint detection and response tooling. The source cites Tl 562.001 (Disable or Modify Tools).
+The path is Black Basta affiliates USES Backstab USES TECHNIQUE Tl 562.001, with the
+source qualification retained.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and
+response (EDR) tooling.
+[Q; CISA]
+#StopRansomware: Black Basta
+[E3; CISA]
+Technical Details
+[E4; CISA]
+Table 4: Black Basta ATT&CK Techniques for Defense Evasion
+
+--- IMAGE ---
+
+GRAPH NODES
+N 1: Black Basta affiliates
+N2: Backstab
+GRAPH PATHS

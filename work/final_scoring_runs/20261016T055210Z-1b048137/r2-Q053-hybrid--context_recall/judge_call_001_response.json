@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:48:29.9506268Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4335011200,
+  "load_duration": 10868400,
+  "prompt_eval_count": 1853,
+  "prompt_eval_duration": 461713000,
+  "eval_count": 277,
+  "eval_duration": 3784073000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"classifications\": [\n        {\n            \"statement\": \"The AA23-165A Table 4 caption lists ThunderShell as a tool used by LockBit affiliates.\",\n            \"reason\": \"The context mentions ThunderShell as a tool used by LockBit affiliates in Table 4.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"The selected advisory row maps its reported use to T1071.001 (Web Protocols).\",\n            \"reason\": \"The context does not mention T1071.001 (Web Protocols) as a mapping for ThunderShell.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1031 (Network Intrusion Prevention).\",\n            \"reason\": \"The context mentions Network Intrusion Prevention (M1031) as a mitigation for Network Service Discovery (T1046), not for T1071.001 (Web Protocols).\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"These are reference mitigation associations, not incident-specific proof of effectiveness.\",\n            \"reason\": \"The context does not mention reference mitigation associations or incident-specific proof of effectiveness.\",\n            \"attributed\": 0\n        }\n    ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

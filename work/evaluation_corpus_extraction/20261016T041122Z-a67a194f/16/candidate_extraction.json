@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Royal actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1572",
+      "attack_id": "T1572"
+    },
+    {
+      "local_id": "e3",
+      "type": "ThreatGroup",
+      "name": "Royal threat actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1021.001",
+      "attack_id": "T1021.001"
+    },
+    {
+      "local_id": "e5",
+      "type": "ThreatGroup",
+      "name": "BlackSuit actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e6",
+      "type": "Software",
+      "name": "PsExec",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 99,
+        "end": 223,
+        "quote": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 303,
+        "end": 472,
+        "quote": "(Updated August 7, 2024) Historically, Royal threat actors used RDP and legitimate operating system (OS) diagnostic tools to move laterally across a network [T1021.001]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e5",
+      "predicate": "USES",
+      "tail": "e6",
+      "evidence": {
+        "start": 473,
+        "end": 565,
+        "quote": "BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e5",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 473,
+        "end": 565,
+        "quote": "BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally."
+      },
+      "confidence": null
+    }
+  ]
+}

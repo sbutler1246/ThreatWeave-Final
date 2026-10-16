@@ -1,0 +1,351 @@
+{
+  "mode": "hybrid",
+  "node2vec_enabled": true,
+  "rrf_k": 60,
+  "rrf_unit": "(source doc_id, parent extraction chunk_id)",
+  "rrf_group_aggregation": "sum of distinct source-parent scores; whole-path/text-context groups",
+  "source_ranks": [
+    {
+      "doc_id": "AA23-319A",
+      "parent_chunk_id": "AA23-319A:development:llama500:2651:5181",
+      "ranks": {
+        "graph": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "attack:17.1:relationship--4f24d075-4d6c-49d2-a213-306e4af2083d",
+      "parent_chunk_id": "attack:17.1:relationship--4f24d075-4d6c-49d2-a213-306e4af2083d:description",
+      "ranks": {
+        "graph": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+      "parent_chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+      "ranks": {
+        "text": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69",
+      "parent_chunk_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69:description",
+      "ranks": {
+        "text": 4
+      },
+      "rrf_score": 0.015625
+    },
+    {
+      "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+      "parent_chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+      "ranks": {
+        "graph": 2,
+        "text": 3
+      },
+      "rrf_score": 0.03200204813108039
+    },
+    {
+      "doc_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013",
+      "parent_chunk_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013:description",
+      "ranks": {
+        "graph": 6
+      },
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+      "parent_chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+      "ranks": {
+        "graph": 4,
+        "text": 5
+      },
+      "rrf_score": 0.031009615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867",
+      "parent_chunk_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867:description",
+      "ranks": {
+        "graph": 5,
+        "text": 2
+      },
+      "rrf_score": 0.0315136476426799
+    }
+  ],
+  "candidate_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.04839549075403121
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.047907090265630725
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.04740305800756621
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.032266458495966696
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.031544957774465976
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+      "score": 0.0315136476426799
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:1a0788aa8cc346978ffe7e83c12f3961849b3d675d3eee93ec25235d991a1dc4",
+      "score": 0.031009615384615385
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:3a012d5cbcdab7ba10209984aefcfa9b9b41fe4d9a87a13d38587429f177dd0d",
+      "score": 0.015625
+    }
+  ],
+  "selected_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.04839549075403121
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.047907090265630725
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.04740305800756621
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.032266458495966696
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.031544957774465976
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+      "score": 0.0315136476426799
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:1a0788aa8cc346978ffe7e83c12f3961849b3d675d3eee93ec25235d991a1dc4",
+      "score": 0.031009615384615385
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+      "score": 0.01639344262295082
+    }
+  ],
+  "selected_path_count": 5,
+  "selected_text_chunk_count": 4,
+  "selected_hops": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "skipped_groups": [
+    {
+      "kind": "text",
+      "id": "retrieval:3a012d5cbcdab7ba10209984aefcfa9b9b41fe4d9a87a13d38587429f177dd0d",
+      "reason": "context_budget"
+    }
+  ],
+  "evidence_utf8_bytes": 2954,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "graph_branch_empty": false,
+  "node2vec": {
+    "seed_groups": [
+      [
+        "attack:T1078"
+      ],
+      [
+        "local:AA23-319A:rhysida-actors"
+      ]
+    ],
+    "neighbors_by_seed": {
+      "attack:T1078": [
+        {
+          "canonical_id": "attack:M1013",
+          "name": "Application Developer Guidance",
+          "cosine_distance": 0.023367762565612793
+        },
+        {
+          "canonical_id": "attack:M1027",
+          "name": "Password Policies",
+          "cosine_distance": 0.03014838695526123
+        },
+        {
+          "canonical_id": "attack:M1036",
+          "name": "Account Use Policies",
+          "cosine_distance": 0.03688967227935791
+        },
+        {
+          "canonical_id": "attack:M1015",
+          "name": "Active Directory Configuration",
+          "cosine_distance": 0.04023945331573486
+        },
+        {
+          "canonical_id": "attack:M1032",
+          "name": "Multi-factor Authentication",
+          "cosine_distance": 0.098907470703125
+        }
+      ],
+      "local:AA23-319A:rhysida-actors": [
+        {
+          "canonical_id": "local:AA23-319A:software:e6ae79ce9336",
+          "name": "Windows PowerShell Integrated Scripting Environment",
+          "cosine_distance": 0.008095383644104004
+        },
+        {
+          "canonical_id": "attack:S1138",
+          "name": "Gootloader",
+          "cosine_distance": 0.009664297103881836
+        },
+        {
+          "canonical_id": "attack:M1015",
+          "name": "Active Directory Configuration",
+          "cosine_distance": 0.07910418510437012
+        },
+        {
+          "canonical_id": "attack:M1013",
+          "name": "Application Developer Guidance",
+          "cosine_distance": 0.12632900476455688
+        },
+        {
+          "canonical_id": "attack:M1027",
+          "name": "Password Policies",
+          "cosine_distance": 0.13506394624710083
+        }
+      ]
+    },
+    "neighbor_count_per_seed": 5,
+    "base_candidate_count": 9,
+    "expansion_candidate_count": 5,
+    "merged_candidate_count": 9,
+    "graph_index_fingerprint": "da85cd77a7811edf7d5ca4e9db82a2a6b1669ef614f9d0115483bbb3124a8fc0",
+    "projection_sha256": "3b5d61276de1b58773079a2c80dcac52d1c00eeeafbb73c68d3956e244678982",
+    "graph_freshness_verified": true,
+    "similarity_is_fact_evidence": false
+  },
+  "graph_branch": {
+    "candidate_path_count": 9,
+    "selected_path_count": 5,
+    "selected_hops": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "evidence_utf8_bytes": 2728,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 3,
+    "seed_groups": [
+      [
+        "attack:T1078"
+      ],
+      [
+        "local:AA23-319A:rhysida-actors"
+      ]
+    ]
+  },
+  "text_branch": {
+    "candidate_ranks": [
+      {
+        "rank": 1,
+        "chunk_id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.4246218204498291
+      },
+      {
+        "rank": 2,
+        "chunk_id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.46962422132492065
+      },
+      {
+        "rank": 3,
+        "chunk_id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.4703676700592041
+      },
+      {
+        "rank": 4,
+        "chunk_id": "retrieval:3a012d5cbcdab7ba10209984aefcfa9b9b41fe4d9a87a13d38587429f177dd0d",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.5100778341293335
+      },
+      {
+        "rank": 5,
+        "chunk_id": "retrieval:1a0788aa8cc346978ffe7e83c12f3961849b3d675d3eee93ec25235d991a1dc4",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.5174260139465332
+      }
+    ],
+    "candidate_chunk_count": 5,
+    "selected_chunk_ids": [
+      "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+      "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+      "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+      "retrieval:3a012d5cbcdab7ba10209984aefcfa9b9b41fe4d9a87a13d38587429f177dd0d",
+      "retrieval:1a0788aa8cc346978ffe7e83c12f3961849b3d675d3eee93ec25235d991a1dc4"
+    ],
+    "selected_chunk_count": 5,
+    "selected_path_count": 0,
+    "evidence_utf8_bytes": 1880,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_chunks": 0,
+    "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+    "index_fingerprint": "607e1e265093bfc94fa6d7f4ddcb5317bc722705859ad6c5d0440ef8279adc5f",
+    "retrieval_ms": 60.50740001956001
+  },
+  "graph_source": "live_neo4j",
+  "index_fingerprint": "607e1e265093bfc94fa6d7f4ddcb5317bc722705859ad6c5d0440ef8279adc5f",
+  "retrieval_ms": 515.4570000013337
+}

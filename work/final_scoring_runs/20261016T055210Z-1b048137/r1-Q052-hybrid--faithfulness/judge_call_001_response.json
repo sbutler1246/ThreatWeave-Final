@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:05:43.2969766Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5603500800,
+  "load_duration": 7292900,
+  "prompt_eval_count": 523,
+  "prompt_eval_duration": 102590000,
+  "eval_count": 407,
+  "eval_duration": 5198702000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"LockBit affiliates use Advanced Port Scanner to perform Network Service Discovery.\",\n        \"Network Service Discovery is a technique mapped to Ligolo in AA23-165A.\",\n        \"Network Segmentation can mitigate Network Service Discovery.\",\n        \"Network Intrusion Prevention can mitigate Remote Access Tools.\",\n        \"Pre-compromise can mitigate Develop Capabilities.\",\n        \"Pre-compromise can mitigate Compromise Accounts.\"\n    ]\n}\n\nHere's the breakdown of each sentence in the answer:\n\n1. \"LockBit affiliates use Advanced Port Scanner to perform Network Service Discovery (T1046). [E1, E2, E3, E15]\"\n\t* LockBit affiliates use Advanced Port Scanner.\n\t* Advanced Port Scanner is used to perform Network Service Discovery.\n\t* Network Service Discovery is a technique mapped to T1046.\n2. \"Network Segmentation (M1030) can mitigate Network Service Discovery (T1046). [E4, E5]\"\n\t* Network Segmentation can mitigate Network Service Discovery.\n\t* Network Service Discovery is a technique mapped to T1046.\n3. \"Network Intrusion Prevention (M1031) can mitigate Remote Access Tools (T1219). [E7, E8]\"\n\t* Network Intrusion Prevention can mitigate Remote Access Tools.\n\t* Remote Access Tools is a technique mapped to T1219.\n4. \"Pre-compromise (M1056) can mitigate Develop Capabilities (T1587) and Compromise Accounts (T1586). [E14, E18]\"\n\t* Pre-compromise can mitigate Develop Capabilities.\n\t* Develop Capabilities is a technique mapped to T1587.\n\t* Pre-compromise can mitigate Compromise Accounts.\n\t* Compromise Accounts is a technique mapped to T1586.\n\nNote that I've removed the references [E1, E2, E3, E15] etc. as they are not relevant to the breakdown of the sentences.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

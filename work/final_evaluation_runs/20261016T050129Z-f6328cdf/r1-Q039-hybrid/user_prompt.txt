@@ -1,0 +1,59 @@
+QUESTION: According to AA24-131A, which ATT&CK technique is connected to Black Basta affiliates through the reported use of Backstab? Explain the two-hop actor-to-software-to-technique path with evidence.
+MODE: hybrid
+SOURCE PASSAGES
+[E1; CISA]
+Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.
+[E2; CISA]
+#StopRansomware: Black Basta
+[E3; CISA]
+Technical Details
+[E4; CISA]
+Table 4: Black Basta ATT&CK Techniques for Defense Evasion
+[E5; CISA]
+1566.004
+Black Basta affiliates have used spearphishing phone and Microsoft Teams calls to trick users into providing initial access.
+Exploit Public-Facing Application
+T1190
+Black Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.
+Table 3: Black Basta ATT&CK Techniques for Privilege Escalation
+Technique Title
+ID
+Use
+Exploitation for Privilege Escalation
+T1068
+Black Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation.
+Table 4: Black Basta ATT&CK Techniques for Defense Evasion
+Technique Title
+ID
+Use
+Masquerading
+T1036
+Black Basta affiliates have conducted reconnaissance using utilities with innocuous file names, such as Intel or Dell, to evade detection.
+Impair Defenses: Disable or Modify Tools
+T1562.001
+Black Basta affiliates have deployed a tool called Backsta
+[E6; CISA]
+Table 2: Black Basta ATT&CK Techniques for Initial Access
+[E7; CISA]
+ATT&CK Techniques for Impact
+Technique Title
+ID
+Use
+Inhibit System Recovery
+T1490
+Black Basta affiliates have used the vssadmin.exe program to delete shadow copies.
+Data Encrypted for Impact
+T1486
+Black Basta affiliates have used a public key to fully encrypt files.
+Indicators of Compromise
+Update November 8, 2024:
+Many indicators provided in this advisory’s initial publication have been removed considering they are outdated. For historic reference, see AA24-131A #StopRansomware: Black Basta (Initial Version).
+The IOCs listed in Tables 7–8 were obtained from trusted third-party reporting and are considered most current.
+Disclaimer: The authoring organizations recommend network defenders investigate or vet IP addresses prior to taking action, such as blocking, as many cyber actors are known to change IP addresses, sometimes daily, and some IP addresses may host valid domains.
+
+GRAPH NODES
+N1: Black Basta affiliates
+N2: Backstab
+GRAPH PATHS
+P1: N1 --USES[E1,E2,E3,E4]--> N2
+Return the requested JSON. The displayed answer is assembled from claims.

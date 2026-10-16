@@ -1,0 +1,285 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Lockbit 3.0",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Lockbit 3.0",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 19,
+      "text": "Windows Event Logs",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 20,
+      "end": 32,
+      "text": "Registry Key",
+      "line_start": 20
+    },
+    "u003": {
+      "start": 33,
+      "end": 38,
+      "text": "Value",
+      "line_start": 33
+    },
+    "u004": {
+      "start": 39,
+      "end": 43,
+      "text": "Data",
+      "line_start": 39
+    },
+    "u005": {
+      "start": 44,
+      "end": 110,
+      "text": "HKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\*",
+      "line_start": 44
+    },
+    "u006": {
+      "start": 111,
+      "end": 118,
+      "text": "Enabled",
+      "line_start": 111
+    },
+    "u007": {
+      "start": 119,
+      "end": 120,
+      "text": "0",
+      "line_start": 119
+    },
+    "u008": {
+      "start": 121,
+      "end": 202,
+      "text": "HKLM\\SOFTWARE\\Microsoft\\Windows \\CurrentVersion\\WINEVT\\Channels \\* \\ChannelAccess",
+      "line_start": 121
+    },
+    "u009": {
+      "start": 203,
+      "end": 216,
+      "text": "ChannelAccess",
+      "line_start": 203
+    },
+    "u010": {
+      "start": 217,
+      "end": 269,
+      "text": "AO:BAG:SYD:(A;;0x1;; ;SY)(A;;0x5;;;BA)(A; ;0x1;;;LA)",
+      "line_start": 217
+    },
+    "u011": {
+      "start": 270,
+      "end": 286,
+      "text": "Ransom Locations",
+      "line_start": 270
+    },
+    "u012": {
+      "start": 287,
+      "end": 318,
+      "text": "LockBit 3.0 File Path Locations",
+      "line_start": 287
+    },
+    "u013": {
+      "start": 319,
+      "end": 356,
+      "text": "ADMIN$\\Temp\\<LockBit3.0 Filename>.exe",
+      "line_start": 319
+    },
+    "u014": {
+      "start": 357,
+      "end": 400,
+      "text": "%SystemRoot%\\Temp\\<LockBit3.0 Filename>.exe",
+      "line_start": 357
+    },
+    "u015": {
+      "start": 401,
+      "end": 491,
+      "text": "\\<Domain Name>\\sysvol\\<Domain Name>\\scripts\\<Lockbit 3.0 Filename>.exe (Domain Controller)",
+      "line_start": 401
+    },
+    "u016": {
+      "start": 492,
+      "end": 517,
+      "text": "Safe Mode Launch Commands",
+      "line_start": 492
+    },
+    "u017": {
+      "start": 518,
+      "end": 601,
+      "text": "LockBit 3.0 has a Safe Mode feature to circumvent endpoint antivirus and detection.",
+      "line_start": 518
+    },
+    "u018": {
+      "start": 602,
+      "end": 728,
+      "text": "Depending upon the host operating system, the following command is launched to reboot the system to Safe Mode with Networking:",
+      "line_start": 518
+    },
+    "u019": {
+      "start": 729,
+      "end": 745,
+      "text": "Operating System",
+      "line_start": 729
+    },
+    "u020": {
+      "start": 746,
+      "end": 779,
+      "text": "Safe Mode with Networking command",
+      "line_start": 746
+    },
+    "u021": {
+      "start": 780,
+      "end": 795,
+      "text": "Vista and newer",
+      "line_start": 780
+    },
+    "u022": {
+      "start": 796,
+      "end": 835,
+      "text": "bcdedit /set {current} safeboot network",
+      "line_start": 796
+    },
+    "u023": {
+      "start": 836,
+      "end": 845,
+      "text": "Pre-Vista",
+      "line_start": 836
+    },
+    "u024": {
+      "start": 846,
+      "end": 885,
+      "text": "bootcfg /raw /a /safeboot:network /id 1",
+      "line_start": 846
+    },
+    "u025": {
+      "start": 886,
+      "end": 902,
+      "text": "Operating System",
+      "line_start": 886
+    },
+    "u026": {
+      "start": 903,
+      "end": 927,
+      "text": "Disable Safe mode reboot",
+      "line_start": 903
+    },
+    "u027": {
+      "start": 928,
+      "end": 943,
+      "text": "Vista and newer",
+      "line_start": 928
+    },
+    "u028": {
+      "start": 944,
+      "end": 983,
+      "text": "bcdedit /deletevalue {current} safeboot",
+      "line_start": 944
+    },
+    "u029": {
+      "start": 984,
+      "end": 993,
+      "text": "Pre-Vista",
+      "line_start": 984
+    },
+    "u030": {
+      "start": 994,
+      "end": 1024,
+      "text": "bootcfg /raw /fastdetect /id 1",
+      "line_start": 994
+    },
+    "u031": {
+      "start": 1025,
+      "end": 1047,
+      "text": "Group Policy Artifacts",
+      "line_start": 1025
+    },
+    "u032": {
+      "start": 1048,
+      "end": 1159,
+      "text": "The following are Group Policy Extensible Markup Language (XML) files identified after a LockBit 3.0 infection:",
+      "line_start": 1048
+    },
+    "u033": {
+      "start": 1160,
+      "end": 1177,
+      "text": "NetworkShares.xml",
+      "line_start": 1160
+    },
+    "u034": {
+      "start": 1178,
+      "end": 1216,
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+      "line_start": 1178
+    },
+    "u035": {
+      "start": 1217,
+      "end": 1286,
+      "text": "<NetworkShareSettings clsid=\"{520870D8-A6E7-47e8-A8D8-E6A4E76EAEC2}\">",
+      "line_start": 1217
+    },
+    "u036": {
+      "start": 1287,
+      "end": 1343,
+      "text": "<NetShare clsid=\"{2888C5E7-94FC-4739-90AA-2C1536D68BC0}\"",
+      "line_start": 1287
+    },
+    "u037": {
+      "start": 1344,
+      "end": 1402,
+      "text": "image=\"2\" name=\"%%ComputerName%%_D\" changed=\"%s\" uid=\"%s\">",
+      "line_start": 1344
+    },
+    "u038": {
+      "start": 1403,
+      "end": 1560,
+      "text": "<Properties action=\"U\" name=\"%%ComputerName%%_D\" path=\"D:\" comment=\"\" allRegular=\"0\" allHidden=\"0\" allAdminDrive=\"0\" limitUsers=\"NO_CHANGE\" abe=\"NO_CHANGE\"/>",
+      "line_start": 1403
+    },
+    "u039": {
+      "start": 1561,
+      "end": 1637,
+      "text": "Services.xml stops and disables services on the Active Directory (AD) hosts.",
+      "line_start": 1561
+    },
+    "u040": {
+      "start": 1638,
+      "end": 1650,
+      "text": "Services.xml",
+      "line_start": 1638
+    },
+    "u041": {
+      "start": 1651,
+      "end": 1689,
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+      "line_start": 1651
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1202",
+    "m002_S": "attack:S1202"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-061A
+CHUNK_ID: AA23-061A:evaluation:llama500:32858:33890
+SOURCE_UNITS:
+{"u001": "c6 84 24 ?? 00 00 00 ??", "u002": "c6 84 24 ?? 00 00 00 ??", "u003": "c6 84 24 ?? 00 00 00 ??", "u004": "c6 84 24 ?? 00 00 00 ??", "u005": "c6 84 24 ?? 00 00 00 ??", "u006": "c6 84 24 ?? 00 00 00 ??", "u007": "}", "u008": "// c6 84 24 ?? 00 00 00 ?? | MOV byte ptr [ESP + ??], ??", "u009": "$code_deobfuscate = { 99 f7 ?? 8d ?? ?? 99 f7 ?? 88}", "u010": "// 99 | CDQ", "u011": "// f7 ?? | IDIV ??", "u012": "// 8d ?? ?? | LEA ??, ??", "u013": "// 99 | CDQ", "u014": "// f7 ?? | IDIV ??", "u015": "// 88 | MOV", "u016": "condition:", "u017": "all of them", "u018": "}", "u019": "rule calls_rsa_function {", "u020": "strings:", "u021": "// Code for function calls using RSA key", "u022": "$code_rsa_function_1 = { 8d4c2410 6a?? 6a?? 51 6a?? 6a?? 6a?? 68???????? ffd0 }", "u023": "// 8d 4c 24 10 | LEA ECX, [esp + 0x10]", "u024": "// 6a ?? | PUSH ??", "u025": "// 6a ?? | PUSH ??", "u026": "// 51 | PUSH ECX", "u027": "// 6a ?? | PUSH ??", "u028": "// 6a ?? | PUSH ??", "u029": "// 6a ?? | PUSH ??", "u030": "// 68 ?? ?? ?? ?? | PUSH (address of RSA string)", "u031": "// ff d0 | CALL EAX", "u032": "$code_rsa_function_2 = { 8d4c2410 6a?? 6a?? 51 56 6a?? 6a?? 68???????? ffd0 }", "u033": "// 8d 4c 24 10 | LEA ECX, [esp + 0x10]", "u034": "// 6a ?? | PUSH ??", "u035": "// 6a ?? | PUSH ??", "u036": "// 51 | PUSH ECX", "u037": "// 56 | PUSH ESI", "u038": "// 6a ?? | PUSH ??", "u039": "// 6a ?? | PUSH ??", "u040": "// 68 ?? ?? ?? ?? | PUSH (address of RSA string)"}
+SOURCE_MENTIONS:
+[]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[]

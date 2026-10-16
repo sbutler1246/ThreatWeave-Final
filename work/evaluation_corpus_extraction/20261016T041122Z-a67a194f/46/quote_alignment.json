@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u004"
+    ],
+    "selected_units": [
+      {
+        "start": 78,
+        "end": 195,
+        "text": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.",
+        "line_start": 78
+      }
+    ],
+    "document_start": 15881,
+    "document_end": 15998,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 368,
+        "end": 536,
+        "text": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+        "line_start": 368
+      }
+    ],
+    "document_start": 16171,
+    "document_end": 16339,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 368,
+        "end": 536,
+        "text": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+        "line_start": 368
+      }
+    ],
+    "document_start": 16171,
+    "document_end": 16339,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 368,
+        "end": 536,
+        "text": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+        "line_start": 368
+      }
+    ],
+    "document_start": 16171,
+    "document_end": 16339,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

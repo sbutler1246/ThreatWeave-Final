@@ -1,0 +1,120 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2",
+      "chunk_id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Use network intrusion detection/prevention systems to detect and prevent remote service scans.",
+      "start": 292,
+      "end": 386,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2",
+      "chunk_id": "retrieval:5d862f7b299755729a433aef64719607ee2729acc1ca1ad0720bb7c5822aab0f",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Network Service Discovery (T1046)\nMitigation: Network Intrusion Prevention (M1031)",
+      "start": 0,
+      "end": 114,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204",
+      "chunk_id": "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.",
+      "start": 273,
+      "end": 438,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204",
+      "chunk_id": "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Develop Capabilities (T1587)\nMitigation: Pre-compromise (M1056)",
+      "start": 0,
+      "end": 95,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "attack:17.1:relationship--32d482c4-2c0d-4688-a38b-d73b5b2962a3",
+      "chunk_id": "retrieval:63abb15386a46b9c71c49a5b28ae7f5b26ea077549169fa57af47ec59e956127",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Ensure that unnecessary ports and services are closed to prevent risk of discovery and potential exploitation.",
+      "start": 300,
+      "end": 410,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "attack:17.1:relationship--32d482c4-2c0d-4688-a38b-d73b5b2962a3",
+      "chunk_id": "retrieval:63abb15386a46b9c71c49a5b28ae7f5b26ea077549169fa57af47ec59e956127",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Network Service Discovery (T1046)\nMitigation: Disable or Remove Feature or Program (M1042)",
+      "start": 0,
+      "end": 122,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64",
+      "chunk_id": "retrieval:c404483d9c48cbb8ec9f71a3973d0da3cfa07bbc455f0cc87634f8e436e335c7",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Network intrusion detection and prevention systems that use network signatures may be able to prevent traffic to remote access services.",
+      "start": 286,
+      "end": 422,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E8",
+      "doc_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64",
+      "chunk_id": "retrieval:c404483d9c48cbb8ec9f71a3973d0da3cfa07bbc455f0cc87634f8e436e335c7",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Remote Access Tools (T1219)\nMitigation: Network Intrusion Prevention (M1031)",
+      "start": 0,
+      "end": 108,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E9",
+      "doc_id": "attack:17.1:relationship--7bdcd3e6-f741-4f62-9495-3111309adad8",
+      "chunk_id": "retrieval:7795ab516229d6f864e192ea12a39a727fbcca444a732c7c027eaf5f73a93441",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware can be used to mitigate activity at the network level.",
+      "start": 305,
+      "end": 528,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E10",
+      "doc_id": "attack:17.1:relationship--7bdcd3e6-f741-4f62-9495-3111309adad8",
+      "chunk_id": "retrieval:7795ab516229d6f864e192ea12a39a727fbcca444a732c7c027eaf5f73a93441",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Exfiltration Over Alternative Protocol (T1048)\nMitigation: Network Intrusion Prevention (M1031)",
+      "start": 0,
+      "end": 127,
+      "source_kind": "attack"
+    }
+  ],
+  "paths": [],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10"
+  ],
+  "retrieval_ms": 21.386400010669604,
+  "configuration_hash": "fb3bca230c45e4ecdb2fdaf776826d2f60d68182c76c16cb4da564aad97521f7",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

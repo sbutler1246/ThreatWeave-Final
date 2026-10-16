@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:47:18.3313159Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7268564200,
+  "load_duration": 6158200,
+  "prompt_eval_count": 1850,
+  "prompt_eval_duration": 263723000,
+  "eval_count": 525,
+  "eval_duration": 6911717000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use Advanced Port Scanner.\",\n      \"reason\": \"The context explicitly states that Advanced Port Scanner is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates' use of Advanced Port Scanner is mitigated by Network Segmentation.\",\n      \"reason\": \"The context states that Network Segmentation is a mitigation for Network Service Discovery (T1046), but it does not explicitly mention that it mitigates Advanced Port Scanner.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"LockBit affiliates use AnyDesk.\",\n      \"reason\": \"The context explicitly states that AnyDesk enables remote connections to network devices and is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates' use of AnyDesk is mitigated by Network Intrusion Prevention.\",\n      \"reason\": \"The context states that Network Intrusion Prevention may be able to prevent traffic to remote access services, but it does not explicitly mention that it mitigates AnyDesk.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"LockBit affiliates use Atera Remote Monitoring & Management (RMM).\",\n      \"reason\": \"The context explicitly states that Atera Remote Monitoring & Management (RMM) enables remote connections to network devices and is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates' use of Atera Remote Monitoring & Management (RMM) is mitigated by Network Intrusion Prevention.\",\n      \"reason\": \"The context states that Network Intrusion Prevention may be able to prevent traffic to remote access services, but it does not explicitly mention that it mitigates Atera Remote Monitoring & Management (RMM).\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"LockBit affiliates use Backstab.\",\n      \"reason\": \"The context explicitly states that Backstab terminates antimalware-protected processes and is used by LockBit affiliates.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"LockBit affiliates' use of Backstab is mitigated by User Account Management.\",\n      \"reason\": \"The context states that User Account Management is a mitigation for Disable or Modify Tools (T1562.001), but it does not explicitly mention that it mitigates Backstab.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

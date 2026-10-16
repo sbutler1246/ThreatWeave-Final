@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Medusa actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1567.002",
+      "attack_id": "T1567.002"
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "gaze.exe",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1072",
+      "attack_id": "T1072"
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1484.001",
+      "attack_id": "T1484.001"
+    },
+    {
+      "local_id": "e6",
+      "type": "Software",
+      "name": "Rclone",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1228,
+        "end": 1416,
+        "quote": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 1729,
+        "end": 1960,
+        "quote": "The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 831,
+        "end": 979,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors make changes to Active Directory Default Domain Policy settings to override Group Policy settings [T1484.001]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e6",
+      "evidence": {
+        "start": 1228,
+        "end": 1416,
+        "quote": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002]."
+      },
+      "confidence": null
+    }
+  ]
+}

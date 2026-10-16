@@ -1,0 +1,713 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1068",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Black Basta",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Black Basta affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "BITSAdmin",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Remote Desktop Protocol",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "RDP",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Some affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Splashtop",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "Screen Connect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "RClone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "PowerShell",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Backstab",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "inhibit system recovery",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "vssadmin.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m020",
+      "text": "T1490",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m021",
+      "text": "Black Basta Affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m022",
+      "text": "Tool Name",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m023",
+      "text": "AnyDesk",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m024",
+      "text": "Microsoft Teams",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m025",
+      "text": "Microsoft Quick Assist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m026",
+      "text": "Quick Assist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m027",
+      "text": "Background Intelligent Transfer Service",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1068",
+      "type": "Technique",
+      "attack_id": "T1068"
+    },
+    "m002_S": {
+      "name": "Black Basta",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Black Basta affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "BITSAdmin",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Remote Desktop Protocol",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "RDP",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_G": {
+      "name": "Some affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "Splashtop",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "Screen Connect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "RClone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_T": {
+      "name": "PowerShell",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m014_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m015_S": {
+      "name": "Backstab",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m017_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m018_T": {
+      "name": "inhibit system recovery",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m019_S": {
+      "name": "vssadmin.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m020_T": {
+      "name": "T1490",
+      "type": "Technique",
+      "attack_id": "T1490"
+    },
+    "m021_G": {
+      "name": "Black Basta Affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m022_S": {
+      "name": "Tool Name",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m023_S": {
+      "name": "AnyDesk",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m024_S": {
+      "name": "Microsoft Teams",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m025_S": {
+      "name": "Microsoft Quick Assist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m026_S": {
+      "name": "Quick Assist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m027_S": {
+      "name": "Background Intelligent Transfer Service",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 182,
+      "text": "1-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 183,
+      "end": 199,
+      "text": "Lateral Movement",
+      "line_start": 183
+    },
+    "u003": {
+      "start": 200,
+      "end": 326,
+      "text": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement.",
+      "line_start": 200
+    },
+    "u004": {
+      "start": 327,
+      "end": 466,
+      "text": "Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.",
+      "line_start": 200
+    },
+    "u005": {
+      "start": 467,
+      "end": 494,
+      "text": "Exfiltration and Encryption",
+      "line_start": 467
+    },
+    "u006": {
+      "start": 495,
+      "end": 581,
+      "text": "Black Basta affiliates use RClone to facilitate data exfiltration prior to encryption.",
+      "line_start": 495
+    },
+    "u007": {
+      "start": 582,
+      "end": 985,
+      "text": "Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486].",
+      "line_start": 495
+    },
+    "u008": {
+      "start": 986,
+      "end": 1245,
+      "text": "A .basta or otherwise random file extension is added to file names and a ransom note titled readme.txt is left on the compromised system.[4] To further inhibit system recovery, affiliates use the vssadmin.exe program to delete volume shadow copies [T1490].[5]",
+      "line_start": 495
+    },
+    "u009": {
+      "start": 1246,
+      "end": 1261,
+      "text": "Leveraged Tools",
+      "line_start": 1246
+    },
+    "u010": {
+      "start": 1262,
+      "end": 1351,
+      "text": "See Table 1 for publicly available tools and applications used by Black Basta affiliates.",
+      "line_start": 1262
+    },
+    "u011": {
+      "start": 1352,
+      "end": 1415,
+      "text": "This includes legitimate tools repurposed for their operations.",
+      "line_start": 1262
+    },
+    "u012": {
+      "start": 1416,
+      "end": 1573,
+      "text": "Disclaimer: Use of these tools and applications should not be attributed as malicious without analytical evidence to support threat actor use and/or control.",
+      "line_start": 1416
+    },
+    "u013": {
+      "start": 1574,
+      "end": 1672,
+      "text": "Black Basta affiliates were observed using these legitimate tools for intended malicious purposes.",
+      "line_start": 1416
+    },
+    "u014": {
+      "start": 1673,
+      "end": 1718,
+      "text": "Table 1: Tools Used by Black Basta Affiliates",
+      "line_start": 1673
+    },
+    "u015": {
+      "start": 1719,
+      "end": 1728,
+      "text": "Tool Name",
+      "line_start": 1719
+    },
+    "u016": {
+      "start": 1729,
+      "end": 1740,
+      "text": "Description",
+      "line_start": 1729
+    },
+    "u017": {
+      "start": 1741,
+      "end": 1748,
+      "text": "AnyDesk",
+      "line_start": 1741
+    },
+    "u018": {
+      "start": 1749,
+      "end": 1863,
+      "text": "A remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.",
+      "line_start": 1749
+    },
+    "u019": {
+      "start": 1864,
+      "end": 1879,
+      "text": "Microsoft Teams",
+      "line_start": 1864
+    },
+    "u020": {
+      "start": 1880,
+      "end": 1998,
+      "text": "A messaging application used within organizations and maliciously used by Black Basta affiliates to contact employees.",
+      "line_start": 1880
+    },
+    "u021": {
+      "start": 1999,
+      "end": 2021,
+      "text": "Microsoft Quick Assist",
+      "line_start": 1999
+    },
+    "u022": {
+      "start": 2022,
+      "end": 2136,
+      "text": "A remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.",
+      "line_start": 2022
+    },
+    "u023": {
+      "start": 2137,
+      "end": 2146,
+      "text": "BITSAdmin",
+      "line_start": 2137
+    },
+    "u024": {
+      "start": 2147,
+      "end": 2328,
+      "text": "A command-line utility that manages downloads/uploads between a client and server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.",
+      "line_start": 2147
+    },
+    "u025": {
+      "start": 2329,
+      "end": 2342,
+      "text": "Cobalt Strike",
+      "line_start": 2329
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1068",
+    "m002_S": "attack:S1070",
+    "m003_G": "local:ThreatGroup:black basta affiliates",
+    "m004_S": "attack:S0190",
+    "m005_S": "attack:S0029",
+    "m006_S": "local:Software:remote desktop protocol",
+    "m007_S": "local:Software:rdp",
+    "m008_G": "local:ThreatGroup:some affiliates",
+    "m009_S": "local:Software:splashtop",
+    "m010_S": "local:Software:screen connect",
+    "m011_S": "attack:S0154",
+    "m012_S": "attack:S1040",
+    "m013_T": "attack:T1059.001",
+    "m014_T": "attack:T1059.001",
+    "m015_S": "local:Software:backstab",
+    "m016_T": "attack:T1562.001",
+    "m017_T": "attack:T1486",
+    "m018_T": "attack:T1490",
+    "m019_S": "local:Software:vssadmin.exe",
+    "m020_T": "attack:T1490",
+    "m021_G": "local:ThreatGroup:black basta affiliates",
+    "m022_S": "local:Software:tool name",
+    "m023_S": "local:Software:anydesk",
+    "m024_S": "local:Software:microsoft teams",
+    "m025_S": "local:Software:microsoft quick assist",
+    "m026_S": "attack:S1209",
+    "m027_S": "local:Software:background intelligent transfer service"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S",
+        "m005_S",
+        "m006_S",
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m008_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S",
+        "m010_S",
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u006"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m015_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m014_T",
+        "m016_T",
+        "m017_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m015_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m014_T",
+        "m016_T",
+        "m017_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u008"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m019_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m020_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m021_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014",
+        "u015"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m021_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m022_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014",
+        "u017"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m021_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m023_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014",
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m021_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m024_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014",
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m021_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m025_S",
+        "m026_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014",
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m021_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014",
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m021_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    }
+  ]
+}

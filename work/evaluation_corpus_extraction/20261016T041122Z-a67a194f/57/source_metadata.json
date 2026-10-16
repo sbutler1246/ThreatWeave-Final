@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-109A:evaluation:llama500:23225:24336",
+    "doc_id": "AA24-109A",
+    "start": 23225,
+    "end": 24336,
+    "text": "af8f2be1fd9438696d\nC9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0\nAkira Megazord ransomware.\nVeeamHax.exe\naaa6041912a6ba3cf167ecdb90a434a62feaf08639c59705847706b9f492015d\nPlaintext credential leaking tool.\nVeeam-Get-Creds.ps1\n18051333e658c4816ff3576a2e9d97fe2a1196ac0ea5ed9ba386c46defafdb88\nPowerShell script for obtaining and decrypting accounts from Veeam servers.\nPowershellKerberos TicketDumper\n5e1e3bf6999126ae4aa52146280fdb913912632e8bac4f54e98c58821a307d32\nKerberos ticket dumping tool from Local Security Authority (LSA) cache.\nUpdate Nov. 13, 2025:\nLadon.exe\n58359209e215a9fc0dafd14039121398559790dba9aa2398c457348ee1cb8a4d\nAkira ransomware file.\nqKtul.vbs\ncf3465d7e49b609defa1e2b6cfcc86ffa30c72246cb2744dbf50736c5f3d74d5\nVBScript used by Akira ransomware.\ns64.dll\n58afef43cec0ee7a2fbfd9cdd5b71f55f971672d5e523a400b82b98c752ca5b7\nBackdoor.\nw.exe\nbfd5fc6cd3dea74738ac7025fa14ea844f400708df2293572796568f65bd6b61\nEncryptor.\n1.bat\n8e12c8eb39cec9a414b56a36acbcc1a5b31dc96a38bc668138a00f94f7c26ea5\nEncryptor launcher.\n2.exe\n4DC9F9684F715F50946E85557B82AF80FCB45576EFAD47EEE1BF054C15E570F0\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 56,
+        "text": "#StopRansomware: Akira Ransomware"
+      },
+      {
+        "start": 4770,
+        "end": 4787,
+        "text": "Technical Details"
+      },
+      {
+        "start": 22211,
+        "end": 22252,
+        "text": "Table 2. Malicious Files and SHA-256 Hash"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 510,
+  "inherited_context_tokens": 27,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "ac1bffa0a8ce7aed134371d81a3a4d28948b2e79d131afd209c25e4e2128271f",
+  "doc_id": "AA24-109A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+  "source_hash": "be202c10c506f8516e8cacf44619bcab5c7a224afe57a4fb015844c74738d5d5"
+}

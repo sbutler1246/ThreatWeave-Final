@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Play",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1162",
+    "canonical_name": "Playcrypt",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1059",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1059",
+    "canonical_name": "Command and Scripting Interpreter",
+    "source_attack_id": "T1059"
+  },
+  {
+    "local_id": "e3",
+    "mention": "T1560.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1560.001",
+    "canonical_name": "Archive via Utility",
+    "source_attack_id": "T1560.001"
+  },
+  {
+    "local_id": "e4",
+    "mention": "PLAY",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1162",
+    "canonical_name": "Playcrypt",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1486",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1486",
+    "canonical_name": "Data Encrypted for Impact",
+    "source_attack_id": "T1486"
+  },
+  {
+    "local_id": "e6",
+    "mention": "PLAY",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:G1040",
+    "canonical_name": "Play",
+    "source_attack_id": null
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u010"
+    ],
+    "selected_units": [
+      {
+        "start": 395,
+        "end": 446,
+        "text": "Table 5: Batch Script Tools Used by Royal Operators",
+        "line_start": 395
+      }
+    ],
+    "document_start": 14620,
+    "document_end": 14671,
+    "context_ids": [
+      "ctx3"
+    ],
+    "context_spans": [
+      {
+        "start": 12621,
+        "end": 12659,
+        "text": "Table 4: Tools Used by Royal Operators"
+      }
+    ],
+    "review_flags": []
+  }
+]

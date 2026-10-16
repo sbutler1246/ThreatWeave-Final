@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Medusa actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1566",
+      "attack_id": "T1566"
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1190",
+      "attack_id": "T1190"
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "ScreenConnect",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1438,
+        "end": 1584,
+        "quote": "Medusa actors are known to make use of common techniques, such as:\nPhishing campaigns as a primary method for stealing victim credentials [T1566]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 1438,
+        "end": 1704,
+        "quote": "Medusa actors are known to make use of common techniques, such as:\nPhishing campaigns as a primary method for stealing victim credentials [T1566].\nExploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and Exposures (CVEs) such as:"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 1438,
+        "end": 1815,
+        "quote": "Medusa actors are known to make use of common techniques, such as:\nPhishing campaigns as a primary method for stealing victim credentials [T1566].\nExploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and Exposures (CVEs) such as:\nScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an Alternate Path or Channel]."
+      },
+      "confidence": null
+    }
+  ]
+}

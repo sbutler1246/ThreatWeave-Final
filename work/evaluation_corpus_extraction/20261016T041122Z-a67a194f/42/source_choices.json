@@ -1,0 +1,663 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Background Intelligent Transfer Service",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Black Basta",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Black Basta affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "PSExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "RClone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "SoftPerfect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "netscan.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "ping",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "Cybersecurity",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "T1036",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "According",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1068",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "Black Basta Affiliates",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Background Intelligent Transfer Service",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Black Basta",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_G": {
+      "name": "Black Basta affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "PSExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "RClone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "SoftPerfect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "netscan.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "ping",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "Cybersecurity",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_T": {
+      "name": "T1036",
+      "type": "Technique",
+      "attack_id": "T1036"
+    },
+    "m014_S": {
+      "name": "According",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_T": {
+      "name": "T1068",
+      "type": "Technique",
+      "attack_id": "T1068"
+    },
+    "m016_G": {
+      "name": "Black Basta Affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 107,
+      "text": "server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 108,
+      "end": 121,
+      "text": "Cobalt Strike",
+      "line_start": 108
+    },
+    "u003": {
+      "start": 122,
+      "end": 223,
+      "text": "A penetration testing tool used by security professions to test the security of networks and systems.",
+      "line_start": 122
+    },
+    "u004": {
+      "start": 224,
+      "end": 311,
+      "text": "Black Basta affiliates have used it to assist with lateral movement and file execution.",
+      "line_start": 122
+    },
+    "u005": {
+      "start": 312,
+      "end": 320,
+      "text": "Mimikatz",
+      "line_start": 312
+    },
+    "u006": {
+      "start": 321,
+      "end": 415,
+      "text": "A tool that allows users to view and save authentication credentials such as Kerberos tickets.",
+      "line_start": 321
+    },
+    "u007": {
+      "start": 416,
+      "end": 483,
+      "text": "Black Basta affiliates have used it to aid in privilege escalation.",
+      "line_start": 321
+    },
+    "u008": {
+      "start": 484,
+      "end": 490,
+      "text": "PSExec",
+      "line_start": 484
+    },
+    "u009": {
+      "start": 491,
+      "end": 562,
+      "text": "A tool designed to run programs and execute commands on remote systems.",
+      "line_start": 491
+    },
+    "u010": {
+      "start": 563,
+      "end": 573,
+      "text": "PowerShell",
+      "line_start": 563
+    },
+    "u011": {
+      "start": 574,
+      "end": 753,
+      "text": "A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",
+      "line_start": 574
+    },
+    "u012": {
+      "start": 754,
+      "end": 760,
+      "text": "RClone",
+      "line_start": 754
+    },
+    "u013": {
+      "start": 761,
+      "end": 844,
+      "text": "A command line program used to sync files with cloud storage services such as Mega.",
+      "line_start": 761
+    },
+    "u014": {
+      "start": 845,
+      "end": 856,
+      "text": "SoftPerfect",
+      "line_start": 845
+    },
+    "u015": {
+      "start": 857,
+      "end": 1126,
+      "text": "A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, Secure Shell (SSH) and PowerShell.",
+      "line_start": 857
+    },
+    "u016": {
+      "start": 1127,
+      "end": 1204,
+      "text": "It also scans for remote services, registry, files, and performance counters.",
+      "line_start": 857
+    },
+    "u017": {
+      "start": 1205,
+      "end": 1218,
+      "text": "ScreenConnect",
+      "line_start": 1205
+    },
+    "u018": {
+      "start": 1219,
+      "end": 1328,
+      "text": "Remote support, access, and meeting software that allows users to control devices remotely over the internet.",
+      "line_start": 1219
+    },
+    "u019": {
+      "start": 1329,
+      "end": 1338,
+      "text": "Splashtop",
+      "line_start": 1329
+    },
+    "u020": {
+      "start": 1339,
+      "end": 1439,
+      "text": "Remote desktop software that allows remote access to devices for support, access, and collaboration.",
+      "line_start": 1339
+    },
+    "u021": {
+      "start": 1440,
+      "end": 1446,
+      "text": "WinSCP",
+      "line_start": 1440
+    },
+    "u022": {
+      "start": 1447,
+      "end": 1596,
+      "text": "Windows Secure Copy is a free and open source SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client.",
+      "line_start": 1447
+    },
+    "u023": {
+      "start": 1597,
+      "end": 1706,
+      "text": "Black Basta affiliates have used it to transfer data from a compromised network to actor-controlled accounts.",
+      "line_start": 1447
+    },
+    "u024": {
+      "start": 1707,
+      "end": 1730,
+      "text": "Discovery and Execution",
+      "line_start": 1707
+    },
+    "u025": {
+      "start": 1731,
+      "end": 1842,
+      "text": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.",
+      "line_start": 1731
+    },
+    "u026": {
+      "start": 1843,
+      "end": 2023,
+      "text": "Cybersecurity researchers have observed affiliates conducting reconnaissance using utilities with innocuous file names such as Intel or Dell, left in the root drive C:\\ [T1036].[1]",
+      "line_start": 1731
+    },
+    "u027": {
+      "start": 2024,
+      "end": 2044,
+      "text": "Privilege Escalation",
+      "line_start": 2024
+    },
+    "u028": {
+      "start": 2045,
+      "end": 2137,
+      "text": "Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation.",
+      "line_start": 2045
+    },
+    "u029": {
+      "start": 2138,
+      "end": 2454,
+      "text": "According to cybersecurity researchers, Black Basta affiliates have also exploited ZeroLogon (CVE-2020-1472 [CWE-330]), NoPac (CVE-2021-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]",
+      "line_start": 2045
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 7966,
+      "end": 8011,
+      "text": "Table 1: Tools Used by Black Basta Affiliates"
+    }
+  },
+  "identities": {
+    "m001_S": "local:Software:background intelligent transfer service",
+    "m002_S": "attack:S0154",
+    "m003_S": "attack:S1070",
+    "m004_G": "local:ThreatGroup:black basta affiliates",
+    "m005_S": "attack:S0002",
+    "m006_S": "attack:S0029",
+    "m007_S": "attack:S1040",
+    "m008_S": "local:Software:softperfect",
+    "m009_S": "local:Software:netscan.exe",
+    "m010_S": "attack:S0097",
+    "m011_S": "attack:S0591",
+    "m012_S": "local:Software:cybersecurity",
+    "m013_T": "attack:T1036",
+    "m014_S": "local:Software:according",
+    "m015_T": "attack:T1068",
+    "m016_G": "local:ThreatGroup:black basta affiliates"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S",
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u026"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m012_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m013_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u028"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m014_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m014_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u001"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m002_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u008"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u015"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S",
+        "m010_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u017"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S",
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u026"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m016_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u028"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m004_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m014_S"
+      ]
+    }
+  ]
+}

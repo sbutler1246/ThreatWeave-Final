@@ -1,0 +1,2428 @@
+{
+  "purpose": "AI_assisted_frozen_evaluation_source_review",
+  "human_review_status": "pending",
+  "review_artifacts": "work\\evaluation_corpus_review_checks\\20261016T042430Z-c7db26d2",
+  "artifact_receipt_sha256": "0641b1351b329b8ef74fed1d15e9b76c45ba01e35664cc5cec5b5764736c44e8",
+  "batch_plan_fingerprint": "89764a8af84a83b36f3aa17425775142376c305bddfd9ce07fc7019ded39945b",
+  "configuration_hash": "92bc65a2adb978f7b4d3788767000d028bd2fbb4872e5cd00212790c807fa8af",
+  "candidate_count": 196,
+  "supported_count": 118,
+  "review_count": 24,
+  "rejected_count": 54,
+  "excluded_count": 78,
+  "windows": [
+    {
+      "folder": "01",
+      "scope_id": "AA23-165A:evaluation:llama500:2310:4719",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "02",
+      "scope_id": "AA23-165A:evaluation:llama500:4484:6401",
+      "raw_file_sha256": "251ee35001925e79e4edee1b31c808519dd9c5dd40e6f838e79e8339c82478f1",
+      "file_sha256": {
+        "candidate_extraction.json": "2cabae1c4202a82ace901ed5720a5ec29d3530c30d93c167dbd4b79736203677",
+        "derived_selection.json": "251ee35001925e79e4edee1b31c808519dd9c5dd40e6f838e79e8339c82478f1",
+        "identity_resolution.json": "5aa124cb1e79a7a6948d680cea90fa11ff06e469fb7de198c7f66253431934e6",
+        "quote_alignment.json": "5186c3ec5ba75826486611c6430a80d985dee05248cba46941f62629b120a785"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The selected Software LockBit is a prefix of LockBit 3.0; the clause states availability of LockBit 3.0 and does not separately establish use of generic LockBit."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "Able to use describes availability after a builder leak, not a definite observed use by the selected affiliates."
+        }
+      ]
+    },
+    {
+      "folder": "03",
+      "scope_id": "AA23-165A:evaluation:llama500:6168:8098",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "04",
+      "scope_id": "AA23-165A:evaluation:llama500:7876:9874",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "05",
+      "scope_id": "AA23-165A:evaluation:llama500:9561:12066",
+      "raw_file_sha256": "47429d38fc42258f8ff0454073a985b4713b80fbf137d37c22534644d05f9d9d",
+      "file_sha256": {
+        "candidate_extraction.json": "b9de3e51d94c25e7c1608425dfbda6c5bb54ba56f5bdf7b75cd3173d246a47a5",
+        "derived_selection.json": "47429d38fc42258f8ff0454073a985b4713b80fbf137d37c22534644d05f9d9d",
+        "identity_resolution.json": "7a42a164f8d44972f755de8e65c789f4ea9fe11db783b62e07c2b1aed32f1f0e",
+        "quote_alignment.json": "6d370085c0687b84a983296435cc3de86445def1750ae07e615a843c15bc14f3"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "An influx of affiliates following competition among RaaS operations does not assert that the affiliates used this Software endpoint."
+        }
+      ]
+    },
+    {
+      "folder": "06",
+      "scope_id": "AA23-165A:evaluation:llama500:11762:14040",
+      "raw_file_sha256": "c2be1586db23159f5da45768aea6dd3e1ab6b1573ae76f062ec7a84080e0345e",
+      "file_sha256": {
+        "candidate_extraction.json": "8f33d9e21bd72a08d107a507c5fddba687ca159b5ea81ca33a5b125759c6c97c",
+        "derived_selection.json": "c2be1586db23159f5da45768aea6dd3e1ab6b1573ae76f062ec7a84080e0345e",
+        "identity_resolution.json": "ecc4e8f6eea73318f72c6fdb9824e43fe91c2875185dea672ca7b8459f949547",
+        "quote_alignment.json": "72101756d9e297309ee44b642fa1eb977bfb88e38a560e4cbbc31a027c04a78f"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Repurposed Use is a column heading, not a software tool used by the affiliates."
+        }
+      ]
+    },
+    {
+      "folder": "07",
+      "scope_id": "AA23-165A:evaluation:llama500:13738:15981",
+      "raw_file_sha256": "eccc2aec0828f166347da859f07cfcbf7720745ba0cb6848b67ad50def81cbb2",
+      "file_sha256": {
+        "candidate_extraction.json": "c1015c283dc8eda5a38f25a2a0a53ca9c13edfb31ead6b6b308eaec7818563c8",
+        "derived_selection.json": "1a3ad9f7159870169373faa313446b38853d286955fc7f37144f6bcc1f93d7c3",
+        "identity_resolution.json": "23980b1cce5a9b35676abd5efac482b77ce25ff5b102eae6f51fe619ca9b7593",
+        "quote_alignment.json": "e112733234fe2f0abbc347259b6381351c296ca352efac2a9184dfad61018176"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "FTP is the transfer protocol in the FileZilla description, not a named Software tool. The source row names FileZilla; endpoints cannot be corrected during review."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit Affiliates -> USES -> Impacket, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit Affiliates -> USES -> LaZagne, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "08",
+      "scope_id": "AA23-165A:evaluation:llama500:15691:17884",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "09",
+      "scope_id": "AA23-165A:evaluation:llama500:17571:19802",
+      "raw_file_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "10",
+      "scope_id": "AA23-165A:evaluation:llama500:19556:21857",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "11",
+      "scope_id": "AA23-165A:evaluation:llama500:21591:23692",
+      "raw_file_sha256": "53b71e54881e4d231f127a1ac8e1375a1cb56d3c6b5741200522a4564fa717c9",
+      "file_sha256": {
+        "candidate_extraction.json": "1850e343514be531c489e869d3479082d6c316cd289b8731d658f5adc7d42731",
+        "derived_selection.json": "53b71e54881e4d231f127a1ac8e1375a1cb56d3c6b5741200522a4564fa717c9",
+        "identity_resolution.json": "68fb57fe1fe527c734f2a64a10eb580b0ffeb3ca365fb03b930ca02ba9597770",
+        "quote_alignment.json": "dc8528a65fea2fc42a13069240c481badf0f667fe9b726f1fe0265453a6dc125"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The source says may use UACMe; this conditional assertion is excluded from definite graph facts."
+        }
+      ]
+    },
+    {
+      "folder": "12",
+      "scope_id": "AA23-165A:evaluation:llama500:23461:25646",
+      "raw_file_sha256": "0f5090420ddf9593ecf04327c7b216edbefbc3f6e2c2c40033ccc3aae35a961c",
+      "file_sha256": {
+        "candidate_extraction.json": "b6f3844b5b8b25a0cc8f031345d922af96497b42157e2a24e55bd14b73b9390d",
+        "derived_selection.json": "0f5090420ddf9593ecf04327c7b216edbefbc3f6e2c2c40033ccc3aae35a961c",
+        "identity_resolution.json": "4d0bd1ec073120cda417c42518714fba834a0ae244280055860a1e210e4d2500",
+        "quote_alignment.json": "8f6243edb115bcd216a6b2b4b84f0f3b124048f1594412c1cf078e11af2f25fc"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The source says affiliates may deploy 123.bat; conditional deployment is retained for review."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The source says may use ProDump; definite observed use is not asserted."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "lsass.exe is the process whose contents are dumped, not the tool the affiliates use in this clause."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit affiliates -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "13",
+      "scope_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "raw_file_sha256": "0a7b151fe9ac4efd3e7a5c6b1ecefda2032483ab9ce1742e7dc90326c113ca39",
+      "file_sha256": {
+        "candidate_extraction.json": "78cbf709637b34a884bdadce0847c7e041281db7c8c5316048c91d10112bbc10",
+        "derived_selection.json": "0a7b151fe9ac4efd3e7a5c6b1ecefda2032483ab9ce1742e7dc90326c113ca39",
+        "identity_resolution.json": "77e76aaf7889798d8d89c603628622eb3bbac7c13d719495de5cf98d64f174cd",
+        "quote_alignment.json": "56ce453b9c81b776afc548f5abfb9fc807eb24d2604bc00d85e264da5f701104"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit affiliates -> USES -> SoftPerfect Network Scanner, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The source says may use AdFind; the selected relation drops that uncertainty."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The source says may use Cobalt Strike; definite observed use is not asserted."
+        }
+      ]
+    },
+    {
+      "folder": "14",
+      "scope_id": "AA23-165A:evaluation:llama500:26834:28843",
+      "raw_file_sha256": "bac5d60c38842e6b05210b51df999fe9d30355d0d6c7fd884c58ec0f869d3874",
+      "file_sha256": {
+        "candidate_extraction.json": "5c46bb0c6afb0e5899e65d581a942b3dd01edd2d234d96b02d2d2011f5636d8b",
+        "derived_selection.json": "bac5d60c38842e6b05210b51df999fe9d30355d0d6c7fd884c58ec0f869d3874",
+        "identity_resolution.json": "275b8232dd43da83c64778649efe4371cd9643ad29db3fe0d0c563762353858e",
+        "quote_alignment.json": "51f8bf75909b4c2bead9c8b28297c5b1676ec5b2a8a734c57c38d1d5e58552b4"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit affiliates -> USES -> StealBit, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit affiliates -> USES -> Rclone, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "15",
+      "scope_id": "AA23-061A:evaluation:llama500:4148:6616",
+      "raw_file_sha256": "b07f8a2eedf77c3046a47bd72fbca0445f1bee9d07cc9e6884b544a834feb39c",
+      "file_sha256": {
+        "candidate_extraction.json": "b4d94e217dc167246b25590ab8a0b9bd32d199b0bb0c1d40c0c9daf4856609b6",
+        "derived_selection.json": "b07f8a2eedf77c3046a47bd72fbca0445f1bee9d07cc9e6884b544a834feb39c",
+        "identity_resolution.json": "8134380e2fe6cf3487387ae8d80ced5898eae82a15688caa10744d453fb7e89b",
+        "quote_alignment.json": "c75a012ae8458a13c29f56430929d62ac25ee74212cb389ded88b63313074042"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes BlackSuit actors -> USES_TECHNIQUE -> T1566, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "Victims install delivery malware after phishing; the clause does not say that BlackSuit ransomware software itself performs spearphishing attachment delivery."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes BlackSuit actors -> USES_TECHNIQUE -> T1021.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes BlackSuit actors -> USES_TECHNIQUE -> T1190, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "16",
+      "scope_id": "AA23-061A:evaluation:llama500:6346:8622",
+      "raw_file_sha256": "2c26d8451a75a8e7f043271fb0c6078cd6c2fd70a1f3d6af6b276095d08f419f",
+      "file_sha256": {
+        "candidate_extraction.json": "46c4eed269d31a647a6d259dde3208f4fe4db88a1b2ef6035aeda5e5abe8f733",
+        "derived_selection.json": "2c26d8451a75a8e7f043271fb0c6078cd6c2fd70a1f3d6af6b276095d08f419f",
+        "identity_resolution.json": "c8b01613c0f15c3171f863d715de842a8197bc365f312a488e7744197add0618",
+        "quote_alignment.json": "b99b10f586879731963b0f806eb1422a9b095d630738e9e4bac98a6543b4d964"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Royal actors -> USES_TECHNIQUE -> T1572, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Royal threat actors -> USES_TECHNIQUE -> T1021.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes BlackSuit actors -> USES -> PsExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes BlackSuit actors -> USES_TECHNIQUE -> T1021.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "17",
+      "scope_id": "AA23-061A:evaluation:llama500:8314:10530",
+      "raw_file_sha256": "644fac0b3ca9f9b9ecf75629c2f0a7e4ae259e22baeb684aa80c8085a8e10003",
+      "file_sha256": {
+        "candidate_extraction.json": "f171d377056eeb0395f8ddaca0a721c2896ab5d54b5601ae0d0e7b9dbb69c54f",
+        "derived_selection.json": "644fac0b3ca9f9b9ecf75629c2f0a7e4ae259e22baeb684aa80c8085a8e10003",
+        "identity_resolution.json": "3e2dfba526a0f3a5452e76d619ab2cf808e5c08e5209a3772be1b99dd743f048",
+        "quote_alignment.json": "c4834ca091881fa32c1f742b53a573bbc96b6b4f07f0d845b725ee0ba5c543f6"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "T1486 is attached to a preparatory Restart Manager step before encryption. The selected support does not directly describe encryption by the actor; preserve this source-mapping ambiguity."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes BlackSuit actors -> USES -> vssadmin.exe, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "18",
+      "scope_id": "AA23-061A:evaluation:llama500:10300:11484",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "19",
+      "scope_id": "AA23-061A:evaluation:llama500:11361:12517",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "20",
+      "scope_id": "AA23-061A:evaluation:llama500:12363:13460",
+      "raw_file_sha256": "23858fc469236b605719230fc2be93854f582f8e3c67e8a58739f8287be2e39c",
+      "file_sha256": {
+        "candidate_extraction.json": "6fce2e75b861f3bc9136e193d0fe8167d60e199f7307d5dba5e45c7803b21c9e",
+        "derived_selection.json": "23858fc469236b605719230fc2be93854f582f8e3c67e8a58739f8287be2e39c",
+        "identity_resolution.json": "babb0e0caacfb43ebd43153db0a1d53a1724f22293fd40dc863966538a54f705",
+        "quote_alignment.json": "61149036e4c15b506e3e3bdea4fbe0a91e38448a5963b7670a93f364bea4d295"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Royal occurs inside Royal Operators in a table caption and does not denote a separately used Software endpoint."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "SHA256 is the table hash column, not software used by the actor."
+        }
+      ]
+    },
+    {
+      "folder": "21",
+      "scope_id": "AA23-061A:evaluation:llama500:13347:14347",
+      "raw_file_sha256": "850210e78a3791f5c284b88736bc6a06cab63695088c5c78c9376c2923dbdaf5",
+      "file_sha256": {
+        "candidate_extraction.json": "574d705ce492fc302f9a35ee337b4c3f80ee094d05abb39468a36b8f03ae837c",
+        "derived_selection.json": "850210e78a3791f5c284b88736bc6a06cab63695088c5c78c9376c2923dbdaf5",
+        "identity_resolution.json": "54bd9124b4e0b6d80706b4d2525dfc5c46b9489c2ca5d185e0e3651488a8dd07",
+        "quote_alignment.json": "dac7fbf87a89abc645a78ab7bd5828bf0b195c3370c894e641a243aa427ae93c"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "Ransomware Executable is a generic artifact description. A stable named software identity is not established by the selected row."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Royal Operators -> USES -> Ursnif, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Royal Operators -> USES -> PsExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "22",
+      "scope_id": "AA23-061A:evaluation:llama500:14225:15219",
+      "raw_file_sha256": "1a4d8b05801cceaa01abe2d7a634da059d154a8c3a3c604a2c85a6e8909c0ff3",
+      "file_sha256": {
+        "candidate_extraction.json": "1491a8fa6e9ee4bb039d0474d4eecef6e6f19ef48e1256fa470320bda6f9979d",
+        "derived_selection.json": "1a4d8b05801cceaa01abe2d7a634da059d154a8c3a3c604a2c85a6e8909c0ff3",
+        "identity_resolution.json": "89b9abfd2bb23d1a8c5db4c59bdf82701e78a1a5c0db6feadbfa424f3c1ee561",
+        "quote_alignment.json": "e12c40d9ae978c716b7847c6a23b9d5139ce26566a17cf862392c43eeaf9d407"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Royal occurs in Royal Operators in a table title; that title does not assert use of software Royal."
+        }
+      ]
+    },
+    {
+      "folder": "23",
+      "scope_id": "AA23-061A:evaluation:llama500:15072:16294",
+      "raw_file_sha256": "9202696e066dfe26ae77f4c8d54bfab688f1b3dd22218434762b5f9aca1c42f5",
+      "file_sha256": {
+        "candidate_extraction.json": "eee6049c41b2945f1d014a9c3cc1e1ed47695346411668a02cc2a679b27cdb62",
+        "derived_selection.json": "9202696e066dfe26ae77f4c8d54bfab688f1b3dd22218434762b5f9aca1c42f5",
+        "identity_resolution.json": "bbf74e5a8a9e3cd8436a7f4db3fba58eb162f4e856e9a26db1d0ab0e163554cc",
+        "quote_alignment.json": "bd3d5a4bd0253c6500fe6aaed0da095eee39b23bece3c86375ead41bb8bc7eb5"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Royal Operators -> USES -> runanddelete.bat, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "An IOC section heading names Royal and BlackSuit; it does not assert Royal Operators use software Royal."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The command crosses into Table 6 while the selected actor caption is from Table 5. The following description identifies a Chisel client; keep this attribution and executable-identity ambiguity for review."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "Ransomware Filepath is a table description, not a software name."
+        }
+      ]
+    },
+    {
+      "folder": "24",
+      "scope_id": "AA23-061A:evaluation:llama500:16175:17122",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "25",
+      "scope_id": "AA23-061A:evaluation:llama500:17023:18422",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "26",
+      "scope_id": "AA23-061A:evaluation:llama500:18102:19740",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "27",
+      "scope_id": "AA23-061A:evaluation:llama500:19628:21225",
+      "raw_file_sha256": "a660cbb8e73ec55eaf0ea2be1ea4a45ab017d835d42f3230ae66c63247f6f7d3",
+      "file_sha256": {
+        "candidate_extraction.json": "ea29ac78ee62ba33151501dc4e146f24d31adbd8596cec7b5d8e39223c936b79",
+        "derived_selection.json": "a660cbb8e73ec55eaf0ea2be1ea4a45ab017d835d42f3230ae66c63247f6f7d3",
+        "identity_resolution.json": "bbd31e8a2e659a5a77a01e3d4d7837903eb0a05c453567c43658972d1ff52f98",
+        "quote_alignment.json": "7bad05df8e23a6464bd2bc419ce0556f086f1f6f8d06f64870e7da9f6544c217"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The caption combines Royal and BlackSuit Ransomware into one ThreatGroup endpoint. The tool is listed, but this composite actor identity needs human review."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The caption combines Royal and BlackSuit Ransomware into one ThreatGroup endpoint; do not treat it as one resolved actor."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The selected text says potentially debug.ps1 in a later URL table; the inherited Table 8 actor caption crosses a table boundary and does not remove that uncertainty."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "ps1 is the extension inside debug.ps1, not an independently used software tool."
+        }
+      ]
+    },
+    {
+      "folder": "28",
+      "scope_id": "AA23-061A:evaluation:llama500:21018:22127",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "29",
+      "scope_id": "AA23-061A:evaluation:llama500:21984:23147",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "30",
+      "scope_id": "AA23-061A:evaluation:llama500:23031:24536",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "31",
+      "scope_id": "AA23-061A:evaluation:llama500:24400:25638",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "32",
+      "scope_id": "AA23-061A:evaluation:llama500:25468:26522",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "33",
+      "scope_id": "AA23-061A:evaluation:llama500:26384:27829",
+      "raw_file_sha256": "33596a35a47f11f3cfaf15faad40ed86313e7d3ff3ba0ccdf379438218431507",
+      "file_sha256": {
+        "candidate_extraction.json": "19e2e7a25051da743536a8297675a98b0c7735c1bc20fead157fd6d21b0a4cf3",
+        "derived_selection.json": "33596a35a47f11f3cfaf15faad40ed86313e7d3ff3ba0ccdf379438218431507",
+        "identity_resolution.json": "46e0515e8e94b7e6b4dc26fcd966e10c38546e54b274ba38c333b5694924bb27",
+        "quote_alignment.json": "a6a0e8d1516906398f6517f077e609409230998da87085399ad327fde66f7a00"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The complete row says Putty.exe was possibly used for C2; the selected shorter span drops that uncertainty. The actor identity also includes a table-part suffix."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "Cobalt Strike is listed, but the selected ThreatGroup includes the table fragment (1 of 3) and inherited caption crosses into Table 14. Do not silently normalize the actor identity."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "Host is part of the description Host name, not a software tool."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "C is the drive prefix in the AnyDesk file path, not software."
+        }
+      ]
+    },
+    {
+      "folder": "34",
+      "scope_id": "AA23-061A:evaluation:llama500:27654:29231",
+      "raw_file_sha256": "55e199fc54b340c235c4e56ddb2e7765abae8d00d0ff97353e6672effca42c62",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "55e199fc54b340c235c4e56ddb2e7765abae8d00d0ff97353e6672effca42c62",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "35",
+      "scope_id": "AA23-061A:evaluation:llama500:28955:31241",
+      "raw_file_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "36",
+      "scope_id": "AA23-061A:evaluation:llama500:30968:32954",
+      "raw_file_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "37",
+      "scope_id": "AA23-061A:evaluation:llama500:32858:33890",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "38",
+      "scope_id": "AA23-061A:evaluation:llama500:33746:34826",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "39",
+      "scope_id": "AA23-061A:evaluation:llama500:34320:35790",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "40",
+      "scope_id": "AA24-131A:evaluation:llama500:4174:6733",
+      "raw_file_sha256": "4f848eedda8d463b3d45ad4538b79f8cdfac6338f609347bd14005a892459b52",
+      "file_sha256": {
+        "candidate_extraction.json": "15726c09d345c11e96ec800de29e9456fbb53ead6c2ac26ad76ffd192cb9a971",
+        "derived_selection.json": "4f848eedda8d463b3d45ad4538b79f8cdfac6338f609347bd14005a892459b52",
+        "identity_resolution.json": "60cac0094fdbc50446bcae0f1e63bbb7047a0a27ef788a5d14d47e54fcbb58f9",
+        "quote_alignment.json": "b4e235071ad0b542ed5770900a4f0ccb0141dbac082e375b7a60d748fdb01d4c"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES_TECHNIQUE -> T1566, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES_TECHNIQUE -> T1190, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> SoftPerfect, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> netscan.exe, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "41",
+      "scope_id": "AA24-131A:evaluation:llama500:6550:8835",
+      "raw_file_sha256": "eec69b85e066fd9c1d44bd8d87bacb48881294baeeac0d572febca23cbd76edf",
+      "file_sha256": {
+        "candidate_extraction.json": "62dee40d713ffb6ed99e9e6fdfde6eec0f282ab75093fb5b2caadf8cba48d661",
+        "derived_selection.json": "eec69b85e066fd9c1d44bd8d87bacb48881294baeeac0d572febca23cbd76edf",
+        "identity_resolution.json": "9cceaec4b7f16843eb26fa1afa4989ed4df18e3bc3cfe1bb4be61b7b21ca5bbb",
+        "quote_alignment.json": "b11891452c38d6136845594f0348621fa46bfd585e7c0fec0cc246606ca6f8c1"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> BITSAdmin, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> PsExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "Remote Desktop Protocol is a protocol in this clause, not a separately identified Software entity."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "RDP is the protocol abbreviation, not a named Software entity."
+        }
+      ]
+    },
+    {
+      "folder": "42",
+      "scope_id": "AA24-131A:evaluation:llama500:8514:10969",
+      "raw_file_sha256": "d5abfe4548ebb8c17b311c9c8e41b41f6c071693f7f1914447a7de1f6d01b4a9",
+      "file_sha256": {
+        "candidate_extraction.json": "f48a8d61a48ea151036e80d87e42083564b4f87333205a1cc136e443c9486613",
+        "derived_selection.json": "d5abfe4548ebb8c17b311c9c8e41b41f6c071693f7f1914447a7de1f6d01b4a9",
+        "identity_resolution.json": "61f60dc67287ac214b6d5368bb88b31f31aba3ee97479cbbb7521a01b801deca",
+        "quote_alignment.json": "ef7b61391aaccdfe947ee8269db44fb2dbccbf71fc2b91279695333ac5421e39"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> SoftPerfect, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> netscan.exe, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES_TECHNIQUE -> T1068, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "43",
+      "scope_id": "AA24-131A:evaluation:llama500:10786:13129",
+      "raw_file_sha256": "53ff8c263fdce139c5fd4ba8045b602774df8d776412f0f1827a5d7826551e5b",
+      "file_sha256": {
+        "candidate_extraction.json": "9560ec5e20dced655240476070f2dcd5e7dd6ec9f4cde7f8cdb14ea7d47e46e6",
+        "derived_selection.json": "53ff8c263fdce139c5fd4ba8045b602774df8d776412f0f1827a5d7826551e5b",
+        "identity_resolution.json": "f4da622d7326a10449c9bc8ee8ceca12260c323ca6b6656fd268fe1dc22ae292",
+        "quote_alignment.json": "ebe0f31d127c1d978987142ca6ee8e14911393955a116e5af21a49bfbd108706"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> BITSAdmin, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES_TECHNIQUE -> T1059.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "The table title names Black Basta Affiliates; it does not assert the use of software Black Basta."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES_TECHNIQUE -> T1562.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "44",
+      "scope_id": "AA24-131A:evaluation:llama500:12807:15323",
+      "raw_file_sha256": "17ee1c3ae16b0d524f43894250034416f34e1fe2d056da8dde88e337b6678268",
+      "file_sha256": {
+        "candidate_extraction.json": "53db8ba3717b35fc1eab9610dc7ace06f5cf3e1b7d40c9f262432c331bffa109",
+        "derived_selection.json": "17ee1c3ae16b0d524f43894250034416f34e1fe2d056da8dde88e337b6678268",
+        "identity_resolution.json": "16d7b132a0d4dca20ea2fddd99b25df7d02b9dcf75314d0f499ee0cc852aca6c",
+        "quote_alignment.json": "e56798b8d14a901b6abc17ba01c738260096eb1b0f31df3a562d1db92378959f"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "ConnectWise is the affected product whose vulnerability is exploited for initial access, not an attacker-operated tool in the selected relation."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "A Black Basta ATT&CK table title and inherited actor caption do not assert use of software Black Basta."
+        }
+      ]
+    },
+    {
+      "folder": "45",
+      "scope_id": "AA24-131A:evaluation:llama500:15045:17380",
+      "raw_file_sha256": "dd6e85106f15e9cc8eeca1bb347283817c441a754319ee58f19c1eecf9f69dfa",
+      "file_sha256": {
+        "candidate_extraction.json": "5d5e4ff81a188e1e6ee5372c232d4b289c905cac655bf79b8b2600b6636e33a5",
+        "derived_selection.json": "dd6e85106f15e9cc8eeca1bb347283817c441a754319ee58f19c1eecf9f69dfa",
+        "identity_resolution.json": "4e123d4677c3c658d52d904a8697a4732f92c5c2c948d1d00680b3896b491678",
+        "quote_alignment.json": "30ef10a913034dce4ac295d62c0598248d53bb9479c954cc7eefbeda6f0edf96"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The clause describes exploiting a ConnectWise vulnerability, not using ConnectWise as an attacker tool."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The source also identifies ZeroLogon as a vulnerability. This table labels Zerologon a tool without identifying an executable; retain the Software-type ambiguity."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "review",
+          "reason": "NoPac is listed with vulnerabilities and credential tools without an executable identity. The selected Software endpoint needs source identity review."
+        }
+      ]
+    },
+    {
+      "folder": "46",
+      "scope_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "raw_file_sha256": "69f11def43f9027f3203248c6ef9194a55bfadebee474f06d28b5eae51479e47",
+      "file_sha256": {
+        "candidate_extraction.json": "bc358a976ca6118a78f210408f67809625c2698cb395e24fee242c78c68eb92f",
+        "derived_selection.json": "69f11def43f9027f3203248c6ef9194a55bfadebee474f06d28b5eae51479e47",
+        "identity_resolution.json": "b4740cd70909be84f77a38e734384f12d4f61cb80fd153824e553bef0b98683d",
+        "quote_alignment.json": "b14af9fdced2246834cd0731028dabe4e738f3e74ddb8c03d370eeddc8eab6da"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> Backstab, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> AnyDesk, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> Microsoft’s Quick Assist, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Black Basta affiliates -> USES -> Quick Assist, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "47",
+      "scope_id": "AA24-109A:evaluation:llama500:4787:6854",
+      "raw_file_sha256": "0b51dbf88764665e253fa0834a5cda7f60b7b3c5fd1941a4ce8db0ae1fe1e09f",
+      "file_sha256": {
+        "candidate_extraction.json": "a52a423b2086d9b17fdd0fdfd507e30cf5c201f7eea8739ebc913849ee3451ba",
+        "derived_selection.json": "0b51dbf88764665e253fa0834a5cda7f60b7b3c5fd1941a4ce8db0ae1fe1e09f",
+        "identity_resolution.json": "1ced910141bb379eaa55e5c6d2e2e03417fa5cf93f1f450810454cd66d3bbba7",
+        "quote_alignment.json": "8b9cada3bf20be3f3c8f25cd5751c7b9c7f6a525e958421883c93f038b8c3176"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1190, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1566.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1566.002, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> SharpDomainSpray, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "48",
+      "scope_id": "AA24-109A:evaluation:llama500:6537:8882",
+      "raw_file_sha256": "a409f1d57ad8f2bc479af7ece768a368b05d75de9e94fcc871b07eaa8b8d8753",
+      "file_sha256": {
+        "candidate_extraction.json": "4194b9d0504e85ac982754693431b824a2db336d547cb22f275bf7641a1eb560",
+        "derived_selection.json": "a409f1d57ad8f2bc479af7ece768a368b05d75de9e94fcc871b07eaa8b8d8753",
+        "identity_resolution.json": "02277080a66de47375a776100c2a8c6210bdd52cf7ccb471d50f8f2c7a8ecc65",
+        "quote_alignment.json": "be1af23049c60435d2b6b5bfe26aaf63a64d833e4564a27761b85a47d60c65ff"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1110.003, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "Indicators suggest this SSH initial-access behavior. The selected definite relation drops that source uncertainty."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1059.005, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "T1016 is attributed to SoftPerfect/Advanced IP Scanner/NetScan. The following net commands are mapped to different techniques; net is not the subject of T1016 here."
+        }
+      ]
+    },
+    {
+      "folder": "49",
+      "scope_id": "AA24-109A:evaluation:llama500:8607:10825",
+      "raw_file_sha256": "6588033bef67c625d889a2d5b1a3ff14ba97137bb87791f3445c468bad6dc123",
+      "file_sha256": {
+        "candidate_extraction.json": "3837381c3f07971899c06e4107f485c1525f7dfb6c0fd888e92a9901a2085b8b",
+        "derived_selection.json": "6588033bef67c625d889a2d5b1a3ff14ba97137bb87791f3445c468bad6dc123",
+        "identity_resolution.json": "8dd024755640e59569eb228951da92f33663c50257efe3d8a3623b537b548d85",
+        "quote_alignment.json": "e0c4f9a53e0bb2c8685184078fb037fd557aa22cf11bdaab4a06aa2d287cf298"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "T1016 belongs to the preceding network scanning tools. The net commands in the next sentence are mapped to T1059.003, T1018 and T1482."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes SoftPerfect -> USES_TECHNIQUE -> T1016, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Advanced IP Scanner -> USES_TECHNIQUE -> T1016, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes NetScan -> USES_TECHNIQUE -> T1016, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "50",
+      "scope_id": "AA24-109A:evaluation:llama500:10612:12792",
+      "raw_file_sha256": "78385922c214f5ac9e929fbde65ec6320fd5cda0ff946a6745141383c6d851d7",
+      "file_sha256": {
+        "candidate_extraction.json": "6b00e87fa9653af5ed7649c2d3db0e16d93f5e8df2748484b54367c56b3937d8",
+        "derived_selection.json": "78385922c214f5ac9e929fbde65ec6320fd5cda0ff946a6745141383c6d851d7",
+        "identity_resolution.json": "555a0c97294191e2648a2a86ce89a6f864128d0e149b66d08b84f4772f9cacd9",
+        "quote_alignment.json": "5a16f846d851977afa608dc0820a5de9d06f2c324c8eef30331889d073dc82e4"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1068, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes AnyDesk -> USES_TECHNIQUE -> T1219, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Ngrok -> USES_TECHNIQUE -> T1572, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "The clause groups FileZilla with WinRAR for collecting data, but does not establish that FileZilla performs the archive-compression technique T1560.001. Do not transfer the technique from WinRAR by co-occurrence."
+        }
+      ]
+    },
+    {
+      "folder": "51",
+      "scope_id": "AA24-109A:evaluation:llama500:12528:14948",
+      "raw_file_sha256": "78e544c7b25fe544ebb0262e0b337a35830091778cbb8bef76d28e93887acd1e",
+      "file_sha256": {
+        "candidate_extraction.json": "13c8fca4d88b0395300694c80757583f7df32ad8587df6e06a20f7cfe0f033a4",
+        "derived_selection.json": "78e544c7b25fe544ebb0262e0b337a35830091778cbb8bef76d28e93887acd1e",
+        "identity_resolution.json": "996bd95b445f60148a56cc42aa3075210fd70ec77cc5cb12557e6c5ab8dd4273",
+        "quote_alignment.json": "722f119bd0a8b2fc2943b8d18334c0bad9c27d43efe3478ef90333a91ec28b68"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Ngrok, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1090, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "The ransom note instructs the victim to contact actors through Tor; this does not establish that Akira software itself implements multi-hop proxying."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "The victim contact instructions do not establish that Akira software itself uses asymmetric encrypted-channel technique T1573.002."
+        }
+      ]
+    },
+    {
+      "folder": "52",
+      "scope_id": "AA24-109A:evaluation:llama500:14693:17032",
+      "raw_file_sha256": "df2a9cc83e78bfd470aa53e7e0b531ee1cf4142267c5d1386b277394779e77f6",
+      "file_sha256": {
+        "candidate_extraction.json": "ca089e1050ae639418ada0c744eeea41b0949674110a91d582416c940c92ca63",
+        "derived_selection.json": "df2a9cc83e78bfd470aa53e7e0b531ee1cf4142267c5d1386b277394779e77f6",
+        "identity_resolution.json": "c0a91367b7a2748c12786bcec03326a0cc7eceb398529d08ed50c957bed09016",
+        "quote_alignment.json": "d352377041c534dde05fe9acbec990ca1d1c1d71d020a10024f83ae98e441df2"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira -> USES_TECHNIQUE -> T1490, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "53",
+      "scope_id": "AA24-109A:evaluation:llama500:16749:19037",
+      "raw_file_sha256": "75994004491f7dba078ddfb6d9d378c3084e281be2448d1c037ddb1da3162f47",
+      "file_sha256": {
+        "candidate_extraction.json": "30bbdb94c2fb9d81c5204447878c073b7defb6d9f9a51027ccd18eea4b455220",
+        "derived_selection.json": "75994004491f7dba078ddfb6d9d378c3084e281be2448d1c037ddb1da3162f47",
+        "identity_resolution.json": "e22d61f8a15c8fed95e80f7b22059e1d75b68463c1c8fc03b5f892f34590ec57",
+        "quote_alignment.json": "a86aa38d3f0605fbbfcf12938f44bafd203117478805a0c1935df33e098fa5a8"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1567.002, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "Archive is a generic description of an archive utility, not an identified software product."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1048, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "54",
+      "scope_id": "AA24-109A:evaluation:llama500:18804:21019",
+      "raw_file_sha256": "be8ecb7feccd9d8c3bca5cd812d58de6964bab2e6d3902ca818690393775ad2b",
+      "file_sha256": {
+        "candidate_extraction.json": "523fd6df72b9b139d10634970419307bd5f4843da324ef1218767472cba99bf4",
+        "derived_selection.json": "75a67fe56917d9cbd2c531a0b94b9fa7b5b3b66b069e7811a0543d4d3c62ff75",
+        "identity_resolution.json": "dcbf4177ff3cddf11812963eff773ed6be6935c77f624c406199f537d95f6b43",
+        "quote_alignment.json": "1fa83103dcf13e64384aa7d7fdb01d14719bfe24d15fb262cefe3e156cf3ac08"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1048, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1027.015, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1046, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "55",
+      "scope_id": "AA24-109A:evaluation:llama500:20761:22564",
+      "raw_file_sha256": "a8bbb26a6a830210d056141aea9c2e0db0644a0ebe6468fbbd7151230fac8d32",
+      "file_sha256": {
+        "candidate_extraction.json": "b3a7dd1b7a21df9fc1bc61b9744332c24088430392eacd24f29d43b4b49a891c",
+        "derived_selection.json": "a8bbb26a6a830210d056141aea9c2e0db0644a0ebe6468fbbd7151230fac8d32",
+        "identity_resolution.json": "4a21e37b0174fee479920061fc7522fd3fa8031e2974e3c71876d0b6a26f4734",
+        "quote_alignment.json": "008c08d0cf872a79950296f2c532e5777526f25cd2e91fa26376ab772f247823"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1490, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1027, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1068, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES_TECHNIQUE -> T1105, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "56",
+      "scope_id": "AA24-109A:evaluation:llama500:22442:23336",
+      "raw_file_sha256": "2fe04059e4b733521272917fdee49e1937eb2f3148f8ff39ad445525a7276afe",
+      "file_sha256": {
+        "candidate_extraction.json": "629b7624fe00d7bbfe62e2de7b8bbf119b42a2f920cf01eea76934e96ce6494a",
+        "derived_selection.json": "2fe04059e4b733521272917fdee49e1937eb2f3148f8ff39ad445525a7276afe",
+        "identity_resolution.json": "fc5f0445b1ea095b0af59110289b2757235fd995962edd0cf3982f3ffb8ff8b7",
+        "quote_alignment.json": "999dee0b189dd580efcb69875d791b3c08ef63ed421fc7577fbb89b8f19e4790"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The IOC description Akira ransomware encryptor does not identify a separate ThreatGroup that uses this software. The actor was inferred from the same malware name."
+        }
+      ]
+    },
+    {
+      "folder": "57",
+      "scope_id": "AA24-109A:evaluation:llama500:23225:24336",
+      "raw_file_sha256": "3fe06394539455daf95124289cea580d9dc78caabc9cc30c1601877f5f5fd9bd",
+      "file_sha256": {
+        "candidate_extraction.json": "457f13cd2cb3c96227c77c400c5f5c13673492bc27d7a0cf453aea7315440780",
+        "derived_selection.json": "3fe06394539455daf95124289cea580d9dc78caabc9cc30c1601877f5f5fd9bd",
+        "identity_resolution.json": "fc5f0445b1ea095b0af59110289b2757235fd995962edd0cf3982f3ffb8ff8b7",
+        "quote_alignment.json": "9396cb46ce294c9f567e1660e3874cf505c66d895d1a42ba4d5c0a5a3ea3d66d"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The IOC description Akira Megazord ransomware does not establish a ThreatGroup Akira using Software Akira in this selected support."
+        }
+      ]
+    },
+    {
+      "folder": "58",
+      "scope_id": "AA24-109A:evaluation:llama500:24217:25330",
+      "raw_file_sha256": "e64f231935427edd9f619184aa6c3ce6ed6d0e55cff2c5d7a60a050e704ae09f",
+      "file_sha256": {
+        "candidate_extraction.json": "f664128a21b05b2ea79825fae7565e3618da3fb883ac18bdc8ae765968b1ac62",
+        "derived_selection.json": "e64f231935427edd9f619184aa6c3ce6ed6d0e55cff2c5d7a60a050e704ae09f",
+        "identity_resolution.json": "3a6f9727f43c34baf051731cf5c791abdf97fe042dcee0eaca51423a157b0977",
+        "quote_alignment.json": "ff4554e75c77b411aad525f69f9ea7c73ee44b37a4559d61c4f0c8ca06a59f3e"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The executable filenames do not assert a ThreatGroup akira using Software akira; the shared prefix is not evidence of both endpoint roles."
+        }
+      ]
+    },
+    {
+      "folder": "59",
+      "scope_id": "AA24-109A:evaluation:llama500:25188:26526",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "60",
+      "scope_id": "AA24-109A:evaluation:llama500:26404:27411",
+      "raw_file_sha256": "fbfbde864f9fbe32954391de66a6f1c33e356f0142b27d05144071caf40de0bd",
+      "file_sha256": {
+        "candidate_extraction.json": "f0f68eb47e8f8d38161f62257d3d102c553cee5a6c1c74c56fc933b1c3678ce8",
+        "derived_selection.json": "fbfbde864f9fbe32954391de66a6f1c33e356f0142b27d05144071caf40de0bd",
+        "identity_resolution.json": "d6268348dc4d84a423f7fad18ae50ce5d89b15227fc5d8a668091f22ac39b340",
+        "quote_alignment.json": "21292d5e851cbb3e0ad0cd06dca1dd5a94db5508c6c90f3411f72362636ee759"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes nltest -> USES_TECHNIQUE -> T1018, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes nltest -> USES_TECHNIQUE -> T1482, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes net -> USES_TECHNIQUE -> T1069.002, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes net -> USES_TECHNIQUE -> T1069.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "61",
+      "scope_id": "AA24-109A:evaluation:llama500:27250:29059",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "62",
+      "scope_id": "AA24-109A:evaluation:llama500:28777:31133",
+      "raw_file_sha256": "fe01f751d39fc6db06bbbd34481f2b7484d88fa1c56f25365acb5296da87cb15",
+      "file_sha256": {
+        "candidate_extraction.json": "19db3ff813d3892fccd3209671f910361e51d134492844accc63fb55df2c6119",
+        "derived_selection.json": "fe01f751d39fc6db06bbbd34481f2b7484d88fa1c56f25365acb5296da87cb15",
+        "identity_resolution.json": "0ac5c9e8c19a5a041437b3d52a82c5541e5159100303355d72720a1a223effdd",
+        "quote_alignment.json": "b4f8257f31b23a7d37d67386b6fc7b9612e643fc5dd26030bf0e528c2dbd558c"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Ngrok, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Cobalt Strike, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> cmd.exe, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> PSEXESVC.exe, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "63",
+      "scope_id": "AA24-109A:evaluation:llama500:30823:33030",
+      "raw_file_sha256": "e84dafac56f672936f484acdb76e079ad124dc371a2f39e20e41b8ac3d658863",
+      "file_sha256": {
+        "candidate_extraction.json": "49633c866d30dc7dd104477ba842f1bbb5b3a0a1ab04b522f9160bb16ca5f7f3",
+        "derived_selection.json": "e84dafac56f672936f484acdb76e079ad124dc371a2f39e20e41b8ac3d658863",
+        "identity_resolution.json": "780d09419832e5856e5a6dcc2a807ddb10db91a22c55f15118647f8d78da7030",
+        "quote_alignment.json": "7754093751c466d72ae9f2713b5eeb0148d906e465c240a42badb0c8b192c7f0"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> POORTRY, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "64",
+      "scope_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "raw_file_sha256": "4b6862614bd93009ac8d574aca859d7dcd289ce2d1294e9fd048b7c37871257f",
+      "file_sha256": {
+        "candidate_extraction.json": "39f330a49bed6cd1c7362be323a4740b497f336c94eb673300daf498538f0c9a",
+        "derived_selection.json": "4b6862614bd93009ac8d574aca859d7dcd289ce2d1294e9fd048b7c37871257f",
+        "identity_resolution.json": "38dd286f143f1121ab36e3158694e7a970ffc0ee8f05aa1876d52079b7fb8bcb",
+        "quote_alignment.json": "7e2524a99b09aac6ad690eda3945ea13666ca4de11c69bbe8324d870fc408f2e"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> SharpDomainSpray, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> LaZagne, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> NetExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "65",
+      "scope_id": "AA24-109A:evaluation:llama500:34797:37085",
+      "raw_file_sha256": "cd7553daba692001705b6e70d0dff56fc86e7217d4aecd6dfa5055991f5bff26",
+      "file_sha256": {
+        "candidate_extraction.json": "3141abf11469700d17f805984a5b9bb2bb02158b733d055af0ddf1a88cedcee7",
+        "derived_selection.json": "cd7553daba692001705b6e70d0dff56fc86e7217d4aecd6dfa5055991f5bff26",
+        "identity_resolution.json": "345c8fdaa6b212fef49421fb96c2c3e4db781ccda370eb93a13819ea571806be",
+        "quote_alignment.json": "de197d89ec40546f30f6128cc0acae2f6f86f9899984c574ce0c88c16deaea4d"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> NetExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "Mimikatz with the dpapi option is a tool-plus-command phrase, not a distinct Software entity. Separate valid Mimikatz use is already retained from the same output."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "Windows Credential Manager is the credential store being dumped, not an attacker tool used by this clause."
+        }
+      ]
+    },
+    {
+      "folder": "66",
+      "scope_id": "AA24-109A:evaluation:llama500:36883:38919",
+      "raw_file_sha256": "f4e0381ea6b92a704fb9605dd09ce9db3b44cceef889f6f3446ba8285ece681f",
+      "file_sha256": {
+        "candidate_extraction.json": "73f9c7cecc764a0f31b380b4197cf888b202059aeaffbb142fd4f43b7d33bef8",
+        "derived_selection.json": "f4e0381ea6b92a704fb9605dd09ce9db3b44cceef889f6f3446ba8285ece681f",
+        "identity_resolution.json": "b3a6ee8442adea2409da9143ae53e7f60df1e932cfc176e5b005f2e4d08c29af",
+        "quote_alignment.json": "5407c8bdd16b303dba5e313612d67dbae434b280b7d547f37ca48d56f57e5a07"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> nltest, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Ngrok, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "review",
+          "reason": "The selected clause describes downloading Cobalt Strike beacons. It does not directly state subsequent use or execution, so deployment certainty needs review."
+        }
+      ]
+    },
+    {
+      "folder": "67",
+      "scope_id": "AA24-109A:evaluation:llama500:37679:39746",
+      "raw_file_sha256": "50a3d4716af0c2e9bc81824fd5029d0d0d773711834d29ae121b806a07d4e884",
+      "file_sha256": {
+        "candidate_extraction.json": "73fea1b0a0f284fc37b9ac899430f87762ad5f6b67de67eb064fe68504fa0bff",
+        "derived_selection.json": "50a3d4716af0c2e9bc81824fd5029d0d0d773711834d29ae121b806a07d4e884",
+        "identity_resolution.json": "fb84b3175512f5306e5b9660dd5af1a7bb870842acfa97d4f8c5af7537788c1b",
+        "quote_alignment.json": "40a82daa0fcb1746b693f583216bebf21da14ce393733acd5b780a8d50482d7d"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> WinRAR, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> Ngrok, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "Downloading Cobalt Strike beacons is stated; actual use or execution is not stated in the selected support."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Akira threat actors -> USES -> WinSCP, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "68",
+      "scope_id": "AA25-071A:evaluation:llama500:4851:6963",
+      "raw_file_sha256": "f9b6c9b11a58b6a9719b4490175da8885070587fd89d85e73ab9b23a221b5958",
+      "file_sha256": {
+        "candidate_extraction.json": "b3471296be2c65c6619294472da0b912a73f8394dcdaa385d4d0ac35b32965f2",
+        "derived_selection.json": "f9b6c9b11a58b6a9719b4490175da8885070587fd89d85e73ab9b23a221b5958",
+        "identity_resolution.json": "99ef0fc5deefa79fbad5f1e67b3d32c0696e59f342f18c847e209af233e6de8a",
+        "quote_alignment.json": "8bbe3d954e45cd668abf5a74c9666e8753dca85459eb1d0f96f7adfd5a5ecc34"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1566, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1190, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "ScreenConnect is the vulnerable target of exploitation for initial access, not an actor-operated tool in the selected support."
+        }
+      ]
+    },
+    {
+      "folder": "69",
+      "scope_id": "AA25-071A:evaluation:llama500:6767:8826",
+      "raw_file_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "70",
+      "scope_id": "AA25-071A:evaluation:llama500:8653:10741",
+      "raw_file_sha256": "0fb0207773abecc079195ffa0c6501f0d62da89d387ca74b73e59870cd30291a",
+      "file_sha256": {
+        "candidate_extraction.json": "24c5d480c87bffc56f9a94de02638a3e3eb68abd333c637d9fba40651d4a0854",
+        "derived_selection.json": "0fb0207773abecc079195ffa0c6501f0d62da89d387ca74b73e59870cd30291a",
+        "identity_resolution.json": "76efa817c25b50f849385c7ffd0eef7f7f74b196d1242db87be33f93e328cfc1",
+        "quote_alignment.json": "e43a0f4ccfaa2d93c8e44569a8ff476fe4b9dc4b431c72d3ebc3bdb0a7011ad7"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1059.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1059.003, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1046, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1083, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "71",
+      "scope_id": "AA25-071A:evaluation:llama500:10438:12511",
+      "raw_file_sha256": "7946dc922d375592fef86c068a2e801a799c44a02f12ff709cf1bf59c0684b67",
+      "file_sha256": {
+        "candidate_extraction.json": "89cffbbdf1535ef6ab4f7283566ae2d4233eec02dbf2cb625b613b00d7a4117f",
+        "derived_selection.json": "7946dc922d375592fef86c068a2e801a799c44a02f12ff709cf1bf59c0684b67",
+        "identity_resolution.json": "4584cf139f12f9f962110e077a75208fc32fa08e7bb893256803d90b332de7a7",
+        "quote_alignment.json": "94d392c45d27f5a6bed026b80fd2b4e8f7ab9f40292a0df1f1d73204e9103818"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> Rclone, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1564.012, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "72",
+      "scope_id": "AA25-071A:evaluation:llama500:12220:14519",
+      "raw_file_sha256": "e39f550bacffa15f7226a9cc26daf9c695cac739877a01f10d421f84a9c2a387",
+      "file_sha256": {
+        "candidate_extraction.json": "1595c00f17bc49209607f4b102a876dbce47c6f2b46db0cb6f807e027df77f2b",
+        "derived_selection.json": "e39f550bacffa15f7226a9cc26daf9c695cac739877a01f10d421f84a9c2a387",
+        "identity_resolution.json": "6a0242a84f2658975ba0311116431e08a14b9fc1a7514152c695ad2b28e0c868",
+        "quote_alignment.json": "e2f6fa3a501ce0f0ac3155c913df983c0ff9fc37eabdb15ec9dc64aee0564dc1"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1219, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "FBI explicitly identified Medusa actors using this remote-access software. The earlier may tailor sentence concerns choice of tools, not uncertainty about the stated FBI observation."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "FBI explicitly identified Medusa actors using this remote-access software. The earlier may tailor sentence concerns choice of tools, not uncertainty about the stated FBI observation."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "T1021.001 is attached to RDP, while PsExec is explicitly tagged T1569.002. The selected PsExec-to-RDP-technique relation swaps the roles."
+        }
+      ]
+    },
+    {
+      "folder": "73",
+      "scope_id": "AA25-071A:evaluation:llama500:14289:16172",
+      "raw_file_sha256": "f039135ac8e44d101f8bd074dcd2cd4f6080fbc90b6fd7ccdaf60bdbfa52c1ed",
+      "file_sha256": {
+        "candidate_extraction.json": "34a5e39deb3b25605d0665ac2d1280189ecc57412e2cec4ed009cda488fbfc92",
+        "derived_selection.json": "f039135ac8e44d101f8bd074dcd2cd4f6080fbc90b6fd7ccdaf60bdbfa52c1ed",
+        "identity_resolution.json": "4e179bcd3465f3f7523049aafc461f0d6cac3138334f96a3b0cf9aac989fb856",
+        "quote_alignment.json": "ccf845144f42197d560ed1de2055d4badb43a2a7a6f3b7b921ab69f451e7bfef"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "This output is a technique-to-tactic association inferred from a multi-action sentence, not an observed actor/software use. Keep it outside the reviewed observed-use graph import."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "TA0010 describes exfiltration while T1486 describes encryption. Their co-occurrence does not make T1486 part of the exfiltration tactic."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> PsExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "review",
+          "reason": "The sentence links credential dumping and credential access, but this is a technique-to-tactic association rather than an observed actor/software use; exclude from this import and retain for scoring."
+        }
+      ]
+    },
+    {
+      "folder": "74",
+      "scope_id": "AA25-071A:evaluation:llama500:16025:18061",
+      "raw_file_sha256": "17475701989f11b70cd476a30fe6c7e80d3766c0d7bd4666caac6d989eb68731",
+      "file_sha256": {
+        "candidate_extraction.json": "5f5c6f3ddbe14532e711d267de29fe8142eefb7cd7e4dc21974a64588e331475",
+        "derived_selection.json": "17475701989f11b70cd476a30fe6c7e80d3766c0d7bd4666caac6d989eb68731",
+        "identity_resolution.json": "fa4a77bc44dc855d9d291d2eb93073bd2ea14255cb876fc806d255c2bdd79c82",
+        "quote_alignment.json": "6374526cd46ce93b1abc1fc2ce1c64de53202ced79fea25a089a2ce462a3857c"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1567.002, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "gaze.exe is the encryptor deployed by PsExec/PDQ/BigFix, not the tool performing deployment technique T1072."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1484.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> Rclone, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "75",
+      "scope_id": "AA25-071A:evaluation:llama500:17810:20469",
+      "raw_file_sha256": "9cde26c882d922b6010e65595697e2512b4bdcfb04affc5deb2aa08c6996d9e0",
+      "file_sha256": {
+        "candidate_extraction.json": "167764d1705d583be25e4e0508a2981e56bb4ccda85cc0c5b46be094fec41441",
+        "derived_selection.json": "9cde26c882d922b6010e65595697e2512b4bdcfb04affc5deb2aa08c6996d9e0",
+        "identity_resolution.json": "bad9edfa6d9d2b86a77aafe3592309a45f4da441ad0b72fa57e2eba464b46dfc",
+        "quote_alignment.json": "4481fe478878afc2a8be6fc8a7467b82553ae1cbcf5df53d03e67de276db1439"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The deployment tooling acts on gaze.exe; the encryptor is the deployment target, not the T1072 subject."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> PDQ Deploy, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES_TECHNIQUE -> T1675, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes gaze.exe -> USES_TECHNIQUE -> T1489, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "76",
+      "scope_id": "AA25-071A:evaluation:llama500:20162:22243",
+      "raw_file_sha256": "55e199fc54b340c235c4e56ddb2e7765abae8d00d0ff97353e6672effca42c62",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "55e199fc54b340c235c4e56ddb2e7765abae8d00d0ff97353e6672effca42c62",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "77",
+      "scope_id": "AA25-071A:evaluation:llama500:22047:23538",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "78",
+      "scope_id": "AA25-071A:evaluation:llama500:23412:24966",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "79",
+      "scope_id": "AA25-071A:evaluation:llama500:24695:26937",
+      "raw_file_sha256": "430a9e22d48af0f8442d3d7438d823ed1ae70fc8df0c336fd2d8391dd8252011",
+      "file_sha256": {
+        "candidate_extraction.json": "672bcae2c1e945cc6db497e4a51d8736ffa3efaf0c1e5d3493cf93be59dda155",
+        "derived_selection.json": "430a9e22d48af0f8442d3d7438d823ed1ae70fc8df0c336fd2d8391dd8252011",
+        "identity_resolution.json": "1bcae821e12a0ac22471569180f8fcf6a78c97611743bc2f296ccb8ef6e80e8c",
+        "quote_alignment.json": "d543aab184048e57ef300b1be45289c9068d10e251de7a22d28ade64c6f5a10f"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> Windows Command Prompt, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> systeminfo, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> netstat, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "80",
+      "scope_id": "AA25-071A:evaluation:llama500:26712:28840",
+      "raw_file_sha256": "8b28e26520c45fb83c811583b8334ebd304e7a469b3d617bf69e0a3a1f2d4b98",
+      "file_sha256": {
+        "candidate_extraction.json": "ebb21124f970074d4dcbae38468b511ebf5d4609be2a8aac6e7101d75be49789",
+        "derived_selection.json": "8b28e26520c45fb83c811583b8334ebd304e7a469b3d617bf69e0a3a1f2d4b98",
+        "identity_resolution.json": "19fc6200bac14745651500bc2a09cb13a371f751e57f0435164a239c5b86d563",
+        "quote_alignment.json": "19828f1470733bf4f3118ae1285bf8f5b7eb38ebdbd1a1aa6da3c0040bb3c6f5"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> Mimikatz, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> Windows Command Prompt, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> PDQ Deploy, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Medusa actors -> USES -> Sysinternals PsExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "81",
+      "scope_id": "AA25-071A:evaluation:llama500:28548:30967",
+      "raw_file_sha256": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "82",
+      "scope_id": "AA25-071A:evaluation:llama500:30061:32570",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "83",
+      "scope_id": "AA23-352A:evaluation:llama500:3851:6199",
+      "raw_file_sha256": "0b05920872fc11d34597cc81ddd856204b66c164c581a991c4e48b95a4427f99",
+      "file_sha256": {
+        "candidate_extraction.json": "4fa733f042adc7743453328a0bf19f5bbf9c881bf7e041dc4265cdf692c10336",
+        "derived_selection.json": "0b05920872fc11d34597cc81ddd856204b66c164c581a991c4e48b95a4427f99",
+        "identity_resolution.json": "1bc2c64b27660126065e9c33fd655179be91539971e34c06cc4d0e2e3b0dd38c",
+        "quote_alignment.json": "e0025a43af142a20c86a5c4a97a8dd488375f232f1e9afe2b257c25943b41a00"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The source explicitly attributes valid-account abuse to Play. Likely modifies purchase of the credentials, not whether valid accounts were abused."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "Play ransomware actors, rather than the Play Software endpoint, use external-facing services in this clause."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "The clause attributes exploitation to multiple groups including brokers with ties to Play operators; it does not attribute exploitation to Play ransomware software."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "The described reconnaissance is performed by Play actors using named tools, not by the Play Software endpoint."
+        }
+      ]
+    },
+    {
+      "folder": "84",
+      "scope_id": "AA23-352A:evaluation:llama500:5924:7968",
+      "raw_file_sha256": "fcca600e67bfcb2f92ad237c19f23ae4c95f1018d72a3fd2ed43e0ce8c86ba18",
+      "file_sha256": {
+        "candidate_extraction.json": "991a6ae565aee044f48fb4eb499e48c23b663074e92a694f9794373db56a2d60",
+        "derived_selection.json": "fcca600e67bfcb2f92ad237c19f23ae4c95f1018d72a3fd2ed43e0ce8c86ba18",
+        "identity_resolution.json": "3ef5cbc3983b44b87fefa38e77d3afb74b5ac4a30278d715c8d0f5a28ef94f8f",
+        "quote_alignment.json": "a81de20c5136e5193514366c865f6b216a9bb9cfc1593ceb749453d05f36b6fa"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Play actors use WinPEAS; the clause does not say Play ransomware software itself executes technique T1059."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "Play actors use WinRAR to archive data, not Play ransomware software itself."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The selected span describes encrypted files and the .PLAY extension. It does not directly identify the selected PLAY Software endpoint as the encrypting subject; no endpoint correction is made."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "The .PLAY filename extension does not establish a distinct ThreatGroup PLAY using Software PLAY."
+        }
+      ]
+    },
+    {
+      "folder": "85",
+      "scope_id": "AA23-352A:evaluation:llama500:7618:10055",
+      "raw_file_sha256": "70ccd5f20a69523066853b56443c58b1eab87e7b405ec9040a20ba8c92a26f97",
+      "file_sha256": {
+        "candidate_extraction.json": "8dd396274c2b8fe13ae0c842dda2ed6d72531efbf7d75490e30d16623d6037dc",
+        "derived_selection.json": "70ccd5f20a69523066853b56443c58b1eab87e7b405ec9040a20ba8c92a26f97",
+        "identity_resolution.json": "3816f0d1366e4bcbeb6f2a7218cf6a50520ebf2a19b88048985adf6520484d11",
+        "quote_alignment.json": "33cfe21e269d8a93b4c5a968ce9ac0962b07aa17721e15d28c0f2c8610ae7c86"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Play actors -> USES -> IOBit, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "The table title names Play Ransomware Actors; it does not assert use of software Play."
+        }
+      ]
+    },
+    {
+      "folder": "86",
+      "scope_id": "AA23-352A:evaluation:llama500:9760:11935",
+      "raw_file_sha256": "42b88e5d4531178fbebd523a5bb3dae70925cc21aca35ed876d6e02f180c733e",
+      "file_sha256": {
+        "candidate_extraction.json": "56eb65b757c278a420d487154e094888984a86798d4cde73d5e0938a7a24491a",
+        "derived_selection.json": "42b88e5d4531178fbebd523a5bb3dae70925cc21aca35ed876d6e02f180c733e",
+        "identity_resolution.json": "ef5187d656051e23e08009697a55c08ef924aa36fc1150a88e7299be5642f83d",
+        "quote_alignment.json": "46a74fa62618c762070bcfd19856c2ce77000c8068819cd760b79604b1d4869a"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Play ransomware actors use the transfer tool; the selected Software Play endpoint is not the acting subject."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "reject",
+          "reason": "A hashes-associated-with-actors table heading is not evidence of use of software Play."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Play Ransomware Actors -> USES -> PsExec, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "A Windows is a sentence fragment describing PowerTool, not a software tool name."
+        }
+      ]
+    },
+    {
+      "folder": "87",
+      "scope_id": "AA23-352A:evaluation:llama500:11828:12848",
+      "raw_file_sha256": "5691a95a603df7aee08f347644a278b62facc00d97bd3da8815e1750e581507a",
+      "file_sha256": {
+        "candidate_extraction.json": "de9b5baad1904ef73091c3300ec53897d30824d4e38fd28e65ac6640ee5d58f7",
+        "derived_selection.json": "5691a95a603df7aee08f347644a278b62facc00d97bd3da8815e1750e581507a",
+        "identity_resolution.json": "16e0738d74a4b4550cfb8ea93c2b42501216bae0c9390c668fecaeb22c606abc",
+        "quote_alignment.json": "77fd00e78aec990455b435853750487d6230dfd080666bd8275e2e1dbfc7321f"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Custom Play psexesvc identifies an executable variant; it does not assert a ThreatGroup Play uses Software Play. The selected endpoint drops the actual tool name."
+        }
+      ]
+    },
+    {
+      "folder": "88",
+      "scope_id": "AA23-352A:evaluation:llama500:12733:14443",
+      "raw_file_sha256": "e8be30667833e178ee2d1d4023e95af2624603114e34704f1bffe1ee601f6070",
+      "file_sha256": {
+        "candidate_extraction.json": "e04eb796f9334f7e0fab885983ff148389f2e74de61efa8def615a09f4fc6ca3",
+        "derived_selection.json": "5404f7b6d3260c23fd861529fdcfce22214569a605795d61e2fb76e0ee2f92ef",
+        "identity_resolution.json": "2cf4ad9821faee60fe8ae66293b0de840acc9e70907182a4404b45930a1449d1",
+        "quote_alignment.json": "ce1b32215ce856ff947c510a67405738c5480534020f36f22e73c44b4d54607b"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The clause describes actors abusing credentials. It does not assert use of software Play."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Play -> USES -> GRIXBA, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "89",
+      "scope_id": "AA23-352A:evaluation:llama500:14145:16344",
+      "raw_file_sha256": "a31a05dbb997e29c1bdf8f64381610aa5097a54418b4937ff24cdf62045df773",
+      "file_sha256": {
+        "candidate_extraction.json": "4fb9a39ac73bef6981edb4840fd81250f98a3988953ae428845bfc65079fd5c7",
+        "derived_selection.json": "a31a05dbb997e29c1bdf8f64381610aa5097a54418b4937ff24cdf62045df773",
+        "identity_resolution.json": "aa37562edd19c64fb9e8a3877b8e5866343b78b99574cdcf5ca874f9a9ea44a8",
+        "quote_alignment.json": "dd1fd1b4a11c665cb6ea96e1b8e72e77a83213ca2f69ea3ad7e2223f15394e76"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Play -> USES -> GRIXBA, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Play -> USES -> GMER, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Play -> USES -> IOBit, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes Play -> USES -> PowerTool, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "90",
+      "scope_id": "AA23-352A:evaluation:llama500:16080:17724",
+      "raw_file_sha256": "af0f923b9daf9d477460977983be35c707116051131320592e65fbb307483355",
+      "file_sha256": {
+        "candidate_extraction.json": "0eb9e1022d6b002b39ddabb30c96395e294581dad718321d21cafeacbbbc0df3",
+        "derived_selection.json": "83d0e36ed416e02574086f024f83e71fbb0cb6d70d86c84ed55c64e092a9abe8",
+        "identity_resolution.json": "16e0738d74a4b4550cfb8ea93c2b42501216bae0c9390c668fecaeb22c606abc",
+        "quote_alignment.json": "c159aee2c14904465a5ac4cd5ef53ebf46c719d995caf849f68bb0c3d232f138"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The sentence describes Play actors encrypting data; it does not assert the selected actor-to-software self-name relation."
+        }
+      ]
+    },
+    {
+      "folder": "91",
+      "scope_id": "AA23-352A:evaluation:llama500:17529:18539",
+      "raw_file_sha256": "fe9e2beb3d565d467ca8f5ad41f7657d0d8f865110e70a5aadd35f3053112302",
+      "file_sha256": {
+        "candidate_extraction.json": "0f49eed845dfd929888d4bbe50eac02318b5ffe235c9b2a512930c5494f6cfae",
+        "derived_selection.json": "fe9e2beb3d565d467ca8f5ad41f7657d0d8f865110e70a5aadd35f3053112302",
+        "identity_resolution.json": "16e0738d74a4b4550cfb8ea93c2b42501216bae0c9390c668fecaeb22c606abc",
+        "quote_alignment.json": "3fa121dc8158dab7d5a9fc87fab9fbf62ca1c04c4ef2aa2f176d7099da097c97"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The source names Grixba as the custom data-gathering tool. It does not assert use of software Play as selected."
+        }
+      ]
+    },
+    {
+      "folder": "92",
+      "scope_id": "AA23-352A:evaluation:llama500:18455:19130",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "93",
+      "scope_id": "AA23-352A:evaluation:llama500:19034:19853",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "94",
+      "scope_id": "AA23-352A:evaluation:llama500:19771:20652",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "95",
+      "scope_id": "AA23-352A:evaluation:llama500:20528:21542",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "96",
+      "scope_id": "AA23-352A:evaluation:llama500:21415:22258",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "97",
+      "scope_id": "AA23-352A:evaluation:llama500:22179:22895",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "98",
+      "scope_id": "AA23-352A:evaluation:llama500:22768:24022",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "99",
+      "scope_id": "AA23-352A:evaluation:llama500:23163:24531",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "100",
+      "scope_id": "AA23-075A:evaluation:llama500:2065:4310",
+      "raw_file_sha256": "5768010bac9835aecd7de9d465d15a95c57801e4dff068332106be47212cab93",
+      "file_sha256": {
+        "candidate_extraction.json": "c246786c251a14ec92acc8d71f7ab2e8e16a994865d63a4548b206d855b9f5be",
+        "derived_selection.json": "5768010bac9835aecd7de9d465d15a95c57801e4dff068332106be47212cab93",
+        "identity_resolution.json": "cf00ecd54955e33244ada1e9cab69ba40bb9fc6e5b708c423ebcb0f1d236a263",
+        "quote_alignment.json": "44facaecd9135ee59b0a8015dfc386d3cec43c863ccea1e10d8dddd1496f4c6d"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit 3.0 -> USES_TECHNIQUE -> T1480.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "101",
+      "scope_id": "AA23-075A:evaluation:llama500:4080:6201",
+      "raw_file_sha256": "ca6041fa99a9e83fd392db976f07178d5f27fd6e9afa87bf4d90dabed7679487",
+      "file_sha256": {
+        "candidate_extraction.json": "e206aa863a4d1aaae957e5c7d589d4025369649ca4d3649c2f29cc313d4606c4",
+        "derived_selection.json": "ca6041fa99a9e83fd392db976f07178d5f27fd6e9afa87bf4d90dabed7679487",
+        "identity_resolution.json": "2beab01c9b7e3f3929ff5e519af1e0df4e0552a9df2b96790de9b45511317ca0",
+        "quote_alignment.json": "76733c60cb19673af5fc8af8fa17f02ba036fe3a23ff0253be33d0f22576bcfb"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "Affiliates deploying LockBit 3.0 gain initial access through external services; the software itself is not the subject of that initial-access behavior."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit 3.0 -> USES_TECHNIQUE -> T1078, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The source says attempts to encrypt and describes exclusions. Retain the attempted-action qualification instead of importing an unqualified successful behavior."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes LockBit 3.0 -> USES_TECHNIQUE -> T1491.001, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        }
+      ]
+    },
+    {
+      "folder": "102",
+      "scope_id": "AA23-075A:evaluation:llama500:5977:8086",
+      "raw_file_sha256": "27da23544adbc8e76d78ec62019c5094332e2c6b0055cec193d273dc2aeab15b",
+      "file_sha256": {
+        "candidate_extraction.json": "18d054fe3829b59d84f247bbee7751bc5050ac74b8ce3000353b14d73cc21b70",
+        "derived_selection.json": "27da23544adbc8e76d78ec62019c5094332e2c6b0055cec193d273dc2aeab15b",
+        "identity_resolution.json": "141b7d911777b3c40f43962233beb590f80253ac638c7520e1b3c261bd20323f",
+        "quote_alignment.json": "2aa423850ffc05741c567c0a5559ee22e265690f881fbe8f7e12f4827c87b892"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "Deletion is conditional on build options and the source says may delete itself. Keep this conditional capability outside definite observed graph facts."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The exact selected source support attributes rclone -> USES_TECHNIQUE -> T1567.002, with matching endpoint roles. The source assertion is definite; any observed-use caption is retained as recorded context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "reject",
+          "reason": "LockBit 3.0 affiliates use web services; the Software LockBit 3.0 endpoint is not the subject in this clause."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "See Table is a document navigation phrase, not software."
+        }
+      ]
+    },
+    {
+      "folder": "103",
+      "scope_id": "AA23-075A:evaluation:llama500:7876:9861",
+      "raw_file_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "104",
+      "scope_id": "AA23-075A:evaluation:llama500:9606:11457",
+      "raw_file_sha256": "fcdfa0c69eb717300a3126683b4f974a38100d20648163259c58c58adc5d7030",
+      "file_sha256": {
+        "candidate_extraction.json": "6b3c775c50c13938bd7f4c2bdf5458ba4610ff56a26fc6ec9d89f457e9e8f38e",
+        "derived_selection.json": "fcdfa0c69eb717300a3126683b4f974a38100d20648163259c58c58adc5d7030",
+        "identity_resolution.json": "f6798c05d6afb3469e06d23354f1e43267ca0b76808a11130581912ec74dfa2a",
+        "quote_alignment.json": "3da99b01407b155fff8a0b24ebb16ffe87e65902a41e0bea404dc69013433bf3"
+      },
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The selected statement concerns mutex creation by LockBit 3.0, not affiliate use of that software. The inherited freeware-tools caption no longer governs this technical-artifact section."
+        }
+      ]
+    },
+    {
+      "folder": "105",
+      "scope_id": "AA23-075A:evaluation:llama500:11240:12930",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "106",
+      "scope_id": "AA23-075A:evaluation:llama500:12712:14097",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "107",
+      "scope_id": "AA23-075A:evaluation:llama500:13954:15486",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "108",
+      "scope_id": "AA23-075A:evaluation:llama500:15300:16716",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "109",
+      "scope_id": "AA23-075A:evaluation:llama500:16524:18208",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "110",
+      "scope_id": "AA23-075A:evaluation:llama500:17999:19572",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "111",
+      "scope_id": "AA23-075A:evaluation:llama500:19385:20727",
+      "raw_file_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "112",
+      "scope_id": "AA23-075A:evaluation:llama500:20640:22313",
+      "raw_file_sha256": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "113",
+      "scope_id": "AA23-075A:evaluation:llama500:22086:24117",
+      "raw_file_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    },
+    {
+      "folder": "114",
+      "scope_id": "AA23-075A:evaluation:llama500:23852:25424",
+      "raw_file_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "decisions": []
+    }
+  ]
+}

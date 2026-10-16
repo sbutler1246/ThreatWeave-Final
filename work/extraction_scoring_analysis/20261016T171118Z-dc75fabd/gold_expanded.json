@@ -1,0 +1,1343 @@
+[
+  {
+    "gold_id": "GT001",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:01321fa688d5",
+    "chunk_id": "AA23-165A:table4:row01",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT002",
+    "head_id": "local:AA23-165A:software:01321fa688d5",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1046",
+    "chunk_id": "AA23-165A:table4:row01",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT003",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:3200bf51de7a",
+    "chunk_id": "AA23-165A:table4:row02",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT004",
+    "head_id": "local:AA23-165A:software:3200bf51de7a",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1046",
+    "chunk_id": "AA23-165A:table4:row02",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT005",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:f084e63e6a62",
+    "chunk_id": "AA23-165A:table4:row03",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT006",
+    "head_id": "local:AA23-165A:software:f084e63e6a62",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA23-165A:table4:row03",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT007",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:66a07ba808e8",
+    "chunk_id": "AA23-165A:table4:row04",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT008",
+    "head_id": "local:AA23-165A:software:66a07ba808e8",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA23-165A:table4:row04",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT009",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:e0937ebfa805",
+    "chunk_id": "AA23-165A:table4:row05",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT010",
+    "head_id": "local:AA23-165A:software:e0937ebfa805",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row05",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT011",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:71f199334790",
+    "chunk_id": "AA23-165A:table4:row06",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT012",
+    "head_id": "local:AA23-165A:software:71f199334790",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row06",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT013",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "attack:S0521",
+    "chunk_id": "AA23-165A:table4:row07",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT014",
+    "head_id": "attack:S0521",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1482",
+    "chunk_id": "AA23-165A:table4:row07",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT015",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:f0e3ff918eb7",
+    "chunk_id": "AA23-165A:table4:row08",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT016",
+    "head_id": "local:AA23-165A:software:f0e3ff918eb7",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1072",
+    "chunk_id": "AA23-165A:table4:row08",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT017",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:e75f81e2b9c1",
+    "chunk_id": "AA23-165A:table4:row09",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT018",
+    "head_id": "local:AA23-165A:software:e75f81e2b9c1",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row09",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT019",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:ca44de7df757",
+    "chunk_id": "AA23-165A:table4:row10",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT020",
+    "head_id": "local:AA23-165A:software:ca44de7df757",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003",
+    "chunk_id": "AA23-165A:table4:row10",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT021",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:c19a332bf44b",
+    "chunk_id": "AA23-165A:table4:row11",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT022",
+    "head_id": "local:AA23-165A:software:c19a332bf44b",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567.002",
+    "chunk_id": "AA23-165A:table4:row11",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT023",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:77eaa36ca5b3",
+    "chunk_id": "AA23-165A:table4:row12",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT024",
+    "head_id": "local:AA23-165A:software:77eaa36ca5b3",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row12",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT025",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:e80ac0ab47a5",
+    "chunk_id": "AA23-165A:table4:row13",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT026",
+    "head_id": "local:AA23-165A:software:e80ac0ab47a5",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1095",
+    "chunk_id": "AA23-165A:table4:row13",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT027",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:45e4afe86adc",
+    "chunk_id": "AA23-165A:table4:row14",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT028",
+    "head_id": "local:AA23-165A:software:45e4afe86adc",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003",
+    "chunk_id": "AA23-165A:table4:row14",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT029",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:43e3b99d68d1",
+    "chunk_id": "AA23-165A:table4:row15",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT030",
+    "head_id": "local:AA23-165A:software:43e3b99d68d1",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567.002",
+    "chunk_id": "AA23-165A:table4:row15",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT031",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:9e3f2de9075a",
+    "chunk_id": "AA23-165A:table4:row16",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT032",
+    "head_id": "local:AA23-165A:software:9e3f2de9075a",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003.001",
+    "chunk_id": "AA23-165A:table4:row16",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT033",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:4543ed34eef1",
+    "chunk_id": "AA23-165A:table4:row17",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT034",
+    "head_id": "local:AA23-165A:software:4543ed34eef1",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1555.003",
+    "chunk_id": "AA23-165A:table4:row17",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT035",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:83bb30f693bb",
+    "chunk_id": "AA23-165A:table4:row18",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT036",
+    "head_id": "local:AA23-165A:software:83bb30f693bb",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row18",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT037",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:6d2f3088bde8",
+    "chunk_id": "AA23-165A:table4:row19",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT038",
+    "head_id": "local:AA23-165A:software:6d2f3088bde8",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row19",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT039",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:af1cdd24af11",
+    "chunk_id": "AA23-165A:table4:row20",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT040",
+    "head_id": "local:AA23-165A:software:af1cdd24af11",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row20",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT041",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:29949244c49a",
+    "chunk_id": "AA23-165A:table4:row21",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT042",
+    "head_id": "local:AA23-165A:software:29949244c49a",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA23-165A:table4:row21",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT043",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:f41f88fa5f85",
+    "chunk_id": "AA23-165A:table4:row22",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT044",
+    "head_id": "local:AA23-165A:software:f41f88fa5f85",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1082",
+    "chunk_id": "AA23-165A:table4:row22",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT045",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:8a2cf8c01c3b",
+    "chunk_id": "AA23-165A:table4:row23",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT046",
+    "head_id": "local:AA23-165A:software:8a2cf8c01c3b",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA23-165A:table4:row23",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT047",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:ad9798edd4be",
+    "chunk_id": "AA23-165A:table4:row24",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT048",
+    "head_id": "local:AA23-165A:software:ad9798edd4be",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1046",
+    "chunk_id": "AA23-165A:table4:row24",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT049",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:02f6f0c9f7e2",
+    "chunk_id": "AA23-165A:table4:row25",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT050",
+    "head_id": "local:AA23-165A:software:02f6f0c9f7e2",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1021.001",
+    "chunk_id": "AA23-165A:table4:row25",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT051",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:44fadb595b5e",
+    "chunk_id": "AA23-165A:table4:row26",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT052",
+    "head_id": "local:AA23-165A:software:44fadb595b5e",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA23-165A:table4:row26",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT053",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:248c803623b9",
+    "chunk_id": "AA23-165A:table4:row27",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT054",
+    "head_id": "local:AA23-165A:software:248c803623b9",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA23-165A:table4:row27",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT055",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:73ce0c7e28f1",
+    "chunk_id": "AA23-165A:table4:row28",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT056",
+    "head_id": "local:AA23-165A:software:73ce0c7e28f1",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1071.001",
+    "chunk_id": "AA23-165A:table4:row28",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT057",
+    "head_id": "local:AA23-165A:lockbit-affiliates",
+    "predicate": "USES",
+    "tail_id": "local:AA23-165A:software:673fa557d7aa",
+    "chunk_id": "AA23-165A:table4:row29",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT058",
+    "head_id": "local:AA23-165A:software:673fa557d7aa",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1048",
+    "chunk_id": "AA23-165A:table4:row29",
+    "doc_id": "AA23-165A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT059",
+    "head_id": "local:AA23-061A:68e54d28b188",
+    "predicate": "USES",
+    "tail_id": "local:AA23-061A:software:4437f8f0e447",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT060",
+    "head_id": "local:AA23-061A:software:4437f8f0e447",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT061",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "attack:S0002",
+    "chunk_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT062",
+    "head_id": "attack:S0002",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003",
+    "chunk_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT062",
+    "head_id": "attack:S0002",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT063",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "attack:S0349",
+    "chunk_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT064",
+    "head_id": "attack:S0349",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003",
+    "chunk_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT065",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "attack:S0508",
+    "chunk_id": "AA24-109A:paragraph:11788",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT065",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "attack:S0508",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT066",
+    "head_id": "attack:S0508",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA24-109A:paragraph:11788",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT067",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:2557667d4228",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT068",
+    "head_id": "local:AA24-109A:software:2557667d4228",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1560.001",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT069",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:aedba2c710c4",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT070",
+    "head_id": "local:AA24-109A:software:aedba2c710c4",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1560.001",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT071",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:b6c676547196",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT072",
+    "head_id": "local:AA24-109A:software:b6c676547196",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1048",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT073",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "attack:S1040",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT074",
+    "head_id": "attack:S1040",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1048",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT075",
+    "head_id": "attack:S0508",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1090",
+    "chunk_id": "AA24-109A:paragraph:12198",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT076",
+    "head_id": "local:AA24-131A:f75b50ea0eb3",
+    "predicate": "USES",
+    "tail_id": "local:AA24-131A:software:fe36d4218d2e",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT077",
+    "head_id": "local:AA24-131A:software:fe36d4218d2e",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT078",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES",
+    "tail_id": "attack:S0002",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT079",
+    "head_id": "local:AA23-075A:0a79cffd0da5",
+    "predicate": "USES",
+    "tail_id": "attack:S1040",
+    "chunk_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT080",
+    "head_id": "attack:S1040",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567.002",
+    "chunk_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT080",
+    "head_id": "attack:S1040",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567.002",
+    "chunk_id": "AA25-071A:paragraph:17253",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT081",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "attack:S0002",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT082",
+    "head_id": "attack:S0002",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003.001",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT083",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "attack:S1040",
+    "chunk_id": "AA25-071A:paragraph:17253",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT084",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "attack:S0029",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT085",
+    "head_id": "attack:S0029",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1569.002",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT086",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:7046ebeaf064",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT087",
+    "head_id": "local:AA25-071A:software:7046ebeaf064",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT088",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:3989835d8972",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT089",
+    "head_id": "local:AA25-071A:software:3989835d8972",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT090",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "attack:S0591",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT091",
+    "head_id": "attack:S0591",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT092",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:ed1dd4d534c7",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT093",
+    "head_id": "local:AA25-071A:software:ed1dd4d534c7",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT094",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:768ca45aa0ce",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT095",
+    "head_id": "local:AA25-071A:software:768ca45aa0ce",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT096",
+    "head_id": "local:AA23-061A:68e54d28b188",
+    "predicate": "USES",
+    "tail_id": "local:AA23-061A:software:fe439fc2d972",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT097",
+    "head_id": "local:AA23-061A:68e54d28b188",
+    "predicate": "USES",
+    "tail_id": "local:AA23-061A:software:d653a7844124",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT098",
+    "head_id": "local:AA23-061A:68e54d28b188",
+    "predicate": "USES",
+    "tail_id": "local:AA23-061A:software:b34a5d5691ad",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT099",
+    "head_id": "local:AA23-061A:68e54d28b188",
+    "predicate": "USES",
+    "tail_id": "local:AA23-061A:software:660d560aa10c",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT100",
+    "head_id": "local:AA23-061A:software:fe439fc2d972",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT101",
+    "head_id": "local:AA23-061A:software:d653a7844124",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT102",
+    "head_id": "local:AA23-061A:software:b34a5d5691ad",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT103",
+    "head_id": "local:AA23-061A:software:660d560aa10c",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT104",
+    "head_id": "local:AA23-061A:68e54d28b188",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1572",
+    "chunk_id": "AA23-061A:paragraph:6445",
+    "doc_id": "AA23-061A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT105",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:05e71c1ca386",
+    "chunk_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT106",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:16798b10924f",
+    "chunk_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT107",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:00190c5ad713",
+    "chunk_id": "AA24-109A:paragraph:8222",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT108",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:55947b6cce20",
+    "chunk_id": "AA24-109A:paragraph:11788",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT109",
+    "head_id": "local:AA24-109A:0e1c53812ace",
+    "predicate": "USES",
+    "tail_id": "local:AA24-109A:software:75134abdfc94",
+    "chunk_id": "AA24-109A:paragraph:11788",
+    "doc_id": "AA24-109A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT110",
+    "head_id": "local:AA24-131A:f75b50ea0eb3",
+    "predicate": "USES",
+    "tail_id": "local:AA24-131A:software:55947b6cce20",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT111",
+    "head_id": "local:AA24-131A:software:55947b6cce20",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1059.001",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT112",
+    "head_id": "local:AA24-131A:f75b50ea0eb3",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1059.001",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT113",
+    "head_id": "local:AA24-131A:f75b50ea0eb3",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1562.001",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT114",
+    "head_id": "local:AA24-131A:f75b50ea0eb3",
+    "predicate": "USES",
+    "tail_id": "attack:S1040",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT115",
+    "head_id": "local:AA24-131A:f75b50ea0eb3",
+    "predicate": "USES",
+    "tail_id": "local:AA24-131A:software:ff80268dfba6",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT116",
+    "head_id": "local:AA24-131A:software:ff80268dfba6",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1490",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT117",
+    "head_id": "local:AA24-131A:f75b50ea0eb3",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1490",
+    "chunk_id": "AA24-131A:paragraph:7045",
+    "doc_id": "AA24-131A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT118",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES",
+    "tail_id": "attack:S0154",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT119",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES",
+    "tail_id": "local:AA23-352A:software:0cf55febf567",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT120",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES",
+    "tail_id": "attack:S0029",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT121",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES",
+    "tail_id": "local:AA23-352A:software:700b22b1e590",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT122",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1552",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT123",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT124",
+    "head_id": "local:AA23-352A:software:700b22b1e590",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1059",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT125",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1059",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT126",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1570",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT127",
+    "head_id": "local:AA23-352A:99cc2849cecd",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1484.001",
+    "chunk_id": "AA23-352A:paragraph:5544",
+    "doc_id": "AA23-352A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT128",
+    "head_id": "local:AA23-075A:0a79cffd0da5",
+    "predicate": "USES",
+    "tail_id": "attack:S1200",
+    "chunk_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT129",
+    "head_id": "local:AA23-075A:0a79cffd0da5",
+    "predicate": "USES",
+    "tail_id": "local:AA23-075A:software:84c390678a6f",
+    "chunk_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT130",
+    "head_id": "local:AA23-075A:software:84c390678a6f",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567.002",
+    "chunk_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT131",
+    "head_id": "local:AA23-075A:0a79cffd0da5",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567.002",
+    "chunk_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT132",
+    "head_id": "local:AA23-075A:0a79cffd0da5",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567",
+    "chunk_id": "AA23-075A:paragraph:6201",
+    "doc_id": "AA23-075A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT133",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:71aae4ecb516",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT134",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:17db0a0b4bdb",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT135",
+    "head_id": "local:AA25-071A:software:71aae4ecb516",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003.001",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT136",
+    "head_id": "local:AA25-071A:software:17db0a0b4bdb",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003.001",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT137",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1003.001",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT138",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:4c2bbbdbcacc",
+    "chunk_id": "AA25-071A:paragraph:15368",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT139",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:02391c929763",
+    "chunk_id": "AA25-071A:paragraph:17253",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT140",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1567.002",
+    "chunk_id": "AA25-071A:paragraph:17253",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT141",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:4e45bb06c9d0",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT142",
+    "head_id": "local:AA25-071A:software:4e45bb06c9d0",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT143",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:664d55891d79",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT144",
+    "head_id": "local:AA25-071A:software:664d55891d79",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT145",
+    "head_id": "local:AA25-071A:5d82fba77abf",
+    "predicate": "USES",
+    "tail_id": "local:AA25-071A:software:7b1f660dabe3",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  },
+  {
+    "gold_id": "GT146",
+    "head_id": "local:AA25-071A:software:7b1f660dabe3",
+    "predicate": "USES_TECHNIQUE",
+    "tail_id": "attack:T1219",
+    "chunk_id": "AA25-071A:paragraph:13808",
+    "doc_id": "AA25-071A",
+    "verified": true
+  }
+]

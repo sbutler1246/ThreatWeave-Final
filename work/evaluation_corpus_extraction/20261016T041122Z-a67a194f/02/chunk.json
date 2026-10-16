@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-165A:evaluation:llama500:4484:6401",
+  "doc_id": "AA23-165A",
+  "start": 4484,
+  "end": 6401,
+  "text": "January 2020\nLockBit-named ransomware first seen on Russian-language based cybercrime forums.\nJune 2021\nAppearance of LockBit version 2 (LockBit 2.0), also known as LockBit Red including StealBit, a built-in information-stealing tool.\nOctober 2021\nIntroduction of LockBit Linux-ESXi Locker version 1.0 expanding capabilities to target systems to Linux and VMware ESXi. [5]\nMarch 2022\nEmergence of LockBit 3.0, also known as LockBit Black, that shares similarities with BlackMatter and Alphv (also known as BlackCat) ransomware.\nSeptember 2022\nNon-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]\nJanuary 2023\nArrival of LockBit Green incorporating source code from Conti ransomware. [7]\nApril 2023\nLockBit ransomware encryptors targeting macOS seen on VirusTotal [8, 9]\nLockBit 2.0, LockBit 3.0, LockBit Green, and LockBit Linux-ESXi Locker are still available for affiliates’ use on LockBit’s panel.\nLockBit Statistics\nPercentage of ransomware incidents attributed to LockBit:\nAustralia: From April 1, 2022, to March 31, 2023, LockBit made up 18% of total reported Australian ransomware incidents. This figure includes all variants of LockBit ransomware, not solely LockBit 3.0.\nCanada: In 2022, LockBit was responsible for 22% of attributed ransomware incidents in Canada.[10]\nNew Zealand: In 2022, CERT NZ received 15 reports of LockBit ransomware, representing 23% of 2022 ransomware reports.\nUnited States: In 2022, 16% of the State, Local, Tribal, and Tribunal (SLTT) government ransomware incidents reported to the MS-ISAC were identified as LockBit attacks. This included ransomware incidents impacting municipal governments, county governments, public higher education and K-12 schools, and emergency services (e.g., law enforcement).\nNumber of LockBit ransomware attacks in the U.S. since 2020:\nAbout 1,700 attacks according to the FBI.\nTotal of U.S. ransoms paid to LockBit:\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 70,
+      "text": "Understanding Ransomware Threat Actors: LockBit"
+    },
+    {
+      "start": 2293,
+      "end": 2310,
+      "text": "TECHNICAL DETAILS"
+    },
+    {
+      "start": 4347,
+      "end": 4381,
+      "text": "Table 1: Evolution of LockBit RaaS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

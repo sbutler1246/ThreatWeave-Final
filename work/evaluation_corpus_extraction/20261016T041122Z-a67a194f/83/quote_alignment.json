@@ -1,0 +1,80 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u004"
+    ],
+    "selected_units": [
+      {
+        "start": 256,
+        "end": 399,
+        "text": "The Play ransomware group gains initial access to victim networks through the abuse of valid accounts, likely purchased on the dark web [T1078]",
+        "line_start": 256
+      }
+    ],
+    "document_start": 4107,
+    "document_end": 4250,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u007"
+    ],
+    "selected_units": [
+      {
+        "start": 620,
+        "end": 793,
+        "text": "Play ransomware actors have been observed using external-facing services [T1133] such as Remote Desktop Protocol (RDP) and Virtual Private Networks (VPN) for initial access.",
+        "line_start": 256
+      }
+    ],
+    "document_start": 4471,
+    "document_end": 4644,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 815,
+        "end": 1141,
+        "text": "Multiple ransomware groups, including initial access brokers with ties to Play ransomware operators, exploited CVE-2024-57727 in remote monitoring and management (RMM) tool SimpleHelp [T1190] to conduct remote code execution [T1059.001] at many U.S.-based entities following the vulnerabilities’ disclosure on 16 January 2025.",
+        "line_start": 815
+      }
+    ],
+    "document_start": 4666,
+    "document_end": 4992,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 1183,
+        "end": 1392,
+        "text": "Play ransomware actors use tools like AdFind to run Active Directory queries [TA0007] and Grixba,1 an information-stealer, to enumerate network information [T1016] and scan for anti-virus software [T1518.001].",
+        "line_start": 1183
+      }
+    ],
+    "document_start": 5034,
+    "document_end": 5243,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

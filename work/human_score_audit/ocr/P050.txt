@@ -1,0 +1,20 @@
+P050
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to Splashtop in AA23-165A? Follow the two-hop software-to-technique-
+to-mitigation path. Distinguish advisory observations from reference recommendations.
+Displayed answer
+The retrieved evidence is insufficient to answer this question.
+Saved outcome: abstained
+V Verified reference answer
+The selected advisory row maps its reported use to T 1021.001 (Remote Desktop Protocol). The
+direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1018
+(User Account Management), MI 026 (Privileged Account Management), M1028 (Operating
+System Configuration), MI 030 (Network Segmentation), MI 032 (Multi-factor Authentication),
+M 1035 (Limit Access to Resource Over Network), M 1042 (Disable or Remove Feature or Program),
+M 1047 (Audit). These are reference mitigation associations, not incident-specific proof of
+effectiveness.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+GRAPH NODES
+GRAPH PATHS

@@ -1,0 +1,955 @@
+{
+  "purpose": "AI_assisted_development_source_review",
+  "human_review_status": "pending",
+  "original_run": "work\\corpus_extraction_batch\\20261015T170956Z-255671f4",
+  "original_summary_sha256": "8015274e867638e8824a9f63fec82907b90e443db8a956e7671e907bdbc505cc",
+  "review_artifacts": "work\\corpus_batch_review_checks\\20261015T171411Z-af0377d1",
+  "artifact_receipt_sha256": "e52d16129d6db9d8c19412871a30975794e87eeb05325f8dcd95709032a941dc",
+  "configuration_hash": "232c1e52f76801b11f89c1e7acd3bb1125806e871c355d4cfcd2ffa40015677b",
+  "batch_plan_fingerprint": "64c42372a806926f31c2b53000d294b5699e506783b4d1d109ecf55a012a27b8",
+  "supported_count": 53,
+  "review_count": 10,
+  "rejected_count": 5,
+  "excluded_count": 15,
+  "candidate_count": 68,
+  "windows": [
+    {
+      "folder": "01",
+      "scope_id": "AA23-136A:development:llama500:7570:9807",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES_TECHNIQUE -> T1057. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES -> Windows Command Shell. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian actors -> USES -> Impacket. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "review",
+          "reason": "SessionGopher use is definite, but the asserted credential-extraction purpose and its T1552.004 mapping are qualified by likely."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "38da310a3a16fc0c8af0b1539e9bd93a0b51e38ad5a83b984912ce9f3f251c6d",
+        "derived_selection.json": "2c7ba8c0f6d61790afeb5d0d61cf2203181b700c8ef60e78c4f87dd58152fb60",
+        "identity_resolution.json": "8e6a5467fcf0dab00164f3cc2506db9d29f1173173b47e72087e8e925b571d15",
+        "quote_alignment.json": "25b03f7380f92e78b4209841dba33034114df9b40efedd3e4fa96e096339f519"
+      },
+      "original_raw_sha256": "2c7ba8c0f6d61790afeb5d0d61cf2203181b700c8ef60e78c4f87dd58152fb60",
+      "empty_output_review": null
+    },
+    {
+      "folder": "02",
+      "scope_id": "AA23-136A:development:llama500:9538:11781",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The repeated SessionGopher passage qualifies the technique purpose with likely; do not promote that purpose to a definite actor technique."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES_TECHNIQUE -> T1021.001. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian actors -> USES -> Command Shell. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES_TECHNIQUE -> T1012. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "c350463439e554a952bff8828d31af175a6cfae4d0bd4f9975b1b7d7eabefd13",
+        "derived_selection.json": "c1f7353310cee7b0218270e2597a42705b5b29a4f6031d68ede8fa2533159222",
+        "identity_resolution.json": "5689c74612a9af02f3e83eeaacaf50b8e3f7c9e5b39fd40edf314616f216bfa3",
+        "quote_alignment.json": "162d0fcdb50df5d3dedd43e8751ad703c27f08ef01f982fc34648eed1b112e46"
+      },
+      "original_raw_sha256": "c1f7353310cee7b0218270e2597a42705b5b29a4f6031d68ede8fa2533159222",
+      "empty_output_review": null
+    },
+    {
+      "folder": "03",
+      "scope_id": "AA23-136A:development:llama500:11500:13402",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "FTP is explicitly a file-transfer protocol here, not a named software entity; the selected Software endpoint has the wrong source role."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The source explicitly links Rclone exfiltration to T1537; retain that source mapping and its quote without inventing additional context."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES -> Rclone. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES_TECHNIQUE -> T1567.002. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "8a84e4a02bbb04d35ae0d607d35b39ca28fc3b2d66bdfe0d525b97aee294837f",
+        "derived_selection.json": "af3bc49818382256e4bd58503bbe81b929596f8dabbca1c9f7ef99f927d0c30b",
+        "identity_resolution.json": "87f88a9a826793e09fafff79cf41b1d1dd866603bd13be44c975017ef933a7de",
+        "quote_alignment.json": "e033b0995949e736e45bcd570e9ddb54dad9b6933cbb1b55c4198e98f2acd695"
+      },
+      "original_raw_sha256": "af3bc49818382256e4bd58503bbe81b929596f8dabbca1c9f7ef99f927d0c30b",
+      "empty_output_review": null
+    },
+    {
+      "folder": "04",
+      "scope_id": "AA23-136A:development:llama500:13135:15163",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "05",
+      "scope_id": "AA23-136A:development:llama500:14884:16865",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "06",
+      "scope_id": "AA23-136A:development:llama500:16592:18416",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "07",
+      "scope_id": "AA23-136A:development:llama500:18276:20181",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES -> Windows Command Shell. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "7e97df1ddefb81a2f2fd8ce4544066ac1d0053b6424ccc7644bd6141ac34190a",
+        "derived_selection.json": "b8f004b70fdbe5e22b0b4d823cbdb010754e7eeaf17b743f820dfff039dd4623",
+        "identity_resolution.json": "019dd45717819ad678933b0955275b1500d87fb4d06245ce74b43f296092e3ce",
+        "quote_alignment.json": "b665fa7be81759cf168838a580cba2fbbda8fcd72a9098dd24ce706781e2cf1f"
+      },
+      "original_raw_sha256": "b8f004b70fdbe5e22b0b4d823cbdb010754e7eeaf17b743f820dfff039dd4623",
+      "empty_output_review": null
+    },
+    {
+      "folder": "08",
+      "scope_id": "AA23-136A:development:llama500:19858:22033",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES -> Windows Command Shell. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES -> net.exe. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "c9a45dee6b1c6cebb530fafbd2ef9a44ef429617ed83d09655ef6ef2e0a0ddac",
+        "derived_selection.json": "93b08900c0f701e57942cef59fb45a4daea6840d26aa72a16c438cbafeeedbc5",
+        "identity_resolution.json": "225ff1e4ace5242018ca3d9ea3e4da7830d078fb25798415890599931a2e9211",
+        "quote_alignment.json": "82caf97b94138350e152b2254a6f6ff4442e6e34e601eb36d40b7688ed316dc9"
+      },
+      "original_raw_sha256": "93b08900c0f701e57942cef59fb45a4daea6840d26aa72a16c438cbafeeedbc5",
+      "empty_output_review": null
+    },
+    {
+      "folder": "09",
+      "scope_id": "AA23-136A:development:llama500:21743:23976",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "10",
+      "scope_id": "AA23-136A:development:llama500:23752:25983",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian actors -> USES -> Advanced Port Scanner. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian actors -> USES -> SoftPerfect Network Scanner. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "f82b82acbd5dbd1ceaa924856a60e0794cda3c960c47291c2c69c8b6e700bbbc",
+        "derived_selection.json": "051b69588c5a0c18ae082e8096e8b593ab103af45375f187abc2728e4573b7af",
+        "identity_resolution.json": "d48182a7228011479aedf101443b224658e4792ac6d29048b14a468e415dbc3d",
+        "quote_alignment.json": "f606dba428c07731ad5f0cc2e58b59dc7b6a372d6e05549ea13faa49c20cbbee"
+      },
+      "original_raw_sha256": "051b69588c5a0c18ae082e8096e8b593ab103af45375f187abc2728e4573b7af",
+      "empty_output_review": null
+    },
+    {
+      "folder": "11",
+      "scope_id": "AA23-136A:development:llama500:25733:28112",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The source says the actors may be using Ngrok; this does not establish definite use."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES -> Rclone. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes BianLian group actors -> USES -> FTP. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "ab41c9dfc4212b4a5f6f8203a80a8525deffcc4d764e7f0ea67cbf58c637ff4a",
+        "derived_selection.json": "2bcb3fb6483511c795506c185b53affebd618e233b05d71812d614d51a4474fa",
+        "identity_resolution.json": "471ad4036fda1ab85b9c6f6553bc2a928947dfc8a703bdf14b8b231579a366bc",
+        "quote_alignment.json": "9bd7a4be64ac24d53c3c4a338f33d3ad714aa4ed6613e709b72744bc13948f4c"
+      },
+      "original_raw_sha256": "2bcb3fb6483511c795506c185b53affebd618e233b05d71812d614d51a4474fa",
+      "empty_output_review": null
+    },
+    {
+      "folder": "12",
+      "scope_id": "AA23-319A:development:llama500:6993:9365",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES_TECHNIQUE -> T1021.004. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES_TECHNIQUE -> T1003.003. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES_TECHNIQUE -> T1070.001. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The literal PsExec.exe row is scoped by the explicit Tools Leveraged by Rhysida Actors caption."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "d1dc3e5d0d8d6f47749ddaed01885033eb305284932ab725a43dafbaaa632f14",
+        "derived_selection.json": "07a90b5a560eebb0297781381542846f98497342695c9694f10108b43ae54ca5",
+        "identity_resolution.json": "fdbc2a7fbd2a7189959663300d001a140b4e67d3c3757751c735e82228cc61a0",
+        "quote_alignment.json": "8da391b382ba4e66ddc09c7e3b713c2b4cc86fdbaddaf886c73e7886300f091d"
+      },
+      "original_raw_sha256": "07a90b5a560eebb0297781381542846f98497342695c9694f10108b43ae54ca5",
+      "empty_output_review": null
+    },
+    {
+      "folder": "13",
+      "scope_id": "AA23-319A:development:llama500:9072:10856",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The source describes a batch script likely placing 1.ps1. It does not attribute the batch-script technique to 1.ps1 itself."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "ceeafeb3e936d232e5d1f33a3a7357e5ea9ab734ea4e26edc0e60c7636ba96ae",
+        "derived_selection.json": "96aa2d38c2e21c5777341e7cf68e0b00781f2ceef0674e42f0f2679d0c322cee",
+        "identity_resolution.json": "ca2a7c8476083cda2ffa77cc8f825813f01fc56937d1a65bfe15504c10b04680",
+        "quote_alignment.json": "226e365bb8a2b229b00c248378cc9f777b5c2eae4cfdf87b99e034db37c0ad80"
+      },
+      "original_raw_sha256": "96aa2d38c2e21c5777341e7cf68e0b00781f2ceef0674e42f0f2679d0c322cee",
+      "empty_output_review": null
+    },
+    {
+      "folder": "14",
+      "scope_id": "AA23-319A:development:llama500:10658:12483",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected contiguous source span ties the Rhysida encryptor to post-encryption deletion of its binary, annotated T1070.004."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected contiguous span ties the Rhysida encryptor cleanup command to a hidden command window, explicitly annotated T1564.003."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes cmd.exe -> USES_TECHNIQUE -> T1112. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES_TECHNIQUE -> T1587. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "a9378273547e2df298d2235dcc906cc492c4c6d1b09867c2338fed2beb36ba5e",
+        "derived_selection.json": "269af025423d6c4f9ec7837e6070881028fd1a1eab00fe90fa017c677e2da2fb",
+        "identity_resolution.json": "839eddd1749171bac4e770f701f969a8c36f9c8271b23bc1ce0b69a450c55f50",
+        "quote_alignment.json": "8e0e8f6a5f34a7e320439bdb96c60de22c27dc9d6c7099870673f69d3d7f255f"
+      },
+      "original_raw_sha256": "269af025423d6c4f9ec7837e6070881028fd1a1eab00fe90fa017c677e2da2fb",
+      "empty_output_review": null
+    },
+    {
+      "folder": "15",
+      "scope_id": "AA23-319A:development:llama500:12199:14452",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "16",
+      "scope_id": "AA23-319A:development:llama500:14258:15684",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "911085d94f4497dd8612a3158f715b4ba57d23952dc2758efd415aa976b4e1de",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "911085d94f4497dd8612a3158f715b4ba57d23952dc2758efd415aa976b4e1de",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "17",
+      "scope_id": "AA23-319A:development:llama500:15559:16518",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "18",
+      "scope_id": "AA23-319A:development:llama500:16407:17306",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "19",
+      "scope_id": "AA23-319A:development:llama500:17198:18151",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "20",
+      "scope_id": "AA23-319A:development:llama500:18035:19290",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "21",
+      "scope_id": "AA23-319A:development:llama500:19026:21144",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES -> AZCopy. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES -> ipconfig. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES -> nltest. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES -> 1.ps1. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "63a8f4e8206d4eca9e51c551166ce7313eeba429044c93ea3fde18097dd5d4d7",
+        "derived_selection.json": "6eca867ad06b5c7cbdfb2fa0acf6ee4cd9bef2bcdb35408b34520abaf2b3ce76",
+        "identity_resolution.json": "00b0eb8208f523cf6c8760b6284e901226ed175af1d763799869bfa0c2725367",
+        "quote_alignment.json": "64ddb888707e5f6756d78574ce8cb6f07efaf287a8e3c92195a62f094ea6bf34"
+      },
+      "original_raw_sha256": "6eca867ad06b5c7cbdfb2fa0acf6ee4cd9bef2bcdb35408b34520abaf2b3ce76",
+      "empty_output_review": null
+    },
+    {
+      "folder": "22",
+      "scope_id": "AA23-319A:development:llama500:20899:23542",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES -> cmd.exe. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES -> ipconfig. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Rhysida actors -> USES -> net. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "36b3b27f53826f68f38d2945b780810e9c3cac6518466a0ff971cfde699c3347",
+        "derived_selection.json": "5a35dd00b38361b11b3f79951332c2f74d9e4f72674791ae0ea4d6de754ae9dc",
+        "identity_resolution.json": "4be51b6dc701dc781687f09fb010aa4857b1451ef1f13833fd2aa3b8c7acf3cd",
+        "quote_alignment.json": "ac5fbcd94224f004fae28fe40cd77e6f480220b3c1e3397d89c0c84c4987c321"
+      },
+      "original_raw_sha256": "07278d8c51eac65e0052cb013a5ce8fd3080fdcd851970d5b3329035f1234491",
+      "empty_output_review": null
+    },
+    {
+      "folder": "23",
+      "scope_id": "AA23-320A:development:llama500:6860:9044",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The source qualifies the exfiltration/encryption activity with may; definite T1486 use is not established by this selected sentence."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Scattered Spider threat actors -> USES -> TOR. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "a9a3145bde58ceaaa287ece7ebb7530703462d31054b7e80ba4943894ac8389c",
+        "derived_selection.json": "ef56f88676a6fd6dcb7633cb03d230ccc007de33aee140581867a442225df495",
+        "identity_resolution.json": "a39296ae12aedf278cbe9e4ed53871810f7d01c332fbb5f294ef73c3d4c48a58",
+        "quote_alignment.json": "f66866fffb875d8093109d11531593d9b8ccc5110bfce0144295b99cd443d39a"
+      },
+      "original_raw_sha256": "ef56f88676a6fd6dcb7633cb03d230ccc007de33aee140581867a442225df495",
+      "empty_output_review": null
+    },
+    {
+      "folder": "24",
+      "scope_id": "AA23-320A:development:llama500:8738:11226",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "2418daaebf3fbe2201ba6f2ec8520cf45c382093b31c48e14397b239ccd7a94c",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "25",
+      "scope_id": "AA23-320A:development:llama500:10886:13401",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Scattered Spider threat actors -> USES_TECHNIQUE -> T1556.006. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Scattered Spider threat actors -> USES_TECHNIQUE -> T1606. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Scattered Spider threat actors -> USES_TECHNIQUE -> T1219. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "Discovery and lateral-movement tactic IDs annotate the activity in this sentence; their co-occurrence does not state a general PART_OF_TACTIC taxonomy relationship."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "5dfff88243d59a87c60f5c09492dd9106e392d82aab8d9093b1736e938a8da9d",
+        "derived_selection.json": "f74f5f65af0555aabcbf4aac7327c9ad65ca7083e29faa1920933cc0b561f127",
+        "identity_resolution.json": "3f7dc47b51b6771d5358d41829d36b196f997263f1304e13a72d2b67ac30c8ac",
+        "quote_alignment.json": "cecef20175b7b7d513febe2600ab82dd3d1883d35c37560916a5d6115f86c226"
+      },
+      "original_raw_sha256": "f74f5f65af0555aabcbf4aac7327c9ad65ca7083e29faa1920933cc0b561f127",
+      "empty_output_review": null
+    },
+    {
+      "folder": "26",
+      "scope_id": "AA23-320A:development:llama500:13144:15560",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "ETL-tool use is scoped to instances where data exfiltration is the goal. The unconditional actor-technique triple drops that condition."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "Centralized collection is explicitly scoped to instances where exfiltration is the goal; preserve the condition before accepting an unconditional triple."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "review",
+          "reason": "The T1530 annotation is in the same conditionally scoped ETL statement; an unconditional triple would omit that scope."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The source directly reports actor searches for emails annotated T1114. To determine if expresses the purpose of observed searching, not uncertain occurrence."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "95cac8be6263fada259b39339cb8bbeac0fb8ae8be2c6fdfe0b0ffbad90f32d9",
+        "derived_selection.json": "73cf169de7224ddb56f016b6b298aedda29641bf1aba919720a7a0ca43baa8c6",
+        "identity_resolution.json": "c187cdcfb66c77815a8e149b984ac50534807372acb2d5fd2d61d1b7c9dfecb5",
+        "quote_alignment.json": "944143af428017b09fb91be8b340538c250d74e487b3767f0365c8893e7e4178"
+      },
+      "original_raw_sha256": "73cf169de7224ddb56f016b6b298aedda29641bf1aba919720a7a0ca43baa8c6",
+      "empty_output_review": null
+    },
+    {
+      "folder": "27",
+      "scope_id": "AA23-320A:development:llama500:15252:17668",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "2396d06cf7f7847de7ca10e33ba94554f200bfb6dfd3da1e92e5b3ba51f757e0",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "28",
+      "scope_id": "AA23-320A:development:llama500:17403:19823",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Scattered Spider threat actors -> USES -> Raccoon Stealer. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "e0fc6518b17d5cbf02f3c8f1052cad51f5bb9678c62bdacea70c2745acf0146c",
+        "derived_selection.json": "c528c16b0b89a8dbfdb358c9960830f043d2e2e8155a672c438c4673155458c8",
+        "identity_resolution.json": "0d9603ea1a2b8cf92939ed739d9c0de4bbd4f04aa8376e132ba9fef8c2492456",
+        "quote_alignment.json": "f70bc4af93ee2a9ca468a4209c8b4b2c850243d54c76aa20c3575516a7867734"
+      },
+      "original_raw_sha256": "c528c16b0b89a8dbfdb358c9960830f043d2e2e8155a672c438c4673155458c8",
+      "empty_output_review": null
+    },
+    {
+      "folder": "29",
+      "scope_id": "AA23-320A:development:llama500:19523:21935",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Scattered Spider threat actors -> USES -> Raccoon Stealer. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "095aa1ea9e2baf62bc45054715c034b91d6b491627a557f426292cf8c13b6ef0",
+        "derived_selection.json": "2d49191bb92f3bf506ff34a9454311025c1df81da379d115ecff6b37d02fa2a9",
+        "identity_resolution.json": "0d9603ea1a2b8cf92939ed739d9c0de4bbd4f04aa8376e132ba9fef8c2492456",
+        "quote_alignment.json": "3f0df75ba9fa1d2ffd945d0dbca46717853a97f6f7af49a536667e62f31339db"
+      },
+      "original_raw_sha256": "2d49191bb92f3bf506ff34a9454311025c1df81da379d115ecff6b37d02fa2a9",
+      "empty_output_review": null
+    },
+    {
+      "folder": "30",
+      "scope_id": "AA23-320A:development:llama500:21657:23828",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Scattered Spider threat actors -> USES -> Snowflake Data Cloud. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "bfb548565d9c8a6563aae69c869b86e4414079554fbb1d64e863dbfb5f548cac",
+        "derived_selection.json": "70785b0b2f056493fd5b670bf0a4a1eb94369a8fbd197b109e7c377a64bff7de",
+        "identity_resolution.json": "cf48a3a4d6e217b2a7eae66028bcbb88ecd426032960da307665095f868f9801",
+        "quote_alignment.json": "060fd91ec38eead93405210141804cf0a6a46ae9802a317861a3aa40fc10a497"
+      },
+      "original_raw_sha256": "70785b0b2f056493fd5b670bf0a4a1eb94369a8fbd197b109e7c377a64bff7de",
+      "empty_output_review": null
+    },
+    {
+      "folder": "31",
+      "scope_id": "AA23-353A:development:llama500:6620:7679",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "32",
+      "scope_id": "AA23-353A:development:llama500:7546:8804",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "33",
+      "scope_id": "AA23-353A:development:llama500:8594:10523",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "34",
+      "scope_id": "AA23-353A:development:llama500:9068:11166",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes ALPHV Blackcat/ALPHV affiliates -> USES -> Evilginx2. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "78c4c3264b2d738ada825f95402bb7e4c6dbe0948faa833c2cec3d3dc0bb8291",
+        "derived_selection.json": "3f577b62ccdb172e5b1eb6abf0df0a30f08c993a388599a94ec53c2a3e392b08",
+        "identity_resolution.json": "eea90288a673f0d029cd7c401ab4c2ba1c7fa82fbfec6570a10b262470729901",
+        "quote_alignment.json": "28e2d5dfcc50820f36521c46e176c86411d1c9321ac760ab95dfb3e1efd20797"
+      },
+      "original_raw_sha256": "3f577b62ccdb172e5b1eb6abf0df0a30f08c993a388599a94ec53c2a3e392b08",
+      "empty_output_review": null
+    },
+    {
+      "folder": "35",
+      "scope_id": "AA24-060A:development:llama500:6217:8285",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes netsh -> USES_TECHNIQUE -> T1562.004. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The source attaches T1490 to Startup-folder/Run-key persistence, creating a behavior/ID mismatch. Preserve the source but exclude this mapping pending review."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Phobos actors -> USES_TECHNIQUE -> T1106. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "reject",
+          "reason": "FTP names the protocol/server endpoint here, not software implementing a technique; the generated Software endpoint is inappropriate."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "94eba0ae6ab2053de2cb843e0778818fa85d2ba2295bbe8d1a8a4ca347e58b17",
+        "derived_selection.json": "bf50e1de592e11beebc167fd5240fa38c3a4759a966c2c692e7f292e65942fd3",
+        "identity_resolution.json": "8a4684ec146b74bf33068f98e1503dfeced451ba2f63f11ea4cd81a47de6303e",
+        "quote_alignment.json": "191b69e9603524eac5765932629e3b9909350c278d341197bedfb7c547a67b09"
+      },
+      "original_raw_sha256": "bf50e1de592e11beebc167fd5240fa38c3a4759a966c2c692e7f292e65942fd3",
+      "empty_output_review": null
+    },
+    {
+      "folder": "36",
+      "scope_id": "AA24-060A:development:llama500:8001:10088",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The source directly describes the Phobos.exe encryption capability and annotates T1486; Phobos is the ransomware identity, not an actor."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "review",
+          "reason": "The sentence describes instant-messaging communication but annotates T1585 (Establish Accounts). This behavior/ID mismatch needs review before import."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "An explicit Phobos actors subject is followed by They use vssadmin.exe to delete shadow copies, supporting the tool-use link."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes netsh -> USES_TECHNIQUE -> T1562.004. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "b2e3d3b39b093673f055c7e6dc625afe4b102e23c0665c915b10d19c50d2ed2f",
+        "derived_selection.json": "619e5d94e111e4b644305012149e8e06a0fcca9570c3a14db1fd4dd5e135fb2c",
+        "identity_resolution.json": "4f88b88d4a729b6ad9c73d6c7675279fc29333174fd637bf1fa713af947b24aa",
+        "quote_alignment.json": "9547b5f9e1f982309a75fa648263b9980a8143ffdf9f82913083d3192cef0358"
+      },
+      "original_raw_sha256": "06c29c941666d89cdc185d6305d08ac87a699a1c3a5ab01cee9229085eeb9035",
+      "empty_output_review": null
+    },
+    {
+      "folder": "37",
+      "scope_id": "AA24-060A:development:llama500:9889:11600",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes netsh -> USES_TECHNIQUE -> T1562.004. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "67d0b1456a193ffe377815102a338f1eff86f13871fe7e30a94653f10ee25349",
+        "derived_selection.json": "2d7962a6d3a8d327fb6ac9e9e4412a81cf8ef1319167f826a211ed6247987a39",
+        "identity_resolution.json": "bfaac2457e6e201c7f446074bee9c5a08089edc4383e65ce4cb0955262fb3e2c",
+        "quote_alignment.json": "72ee6b3d0301501471911b2f53aa5dc2b520dcc2abe3d9860fbd9b390d7813a9"
+      },
+      "original_raw_sha256": "2d7962a6d3a8d327fb6ac9e9e4412a81cf8ef1319167f826a211ed6247987a39",
+      "empty_output_review": null
+    },
+    {
+      "folder": "38",
+      "scope_id": "AA24-060A:development:llama500:11464:12620",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "39",
+      "scope_id": "AA24-060A:development:llama500:12481:13892",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "40",
+      "scope_id": "AA24-060A:development:llama500:13641:14721",
+      "decisions": [],
+      "file_sha256": {
+        "candidate_extraction.json": "7ccf0c70ec4059fcdd07d549ad7ea0e3da700a9e46ce14d12233f35fae38a90d",
+        "derived_selection.json": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+        "identity_resolution.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "quote_alignment.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "original_raw_sha256": "096ac3df03946e078dbe269a92a8543208cd3a306619c8121a6cf651f2586842",
+      "empty_output_review": "coverage_pending_not_negative_gold"
+    },
+    {
+      "folder": "41",
+      "scope_id": "AA24-060A:development:llama500:14622:16556",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Phobos actors -> USES -> Windows Management Instrumentation. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "681464480f6a162f68557b0670379dc25b6db6a92f72353efb99564f5063429d",
+        "derived_selection.json": "de74dd5ee0c295242b1c142f4b12b1de5df4d8a099ca79806ae806838f997357",
+        "identity_resolution.json": "48ed2b48abb42db0b5b74c860b8021bdd465c53ffadf26421e0a248a8145ae16",
+        "quote_alignment.json": "9a68c04bc103b859375450b5b818de12bf1d22d0833fcb46917392937d14d945"
+      },
+      "original_raw_sha256": "de74dd5ee0c295242b1c142f4b12b1de5df4d8a099ca79806ae806838f997357",
+      "empty_output_review": null
+    },
+    {
+      "folder": "42",
+      "scope_id": "AA24-060A:development:llama500:16276:18432",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Phobos actors -> USES -> Windows Management Instrumentation. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The source explicitly attributes deployment of additional Phobos payloads to Phobos actors; actor and software identities remain separate."
+        },
+        {
+          "relation_index": 2,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Phobos actors -> USES -> 1saas.exe. No negation, uncertainty or additional condition changes this selected assertion."
+        },
+        {
+          "relation_index": 3,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Phobos actors -> USES -> cmd.exe. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "19ebbcc2c6b62268d8336d8a177bf94cea42ab27ec4c0688ba8fee3cfef90c55",
+        "derived_selection.json": "fecc0058e99f7b2c6b8ce8aaa114f911969f0d1ef04f3a8bd71d409a3ff58454",
+        "identity_resolution.json": "66b5fe1d6f038fdce36b60af509afb626f16081774b7626e2d13cf35b44aac4e",
+        "quote_alignment.json": "ba08955a2de0b768b336cbbce51d26ab7c8616751b842331d01299ea241091cf"
+      },
+      "original_raw_sha256": "fecc0058e99f7b2c6b8ce8aaa114f911969f0d1ef04f3a8bd71d409a3ff58454",
+      "empty_output_review": null
+    },
+    {
+      "folder": "43",
+      "scope_id": "AA24-060A:development:llama500:18199:20450",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "review",
+          "reason": "The source says actors can use Universal Virus Sniffer. Capability/possibility wording does not establish observed use in this selected passage."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Phobos actors -> USES -> Mimikatz. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "95ce2b45e6d283bf00aa0a53023aa08a800f946218719de61a4f83a50364c086",
+        "derived_selection.json": "ae2aa19e86b8769193fc09e8edefff389023d87b35818f22bf2ba316d72f0089",
+        "identity_resolution.json": "87f4b61be2ec820612e2b84852678a0d932b04485ab1e85b51bac7252e9e96b6",
+        "quote_alignment.json": "b4f85adc7ecd14680c3330d4e42b0c79ff723313ccbe3df5ae5900a2d80b0aba"
+      },
+      "original_raw_sha256": "ae2aa19e86b8769193fc09e8edefff389023d87b35818f22bf2ba316d72f0089",
+      "empty_output_review": null
+    },
+    {
+      "folder": "44",
+      "scope_id": "AA24-060A:development:llama500:20213:22160",
+      "decisions": [
+        {
+          "relation_index": 0,
+          "disposition": "reject",
+          "reason": "The actor used WinSCP to reach an FTP server. Treating FTP itself as Software changes the asserted tool and source role."
+        },
+        {
+          "relation_index": 1,
+          "disposition": "supported",
+          "reason": "The selected exact source passage directly attributes Phobos threat actors -> USES -> Phobos.exe. No negation, uncertainty or additional condition changes this selected assertion."
+        }
+      ],
+      "file_sha256": {
+        "candidate_extraction.json": "df7a08b0475379729c0a14054c964fcbd76ae56678ffb7a7d33d8841939f3aba",
+        "derived_selection.json": "b96196cd4dba71b6a59091f3e16c98234e69b0a9a110f2a9d7309dfa9eef7dc6",
+        "identity_resolution.json": "0e3285626e748e00b25a911d87afe13e0964502c9daa29d28eb848d5c31b8512",
+        "quote_alignment.json": "00650d1b97cf9d44c69319372e4924464e5f1ca4cd6725cd2faeb205175e480f"
+      },
+      "original_raw_sha256": "b96196cd4dba71b6a59091f3e16c98234e69b0a9a110f2a9d7309dfa9eef7dc6",
+      "empty_output_review": null
+    }
+  ]
+}

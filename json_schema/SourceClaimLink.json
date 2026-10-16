@@ -1,0 +1,45 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "entity_canonical_id": {
+      "title": "Entity Canonical Id",
+      "type": "string"
+    },
+    "document_id": {
+      "title": "Document Id",
+      "type": "string"
+    },
+    "predicate": {
+      "enum": [
+        "MENTIONED_IN",
+        "SUPPORTED_BY"
+      ],
+      "title": "Predicate",
+      "type": "string"
+    },
+    "claim_key": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Claim Key"
+    },
+    "evidence_text": {
+      "title": "Evidence Text",
+      "type": "string"
+    }
+  },
+  "required": [
+    "entity_canonical_id",
+    "document_id",
+    "predicate",
+    "evidence_text"
+  ],
+  "title": "SourceClaimLink",
+  "type": "object"
+}

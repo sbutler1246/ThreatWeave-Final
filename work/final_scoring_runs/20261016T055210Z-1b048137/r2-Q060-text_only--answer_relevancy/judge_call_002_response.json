@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:01:17.0188524Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 432932700,
+  "load_duration": 7495000,
+  "prompt_eval_count": 500,
+  "prompt_eval_duration": 15203000,
+  "eval_count": 33,
+  "eval_duration": 405667000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What techniques do Rhysida and Akira threat actors use for privilege escalation?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

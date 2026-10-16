@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:34320:35790",
+  "doc_id": "AA23-061A",
+  "start": 34320,
+  "end": 35790,
+  "text": " EDX\n// 99 | CDQ\n// 33 c8 | XOR param_1, EAX\n// 402f00\n$code_xor_loop_2 = { 0f a4 ce ?? c1 ea ?? 0b f2 c1 e1 ?? 0b c8 0f be c3 8a 1f 99 33 c8 }\n// 0f a4 ce ?? | SHLD ESI, param_1, ??\n// c1 ea ?? | SHR EDX, ??\n// 0b f2 | OR ESI, EDX\n// c1 e1 ?? | SHL, param_1, ??\n// 0b c8 | OR param_1, EDX\n// 0f be c3 | MOVSX EAX, BL\n// 8a 1f | BL, byte ptr [EDI]\n// 99 | CDQ\n// 33 c8 | XOR param_1, EAX\ncondition:\nany of them\n}\nrule win_BlackSuit_manual {\nmeta:\nauthor = \"CVH - Raleigh\"\ndate = \"2024-07-12\"\nversion = \"1\"\ndescription = \"Detects win.BlackSuit. Rules were manually constructed and results should not be considered conclusive.\"\nmalpedia_reference = \"https://malpedia.caad.fkie.fraunhofer.de/details/win.BlackSuit\"\nstrings:\n// Somehow keeps this in plaintext, although in UTF-16\n$string_readme = \"readme.BlackSuit.txt\" nocase wide ascii\n// RSA key for encrypting AES encryption key present in plaintext\n$string_rsa_key = \"BEGIN RSA PUBLIC KEY\" nocase wide ascii\n// Unusual debug strings\n$string_debug_1 = \".rdata$voltmd\"\n$string_debug_2 = \".rdata$zzzdbg\"\n// Relevant functions calls\n$import_1 = \"MultiByteToWideChar\"\n$import_2 = \"EnterCriticalSection\"\n$import_3 = \"GetProcessHeap\"\ncondition:\n(is_executable and $string_readme)\nOr\n($string_readme and\n(obfuscates_dlls or calls_rsa_function or xor_decoder_functions)\n)\nor\n2 of (obfuscates_dlls, calls_rsa_function, xor_decoder_functions)\nor\n1 of (obfuscates_dlls, calls_rsa_function, xor_decoder_functions) and any of them\n}\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

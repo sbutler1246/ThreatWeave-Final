@@ -1,0 +1,250 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 23,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 24,
+      "end": 47,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 24
+    },
+    "u003": {
+      "start": 48,
+      "end": 71,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 48
+    },
+    "u004": {
+      "start": 72,
+      "end": 95,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 72
+    },
+    "u005": {
+      "start": 96,
+      "end": 119,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 96
+    },
+    "u006": {
+      "start": 120,
+      "end": 143,
+      "text": "c6 84 24 ?? 00 00 00 ??",
+      "line_start": 120
+    },
+    "u007": {
+      "start": 144,
+      "end": 145,
+      "text": "}",
+      "line_start": 144
+    },
+    "u008": {
+      "start": 146,
+      "end": 202,
+      "text": "// c6 84 24 ?? 00 00 00 ?? | MOV byte ptr [ESP + ??], ??",
+      "line_start": 146
+    },
+    "u009": {
+      "start": 203,
+      "end": 255,
+      "text": "$code_deobfuscate = { 99 f7 ?? 8d ?? ?? 99 f7 ?? 88}",
+      "line_start": 203
+    },
+    "u010": {
+      "start": 256,
+      "end": 267,
+      "text": "// 99 | CDQ",
+      "line_start": 256
+    },
+    "u011": {
+      "start": 268,
+      "end": 286,
+      "text": "// f7 ?? | IDIV ??",
+      "line_start": 268
+    },
+    "u012": {
+      "start": 287,
+      "end": 311,
+      "text": "// 8d ?? ?? | LEA ??, ??",
+      "line_start": 287
+    },
+    "u013": {
+      "start": 312,
+      "end": 323,
+      "text": "// 99 | CDQ",
+      "line_start": 312
+    },
+    "u014": {
+      "start": 324,
+      "end": 342,
+      "text": "// f7 ?? | IDIV ??",
+      "line_start": 324
+    },
+    "u015": {
+      "start": 343,
+      "end": 354,
+      "text": "// 88 | MOV",
+      "line_start": 343
+    },
+    "u016": {
+      "start": 355,
+      "end": 365,
+      "text": "condition:",
+      "line_start": 355
+    },
+    "u017": {
+      "start": 366,
+      "end": 377,
+      "text": "all of them",
+      "line_start": 366
+    },
+    "u018": {
+      "start": 378,
+      "end": 379,
+      "text": "}",
+      "line_start": 378
+    },
+    "u019": {
+      "start": 380,
+      "end": 405,
+      "text": "rule calls_rsa_function {",
+      "line_start": 380
+    },
+    "u020": {
+      "start": 406,
+      "end": 414,
+      "text": "strings:",
+      "line_start": 406
+    },
+    "u021": {
+      "start": 415,
+      "end": 455,
+      "text": "// Code for function calls using RSA key",
+      "line_start": 415
+    },
+    "u022": {
+      "start": 456,
+      "end": 535,
+      "text": "$code_rsa_function_1 = { 8d4c2410 6a?? 6a?? 51 6a?? 6a?? 6a?? 68???????? ffd0 }",
+      "line_start": 456
+    },
+    "u023": {
+      "start": 536,
+      "end": 574,
+      "text": "// 8d 4c 24 10 | LEA ECX, [esp + 0x10]",
+      "line_start": 536
+    },
+    "u024": {
+      "start": 575,
+      "end": 593,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 575
+    },
+    "u025": {
+      "start": 594,
+      "end": 612,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 594
+    },
+    "u026": {
+      "start": 613,
+      "end": 629,
+      "text": "// 51 | PUSH ECX",
+      "line_start": 613
+    },
+    "u027": {
+      "start": 630,
+      "end": 648,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 630
+    },
+    "u028": {
+      "start": 649,
+      "end": 667,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 649
+    },
+    "u029": {
+      "start": 668,
+      "end": 686,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 668
+    },
+    "u030": {
+      "start": 687,
+      "end": 735,
+      "text": "// 68 ?? ?? ?? ?? | PUSH (address of RSA string)",
+      "line_start": 687
+    },
+    "u031": {
+      "start": 736,
+      "end": 755,
+      "text": "// ff d0 | CALL EAX",
+      "line_start": 736
+    },
+    "u032": {
+      "start": 756,
+      "end": 833,
+      "text": "$code_rsa_function_2 = { 8d4c2410 6a?? 6a?? 51 56 6a?? 6a?? 68???????? ffd0 }",
+      "line_start": 756
+    },
+    "u033": {
+      "start": 834,
+      "end": 872,
+      "text": "// 8d 4c 24 10 | LEA ECX, [esp + 0x10]",
+      "line_start": 834
+    },
+    "u034": {
+      "start": 873,
+      "end": 891,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 873
+    },
+    "u035": {
+      "start": 892,
+      "end": 910,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 892
+    },
+    "u036": {
+      "start": 911,
+      "end": 927,
+      "text": "// 51 | PUSH ECX",
+      "line_start": 911
+    },
+    "u037": {
+      "start": 928,
+      "end": 944,
+      "text": "// 56 | PUSH ESI",
+      "line_start": 928
+    },
+    "u038": {
+      "start": 945,
+      "end": 963,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 945
+    },
+    "u039": {
+      "start": 964,
+      "end": 982,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 964
+    },
+    "u040": {
+      "start": 983,
+      "end": 1031,
+      "text": "// 68 ?? ?? ?? ?? | PUSH (address of RSA string)",
+      "line_start": 983
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

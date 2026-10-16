@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 1228,
+        "end": 1416,
+        "text": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002].",
+        "line_start": 1228
+      }
+    ],
+    "document_start": 17253,
+    "document_end": 17441,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u015"
+    ],
+    "selected_units": [
+      {
+        "start": 1729,
+        "end": 1960,
+        "text": "The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",
+        "line_start": 1729
+      }
+    ],
+    "document_start": 17754,
+    "document_end": 17985,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 831,
+        "end": 979,
+        "text": "(Updated Aug. 18, 2026) Medusa actors make changes to Active Directory Default Domain Policy settings to override Group Policy settings [T1484.001].",
+        "line_start": 831
+      }
+    ],
+    "document_start": 16856,
+    "document_end": 17004,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 1228,
+        "end": 1416,
+        "text": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002].",
+        "line_start": 1228
+      }
+    ],
+    "document_start": 17253,
+    "document_end": 17441,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

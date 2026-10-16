@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:19628:21225",
+    "doc_id": "AA23-061A",
+    "start": 19628,
+    "end": 21225,
+    "text": "a0d2223479d9d43597eab39fa\nnircmd.exe\n216047c048bf1dcbf031cf24bd5e0f263994a5df60b23089e393033d17257cb5\nnsudo.exe\n19896a23d7b054625c2f6b1ee1551a0da68ad25cddbb24510a3b74578418e618\nIOCs as of July 2024 (New August 7, 2024)\nDisclaimer: Several of these observed IP addresses were first observed as early as 2023, although the most recent are from July of 2024 and have been historically linked to BlackSuit (formerly known as Royal) Ransomware. IP addresses in this advisory were maliciously used during the time range highlighted below, and may have been used for legitimate purposes outside of that time span. FBI and CISA recommend these IP addresses be investigated or vetted by organizations prior to taking action, such as blocking.\nTable 9: Malicious URL (s) associated with BlackSuit Ransomware\nURL Association\nMalicious URLs\nURLs from malicious PowerShell on P0, potentially debug.ps1\nhttps://1tvnews[.]af/xmlrpc.php\nhttps://avpvuurwerk[.]nl/xmlrpc.php\nhttps://beautyhabits[.]gr/xmlrpc.php\nhttps://interpolyaris[.]ru/xmlrpc.php\nhttps://libertygospeltracts[.]com/xmlrpc.php\nhttps://oldtimertreffen-rethem[.]de/xmlrpc.php\nhttps://parencyivf[.]com/xmlrpc.php\nhttps://pikaluna[.]com/xmlrpc.php\nhttps://stroeck[.]at/xmlrpc.php\nURL associated to BRC4 / Brute Ratel\nmegupdate[.]com\nURLs associated to Exfiltration\nmystuff[.]bublup[.]com\nURL associated to Cobalt Strike C2\nprovincial-gaiters-gw[.]aws-use1[.]cloud-ara[.]tyk[.]io\nURL associated to Initial Access Download\nzoommanager[.]com\nTable 10: BlackSuit Ransomware Associated Files and Hash Values\nFilename\nHash Value – SHA-256\nDescription\n1.exe\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 18422,
+        "end": 18496,
+        "text": "Table 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 485,
+  "inherited_context_tokens": 36,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "e3bb6dd705fa04031b4f08a066d19fb37bf80b64923f1dbb084d8eb5d0328045",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

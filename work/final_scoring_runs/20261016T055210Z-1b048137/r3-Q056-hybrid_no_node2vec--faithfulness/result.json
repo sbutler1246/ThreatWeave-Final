@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r3-Q056-hybrid_no_node2vec--faithfulness",
+    "case_id": "r3-Q056-hybrid_no_node2vec",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "b06907d9a62c497ff1e19817ddb0c42d9ba3cffccd0ca75a8460bdc413f49ec8",
+  "status": "scored",
+  "value": 0.6,
+  "judge_calls": 2,
+  "elapsed_ms": 16098.695199994836
+}

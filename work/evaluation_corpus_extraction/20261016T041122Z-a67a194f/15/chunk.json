@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:4148:6616",
+  "doc_id": "AA23-061A",
+  "start": 4148,
+  "end": 6616,
+  "text": "\nNote: This advisory uses the MITRE ATT&CK® for Enterprise framework, version 15. See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nInitial Access\nBlackSuit uses a unique partial encryption approach that allows the threat actor to choose a specific percentage of data in a file to encrypt. This approach allows the actor to lower the encryption percentage for larger files, which helps evade detection, and also significantly improves ransomware speed.[1] In addition to encrypting files, BlackSuit actors also engage in double extortion tactics in which they threaten to publicly release the exfiltrated data if the victim does not pay the ransom.\nBlackSuit actors gain initial access to victim networks in several ways, including:\nPhishing. According to third-party reporting, BlackSuit actors most commonly gain initial access to victim networks via phishing emails [T1566].\nAccording to open source reporting, victims have unknowingly installed malware that delivers BlackSuit ransomware after receiving phishing emails containing malicious PDF documents [T1566.001] and malvertising [T1566.002].[2]\nRemote Desktop Protocol (RDP). The second most common vector (around 13.3% of incidents) BlackSuit actors use for initial access is RDP compromise [T1021.001].\nPublic-facing applications. FBI has observed BlackSuit actors gain initial access through exploiting vulnerable public-facing applications [T1190].\nBrokers. Reports from trusted third-party sources indicate that BlackSuit actors may leverage initial access brokers to gain initial access and source traffic by harvesting virtual private network (VPN) credentials from stealer logs [T1650].\nCommand and Control\nOnce BlackSuit actors gain access to a network, they communicate with command and control (C2) infrastructure and download multiple tools [T1105]. Legitimate Windows software is repurposed by BlackSuit actors to strengthen their foothold within the victim’s network. Ransomware operators often use open source projects to aid their intrusion activities.\nHistorically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572], to communicate with their C2 infrastructure.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

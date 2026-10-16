@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-165A:evaluation:llama500:11762:14040",
+  "doc_id": "AA23-165A",
+  "start": 11762,
+  "end": 14040,
+  "text": "-source tools mentioned in this product are all publicly available and legal. The use of these tools by a threat actor should not be attributed to the freeware and open-source tools, absent specific articulable facts tending to show they are used at the direction or under the control of a threat actor.\nTable 4: Freeware and Open-Source Tools Used by LockBit Affiliates\nTool\nIntended Use\nRepurposed Use by LockBit Affiliates\nMITRE ATT&CK ID\n7-zip\nCompresses files into an archive.\nCompresses data to avoid detection before exfiltration.\nT1562\nImpair Defenses\nAdFind\nSearches Active Directory (AD) and gathers information.\nGathers AD information used to exploit a victim’s network, escalate privileges, and facilitate lateral movement.\nS0552\nAdFind\nAdvanced Internet Protocol (IP) Scanner\nPerforms network scans and shows network devices.\nMaps a victim’s network to identify potential access vectors.\nT1046\nNetwork Service Discovery\nAdvanced Port Scanner\nPerforms network scans.\nFinds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.\nT1046\nNetwork Service Discovery\nAdvancedRun\nAllows software to be run with different settings.\nEnables escalation of privileges by changing settings before running software.\nTA0004\nPrivilege Escalation\nAnyDesk\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software\nAtera Remote Monitoring & Management (RMM)\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software\nBackstab\nTerminates antimalware-protected processes.\nTerminates endpoint detection and response (EDR)- protected processes.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nBat Armor\nGenerates .bat files using PowerShell scripts.\nBypasses PowerShell execution policy.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nBloodhound\nPerforms reconnaissance of AD for attack path management.\nEnables identification of AD relationships that can be exploited to gain access onto a victim’s network.\nT1482\nDomain Trust Discovery\nChocolatey\nHandles command-line package management on Microsoft Windows.\nFacilitates installation of LockBit affiliate actors’ tools.\nT1072\nSoftware Deployment Tools\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 70,
+      "text": "Understanding Ransomware Threat Actors: LockBit"
+    },
+    {
+      "start": 2293,
+      "end": 2310,
+      "text": "TECHNICAL DETAILS"
+    },
+    {
+      "start": 11602,
+      "end": 11762,
+      "text": "Table 4 shows a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations. The legitimate freeware and open"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:05:30.2612816Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5942988600,
+  "load_duration": 10300700,
+  "prompt_eval_count": 516,
+  "prompt_eval_duration": 114418000,
+  "eval_count": 437,
+  "eval_duration": 5518083000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"statements\": [\n        \"LockBit affiliates' activity is mapped to the Malware (T1587.001) technique.\",\n        \"The Malware (T1587.001) technique has a direct, active mitigates relationship with Execution Prevention (M1038).\",\n        \"Execution Prevention (M1038) involves using application control to prevent the execution of tools outside of the organization's security policies.\",\n        \"The Malware (T1587.001) technique is mitigated by Execution Prevention (M1038).\"\n    ]\n}\n\nHere's the breakdown of each sentence into fully understandable statements:\n\n1. \"LockBit affiliates' activity is mapped to the Malware (T1587.001) technique.\"\n\t* \"LockBit affiliates' activity is associated with the Malware (T1587.001) technique.\"\n\t* \"The activity of LockBit affiliates is related to the Malware (T1587.001) technique.\"\n2. \"The Malware (T1587.001) technique has a direct, active mitigates relationship with Execution Prevention (M1038).\"\n\t* \"The Malware (T1587.001) technique has a direct relationship with Execution Prevention (M1038).\"\n\t* \"The Malware (T1587.001) technique has an active mitigates relationship with Execution Prevention (M1038).\"\n3. \"Execution Prevention (M1038) involves using application control to prevent the execution of tools outside of the organization's security policies.\"\n\t* \"Execution Prevention (M1038) is a method that uses application control.\"\n\t* \"Execution Prevention (M1038) prevents the execution of tools outside of the organization's security policies.\"\n4. \"The Malware (T1587.001) technique is mitigated by Execution Prevention (M1038).\"\n\t* \"The Malware (T1587.001) technique is reduced by Execution Prevention (M1038).\"\n\t* \"Execution Prevention (M1038) reduces the impact of the Malware (T1587.001) technique.\"",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

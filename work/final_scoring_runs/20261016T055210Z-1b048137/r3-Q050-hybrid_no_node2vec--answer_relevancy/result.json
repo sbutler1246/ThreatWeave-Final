@@ -1,0 +1,13 @@
+{
+  "task": {
+    "task_id": "r3-Q050-hybrid_no_node2vec--answer_relevancy",
+    "case_id": "r3-Q050-hybrid_no_node2vec",
+    "metric": "answer_relevancy",
+    "eligible": true
+  },
+  "input_sha256": "9f15635b433ec6a4f6a349862be77175e436c1ef76837cb48f6936696316d0b5",
+  "status": "scored",
+  "value": 0.42003441245524004,
+  "judge_calls": 3,
+  "elapsed_ms": 6439.200199994957
+}

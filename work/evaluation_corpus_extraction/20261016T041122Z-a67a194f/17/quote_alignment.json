@@ -1,0 +1,54 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u002",
+      "u003"
+    ],
+    "selected_units": [
+      {
+        "start": 11,
+        "end": 68,
+        "text": "Before starting the encryption process, BlackSuit actors:",
+        "line_start": 11
+      },
+      {
+        "start": 69,
+        "end": 198,
+        "text": "Use Windows Restart Manager to determine whether targeted files are currently in use or blocked by other applications [T1486].[1]",
+        "line_start": 69
+      }
+    ],
+    "document_start": 8325,
+    "document_end": 8512,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u002",
+      "u004"
+    ],
+    "selected_units": [
+      {
+        "start": 11,
+        "end": 68,
+        "text": "Before starting the encryption process, BlackSuit actors:",
+        "line_start": 11
+      },
+      {
+        "start": 199,
+        "end": 307,
+        "text": "Use Windows Volume Shadow Copy service (vssadmin.exe) to delete shadow copies to inhibit system recovery.[1]",
+        "line_start": 199
+      }
+    ],
+    "document_start": 8325,
+    "document_end": 8621,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.",
+      "start": 15881,
+      "end": 15998,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "#StopRansomware: Black Basta",
+      "start": 23,
+      "end": 51,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "Technical Details",
+      "start": 4157,
+      "end": 4174,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "AA24-131A",
+      "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "Table 4: Black Basta ATT&CK Techniques for Defense Evasion",
+      "start": 15590,
+      "end": 15648,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "AA24-131A",
+      "chunk_id": "retrieval:7fcd3d35376a96c668ca6e0e2955e51861f4b53b920acac0f4256ba72f99235d",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "1566.004\nBlack Basta affiliates have used spearphishing phone and Microsoft Teams calls to trick users into providing initial access.\nExploit Public-Facing Application\nT1190\nBlack Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.\nTable 3: Black Basta ATT&CK Techniques for Privilege Escalation\nTechnique Title\nID\nUse\nExploitation for Privilege Escalation\nT1068\nBlack Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation.\nTable 4: Black Basta ATT&CK Techniques for Defense Evasion\nTechnique Title\nID\nUse\nMasquerading\nT1036\nBlack Basta affiliates have conducted reconnaissance using utilities with innocuous file names, such as Intel or Dell, to evade detection.\nImpair Defenses: Disable or Modify Tools\nT1562.001\nBlack Basta affiliates have deployed a tool called Backsta",
+      "start": 15045,
+      "end": 15939,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "AA24-131A",
+      "chunk_id": "retrieval:7fcd3d35376a96c668ca6e0e2955e51861f4b53b920acac0f4256ba72f99235d",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "Table 2: Black Basta ATT&CK Techniques for Initial Access",
+      "start": 14838,
+      "end": 14895,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "AA24-131A",
+      "chunk_id": "retrieval:ea6551bc23ca29b7d33edbe561f293b5ae0503d7800bdad9c9f29f4f0edbaad9",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+      "text": "ATT&CK Techniques for Impact\nTechnique Title\nID\nUse\nInhibit System Recovery\nT1490\nBlack Basta affiliates have used the vssadmin.exe program to delete shadow copies.\nData Encrypted for Impact\nT1486\nBlack Basta affiliates have used a public key to fully encrypt files.\nIndicators of Compromise\nUpdate November 8, 2024:\nMany indicators provided in this advisory’s initial publication have been removed considering they are outdated. For historic reference, see AA24-131A #StopRansomware: Black Basta (Initial Version).\nThe IOCs listed in Tables 7–8 were obtained from trusted third-party reporting and are considered most current.\nDisclaimer: The authoring organizations recommend network defenders investigate or vet IP addresses prior to taking action, such as blocking, as many cyber actors are known to change IP addresses, sometimes daily, and some IP addresses may host valid domains.\n",
+      "start": 16492,
+      "end": 17380,
+      "source_kind": "cisa"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA24-131A:black-basta-affiliates",
+          "predicate": "USES",
+          "tail_id": "local:AA24-131A:software:e0937ebfa805",
+          "assertion_ids": [
+            "assertion:4da67727be0e6b2b35cb4afa5decfd94105806ccaaade0d14f523bd6ccd2b845"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3",
+            "E4"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7"
+  ],
+  "retrieval_ms": 54.97359999571927,
+  "configuration_hash": "80a7079746cc7e845ed5a20b65cd1254172464f12166eb44b79d4541e20ba8bc",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

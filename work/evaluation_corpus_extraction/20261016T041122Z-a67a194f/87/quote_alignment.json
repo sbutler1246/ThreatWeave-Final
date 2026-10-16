@@ -1,0 +1,21 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 360,
+        "end": 382,
+        "text": "Custom Play “psexesvc”",
+        "line_start": 360
+      }
+    ],
+    "document_start": 12188,
+    "document_end": 12210,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

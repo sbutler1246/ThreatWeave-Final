@@ -1,0 +1,25 @@
+{
+  "task": {
+    "task_id": "r3-Q050-graph_only--faithfulness",
+    "case_id": "r3-Q050-graph_only",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "9fe4b7e8a8e590e5f16f6707e6f106c048c3ffe32a9dff7bf14909190c01d1ad",
+  "status": "failed",
+  "value": null,
+  "error_type": "LLMDidNotFinishException",
+  "error": "The LLM generation was not completed. Please increase the max_tokens and try again.",
+  "judge_calls": 2,
+  "elapsed_ms": 16632.508999988204,
+  "files_sha256": {
+    "input.json": "5611168d41ccc35d14671725b9fcbc64b08e0ed968cd85b81f66534a5c4af9cd",
+    "judge_call_001_request.json": "ff532429a21eb9cff07f1960b2c2c60ceea8042510bd63961ef5d5003caf0cce",
+    "judge_call_001_response.json": "19732d3e4afccec1c88c90192e343b99484f1744ffbfe0314ce7d26f98b4a943",
+    "judge_call_002_request.json": "43652ddcc1ff2180acbbe618eccf4c8c7b5e0a941daf5b4ea6d849ad9a9bc5a9",
+    "judge_call_002_response.json": "ca59dff13bbd42fb6e2a86a927d95804e33db2a4c101409e3e49e548f3de7689",
+    "model_tags_after.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "model_tags_before.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "result.json": "8a96d5e308b7351eb802a2be22ac6a7e91fd427ec4d0532abc90c9cb4fa1835e"
+  }
+}

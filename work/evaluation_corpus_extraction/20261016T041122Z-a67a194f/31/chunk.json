@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-061A:evaluation:llama500:24400:25638",
+  "doc_id": "AA23-061A",
+  "start": 24400,
+  "end": 25638,
+  "text": "4\nUnknown C2 – potential SOCKS Proxy\n45[.]141[.]87[.]218:9000\nMay 2024\nArechclient2 Backdoor/SecTopRAT\n45[.]141[.]87[.]218:443\nMay 2024\nArechclient2 Backdoor/SecTopRAT\n184.174.96[.]16\nMay 2024\nAssociated with download of the binary vm.dll\n89.251.22[.]32\nMay 2024\nCobalt Strike\n135.148.67[.]84\nMay 2024\nResolves to domain turnovercheck[.]com\n180.131.145[.]85\nMay 2024\nAssociated with malicious PowerShell execution\n180.131.145[.]61\nMay 2024\nSystemBC Command & Control\n138.199.53[.]226\nFeb 2024\n184.166.211[.]74\nFeb 2024\n185.190.24[.]103\nFeb 2024\n5.181.234[.]58\nFeb 2024\n137.220.61[.]94\nNov – Feb 2024\nconnecting outbound from Socss.exe\n193.37.69[.]116\nNov – Jan 2024\nAssociated with exfiltration\n144.202.120[.]122\nNov 2023\nsocks1.ps1 backdoor; SystemBC Backdoor C2; www.recruitment-interview[.]org (C2 SystemBC)\n104.21.58[.]219:443\nNov 2023\nCobalt Strike\n141.98.80[.]181:80\nNov 2023\nCobalt Strike\n144.202.120[.]122:433\nNov 2023\nPowerShell Reverse Proxy\n155.138.150[.]236:8088\nNov 2023\nPowerShell Reverse Proxy\n140.82.18[.]48\nNov 2023\n141.98.80[.]181\nNov 2023\n44.202.120[.]122\nNov 2023\n45.76.225[.]156\nNov 2023\nTable 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)\nFile name\nHash Value – SHA-256\nDescription\nshare.exe\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 68,
+      "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+    },
+    {
+      "start": 4131,
+      "end": 4148,
+      "text": "Technical Details"
+    },
+    {
+      "start": 24231,
+      "end": 24325,
+      "text": "Table 12: IP addresses from BlackSuit Ransomware Deployments (from November 2023 to July 2024)"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

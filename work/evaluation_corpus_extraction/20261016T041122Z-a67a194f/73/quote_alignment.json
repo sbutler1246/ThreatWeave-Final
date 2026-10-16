@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u001"
+    ],
+    "selected_units": [
+      {
+        "start": 0,
+        "end": 140,
+        "text": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486].",
+        "line_start": 0
+      }
+    ],
+    "document_start": 14289,
+    "document_end": 14429,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u001"
+    ],
+    "selected_units": [
+      {
+        "start": 0,
+        "end": 140,
+        "text": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486].",
+        "line_start": 0
+      }
+    ],
+    "document_start": 14289,
+    "document_end": 14429,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u002"
+    ],
+    "selected_units": [
+      {
+        "start": 141,
+        "end": 229,
+        "text": "When provided with valid username and password credentials, Medusa actors use PsExec to:",
+        "line_start": 0
+      }
+    ],
+    "document_start": 14430,
+    "document_end": 14518,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 1079,
+        "end": 1260,
+        "text": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement.",
+        "line_start": 1079
+      }
+    ],
+    "document_start": 15368,
+    "document_end": 15549,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

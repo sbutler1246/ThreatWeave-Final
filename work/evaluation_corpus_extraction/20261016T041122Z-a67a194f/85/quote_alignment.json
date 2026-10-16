@@ -1,0 +1,40 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u029"
+    ],
+    "selected_units": [
+      {
+        "start": 2367,
+        "end": 2429,
+        "text": "Play actors have accessed IOBit to disable antivirus software.",
+        "line_start": 2284
+      }
+    ],
+    "document_start": 9985,
+    "document_end": 10047,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u018"
+    ],
+    "selected_units": [
+      {
+        "start": 1990,
+        "end": 2040,
+        "text": "Table 1: Tools Leveraged by Play Ransomware Actors",
+        "line_start": 1990
+      }
+    ],
+    "document_start": 9608,
+    "document_end": 9658,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

@@ -1,0 +1,615 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "T1562.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1604",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "LaZagne",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1003.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1003.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1003.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1110",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1110.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "SharpDomainSpray",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "T1555",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1555.003",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "NetExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Windows Credential Manager",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1555.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m019",
+      "text": "Mimikatz with the –dpapi option",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_T": {
+      "name": "T1562.004",
+      "type": "Technique",
+      "attack_id": "T1562.004"
+    },
+    "m002_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1604",
+      "type": "Technique",
+      "attack_id": "T1604"
+    },
+    "m005_T": {
+      "name": "T1003",
+      "type": "Technique",
+      "attack_id": "T1003"
+    },
+    "m006_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "LaZagne",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1003.001",
+      "type": "Technique",
+      "attack_id": "T1003.001"
+    },
+    "m009_T": {
+      "name": "T1003.002",
+      "type": "Technique",
+      "attack_id": "T1003.002"
+    },
+    "m010_T": {
+      "name": "T1003.003",
+      "type": "Technique",
+      "attack_id": "T1003.003"
+    },
+    "m011_T": {
+      "name": "T1110",
+      "type": "Technique",
+      "attack_id": "T1110"
+    },
+    "m012_T": {
+      "name": "T1110.003",
+      "type": "Technique",
+      "attack_id": "T1110.003"
+    },
+    "m013_S": {
+      "name": "SharpDomainSpray",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_T": {
+      "name": "T1555",
+      "type": "Technique",
+      "attack_id": "T1555"
+    },
+    "m015_T": {
+      "name": "T1555.003",
+      "type": "Technique",
+      "attack_id": "T1555.003"
+    },
+    "m016_S": {
+      "name": "NetExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m017_S": {
+      "name": "Windows Credential Manager",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_T": {
+      "name": "T1555.004",
+      "type": "Technique",
+      "attack_id": "T1555.004"
+    },
+    "m019_S": {
+      "name": "Mimikatz with the –dpapi option",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 26,
+      "text": "evade endpoint detection.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 27,
+      "end": 37,
+      "text": "End Update",
+      "line_start": 27
+    },
+    "u003": {
+      "start": 38,
+      "end": 58,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 38
+    },
+    "u004": {
+      "start": 59,
+      "end": 109,
+      "text": "Impair Defenses: Disable or Modify System Firewall",
+      "line_start": 59
+    },
+    "u005": {
+      "start": 110,
+      "end": 119,
+      "text": "T1562.004",
+      "line_start": 110
+    },
+    "u006": {
+      "start": 120,
+      "end": 224,
+      "text": "Akira threat actors use the allssh modify_firewall command to open specific ports on the eth0 interface.",
+      "line_start": 120
+    },
+    "u007": {
+      "start": 225,
+      "end": 245,
+      "text": "Proxy Through Victim",
+      "line_start": 225
+    },
+    "u008": {
+      "start": 246,
+      "end": 251,
+      "text": "T1604",
+      "line_start": 246
+    },
+    "u009": {
+      "start": 252,
+      "end": 409,
+      "text": "Akira threat actors use a compromised device as a proxy server to conceal their malicious C2 infrastructure and associated IP address from network defenders.",
+      "line_start": 252
+    },
+    "u010": {
+      "start": 410,
+      "end": 420,
+      "text": "End Update",
+      "line_start": 410
+    },
+    "u011": {
+      "start": 421,
+      "end": 430,
+      "text": "Table 15.",
+      "line_start": 421
+    },
+    "u012": {
+      "start": 431,
+      "end": 448,
+      "text": "Credential Access",
+      "line_start": 421
+    },
+    "u013": {
+      "start": 449,
+      "end": 464,
+      "text": "Technique Title",
+      "line_start": 449
+    },
+    "u014": {
+      "start": 465,
+      "end": 467,
+      "text": "ID",
+      "line_start": 465
+    },
+    "u015": {
+      "start": 468,
+      "end": 471,
+      "text": "Use",
+      "line_start": 468
+    },
+    "u016": {
+      "start": 472,
+      "end": 493,
+      "text": "OS Credential Dumping",
+      "line_start": 472
+    },
+    "u017": {
+      "start": 494,
+      "end": 499,
+      "text": "T1003",
+      "line_start": 494
+    },
+    "u018": {
+      "start": 500,
+      "end": 576,
+      "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+      "line_start": 500
+    },
+    "u019": {
+      "start": 577,
+      "end": 612,
+      "text": "OS Credential Dumping: LSASS Memory",
+      "line_start": 577
+    },
+    "u020": {
+      "start": 613,
+      "end": 622,
+      "text": "T1003.001",
+      "line_start": 613
+    },
+    "u021": {
+      "start": 623,
+      "end": 719,
+      "text": "Akira threat actors attempt to access credential material stored in the process memory of LSASS.",
+      "line_start": 623
+    },
+    "u022": {
+      "start": 720,
+      "end": 740,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 720
+    },
+    "u023": {
+      "start": 741,
+      "end": 788,
+      "text": "OS Credential Dumping: Security Account Manager",
+      "line_start": 741
+    },
+    "u024": {
+      "start": 789,
+      "end": 798,
+      "text": "T1003.002",
+      "line_start": 789
+    },
+    "u025": {
+      "start": 799,
+      "end": 1039,
+      "text": "Akira threat actors dump the Windows security account manager (SAM) database to extract local account password hashes for offline cracking or pass-the-hash techniques, enabling lateral movement and privilege escalation on compromised hosts.",
+      "line_start": 799
+    },
+    "u026": {
+      "start": 1040,
+      "end": 1067,
+      "text": "OS Credential Dumping: NTDS",
+      "line_start": 1040
+    },
+    "u027": {
+      "start": 1068,
+      "end": 1077,
+      "text": "T1003.003",
+      "line_start": 1068
+    },
+    "u028": {
+      "start": 1078,
+      "end": 1285,
+      "text": "Akira threat actors dump the Active Directory database (NTDS.dit) from compromised domain controllers to harvest domain credentials, enabling privilege escalation, lateral movement, and full domain takeover.",
+      "line_start": 1078
+    },
+    "u029": {
+      "start": 1286,
+      "end": 1297,
+      "text": "Brute Force",
+      "line_start": 1286
+    },
+    "u030": {
+      "start": 1298,
+      "end": 1303,
+      "text": "T1110",
+      "line_start": 1298
+    },
+    "u031": {
+      "start": 1304,
+      "end": 1382,
+      "text": "Akira threat actors gain access by brute-forcing VPN logins and SSH endpoints.",
+      "line_start": 1304
+    },
+    "u032": {
+      "start": 1383,
+      "end": 1413,
+      "text": "Brute Force: Password Spraying",
+      "line_start": 1383
+    },
+    "u033": {
+      "start": 1414,
+      "end": 1423,
+      "text": "T1110.003",
+      "line_start": 1414
+    },
+    "u034": {
+      "start": 1424,
+      "end": 1498,
+      "text": "Akira threat actors use tools like SharpDomainSpray for password spraying.",
+      "line_start": 1424
+    },
+    "u035": {
+      "start": 1499,
+      "end": 1531,
+      "text": "Credentials from Password Stores",
+      "line_start": 1499
+    },
+    "u036": {
+      "start": 1532,
+      "end": 1537,
+      "text": "T1555",
+      "line_start": 1532
+    },
+    "u037": {
+      "start": 1538,
+      "end": 1649,
+      "text": "Akira threat actors dump credentials from repositories like the Variable Bit Rate (VBR)-configuration database.",
+      "line_start": 1538
+    },
+    "u038": {
+      "start": 1650,
+      "end": 1747,
+      "text": "Akira threat actors use LaZagne to recover stored passwords on Windows, Linux, and macOS systems.",
+      "line_start": 1650
+    },
+    "u039": {
+      "start": 1748,
+      "end": 1811,
+      "text": "Credentials from Password Stores: Credentials from Web Browsers",
+      "line_start": 1748
+    },
+    "u040": {
+      "start": 1812,
+      "end": 1821,
+      "text": "T1555.003",
+      "line_start": 1812
+    },
+    "u041": {
+      "start": 1822,
+      "end": 1951,
+      "text": "Akira threat actors use NetExec with the --dpapi option to dump credentials from the Windows Credential Manager and web browsers.",
+      "line_start": 1822
+    },
+    "u042": {
+      "start": 1952,
+      "end": 2012,
+      "text": "Credentials from Password Stores: Windows Credential Manager",
+      "line_start": 1952
+    },
+    "u043": {
+      "start": 2013,
+      "end": 2022,
+      "text": "T1555.004",
+      "line_start": 2013
+    },
+    "u044": {
+      "start": 2023,
+      "end": 2266,
+      "text": "Akira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.",
+      "line_start": 2023
+    },
+    "u045": {
+      "start": 2267,
+      "end": 2277,
+      "text": "End Update",
+      "line_start": 2267
+    },
+    "u046": {
+      "start": 2278,
+      "end": 2287,
+      "text": "Table 16.",
+      "line_start": 2278
+    },
+    "u047": {
+      "start": 2288,
+      "end": 2297,
+      "text": "Discovery",
+      "line_start": 2278
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_T": "attack:T1562.004",
+    "m002_S": "attack:S1129",
+    "m003_G": "local:ThreatGroup:akira threat actors",
+    "m004_T": "local:Technique:t1604",
+    "m005_T": "attack:T1003",
+    "m006_S": "attack:S0002",
+    "m007_S": "attack:S0349",
+    "m008_T": "attack:T1003.001",
+    "m009_T": "attack:T1003.002",
+    "m010_T": "attack:T1003.003",
+    "m011_T": "attack:T1110",
+    "m012_T": "attack:T1110.003",
+    "m013_S": "local:Software:sharpdomainspray",
+    "m014_T": "attack:T1555",
+    "m015_T": "attack:T1555.003",
+    "m016_S": "local:Software:netexec",
+    "m017_S": "local:Software:windows credential manager",
+    "m018_T": "attack:T1555.004",
+    "m019_S": "local:Software:mimikatz with the –dpapi option"
+  },
+  "unavailable_choices": [
+    "m004_T"
+  ],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S",
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u034"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m013_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u038"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u041"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m016_S",
+        "m017_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u044"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S",
+        "m016_S",
+        "m017_S",
+        "m019_S"
+      ]
+    }
+  ]
+}

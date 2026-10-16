@@ -1,0 +1,43 @@
+{
+  "status": "offline_scope_prepared",
+  "service_calls": false,
+  "live_graph_verified": false,
+  "embedding_or_node2vec_fitted": false,
+  "evaluation_scope": {
+    "name": "frozen_shared_evaluation_sources_v1",
+    "sha256": "75547d824c6b0386fdac3ed17b3a50f03b97c1eaabc2ae1692961a2d7fb5d599",
+    "cisa_scope_count": 101,
+    "attack_reference_count": 190,
+    "evaluation_plan_fingerprint": "89764a8af84a83b36f3aa17425775142376c305bddfd9ce07fc7019ded39945b",
+    "mitigation_import_receipt_sha256": "74c8cfb98f2de2c16b4b1c1b9b0c389c2459a9c3880f6d59442689a29c8f7d3d",
+    "source_import_receipt_sha256": "ce307d711963f680eefaad626b1db581d5fc151fbf8899a6234f18b10cbd82dd",
+    "policy": "Same reviewed development plus evaluation source windows and direct references for all four modes; no labels or reference answers."
+  },
+  "development_scope": {
+    "name": "expanded_reviewed_development_sources",
+    "sha256": "ab3732f875177906c400d82268fbbeed719b9a26b4f3836215d713821bd9beb8",
+    "cisa_scope_count": 53,
+    "attack_reference_count": 139
+  },
+  "text_fingerprint": "0fe7f0c80769a67a158d505df0d72c77e12273c02fa8e6f3dd56da436685de73",
+  "source_fixture_projection_sha256": "85f9d8e26bf1fe61f1b6f50b704b81e91c5c4bd7fc84a19506210a4428b0613a",
+  "cisa_scope_count": 101,
+  "attack_reference_count": 190,
+  "node_count": 212,
+  "directed_fact_count": 394,
+  "undirected_edge_count": 394,
+  "component_sizes": [
+    204,
+    4,
+    2,
+    2
+  ],
+  "retrieval_chunk_count": 510,
+  "human_review_status": "pending",
+  "files_sha256": {
+    "records.json": "72a5a13892995a75a725987db70af70392978c051f3b0ae9ae949a4227825d45",
+    "source_fixture_projection.json": "b37a158c7fd735f40a8222654a93067f30bd892f4446c0ea5bdbdd555f7e2ddc"
+  },
+  "mitigation_import_run": "20261016T043104Z-85c82c88",
+  "note": "Source fixture is for offline checks only; operator builds live evaluation indexes separately."
+}

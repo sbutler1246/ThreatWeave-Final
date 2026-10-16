@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u002"
+    ],
+    "selected_units": [
+      {
+        "start": 21,
+        "end": 103,
+        "text": "Akira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.",
+        "line_start": 21
+      }
+    ],
+    "document_start": 36904,
+    "document_end": 36986,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u021"
+    ],
+    "selected_units": [
+      {
+        "start": 702,
+        "end": 805,
+        "text": "Akira threat actors use Mimikatz to view and save authentication credentials, such as Kerberos tickets.",
+        "line_start": 702
+      }
+    ],
+    "document_start": 37585,
+    "document_end": 37688,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u038"
+    ],
+    "selected_units": [
+      {
+        "start": 1041,
+        "end": 1142,
+        "text": "Akira threat actors use Ngrok to create a secure tunnel to servers the actors use to exfiltrate data.",
+        "line_start": 1041
+      }
+    ],
+    "document_start": 37924,
+    "document_end": 38025,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u045"
+    ],
+    "selected_units": [
+      {
+        "start": 1281,
+        "end": 1449,
+        "text": "Akira threat actors download tools, many of which are staged in the PerfLogs directory, and use the WebClient.DownloadString() method to download Cobalt Strike beacons.",
+        "line_start": 1281
+      }
+    ],
+    "document_start": 38164,
+    "document_end": 38332,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

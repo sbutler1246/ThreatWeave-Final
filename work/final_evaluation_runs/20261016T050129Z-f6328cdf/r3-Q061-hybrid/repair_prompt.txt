@@ -1,0 +1,100 @@
+QUESTION: Compare AA24-109A and AA25-071A: which actors are reported using Rclone, and how do their advisory software-to-technique mappings compare? Cite both reports and keep each mapping within its source context.
+MODE: hybrid
+SOURCE PASSAGES
+[E1; CISA]
+rclone, an open-source command line cloud storage manager [T1567.002]
+[E2; CISA]
+#StopRansomware: LockBit 3.0
+[E3; CISA]
+TECHNICAL DETAILS
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Exfiltration to Cloud Storage (T1567.002)
+Mitigation: Restrict Web-Based Content (M1021)
+[E5; ATTACK]
+Web proxies can be used to enforce an external network communication policy that prevents use of unauthorized external services.
+[E6; CISA]
+FBI observed BianLian group actors install Rclone and other files in generic and typically unchecked folders such as programdata\vmware and music folders.
+[E7; CISA]
+#StopRansomware: BianLian Ransomware Group
+[E8; CISA]
+Technical Details
+[E9; CISA]
+BianLian group uses File Transfer Protocol (FTP) [T1048] and Rclone, a tool used to sync files to cloud storage, to exfiltrate data [T1537].
+[E10; ATTACK]
+ATT&CK release: 17.1
+Technique: Transfer Data to Cloud Account (T1537)
+Mitigation: User Account Management (M1018)
+[E11; ATTACK]
+Limit user account and IAM policies to the least privileges required.
+[E12; ATTACK]
+ATT&CK release: 17.1
+Technique: Transfer Data to Cloud Account (T1537)
+Mitigation: Filter Network Traffic (M1037)
+[E13; ATTACK]
+Implement network-based filtering restrictions to prohibit data transfers to untrusted VPCs.
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Transfer Data to Cloud Account (T1537)
+Mitigation: Software Configuration (M1054)
+[E15; ATTACK]
+Configure appropriate data sharing restrictions in cloud services. For example, external sharing in Microsoft SharePoint and Google Drive can be turned off altogether, blocked for certain domains, or restricted to certain users.(Citation: Google Workspace External Sharing) (Citation: Microsoft 365 External Sharing)
+[E16; CISA]
+BianLian group actors used Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.
+GRAPH NODES
+N1: Rclone (S1040)
+N2: Exfiltration to Cloud Storage (T1567.002)
+N3: Restrict Web-Based Content (M1021)
+N4: BianLian group actors
+N5: Transfer Data to Cloud Account (T1537)
+N6: User Account Management (M1018)
+N7: Filter Network Traffic (M1037)
+N8: Software Configuration (M1054)
+GRAPH PATHS
+P1: N1 --USES_TECHNIQUE[E1,E2,E3]--> N2 --MITIGATED_BY[E4,E5]--> N3
+P2: N4 --USES[E6,E7,E8]--> N1 --USES_TECHNIQUE[E9,E7,E8]--> N5 --MITIGATED_BY[E10,E11]--> N6
+P3: N4 --USES[E6,E7,E8]--> N1 --USES_TECHNIQUE[E9,E7,E8]--> N5 --MITIGATED_BY[E12,E13]--> N7
+P4: N4 --USES[E6,E7,E8]--> N1 --USES_TECHNIQUE[E9,E7,E8]--> N5 --MITIGATED_BY[E14,E15]--> N8
+Return the requested JSON. The displayed answer is assembled from claims.
+Repair only output/citation errors using the original evidence: 1 validation error for CompactAnswer
+  Value error, Repeated claims are not allowed; combine related facts concisely. [type=value_error, input_value={'answer': 'See cited cla...]}], 'abstained': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/value_error
+PREVIOUS OUTPUT:
+{
+  "answer": "See cited claims.",
+  "claims": [
+    {
+      "text": "BianLian group actors are reported using Rclone.",
+      "citations": [ "E6", "E7", "E8", "E9" ]
+    },
+    {
+      "text": "LockBit 3.0 actors are reported using Rclone.",
+      "citations": [ "E2" ]
+    },
+    {
+      "text": "CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service.",
+      "citations": [ "E16" ]
+    },
+    {
+      "text": "CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+      "citations": [ "E16" ]
+    },
+    {
+      "text": "CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+      "citations": [ "E16" ]
+    },
+    {
+      "text": "CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+      "citations": [ "E16" ]
+    },
+    {
+      "text": "CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+      "citations": [ "E16" ]
+    },
+    {
+      "text": "CISA reports BianLian group actors using Rclone to exfiltrate data to a cloud account they control on the same service to avoid typical file transfers/downloads and network-based exfiltration detection.",
+      "citations": [ "E16" ]
+    }
+  ],
+  "abstained": false
+}

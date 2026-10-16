@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:33:51.011506Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5228649800,
+  "load_duration": 9681600,
+  "prompt_eval_count": 1496,
+  "prompt_eval_duration": 330328000,
+  "eval_count": 372,
+  "eval_duration": 4809282000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n    \"classifications\": [\n        {\n            \"statement\": \"AA24-109A reports Akira threat actors using Rclone, with advisory mappings T1048;\",\n            \"reason\": \"The exact sentence is present in the given context, but the specific report and mapping are not mentioned.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"AA25-071A reports Medusa actors using Rclone, with advisory mappings T1567.002.\",\n            \"reason\": \"The exact sentence is present in the given context, but the specific report and mapping are not mentioned.\",\n            \"attributed\": 1\n        },\n        {\n            \"statement\": \"These mappings describe the cited reports and do not establish that every use of the software has these behaviors.\",\n            \"reason\": \"The given context does not mention the specific behavior of the software.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"The Akira report cites T1048 (Exfiltration Over Alternative Protocol);\",\n            \"reason\": \"The given context does not mention the specific report or mapping.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"the Medusa report cites T1567.002 (Exfiltration to Cloud Storage).\",\n            \"reason\": \"The given context does not mention the specific report or mapping.\",\n            \"attributed\": 0\n        },\n        {\n            \"statement\": \"These are distinct source-reported mappings for the same software.\",\n            \"reason\": \"The given context does not mention the specific behavior of the software.\",\n            \"attributed\": 0\n        }\n    ]\n}\n\nNote that I've used double quotes instead of single quotes, and properly escaped them with a backslash.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

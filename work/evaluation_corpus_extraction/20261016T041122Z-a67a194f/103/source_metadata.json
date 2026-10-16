@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:7876:9861",
+    "doc_id": "AA23-075A",
+    "start": 7876,
+    "end": 9861,
+    "text": " Used by LockBit 3.0 Affiliates\nTool\nDescription\nMITRE ATT&CK ID\nChocolatey\nCommand-line package manager for Windows.\nT1072\nFileZilla\nCross-platform File Transfer Protocol (FTP) application.\nT1071.002\nImpacket\nCollection of Python classes for working with network protocols.\nS0357\nMEGA Ltd MegaSync\nCloud-based synchronization tool.\nT1567.002\nMicrosoft Sysinternals ProcDump\nGenerates crash dumps. Commonly used to dump the contents of Local Security Authority Subsystem Service, LSASS.exe.\nT1003.001\nMicrosoft Sysinternals PsExec\nExecute a command-line process on a remote machine.\nS0029\nMimikatz\nExtracts credentials from system.\nS0002\nNgrok\nLegitimate remote-access tool abused to bypass victim network protections.\nS0508\nPuTTY Link (Plink)\nCan be used to automate Secure Shell (SSH) actions on Windows.\nT1572\nRclone\nCommand-line program to manage cloud storage files\nS1040\nSoftPerfect Network Scanner\nPerforms network scans.\nT1046\nSplashtop\nRemote-desktop software.\nT1021.001\nWinSCP\nSSH File Transfer Protocol client for Windows.\nT1048\nIndicators of Compromise (IOCs)\nThe IOCs and malware characteristics outlined below were derived from field analysis. The following samples are current as of March 2023.\nLockBit 3.0 Black Icon\nLockBit 3.0 Wallpaper\nLockBit Command Line Parameters\nLockBit Parameters\nDescription\n-del\nSelf-delete.\n-gdel\nRemove LockBit 3.0 group policy changes.\n-gspd\nSpread laterally via group policy.\n-pass (32 character value)\n(Required) Password used to launch LockBit 3.0.\n-path (File or path)\nOnly encrypts provided file or folder.\n-psex\nSpread laterally via admin shares.\n-safe\nReboot host into Safe Mode.\n-wall\nSets LockBit 3.0 Wallpaper and prints out LockBit 3.0 ransom note.\nMutual Exclusion Object (Mutex) Created\nWhen executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,\nand check to see if this mutex has already been created to avoid running more than one instance of the ransomware.\nUAC Bypass via Elevated COM Interface\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      },
+      {
+        "start": 7837,
+        "end": 7876,
+        "text": "Table 2: Freeware and Open-Source Tools"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 501,
+  "inherited_context_tokens": 30,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "690f80ae847b4e32f04326215ae0817e4f9c19a959843b42aa2e0d8095c668d0",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

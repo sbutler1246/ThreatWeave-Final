@@ -1,0 +1,23 @@
+{
+  "task": {
+    "task_id": "r3-Q033-text_only--faithfulness",
+    "case_id": "r3-Q033-text_only",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "d539c877ff6742bb8ed8fb5a031a3f114b7e2d0b9664b8cb6726e94dac8500a1",
+  "status": "failed",
+  "value": null,
+  "error_type": "LLMDidNotFinishException",
+  "error": "The LLM generation was not completed. Please increase the max_tokens and try again.",
+  "judge_calls": 1,
+  "elapsed_ms": 13721.19510002085,
+  "files_sha256": {
+    "input.json": "f4622de171d17b0bbddb82b33de652649782bf391ac42eeb2cb97b46c9757329",
+    "judge_call_001_request.json": "4bef14ab663d0e58c9281ba5dd8d7de9aff7f79e5019bd46746259a7b0a03296",
+    "judge_call_001_response.json": "8e8ca179f72815fb47e9e30bdb2ef081e92540d92492ce1a92f15d4193393a5a",
+    "model_tags_after.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "model_tags_before.json": "97e2078a82bca5db5a3fc9234d629ea76b5d6b1963ec63f3f52d56bcd8e3cfe6",
+    "result.json": "3e848dff5315c4fcd4b158381bcba4684c8dc33fe504227c5f91b3982e49475f"
+  }
+}

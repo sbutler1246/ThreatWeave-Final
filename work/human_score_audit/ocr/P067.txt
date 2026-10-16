@@ -1,0 +1,106 @@
+P067
+Question
+According to AA23-075A, which ATT&CK technique is connected to LockBit 3.0 affiliates through
+the reported use of rclone? Explain the two-hop actor-to-software-to-technique path with
+evidence.
+Displayed answer
+LockBit 3.0 affiliates use rclone to connect to a remote access software. [E6, E5, E4]
+The ATT&CK technique connected to LockBit 3.0 affiliates through the reported use of rclone is
+T 1219. [E5, E4]
+The two-hop actor-to-software-to-technique path is: LockBit 3.0 affiliates -> rclone -> T 1219.
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+LockBit 3.0 affiliates use rclone; the advisory associates the described use of rclone with Tl 567.002
+(Exfiltration to Cloud Storage in Enterprise ATT&CK 17.1). Both links must be supported in the
+advisory context.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[Q; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+
+--- IMAGE ---
+
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+[E4; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[E-5; CISA]
+&CK Techniques for Enterprise — Command and Control
+Technique Title
+Use
+Application Layer Protocol: File Transfer Protocols
+T 1071.002
+LockBit affiliates may use FileZilla for C2.
+Application Layer Protocol: Web Protocols
+T 1071.001
+LockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.
+Non-Application Layer Protocol
+T 1095
+LockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.
+Protocol Tunneling
+T 1572
+LockBit affiliates use Plink to automate SSH actions on Windows.
+Remote Access Software
+
+--- IMAGE ---
+
+T 1219
+LockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.
+Table 15: LockBit Affiliates' ATT&CK Techniques for Enterprise — Exfiltration
+Technique Title
+Use
+Exfiltration
+TAOOIO
+LockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data
+from a target
+[E6; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E7; CISA]
+TECHNICAL DETAILS
+[E8; CISA]
+Table 14: LockBit Affiliates' ATT
+[E9; CISA]
+.001
+LockBit affiliates may use 7-zip to compress and/or encrypt collected data prior to exfiltration.
+Table 14: LockBit Affiliates' ATT&CK Techniques for Enterprise — Command and Control
+Technique Title
+Use
+Application Layer Protocol: File Transfer Protocols
+T 1071.002
+LockBit affiliates may use FileZilla for C2.
+Application Layer Protocol: Web Protocols
+T 1071.001
+LockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.
+Non-Application Layer Protocol
+
+--- IMAGE ---
+
+T 1095
+LockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.
+Protocol Tunneling
+T 1572
+LockBit affiliates use Plink to automate SSH actions on Windows.
+Remote Access Software
+T 1219
+LockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.
+Table 15: LockBit Affiliates' ATT&CK Techniques for Enterprise
+[Elo; CISA]
+Table 11: LockBit Affiliates' ATT&CK Techniques for Enterprise — Discovery
+[El 1; CISA]
+Bit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.
+Table 15: LockBit Affiliates' ATT&CK Techniques for Enterprise — Exfiltration
+GRAPH NODES
+GRAPH PATHS

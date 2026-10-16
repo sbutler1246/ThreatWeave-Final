@@ -1,0 +1,100 @@
+P062
+Question
+In the AA24-109A command-and-control paragraph describing ngrok encrypted sessions that
+bypass perimeter monitoring, what two-hop path connects Akira actors through ngrok to the
+cited ATT&CK technique? Explain both source-supported links.
+Displayed answer
+Akira threat actors use ngrok to create secure tunnels for data exfiltration. [E6, E2, E3]
+Ngrok is used by Akira threat actors to bypass perimeter monitoring. [El, E2, E3]
+The two-hop path connecting Akira actors through ngrok to Protocol Tunneling (Tl 572) is:
+ngrok (Nl) Protocol Tunneling (Tl 572) (N2). [El, Q, a, El 0]
+The two-hop path connecting Akira actors through ngrok to Protocol Tunneling (Tl 572) is:
+Akira threat actors (N4) --USES--> ngrok (N 1) --USES_TECHNIQUE--> Protocol Tunneling
+(Tl 572) (N2). [E6, Q, a, El]
+Network Intrusion Prevention (M 1031) can be used to mitigate Protocol Tunneling (Tl 572). [E4,
+E5]
+Network Intrusion Prevention (MI 031) uses network signatures to identify traffic for specific
+adversary malware. [E4, E5]
+Filter Network Traffic (MI 037) can be used to mitigate Protocol Tunneling (Tl 572). [E 10, El 1]
+Filter Network Traffic (MI 037) considers filtering network traffic to untrusted or known bad
+domains and resources. [E 10, Ell]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+In the C2 paragraph of AA24-109A, Akira actors use ngrok to initiate encrypted sessions that
+bypass perimeter monitoring. That paragraph cites Tl 572 (Protocol Tunneling). The path is Akira
+actors USES ngrok USES_TECHNIQUE Tl 572.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+The authoring organizations observed Akira threat actors establishing command and control (C2)
+communications by using tunneling utilities, such as Ngrok [Tl 572]
+[Q; CISA]
+#StopRansomware: Akira Ransomware
+[E3; CISA]
+Technical Details
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (Tl 572)
+Mitigation: Network Intrusion Prevention (M 1031)
+[E-5; ATTACK]
+Network intrusion detection and prevention systems that use network signatures to identify traffic
+for specific adversary malware can be used to mitigate activity at the network level.
+[E6; CISA]
+In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration
+[T1090].
+[E7; CISA]
+To further inhibit system recovery and impede forensic analysis, Akira's encryptor (w.exe) uses
+PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems
+[T 1490].
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Inhibit System Recovery (T 1490)
+Mitigation: User Account Management (MI 018)
+[E9; ATTACK]
+Limit the user accounts that have access to backups to only those required. In AWS environments,
+consider using Service Control Policies to restrict API calls to delete backups, snapshots, and
+images.
+
+--- IMAGE ---
+
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Protocol Tunneling (Tl 572)
+Mitigation: Filter Network Traffic (MI 037)
+[El 1; ATTACK]
+Consider filtering network traffic to untrusted or known bad domains and resources.
+[El 2; ATTACK]
+ATT&CK release: 17.1
+Technique: Inhibit System Recovery (T 1490)
+Mitigation: Operating System Configuration (MI 028)
+[El 3; ATTACK]
+Consider technical controls to prevent the disabling of services or deletion of files involved in
+system recovery. Additionally, ensure that WinRE is enabled using the following command:
+reagentc /enable</code>.(Citation: reagentc_cmd)
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Inhibit System Recovery (T 1490)
+Mitigation: Execution Prevention (MI 038)
+[El 5; ATTACK]
+Consider using application control configured to block execution of utilities such as
+diskshadow.exe' that may not be required for a given system or network to prevent potential
+misuse by adversaries.
+GRAPH NODES
+Nl: ngrok (S0508)
+N2: Protocol Tunneling (Tl 572)
+N3: Network Intrusion Prevention (MI 031)
+N4: Akira threat actors
+N5: Akira (Sl 129)
+N6: Inhibit System Recovery (T 1490)
+N7: User Account Management (M 1018)
+N8: Filter Network Traffic (M 1037)
+N9: Operating System Configuration (MI 028)
+
+--- IMAGE ---
+
+N 10: Execution Prevention (MI 038)
+GRAPH PATHS
+"6: N5 N6 NIO

@@ -1,0 +1,361 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "1.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "PowerTool64.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "aaa.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Wen.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "etmc.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "svchost.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "RClone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "RClone.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "socks32.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "msa.ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "ps1",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "SystemBC",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "1.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "PowerTool64.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "aaa.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Wen.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "etmc.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "svchost.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "RClone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "RClone.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "socks32.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "msa.ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "ps1",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "SystemBC",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 34,
+      "text": "[.]aws-use1[.]cloud-ara[.]tyk[.]io",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 35,
+      "end": 76,
+      "text": "URL associated to Initial Access Download",
+      "line_start": 35
+    },
+    "u003": {
+      "start": 77,
+      "end": 94,
+      "text": "zoommanager[.]com",
+      "line_start": 77
+    },
+    "u004": {
+      "start": 95,
+      "end": 158,
+      "text": "Table 10: BlackSuit Ransomware Associated Files and Hash Values",
+      "line_start": 95
+    },
+    "u005": {
+      "start": 159,
+      "end": 167,
+      "text": "Filename",
+      "line_start": 159
+    },
+    "u006": {
+      "start": 168,
+      "end": 188,
+      "text": "Hash Value – SHA-256",
+      "line_start": 168
+    },
+    "u007": {
+      "start": 189,
+      "end": 200,
+      "text": "Description",
+      "line_start": 189
+    },
+    "u008": {
+      "start": 201,
+      "end": 206,
+      "text": "1.exe",
+      "line_start": 201
+    },
+    "u009": {
+      "start": 207,
+      "end": 271,
+      "text": "af9f95497b8503af1a399bc6f070c3bbeabc5aeecd8c09bca80495831ae71e61",
+      "line_start": 207
+    },
+    "u010": {
+      "start": 272,
+      "end": 281,
+      "text": "Encryptor",
+      "line_start": 272
+    },
+    "u011": {
+      "start": 282,
+      "end": 297,
+      "text": "PowerTool64.exe",
+      "line_start": 282
+    },
+    "u012": {
+      "start": 298,
+      "end": 306,
+      "text": "Hacktool",
+      "line_start": 298
+    },
+    "u013": {
+      "start": 307,
+      "end": 314,
+      "text": "aaa.exe",
+      "line_start": 307
+    },
+    "u014": {
+      "start": 315,
+      "end": 379,
+      "text": "C4A2227CD8D85128EAFEF8EE2298AA105DA892C8B0F37405667C2D1647C35C46",
+      "line_start": 315
+    },
+    "u015": {
+      "start": 380,
+      "end": 389,
+      "text": "Encryptor",
+      "line_start": 380
+    },
+    "u016": {
+      "start": 390,
+      "end": 397,
+      "text": "aaa.exe",
+      "line_start": 390
+    },
+    "u017": {
+      "start": 398,
+      "end": 462,
+      "text": "8d16a23d5a5630502b09c33fbc571d2261c6c98fecc3a79a1e1129354f930d0a",
+      "line_start": 398
+    },
+    "u018": {
+      "start": 463,
+      "end": 470,
+      "text": "Wen.exe",
+      "line_start": 463
+    },
+    "u019": {
+      "start": 471,
+      "end": 535,
+      "text": "01ce9cfebb29596d0ab7c99e8dbadf1a8409750b183e6bf73e0de021b365be13",
+      "line_start": 471
+    },
+    "u020": {
+      "start": 536,
+      "end": 544,
+      "text": "etmc.exe",
+      "line_start": 536
+    },
+    "u021": {
+      "start": 545,
+      "end": 609,
+      "text": "a0a4a99948e12309f54911264261d96f0e40d5fd695bab82e95fbc1f9024482e",
+      "line_start": 545
+    },
+    "u022": {
+      "start": 610,
+      "end": 621,
+      "text": "svchost.exe",
+      "line_start": 610
+    },
+    "u023": {
+      "start": 622,
+      "end": 686,
+      "text": "9bbc9784ce3c818a127debfe710ec6ce21e7c9dd0daf4e30b8506a6dba533db4",
+      "line_start": 622
+    },
+    "u024": {
+      "start": 687,
+      "end": 742,
+      "text": "Data Exfiltration Tool ­– Renamed version of RClone.exe",
+      "line_start": 687
+    },
+    "u025": {
+      "start": 743,
+      "end": 786,
+      "text": "locker_N1uYkmEsfoHmT4lK66trUjBuy5gyAj7n.ex_",
+      "line_start": 743
+    },
+    "u026": {
+      "start": 787,
+      "end": 851,
+      "text": "146335b1be627318ac09476f0c8f8e6e027805e6077673f72d6dce1677a24c78",
+      "line_start": 787
+    },
+    "u027": {
+      "start": 852,
+      "end": 863,
+      "text": "socks32.exe",
+      "line_start": 852
+    },
+    "u028": {
+      "start": 864,
+      "end": 928,
+      "text": "9493b512d7d15510ebee5b300c55b67f9f2ff1dda64bddc99ba8ba5024113300",
+      "line_start": 864
+    },
+    "u029": {
+      "start": 929,
+      "end": 973,
+      "text": "C:\\users\\Administrator\\AppData\\Local\\msa.ps1",
+      "line_start": 929
+    },
+    "u030": {
+      "start": 974,
+      "end": 991,
+      "text": "SystemBC backdoor",
+      "line_start": 974
+    },
+    "u031": {
+      "start": 992,
+      "end": 1043,
+      "text": "%APPDATA%\\ Zoom\\Alternative Workplace Strategies.js",
+      "line_start": 992
+    },
+    "u032": {
+      "start": 1044,
+      "end": 1108,
+      "text": "E813F8FAF3AA2EB20E285596413F5088B2D7FD153FE9F72F3FF45735D0FDDCED",
+      "line_start": 1044
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:1.exe",
+    "m002_S": "local:Software:powertool64.exe",
+    "m003_S": "local:Software:aaa.exe",
+    "m004_S": "local:Software:wen.exe",
+    "m005_S": "local:Software:etmc.exe",
+    "m006_S": "local:Software:svchost.exe",
+    "m007_S": "attack:S1040",
+    "m008_S": "local:Software:rclone.exe",
+    "m009_S": "local:Software:socks32.exe",
+    "m010_S": "local:Software:msa.ps1",
+    "m011_S": "attack:S0613",
+    "m012_S": "local:Software:systembc"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

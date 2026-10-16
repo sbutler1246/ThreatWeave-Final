@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "LockBit 3.0",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S1202",
+    "canonical_name": "LockBit 3.0",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1133",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1133",
+    "canonical_name": "External Remote Services",
+    "source_attack_id": "T1133"
+  },
+  {
+    "local_id": "e3",
+    "mention": "T1078",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1078",
+    "canonical_name": "Valid Accounts",
+    "source_attack_id": "T1078"
+  },
+  {
+    "local_id": "e4",
+    "mention": "T1486",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1486",
+    "canonical_name": "Data Encrypted for Impact",
+    "source_attack_id": "T1486"
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1491.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1491.001",
+    "canonical_name": "Internal Defacement",
+    "source_attack_id": "T1491.001"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:43:05.2691171Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 1882326400,
+  "load_duration": 7261400,
+  "prompt_eval_count": 578,
+  "prompt_eval_duration": 163179000,
+  "eval_count": 123,
+  "eval_duration": 1536892000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    \"LockBit affiliates use Mimikatz.\",\n    \"Volt Typhoon actors use Mimikatz to harvest credentials.\",\n    \"Phobos actors use Mimikatz to export credentials.\",\n    \"Akira threat actors use Mimikatz to dump credentials.\",\n    \"Black Basta affiliates use Mimikatz for privilege escalation.\",\n    \"Medusa actors use Mimikatz to access credential material.\",\n    \"LockBit and Phobos actors use Mimikatz for defense evasion.\",\n    \"Volt Typhoon actors use Impacket in addition to Mimikatz.\"\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

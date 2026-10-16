@@ -1,0 +1,23 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u039"
+    ],
+    "selected_units": [
+      {
+        "start": 1096,
+        "end": 1219,
+        "text": "LockBit affiliates may use ucmDccwCOM Method in UACMe, a GitHub collection of User Account Control (UAC) bypass techniques.",
+        "line_start": 1096
+      }
+    ],
+    "document_start": 22687,
+    "document_end": 22810,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  }
+]

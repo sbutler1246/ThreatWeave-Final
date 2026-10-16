@@ -1,0 +1,10 @@
+{
+  "candidate_path_count": 0,
+  "selected_path_count": 0,
+  "selected_hops": [],
+  "evidence_utf8_bytes": 39,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "budget_skipped_paths": 0,
+  "seed_groups": []
+}

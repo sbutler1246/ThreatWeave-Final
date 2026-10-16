@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Black Basta affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "SoftPerfect",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "netscan.exe",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Software",
+      "name": "Mimikatz",
+      "attack_id": null
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1068",
+      "attack_id": "T1068"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 1731,
+        "end": 1842,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 1731,
+        "end": 1842,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e4",
+      "evidence": {
+        "start": 2045,
+        "end": 2137,
+        "quote": "Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 2138,
+        "end": 2454,
+        "quote": "According to cybersecurity researchers, Black Basta affiliates have also exploited ZeroLogon (CVE-2020-1472 [CWE-330]), NoPac (CVE-2021-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]"
+      },
+      "confidence": null
+    }
+  ]
+}

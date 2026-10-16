@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:30:07.226436Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5642711200,
+  "load_duration": 6682800,
+  "prompt_eval_count": 1322,
+  "prompt_eval_duration": 52628000,
+  "eval_count": 426,
+  "eval_duration": 5511893000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"Pre-compromise (M1056) has a direct, active mitigates relationship to Develop Capabilities (T1587).\",\n      \"reason\": \"The context does not mention any direct, active mitigates relationship between Pre-compromise (M1056) and Develop Capabilities (T1587).\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Pre-compromise (M1056) has a direct, active mitigates relationship to Compromise Accounts (T1586).\",\n      \"reason\": \"The context does not mention any direct, active mitigates relationship between Pre-compromise (M1056) and Compromise Accounts (T1586).\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Disable or Remove Feature or Program (M1042) has a direct, active mitigates relationship to Impair Defenses (T1562).\",\n      \"reason\": \"The context mentions that Disable or Remove Feature or Program (M1042) is a mitigation for Impair Defenses (T1562), which implies a direct, active mitigates relationship.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Execution Prevention (M1038) has a direct, active mitigates relationship to Impair Defenses (T1562).\",\n      \"reason\": \"The context mentions that Execution Prevention (M1038) is a mitigation for Impair Defenses (T1562), which implies a direct, active mitigates relationship.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Restrict Registry Permissions (M1024) has a direct, active mitigates relationship to Impair Defenses (T1562).\",\n      \"reason\": \"The context mentions that Restrict Registry Permissions (M1024) is a mitigation for Impair Defenses (T1562), which implies a direct, active mitigates relationship.\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,4396 @@
+[
+  {
+    "candidate_key": "0135bf40d4b5b91f83bd3eabe66156a99ff1c3034c9ac0f028cba0b177978a34",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1190",
+      "type": "Technique",
+      "source_name": "T1190"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:4851:6963",
+        "start": 6289,
+        "end": 6555,
+        "quote": "Medusa actors are known to make use of common techniques, such as:\nPhishing campaigns as a primary method for stealing victim credentials [T1566].\nExploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and Exposures (CVEs) such as:",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "05cbea2a83909c15a8d0de653b29a9082c72bf11f7151337856c03eab4bdd1c4",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "Play"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1016",
+      "type": "Technique",
+      "source_name": "T1016"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:3851:6199",
+        "start": 5034,
+        "end": 5243,
+        "quote": "Play ransomware actors use tools like AdFind to run Active Directory queries [TA0007] and Grixba,1 an information-stealer, to enumerate network information [T1016] and scan for anti-virus software [T1518.001].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "06d2e90cf6ffff83ba9b34b8fc1b64ef81ff6a79e89bdee936fbab37542e4f32",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:blacksuit actors",
+      "type": "ThreatGroup",
+      "source_name": "BlackSuit actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0029",
+      "type": "Software",
+      "source_name": "PsExec"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+        "start": 6819,
+        "end": 6911,
+        "quote": "BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "0798128d339cddbcac3d470db8c2e2b628fc5ebe2305a388a12d587ec018070a",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit Affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:repurposed use",
+      "type": "Software",
+      "source_name": "Repurposed Use"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:11762:14040",
+        "start": 12151,
+        "end": 12187,
+        "quote": "Repurposed Use by LockBit Affiliates",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "0af3fa920703d1d6232405ac605e4156c4461d62d70be392865d1d7a45067240",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:microsoft sysinternals prodump",
+      "type": "Software",
+      "source_name": "Microsoft Sysinternals ProDump"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "start": 25103,
+        "end": 25195,
+        "quote": "LockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "0d14523d2640512ad64e75455b5401347a1dc3f0197587e146256c073c873abf",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1059.005",
+      "type": "Technique",
+      "source_name": "T1059.005"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:6537:8882",
+        "start": 7642,
+        "end": 7882,
+        "quote": "Akira threat actors frequently execute malicious commands by using Visual Basic (VB) scripts (event-driven programming languages that allow documents to contain macros to improve functionality through autonomous task execution) [T1059.005].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "0e7eecc93d8559dffe1dc433c807d977deadb2409d3dc9144f15faf12055ce5e",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0552",
+      "type": "Software",
+      "source_name": "AdFind"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+        "start": 25508,
+        "end": 25645,
+        "quote": "LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "0eb2103fc1d04c0bbffacb785ae4cd4849900cd1ca5b8317f71165d1ffd5b01a",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0029",
+      "type": "Software",
+      "source_name": "PsExec"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:6550:8835",
+        "start": 6750,
+        "end": 6876,
+        "quote": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "0eea57862f9cf77e1fc19557dd9026817d553b4fce8b63821d20442e8f06f067",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:netexec",
+      "type": "Software",
+      "source_name": "NetExec"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+        "start": 34807,
+        "end": 35050,
+        "quote": "Akira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "1198f56794fbcef8ce8f12edd3540ab4b2e05c254243f85e286b7694ddbc1dcf",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:non-lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Non-LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:4484:6401",
+        "start": 5027,
+        "end": 5110,
+        "quote": "Non-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "11d8f153f81761a9cd932d749733e8a5949bccf6381ef9cdcb95c04b2d7e8618",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal and blacksuit ransomware",
+      "type": "ThreatGroup",
+      "source_name": "Royal and BlackSuit Ransomware"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:debug.ps1",
+      "type": "Software",
+      "source_name": "debug.ps1"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:19628:21225",
+        "start": 20457,
+        "end": 20516,
+        "quote": "URLs from malicious PowerShell on P0, potentially debug.ps1",
+        "context_spans": [
+          {
+            "start": 18422,
+            "end": 18496,
+            "text": "Table 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "12836ce65b8d8831f7278c4aea81fa2c5473a6957aa5a0b0ffa0748931bee59c",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta Affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1070",
+      "type": "Software",
+      "source_name": "Black Basta"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:10786:13129",
+        "start": 12459,
+        "end": 12504,
+        "quote": "Table 1: Tools Used by Black Basta Affiliates",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:12807:15323",
+        "start": 14838,
+        "end": 14895,
+        "quote": "Table 2: Black Basta ATT&CK Techniques for Initial Access",
+        "context_spans": [
+          {
+            "start": 12459,
+            "end": 12504,
+            "text": "Table 1: Tools Used by Black Basta Affiliates"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "129759d7ee5b1976af429aa179c877810e6983acfc3843afccde7b49f75d0853",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S1129",
+      "type": "Software",
+      "source_name": "Akira"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1490",
+      "type": "Technique",
+      "source_name": "T1490"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:14693:17032",
+        "start": 14754,
+        "end": 14947,
+        "quote": "To further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "1454e192cd166e3a25efb187bbffcb29e678eb0467701bb84dddfa4b47607252",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1566.002",
+      "type": "Technique",
+      "source_name": "T1566.002"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:4787:6854",
+        "start": 6117,
+        "end": 6223,
+        "quote": "For initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "146e81dbac24ce656b759b0b4e6832ab60ebd8242662e496da2d78d6d97e2b13",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:ransomware executable",
+      "type": "Software",
+      "source_name": "Ransomware Executable"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:13347:14347",
+        "start": 13373,
+        "end": 13394,
+        "quote": "Ransomware Executable",
+        "context_spans": [
+          {
+            "start": 12621,
+            "end": 12659,
+            "text": "Table 4: Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "15faf85711628d93c3f7e2b5cf800b13398917c7aaca0b079337063aa335482e",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:Software:anydesk",
+      "type": "Software",
+      "source_name": "AnyDesk"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1219",
+      "type": "Technique",
+      "source_name": "T1219"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+        "start": 10825,
+        "end": 10932,
+        "quote": "To pivot laterally, Akira threat actors use legitimate remote access tools like AnyDesk or LogMeIn [T1219].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "1716ea4f20bd84affb16cb54a0a5c954491e7862649676d71aaf1f2bc318f32d",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:microsoft’s quick assist",
+      "type": "Software",
+      "source_name": "Microsoft’s Quick Assist"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+        "start": 16171,
+        "end": 16339,
+        "quote": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "18c61cb75122f419cb243125e8977d45ffe825fd6dfed740686cccfa18f32207",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1200",
+      "type": "Software",
+      "source_name": "StealBit"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:26834:28843",
+        "start": 27613,
+        "end": 27738,
+        "quote": "LockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target network.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "18d69304b75e1cedb44ce81a0dce87e60f2cb60e7b27ea189ed5238b49a6e648",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1567.002",
+      "type": "Technique",
+      "source_name": "T1567.002"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:16025:18061",
+        "start": 17253,
+        "end": 17441,
+        "quote": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "1a94dd68225e14de556a6c6523d09d0f4d161f2233944def2af97be57c579cd2",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0154",
+      "type": "Software",
+      "source_name": "Cobalt Strike"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:28777:31133",
+        "start": 29782,
+        "end": 29971,
+        "quote": "Akira threat actors use commercial penetration testing tools, namely Cobalt Strike, during their operations to achieve lateral movement, perform C2 procedures, and gain elevated privileges.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:36883:38919",
+        "start": 38164,
+        "end": 38332,
+        "quote": "Akira threat actors download tools, many of which are staged in the PerfLogs directory, and use the WebClient.DownloadString() method to download Cobalt Strike beacons.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:37679:39746",
+        "start": 38164,
+        "end": 38332,
+        "quote": "Akira threat actors download tools, many of which are staged in the PerfLogs directory, and use the WebClient.DownloadString() method to download Cobalt Strike beacons.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "1c27a4cc63c8ffb13d119a6d14c8f88ac7689f7317cb3b94d963ddb5d9c8f980",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1562.001",
+      "type": "Technique",
+      "source_name": "T1562.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:10786:13129",
+        "start": 11368,
+        "end": 11771,
+        "quote": "Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "1e7abc353c82264cce1f7d849dc04bf0609b23d68879bb5ce7798cf271d4fd77",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:windows credential manager",
+      "type": "Software",
+      "source_name": "Windows Credential Manager"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+        "start": 34807,
+        "end": 35050,
+        "quote": "Akira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "204d9b2347fbb0873deb3aa2dc6034f5e54dfa940f54d819b52a6051a1250eae",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:blacksuit actors",
+      "type": "ThreatGroup",
+      "source_name": "BlackSuit actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1486",
+      "type": "Technique",
+      "source_name": "T1486"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:8314:10530",
+        "start": 8325,
+        "end": 8512,
+        "quote": "Before starting the encryption process, BlackSuit actors:\nUse Windows Restart Manager to determine whether targeted files are currently in use or blocked by other applications [T1486].[1]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "23f893c73abcc13fc57d586f93dd17881d47d7020a416193ad1e6d9d18659954",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:Software:archive",
+      "type": "Software",
+      "source_name": "Archive"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1560.001",
+      "type": "Technique",
+      "source_name": "T1560.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:16749:19037",
+        "start": 18661,
+        "end": 18795,
+        "quote": "Archive utility used to split compromised data into segments and to compress [T1560.001] files into .RAR format prior to exfiltration.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "25891c56bf647bd1155ec5f6be5e0f9b18d1b6b30f7b0b966ec61e8d8e27deb3",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1027",
+      "type": "Technique",
+      "source_name": "T1027"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:20761:22564",
+        "start": 21030,
+        "end": 21124,
+        "quote": "A packer-as-a-service obfuscation tool used by Akira threat actors to hinder analysis [T1027].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "285b20a78ba2a6329d6971274d2d5847279bdf671b759102452848af9f0b07f1",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "Play"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1133",
+      "type": "Technique",
+      "source_name": "T1133"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:3851:6199",
+        "start": 4471,
+        "end": 4644,
+        "quote": "Play ransomware actors have been observed using external-facing services [T1133] such as Remote Desktop Protocol (RDP) and Virtual Private Networks (VPN) for initial access.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "28be13bc89d86acbdb6a54b15ba57430b793c092e6744db6ee598af536721c60",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:runanddelete.bat",
+      "type": "Software",
+      "source_name": "runanddelete.bat"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:15072:16294",
+        "start": 15072,
+        "end": 15088,
+        "quote": "runanddelete.bat",
+        "context_spans": [
+          {
+            "start": 14620,
+            "end": 14671,
+            "text": "Table 5: Batch Script Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "2c5efaaefa16f44276afd1d6fb25b6e4c8dbe6d18537b2b580a8919e3311f38e",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "local:ThreatGroup:play actors",
+      "type": "ThreatGroup",
+      "source_name": "Play actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:iobit",
+      "type": "Software",
+      "source_name": "IOBit"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:7618:10055",
+        "start": 9985,
+        "end": 10047,
+        "quote": "Play actors have accessed IOBit to disable antivirus software.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "2ddb38c6ad69b4fafb9ce6a6d8953128e07bb8a9e6965013d1a8f4f31f708f0a",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1566",
+      "type": "Technique",
+      "source_name": "T1566"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:4851:6963",
+        "start": 6289,
+        "end": 6435,
+        "quote": "Medusa actors are known to make use of common techniques, such as:\nPhishing campaigns as a primary method for stealing victim credentials [T1566].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "30228594ee23de067e087a76dac4aec71c5206dfcf45dc265357c1570eafdbc2",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1490",
+      "type": "Technique",
+      "source_name": "T1490"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:20761:22564",
+        "start": 20853,
+        "end": 20931,
+        "quote": "A Windows executable used by Akira threat actors to delete VSS copies [T1490].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "30d384d38bcb202d3ee787be9e21efdba43f61ee7cadc039589896d136553fe3",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Royal threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1021.001",
+      "type": "Technique",
+      "source_name": "T1021.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+        "start": 6649,
+        "end": 6818,
+        "quote": "(Updated August 7, 2024) Historically, Royal threat actors used RDP and legitimate operating system (OS) diagnostic tools to move laterally across a network [T1021.001].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "31d8c9eae2f1ed7cdeb24f395743f8cea31166b38636ff8c05277a3daa037875",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:pdq deploy",
+      "type": "Software",
+      "source_name": "PDQ Deploy"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:17810:20469",
+        "start": 17986,
+        "end": 18060,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:26712:28840",
+        "start": 27526,
+        "end": 27618,
+        "quote": "Medusa actors use PDQ Deploy and BigFix to deploy the encryptor on files across the network.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "349becafe4aa7db220161aa962b6ce4b816a7f8026cf038558b5f71405a93c97",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1083",
+      "type": "Technique",
+      "source_name": "T1083"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:8653:10741",
+        "start": 8826,
+        "end": 9043,
+        "quote": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "3878255d305bec4d547cd939f15cbfa8c20bcf71344772ebfefe32f6c76ee933",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1040",
+      "type": "Software",
+      "source_name": "Rclone"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:10438:12511",
+        "start": 11667,
+        "end": 11811,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors place tooling, such as Rclone, in pre-existing Windows Defender excluded folders for stealth. [T1564.012].",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:16025:18061",
+        "start": 17253,
+        "end": 17441,
+        "quote": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "397a62c57fc3fd47274c85da6bd33d22b7c4683d3c86c18b60953ec610ecaf4a",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0508",
+      "type": "Software",
+      "source_name": "Ngrok"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+        "start": 12687,
+        "end": 12791,
+        "quote": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:28777:31133",
+        "start": 29636,
+        "end": 29781,
+        "quote": "After using Ngrok to establish encrypted sessions, Akira threat actors use PowerShell and WMIC to disable services and execute malicious scripts.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:36883:38919",
+        "start": 37924,
+        "end": 38025,
+        "quote": "Akira threat actors use Ngrok to create a secure tunnel to servers the actors use to exfiltrate data.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:37679:39746",
+        "start": 37924,
+        "end": 38025,
+        "quote": "Akira threat actors use Ngrok to create a secure tunnel to servers the actors use to exfiltrate data.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "3d4c96320ca26271a9c6e0f286eb390c9a2462d3a2208760b833049229214300",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:Software:advanced ip scanner",
+      "type": "Software",
+      "source_name": "Advanced IP Scanner"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1016",
+      "type": "Technique",
+      "source_name": "T1016"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:8607:10825",
+        "start": 8620,
+        "end": 8881,
+        "quote": "For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "3f6183752083dbe957b0c5536fcf795359738ae4f99ca152f019a8f128c518be",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:black suit ransomware (1 of 3)",
+      "type": "ThreatGroup",
+      "source_name": "Black Suit Ransomware (1 of 3)"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:putty.exe",
+      "type": "Software",
+      "source_name": "Putty.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:26384:27829",
+        "start": 26384,
+        "end": 26394,
+        "quote": "Putty.exe.",
+        "context_spans": [
+          {
+            "start": 25509,
+            "end": 25584,
+            "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "3fda2ed426c1e280568d3191e6aa026007a5872df49c0670785a40df3751e01e",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S0359",
+      "type": "Software",
+      "source_name": "nltest"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1482",
+      "type": "Technique",
+      "source_name": "T1482"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:26404:27411",
+        "start": 27272,
+        "end": 27301,
+        "quote": "nltest /DOMAIN_TRUSTS [T1482]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "46eb9c54d60c261ff2f0115d21917dd38e0931e875c22c70d208288c41e91332",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:Software:softperfect",
+      "type": "Software",
+      "source_name": "SoftPerfect"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1016",
+      "type": "Technique",
+      "source_name": "T1016"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:8607:10825",
+        "start": 8620,
+        "end": 8881,
+        "quote": "For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "482a2205a14f5a49c1f48c0b555fa1f4e4f33b2dbd12ef91e563a3940db4f74b",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:rdp",
+      "type": "Software",
+      "source_name": "RDP"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:6550:8835",
+        "start": 6750,
+        "end": 6876,
+        "quote": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "49cf44eca1d6b706e43266e62379a21135fc4c171c3a913ea210a5131fc7bf42",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1133",
+      "type": "Technique",
+      "source_name": "T1133"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:4080:6201",
+        "start": 4310,
+        "end": 4447,
+        "quote": "Affiliates deploying LockBit 3.0 ransomware gain initial access to victim networks via remote desktop protocol (RDP) exploitation [T1133]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "4e6ca81ffafb0f12882d8c4719e2a52d64f6035cfbe337f4140278897349c9af",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1078",
+      "type": "Technique",
+      "source_name": "T1078"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:4080:6201",
+        "start": 5225,
+        "end": 5419,
+        "quote": "LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials hardcoded at compilation time or a compromised local account with elevated privileges [T1078].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "510ae08f5de64dfc7fab589f6e075588efbc83ab4d092a658a66e297fcc4a332",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal and blacksuit ransomware",
+      "type": "ThreatGroup",
+      "source_name": "Royal and BlackSuit Ransomware"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:nircmd.exe",
+      "type": "Software",
+      "source_name": "nircmd.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:19628:21225",
+        "start": 19654,
+        "end": 19664,
+        "quote": "nircmd.exe",
+        "context_spans": [
+          {
+            "start": 18422,
+            "end": 18496,
+            "text": "Table 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "51eb65358f68f3b1648d8696c31bf56506202e17fc0410481ff6f6ebb21f7eba",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S0039",
+      "type": "Software",
+      "source_name": "net"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1016",
+      "type": "Technique",
+      "source_name": "T1016"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:6537:8882",
+        "start": 8620,
+        "end": 8881,
+        "quote": "For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:8607:10825",
+        "start": 8620,
+        "end": 8881,
+        "quote": "For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "539b3b0434c476ef140cab8610a6eb01e306456dab90942b4db0efe23e9a89f8",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0116",
+      "type": "Software",
+      "source_name": "UACMe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:21591:23692",
+        "start": 22687,
+        "end": 22810,
+        "quote": "LockBit affiliates may use ucmDccwCOM Method in UACMe, a GitHub collection of User Account Control (UAC) bypass techniques.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "53c2fe0606c55d4b4b528de2719442e7bcd1d5ebb4071ac05672147fdb3fc293",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1219",
+      "type": "Technique",
+      "source_name": "T1219"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:12220:14519",
+        "start": 13808,
+        "end": 13930,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors use a variety of legitimate remote monitoring and management (RMM) software [T1219].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "548dd3f321dba42ea2c7a903e71a9ff3df5e9bada64f4ee28ed6f96a4832e78e",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:G1040",
+      "type": "ThreatGroup",
+      "source_name": "Play"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:gmer",
+      "type": "Software",
+      "source_name": "GMER"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+        "start": 14584,
+        "end": 14679,
+        "quote": "Play ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "570ebe72051b1b142ebb1e67108cc9ac81043b90a9962dec35d1490df54924dc",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "Play"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1048",
+      "type": "Technique",
+      "source_name": "T1048"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:9760:11935",
+        "start": 11179,
+        "end": 11296,
+        "quote": "Play ransomware actors have used it to transfer data [T1048] from a compromised network to actor-controlled accounts.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "5717d4f47fbb45b992253553ec7e7fb9a4aa0b3afea5b5546bf42f6a4a8144eb",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "Play"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1560.001",
+      "type": "Technique",
+      "source_name": "T1560.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:5924:7968",
+        "start": 6452,
+        "end": 6608,
+        "quote": "Play ransomware actors often split compromised data into segments and use tools like WinRAR to compress files [T1560.001] into .RAR format for exfiltration.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "571901e43b368b17a50249ac4dfb340a8b910ea08e9f28e9519ef4b70eeb1280",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:G1040",
+      "type": "ThreatGroup",
+      "source_name": "Play"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1078",
+      "type": "Technique",
+      "source_name": "T1078"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:3851:6199",
+        "start": 4107,
+        "end": 4250,
+        "quote": "The Play ransomware group gains initial access to victim networks through the abuse of valid accounts, likely purchased on the dark web [T1078]",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "57d5c09a0210b9d117fd7582e95adc4124942d7bd85ecbb4f38150d3aedd4946",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0386",
+      "type": "Software",
+      "source_name": "Ursnif"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:13347:14347",
+        "start": 13820,
+        "end": 13831,
+        "quote": "Ursnif/Gozi",
+        "context_spans": [
+          {
+            "start": 12621,
+            "end": 12659,
+            "text": "Table 4: Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "5a22f5d3ea11616b13d8e506e72ab3d82e8146e4ce3d42c32e9a8f1392b093e4",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal and blacksuit ransomware",
+      "type": "ThreatGroup",
+      "source_name": "Royal and BlackSuit Ransomware"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:nsudo.exe",
+      "type": "Software",
+      "source_name": "nsudo.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:19628:21225",
+        "start": 19730,
+        "end": 19739,
+        "quote": "nsudo.exe",
+        "context_spans": [
+          {
+            "start": 18422,
+            "end": 18496,
+            "text": "Table 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "5c3934f54effc0ae8c1eb54a7e221c456d83e1a5f73965172a1bacad01aec785",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1110.003",
+      "type": "Technique",
+      "source_name": "T1110.003"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:6537:8882",
+        "start": 6695,
+        "end": 6853,
+        "quote": "Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "5c95eb50d45525a1d1f200db69eb6998b6b55b98f9f738b46c0a7293f8b429bd",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:poortry",
+      "type": "Software",
+      "source_name": "POORTRY"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:30823:33030",
+        "start": 31473,
+        "end": 31616,
+        "quote": "Akira threat actors use POORTRY malware written as a signed vulnerable Windows driver to deploy BYOVD techniques to obtain elevated privileges.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "5d37f42491b692692a00dcc3217ca2f5fbdd64949352362d9ae09fc84522dabd",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:black suit ransomware (1 of 3)",
+      "type": "ThreatGroup",
+      "source_name": "Black Suit Ransomware (1 of 3)"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:host",
+      "type": "Software",
+      "source_name": "Host"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:26384:27829",
+        "start": 26966,
+        "end": 26991,
+        "quote": "Cobalt Strike – Host name",
+        "context_spans": [
+          {
+            "start": 25509,
+            "end": 25584,
+            "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "5dd008fbaf439e373c2dff5741f1c4e4677e88f26fdead6b5922c31d2b5be173",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1209",
+      "type": "Software",
+      "source_name": "Quick Assist"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+        "start": 16171,
+        "end": 16339,
+        "quote": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "5e09aa264b4eec3edc3c82a24171b0695c3c8af56a7eaa0c17dc862304fb7242",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S0508",
+      "type": "Software",
+      "source_name": "Ngrok"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1572",
+      "type": "Technique",
+      "source_name": "T1572"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+        "start": 11788,
+        "end": 11949,
+        "quote": "The authoring organizations observed Akira threat actors establishing command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "60c60ebc05ebed53befbd5366ae0fd3b2ed392778f2941fefba33c847339e742",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "attack:T1486",
+      "type": "Technique",
+      "source_name": "T1486"
+    },
+    "predicate": "PART_OF_TACTIC",
+    "tail": {
+      "identity": "attack:TA0010",
+      "type": "Tactic",
+      "source_name": "TA0010"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+        "start": 14289,
+        "end": 14429,
+        "quote": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "612c1ef8f9ffd268e02cabdf3e3030f4cdf9eabc8b72286d98d059d5c2324870",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:conhost.exe",
+      "type": "Software",
+      "source_name": "conhost.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:15072:16294",
+        "start": 15336,
+        "end": 15416,
+        "quote": "C:\\Users\\Public\\conhost.exe client 149.28.73.161:443 R:149.28.73.161:43657:socks",
+        "context_spans": [
+          {
+            "start": 14620,
+            "end": 14671,
+            "text": "Table 5: Batch Script Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "635f7971d645eb628dc640399d8c6d111c7616f10598353bec24dedd738caf79",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1048",
+      "type": "Technique",
+      "source_name": "T1048"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:16749:19037",
+        "start": 18900,
+        "end": 19008,
+        "quote": "Akira threat actors use it to transfer data from a compromised network to actor-controlled accounts [T1048].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "64661abb78dcd3deb04d61aa85a5a328db409214c5a6a5ab60b48c25c280ef20",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S1129",
+      "type": "Software",
+      "source_name": "Akira"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1090.003",
+      "type": "Technique",
+      "source_name": "T1090.003"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+        "start": 12983,
+        "end": 13177,
+        "quote": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "66595f5aa2aed73874dff5387d22bc453c98c251cf5ac5ebcfdb3697f1e3fd47",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "attack:T1569.002",
+      "type": "Technique",
+      "source_name": "T1569.002"
+    },
+    "predicate": "PART_OF_TACTIC",
+    "tail": {
+      "identity": "attack:TA0008",
+      "type": "Tactic",
+      "source_name": "TA0008"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+        "start": 14289,
+        "end": 14429,
+        "quote": "] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "672a0f6623c3c19aaf2cbeb37f9ce26bc22567dbd81373b28f8505168b4a3080",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:softperfect",
+      "type": "Software",
+      "source_name": "SoftPerfect"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:4174:6733",
+        "start": 6009,
+        "end": 6120,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "start": 10245,
+        "end": 10356,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "677ee05e72929ad13f61409bf152e47858b9008a8227ffb774ab5c57417bcfd9",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "local:ThreatGroup:play ransomware actors",
+      "type": "ThreatGroup",
+      "source_name": "Play Ransomware Actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0029",
+      "type": "Software",
+      "source_name": "PsExec"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:9760:11935",
+        "start": 10048,
+        "end": 10054,
+        "quote": "PsExec",
+        "context_spans": [
+          {
+            "start": 9608,
+            "end": 9658,
+            "text": "Table 1: Tools Leveraged by Play Ransomware Actors"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "68ffbae2b0bac0fb5789841fe246e780d703f5a39a0230aeddc7b21043d0272c",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:anydesk",
+      "type": "Software",
+      "source_name": "AnyDesk"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+        "start": 16171,
+        "end": 16339,
+        "quote": "Black Basta affiliates have used social engineering techniques to convince users to execute legitimate remote access tools such as AnyDesk and Microsoft’s Quick Assist.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "6c06ce809ecaa5a3cea55976e8e2f40c235a32950ebf8cdf01d55dedc6e12145",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:G1040",
+      "type": "ThreatGroup",
+      "source_name": "PLAY"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "PLAY"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:5924:7968",
+        "start": 6718,
+        "end": 7008,
+        "quote": "Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:11828:12848",
+        "start": 12188,
+        "end": 12210,
+        "quote": "Custom Play “psexesvc”",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:17529:18539",
+        "start": 17545,
+        "end": 17642,
+        "quote": "Below are copies of YARA and Suricata rules related to Play’s custom data gathering tool, Grixba:",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "6d6620ef863045187921a39c03abd9770235326b1687b7ae178af7cff35330bf",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1059.003",
+      "type": "Technique",
+      "source_name": "T1059.003"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:8653:10741",
+        "start": 8826,
+        "end": 9043,
+        "quote": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "6df8657715078312265407f21a9ec5d5a5df8aade145f691b281f60c6dee18cc",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1068",
+      "type": "Technique",
+      "source_name": "T1068"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+        "start": 10612,
+        "end": 10774,
+        "quote": "1003.003].11 Akira threat actors have also been observed leveraging services like Veeam.Backup.MountService.exe for privilege escalation (CVE-2024-40711) [T1068].",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:20761:22564",
+        "start": 21287,
+        "end": 21397,
+        "quote": "Akira threat actors used the malware to implement the Bring Your Own Vulnerable Driver (BYOVD) tactic [T1068].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "6e1d8868633f751c80f095725d908b6758e6c7a4235855bac0a22b422cac49fb",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:G1024",
+      "type": "ThreatGroup",
+      "source_name": "Akira"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1129",
+      "type": "Software",
+      "source_name": "Akira"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:22442:23336",
+        "start": 22462,
+        "end": 22489,
+        "quote": "Akira ransomware encryptor.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:23225:24336",
+        "start": 23309,
+        "end": 23335,
+        "quote": "Akira Megazord ransomware.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:24217:25330",
+        "start": 24356,
+        "end": 24374,
+        "quote": "akira.exe, win.exe",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "6e868c39bdf9fb4e426412c2e5f20d301b3daf65a7cf36c9590a6ab834b2772b",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1090",
+      "type": "Technique",
+      "source_name": "T1090"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+        "start": 12687,
+        "end": 12791,
+        "quote": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "72baf9c7fed6dfbcb6b4cf7fee4560be29952f582ba4ae94585d09caf80f46f0",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:windows command prompt",
+      "type": "Software",
+      "source_name": "Windows Command Prompt"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "start": 25900,
+        "end": 25968,
+        "quote": "Medusa actors use Windows Command Prompt for filesystem enumeration.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:26712:28840",
+        "start": 27342,
+        "end": 27493,
+        "quote": "Medusa actors use Windows Command Prompt, which can be used to control almost any aspect of a system, for ingress, network, and filesystem enumeration.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "72ef491c6ebb01c830df49c0f5f1693d3aa60ae6940d0fbb494b60f5b26be544",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1567.002",
+      "type": "Technique",
+      "source_name": "T1567.002"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:16749:19037",
+        "start": 18199,
+        "end": 18299,
+        "quote": "Akira threat actors use it maliciously to exfiltrate data to compromised cloud services [T1567.002].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "75ddca1bcf6840b79d1ee7bfd28929b668b9608dc6d3586dca85fcee17d90498",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:Software:filezilla",
+      "type": "Software",
+      "source_name": "FileZilla"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1560.001",
+      "type": "Technique",
+      "source_name": "T1560.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+        "start": 12198,
+        "end": 12339,
+        "quote": "Akira threat actors leverage tools such as FileZilla and WinRAR to collect data [T1560.001] and WinSCP and RClone to exfiltrate data [T1048].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "7686a725147002e62d3f7d09f5dc6799f450b2f46ccaf49fc15218f6421e4c08",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1040",
+      "type": "Software",
+      "source_name": "rclone"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1567.002",
+      "type": "Technique",
+      "source_name": "T1567.002"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "start": 6308,
+        "end": 6377,
+        "quote": "rclone, an open-source command line cloud storage manager [T1567.002]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "775549486d221dcde981ea2df1d9e53bb278d813f76c1376df2829761766cfe9",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "Play"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1059",
+      "type": "Technique",
+      "source_name": "T1059"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:5924:7968",
+        "start": 5925,
+        "end": 6117,
+        "quote": "reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) [T1059] to search for additional privilege escalation paths.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "79e5e361dd83d835ec353047841e25cdb671cc9043aca5510a4fafce1abc1dc9",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1046",
+      "type": "Technique",
+      "source_name": "T1046"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:8653:10741",
+        "start": 8826,
+        "end": 9043,
+        "quote": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "7c290ec6bfaf10fe163ac3d75b52fde466df7249f9fa1ee73d63b9c369769c1b",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:sysinternals psexec",
+      "type": "Software",
+      "source_name": "Sysinternals PsExec"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:26712:28840",
+        "start": 27832,
+        "end": 27922,
+        "quote": "Medusa actors use Sysinternals PsExec to deploy the encryptor on files across the network.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "7e9fc558a76df47e7b6b111cb036e580c06fda5056be2894fa6dada660d04f31",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:zerologon",
+      "type": "Software",
+      "source_name": "Zerologon"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+        "start": 15454,
+        "end": 15589,
+        "quote": "Black Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "7f383bf2ebdd4b79e2ce52bf5dbefdfbc2bd04af11990ffb0fe4c871e2c05a4d",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1105",
+      "type": "Technique",
+      "source_name": "T1105"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:20761:22564",
+        "start": 21408,
+        "end": 21490,
+        "quote": "Malware that Akira threat actors used as the loader/installer for POORTRY [T1105].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "7f7f632f4f95dc93e38a120b514d0cbaeec1f07a8afbf3c55a68014a15dcbc8e",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:sha256",
+      "type": "Software",
+      "source_name": "SHA256"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:12363:13460",
+        "start": 12621,
+        "end": 12671,
+        "quote": "Table 4: Tools Used by Royal Operators\nTool\nSHA256",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "809135b5d42a2bd12cb2e430722ce442740fd07b35453032751ef9321e263c40",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:softperfect network scanner",
+      "type": "Software",
+      "source_name": "SoftPerfect Network Scanner"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+        "start": 25385,
+        "end": 25507,
+        "quote": "LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "80cf3fdf399b62744dd386bb0e16a71d9dacd677f6411762e41cd00652c84383",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1484.001",
+      "type": "Technique",
+      "source_name": "T1484.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:16025:18061",
+        "start": 16856,
+        "end": 17004,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors make changes to Active Directory Default Domain Policy settings to override Group Policy settings [T1484.001].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "84c999276cb9fb54bb0899f78aaeccf7fb8b59ba09ee1e581880b47c413a2949",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:G1040",
+      "type": "ThreatGroup",
+      "source_name": "Play"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:grixba",
+      "type": "Software",
+      "source_name": "GRIXBA"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+        "start": 14239,
+        "end": 14332,
+        "quote": "Play ransomware actors use tools like GRIXBA to identify network configurations and settings.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "85f409ec9e95a1aaa4296ba49932501266bfd4acd2669499d0d79555d9b08615",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1068",
+      "type": "Technique",
+      "source_name": "T1068"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "start": 10652,
+        "end": 10968,
+        "quote": "According to cybersecurity researchers, Black Basta affiliates have also exploited ZeroLogon (CVE-2020-1472 [CWE-330]), NoPac (CVE-2021-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "8630225d74e6b27fd9437be48d3efae77c04da9be6094ad72e0ba7caa95dfefa",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:psexesvc.exe",
+      "type": "Software",
+      "source_name": "PSEXESVC.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:28777:31133",
+        "start": 30547,
+        "end": 30636,
+        "quote": "Akira threat actors use PSEXESVC.exe to enable remote code execution and deploy payloads.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "874f276d64b1e8715f016dd04e500a18bce2180548ed701dd3ed88419b58a0b7",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1190",
+      "type": "Technique",
+      "source_name": "T1190"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:4174:6733",
+        "start": 4774,
+        "end": 4899,
+        "quote": "Starting in February 2024, Black Basta affiliates began exploiting ConnectWise vulnerability CVE-2024-1709 [CWE-288] [T1190].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "8d64276a06da8bfeb8b35c15c7f0c93f18d7ed7663df4aa6060b0f81d9ac6477",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:non-lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Non-LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:lockbit",
+      "type": "Software",
+      "source_name": "LockBit"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:4484:6401",
+        "start": 5027,
+        "end": 5110,
+        "quote": "Non-LockBit affiliates able to use LockBit 3.0 after its builder was leaked. [2, 6]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "8df72ab2570e8248e5c1d46d3097bae878d53be4457bf4e6d83f8a8c5a1110f7",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:winrar",
+      "type": "Software",
+      "source_name": "WinRAR"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:37679:39746",
+        "start": 37798,
+        "end": 37858,
+        "quote": "Akira threat actors use tools like WinRAR to compress files.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "92f43c588ccaf383e4ac947f439b64d3c844369a70944aa0ec664ac585984aaf",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "attack:T1003.001",
+      "type": "Technique",
+      "source_name": "T1003.001"
+    },
+    "predicate": "PART_OF_TACTIC",
+    "tail": {
+      "identity": "attack:TA0006",
+      "type": "Tactic",
+      "source_name": "TA0006"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+        "start": 15368,
+        "end": 15549,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for LSASS dumping [T1003.001] to harvest credentials [TA0006] and aid lateral movement.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "932b9a7a4e36d1e7d1f17fafc9c3a08695dd745f09e93281f3cb716ccd47134c",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "local:ThreatGroup:play ransomware actors",
+      "type": "ThreatGroup",
+      "source_name": "Play Ransomware Actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "Play"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:7618:10055",
+        "start": 9608,
+        "end": 9658,
+        "quote": "Table 1: Tools Leveraged by Play Ransomware Actors",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:9760:11935",
+        "start": 11690,
+        "end": 11744,
+        "quote": "Table 2: Hashes Associated with Play Ransomware Actors",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "940fde9231d0c1aaebfa6a4b5825d2205d7d10fe69f216407e0f9fa1241a1977",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal actors",
+      "type": "ThreatGroup",
+      "source_name": "Royal actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1572",
+      "type": "Technique",
+      "source_name": "T1572"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+        "start": 6445,
+        "end": 6569,
+        "quote": "Historically, Royal actors were observed leveraging Chisel, Secure Shell (SSH) client, PuTTY, OpenSSH, and MobaXterm [T1572]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "9710faec9bd318c52bd0ae29d705bc2e8b3d485b9db8e09e10f5fac47d5aa756",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1566.001",
+      "type": "Technique",
+      "source_name": "T1566.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:4787:6854",
+        "start": 6117,
+        "end": 6223,
+        "quote": "For initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "976fff0cedd9957c73c8ff007071eda8aa7c68a6d1e0adcdfe29dcdc8a36937a",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:remote desktop protocol",
+      "type": "Software",
+      "source_name": "Remote Desktop Protocol"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:6550:8835",
+        "start": 6750,
+        "end": 6876,
+        "quote": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "97b956e018903b021fcf551d6addd2a0a436dc0d872d1deab8ef8970bd3b04a6",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "Play"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1190",
+      "type": "Technique",
+      "source_name": "T1190"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:3851:6199",
+        "start": 4666,
+        "end": 4992,
+        "quote": "Multiple ransomware groups, including initial access brokers with ties to Play ransomware operators, exploited CVE-2024-57727 in remote monitoring and management (RMM) tool SimpleHelp [T1190] to conduct remote code execution [T1059.001] at many U.S.-based entities following the vulnerabilities’ disclosure on 16 January 2025.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "98c555040c9ac2d899296378fc3da6f58ec45f9458b056ddf0d6b0e7a87131b9",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:lockbit",
+      "type": "Software",
+      "source_name": "LockBit"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:9561:12066",
+        "start": 10552,
+        "end": 10700,
+        "quote": "LockBit competed with other RaaS operations, like Hive RaaS, to fill the gap in the cybercriminal market leading to an influx of LockBit affiliates.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "9aa4fa224649b541ba5a8651981e4b5473ed238fd74f0d5fa9bd3df57646e054",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S0039",
+      "type": "Software",
+      "source_name": "net"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1069.002",
+      "type": "Technique",
+      "source_name": "T1069.002"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:26404:27411",
+        "start": 27302,
+        "end": 27344,
+        "quote": "net group “Domain admins” /dom [T1069.002]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "9b8754d4127b77659bead86b31b7739f7c01ce7010e884f6dddb451788f05c74",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0029",
+      "type": "Software",
+      "source_name": "PsExec"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:14289:16172",
+        "start": 14430,
+        "end": 14518,
+        "quote": "When provided with valid username and password credentials, Medusa actors use PsExec to:",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "9c557558d52b6c4bda2164201e6f2535ca20bf89a5762c508a0fd7d05d3062bf",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:blacksuit actors",
+      "type": "ThreatGroup",
+      "source_name": "BlackSuit actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1021.001",
+      "type": "Technique",
+      "source_name": "T1021.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:4148:6616",
+        "start": 5552,
+        "end": 5680,
+        "quote": "The second most common vector (around 13.3% of incidents) BlackSuit actors use for initial access is RDP compromise [T1021.001].",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:6346:8622",
+        "start": 6819,
+        "end": 6911,
+        "quote": "BlackSuit actors used RDP and PsExec as well but also use SMB [T1021.001] to move laterally.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "a2e2bed3b7a9ecae0a1bd87196d8e731fe574eb00dd72b322d7bbe74f697feb7",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:mimikatz with the –dpapi option",
+      "type": "Software",
+      "source_name": "Mimikatz with the –dpapi option"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+        "start": 34807,
+        "end": 35050,
+        "quote": "Akira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "a3ad99246d081a80d1fd64a43cfc4422f60fc8d44d39d87af7bc5990b1837ff0",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:black suit ransomware (1 of 3)",
+      "type": "ThreatGroup",
+      "source_name": "Black Suit Ransomware (1 of 3)"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:c",
+      "type": "Software",
+      "source_name": "C"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:26384:27829",
+        "start": 27111,
+        "end": 27152,
+        "quote": "C:\\Program Files(x86)\\AnyDesk\\AnyDesk.exe",
+        "context_spans": [
+          {
+            "start": 25509,
+            "end": 25584,
+            "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "aa530756953760f630fbc66499dd82323ed384887dd69f9e50e6f8733085b512",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1567",
+      "type": "Technique",
+      "source_name": "T1567"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "start": 6733,
+        "end": 6862,
+        "quote": "LockBit 3.0 affiliates often use other publicly available file sharing services to exfiltrate data as well [T1567] (see Table 1).",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "aad4e71f6e731ff37499a017b13bedf71fa95638ad997ad2a373024bef33dd95",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1040",
+      "type": "Software",
+      "source_name": "Rclone"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:26834:28843",
+        "start": 27941,
+        "end": 28134,
+        "quote": "LockBit affiliates use (1) Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "abf7c39f4433c78489a0a60c43ae2a6bc2c8f4efb4107115c4f0fdae74af5197",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0002",
+      "type": "Software",
+      "source_name": "Mimikatz"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:34797:37085",
+        "start": 34807,
+        "end": 35050,
+        "quote": "Akira threat actors leverage tools such as NetExec or Mimikatz with the –dpapi option to dump credentials stored in the Windows Credential Manager, allowing them to gain unauthorized access to additional systems or accounts within the network.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:36883:38919",
+        "start": 37585,
+        "end": 37688,
+        "quote": "Akira threat actors use Mimikatz to view and save authentication credentials, such as Kerberos tickets.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "adb9ad8889ebeb02e0b62358002c8513aa7750347016f5992c89449f414b9f5b",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1059.001",
+      "type": "Technique",
+      "source_name": "T1059.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:10786:13129",
+        "start": 11368,
+        "end": 11771,
+        "quote": "Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell [T1059.001] to disable antivirus products, and in some instances, deploying a tool called Backstab, designed to disable endpoint detection and response (EDR) tooling [T1562.001].[3] Once antivirus programs are terminated, a ChaCha20 algorithm with an RSA-4096 public key fully encrypts files [T1486].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "af04045da661409357e370b81ccb0d3e363dcc8595749d08a28597e91d3117e9",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:Software:gaze.exe",
+      "type": "Software",
+      "source_name": "gaze.exe"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1072",
+      "type": "Technique",
+      "source_name": "T1072"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:16025:18061",
+        "start": 17754,
+        "end": 17985,
+        "quote": "The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:17810:20469",
+        "start": 17810,
+        "end": 17985,
+        "quote": ", or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "afae85cb826a12e9930fc827d7c3feba84e577cbc05e345720909a69c5951f8a",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:netscan.exe",
+      "type": "Software",
+      "source_name": "netscan.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:4174:6733",
+        "start": 6009,
+        "end": 6120,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "start": 10245,
+        "end": 10356,
+        "quote": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "b0c6fc628fc1852dd0a537fedc40dc5c6c05aecd8940c1bd779aa7907875c43d",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:anydesk",
+      "type": "Software",
+      "source_name": "AnyDesk"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:12220:14519",
+        "start": 13931,
+        "end": 14198,
+        "quote": "To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "b0f2692c69687bd2ac771020af29eea0fdf8fc6b9f82b7f5a4929a5bf1582f21",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:sharpdomainspray",
+      "type": "Software",
+      "source_name": "SharpDomainSpray"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:4787:6854",
+        "start": 6695,
+        "end": 6853,
+        "quote": "Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "b1146787b5279b17d8032fc73a11ebdf52fce08a7fb7fa70d7d5909b2dd20691",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:nopac",
+      "type": "Software",
+      "source_name": "NoPac"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+        "start": 15454,
+        "end": 15589,
+        "quote": "Black Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "b151170acaf181593bf558f2ee60519beabdd2b5ea1c12624a6ed9d057be69f8",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:S1162",
+      "type": "Software",
+      "source_name": "PLAY"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1486",
+      "type": "Technique",
+      "source_name": "T1486"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:5924:7968",
+        "start": 6718,
+        "end": 7008,
+        "quote": "Following exfiltration, files are encrypted [T1486] with AES-RSA hybrid encryption using intermittent encryption, encrypting every other file portion of 0x100000 bytes.4 (Note: System files are skipped during the encryption process.) A .PLAY extension is added to file names once encrypted.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "b424873163d3dc4f06b0a50560a5d79ea51ed5fdac8645bec865340483ac387c",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1070.004",
+      "type": "Technique",
+      "source_name": "T1070.004"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "start": 6007,
+        "end": 6187,
+        "quote": "Once completed, LockBit 3.0 may delete itself from the disk [T1070.004] as well as any Group Policy updates that were made, depending on which options were set at compilation time.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "b4e2231a6b041924ff1dd967ee518d92e6a850aa60444e282b14b6e2889335f4",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit 3.0 affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit 3.0 Affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:9606:11457",
+        "start": 9623,
+        "end": 9707,
+        "quote": "When executed, LockBit 3.0 will create the mutex, Global\\<MD4 hash of machine GUID>,",
+        "context_spans": [
+          {
+            "start": 7837,
+            "end": 7907,
+            "text": "Table 2: Freeware and Open-Source Tools Used by LockBit 3.0 Affiliates"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "b8f192d8fc60613e3e8416e1cfe7e49a5630b53197636d966fcbff80c2dd2836",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "attack:S0029",
+      "type": "Software",
+      "source_name": "PsExec"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1021.001",
+      "type": "Technique",
+      "source_name": "T1021.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:12220:14519",
+        "start": 14199,
+        "end": 14429,
+        "quote": "Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [T1021.001] and PsExec [T1569.002]—to move laterally [TA0008] through the network and identify files for exfiltration [TA0010] and encryption [T1486].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "ba571c67a8621fbe1e0300c536188c7364b7dec57bd1743bfa4fae797b28093f",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:Software:netscan",
+      "type": "Software",
+      "source_name": "NetScan"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1016",
+      "type": "Technique",
+      "source_name": "T1016"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:8607:10825",
+        "start": 8620,
+        "end": 8881,
+        "quote": "For network discovery and reconnaissance, actors use tools like SoftPerfect, Advanced IP Scanner, and NetScan [T1016]. net Windows commands [T1059.003] are used to identify domain controllers [T1018] and gather information on domain trust relationships [T1482].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "bad018c90f5ded9789b7b0feec34095631fa248c470582d029514943f6080016",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0154",
+      "type": "Software",
+      "source_name": "Cobalt Strike"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+        "start": 26465,
+        "end": 26549,
+        "quote": "LockBit affiliates may use Cobalt Strike and target SMB shares for lateral movement.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "bb2d7ed9528cc352bd76a4abe107ba791ee3c598765ceaac69d95db5a495b91a",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:blacksuit actors",
+      "type": "ThreatGroup",
+      "source_name": "BlackSuit actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1190",
+      "type": "Technique",
+      "source_name": "T1190"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:4148:6616",
+        "start": 5709,
+        "end": 5828,
+        "quote": "FBI has observed BlackSuit actors gain initial access through exploiting vulnerable public-facing applications [T1190].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "bb35dfe1af8b171d1055f3ebe55856fee814f39fb0b67fba6845dc13150057eb",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:Software:gaze.exe",
+      "type": "Software",
+      "source_name": "gaze.exe"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1489",
+      "type": "Technique",
+      "source_name": "T1489"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:17810:20469",
+        "start": 18813,
+        "end": 19045,
+        "quote": "The process gaze.exe terminates all services [T1489] related to backups, security, databases, communication, file sharing, and websites, and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "bb99c315f7cec26ad8e18bb7d45ace7c3fd9737366c0b2e369792c1780dccc1a",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0190",
+      "type": "Software",
+      "source_name": "BITSAdmin"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:6550:8835",
+        "start": 6750,
+        "end": 6876,
+        "quote": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:10786:13129",
+        "start": 10986,
+        "end": 11112,
+        "quote": "Black Basta affiliates use tools such as BITSAdmin and PsExec, along with Remote Desktop Protocol (RDP), for lateral movement.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "bc5b3e638a8586ebecb6a3f6ba9386401ea027c3c00bab2973c6f118759aa89b",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:winscp",
+      "type": "Software",
+      "source_name": "WinSCP"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:37679:39746",
+        "start": 38971,
+        "end": 39044,
+        "quote": "Akira threat actors use file transfer tools like WinSCP to transfer data.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "bc74ce235c879f0b9cb662d4535cffc8d4353334bb9836db237370424d12b912",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:ransomware filepath",
+      "type": "Software",
+      "source_name": "Ransomware Filepath"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:15072:16294",
+        "start": 15573,
+        "end": 15592,
+        "quote": "Ransomware Filepath",
+        "context_spans": [
+          {
+            "start": 14620,
+            "end": 14671,
+            "text": "Table 5: Batch Script Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "bf010b509f1284d4a2504815ef9cd6ca301f53bffcdab3069670f4fe834a42da",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:black suit ransomware (1 of 3)",
+      "type": "ThreatGroup",
+      "source_name": "Black Suit Ransomware (1 of 3)"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0154",
+      "type": "Software",
+      "source_name": "Cobalt Strike"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:26384:27829",
+        "start": 26966,
+        "end": 26991,
+        "quote": "Cobalt Strike – Host name",
+        "context_spans": [
+          {
+            "start": 25509,
+            "end": 25584,
+            "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "bff3ce8ae008314522eceaf7386ce5bcb3e1906a840b38c0e24fd413751c081d",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0002",
+      "type": "Software",
+      "source_name": "Mimikatz"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "start": 25196,
+        "end": 25254,
+        "quote": "LockBit affiliates have used Mimikatz to dump credentials.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c05cc358d2a82b0ed00cb98a2048bb8180a8e18721058ff6bfad04c9f3588db5",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0104",
+      "type": "Software",
+      "source_name": "netstat"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "start": 26500,
+        "end": 26584,
+        "quote": "Medusa actors use the command netstat -a to gather a listing of network connections.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c0ef0c1aded515bb803b9a4e31f2215d8e4a49f856d833cdc0edf7be813927dd",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:G1040",
+      "type": "ThreatGroup",
+      "source_name": "Play"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:iobit",
+      "type": "Software",
+      "source_name": "IOBit"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+        "start": 14584,
+        "end": 14679,
+        "quote": "Play ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c4678e54eaefb0a0f8a08acec365ae1ef4e9a27c36346d76e15e9751925a4107",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1486",
+      "type": "Technique",
+      "source_name": "T1486"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:4080:6201",
+        "start": 5568,
+        "end": 5704,
+        "quote": "LockBit 3.0 attempts to encrypt [T1486] data saved to any local or remote device, but skips files associated with core system functions.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c545ff36a1be4afeb5834f968718bef02582f0227ed841e316fb8f04ab3516e4",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1021.004",
+      "type": "Technique",
+      "source_name": "T1021.004"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:6537:8882",
+        "start": 7171,
+        "end": 7345,
+        "quote": "In other incidents, indicators suggest that Akira threat actors gained initial access through the Secure Shell (SSH) protocol by exploiting a router’s IP address [T1021.004].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c8011e4005c94073c722b393e97fd36a3212dbbe837d88545c09bed05b5df722",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0002",
+      "type": "Software",
+      "source_name": "Mimikatz"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "start": 26808,
+        "end": 26898,
+        "quote": "Medusa actors access credential material stored in process memory or LSASS using Mimikatz.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:26712:28840",
+        "start": 26808,
+        "end": 26898,
+        "quote": "Medusa actors access credential material stored in process memory or LSASS using Mimikatz.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c94ec1eff35e794d2605984d5820e1082f4fbc84b04ba114149d537d24b83293",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:Software:blacksuit",
+      "type": "Software",
+      "source_name": "BlackSuit"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1566.001",
+      "type": "Technique",
+      "source_name": "T1566.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:4148:6616",
+        "start": 5295,
+        "end": 5520,
+        "quote": "According to open source reporting, victims have unknowingly installed malware that delivers BlackSuit ransomware after receiving phishing emails containing malicious PDF documents [T1566.001] and malvertising [T1566.002].[2]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c99d9ed6a8c389af372744ac33f1af9ce0e3bceb1177b122712c381bc1063b32",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0591",
+      "type": "Software",
+      "source_name": "ConnectWise"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:12807:15323",
+        "start": 15219,
+        "end": 15322,
+        "quote": "Black Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+        "start": 15219,
+        "end": 15322,
+        "quote": "Black Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "c9d3d5c31a7754d26b3dc45e68894d14a48c0eafcb25d143af2f963ef5578a25",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "local:ThreatGroup:play ransomware actors",
+      "type": "ThreatGroup",
+      "source_name": "Play Ransomware Actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:a windows",
+      "type": "Software",
+      "source_name": "A Windows"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:9760:11935",
+        "start": 10137,
+        "end": 10267,
+        "quote": "A Windows utility designed to improve speed, remove bloatware, protect privacy, and eliminate data collection, among other things.",
+        "context_spans": [
+          {
+            "start": 9608,
+            "end": 9658,
+            "text": "Table 1: Tools Leveraged by Play Ransomware Actors"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "ca560fd8ad4d9a3bdef855fa415a49bf9954349b510dd5fb85e6da0fec4d030b",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1480.001",
+      "type": "Technique",
+      "source_name": "T1480.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:2065:4310",
+        "start": 3093,
+        "end": 3207,
+        "quote": "LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "ca6a09452d780ab1cb16ce55edd658a58d5c37dd57392f91ba989dd4ec00cf78",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1566",
+      "type": "Technique",
+      "source_name": "T1566"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:4174:6733",
+        "start": 4590,
+        "end": 4674,
+        "quote": "Black Basta affiliates primarily use spearphishing [T1566] to obtain initial access.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "cd7f11e07ab26038c158b49c7f36ed64e3dd9679c240ccedf18fb9bcd13077f2",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "attack:S1202",
+      "type": "Software",
+      "source_name": "LockBit 3.0"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1491.001",
+      "type": "Technique",
+      "source_name": "T1491.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:4080:6201",
+        "start": 5705,
+        "end": 5892,
+        "quote": "After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding [T1491.001].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "cf4bf88e648df7cf7c0ad516523e68e659adc4c7505a9fe8bc96d184bdc2b0df",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:123.bat",
+      "type": "Software",
+      "source_name": "123.bat"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "start": 23772,
+        "end": 23871,
+        "quote": "LockBit affiliates may deploy a batch script, 123.bat, to disable and uninstall antivirus software.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "d0c2af74d02f748ab7c989c7169d2135e33f173ab48058f98b6d34f71acc18cb",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1675",
+      "type": "Technique",
+      "source_name": "T1675"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:17810:20469",
+        "start": 18662,
+        "end": 18765,
+        "quote": "Medusa actors also make use of an ESXi host profile [T1675] to change root passwords on Linux machines.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "d188891138f768e39be3dd9ddd86114cb7837cfa27367ff081f8907a263f772b",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0029",
+      "type": "Software",
+      "source_name": "PsExec"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:13347:14347",
+        "start": 14152,
+        "end": 14183,
+        "quote": "PsExec (Microsoft Sysinternals)",
+        "context_spans": [
+          {
+            "start": 12621,
+            "end": 12659,
+            "text": "Table 4: Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "d7fbc2a17567f7e42253477b3fffb9fa17310844ba243282dd81933e3a6ea23d",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S0359",
+      "type": "Software",
+      "source_name": "nltest"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1018",
+      "type": "Technique",
+      "source_name": "T1018"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:26404:27411",
+        "start": 27248,
+        "end": 27271,
+        "quote": "nltest /dclist: [T1018]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "d96d943c5ad7337163cf87d5848c9f8173086f4b9b8126223a7f09394ddf1ef8",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0591",
+      "type": "Software",
+      "source_name": "ScreenConnect"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:4851:6963",
+        "start": 6289,
+        "end": 6666,
+        "quote": "Medusa actors are known to make use of common techniques, such as:\nPhishing campaigns as a primary method for stealing victim credentials [T1566].\nExploitation of unpatched software vulnerabilities [T1190] through Common Vulnerabilities and Exposures (CVEs) such as:\nScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an Alternate Path or Channel].",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:12220:14519",
+        "start": 13931,
+        "end": 14198,
+        "quote": "To evade detection, they may tailor their choice based on remote access tools already present in the victim environment. 2,3 FBI identified Medusa actors using remote access software AnyDesk, Atera, ConnectWise, eHorus, N-able, BeyondTrust, SimpleHelp, and Splashtop.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "da08847987fdd1a80590d5ee0e890fb6943f47179198f3f1874fcaee13ec1ae6",
+    "doc_id": "AA23-075A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:see table",
+      "type": "Software",
+      "source_name": "See Table"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+        "start": 7707,
+        "end": 7836,
+        "quote": "See Table 2 for a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations:",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "ddb72a1afb8e12f5b191e6324314758377a4b3267d1c2c561ec9cbf8d835d317",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S1129",
+      "type": "Software",
+      "source_name": "Akira"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1573.002",
+      "type": "Technique",
+      "source_name": "T1573.002"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+        "start": 12983,
+        "end": 13177,
+        "quote": "The Akira ransom note provides each company with a unique code and instructions to contact the threat actors via a .onion URL, which is accessible through the Tor network [T1090.003][T1573.002].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "e255b6926e55883354aaacd9b4dac26e7b9cfddbac7af2f7e467463b423f856d",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1564.012",
+      "type": "Technique",
+      "source_name": "T1564.012"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:10438:12511",
+        "start": 11667,
+        "end": 11811,
+        "quote": "(Updated Aug. 18, 2026) Medusa actors place tooling, such as Rclone, in pre-existing Windows Defender excluded folders for stealth. [T1564.012].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "e416f286fff0302b46060db0f52bf7d377a9158f5964b25da40622c3c725927b",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0359",
+      "type": "Software",
+      "source_name": "nltest"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:36883:38919",
+        "start": 36904,
+        "end": 36986,
+        "quote": "Akira threat actors use nltest /DOMAIN_TRUSTS commands to enumerate domain trusts.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "e8f7cb9c0392ea753b8f2032c35684247a68c0635781e73c5eaa02a83c1786b2",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:blacksuit actors",
+      "type": "ThreatGroup",
+      "source_name": "BlackSuit actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1566",
+      "type": "Technique",
+      "source_name": "T1566"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:4148:6616",
+        "start": 5160,
+        "end": 5294,
+        "quote": "According to third-party reporting, BlackSuit actors most commonly gain initial access to victim networks via phishing emails [T1566].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "e9b8e0faac0dc40f0249215166191a55a50eec1a33bb48e584403967cfe5630f",
+    "doc_id": "AA23-165A",
+    "head": {
+      "identity": "local:ThreatGroup:lockbit affiliates",
+      "type": "ThreatGroup",
+      "source_name": "LockBit affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:lsass.exe",
+      "type": "Software",
+      "source_name": "lsass.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-165A:evaluation:llama500:23461:25646",
+        "start": 25103,
+        "end": 25195,
+        "quote": "LockBit affiliates may use Microsoft Sysinternals ProDump to dump the contents of lsass.exe.",
+        "context_spans": [],
+        "review_flags": [
+          "source_uncertainty_wording"
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_key": "ed3a3d549ead387da20b2e9f2d97358ae497bd973e70d6d6d1b065e6ec904228",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0002",
+      "type": "Software",
+      "source_name": "Mimikatz"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:8514:10969",
+        "start": 10559,
+        "end": 10651,
+        "quote": "Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation.",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15045:17380",
+        "start": 15454,
+        "end": 15589,
+        "quote": "Black Basta affiliates have used credential scraping tools like Mimikatz, Zerologon, NoPac and PrintNightmare for privilege escalation.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "ed51c35de54a8731bd9e99631d5fc811af9a06fdbac8b27a5cd678fd3b9c9af5",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1190",
+      "type": "Technique",
+      "source_name": "T1190"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:4787:6854",
+        "start": 5051,
+        "end": 5329,
+        "quote": "FBI and cybersecurity researchers1 observed Akira threat actors obtaining initial access to organizations through a virtual private network (VPN) service without multifactor authentication (MFA) configured,2 mostly using known Common Vulnerabilities and Exposures (CVEs) [T1190]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "f03c49666dcd22d405854d2d1c94e9511c392082623f3f864dddf4c21f6b1cbc",
+    "doc_id": "AA24-131A",
+    "head": {
+      "identity": "local:ThreatGroup:black basta affiliates",
+      "type": "ThreatGroup",
+      "source_name": "Black Basta affiliates"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:backstab",
+      "type": "Software",
+      "source_name": "Backstab"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-131A:evaluation:llama500:15803:17845",
+        "start": 15881,
+        "end": 15998,
+        "quote": "Black Basta affiliates have deployed a tool called Backstab to disable endpoint detection and response (EDR) tooling.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "f054d1dacaf28cf16254d6036ee4eefb80bd9e6649809dce7f2a54c5f3f989dc",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "local:ThreatGroup:akira threat actors",
+      "type": "ThreatGroup",
+      "source_name": "Akira threat actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0106",
+      "type": "Software",
+      "source_name": "cmd.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:28777:31133",
+        "start": 30050,
+        "end": 30256,
+        "quote": "Akira threat actors use the Windows command shell (cmd.exe) to run batch scripts and native commands for execution, persistence, lateral movement, and to disable or manipulate security controls for evasion.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "f41b2882f9cdadd9f267120710d08c06bfc99dd6436f07374cd7d59e511ba7f7",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal operators",
+      "type": "ThreatGroup",
+      "source_name": "Royal Operators"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S1073",
+      "type": "Software",
+      "source_name": "Royal"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:12363:13460",
+        "start": 12621,
+        "end": 12659,
+        "quote": "Table 4: Tools Used by Royal Operators",
+        "context_spans": [],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:14225:15219",
+        "start": 14620,
+        "end": 14671,
+        "quote": "Table 5: Batch Script Tools Used by Royal Operators",
+        "context_spans": [
+          {
+            "start": 12621,
+            "end": 12659,
+            "text": "Table 4: Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      },
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:15072:16294",
+        "start": 15154,
+        "end": 15218,
+        "quote": "Royal and BlackSuit IOCs as of June 2023 (New November 13, 2023)",
+        "context_spans": [
+          {
+            "start": 14620,
+            "end": 14671,
+            "text": "Table 5: Batch Script Tools Used by Royal Operators"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "f8ba1ff17b7a63bb5503670190f0bc2003343f4c4a26762042b73669039b8325",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1059.001",
+      "type": "Technique",
+      "source_name": "T1059.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:8653:10741",
+        "start": 8826,
+        "end": 9043,
+        "quote": "Medusa actors primarily use PowerShell [T1059.001] and the Windows Command Prompt (cmd.exe) [T1059.003] for network [T1046] and filesystem enumeration [T1083] and to utilize Ingress Tool Transfer capabilities [T1105].",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "fa689e904eb44860881625d428764027139cb7471b0b04b54a0cb9cead5ce462",
+    "doc_id": "AA23-352A",
+    "head": {
+      "identity": "attack:G1040",
+      "type": "ThreatGroup",
+      "source_name": "Play"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:powertool",
+      "type": "Software",
+      "source_name": "PowerTool"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-352A:evaluation:llama500:14145:16344",
+        "start": 14584,
+        "end": 14679,
+        "quote": "Play ransomware actors use tools like GMER, IOBit, and PowerTool to disable antivirus software.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "fa79fe8e13a12eb33230eb55f9028f652bfa9365e11465f76fd0db954b5f70c0",
+    "doc_id": "AA25-071A",
+    "head": {
+      "identity": "local:ThreatGroup:medusa actors",
+      "type": "ThreatGroup",
+      "source_name": "Medusa actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0096",
+      "type": "Software",
+      "source_name": "systeminfo"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA25-071A:evaluation:llama500:24695:26937",
+        "start": 26244,
+        "end": 26323,
+        "quote": "Medusa actors use the command systeminfo to gather detailed system information.",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "fb450f7a2f01377709beaa53d5fabb152bf64eb07f6468663c5d237c3d84afb2",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:royal and blacksuit ransomware",
+      "type": "ThreatGroup",
+      "source_name": "Royal and BlackSuit Ransomware"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "attack:S0613",
+      "type": "Software",
+      "source_name": "ps1"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:19628:21225",
+        "start": 20457,
+        "end": 20516,
+        "quote": "URLs from malicious PowerShell on P0, potentially debug.ps1",
+        "context_spans": [
+          {
+            "start": 18422,
+            "end": 18496,
+            "text": "Table 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware"
+          }
+        ],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "fd791383cd094347dda603ee1c8b10234a806c924f8882a321f78d350865880d",
+    "doc_id": "AA23-061A",
+    "head": {
+      "identity": "local:ThreatGroup:blacksuit actors",
+      "type": "ThreatGroup",
+      "source_name": "BlackSuit actors"
+    },
+    "predicate": "USES",
+    "tail": {
+      "identity": "local:Software:vssadmin.exe",
+      "type": "Software",
+      "source_name": "vssadmin.exe"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA23-061A:evaluation:llama500:8314:10530",
+        "start": 8325,
+        "end": 8621,
+        "quote": "Before starting the encryption process, BlackSuit actors:\nUse Windows Restart Manager to determine whether targeted files are currently in use or blocked by other applications [T1486].[1]\nUse Windows Volume Shadow Copy service (vssadmin.exe) to delete shadow copies to inhibit system recovery.[1]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  },
+  {
+    "candidate_key": "fefdca4c6bc4f3509aab736b135ba80c95e1b1b93f99f20f73d97ef473a016a0",
+    "doc_id": "AA24-109A",
+    "head": {
+      "identity": "attack:S0039",
+      "type": "Software",
+      "source_name": "net"
+    },
+    "predicate": "USES_TECHNIQUE",
+    "tail": {
+      "identity": "attack:T1069.001",
+      "type": "Technique",
+      "source_name": "T1069.001"
+    },
+    "semantic_review_status": "pending",
+    "supports": [
+      {
+        "chunk_id": "AA24-109A:evaluation:llama500:26404:27411",
+        "start": 27345,
+        "end": 27393,
+        "quote": "net localgroup “Administrators” /dom [T1069.001]",
+        "context_spans": [],
+        "review_flags": []
+      }
+    ]
+  }
+]

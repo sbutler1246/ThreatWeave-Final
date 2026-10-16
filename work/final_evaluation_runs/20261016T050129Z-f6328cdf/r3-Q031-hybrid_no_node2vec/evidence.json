@@ -1,0 +1,184 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Akira threat actors use tools like Mimikatz and LaZagne to dump credentials.",
+      "start": 33284,
+      "end": 33360,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "#StopRansomware: Akira Ransomware",
+      "start": 23,
+      "end": 56,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Technical Details",
+      "start": 4770,
+      "end": 4787,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:32784:35082",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Table 14. Defense Evasion",
+      "start": 31628,
+      "end": 31653,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a",
+      "chunk_id": "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Train users to be aware of impersonation tricks and how to counter them, for example confirming incoming requests through an independent platform like a phone call or in-person, to reduce risk.",
+      "start": 265,
+      "end": 458,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a",
+      "chunk_id": "retrieval:74f5d697c1b5adfaf945b05171df3633dae90c6299225a9299447964a92b8887",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Impersonation (T1656)\nMitigation: User Training (M1017)",
+      "start": 0,
+      "end": 87,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "attack:17.1:relationship--7a1b9942-4be4-4460-86b0-88638a1c4944",
+      "chunk_id": "retrieval:d7b00c82e733879aff4734bb98e0e87bcf51373ca66f2c51fde315007f17c343",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Threat intelligence helps defenders and users be aware of and defend against common lures and active campaigns that have been used for impersonation.",
+      "start": 279,
+      "end": 428,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E8",
+      "doc_id": "attack:17.1:relationship--7a1b9942-4be4-4460-86b0-88638a1c4944",
+      "chunk_id": "retrieval:d7b00c82e733879aff4734bb98e0e87bcf51373ca66f2c51fde315007f17c343",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Impersonation (T1656)\nMitigation: Threat Intelligence Program (M1019)",
+      "start": 0,
+      "end": 101,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E9",
+      "doc_id": "attack:17.1:relationship--bfa95fdc-6f4f-48a9-a155-189c81dc9ebd",
+      "chunk_id": "retrieval:49373949590dee0781a1354d4aff90201bf556639312871ae559f008daf453c7",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Users can be trained to identify social engineering techniques and spearphishing emails.",
+      "start": 280,
+      "end": 368,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E10",
+      "doc_id": "attack:17.1:relationship--bfa95fdc-6f4f-48a9-a155-189c81dc9ebd",
+      "chunk_id": "retrieval:49373949590dee0781a1354d4aff90201bf556639312871ae559f008daf453c7",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Spearphishing Attachment (T1566.001)\nMitigation: User Training (M1017)",
+      "start": 0,
+      "end": 102,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E11",
+      "doc_id": "attack:17.1:relationship--1d1525e6-74f2-447d-ba11-9e9c9c552403",
+      "chunk_id": "retrieval:cd98f59b1ed89dfdd60046bf5be8a4ca4dc6ce6097476cf44b4308741ca6f2f0",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Use user training as a way to bring awareness to common phishing and spearphishing techniques and how to raise suspicion for potentially malicious events.",
+      "start": 266,
+      "end": 420,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E12",
+      "doc_id": "attack:17.1:relationship--1d1525e6-74f2-447d-ba11-9e9c9c552403",
+      "chunk_id": "retrieval:cd98f59b1ed89dfdd60046bf5be8a4ca4dc6ce6097476cf44b4308741ca6f2f0",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: User Execution (T1204)\nMitigation: User Training (M1017)",
+      "start": 0,
+      "end": 88,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E13",
+      "doc_id": "attack:17.1:relationship--3de6d2ba-842b-4f60-b177-d8082eebbb1e",
+      "chunk_id": "retrieval:7765ac49581ca9600a551c1442130118833d7845df6109de2f041bfb77d81a52",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Users can be trained to identify social engineering techniques and spearphishing attempts.",
+      "start": 276,
+      "end": 366,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E14",
+      "doc_id": "attack:17.1:relationship--3de6d2ba-842b-4f60-b177-d8082eebbb1e",
+      "chunk_id": "retrieval:7765ac49581ca9600a551c1442130118833d7845df6109de2f041bfb77d81a52",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Phishing for Information (T1598)\nMitigation: User Training (M1017)",
+      "start": 0,
+      "end": 98,
+      "source_kind": "attack"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA24-109A:akira-threat-actors",
+          "predicate": "USES",
+          "tail_id": "attack:S0002",
+          "assertion_ids": [
+            "assertion:12fe9c8b2fc88c1bd3aee002b48002e832a7de09c9b4abf647f224ad4940ab3d"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3",
+            "E4"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+  ],
+  "retrieval_ms": 53.20289998780936,
+  "configuration_hash": "80a7079746cc7e845ed5a20b65cd1254172464f12166eb44b79d4541e20ba8bc",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

@@ -1,0 +1,344 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "The authoring organizations observed Akira threat actors establishing command and control (C2) communications by using tunneling utilities, such as Ngrok [T1572]",
+      "start": 11788,
+      "end": 11949,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "#StopRansomware: Akira Ransomware",
+      "start": 23,
+      "end": 56,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:10612:12792",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "Technical Details",
+      "start": 4770,
+      "end": 4787,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324",
+      "chunk_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Protocol Tunneling (T1572)\nMitigation: Network Intrusion Prevention (M1031)",
+      "start": 0,
+      "end": 107,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324",
+      "chunk_id": "attack:17.1:relationship--17639fa3-3f77-4481-b24f-9df82fcbf324:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. ",
+      "start": 285,
+      "end": 470,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:12528:14948",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "In some instances, Akira threat actors use Ngrok to create secure tunnels for data exfiltration [T1090].",
+      "start": 12687,
+      "end": 12791,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "AA24-109A",
+      "chunk_id": "AA24-109A:evaluation:llama500:14693:17032",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "text": "To further inhibit system recovery and impede forensic analysis, Akira’s encryptor (w.exe) uses PowerShell commands to delete Volume Shadow Copy Service (VSS) copies on Windows systems [T1490].",
+      "start": 14754,
+      "end": 14947,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E8",
+      "doc_id": "attack:17.1:relationship--d62f97e9-2b94-44d9-88db-99f849a804ec",
+      "chunk_id": "attack:17.1:relationship--d62f97e9-2b94-44d9-88db-99f849a804ec:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Inhibit System Recovery (T1490)\nMitigation: User Account Management (M1018)",
+      "start": 0,
+      "end": 107,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E9",
+      "doc_id": "attack:17.1:relationship--d62f97e9-2b94-44d9-88db-99f849a804ec",
+      "chunk_id": "attack:17.1:relationship--d62f97e9-2b94-44d9-88db-99f849a804ec:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Limit the user accounts that have access to backups to only those required. In AWS environments, consider using Service Control Policies to restrict API calls to delete backups, snapshots, and images. ",
+      "start": 285,
+      "end": 486,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E10",
+      "doc_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98",
+      "chunk_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Protocol Tunneling (T1572)\nMitigation: Filter Network Traffic (M1037)",
+      "start": 0,
+      "end": 101,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E11",
+      "doc_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98",
+      "chunk_id": "attack:17.1:relationship--0927eb00-4a08-4ed1-8678-84d6e1e87b98:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Consider filtering network traffic to untrusted or known bad domains and resources. ",
+      "start": 279,
+      "end": 363,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E12",
+      "doc_id": "attack:17.1:relationship--c4cd9acb-aaea-4b77-890e-f153a58623a4",
+      "chunk_id": "attack:17.1:relationship--c4cd9acb-aaea-4b77-890e-f153a58623a4:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Inhibit System Recovery (T1490)\nMitigation: Operating System Configuration (M1028)",
+      "start": 0,
+      "end": 114,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E13",
+      "doc_id": "attack:17.1:relationship--c4cd9acb-aaea-4b77-890e-f153a58623a4",
+      "chunk_id": "attack:17.1:relationship--c4cd9acb-aaea-4b77-890e-f153a58623a4:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Consider technical controls to prevent the disabling of services or deletion of files involved in system recovery. Additionally, ensure that WinRE is enabled using the following command: <code>reagentc /enable</code>.(Citation: reagentc_cmd)",
+      "start": 292,
+      "end": 533,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E14",
+      "doc_id": "attack:17.1:relationship--9104be87-33ad-4a35-96db-3e2ed5c17f46",
+      "chunk_id": "attack:17.1:relationship--9104be87-33ad-4a35-96db-3e2ed5c17f46:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Inhibit System Recovery (T1490)\nMitigation: Execution Prevention (M1038)",
+      "start": 0,
+      "end": 104,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E15",
+      "doc_id": "attack:17.1:relationship--9104be87-33ad-4a35-96db-3e2ed5c17f46",
+      "chunk_id": "attack:17.1:relationship--9104be87-33ad-4a35-96db-3e2ed5c17f46:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Consider using application control configured to block execution of utilities such as `diskshadow.exe` that may not be required for a given system or network to prevent potential misuse by adversaries. ",
+      "start": 282,
+      "end": 484,
+      "source_kind": "attack"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "attack:S0508",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1572",
+          "assertion_ids": [
+            "assertion:0744c9814f18afaa1a46abd493eda8dfa1533184251accbc2a72910ec884541c"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1572",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1031",
+          "assertion_ids": [
+            "assertion:beb7b8893092a2445708407f076326c681ac4f6def6c9110d9ae18e465014847"
+          ],
+          "citation_ids": [
+            "E4",
+            "E5"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P2",
+      "edges": [
+        {
+          "head_id": "local:AA24-109A:akira-threat-actors",
+          "predicate": "USES",
+          "tail_id": "attack:S0508",
+          "assertion_ids": [
+            "assertion:473732d2726a630e84b525b61b1b8c1a2465cca95862af41cfaf00cbcf6ee7ea"
+          ],
+          "citation_ids": [
+            "E6",
+            "E2",
+            "E3"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P3",
+      "edges": [
+        {
+          "head_id": "attack:S1129",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1490",
+          "assertion_ids": [
+            "assertion:2efc686f579355de6f7c747d1ffe4fde609747c6c073a56905715daa95f95027"
+          ],
+          "citation_ids": [
+            "E7",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1490",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1018",
+          "assertion_ids": [
+            "assertion:69faa5c28a1c65d3bd1ac24c2757dca1d292a0125374faa3cd9a4927955a663d"
+          ],
+          "citation_ids": [
+            "E8",
+            "E9"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P4",
+      "edges": [
+        {
+          "head_id": "attack:S0508",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1572",
+          "assertion_ids": [
+            "assertion:0744c9814f18afaa1a46abd493eda8dfa1533184251accbc2a72910ec884541c"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1572",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1037",
+          "assertion_ids": [
+            "assertion:8bc5d4ff9d4fc99257ef1991e15d6989da786d91767488e1b86c2686f7c615fd"
+          ],
+          "citation_ids": [
+            "E10",
+            "E11"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P5",
+      "edges": [
+        {
+          "head_id": "attack:S1129",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1490",
+          "assertion_ids": [
+            "assertion:2efc686f579355de6f7c747d1ffe4fde609747c6c073a56905715daa95f95027"
+          ],
+          "citation_ids": [
+            "E7",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1490",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1028",
+          "assertion_ids": [
+            "assertion:4fec47feb94681e509163525c3bd189282e6d5fc0f7ad568a0d556931118dfb4"
+          ],
+          "citation_ids": [
+            "E12",
+            "E13"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P6",
+      "edges": [
+        {
+          "head_id": "attack:S1129",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1490",
+          "assertion_ids": [
+            "assertion:2efc686f579355de6f7c747d1ffe4fde609747c6c073a56905715daa95f95027"
+          ],
+          "citation_ids": [
+            "E7",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1490",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1038",
+          "assertion_ids": [
+            "assertion:784e966e127371e51ae02ec3d7ec633ed9e7bb286dd15cdf611ccfc684f6d055"
+          ],
+          "citation_ids": [
+            "E14",
+            "E15"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15"
+  ],
+  "retrieval_ms": 31.552899978123605,
+  "configuration_hash": "624996f6225aa01b58dbe11d294ec096111cc0e734f2d1d8d79172fbe3b4fb76",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

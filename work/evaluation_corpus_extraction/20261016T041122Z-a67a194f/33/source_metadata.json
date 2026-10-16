@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:26384:27829",
+    "doc_id": "AA23-061A",
+    "start": 26384,
+    "end": 27829,
+    "text": "Putty.exe. Possibly used for C2\nMwntv.sys\n6332f189cc71df646ff0f1b9b02a005c9ebda3fe7b9712976660746913b030de\nPotential Tool Ingress\nAnyDesk\n1cdafbe519f60aaadb4a92e266fff709129f86f0c9ee595c45499c66092e0499\nPotential remote access tool\nScreenConnect\n420db40d26d309d3dba3245abb91207f1bca050530545a8048f856e5840d22a2\nPotential remote access tool\nSharpShares.exe\nEnumerate network shares\nNetworx.exe\nBandwidth utilization\nTable 14: Legitimate Files and Tools Used by Black Suit Ransomware (2 of 3)\nFilename\nHash Value – SHA-1\nDescription\n181[.]exe\n790d40cd16fb458bf99e3600bce29eca06d40b56\nCobalt Strike – Host name\nTable 15: Legitimate Files and Tools Used by Black Suit Ransomware (3 of 3)\nFilename\nFile Path\nDescription\nAnydesk.exe\nC:\\Program Files(x86)\\AnyDesk\\AnyDesk.exe\nRemote Monitoring and Management (RMM) Tool\nehorus_display.exe\nC:\\Program Files\\ehorus_agent\\ehorus_display\\ehorus_display.exe\nRMM Tool\nehorus_launcher.exe\nC:\\Program Files\\ehorus_agent\\ehorus_launcher.exe\nRMM Tool\nTable 16: Domain(s) associated to BlackSuit Ransomware\nDomain Name\nDescription\nAbbeymathiass[.]com\nCobalt Strike C2\nMail.abbeymathiass[.]com\nCobalt Strike C2\nStore.abbeymathiass[.]com\nCobalt Strike C2\nhttps://file[.]io/ScPd1KcJTtxO\nAssociated with download of the binary disabler.exe by threat actors\nMail.turnovercheck[.]com\nCobalt Strike C2\nStore.turnovercheck[.]com\nCobalt Strike C2\nturnovercheck[.]com\nCobalt Strike C2\nHourlyprofitstore[.]com\nCobalt Strike\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 25509,
+        "end": 25584,
+        "text": "Table 13: Legitimate Files and Tools Used by Black Suit Ransomware (1 of 3)"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 495,
+  "inherited_context_tokens": 40,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "f34eb0b652a990e2aaa6ec192204600914c4ecad11cd1deefd75c3bc87f5d9be",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

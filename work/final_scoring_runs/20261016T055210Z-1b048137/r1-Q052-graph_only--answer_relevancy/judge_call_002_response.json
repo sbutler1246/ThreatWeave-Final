@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:24:29.3083205Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 417787700,
+  "load_duration": 8012800,
+  "prompt_eval_count": 525,
+  "prompt_eval_duration": 13410000,
+  "eval_count": 32,
+  "eval_duration": 391503000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is the technique mapped to Ligolo in AA23-165A?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

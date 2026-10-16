@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "LockBit 3.0",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1070.004",
+      "attack_id": "T1070.004"
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "rclone",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1567.002",
+      "attack_id": "T1567.002"
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1567",
+      "attack_id": "T1567"
+    },
+    {
+      "local_id": "e6",
+      "type": "ThreatGroup",
+      "name": "LockBit affiliates",
+      "attack_id": null
+    },
+    {
+      "local_id": "e7",
+      "type": "Software",
+      "name": "See Table",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 30,
+        "end": 210,
+        "quote": "Once completed, LockBit 3.0 may delete itself from the disk [T1070.004] as well as any Group Policy updates that were made, depending on which options were set at compilation time."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 331,
+        "end": 400,
+        "quote": "rclone, an open-source command line cloud storage manager [T1567.002]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 756,
+        "end": 885,
+        "quote": "LockBit 3.0 affiliates often use other publicly available file sharing services to exfiltrate data as well [T1567] (see Table 1)."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e6",
+      "predicate": "USES",
+      "tail": "e7",
+      "evidence": {
+        "start": 1730,
+        "end": 1859,
+        "quote": "See Table 2 for a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations:"
+      },
+      "confidence": null
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Akira",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira_v2",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Megazord",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Akira Megazord",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m001_G": {
+      "name": "Akira",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Akira_v2",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Megazord",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Akira Megazord",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 19,
+      "text": "df6da1987bf48e5b05e",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 20,
+      "end": 47,
+      "text": "Akira ransomware encryptor.",
+      "line_start": 20
+    },
+    "u003": {
+      "start": 48,
+      "end": 56,
+      "text": "Akira_v2",
+      "line_start": 48
+    },
+    "u004": {
+      "start": 57,
+      "end": 121,
+      "text": "3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f75",
+      "line_start": 57
+    },
+    "u005": {
+      "start": 122,
+      "end": 186,
+      "text": "0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c",
+      "line_start": 122
+    },
+    "u006": {
+      "start": 187,
+      "end": 207,
+      "text": "Akira_v2 ransomware.",
+      "line_start": 187
+    },
+    "u007": {
+      "start": 208,
+      "end": 216,
+      "text": "Megazord",
+      "line_start": 208
+    },
+    "u008": {
+      "start": 217,
+      "end": 281,
+      "text": "ffd9f58e5fe8502249c67cad0123ceeeaa6e9f69b4ec9f9e21511809849eb8fc",
+      "line_start": 217
+    },
+    "u009": {
+      "start": 282,
+      "end": 346,
+      "text": "dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198",
+      "line_start": 282
+    },
+    "u010": {
+      "start": 347,
+      "end": 411,
+      "text": "131da83b521f610819141d5c740313ce46578374abb22ef504a7593955a65f07",
+      "line_start": 347
+    },
+    "u011": {
+      "start": 412,
+      "end": 476,
+      "text": "9f393516edf6b8e011df6ee991758480c5b99a0efbfd68347786061f0e04426c",
+      "line_start": 412
+    },
+    "u012": {
+      "start": 477,
+      "end": 541,
+      "text": "9585af44c3ff8fd921c713680b0c2b3bbc9d56add848ed62164f7c9b9f23d065",
+      "line_start": 477
+    },
+    "u013": {
+      "start": 542,
+      "end": 606,
+      "text": "2f629395fdfa11e713ea8bf11d40f6f240acf2f5fcf9a2ac50b6f7fbc7521c83",
+      "line_start": 542
+    },
+    "u014": {
+      "start": 607,
+      "end": 671,
+      "text": "7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be",
+      "line_start": 607
+    },
+    "u015": {
+      "start": 672,
+      "end": 736,
+      "text": "95477703e789e6182096a09bc98853e0a70b680a4f19fa2bf86cbb9280e8ec5a",
+      "line_start": 672
+    },
+    "u016": {
+      "start": 737,
+      "end": 801,
+      "text": "0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d",
+      "line_start": 737
+    },
+    "u017": {
+      "start": 802,
+      "end": 866,
+      "text": "C9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0",
+      "line_start": 802
+    },
+    "u018": {
+      "start": 867,
+      "end": 893,
+      "text": "Akira Megazord ransomware.",
+      "line_start": 867
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1129",
+    "m001_G": "attack:G1024",
+    "m002_S": "local:Software:akira_v2",
+    "m003_S": "attack:S1191",
+    "m004_S": "local:Software:akira megazord"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u002"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S",
+        "m003_S",
+        "m004_S"
+      ]
+    }
+  ]
+}

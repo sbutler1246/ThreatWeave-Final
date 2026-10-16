@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "BlackSuit actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1566",
+      "attack_id": "T1566"
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "BlackSuit",
+      "attack_id": null
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1566.001",
+      "attack_id": "T1566.001"
+    },
+    {
+      "local_id": "e5",
+      "type": "Technique",
+      "name": "T1021.001",
+      "attack_id": "T1021.001"
+    },
+    {
+      "local_id": "e6",
+      "type": "Technique",
+      "name": "T1190",
+      "attack_id": "T1190"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1012,
+        "end": 1146,
+        "quote": "According to third-party reporting, BlackSuit actors most commonly gain initial access to victim networks via phishing emails [T1566]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e3",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 1147,
+        "end": 1372,
+        "quote": "According to open source reporting, victims have unknowingly installed malware that delivers BlackSuit ransomware after receiving phishing emails containing malicious PDF documents [T1566.001] and malvertising [T1566.002].[2]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e5",
+      "evidence": {
+        "start": 1404,
+        "end": 1532,
+        "quote": "The second most common vector (around 13.3% of incidents) BlackSuit actors use for initial access is RDP compromise [T1021.001]."
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e6",
+      "evidence": {
+        "start": 1561,
+        "end": 1680,
+        "quote": "FBI has observed BlackSuit actors gain initial access through exploiting vulnerable public-facing applications [T1190]."
+      },
+      "confidence": null
+    }
+  ]
+}

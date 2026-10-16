@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:35:56.2473866Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8498855600,
+  "load_duration": 8874000,
+  "prompt_eval_count": 550,
+  "prompt_eval_duration": 49654000,
+  "eval_count": 642,
+  "eval_duration": 8148664000,
+  "message": {
+    "role": "assistant",
+    "content": "Here is the output in JSON format:\n\n{\n  \"statements\": [\n    \"Rhysida actors use Mimikatz to aid in privilege escalation.\",\n    \"Akira threat actors use Mimikatz to aid in privilege escalation.\",\n    \"Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities).\",\n    \"Rhysida actors' advisory software-to-technique mapping includes T1078 (Valid Accounts).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1087.002 (Account Discovery: Domain Account).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1482 (Domain Trust Discovery).\",\n    \"Akira threat actors' advisory software-to-technique mapping includes T1003.001 (Kerberoasting).\"\n  ]\n}\n\nHere's the breakdown of each sentence into one or more fully understandable statements:\n\n1. \"Rhysida actors use Mimikatz to aid in privilege escalation.\"\n\t* Rhysida actors use Mimikatz.\n\t* Rhysida actors use Mimikatz to aid in privilege escalation.\n2. \"Akira threat actors use Mimikatz to aid in privilege escalation.\"\n\t* Akira threat actors use Mimikatz.\n\t* Akira threat actors use Mimikatz to aid in privilege escalation.\n3. \"Rhysida actors' advisory software-to-technique mapping includes T1587 (Develop Capabilities).\"\n\t* Rhysida actors' advisory software-to-technique mapping includes T1587.\n\t* T1587 is Develop Capabilities.\n4. \"Rhysida actors' advisory software-to-technique mapping includes T1078 (Valid Accounts).\"\n\t* Rhysida actors' advisory software-to-technique mapping includes T1078.\n\t* T1078 is Valid Accounts.\n5. \"Akira threat actors' advisory software-to-technique mapping includes T1082 (System Information Discovery).\"\n\t* Akira threat actors' advisory software-to-technique mapping includes T1082.\n\t* T1082 is System Information Discovery.\n6. \"Akira threat actors' advisory software-to-technique mapping includes T1087.002 (Account Discovery: Domain Account).\"\n\t* Akira threat actors' advisory software-to-technique mapping includes T1087.002.\n\t* T1087.002 is Account Discovery: Domain Account.\n7. \"Akira threat actors' advisory software-to-technique mapping includes T1482 (Domain Trust Discovery).\"\n\t* Akira threat actors' advisory software-to-technique mapping includes T1482.\n\t* T1482 is Domain Trust Discovery.\n8. \"Akira threat actors' advisory software-to-technique mapping includes T1003.001 (Kerberoasting).\"\n\t* Akira threat actors' advisory software-to-technique mapping includes T1003.001.\n\t* T1003.001 is Kerberoasting.",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

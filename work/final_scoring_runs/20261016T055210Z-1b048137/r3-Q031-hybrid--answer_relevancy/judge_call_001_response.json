@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:10:45.0031673Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 756343400,
+  "load_duration": 11052500,
+  "prompt_eval_count": 424,
+  "prompt_eval_duration": 148799000,
+  "eval_count": 38,
+  "eval_duration": 467368000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What ATT&CK technique is connected to Akira threat actors through the reported use of Mimikatz?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

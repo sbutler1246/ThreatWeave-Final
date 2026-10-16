@@ -1,0 +1,111 @@
+POGO
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to Ligolo in AA23-165A? Start from LockBit affiliates and follow the three-
+hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations from
+reference recommendations.
+Displayed answer
+LockBit affiliates use Advanced Port Scanner to perform Network Service Discovery (T 1046). [El,
+Q, a, El 5]
+Network Segmentation (MI 030) can mitigate Network Service Discovery (T 1046). [E4, E5]
+Network Intrusion Prevention (M 1031) can mitigate Remote Access Tools (T 1219). [E7, E8]
+Pre-compromise (MI 056) can mitigate Develop Capabilities (Tl 587) and Compromise Accounts
+(Tl 586). [E14, E18]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+The AA23-165A Table 4 caption lists Ligolo as a tool used by LockBit affiliates. The selected
+advisory row maps its reported use to T 1095 (Non-Application Layer Protocol). The direct, active
+mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: MI 030 (Network
+Segmentation), M1031 (Network Intrusion Prevention), M1037 (Filter Network Traffic), M 1047
+(Audit). These are reference mitigation associations, not incident-specific proof of effectiveness.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for
+exploitation.
+T 1046
+Network Service Discovery
+[Q; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T 1046)
+Mitigation: Network Segmentation (MI 030)
+[E5; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[E6; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+
+--- IMAGE ---
+
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (Tl 219)
+Mitigation: Network Intrusion Prevention (M 1031)
+[E8; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to
+prevent traffic to remote access services.
+[E9; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[Elo; CISA]
+Impacket
+[El 1; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[El 2; CISA]
+TECHNICAL DETAILS
+[El 3; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[E14; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (Tl 587)
+Mitigation: Pre-compromise (MI 056)
+[El 5; CISA]
+LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port
+Scanner to scan target networks.
+[El 6; CISA]
+Table 11: LockBit Affiliates' ATT&CK Techniques for Enterprise — Discovery
+
+--- IMAGE ---
+
+[E17; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[E18; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (Tl 586)
+Mitigation: Pre-compromise (MI 056)
+GRAPH NODES
+N 1: LockBit affiliates
+N2: Advanced Port Scanner
+N3: Network Service Discovery (T 1046)
+N4: Network Segmentation (MI 030)
+N5: AnyDesk
+N6: Remote Access Tools (Tl 219)
+N7: Network Intrusion Prevention (MI 031)
+N8: Atera Remote Monitoring & Management (RMM)
+N9: Impacket (S0357)
+N 10: SoftPerfect Network Scanner
+GRAPH PATHS
+- > N3
+- > N6
+- > N6
+"5: Nl NIO

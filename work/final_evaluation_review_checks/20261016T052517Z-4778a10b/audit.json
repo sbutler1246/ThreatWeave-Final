@@ -1,0 +1,497 @@
+{
+  "status": "saved_artifacts_verified",
+  "plan_fingerprint": "3272f8d91a2137744003fbc9d9cf2994fd4e7cb74903bf523c65940992255abc",
+  "source_run": "S:\\ThreatWeave\\work\\final_evaluation_runs\\20261016T050129Z-f6328cdf",
+  "prepared_inputs": "S:\\ThreatWeave\\work\\final_evaluation_inputs\\20261016T045909Z-362498eb",
+  "measured_count": 240,
+  "warmup_count": 4,
+  "statuses": {
+    "answer_ready_for_review": 210,
+    "failed": 15,
+    "abstained": 15
+  },
+  "by_mode": {
+    "text_only": {
+      "outcomes": 60,
+      "statuses": {
+        "answer_ready_for_review": 54,
+        "failed": 6
+      },
+      "median_case_ms_all_outcomes": 3151.100349990884,
+      "mean_case_ms_all_outcomes": 4002.68076666786,
+      "sum_case_ms_all_outcomes": 240160.84600007161,
+      "generation_requests": 72
+    },
+    "graph_only": {
+      "outcomes": 60,
+      "statuses": {
+        "answer_ready_for_review": 45,
+        "abstained": 15
+      },
+      "median_case_ms_all_outcomes": 3576.436300005298,
+      "mean_case_ms_all_outcomes": 2936.9261516655874,
+      "sum_case_ms_all_outcomes": 176215.56909993524,
+      "generation_requests": 45
+    },
+    "hybrid_no_node2vec": {
+      "outcomes": 60,
+      "statuses": {
+        "failed": 7,
+        "answer_ready_for_review": 53
+      },
+      "median_case_ms_all_outcomes": 3083.9936999982456,
+      "mean_case_ms_all_outcomes": 3842.247544999312,
+      "sum_case_ms_all_outcomes": 230534.85269995872,
+      "generation_requests": 68
+    },
+    "hybrid": {
+      "outcomes": 60,
+      "statuses": {
+        "answer_ready_for_review": 58,
+        "failed": 2
+      },
+      "median_case_ms_all_outcomes": 3657.386549995863,
+      "mean_case_ms_all_outcomes": 4445.458916664454,
+      "sum_case_ms_all_outcomes": 266727.5349998672,
+      "generation_requests": 70
+    }
+  },
+  "failures": [
+    {
+      "case_id": "r1-Q001-hybrid_no_node2vec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r1-Q040-hybrid_no_node2vec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r1-Q040-text_only",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r1-Q051-text_only",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r1-Q061-hybrid_no_node2vec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r2-Q001-hybrid_no_node2vec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r2-Q040-hybrid",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r2-Q040-hybrid_no_node2vec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r2-Q040-text_only",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r2-Q050-hybrid",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r2-Q059-text_only",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r2-Q061-hybrid_no_node2vec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r3-Q040-hybrid_no_node2vec",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r3-Q040-text_only",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    },
+    {
+      "case_id": "r3-Q051-text_only",
+      "attempts": [
+        {
+          "attempt": 1,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated citation IDs within a claim are not allowed."
+          ],
+          "done_reason": "stop"
+        },
+        {
+          "attempt": 2,
+          "error_type": "ValidationError",
+          "messages": [
+            "Value error, Repeated claims are not allowed; combine related facts concisely."
+          ],
+          "done_reason": "stop"
+        }
+      ]
+    }
+  ],
+  "abstentions": [
+    {
+      "case_id": "r1-Q040-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r1-Q054-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r1-Q055-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r1-Q056-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r1-Q057-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r2-Q040-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r2-Q054-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r2-Q055-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r2-Q056-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r2-Q057-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r3-Q040-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r3-Q054-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r3-Q055-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r3-Q056-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    },
+    {
+      "case_id": "r3-Q057-graph_only",
+      "generation_requests": 0,
+      "passage_count": 0,
+      "path_count": 0
+    }
+  ],
+  "ragas_available_rows": 225,
+  "ragas_unavailable_failed_rows": 15,
+  "automated_scores_computed": false,
+  "human_ratings_status": "pending",
+  "secondary_question_ids": [
+    "Q001",
+    "Q033",
+    "Q044",
+    "Q050",
+    "Q058"
+  ],
+  "python_resource_sampling_available": false,
+  "tooling_files_sha256": {
+    "evaluation/final_review.py": "32ca6bfb98b1aa1e14143eb3a4e01fb54f8d2476cbf914bfdc958f082bfa8f0f",
+    "prepare_final_review.py": "15341a1c2c50fe1af04733424f08214dba15d4f416ead26318577964ca48aae5",
+    "setup_evaluation.py": "15254cfdd546ee38e013233a673113a1c562ec53e8cc83a1293d2faa00cf3145",
+    "evaluation/run_ragas.py": "3b3f00ec0ebf6db9aa7973b4f569d61ab10cd1ca93de4a0bef92830548e60834",
+    "evaluation/ragas_design.json": "89206be69e5b8a8a0aa045910df13e40f35714c73a9f3b1130156c7aa5900b3e",
+    "evaluation/requirements.lock.txt": "5a69f2ee5ab2908405b5b9d3bbdbd66401451128c6f10e154cbd5ac563406bc4"
+  },
+  "limits": [
+    "No semantic quality or method-superiority conclusion from schema success counts.",
+    "Failed observations remain in the 240-case denominator; no replacement scores.",
+    "Automated score availability and NaNs must be reported per metric and mode.",
+    "Case latency includes failures/abstentions; modes perform different amounts of work.",
+    "No Python CPU/RSS or service/GPU resource results are available for this run.",
+    "MODE prompt field and evidence formatting prevent a purely retrieval-only comparison.",
+    "Same-model judge is supplementary; human ratings are still required."
+  ]
+}

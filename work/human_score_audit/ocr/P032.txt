@@ -1,0 +1,93 @@
+P032
+Question
+According to AA23-061A, which ATT&CK technique is connected to Royal actors through the
+reported use of Chisel? Explain the two-hop actor-to-software-to-technique path with evidence.
+Displayed answer
+Royal actors use Chisel to connect to the ATT&CK technique Tl 210. [E9]
+The two-hop actor-to-software-to-technique path is: Royal actors -> Chisel -> T 1210. [E9]
+The actual practical guidance for User Training (M 1017) is to train users to be aware of
+impersonation tricks and how to counter them. [E2]
+The actual practical guidance for Threat Intelligence Program (M 1019) is to help defenders and
+users be aware of and defend against common lures and active campaigns. [E4]
+The actual practical guidance for User Training (M 1017) is to bring awareness to common
+phishing and spearphishing techniques and how to raise suspicion for potentially malicious
+events. [E8]
+Rhysida actors use valid credentials to access internal VPN access points of victims, connecting
+to the ATT&CK technique T1078. [E9]
+Rhysida actors leverage AZCopy, a command-line utility, to connect to the ATT&CK technique
+T 1059.009. [El l]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+AA23-061A reports that Royal actors were historically observed using Chisel to communicate with
+their C2 infrastructure. The advisory associates this tool use with Tl 572 (Protocol Tunneling). The
+two links are Royal actors -4 USES Chisel USES_TECHNIQUE -4 Tl 572; this preserves the
+historical observation rather than asserting current use.
+
+--- IMAGE ---
+
+V EVI ence supp •e tot e answer generator
+SOURCE PASSAGES
+[El; ATTACK]
+Train users to be aware of impersonation tricks and how to counter them, for example confirming
+incoming requests through an independent platform like a phone call or in-person, to reduce risk.
+[Q; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (Tl 656)
+Mitigation: User Training (MI 017)
+[E3; ATTACK]
+Threat intelligence helps defenders and users be aware of and defend against common lures and
+active campaigns that have been used for impersonation.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Impersonation (Tl 656)
+Mitigation: Threat Intelligence Program (M 1019)
+[E-5; ATTACK]
+Users can be trained to identify social engineering techniques and spearphishing emails.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Spearphishing Attachment (Tl 566.001)
+Mitigation: User Training (MI 017)
+[E7; ATTACK]
+Use user training as a way to bring awareness to common phishing and spearphishing techniques
+and how to raise suspicion for potentially malicious events.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: User Execution (T 1204)
+Mitigation: User Training (MI 017)
+
+--- IMAGE ---
+
+[E9; CISA]
+9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance
+with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE
+ATT&CK's Best Practices for MITRE ATT&CK Mapping and CISA's Decider Tool.
+Additional notable T TPs have been published by the Check Point Incident Response Team.[10]
+Table 9: Resource Development
+Technique Title
+Use
+Develop Capabilities
+T 1587
+Rhysida actors have been observed developing resources and custom tools, particularly with
+program names set to "Rhysida-0.1 " to gain access to victim systems.
+Table 10: Initial Access
+Technique Title
+Use
+Valid Accounts
+T 1078
+Rhysida actors are known to use valid credentials to access internal VPN access points of victims.
+Update April 30, 2025:
+Table 11: Execution
+Technique Title
+Use
+Command and Scripting Interpreter: Cloud API
+T 1059.009
+Rhysida actors leverage AZCopy, a command-line utility that
+[Elo; CISA]
+#StopRansomware: Rhysida Ransomware
+
+--- IMAGE ---
+
+[El 1; CISA]
+Technical Details
+GRAPH NODES
+GRAPH PATHS

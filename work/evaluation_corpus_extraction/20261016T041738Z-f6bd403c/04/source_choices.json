@@ -1,0 +1,532 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "SystemBC",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "DLL",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Play",
+      "codes": [
+        "S",
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1133",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1059.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1016",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "GRIXBA",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1518.001",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "SystemBC",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "DLL",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Play",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m005_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m006_T": {
+      "name": "T1133",
+      "type": "Technique",
+      "attack_id": "T1133"
+    },
+    "m007_T": {
+      "name": "T1059.001",
+      "type": "Technique",
+      "attack_id": "T1059.001"
+    },
+    "m008_T": {
+      "name": "T1016",
+      "type": "Technique",
+      "attack_id": "T1016"
+    },
+    "m009_S": {
+      "name": "GRIXBA",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_T": {
+      "name": "T1518.001",
+      "type": "Technique",
+      "attack_id": "T1518.001"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 28,
+      "text": "00E499C8557A2E09D61C00C11986",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 29,
+      "end": 93,
+      "text": "7DEA671BE77A2CA5772B86CF8831B02BFF0567BCE6A3AE023825AA40354F8ACA",
+      "line_start": 29
+    },
+    "u003": {
+      "start": 94,
+      "end": 114,
+      "text": "SystemBC malware DLL",
+      "line_start": 94
+    },
+    "u004": {
+      "start": 115,
+      "end": 179,
+      "text": "967DAFF362E63FF45526F585B7944488ACE1BB5BB5B30FA40D56557F1C538D09",
+      "line_start": 115
+    },
+    "u005": {
+      "start": 180,
+      "end": 186,
+      "text": "SHA256",
+      "line_start": 180
+    },
+    "u006": {
+      "start": 187,
+      "end": 211,
+      "text": "Hash of public ECDSA key",
+      "line_start": 187
+    },
+    "u007": {
+      "start": 212,
+      "end": 276,
+      "text": "859165041D75FBA3759C5533E324225F355C8A07B4645B984192AD6BEF06DB1A",
+      "line_start": 212
+    },
+    "u008": {
+      "start": 277,
+      "end": 284,
+      "text": "SHA-256",
+      "line_start": 277
+    },
+    "u009": {
+      "start": 285,
+      "end": 329,
+      "text": "Hash of public ED25519 Key for WinSCP Server",
+      "line_start": 285
+    },
+    "u010": {
+      "start": 330,
+      "end": 394,
+      "text": "511F63455CA4F83B0347B65DDA17585AD02591A9F23D8E234E5CE1321AA3381A",
+      "line_start": 330
+    },
+    "u011": {
+      "start": 395,
+      "end": 402,
+      "text": "SHA-256",
+      "line_start": 395
+    },
+    "u012": {
+      "start": 403,
+      "end": 443,
+      "text": "Hash of public ED25519 Key WinSCP Server",
+      "line_start": 403
+    },
+    "u013": {
+      "start": 444,
+      "end": 508,
+      "text": "372F7B45A141BB0709D578BC716CBCA03104258822C4290CCBEB600223850158",
+      "line_start": 444
+    },
+    "u014": {
+      "start": 509,
+      "end": 516,
+      "text": "SHA-256",
+      "line_start": 509
+    },
+    "u015": {
+      "start": 517,
+      "end": 557,
+      "text": "Hash of public ED25519 Key WinSCP Server",
+      "line_start": 517
+    },
+    "u016": {
+      "start": 558,
+      "end": 568,
+      "text": "End Update",
+      "line_start": 558
+    },
+    "u017": {
+      "start": 569,
+      "end": 604,
+      "text": "MITRE ATT&CK Tactics and Techniques",
+      "line_start": 569
+    },
+    "u018": {
+      "start": 605,
+      "end": 698,
+      "text": "See Table 3–Table 11 for all referenced threat actor tactics and techniques in this advisory.",
+      "line_start": 605
+    },
+    "u019": {
+      "start": 699,
+      "end": 764,
+      "text": "Table 3: Play ATT&CK Techniques for Enterprise for Initial Access",
+      "line_start": 699
+    },
+    "u020": {
+      "start": 765,
+      "end": 780,
+      "text": "Technique Title",
+      "line_start": 765
+    },
+    "u021": {
+      "start": 781,
+      "end": 783,
+      "text": "ID",
+      "line_start": 781
+    },
+    "u022": {
+      "start": 784,
+      "end": 787,
+      "text": "Use",
+      "line_start": 784
+    },
+    "u023": {
+      "start": 788,
+      "end": 802,
+      "text": "Valid Accounts",
+      "line_start": 788
+    },
+    "u024": {
+      "start": 803,
+      "end": 808,
+      "text": "T1078",
+      "line_start": 803
+    },
+    "u025": {
+      "start": 809,
+      "end": 901,
+      "text": "Play ransomware actors obtain and abuse existing account credentials to gain initial access.",
+      "line_start": 809
+    },
+    "u026": {
+      "start": 902,
+      "end": 935,
+      "text": "Exploit Public Facing Application",
+      "line_start": 902
+    },
+    "u027": {
+      "start": 936,
+      "end": 941,
+      "text": "T1190",
+      "line_start": 936
+    },
+    "u028": {
+      "start": 942,
+      "end": 1043,
+      "text": "Play ransomware actors exploit vulnerabilities in internet-facing systems to gain access to networks.",
+      "line_start": 942
+    },
+    "u029": {
+      "start": 1044,
+      "end": 1068,
+      "text": "External Remote Services",
+      "line_start": 1044
+    },
+    "u030": {
+      "start": 1069,
+      "end": 1074,
+      "text": "T1133",
+      "line_start": 1069
+    },
+    "u031": {
+      "start": 1075,
+      "end": 1182,
+      "text": "Play ransomware actors have used remote access services, such as RDP/VPN connection to gain initial access.",
+      "line_start": 1075
+    },
+    "u032": {
+      "start": 1183,
+      "end": 1203,
+      "text": "Update June 4, 2025:",
+      "line_start": 1183
+    },
+    "u033": {
+      "start": 1204,
+      "end": 1249,
+      "text": "Command and Scripting Interpreter: PowerShell",
+      "line_start": 1204
+    },
+    "u034": {
+      "start": 1250,
+      "end": 1259,
+      "text": "T1059.001",
+      "line_start": 1250
+    },
+    "u035": {
+      "start": 1260,
+      "end": 1365,
+      "text": "Play ransomware actors leveraged PowerShell commands to achieve RCE with a newly disclosed vulnerability.",
+      "line_start": 1260
+    },
+    "u036": {
+      "start": 1366,
+      "end": 1376,
+      "text": "End Update",
+      "line_start": 1366
+    },
+    "u037": {
+      "start": 1377,
+      "end": 1437,
+      "text": "Table 4: Play ATT&CK Techniques for Enterprise for Discovery",
+      "line_start": 1377
+    },
+    "u038": {
+      "start": 1438,
+      "end": 1453,
+      "text": "Technique Title",
+      "line_start": 1438
+    },
+    "u039": {
+      "start": 1454,
+      "end": 1456,
+      "text": "ID",
+      "line_start": 1454
+    },
+    "u040": {
+      "start": 1457,
+      "end": 1460,
+      "text": "Use",
+      "line_start": 1457
+    },
+    "u041": {
+      "start": 1461,
+      "end": 1499,
+      "text": "System Network Configuration Discovery",
+      "line_start": 1461
+    },
+    "u042": {
+      "start": 1500,
+      "end": 1505,
+      "text": "T1016",
+      "line_start": 1500
+    },
+    "u043": {
+      "start": 1506,
+      "end": 1599,
+      "text": "Play ransomware actors use tools like GRIXBA to identify network configurations and settings.",
+      "line_start": 1506
+    },
+    "u044": {
+      "start": 1600,
+      "end": 1647,
+      "text": "Software Discovery: Security Software Discovery",
+      "line_start": 1600
+    },
+    "u045": {
+      "start": 1648,
+      "end": 1657,
+      "text": "T1518.001",
+      "line_start": 1648
+    },
+    "u046": {
+      "start": 1658,
+      "end": 1709,
+      "text": "Play ransomware actors scan for antivirus software.",
+      "line_start": 1658
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:systembc",
+    "m002_S": "local:Software:dll",
+    "m003_S": "attack:S1162",
+    "m003_G": "attack:G1040",
+    "m004_T": "attack:T1078",
+    "m005_T": "attack:T1190",
+    "m006_T": "attack:T1133",
+    "m007_T": "attack:T1059.001",
+    "m008_T": "attack:T1016",
+    "m009_S": "local:Software:grixba",
+    "m010_T": "attack:T1518.001"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u028"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u031"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u035"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u037"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u043"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S",
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u046"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    }
+  ]
+}

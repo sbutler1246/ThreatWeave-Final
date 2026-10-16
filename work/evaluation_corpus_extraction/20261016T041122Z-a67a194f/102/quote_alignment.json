@@ -1,0 +1,80 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u002"
+    ],
+    "selected_units": [
+      {
+        "start": 30,
+        "end": 210,
+        "text": "Once completed, LockBit 3.0 may delete itself from the disk [T1070.004] as well as any Group Policy updates that were made, depending on which options were set at compilation time.",
+        "line_start": 30
+      }
+    ],
+    "document_start": 6007,
+    "document_end": 6187,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": [
+      "source_uncertainty_wording"
+    ]
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u005"
+    ],
+    "selected_units": [
+      {
+        "start": 331,
+        "end": 400,
+        "text": "rclone, an open-source command line cloud storage manager [T1567.002]",
+        "line_start": 224
+      }
+    ],
+    "document_start": 6308,
+    "document_end": 6377,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 756,
+        "end": 885,
+        "text": "LockBit 3.0 affiliates often use other publicly available file sharing services to exfiltrate data as well [T1567] (see Table 1).",
+        "line_start": 224
+      }
+    ],
+    "document_start": 6733,
+    "document_end": 6862,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u023"
+    ],
+    "selected_units": [
+      {
+        "start": 1730,
+        "end": 1859,
+        "text": "See Table 2 for a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations:",
+        "line_start": 1180
+      }
+    ],
+    "document_start": 7707,
+    "document_end": 7836,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

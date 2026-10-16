@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:13:16.5841238Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 708500400,
+  "load_duration": 10579800,
+  "prompt_eval_count": 461,
+  "prompt_eval_duration": 39580000,
+  "eval_count": 35,
+  "eval_duration": 430220000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is a mitigation for the technique mapped to FreeFileSync in AA23-165A?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-061A
+CHUNK_ID: AA23-061A:evaluation:llama500:33746:34826
+SOURCE_UNITS:
+{"u001": "??", "u002": "// 6a ?? | PUSH ??", "u003": "// 51 | PUSH ECX", "u004": "// 56 | PUSH ESI", "u005": "// 6a ?? | PUSH ??", "u006": "// 6a ?? | PUSH ??", "u007": "// 68 ?? ?? ?? ?? | PUSH (address of RSA string)", "u008": "// ff d0 | CALL EAX", "u009": "condition:", "u010": "any of them", "u011": "}", "u012": "rule xor_decoder_functions {", "u013": "strings:", "u014": "// Functions 402e00 and 402f00 both appear to contain a xor-decoding loop", "u015": "// 402e00", "u016": "$code_xor_loop_1 = { 0f a4 ce ?? 0f ac d5 ?? c1 e1 ?? c1 ea ?? 0b cd 0b f2 99 33 c8 }", "u017": "// 0f a4 ce ?? | SHLD ESI, param_1, ??", "u018": "// 0f ac d5 ?? | SHRD EBP, EDX, ??", "u019": "// c1 e1 ?? | SHL param_1, ??", "u020": "// c1 ea ?? | SHR EDX, 0x19", "u021": "// 0b cd | OR param_1, EBP", "u022": "// 0b f2 | OR ESI, EDX", "u023": "// 99 | CDQ", "u024": "// 33 c8 | XOR param_1, EAX", "u025": "// 402f00", "u026": "$code_xor_loop_2 = { 0f a4 ce ?? c1 ea ?? 0b f2 c1 e1 ?? 0b c8 0f be c3 8a 1f 99 33 c8 }", "u027": "// 0f a4 ce ?? | SHLD ESI, param_1, ??", "u028": "// c1 ea ?? | SHR EDX, ??", "u029": "// 0b f2 | OR ESI, EDX", "u030": "// c1 e1 ?? | SHL, param_1, ??", "u031": "// 0b c8 | OR param_1, EDX", "u032": "// 0f be c3 | MOVSX EAX, BL", "u033": "// 8a 1f | BL, byte ptr [EDI]", "u034": "// 99 | CDQ", "u035": "// 33 c8 | XOR param_1, EAX", "u036": "condition:", "u037": "any of them", "u038": "}", "u039": "rule win_BlackSuit_manual {", "u040": "meta:", "u041": "author = \"CVH - Raleigh\"", "u042": "date = \"2024-07-12\"", "u043": "version = \"1\""}
+SOURCE_MENTIONS:
+[]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[]

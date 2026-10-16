@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:08:35.9214717Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 356693500,
+  "load_duration": 10697700,
+  "prompt_eval_count": 542,
+  "prompt_eval_duration": 13193000,
+  "eval_count": 27,
+  "eval_duration": 327544000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"Who used Rclone to exfiltrate data?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,114 @@
+P020
+Question
+What is the two-hop relationship from LockBit affiliates through Advanced Internet Protocol (IP)
+Scanner to an ATT&CK technique in this advisory? Explain both the software-use link and the
+technique mapping.
+Displayed answer
+LockBit affiliates use Advanced Port Scanner to scan target networks. [E 10, Ell, E 12, El 3]
+Advanced Port Scanner performs network scans, finding open TCP and UDP ports for
+exploitation. [El, E2, E3]
+Network Service Discovery (T 1046) is the ATT&CK technique used by LockBit affiliates. [E4, E5]
+Network Segmentation (MI 030) is the mitigation for Network Service Discovery (T 1046). [E4,
+E5]
+Network Segmentation (MI 030) involves ensuring proper network segmentation to protect
+critical servers and devices. [E4, E5]
+Saved outcome: answer_ready_for_review
+V Verified reference answer
+The advisory lists Advanced Internet Protocol (IP) Scanner among tools used by LockBit affiliates
+and associates its repurposed use with T 1046 (Network Service Discovery in the frozen Enterprise
+ATT&CK 17.1 reference). This describes the advisory mapping, not all uses of that tool.
+
+--- IMAGE ---
+
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for
+exploitation.
+T 1046
+Network Service Discovery
+[Q; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T 1046)
+Mitigation: Network Segmentation (MI 030)
+[E-5; ATTACK]
+Ensure proper network segmentation is followed to protect critical servers and devices.
+[E6; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+
+--- IMAGE ---
+
+[E7; ATTACK]
+ATT&CK release: 17.1
+Technique: Remote Access Tools (Tl 219)
+Mitigation: Network Intrusion Prevention (M 1031)
+[E8; ATTACK]
+Network intrusion detection and prevention systems that use network signatures may be able to
+prevent traffic to remote access services.
+[E9; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim's network devices.
+T 1219
+Remote Access Software
+[Elo; CISA]
+LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port
+Scanner to scan target networks.
+[El 1; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[El 2; CISA]
+TECHNICAL DETAILS
+[El 3; CISA]
+Table 11: LockBit Affiliates' ATT&CK Techniques for Enterprise — Discovery
+[E14; CISA]
+Use
+Network Service Discovery
+T 1046
+LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port
+Scanner to scan target networks.
+LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to
+enumerate connected machines in the network.
+System Information Discovery
+
+--- IMAGE ---
+
+T 1082
+LockBit affiliates will enumerate system information to include hostname, host configuration,
+domain information, local drive configuration, remote shares, and mounted external storage
+devices.
+System Location Discovery: System Language Discovery
+T 1614.001
+LockBit 3.0 will not infect machines with language settings that match a defined exclusion list.
+Table 12: LockBit Affiliates' ATT&CK Techniques for Enterprise — Lateral Movement
+Technique Title
+Use
+Lateral Movement
+TA0008
+LockBit affiliates will laterally move
+GRAPH NODES
+N 1: LockBit affiliates
+N2: Advanced Port Scanner
+N3: Network Service Discovery (Tl 046)
+N4: Network Segmentation (MI 030)
+N5: AnyDesk
+N6: Remote Access Tools (Tl 219)
+N7: Network Intrusion Prevention (MI 031)
+N8: Atera Remote Monitoring & Management (RMM)
+N9: SoftPerfect Network Scanner
+GRAPH PATHS
+- > N3
+- > N6
+> N6

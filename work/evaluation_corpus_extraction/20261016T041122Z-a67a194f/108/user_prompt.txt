@@ -1,0 +1,10 @@
+DOCUMENT_ID: AA23-075A
+CHUNK_ID: AA23-075A:evaluation:llama500:15300:16716
+SOURCE_UNITS:
+{"u001": "F9-005FBFBA1A43}\"", "u002": "name=\"MsDtsServer150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u003": "<Properties startupType=\"DISABLED\" serviceName=\"MsDtsServer150\" serviceAction=\"STOP\" timeout=\"30\"/>", "u004": "</NTService>", "u005": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u006": "name=\"SSISTELEMETRY150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u007": "<Properties startupType=\"DISABLED\" serviceName=\"SSISTELEMETRY150\" serviceAction=\"STOP\" timeout=\"30\"/>", "u008": "</NTService>", "u009": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u010": "name=\"SSISScaleOutMaster150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u011": "<Properties startupType=\"DISABLED\" serviceName=\"SSISScaleOutMaster150\" serviceAction=\"STOP\" timeout=\"30\"/>", "u012": "</NTService>", "u013": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u014": "name=\"SSISScaleOutWorker150\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u015": "<Properties startupType=\"DISABLED\" serviceName=\"SSISScaleOutWorker150\" serviceAction=\"STOP\" timeout=\"30\"/>", "u016": "</NTService>", "u017": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u018": "name=\"MSSQLLaunchpad\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u019": "<Properties startupType=\"DISABLED\" serviceName=\"MSSQLLaunchpad\" serviceAction=\"STOP\" timeout=\"30\"/>", "u020": "</NTService>", "u021": "<NTService clsid=\"{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}\"", "u022": "name=\"SQLWriter\" image=\"4\" changed=\"%s\" uid=\"%s\" disabled=\"0\">", "u023": "<Properties startupType=\"DISABLED\" serviceName=\"SQLWriter\" serviceAction=\"STOP\" timeout=\"30\"/>", "u024": "</NTService>"}
+SOURCE_MENTIONS:
+[]
+EXPLICIT_ACTOR_TABLE_CAPTIONS:
+{}
+EVIDENCE_OPTIONS (literal/type possibilities, not asserted facts):
+[]

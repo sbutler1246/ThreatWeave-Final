@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Akira threat actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1490",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1490",
+    "canonical_name": "Inhibit System Recovery",
+    "source_attack_id": "T1490"
+  },
+  {
+    "local_id": "e3",
+    "mention": "T1027",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1027",
+    "canonical_name": "Obfuscated Files or Information",
+    "source_attack_id": "T1027"
+  },
+  {
+    "local_id": "e4",
+    "mention": "T1068",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1068",
+    "canonical_name": "Exploitation for Privilege Escalation",
+    "source_attack_id": "T1068"
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1105",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1105",
+    "canonical_name": "Ingress Tool Transfer",
+    "source_attack_id": "T1105"
+  }
+]

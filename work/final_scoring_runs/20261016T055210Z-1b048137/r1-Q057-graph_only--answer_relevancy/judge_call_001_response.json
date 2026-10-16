@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:16:20.5179245Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 665077400,
+  "load_duration": 11078500,
+  "prompt_eval_count": 348,
+  "prompt_eval_duration": 83666000,
+  "eval_count": 25,
+  "eval_duration": 497136000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is the answer to this question?\",\n  \"noncommittal\": 1\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

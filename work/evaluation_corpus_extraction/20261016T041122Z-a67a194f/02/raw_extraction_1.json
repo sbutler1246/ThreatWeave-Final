@@ -1,0 +1,18 @@
+{
+  "relations": [
+    {
+      "unit_ids": ["u010"],
+      "context_ids": [],
+      "head": "m009_G",
+      "predicate": "USES",
+      "tail": "m001_S"
+    },
+    {
+      "unit_ids": ["u010"],
+      "context_ids": [],
+      "head": "m009_G",
+      "predicate": "USES",
+      "tail": "m005_S"
+    }
+  ]
+}

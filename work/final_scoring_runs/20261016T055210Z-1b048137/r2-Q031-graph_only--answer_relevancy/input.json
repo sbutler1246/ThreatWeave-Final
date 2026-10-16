@@ -1,0 +1,8 @@
+{
+  "user_input": "According to AA24-109A, which ATT&CK technique is connected to Akira threat actors through the reported use of Mimikatz? Explain the two-hop actor-to-software-to-technique path with evidence.",
+  "response": "Akira threat actors use Mimikatz. [E1, E2, E3, E4]\nMimikatz is connected to Defense Evasion technique. [E1, E4]\nThe two-hop actor-to-software-to-technique path is: Akira threat actors -> Mimikatz -> Defense Evasion. [E1, E2, E3, E4]",
+  "retrieved_contexts": [
+    "SOURCE PASSAGES\n[E1; CISA]\nAkira threat actors use tools like Mimikatz and LaZagne to dump credentials.\n[E2; CISA]\n#StopRansomware: Akira Ransomware\n[E3; CISA]\nTechnical Details\n[E4; CISA]\nTable 14. Defense Evasion\nGRAPH NODES\nN1: Akira threat actors\nN2: Mimikatz (S0002)\nGRAPH PATHS\nP1: N1 --USES[E1,E2,E3,E4]--> N2"
+  ],
+  "reference": "Akira threat actors use Mimikatz; the advisory associates the described use of Mimikatz with T1003 (OS Credential Dumping in Enterprise ATT&CK 17.1). Both links must be supported in the advisory context."
+}

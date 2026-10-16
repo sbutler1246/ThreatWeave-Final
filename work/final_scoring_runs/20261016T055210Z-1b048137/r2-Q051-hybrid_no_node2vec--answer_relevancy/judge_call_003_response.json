@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:01:16.922095Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 519906300,
+  "load_duration": 11488900,
+  "prompt_eval_count": 449,
+  "prompt_eval_duration": 13111000,
+  "eval_count": 40,
+  "eval_duration": 489936000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is the direct, active mitigates relationship to Network Service Discovery (T1046) for LockBit affiliates?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

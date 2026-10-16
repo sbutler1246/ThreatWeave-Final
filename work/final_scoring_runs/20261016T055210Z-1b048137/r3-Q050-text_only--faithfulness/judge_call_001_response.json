@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:21:35.1421647Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2439550300,
+  "load_duration": 9088800,
+  "prompt_eval_count": 582,
+  "prompt_eval_duration": 286837000,
+  "eval_count": 147,
+  "eval_duration": 2024859000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    \"LockBit affiliates' activity may be mitigated by disabling or removing unnecessary ports and services.\",\n    \"LockBit affiliates' activity may be mitigated by using network intrusion prevention systems that use network signatures.\",\n    \"LockBit affiliates' activity may be mitigated by using network intrusion prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware.\",\n    \"Network Intrusion Prevention (M1031) mitigates Network Service Discovery (T1046) by detecting and preventing remote service scans.\",\n    \"Disable or Remove Feature or Program (M1042) mitigates Network Service Discovery (T1046) by disabling or removing unnecessary ports and services.\"\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

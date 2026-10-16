@@ -1,0 +1,322 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "LockBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "LockBit 3.0",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "LockBit 2.0",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "LockBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "LockBit 3.0",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "LockBit 2.0",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 90,
+      "text": "public higher education and K-12 schools, and emergency services (e.g., law enforcement).",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 91,
+      "end": 151,
+      "text": "Number of LockBit ransomware attacks in the U.S. since 2020:",
+      "line_start": 91
+    },
+    "u003": {
+      "start": 152,
+      "end": 193,
+      "text": "About 1,700 attacks according to the FBI.",
+      "line_start": 152
+    },
+    "u004": {
+      "start": 194,
+      "end": 232,
+      "text": "Total of U.S. ransoms paid to LockBit:",
+      "line_start": 194
+    },
+    "u005": {
+      "start": 233,
+      "end": 325,
+      "text": "Approximately $91M since LockBit activity was first observed in the U.S. on January 5, 2020.",
+      "line_start": 233
+    },
+    "u006": {
+      "start": 326,
+      "end": 361,
+      "text": "Earliest observed LockBit activity:",
+      "line_start": 326
+    },
+    "u007": {
+      "start": 362,
+      "end": 448,
+      "text": "Australia: The earliest documented occurrence of LockBit 3.0 was in early August 2022.",
+      "line_start": 362
+    },
+    "u008": {
+      "start": 449,
+      "end": 533,
+      "text": "Canada: The first recorded instance of LockBit activity in Canada was in March 2020.",
+      "line_start": 449
+    },
+    "u009": {
+      "start": 534,
+      "end": 622,
+      "text": "New Zealand: The first recorded incident involving LockBit ransomware was in March 2021.",
+      "line_start": 534
+    },
+    "u010": {
+      "start": 623,
+      "end": 693,
+      "text": "United States: LockBit activity was first observed on January 5, 2020.",
+      "line_start": 623
+    },
+    "u011": {
+      "start": 694,
+      "end": 734,
+      "text": "Most recently observed LockBit activity:",
+      "line_start": 694
+    },
+    "u012": {
+      "start": 735,
+      "end": 761,
+      "text": "Australia: April 21, 2023.",
+      "line_start": 735
+    },
+    "u013": {
+      "start": 762,
+      "end": 789,
+      "text": "New Zealand: February 2023.",
+      "line_start": 762
+    },
+    "u014": {
+      "start": 790,
+      "end": 833,
+      "text": "United States: As recently as May 25, 2023.",
+      "line_start": 790
+    },
+    "u015": {
+      "start": 834,
+      "end": 883,
+      "text": "Operational activity related to LockBit in France",
+      "line_start": 834
+    },
+    "u016": {
+      "start": 884,
+      "end": 1071,
+      "text": "Since the first case in July 2020 to present, ANSSI has handled 80 alerts linked to the LockBit ransomware, which accounts for 11% of all ransomware cases handled by ANSSI in that period.",
+      "line_start": 884
+    },
+    "u017": {
+      "start": 1072,
+      "end": 1246,
+      "text": "In about 13% of those cases, ANSSI was not able to confirm nor deny the breach of its constituents’ networks – as the alerts were related to the threat actor’s online claims.",
+      "line_start": 884
+    },
+    "u018": {
+      "start": 1247,
+      "end": 1305,
+      "text": "So far, 69 confirmed incidents have been handled by ANSSI.",
+      "line_start": 884
+    },
+    "u019": {
+      "start": 1306,
+      "end": 1459,
+      "text": "Table 2 shows the LockBit activity observed by ANSSI versus overall ransomware activity tracked by the Computer Emergency Response Team-France (CERT-FR).",
+      "line_start": 884
+    },
+    "u020": {
+      "start": 1460,
+      "end": 1495,
+      "text": "Table 2: ANSSI-Observed LockBit vs.",
+      "line_start": 1460
+    },
+    "u021": {
+      "start": 1496,
+      "end": 1523,
+      "text": "Overall Ransomware Activity",
+      "line_start": 1460
+    },
+    "u022": {
+      "start": 1524,
+      "end": 1528,
+      "text": "Year",
+      "line_start": 1524
+    },
+    "u023": {
+      "start": 1529,
+      "end": 1548,
+      "text": "Number of Incidents",
+      "line_start": 1529
+    },
+    "u024": {
+      "start": 1549,
+      "end": 1600,
+      "text": "Percentage of CERT-FR’s Ransomware-Related Activity",
+      "line_start": 1549
+    },
+    "u025": {
+      "start": 1601,
+      "end": 1617,
+      "text": "2020 (from July)",
+      "line_start": 1601
+    },
+    "u026": {
+      "start": 1618,
+      "end": 1619,
+      "text": "4",
+      "line_start": 1618
+    },
+    "u027": {
+      "start": 1620,
+      "end": 1622,
+      "text": "2%",
+      "line_start": 1620
+    },
+    "u028": {
+      "start": 1623,
+      "end": 1627,
+      "text": "2021",
+      "line_start": 1623
+    },
+    "u029": {
+      "start": 1628,
+      "end": 1630,
+      "text": "20",
+      "line_start": 1628
+    },
+    "u030": {
+      "start": 1631,
+      "end": 1634,
+      "text": "10%",
+      "line_start": 1631
+    },
+    "u031": {
+      "start": 1635,
+      "end": 1639,
+      "text": "2022",
+      "line_start": 1635
+    },
+    "u032": {
+      "start": 1640,
+      "end": 1642,
+      "text": "30",
+      "line_start": 1640
+    },
+    "u033": {
+      "start": 1643,
+      "end": 1646,
+      "text": "27%",
+      "line_start": 1643
+    },
+    "u034": {
+      "start": 1647,
+      "end": 1651,
+      "text": "2023",
+      "line_start": 1647
+    },
+    "u035": {
+      "start": 1652,
+      "end": 1654,
+      "text": "15",
+      "line_start": 1652
+    },
+    "u036": {
+      "start": 1655,
+      "end": 1658,
+      "text": "27%",
+      "line_start": 1655
+    },
+    "u037": {
+      "start": 1659,
+      "end": 1676,
+      "text": "Total (2020-2023)",
+      "line_start": 1659
+    },
+    "u038": {
+      "start": 1677,
+      "end": 1679,
+      "text": "69",
+      "line_start": 1677
+    },
+    "u039": {
+      "start": 1680,
+      "end": 1683,
+      "text": "11%",
+      "line_start": 1680
+    },
+    "u040": {
+      "start": 1684,
+      "end": 1797,
+      "text": "Table 3 shows the number of instances different LockBit strains were observed by ANSSI from July 2020 to present.",
+      "line_start": 1684
+    },
+    "u041": {
+      "start": 1798,
+      "end": 1860,
+      "text": "Table 3: ANSSI-Observed LockBit Strain and Number of Instances",
+      "line_start": 1798
+    },
+    "u042": {
+      "start": 1861,
+      "end": 1880,
+      "text": "Name of the Strain*",
+      "line_start": 1861
+    },
+    "u043": {
+      "start": 1881,
+      "end": 1900,
+      "text": "Number of Instances",
+      "line_start": 1881
+    },
+    "u044": {
+      "start": 1901,
+      "end": 1926,
+      "text": "LockBit 2.0 (LockBit Red)",
+      "line_start": 1901
+    },
+    "u045": {
+      "start": 1927,
+      "end": 1929,
+      "text": "26",
+      "line_start": 1927
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:lockbit",
+    "m002_S": "attack:S1202",
+    "m003_S": "attack:S1199"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

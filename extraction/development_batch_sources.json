@@ -1,0 +1,12 @@
+{
+  "purpose": "development_extraction_batch_v1",
+  "selection_policy": "Existing development table scopes plus prose from documents containing no held-out scopes. No evaluation assignments changed.",
+  "boundary_metadata": "Existing table boundaries were projected from reviewed scope metadata without entity/relation labels. Prose boundaries were selected directly from frozen CISA source text.",
+  "sources": [
+    {"scope_id": "AA23-165A:table4:row03", "doc_id": "AA23-165A", "kind": "table", "assignment": "existing_development", "start": 13043, "end": 13178, "contexts": [{"start": 12066, "end": 12132}, {"start": 12133, "end": 12204}]},
+    {"scope_id": "AA23-165A:table4:row04", "doc_id": "AA23-165A", "kind": "table", "assignment": "existing_development", "start": 13179, "end": 13349, "contexts": [{"start": 12066, "end": 12132}, {"start": 12133, "end": 12204}]},
+    {"scope_id": "AA23-165A:table4:row05", "doc_id": "AA23-165A", "kind": "table", "assignment": "existing_development", "start": 13350, "end": 13524, "contexts": [{"start": 12066, "end": 12132}, {"start": 12133, "end": 12204}]},
+    {"scope_id": "AA23-136A:development:paragraph:27502", "doc_id": "AA23-136A", "kind": "prose", "assignment": "additional_development", "start": 27502, "end": 27690, "contexts": []},
+    {"scope_id": "AA23-353A:development:paragraph:10240", "doc_id": "AA23-353A", "kind": "prose", "assignment": "additional_development", "start": 10240, "end": 10400, "contexts": []}
+  ]
+}

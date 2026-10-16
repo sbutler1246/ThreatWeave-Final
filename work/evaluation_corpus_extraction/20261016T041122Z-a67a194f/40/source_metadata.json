@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA24-131A:evaluation:llama500:4174:6733",
+    "doc_id": "AA24-131A",
+    "start": 4174,
+    "end": 6733,
+    "text": "\nNote: This advisory uses the MITRE ATT&CK for Enterprise framework, version 16. See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK® tactics and techniques. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.\nInitial Access\nBlack Basta affiliates primarily use spearphishing [T1566] to obtain initial access. According to cybersecurity researchers, affiliates have also used Qakbot during initial access.[1]\nStarting in February 2024, Black Basta affiliates began exploiting ConnectWise vulnerability CVE-2024-1709 [CWE-288] [T1190]. In some instances, affiliates have been observed abusing valid credentials [T1078].\nUpdate November 8, 2024:\nIn May 2024, Black Basta affiliates launched a social engineering campaign in which targeted users were sent a large volume of spam email, often from legitimate sources like website registrations, email subscriptions, and other marketing content. Black Basta affiliates would subsequently call the victim, act as technical support, and offer to fix the issue [T1566.004]. During this process, the actors requested the victim users download a tool for remote access, such as AnyDesk or Microsoft’s Quick Assist [T1204].\nIn October 2024, this social engineering campaign incorporated the use of Microsoft Teams to contact victims. Black Basta affiliated operators would message the victims from legitimate Microsoft Teams accounts from external organizations, posing as technical support to resolve the email spam issues. Threat actor follow-on objectives remained the same; Black Basta affiliates requested victim users to download tools for allowing remote access.\nUpdate End\nDiscovery and Execution\nBlack Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning. Cybersecurity researchers have observed affiliates conducting reconnaissance using utilities with innocuous file names such as Intel or Dell, left in the root drive C:\\ [T1036].[1]\nPrivilege Escalation\nBlack Basta affiliates use credential scraping tools like Mimikatz for privilege escalation. According to cybersecurity researchers, Black Basta affiliates have also exploited ZeroLogon (CVE-2020-1472 [CWE-330]), NoPac (CVE-2021-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: Black Basta"
+      },
+      {
+        "start": 4157,
+        "end": 4174,
+        "text": "Technical Details"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 553,
+  "inherited_context_tokens": 12,
+  "overlap_with_previous_tokens": 0,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "e4ac17b57ebd496d34d27be567c7a3d7dfff9c9feee07e5abb68b74c62f85791",
+  "doc_id": "AA24-131A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a",
+  "source_hash": "26b908656c687ddc9530e1e8fdf64be94243d2a3d75e26c0ab60f42c2dc7f149"
+}

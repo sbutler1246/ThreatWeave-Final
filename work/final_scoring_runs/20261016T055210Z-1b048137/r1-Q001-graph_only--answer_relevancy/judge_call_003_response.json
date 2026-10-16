@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:29:15.9375413Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 447909300,
+  "load_duration": 12277200,
+  "prompt_eval_count": 452,
+  "prompt_eval_duration": 13215000,
+  "eval_count": 34,
+  "eval_duration": 416678000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What tools do LockBit affiliates use for Network Service Discovery (T1046)?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

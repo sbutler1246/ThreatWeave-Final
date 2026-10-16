@@ -1,0 +1,62 @@
+SOURCE PASSAGES
+[E1; CISA]
+Advanced Port Scanner
+Performs network scans.
+Finds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.
+T1046
+Network Service Discovery
+[E2; CISA]
+Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates
+[E3; CISA]
+Tool
+Intended Use
+Repurposed Use by LockBit Affiliates
+MITRE ATT&CK ID
+
+[E4; CISA]
+AnyDesk
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E5; CISA]
+
+ID
+Use
+Network Service Discovery
+T1046
+LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.
+LockBit affiliates may use SoftPerfect Network Scanner, Advanced Port Scanner, and AdFind to enumerate connected machines in the network.
+System Information Discovery
+T1082
+LockBit affiliates will enumerate system information to include hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices.
+System Location Discovery: System Language Discovery
+T1614.001
+LockBit 3.0 will not infect machines with language settings that match a defined exclusion list.
+Table 12: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Lateral Movement
+Technique Title
+ID
+Use
+Lateral Movement
+TA0008
+LockBit affiliates will laterally move 
+[E6; CISA]
+Understanding Ransomware Threat Actors: LockBit
+[E7; CISA]
+TECHNICAL DETAILS
+[E8; CISA]
+Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery
+[E9; CISA]
+Atera Remote Monitoring & Management (RMM)
+Enables remote connections to network devices.
+Enables remote control of victim’s network devices.
+T1219
+Remote Access Software
+[E10; ATTACK]
+Use network intrusion detection/prevention systems to detect and prevent remote service scans.
+[E11; ATTACK]
+ATT&CK release: 17.1
+Technique: Network Service Discovery (T1046)
+Mitigation: Network Intrusion Prevention (M1031)
+GRAPH NODES
+GRAPH PATHS

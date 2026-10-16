@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "net",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0039",
+    "canonical_name": "Net",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1016",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1016",
+    "canonical_name": "System Network Configuration Discovery",
+    "source_attack_id": "T1016"
+  },
+  {
+    "local_id": "e3",
+    "mention": "SoftPerfect",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "Advanced IP Scanner",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "NetScan",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  }
+]

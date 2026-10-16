@@ -1,0 +1,537 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "MITRE ATT&CK",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Black Basta",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "Black Basta affiliates",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1566",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "According",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Qakbot",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "ConnectWise",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1190",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1078",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1566.004",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "Quick Assist",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "T1204",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "SoftPerfect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "netscan.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "Cybersecurity",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "T1036",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m017",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m018",
+      "text": "T1068",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "MITRE ATT&CK",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "Black Basta",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_G": {
+      "name": "Black Basta affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m004_T": {
+      "name": "T1566",
+      "type": "Technique",
+      "attack_id": "T1566"
+    },
+    "m005_S": {
+      "name": "According",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Qakbot",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_S": {
+      "name": "ConnectWise",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1190",
+      "type": "Technique",
+      "attack_id": "T1190"
+    },
+    "m009_T": {
+      "name": "T1078",
+      "type": "Technique",
+      "attack_id": "T1078"
+    },
+    "m010_T": {
+      "name": "T1566.004",
+      "type": "Technique",
+      "attack_id": "T1566.004"
+    },
+    "m011_S": {
+      "name": "Quick Assist",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_T": {
+      "name": "T1204",
+      "type": "Technique",
+      "attack_id": "T1204"
+    },
+    "m013_S": {
+      "name": "SoftPerfect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "netscan.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_S": {
+      "name": "Cybersecurity",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m016_T": {
+      "name": "T1036",
+      "type": "Technique",
+      "attack_id": "T1036"
+    },
+    "m017_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m018_T": {
+      "name": "T1068",
+      "type": "Technique",
+      "attack_id": "T1068"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 80,
+      "text": "Note: This advisory uses the MITRE ATT&CK for Enterprise framework, version 16.",
+      "line_start": 1
+    },
+    "u002": {
+      "start": 81,
+      "end": 223,
+      "text": "See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK® tactics and techniques.",
+      "line_start": 1
+    },
+    "u003": {
+      "start": 224,
+      "end": 400,
+      "text": "For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK’s Best Practices for MITRE ATT&CK Mapping and CISA’s Decider Tool.",
+      "line_start": 1
+    },
+    "u004": {
+      "start": 401,
+      "end": 415,
+      "text": "Initial Access",
+      "line_start": 401
+    },
+    "u005": {
+      "start": 416,
+      "end": 500,
+      "text": "Black Basta affiliates primarily use spearphishing [T1566] to obtain initial access.",
+      "line_start": 416
+    },
+    "u006": {
+      "start": 501,
+      "end": 599,
+      "text": "According to cybersecurity researchers, affiliates have also used Qakbot during initial access.[1]",
+      "line_start": 416
+    },
+    "u007": {
+      "start": 600,
+      "end": 725,
+      "text": "Starting in February 2024, Black Basta affiliates began exploiting ConnectWise vulnerability CVE-2024-1709 [CWE-288] [T1190].",
+      "line_start": 600
+    },
+    "u008": {
+      "start": 726,
+      "end": 809,
+      "text": "In some instances, affiliates have been observed abusing valid credentials [T1078].",
+      "line_start": 600
+    },
+    "u009": {
+      "start": 810,
+      "end": 834,
+      "text": "Update November 8, 2024:",
+      "line_start": 810
+    },
+    "u010": {
+      "start": 835,
+      "end": 1081,
+      "text": "In May 2024, Black Basta affiliates launched a social engineering campaign in which targeted users were sent a large volume of spam email, often from legitimate sources like website registrations, email subscriptions, and other marketing content.",
+      "line_start": 835
+    },
+    "u011": {
+      "start": 1082,
+      "end": 1206,
+      "text": "Black Basta affiliates would subsequently call the victim, act as technical support, and offer to fix the issue [T1566.004].",
+      "line_start": 835
+    },
+    "u012": {
+      "start": 1207,
+      "end": 1353,
+      "text": "During this process, the actors requested the victim users download a tool for remote access, such as AnyDesk or Microsoft’s Quick Assist [T1204].",
+      "line_start": 835
+    },
+    "u013": {
+      "start": 1354,
+      "end": 1463,
+      "text": "In October 2024, this social engineering campaign incorporated the use of Microsoft Teams to contact victims.",
+      "line_start": 1354
+    },
+    "u014": {
+      "start": 1464,
+      "end": 1654,
+      "text": "Black Basta affiliated operators would message the victims from legitimate Microsoft Teams accounts from external organizations, posing as technical support to resolve the email spam issues.",
+      "line_start": 1354
+    },
+    "u015": {
+      "start": 1655,
+      "end": 1799,
+      "text": "Threat actor follow-on objectives remained the same; Black Basta affiliates requested victim users to download tools for allowing remote access.",
+      "line_start": 1354
+    },
+    "u016": {
+      "start": 1800,
+      "end": 1810,
+      "text": "Update End",
+      "line_start": 1800
+    },
+    "u017": {
+      "start": 1811,
+      "end": 1834,
+      "text": "Discovery and Execution",
+      "line_start": 1811
+    },
+    "u018": {
+      "start": 1835,
+      "end": 1946,
+      "text": "Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.",
+      "line_start": 1835
+    },
+    "u019": {
+      "start": 1947,
+      "end": 2127,
+      "text": "Cybersecurity researchers have observed affiliates conducting reconnaissance using utilities with innocuous file names such as Intel or Dell, left in the root drive C:\\ [T1036].[1]",
+      "line_start": 1835
+    },
+    "u020": {
+      "start": 2128,
+      "end": 2148,
+      "text": "Privilege Escalation",
+      "line_start": 2128
+    },
+    "u021": {
+      "start": 2149,
+      "end": 2241,
+      "text": "Black Basta affiliates use credential scraping tools like Mimikatz for privilege escalation.",
+      "line_start": 2149
+    },
+    "u022": {
+      "start": 2242,
+      "end": 2558,
+      "text": "According to cybersecurity researchers, Black Basta affiliates have also exploited ZeroLogon (CVE-2020-1472 [CWE-330]), NoPac (CVE-2021-42278 [CWE-20] and CVE-2021-42287 [CWE-269]), and PrintNightmare (CVE-2021-34527 [CWE-269]) vulnerabilities for local and Windows Active Domain privilege escalation [T1068].[1],[2]",
+      "line_start": 2149
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:mitre att&ck",
+    "m002_S": "attack:S1070",
+    "m003_G": "local:ThreatGroup:black basta affiliates",
+    "m004_T": "attack:T1566",
+    "m005_S": "local:Software:according",
+    "m006_S": "attack:S0650",
+    "m007_S": "attack:S0591",
+    "m008_T": "attack:T1190",
+    "m009_T": "attack:T1078",
+    "m010_T": "attack:T1566.004",
+    "m011_S": "attack:S1209",
+    "m012_T": "attack:T1204",
+    "m013_S": "local:Software:softperfect",
+    "m014_S": "local:Software:netscan.exe",
+    "m015_S": "local:Software:cybersecurity",
+    "m016_T": "attack:T1036",
+    "m017_S": "attack:S0002",
+    "m018_T": "attack:T1068"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u005"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m004_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u011"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m010_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m011_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m012_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m013_S",
+        "m014_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m015_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m016_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m017_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m005_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m018_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u022"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m003_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m018_T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u009"
+    ],
+    "selected_units": [
+      {
+        "start": 1012,
+        "end": 1146,
+        "text": "According to third-party reporting, BlackSuit actors most commonly gain initial access to victim networks via phishing emails [T1566].",
+        "line_start": 1002
+      }
+    ],
+    "document_start": 5160,
+    "document_end": 5294,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u010"
+    ],
+    "selected_units": [
+      {
+        "start": 1147,
+        "end": 1372,
+        "text": "According to open source reporting, victims have unknowingly installed malware that delivers BlackSuit ransomware after receiving phishing emails containing malicious PDF documents [T1566.001] and malvertising [T1566.002].[2]",
+        "line_start": 1147
+      }
+    ],
+    "document_start": 5295,
+    "document_end": 5520,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 2,
+    "selected_unit_ids": [
+      "u012"
+    ],
+    "selected_units": [
+      {
+        "start": 1404,
+        "end": 1532,
+        "text": "The second most common vector (around 13.3% of incidents) BlackSuit actors use for initial access is RDP compromise [T1021.001].",
+        "line_start": 1373
+      }
+    ],
+    "document_start": 5552,
+    "document_end": 5680,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 3,
+    "selected_unit_ids": [
+      "u014"
+    ],
+    "selected_units": [
+      {
+        "start": 1561,
+        "end": 1680,
+        "text": "FBI has observed BlackSuit actors gain initial access through exploiting vulnerable public-facing applications [T1190].",
+        "line_start": 1533
+      }
+    ],
+    "document_start": 5709,
+    "document_end": 5828,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

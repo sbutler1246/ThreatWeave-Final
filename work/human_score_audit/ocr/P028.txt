@@ -1,0 +1,76 @@
+P028
+Question
+Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to
+the technique mapped to ThunderShell in AA23-165A? Start from LockBit affiliates and follow the
+three-hop actor-to-software-to-technique-to-mitigation path. Distinguish advisory observations
+from reference recommendations.
+Displayed answer
+LockBit affiliates' activity is mapped to the technique Develop Capabilities (Tl 587) in AA23-
+165A. [El]
+Pre-compromise (MI 056) is a mitigation for the technique Develop Capabilities (Tl 587) in
+ATT&CK 17.1. [Q, E4, E6]
+Pre-compromise (MI 056) is a mitigation for the technique Email Addresses (Tl 589.002) in
+ATT&CK 17.1. [E4]
+Pre-compromise (MI 056) is a mitigation for the technique Compromise Accounts (Tl 586) in
+ATT&CK 17.1. [E6]
+Execution Prevention (M 1038) is a mitigation for the technique Impair Defenses (Tl 562) in
+ATT&CK 17.1. [E8]
+User Account Management (M 101 8) is a mitigation for the technique Impair Defenses (Tl 562)
+in ATT&CK 17.1. [EIO]
+Application control can be used to prevent the execution of tools outside of the organization's
+security policies, such as rootkit removal tools. [E7]
+Saved outcome: answer_ready_for_review
+
+--- IMAGE ---
+
+V Verified reference answer
+The AA23-165A Table 4 caption lists ThunderShell as a tool used by LockBit affiliates. The selected
+advisory row maps its reported use to T 1071.001 (Web Protocols). The direct, active mitigates
+relationships in Enterprise ATT&CK 17.1 connect this technique to: M1031 (Network Intrusion
+Prevention). These are reference mitigation associations, not incident-specific proof of
+effectiveness.
+v Evidence supplied to the answer generator
+SOURCE PASSAGES
+[El; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[Q; ATTACK]
+ATT&CK release: 17.1
+Technique: Develop Capabilities (Tl 587)
+Mitigation: Pre-compromise (MI 056)
+[E3; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls. Efforts should focus on
+minimizing the amount and sensitivity of data available to external parties.
+[E4; ATTACK]
+ATT&CK release: 17.1
+Technique: Email Addresses (Tl 589.002)
+Mitigation: Pre-compromise (MI 056)
+[E-5; ATTACK]
+This technique cannot be easily mitigated with preventive controls since it is based on behaviors
+performed outside of the scope of enterprise defenses and controls.
+[E6; ATTACK]
+ATT&CK release: 17.1
+Technique: Compromise Accounts (Tl 586)
+Mitigation: Pre-compromise (MI 056)
+
+--- IMAGE ---
+
+[E7; ATTACK]
+Use application control where appropriate, especially regarding the execution of tools outside of
+the organization's security policies (such as rootkit removal tools) that have been abused to
+impair system defenses. Ensure that only approved security applications are used and running on
+enterprise systems.
+[E8; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: Execution Prevention (MI 038)
+[E9; ATTACK]
+Ensure proper user permissions are in place to prevent adversaries from disabling or interfering
+with security/logging services.
+[Elo; ATTACK]
+ATT&CK release: 17.1
+Technique: Impair Defenses (Tl 562)
+Mitigation: User Account Management (MI 018)
+GRAPH NODES
+GRAPH PATHS

@@ -1,0 +1,33 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-075A:evaluation:llama500:5977:8086",
+    "doc_id": "AA23-075A",
+    "start": 5977,
+    "end": 8086,
+    "text": " control (C2) server [T1027].\nOnce completed, LockBit 3.0 may delete itself from the disk [T1070.004] as well as any Group Policy updates that were made, depending on which options were set at compilation time.\nEXFILTRATION\nLockBit 3.0 affiliates use Stealbit, a custom exfiltration tool used previously with LockBit 2.0 [TA0010]; rclone, an open-source command line cloud storage manager [T1567.002]; and publicly available file sharing services, such as MEGA [T1567.002], to exfiltrate sensitive company data files prior to encryption. While rclone and many publicly available file sharing services are primarily used for legitimate purposes, they can also be used by threat actors to aid in system compromise, network exploration, or data exfiltration. LockBit 3.0 affiliates often use other publicly available file sharing services to exfiltrate data as well [T1567] (see Table 1).\nTable 1: Anonymous File Sharing Sites Used to Exfiltrate Data Before System Encryption\nFile Sharing Site\nhttps://www.premiumize[.]com\nhttps://anonfiles[.]com\nhttps://www.sendspace[.]com\nhttps://fex[.]net\nhttps://transfer[.]sh\nhttps://send.exploit[.]in\nLEVERAGING FREEWARE AND OPEN-SOURCE TOOLS\nLockBit affiliates have been observed using various freeware and open-source tools during their intrusions. These tools are used for a range of activities such as network reconnaissance, remote access and tunneling, credential dumping, and file exfiltration. Use of PowerShell and Batch scripts are observed across most intrusions, which focus on system discovery, reconnaissance, password/credential hunting, and privilege escalation. Artifacts of professional penetration-testing tools such as Metasploit and Cobalt Strike have also been observed. See Table 2 for a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations:\nTable 2: Freeware and Open-Source Tools Used by LockBit 3.0 Affiliates\nTool\nDescription\nMITRE ATT&CK ID\nChocolatey\nCommand-line package manager for Windows.\nT1072\nFileZilla\nCross-platform File Transfer Protocol (FTP) application.\nT1071.002\nImpacket\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 51,
+        "text": "#StopRansomware: LockBit 3.0"
+      },
+      {
+        "start": 2048,
+        "end": 2065,
+        "text": "TECHNICAL DETAILS"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 496,
+  "inherited_context_tokens": 18,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "7e0ab16450919ff3edf688126998fdbd845156a694c876a1e79e9a6bbd788567",
+  "doc_id": "AA23-075A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a",
+  "source_hash": "1a1b185111ea205d581bf52f98ddec939ce45987042a0546afe4196711e6d12b"
+}

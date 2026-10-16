@@ -1,0 +1,5 @@
+{
+  "question": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to Microsoft Sysinternals ProcDump in AA23-165A? Follow the two-hop software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+  "mode": "hybrid",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

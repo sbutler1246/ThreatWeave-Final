@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:01:47.2128159Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 418921400,
+  "load_duration": 11119800,
+  "prompt_eval_count": 451,
+  "prompt_eval_duration": 12935000,
+  "eval_count": 32,
+  "eval_duration": 390919000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What technique did Black Basta affiliates use to disable EDR tooling?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

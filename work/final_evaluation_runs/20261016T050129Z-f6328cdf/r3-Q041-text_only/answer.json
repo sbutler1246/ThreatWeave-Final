@@ -1,0 +1,166 @@
+{
+  "answer": "LockBit 3.0 affiliates use rclone to connect to a remote access software. [E6, E5, E4]\nThe ATT&CK technique connected to LockBit 3.0 affiliates through the reported use of rclone is T1219. [E5, E4]\nThe two-hop actor-to-software-to-technique path is: LockBit 3.0 affiliates -> rclone -> T1219. [E6, E5, E4]",
+  "claims": [
+    {
+      "text": "LockBit 3.0 affiliates use rclone to connect to a remote access software.",
+      "citations": [
+        "E6",
+        "E5",
+        "E4"
+      ]
+    },
+    {
+      "text": "The ATT&CK technique connected to LockBit 3.0 affiliates through the reported use of rclone is T1219.",
+      "citations": [
+        "E5",
+        "E4"
+      ]
+    },
+    {
+      "text": "The two-hop actor-to-software-to-technique path is: LockBit 3.0 affiliates -> rclone -> T1219.",
+      "citations": [
+        "E6",
+        "E5",
+        "E4"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Atera Remote Monitoring & Management (RMM)\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+        "start": 13179,
+        "end": 13349,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates",
+        "start": 12066,
+        "end": 12132,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:f72cd7b81fc216a695d8d2366e5e42060d50e8eb2f12229e7d49248f6e7ee540",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Tool\nIntended Use\nRepurposed Use by LockBit Affiliates\nMITRE ATT&CK ID\n",
+        "start": 12133,
+        "end": 12204,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:a9cb5354ad79c414729f4aa55cf0b1526b85b00e816cfbbcca98975ccc9ff34c",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "AnyDesk\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+        "start": 13043,
+        "end": 13178,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "&CK Techniques for Enterprise – Command and Control\nTechnique Title\nID\nUse\nApplication Layer Protocol: File Transfer Protocols\nT1071.002\nLockBit affiliates may use FileZilla for C2.\nApplication Layer Protocol: Web Protocols\nT1071.001\nLockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.\nNon-Application Layer Protocol\nT1095\nLockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.\nProtocol Tunneling\nT1572\nLockBit affiliates use Plink to automate SSH actions on Windows.\nRemote Access Software\nT1219\nLockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.\nTable 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Exfiltration\nTechnique Title\nID\nUse\nExfiltration\nTA0010\nLockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target ",
+        "start": 26834,
+        "end": 27730,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Understanding Ransomware Threat Actors: LockBit",
+        "start": 23,
+        "end": 70,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "TECHNICAL DETAILS",
+        "start": 2293,
+        "end": 2310,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:bc6bf34cfd3a8e77d8804949127f83d84d85b6fda8ec3dd0e7f0e57c0d344985",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Table 14: LockBit Affiliates’ ATT",
+        "start": 26801,
+        "end": 26834,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": ".001\nLockBit affiliates may use 7-zip to compress and/or encrypt collected data prior to exfiltration.\nTable 14: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Command and Control\nTechnique Title\nID\nUse\nApplication Layer Protocol: File Transfer Protocols\nT1071.002\nLockBit affiliates may use FileZilla for C2.\nApplication Layer Protocol: Web Protocols\nT1071.001\nLockBit affiliates use ThunderShell as a remote access tool that communicates via HTTP requests.\nNon-Application Layer Protocol\nT1095\nLockBit affiliates use Ligolo to establish SOCKS5 or TCP tunnels from a reverse connection.\nProtocol Tunneling\nT1572\nLockBit affiliates use Plink to automate SSH actions on Windows.\nRemote Access Software\nT1219\nLockBit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.\nTable 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise ",
+        "start": 26698,
+        "end": 27555,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:fe212e2aaee25e6657ebb84d6bab21f5efe10170312adf9539a0aced2752036b",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery",
+        "start": 25255,
+        "end": 25329,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E11",
+        "doc_id": "AA23-165A",
+        "chunk_id": "retrieval:33a6bf57e3910c99d139134e81eec09e8f866ee26a7246c981c596b781fdfff2",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+        "text": "Bit 3.0 actors use AnyDesk, Atera RMM, ScreenConnect or TeamViewer for C2.\nTable 15: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Exfiltration\n",
+        "start": 27417,
+        "end": 27570,
+        "source_kind": "cisa"
+      }
+    ],
+    "paths": [],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "retrieval_ms": 19.568499992601573,
+    "configuration_hash": "fb3bca230c45e4ecdb2fdaf776826d2f60d68182c76c16cb4da564aad97521f7",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 2615.4381000087596,
+  "generation_timestamp": "2026-10-16T05:15:10.094619Z",
+  "warnings": [
+    "Development text_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review."
+  ]
+}

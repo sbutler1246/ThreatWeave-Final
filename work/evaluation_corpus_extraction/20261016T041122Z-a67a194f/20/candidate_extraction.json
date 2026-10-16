@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Royal Operators",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Software",
+      "name": "Royal",
+      "attack_id": null
+    },
+    {
+      "local_id": "e3",
+      "type": "Software",
+      "name": "SHA256",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e2",
+      "evidence": {
+        "start": 258,
+        "end": 296,
+        "quote": "Table 4: Tools Used by Royal Operators"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e3",
+      "evidence": {
+        "start": 258,
+        "end": 308,
+        "quote": "Table 4: Tools Used by Royal Operators\nTool\nSHA256"
+      },
+      "confidence": null
+    }
+  ]
+}

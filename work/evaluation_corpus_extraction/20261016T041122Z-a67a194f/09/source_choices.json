@@ -1,0 +1,413 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "ScreenConnect",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "ConnectWise",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1219",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1046",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1021.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1071.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "SSH File Transfer Protocol",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "LockBit affiliates",
+      "codes": [
+        "G"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "ScreenConnect",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_S": {
+      "name": "ConnectWise",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1219",
+      "type": "Technique",
+      "attack_id": "T1219"
+    },
+    "m004_T": {
+      "name": "T1046",
+      "type": "Technique",
+      "attack_id": "T1046"
+    },
+    "m005_T": {
+      "name": "T1021.001",
+      "type": "Technique",
+      "attack_id": "T1021.001"
+    },
+    "m006_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m007_T": {
+      "name": "T1071.001",
+      "type": "Technique",
+      "attack_id": "T1071.001"
+    },
+    "m008_S": {
+      "name": "SSH File Transfer Protocol",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    },
+    "m010_G": {
+      "name": "LockBit affiliates",
+      "type": "ThreatGroup",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 28,
+      "text": "System Information Discovery",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 29,
+      "end": 70,
+      "text": "ScreenConnect (also known as ConnectWise)",
+      "line_start": 29
+    },
+    "u003": {
+      "start": 71,
+      "end": 132,
+      "text": "Enables remote connections to network devices for management.",
+      "line_start": 71
+    },
+    "u004": {
+      "start": 133,
+      "end": 208,
+      "text": "Enables LockBit affiliate actors to remotely connect to a victim’s systems.",
+      "line_start": 133
+    },
+    "u005": {
+      "start": 209,
+      "end": 214,
+      "text": "T1219",
+      "line_start": 209
+    },
+    "u006": {
+      "start": 215,
+      "end": 237,
+      "text": "Remote Access Software",
+      "line_start": 215
+    },
+    "u007": {
+      "start": 238,
+      "end": 265,
+      "text": "SoftPerfect Network Scanner",
+      "line_start": 238
+    },
+    "u008": {
+      "start": 266,
+      "end": 312,
+      "text": "Performs network scans for systems management.",
+      "line_start": 266
+    },
+    "u009": {
+      "start": 313,
+      "end": 405,
+      "text": "Enables LockBit affiliate actors to obtain information about a victim’s systems and network.",
+      "line_start": 313
+    },
+    "u010": {
+      "start": 406,
+      "end": 411,
+      "text": "T1046",
+      "line_start": 406
+    },
+    "u011": {
+      "start": 412,
+      "end": 437,
+      "text": "Network Service Discovery",
+      "line_start": 412
+    },
+    "u012": {
+      "start": 438,
+      "end": 447,
+      "text": "Splashtop",
+      "line_start": 438
+    },
+    "u013": {
+      "start": 448,
+      "end": 509,
+      "text": "Enables remote connections to network devices for management.",
+      "line_start": 448
+    },
+    "u014": {
+      "start": 510,
+      "end": 609,
+      "text": "Enables LockBit affiliate actors to remotely connect to systems over Remote Desktop Protocol (RDP).",
+      "line_start": 510
+    },
+    "u015": {
+      "start": 610,
+      "end": 619,
+      "text": "T1021.001",
+      "line_start": 610
+    },
+    "u016": {
+      "start": 620,
+      "end": 660,
+      "text": "Remote Services: Remote Desktop Protocol",
+      "line_start": 620
+    },
+    "u017": {
+      "start": 661,
+      "end": 671,
+      "text": "TDSSKiller",
+      "line_start": 661
+    },
+    "u018": {
+      "start": 672,
+      "end": 689,
+      "text": "Removes rootkits.",
+      "line_start": 672
+    },
+    "u019": {
+      "start": 690,
+      "end": 726,
+      "text": "Terminates and removes EDR software.",
+      "line_start": 690
+    },
+    "u020": {
+      "start": 727,
+      "end": 736,
+      "text": "T1562.001",
+      "line_start": 727
+    },
+    "u021": {
+      "start": 737,
+      "end": 777,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 737
+    },
+    "u022": {
+      "start": 778,
+      "end": 788,
+      "text": "TeamViewer",
+      "line_start": 778
+    },
+    "u023": {
+      "start": 789,
+      "end": 850,
+      "text": "Enables remote connections to network devices for management.",
+      "line_start": 789
+    },
+    "u024": {
+      "start": 851,
+      "end": 926,
+      "text": "Enables LockBit affiliate actors to remotely connect to a victim’s systems.",
+      "line_start": 851
+    },
+    "u025": {
+      "start": 927,
+      "end": 932,
+      "text": "T1219",
+      "line_start": 927
+    },
+    "u026": {
+      "start": 933,
+      "end": 955,
+      "text": "Remote Access Software",
+      "line_start": 933
+    },
+    "u027": {
+      "start": 956,
+      "end": 968,
+      "text": "ThunderShell",
+      "line_start": 956
+    },
+    "u028": {
+      "start": 969,
+      "end": 1043,
+      "text": "Facilitates remote access via Hypertext Transfer Protocol (HTTP) requests.",
+      "line_start": 969
+    },
+    "u029": {
+      "start": 1044,
+      "end": 1137,
+      "text": "Enables LockBit affiliate actors to remotely access systems while encrypting network traffic.",
+      "line_start": 1044
+    },
+    "u030": {
+      "start": 1138,
+      "end": 1147,
+      "text": "T1071.001",
+      "line_start": 1138
+    },
+    "u031": {
+      "start": 1148,
+      "end": 1189,
+      "text": "Application Layer Protocol: Web Protocols",
+      "line_start": 1148
+    },
+    "u032": {
+      "start": 1190,
+      "end": 1196,
+      "text": "WinSCP",
+      "line_start": 1190
+    },
+    "u033": {
+      "start": 1197,
+      "end": 1278,
+      "text": "Facilitates file transfer using SSH File Transfer Protocol for Microsoft Windows.",
+      "line_start": 1197
+    },
+    "u034": {
+      "start": 1279,
+      "end": 1340,
+      "text": "Enables data exfiltration via the SSH File Transfer Protocol.",
+      "line_start": 1279
+    },
+    "u035": {
+      "start": 1341,
+      "end": 1346,
+      "text": "T1048",
+      "line_start": 1341
+    },
+    "u036": {
+      "start": 1347,
+      "end": 1385,
+      "text": "Exfiltration Over Alternative Protocol",
+      "line_start": 1347
+    },
+    "u037": {
+      "start": 1386,
+      "end": 1439,
+      "text": "Common Vulnerabilities and Exposures (CVEs) Exploited",
+      "line_start": 1386
+    },
+    "u038": {
+      "start": 1440,
+      "end": 1659,
+      "text": "Based on secondary sources, it was noted that affiliates exploit older vulnerabilities like CVE-2021-22986, F5 iControl REST unauthenticated Remote Code Execution Vulnerability, as well as newer vulnerabilities such as:",
+      "line_start": 1440
+    },
+    "u039": {
+      "start": 1660,
+      "end": 1756,
+      "text": "CVE-2023-0669: Fortra GoAnyhwere Managed File Transfer (MFT) Remote Code Execution Vulnerability",
+      "line_start": 1660
+    },
+    "u040": {
+      "start": 1757,
+      "end": 1825,
+      "text": "CVE-2023-27350: PaperCut MF/NG Improper Access Control Vulnerability",
+      "line_start": 1757
+    },
+    "u041": {
+      "start": 1826,
+      "end": 1902,
+      "text": "LockBit affiliates have been documented exploiting numerous CVEs, including:",
+      "line_start": 1826
+    },
+    "u042": {
+      "start": 1903,
+      "end": 1969,
+      "text": "CVE-2021-44228: Apache Log4j2 Remote Code Execution Vulnerability,",
+      "line_start": 1903
+    },
+    "u043": {
+      "start": 1970,
+      "end": 2080,
+      "text": "CVE-2021-22986: F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability,",
+      "line_start": 1970
+    },
+    "u044": {
+      "start": 2081,
+      "end": 2140,
+      "text": "CVE-2020-1472: NetLogon Privilege Escalation Vulnerability,",
+      "line_start": 2081
+    },
+    "u045": {
+      "start": 2141,
+      "end": 2230,
+      "text": "CVE-2019-0708: Microsoft Remote Desktop Services Remote Code Execution Vulnerability, and",
+      "line_start": 2141
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S0591",
+    "m002_S": "attack:S0591",
+    "m003_T": "attack:T1219",
+    "m004_T": "attack:T1046",
+    "m005_T": "attack:T1021.001",
+    "m006_T": "attack:T1562.001",
+    "m007_T": "attack:T1071.001",
+    "m008_S": "local:Software:ssh file transfer protocol",
+    "m009_T": "attack:T1048",
+    "m010_G": "local:ThreatGroup:lockbit affiliates"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

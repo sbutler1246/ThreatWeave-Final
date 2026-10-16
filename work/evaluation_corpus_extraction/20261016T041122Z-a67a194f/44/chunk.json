@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA24-131A:evaluation:llama500:12807:15323",
+  "doc_id": "AA24-131A",
+  "start": 12807,
+  "end": 15323,
+  "text": "\nA remote monitoring and management tool used by Black Basta affiliates to gain access to a victim user’s endpoint.\nBITSAdmin\nA command-line utility that manages downloads/uploads between a client and server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.\nCobalt Strike\nA penetration testing tool used by security professions to test the security of networks and systems. Black Basta affiliates have used it to assist with lateral movement and file execution.\nMimikatz\nA tool that allows users to view and save authentication credentials such as Kerberos tickets. Black Basta affiliates have used it to aid in privilege escalation.\nPSExec\nA tool designed to run programs and execute commands on remote systems.\nPowerShell\nA cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.\nRClone\nA command line program used to sync files with cloud storage services such as Mega.\nSoftPerfect\nA network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, Secure Shell (SSH) and PowerShell. It also scans for remote services, registry, files, and performance counters.\nScreenConnect\nRemote support, access, and meeting software that allows users to control devices remotely over the internet.\nSplashtop\nRemote desktop software that allows remote access to devices for support, access, and collaboration.\nWinSCP\nWindows Secure Copy is a free and open source SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client. Black Basta affiliates have used it to transfer data from a compromised network to actor-controlled accounts.\nMITRE ATT&CK Tactics and Techniques\nSee Tables 2–6 for all referenced threat actor tactics and techniques in this advisory.\nTable 2: Black Basta ATT&CK Techniques for Initial Access\nTechnique Title\nID\nUse\nPhishing\nT1566\nBlack Basta affiliates have used spearphishing emails to obtain initial access.\nPhishing: Spearphishing Voice\nT1566.004\nBlack Basta affiliates have used spearphishing phone and Microsoft Teams calls to trick users into providing initial access.\nExploit Public-Facing Application\nT1190\nBlack Basta affiliates have exploited ConnectWise vulnerability CVE-2024-1709 to obtain initial access.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 51,
+      "text": "#StopRansomware: Black Basta"
+    },
+    {
+      "start": 4157,
+      "end": 4174,
+      "text": "Technical Details"
+    },
+    {
+      "start": 12459,
+      "end": 12504,
+      "text": "Table 1: Tools Used by Black Basta Affiliates"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA24-109A:evaluation:llama500:4787:6854",
+  "doc_id": "AA24-109A",
+  "start": 4787,
+  "end": 6854,
+  "text": "\nNote: This advisory uses the MITRE ATT&CK® Matrix for Enterprise framework, version 18. See the MITRE ATT&CK Tactics and Techniques section of this advisory for tables with the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.\nInitial Access\nFBI and cybersecurity researchers1 observed Akira threat actors obtaining initial access to organizations through a virtual private network (VPN) service without multifactor authentication (MFA) configured,2 mostly using known Common Vulnerabilities and Exposures (CVEs) [T1190], including:\nCVE-2020-3259 [Common Weakness Enumeration (CWE)-200: Exposure of Sensitive Information to an Unauthorized Actor];\nCVE-2023-20269 [CWE-288: Authentication Bypass Using an Alternate Path or Channel];\nUpdate Nov. 13, 2025:\nCVE-2020-3580 [CWE-79: Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’)]3\nCVE-2023-28252 [CWE-122: Heap-based Buffer Overflow];4 and\nCVE-2024-37085 [CWE-305: Authentication Bypass by Primary Weakness].5\nAdditionally, the authoring organizations observed Akira threat actors using these CVE exploits for initial access:\nCVE-2023-27532 [CWE-306: Missing Authentication for Critical Function];\nCVE-2024-40711 [CWE-502: Deserialization of Untrusted Data]; and\nCVE-2024-40766 [CWE-284: Improper Access Control].\nEnd Update\nFor initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002], abusing valid credentials [T1078], and techniques that leverage external-facing services, like Remote Desktop Protocol (RDP) [T1133].6\nUpdate Nov. 13, 2025:\nAkira threat actors gain access to VPN products such as SonicWall, by stealing login credentials or exploiting vulnerabilities like CVE-2024-40766. In some instances, they gain initial access through compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints [T1110]. Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003].\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 56,
+      "text": "#StopRansomware: Akira Ransomware"
+    },
+    {
+      "start": 4770,
+      "end": 4787,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

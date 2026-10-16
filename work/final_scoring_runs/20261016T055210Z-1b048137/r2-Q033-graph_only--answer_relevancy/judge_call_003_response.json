@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:13:00.9961817Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 418596400,
+  "load_duration": 8220900,
+  "prompt_eval_count": 638,
+  "prompt_eval_duration": 13027000,
+  "eval_count": 32,
+  "eval_duration": 393214000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"How do Akira threat actors use ngrok for data exfiltration?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

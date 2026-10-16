@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:28955:31241",
+    "doc_id": "AA23-061A",
+    "start": 28955,
+    "end": 31241,
+    "text": " reports, intellectual property, accounting, law actions and complaints, personal files and so on and so forth.\nWe are able to solve this problem in one touch.\nWe (BlackSuit) are ready to give you an opportunity to get all the things back if you agree to make a deal with us.\nYou have a chance to get rid of all possible financial, legal, insurance and many others risks and problems for a quite small compensation.\nYou can have a safety review of your systems.\nAll your files will be decrypted, your data will be reset, your systems will stay in safe.\nContact us through TOR browser using the link:\nMITRE ATT&CK Tactics and Techniques\nSee Table 18 through Table 23 for all referenced threat actor tactics and techniques in this advisory, as well as corresponding detection and/or mitigation recommendations. For additional mitigations, see the Mitigations section.\nTable 18: BlackSuit Actors ATT&CK Techniques for Resource Development\nTechnique Title\nID\nUse\nAcquire Access\nT1650\nBlackSuit actors may leverage brokers in support of gaining initial access.\nTable 19: Cyber Threat Actors ATT&CK Techniques for Initial Access\nTechnique Title\nID\nUse\nRemote Services: Remote Desktop Protocol\nT1021.001\nBlacSuit actors use RDP compromise as secondary initial access vector.\nExternal Remote Services\nT1133\nBlackSuit actors gain initial access through a variety of RMM software.\nExploit Public Facing Application\nT1190\nBlackSuit actors gain initial access through public-facing applications.\nPhishing\nT1566\nBlackSuit actors most commonly gain initial access to victim networks via phishing.\nPhishing: Spear phishing Attachment\nT1566.001\nBlackSuit actors used malicious PDF document attachments in phishing campaigns.\nPhishing: Spear phishing Link\nT1566.002\nThe actors gain initial access using malvertising links via emails and public-facing sites.\nTable 20: Cyber Threat Actors ATT&CK Techniques for Privilege Escalation\nTechnique Title\nID\nUse\n(New August 7, 2024) Valid Accounts\nT1078\nBlackSuit actors used a legitimate admin account to gain access privileges to the domain controller.\nValid Accounts: Domain Accounts\nT1078.002\nBlackSuit actors used encrypted files to create new admin user accounts.\nTable 21: Cyber Threat Actors ATT&CK Techniques for Defense Evasion\nTechnique Title\nID\nUse\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 28295,
+        "end": 28345,
+        "text": "Table 17: BlackSuit Ransomware Note and Hash Value"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 497,
+  "inherited_context_tokens": 31,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "c62eada9ad8314c1aeb74cde30544e0b9768490c9ebdea29f5f5200af312a598",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

@@ -1,0 +1,27 @@
+{
+  "chunk_id": "AA23-165A:evaluation:llama500:9561:12066",
+  "doc_id": "AA23-165A",
+  "start": 9561,
+  "end": 12066,
+  "text": " a result, the leak sites reveal a portion of LockBit affiliates’ total victims. For these reasons, the leak sites are not a reliable indicator of when LockBit ransomware attacks occurred. The date of data publication on the leak sites may be months after LockBit affiliates actually executed ransomware attacks.\nUp to the Q1 2023, a total of 1,653 alleged victims were observed on LockBit leak sites. With the introduction of LockBit 2.0 and LockBit 3.0, the leak sites have changed, with some sources choosing to differentiate leak sites by LockBit versions and others ignoring any differentiation. Over time, and through different evolutions of LockBit, the address and layout of LockBit leak sites have changed and are aggregated under the common denominator of the LockBit name. The introduction of LockBit 2.0 at the end of the Q2 2021 had an immediate impact on the cybercriminal market due to multiple RaaS operations shutting down in May and June 2021 (e.g., DarkSide and Avaddon). LockBit competed with other RaaS operations, like Hive RaaS, to fill the gap in the cybercriminal market leading to an influx of LockBit affiliates. Figure 2 shows the alleged number of victims worldwide on LockBit leak sites starting in Q3 2020. Figure 2 shows the alleged number of victims worldwide on LockBit leak sites starting in Q3 2020.\nFigure 2: Alleged Number of Victims Worldwide on LockBit Leak Sites\nTools\nDuring their intrusions, LockBit affiliates have been observed using various freeware and open-source tools that are intended for legal use. When repurposed by LockBit, these tools are then used for a range of malicious cyber activity, such as network reconnaissance, remote access and tunneling, credential dumping, and file exfiltration. Use of PowerShell and batch scripts are observed across most intrusions, which focus on system discovery, reconnaissance, password/credential hunting, and privilege escalation. Artifacts of professional penetration-testing tools such as Metasploit and Cobalt Strike have also been observed.\nTable 4 shows a list of legitimate freeware and open-source tools LockBit affiliates have repurposed for ransomware operations. The legitimate freeware and open-source tools mentioned in this product are all publicly available and legal. The use of these tools by a threat actor should not be attributed to the freeware and open-source tools, absent specific articulable facts tending to show they are used at the direction or under the control of a threat actor.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 70,
+      "text": "Understanding Ransomware Threat Actors: LockBit"
+    },
+    {
+      "start": 2293,
+      "end": 2310,
+      "text": "TECHNICAL DETAILS"
+    },
+    {
+      "start": 7966,
+      "end": 8028,
+      "text": "Table 3: ANSSI-Observed LockBit Strain and Number of Instances"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

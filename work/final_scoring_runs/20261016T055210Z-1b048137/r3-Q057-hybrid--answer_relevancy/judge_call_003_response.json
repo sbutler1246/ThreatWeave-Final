@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T07:20:24.2629173Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 496116300,
+  "load_duration": 9040800,
+  "prompt_eval_count": 478,
+  "prompt_eval_duration": 14670000,
+  "eval_count": 38,
+  "eval_duration": 467259000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What mitigates Develop Capabilities (T1587) in Enterprise ATT&CK 17.1?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

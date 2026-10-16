@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:32858:33890",
+    "doc_id": "AA23-061A",
+    "start": 32858,
+    "end": 33890,
+    "text": "c6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\nc6 84 24 ?? 00 00 00 ??\n}\n// c6 84 24 ?? 00 00 00 ?? | MOV byte ptr [ESP + ??], ??\n$code_deobfuscate = { 99 f7 ?? 8d ?? ?? 99 f7 ?? 88}\n// 99 | CDQ\n// f7 ?? | IDIV ??\n// 8d ?? ?? | LEA ??, ??\n// 99 | CDQ\n// f7 ?? | IDIV ??\n// 88 | MOV\ncondition:\nall of them\n}\nrule calls_rsa_function {\nstrings:\n// Code for function calls using RSA key\n$code_rsa_function_1 = { 8d4c2410 6a?? 6a?? 51 6a?? 6a?? 6a?? 68???????? ffd0 }\n// 8d 4c 24 10 | LEA ECX, [esp + 0x10]\n// 6a ?? | PUSH ??\n// 6a ?? | PUSH ??\n// 51 | PUSH ECX\n// 6a ?? | PUSH ??\n// 6a ?? | PUSH ??\n// 6a ?? | PUSH ??\n// 68 ?? ?? ?? ?? | PUSH (address of RSA string)\n// ff d0 | CALL EAX\n$code_rsa_function_2 = { 8d4c2410 6a?? 6a?? 51 56 6a?? 6a?? 68???????? ffd0 }\n// 8d 4c 24 10 | LEA ECX, [esp + 0x10]\n// 6a ?? | PUSH ??\n// 6a ?? | PUSH ??\n// 51 | PUSH ECX\n// 56 | PUSH ESI\n// 6a ?? | PUSH ??\n// 6a ?? | PUSH ??\n// 68 ?? ?? ?? ?? | PUSH (address of RSA string)\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 32174,
+        "end": 32232,
+        "text": "Table 23: Cyber Threat Actors ATT&CK Techniques for Impact"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 497,
+  "inherited_context_tokens": 31,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "ec3091a8e1043431bf29d80e2034a5830b14ee0a7a669f3c98cb5f0311c8bc92",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

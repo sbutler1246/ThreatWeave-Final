@@ -1,0 +1,15 @@
+{
+  "task": {
+    "task_id": "r1-Q041-hybrid_no_node2vec--faithfulness",
+    "case_id": "r1-Q041-hybrid_no_node2vec",
+    "metric": "faithfulness",
+    "eligible": true
+  },
+  "input_sha256": "76d8d1ed76c620c1d1ef072c1e85025aa7190d6e425158ec1d3801110d4868ce",
+  "status": "failed",
+  "value": null,
+  "error_type": "LLMDidNotFinishException",
+  "error": "The LLM generation was not completed. Please increase the max_tokens and try again.",
+  "judge_calls": 1,
+  "elapsed_ms": 13452.220000006491
+}

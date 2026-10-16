@@ -1,0 +1,268 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 3,
+      "text": "??",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 4,
+      "end": 22,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 4
+    },
+    "u003": {
+      "start": 23,
+      "end": 39,
+      "text": "// 51 | PUSH ECX",
+      "line_start": 23
+    },
+    "u004": {
+      "start": 40,
+      "end": 56,
+      "text": "// 56 | PUSH ESI",
+      "line_start": 40
+    },
+    "u005": {
+      "start": 57,
+      "end": 75,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 57
+    },
+    "u006": {
+      "start": 76,
+      "end": 94,
+      "text": "// 6a ?? | PUSH ??",
+      "line_start": 76
+    },
+    "u007": {
+      "start": 95,
+      "end": 143,
+      "text": "// 68 ?? ?? ?? ?? | PUSH (address of RSA string)",
+      "line_start": 95
+    },
+    "u008": {
+      "start": 144,
+      "end": 163,
+      "text": "// ff d0 | CALL EAX",
+      "line_start": 144
+    },
+    "u009": {
+      "start": 164,
+      "end": 174,
+      "text": "condition:",
+      "line_start": 164
+    },
+    "u010": {
+      "start": 175,
+      "end": 186,
+      "text": "any of them",
+      "line_start": 175
+    },
+    "u011": {
+      "start": 187,
+      "end": 188,
+      "text": "}",
+      "line_start": 187
+    },
+    "u012": {
+      "start": 189,
+      "end": 217,
+      "text": "rule xor_decoder_functions {",
+      "line_start": 189
+    },
+    "u013": {
+      "start": 218,
+      "end": 226,
+      "text": "strings:",
+      "line_start": 218
+    },
+    "u014": {
+      "start": 227,
+      "end": 300,
+      "text": "// Functions 402e00 and 402f00 both appear to contain a xor-decoding loop",
+      "line_start": 227
+    },
+    "u015": {
+      "start": 301,
+      "end": 310,
+      "text": "// 402e00",
+      "line_start": 301
+    },
+    "u016": {
+      "start": 311,
+      "end": 396,
+      "text": "$code_xor_loop_1 = { 0f a4 ce ?? 0f ac d5 ?? c1 e1 ?? c1 ea ?? 0b cd 0b f2 99 33 c8 }",
+      "line_start": 311
+    },
+    "u017": {
+      "start": 397,
+      "end": 435,
+      "text": "// 0f a4 ce ?? | SHLD ESI, param_1, ??",
+      "line_start": 397
+    },
+    "u018": {
+      "start": 436,
+      "end": 470,
+      "text": "// 0f ac d5 ?? | SHRD EBP, EDX, ??",
+      "line_start": 436
+    },
+    "u019": {
+      "start": 471,
+      "end": 500,
+      "text": "// c1 e1 ?? | SHL param_1, ??",
+      "line_start": 471
+    },
+    "u020": {
+      "start": 501,
+      "end": 528,
+      "text": "// c1 ea ?? | SHR EDX, 0x19",
+      "line_start": 501
+    },
+    "u021": {
+      "start": 529,
+      "end": 555,
+      "text": "// 0b cd | OR param_1, EBP",
+      "line_start": 529
+    },
+    "u022": {
+      "start": 556,
+      "end": 578,
+      "text": "// 0b f2 | OR ESI, EDX",
+      "line_start": 556
+    },
+    "u023": {
+      "start": 579,
+      "end": 590,
+      "text": "// 99 | CDQ",
+      "line_start": 579
+    },
+    "u024": {
+      "start": 591,
+      "end": 618,
+      "text": "// 33 c8 | XOR param_1, EAX",
+      "line_start": 591
+    },
+    "u025": {
+      "start": 619,
+      "end": 628,
+      "text": "// 402f00",
+      "line_start": 619
+    },
+    "u026": {
+      "start": 629,
+      "end": 717,
+      "text": "$code_xor_loop_2 = { 0f a4 ce ?? c1 ea ?? 0b f2 c1 e1 ?? 0b c8 0f be c3 8a 1f 99 33 c8 }",
+      "line_start": 629
+    },
+    "u027": {
+      "start": 718,
+      "end": 756,
+      "text": "// 0f a4 ce ?? | SHLD ESI, param_1, ??",
+      "line_start": 718
+    },
+    "u028": {
+      "start": 757,
+      "end": 782,
+      "text": "// c1 ea ?? | SHR EDX, ??",
+      "line_start": 757
+    },
+    "u029": {
+      "start": 783,
+      "end": 805,
+      "text": "// 0b f2 | OR ESI, EDX",
+      "line_start": 783
+    },
+    "u030": {
+      "start": 806,
+      "end": 836,
+      "text": "// c1 e1 ?? | SHL, param_1, ??",
+      "line_start": 806
+    },
+    "u031": {
+      "start": 837,
+      "end": 863,
+      "text": "// 0b c8 | OR param_1, EDX",
+      "line_start": 837
+    },
+    "u032": {
+      "start": 864,
+      "end": 891,
+      "text": "// 0f be c3 | MOVSX EAX, BL",
+      "line_start": 864
+    },
+    "u033": {
+      "start": 892,
+      "end": 921,
+      "text": "// 8a 1f | BL, byte ptr [EDI]",
+      "line_start": 892
+    },
+    "u034": {
+      "start": 922,
+      "end": 933,
+      "text": "// 99 | CDQ",
+      "line_start": 922
+    },
+    "u035": {
+      "start": 934,
+      "end": 961,
+      "text": "// 33 c8 | XOR param_1, EAX",
+      "line_start": 934
+    },
+    "u036": {
+      "start": 962,
+      "end": 972,
+      "text": "condition:",
+      "line_start": 962
+    },
+    "u037": {
+      "start": 973,
+      "end": 984,
+      "text": "any of them",
+      "line_start": 973
+    },
+    "u038": {
+      "start": 985,
+      "end": 986,
+      "text": "}",
+      "line_start": 985
+    },
+    "u039": {
+      "start": 987,
+      "end": 1014,
+      "text": "rule win_BlackSuit_manual {",
+      "line_start": 987
+    },
+    "u040": {
+      "start": 1015,
+      "end": 1020,
+      "text": "meta:",
+      "line_start": 1015
+    },
+    "u041": {
+      "start": 1021,
+      "end": 1045,
+      "text": "author = \"CVH - Raleigh\"",
+      "line_start": 1021
+    },
+    "u042": {
+      "start": 1046,
+      "end": 1065,
+      "text": "date = \"2024-07-12\"",
+      "line_start": 1046
+    },
+    "u043": {
+      "start": 1066,
+      "end": 1079,
+      "text": "version = \"1\"",
+      "line_start": 1066
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:18102:19740",
+    "doc_id": "AA23-061A",
+    "start": 18102,
+    "end": 19740,
+    "text": "term to establish SSH connections. The publicly available credential stealing tool Mimikatz and password harvesting tools from Nirsoft have also been found on victim systems. Legitimate RMM tools have also been observed as backdoor access vectors. Some legitimate software and open source tools can be found in Table 8.\nTable 8: Legitimate Files and Tools Used by Royal and BlackSuit Ransomware\nName\nDescription or SHA 256 Hash Value\nC:\\Program Files\\OpenSSH\\ssh-agent.exe\nC:\\Program Files\\OpenSSH\\sshd.exe\nSSH Client\n%USERPROFILE%\\Downloads\\WinRAR.exe\nCompression tool\n%APPDATA%\\MobaXterm\\\nToolbox for remote computing\n\\Program Files (x86)\\Mobatek\\\nToolbox for remote computing\n\\Program Files (x86)\\Mobatek\\MobaXterm\\\nToolbox for remote computing\nb34v2.dll\nColbaltStrike Beacon\n34.dll\nCobaltStrike Beacon\nmimikatz.exe\nMimikatz credential harvester\ndialuppass.exe\nNirsoft password harvesting utility\niepv.exe\nNirsoft password harvesting utility\nmailpv.exe\nNirsoft password harvesting utility\nnetpass.exe\nNirsoft password harvesting utility\nrouterpassview.exe\nNirsoft password harvesting utility\nAdFind.exe\nADFind tool\nLogMeIn\nRemote access tool\nAtera\nRemote access tool\nC:\\Program Files\\Eraser\\Eraser.exe\nAnti-Forensics Tool used by TA\nadvanced_ip_scanner.exe\nReconnaissance Tool used by TA\nconhost.exe (chisel_windows_1_7_7.exe)\nb9ef2e948a9b49a6930fc190b22cbdb3571579d37a4de56564e41a2ef736767b\n%USERPROFILE%\\Downloads\\svvhost.exe\n\\Users\\Administrator\\AppData\\Local\\Temp\\cloudflared.exe\nc429719a45ca14f52513fe55320ebc49433c729a0d2223479d9d43597eab39fa\nnircmd.exe\n216047c048bf1dcbf031cf24bd5e0f263994a5df60b23089e393033d17257cb5\nnsudo.exe\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 17603,
+        "end": 17684,
+        "text": "Table 7: BlackSuit Ransomware Associated Files, Tools, and Hashes as of June 2023"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 492,
+  "inherited_context_tokens": 41,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "6387f91c507f20a5627ff1741cc5c6cccf7c588d1636ee12c82b5ffadc54d893",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

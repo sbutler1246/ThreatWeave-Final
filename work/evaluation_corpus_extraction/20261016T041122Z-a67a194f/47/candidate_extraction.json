@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "ThreatGroup",
+      "name": "Akira threat actors",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1190",
+      "attack_id": "T1190"
+    },
+    {
+      "local_id": "e3",
+      "type": "Technique",
+      "name": "T1566.001",
+      "attack_id": "T1566.001"
+    },
+    {
+      "local_id": "e4",
+      "type": "Technique",
+      "name": "T1566.002",
+      "attack_id": "T1566.002"
+    },
+    {
+      "local_id": "e5",
+      "type": "Software",
+      "name": "SharpDomainSpray",
+      "attack_id": null
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 264,
+        "end": 542,
+        "quote": "FBI and cybersecurity researchers1 observed Akira threat actors obtaining initial access to organizations through a virtual private network (VPN) service without multifactor authentication (MFA) configured,2 mostly using known Common Vulnerabilities and Exposures (CVEs) [T1190]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e3",
+      "evidence": {
+        "start": 1330,
+        "end": 1436,
+        "quote": "For initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e4",
+      "evidence": {
+        "start": 1330,
+        "end": 1436,
+        "quote": "For initial access, Akira threat actors also use techniques including spearphishing [T1566.001][T1566.002]"
+      },
+      "confidence": null
+    },
+    {
+      "head": "e1",
+      "predicate": "USES",
+      "tail": "e5",
+      "evidence": {
+        "start": 1908,
+        "end": 2066,
+        "quote": "Additionally, Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials [T1110.003]."
+      },
+      "confidence": null
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Play",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Play actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "A Windows",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "Cobalt Strike",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "Mimikatz",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1048",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "Nltest",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "IOCs",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "Play Ransomware Actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "SVCHost.dll",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Play actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "A Windows",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "Cobalt Strike",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "Mimikatz",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_T": {
+      "name": "T1048",
+      "type": "Technique",
+      "attack_id": "T1048"
+    },
+    "m008_S": {
+      "name": "Nltest",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "IOCs",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_G": {
+      "name": "Play Ransomware Actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "SVCHost.dll",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 57,
+      "text": "to query and retrieve information from Active Directory.",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 58,
+      "end": 62,
+      "text": "GMER",
+      "line_start": 58
+    },
+    "u003": {
+      "start": 63,
+      "end": 135,
+      "text": "A software tool intended to be used for detecting and removing rootkits.",
+      "line_start": 63
+    },
+    "u004": {
+      "start": 136,
+      "end": 141,
+      "text": "IOBit",
+      "line_start": 136
+    },
+    "u005": {
+      "start": 142,
+      "end": 224,
+      "text": "An anti-malware and anti-virus program for the Microsoft Windows operating system.",
+      "line_start": 142
+    },
+    "u006": {
+      "start": 225,
+      "end": 287,
+      "text": "Play actors have accessed IOBit to disable antivirus software.",
+      "line_start": 142
+    },
+    "u007": {
+      "start": 288,
+      "end": 294,
+      "text": "PsExec",
+      "line_start": 288
+    },
+    "u008": {
+      "start": 295,
+      "end": 366,
+      "text": "A tool designed to run programs and execute commands on remote systems.",
+      "line_start": 295
+    },
+    "u009": {
+      "start": 367,
+      "end": 376,
+      "text": "PowerTool",
+      "line_start": 367
+    },
+    "u010": {
+      "start": 377,
+      "end": 507,
+      "text": "A Windows utility designed to improve speed, remove bloatware, protect privacy, and eliminate data collection, among other things.",
+      "line_start": 377
+    },
+    "u011": {
+      "start": 508,
+      "end": 518,
+      "text": "PowerShell",
+      "line_start": 508
+    },
+    "u012": {
+      "start": 519,
+      "end": 698,
+      "text": "A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",
+      "line_start": 519
+    },
+    "u013": {
+      "start": 699,
+      "end": 712,
+      "text": "Cobalt Strike",
+      "line_start": 699
+    },
+    "u014": {
+      "start": 713,
+      "end": 816,
+      "text": "A penetration testing tool used by security professionals to test the security of networks and systems.",
+      "line_start": 713
+    },
+    "u015": {
+      "start": 817,
+      "end": 904,
+      "text": "Play ransomware actors have used it to assist with lateral movement and file execution.",
+      "line_start": 713
+    },
+    "u016": {
+      "start": 905,
+      "end": 913,
+      "text": "Mimikatz",
+      "line_start": 905
+    },
+    "u017": {
+      "start": 914,
+      "end": 996,
+      "text": "Allows users to view and save authentication credentials such as Kerberos tickets.",
+      "line_start": 914
+    },
+    "u018": {
+      "start": 997,
+      "end": 1071,
+      "text": "Play ransomware actors have used it to add accounts to domain controllers.",
+      "line_start": 914
+    },
+    "u019": {
+      "start": 1072,
+      "end": 1079,
+      "text": "WinPEAS",
+      "line_start": 1072
+    },
+    "u020": {
+      "start": 1080,
+      "end": 1137,
+      "text": "Used to search for additional privilege escalation paths.",
+      "line_start": 1080
+    },
+    "u021": {
+      "start": 1138,
+      "end": 1144,
+      "text": "WinRAR",
+      "line_start": 1138
+    },
+    "u022": {
+      "start": 1145,
+      "end": 1246,
+      "text": "Used to split compromised data into segments and to compress files into .RAR format for exfiltration.",
+      "line_start": 1145
+    },
+    "u023": {
+      "start": 1247,
+      "end": 1253,
+      "text": "WinSCP",
+      "line_start": 1247
+    },
+    "u024": {
+      "start": 1254,
+      "end": 1418,
+      "text": "Windows Secure Copy is a free and open source Secure Shell (SSH) File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client.",
+      "line_start": 1254
+    },
+    "u025": {
+      "start": 1419,
+      "end": 1536,
+      "text": "Play ransomware actors have used it to transfer data [T1048] from a compromised network to actor-controlled accounts.",
+      "line_start": 1254
+    },
+    "u026": {
+      "start": 1537,
+      "end": 1553,
+      "text": "Microsoft Nltest",
+      "line_start": 1537
+    },
+    "u027": {
+      "start": 1554,
+      "end": 1607,
+      "text": "Used by Play ransomware actors for network discovery.",
+      "line_start": 1554
+    },
+    "u028": {
+      "start": 1608,
+      "end": 1624,
+      "text": "Nekto / PriviCMD",
+      "line_start": 1608
+    },
+    "u029": {
+      "start": 1625,
+      "end": 1681,
+      "text": "Used by Play ransomware actors for privilege escalation.",
+      "line_start": 1625
+    },
+    "u030": {
+      "start": 1682,
+      "end": 1696,
+      "text": "Process Hacker",
+      "line_start": 1682
+    },
+    "u031": {
+      "start": 1697,
+      "end": 1745,
+      "text": "Used to enumerate running processes on a system.",
+      "line_start": 1697
+    },
+    "u032": {
+      "start": 1746,
+      "end": 1751,
+      "text": "Plink",
+      "line_start": 1746
+    },
+    "u033": {
+      "start": 1752,
+      "end": 1793,
+      "text": "Used to establish persistent SSH tunnels.",
+      "line_start": 1752
+    },
+    "u034": {
+      "start": 1794,
+      "end": 1814,
+      "text": "Update June 4, 2025:",
+      "line_start": 1794
+    },
+    "u035": {
+      "start": 1815,
+      "end": 1839,
+      "text": "Indicators of Compromise",
+      "line_start": 1815
+    },
+    "u036": {
+      "start": 1840,
+      "end": 1929,
+      "text": "See Table 2 for Play ransomware IOCs obtained from FBI investigations as of January 2025.",
+      "line_start": 1840
+    },
+    "u037": {
+      "start": 1930,
+      "end": 1984,
+      "text": "Table 2: Hashes Associated with Play Ransomware Actors",
+      "line_start": 1930
+    },
+    "u038": {
+      "start": 1985,
+      "end": 2011,
+      "text": "Hashes (SHA 256 and SHA 1)",
+      "line_start": 1985
+    },
+    "u039": {
+      "start": 2012,
+      "end": 2023,
+      "text": "Description",
+      "line_start": 2012
+    },
+    "u040": {
+      "start": 2024,
+      "end": 2088,
+      "text": "47B7B2DD88959CD7224A5542AE8D5BCE928BFC986BF0D0321532A7515C244A1E",
+      "line_start": 2024
+    },
+    "u041": {
+      "start": 2089,
+      "end": 2100,
+      "text": "SVCHost.dll",
+      "line_start": 2089
+    },
+    "u042": {
+      "start": 2101,
+      "end": 2109,
+      "text": "Backdoor",
+      "line_start": 2101
+    },
+    "u043": {
+      "start": 2110,
+      "end": 2174,
+      "text": "75B525B220169F07AECFB3B1991702FBD9A1E170CAF0040D1FCB07C3E819F54A",
+      "line_start": 2110
+    }
+  },
+  "captions": {
+    "ctx3": {
+      "start": 9608,
+      "end": 9658,
+      "text": "Table 1: Tools Leveraged by Play Ransomware Actors"
+    }
+  },
+  "identities": {
+    "m001_S": "attack:S1162",
+    "m002_G": "local:ThreatGroup:play actors",
+    "m003_S": "attack:S0029",
+    "m004_S": "local:Software:a windows",
+    "m005_S": "attack:S0154",
+    "m006_S": "attack:S0002",
+    "m007_T": "attack:T1048",
+    "m008_S": "attack:S0359",
+    "m009_S": "local:Software:iocs",
+    "m010_G": "local:ThreatGroup:play ransomware actors",
+    "m011_S": "local:Software:svchost.dll"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m007_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u037"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u007"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u010"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u015"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u016"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u025"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u026"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u027"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u036"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S",
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u037"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u041"
+      ],
+      "context_ids": [
+        "ctx3"
+      ],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m011_S"
+      ]
+    }
+  ]
+}

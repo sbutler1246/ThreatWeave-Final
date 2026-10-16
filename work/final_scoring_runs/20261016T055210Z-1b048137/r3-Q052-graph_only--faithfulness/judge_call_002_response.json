@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:30:06.0811997Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6729823600,
+  "load_duration": 9610900,
+  "prompt_eval_count": 1805,
+  "prompt_eval_duration": 236014000,
+  "eval_count": 487,
+  "eval_duration": 6415067000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"LockBit affiliates use Mimikatz.\",\n      \"reason\": \"The context explicitly mentions that LockBit affiliates have used Mimikatz to dump credentials.\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"The technique mapped to Ligolo in AA23-165A is Network Service Discovery (T1046).\",\n      \"reason\": \"The context does not provide information about the mapping of techniques to Ligolo in AA23-165A.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Service Discovery (T1046) is the technique mapped to Ligolo in AA23-165A.\",\n      \"reason\": \"The context does not provide information about the mapping of techniques to Ligolo in AA23-165A.\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Network Segmentation (M1030) is a mitigation for Network Service Discovery (T1046).\",\n      \"reason\": \"The context explicitly mentions that Network Segmentation (M1030) is a mitigation for Network Service Discovery (T1046).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Intrusion Prevention (M1031) is a mitigation for Remote Access Tools (T1219).\",\n      \"reason\": \"The context explicitly mentions that Network Intrusion Prevention (M1031) is a mitigation for Remote Access Tools (T1219).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"User Account Management (M1018) is a mitigation for Disable or Modify Tools (T1562.001).\",\n      \"reason\": \"The context explicitly mentions that User Account Management (M1018) is a mitigation for Disable or Modify Tools (T1562.001).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Network Segmentation (M1030) is a direct, active mitigation for Network Service Discovery (T1046).\",\n      \"reason\": \"The context explicitly mentions that Network Segmentation (M1030) is a mitigation for Network Service Discovery (T1046), but it does not specify that it is a direct, active mitigation.\",\n      \"verdict\": 0\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,39 @@
+{
+  "task": {
+    "case_id": "r2-Q055-hybrid_no_node2vec",
+    "question_id": "Q055",
+    "mode": "hybrid_no_node2vec",
+    "repeat": 2,
+    "measured": true
+  },
+  "question_sha256": "ca6f6eead3e1a51d223e4b9364e04af06f0cba3d1e1bae49e84d8f8c1da39046",
+  "status": "answer_ready_for_review",
+  "execution_time_ms": 2735.9681999951135,
+  "retrieval_ms": 42.41209998144768,
+  "generation_ms": 2691.390499996487,
+  "configuration_hash": "80a7079746cc7e845ed5a20b65cd1254172464f12166eb44b79d4541e20ba8bc",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "path_count": 0,
+  "passage_count": 10,
+  "python_resources_before": null,
+  "python_resources_after": null,
+  "attempts": 1,
+  "prompt_hash": "c231e3481595554a732c23561f02e0eb1dc2b6dcc33cff58bbe02181582bc7c2",
+  "generator_version": "development-shared-cited-generator-v2",
+  "prompt_eval_count": 1084,
+  "eval_count": 192,
+  "files_sha256": {
+    "answer.json": "857ffa14159451426b0d32aa4ff23a12f5526b1f2aef42408c3d1182dbe07195",
+    "context.txt": "39ac29e6c570cce4ad4a71c99dd7c5d16535738e4697cfe845af8db475da3678",
+    "evidence.json": "a878c9bcc4d01d313422b082b393b59dd2b4699834a8385e46283a95e8229f90",
+    "ollama_response_1.json": "227fc3b25198295f55a0cce67b005f183100057be79cca40694876b550b8d89e",
+    "output_schema.json": "e1f96742935527ff08a3698ccbe4e79c87ca5535d3e41f19384b6c8c9800dc69",
+    "question.json": "87345a7187705839e4130aa295a7387a9c5978671980703bfccbfbdd0fac938f",
+    "retrieval.json": "0e22a589f5f942195b8ddb54cd60fb1fa69641b5a2981f0da941d46cd5e8582d",
+    "system_prompt.txt": "d06610424106fd68fc9f27ce0000aa73b1cd3b43a79c4df892dcf6a6108fd72a",
+    "transport_request_1.json": "cb54af5fb9aa14e7c896bcdb3cdb054a3655e16fa452137649303f2493a79dd9",
+    "transport_response_1.txt": "44d08ca39391db9a7f0ad0d25e748a9f81049cfa1f80cf23721d97328f3a9800",
+    "transport_status_1.json": "aee5b614c7e23713169563d835525362b4966e7d9e46399b596b2b0993301efa",
+    "user_prompt.txt": "6e8f6a762b3345e6b358a8420ea96561374d69a55a8f4def1a5b932e488a812e"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$defs": {
+    "Predicate": {
+      "enum": [
+        "USES",
+        "USES_TECHNIQUE",
+        "PART_OF_TACTIC",
+        "MITIGATED_BY",
+        "ASSOCIATED_WITH"
+      ],
+      "title": "Predicate",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Evidence-bearing properties attached to a factual graph edge.",
+  "properties": {
+    "assertion_id": {
+      "title": "Assertion Id",
+      "type": "string"
+    },
+    "head_id": {
+      "title": "Head Id",
+      "type": "string"
+    },
+    "predicate": {
+      "$ref": "#/$defs/Predicate"
+    },
+    "tail_id": {
+      "title": "Tail Id",
+      "type": "string"
+    },
+    "source_doc_id": {
+      "title": "Source Doc Id",
+      "type": "string"
+    },
+    "chunk_id": {
+      "title": "Chunk Id",
+      "type": "string"
+    },
+    "evidence_text": {
+      "minLength": 1,
+      "title": "Evidence Text",
+      "type": "string"
+    },
+    "origin": {
+      "enum": [
+        "extracted",
+        "fused"
+      ],
+      "title": "Origin",
+      "type": "string"
+    },
+    "validation_status": {
+      "enum": [
+        "pending_review",
+        "validated",
+        "human_verified",
+        "rejected"
+      ],
+      "title": "Validation Status",
+      "type": "string"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    }
+  },
+  "required": [
+    "assertion_id",
+    "head_id",
+    "predicate",
+    "tail_id",
+    "source_doc_id",
+    "chunk_id",
+    "evidence_text",
+    "origin",
+    "validation_status"
+  ],
+  "title": "Assertion",
+  "type": "object"
+}

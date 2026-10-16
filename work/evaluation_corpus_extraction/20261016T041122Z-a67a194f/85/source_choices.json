@@ -1,0 +1,394 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Play",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Play Ransomware Actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "AdFind",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "Bloodhound",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "GMER",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "IOBit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Play actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Play",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Play Ransomware Actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_S": {
+      "name": "AdFind",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m004_S": {
+      "name": "Bloodhound",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_S": {
+      "name": "GMER",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_S": {
+      "name": "IOBit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m007_G": {
+      "name": "Play actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m008_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 11,
+      "text": "onion URL).",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 12,
+      "end": 156,
+      "text": "Play ransomware targets regularly receive phone calls from threat actors encouraging payment and threatening the release of company information.",
+      "line_start": 12
+    },
+    "u003": {
+      "start": 157,
+      "end": 336,
+      "text": "These calls can be routed to a variety of phone numbers within the organization, including those discovered in open source, such as help desks or customer service representatives.",
+      "line_start": 12
+    },
+    "u004": {
+      "start": 337,
+      "end": 349,
+      "text": "ESXi Variant",
+      "line_start": 337
+    },
+    "u005": {
+      "start": 350,
+      "end": 634,
+      "text": "The ESXi variant of Play ransomware invokes shell commands specific to the ESXi environment to conduct tasks, including powering off all running Virtual Machines (VMs), listing machines names, and setting the welcome message of the ESXi interface to the campaign-specific ransom note.",
+      "line_start": 350
+    },
+    "u006": {
+      "start": 635,
+      "end": 844,
+      "text": "The ransomware binary supports command line arguments; however, if no command line arguments are passed, the malware powers off all VMs and encrypts files related to VMs using randomly generated per-file keys.",
+      "line_start": 350
+    },
+    "u007": {
+      "start": 845,
+      "end": 961,
+      "text": "The targeted file extensions include .vmdk, .vmem, .vmsd, .vmsn, .vmx, .vmxf, .vswp, .vmss, .nvram, .vmtx, and .log.",
+      "line_start": 350
+    },
+    "u008": {
+      "start": 962,
+      "end": 1028,
+      "text": "The ransomware binary employs AES-256 as its encryption algorithm.",
+      "line_start": 350
+    },
+    "u009": {
+      "start": 1029,
+      "end": 1204,
+      "text": "The binary creates a copy of the ransom note titled PLAY_Readme.txt in the root directory and in the path /vmfs/volumes/, as well as the welcome message of the ESXi interface.",
+      "line_start": 350
+    },
+    "u010": {
+      "start": 1205,
+      "end": 1304,
+      "text": "Like the Windows variant of Play ransomware, the ESXi variant must be recompiled for each campaign.",
+      "line_start": 1205
+    },
+    "u011": {
+      "start": 1305,
+      "end": 1584,
+      "text": "Through command line flags, the binary supports additional functionality likely used for development and debugging, including exempting specific VMs from encryption, targeting only one file for encryption, or skipping the file extension check and attempting to encrypt all files.",
+      "line_start": 1205
+    },
+    "u012": {
+      "start": 1585,
+      "end": 1617,
+      "text": "Please see below for YARA rules.",
+      "line_start": 1205
+    },
+    "u013": {
+      "start": 1618,
+      "end": 1628,
+      "text": "End Update",
+      "line_start": 1618
+    },
+    "u014": {
+      "start": 1629,
+      "end": 1644,
+      "text": "Leveraged Tools",
+      "line_start": 1629
+    },
+    "u015": {
+      "start": 1645,
+      "end": 1736,
+      "text": "Table 1 lists legitimate tools Play ransomware actors have repurposed for their operations.",
+      "line_start": 1645
+    },
+    "u016": {
+      "start": 1737,
+      "end": 1808,
+      "text": "The legitimate tools listed in this product are all publicly available.",
+      "line_start": 1645
+    },
+    "u017": {
+      "start": 1809,
+      "end": 1989,
+      "text": "Use of these tools and applications should not be attributed as malicious without analytical evidence to support they are used at the direction of, or controlled by, threat actors.",
+      "line_start": 1645
+    },
+    "u018": {
+      "start": 1990,
+      "end": 2040,
+      "text": "Table 1: Tools Leveraged by Play Ransomware Actors",
+      "line_start": 1990
+    },
+    "u019": {
+      "start": 2041,
+      "end": 2045,
+      "text": "Name",
+      "line_start": 2041
+    },
+    "u020": {
+      "start": 2046,
+      "end": 2057,
+      "text": "Description",
+      "line_start": 2046
+    },
+    "u021": {
+      "start": 2058,
+      "end": 2064,
+      "text": "AdFind",
+      "line_start": 2058
+    },
+    "u022": {
+      "start": 2065,
+      "end": 2126,
+      "text": "Used to query and retrieve information from Active Directory.",
+      "line_start": 2065
+    },
+    "u023": {
+      "start": 2127,
+      "end": 2137,
+      "text": "Bloodhound",
+      "line_start": 2127
+    },
+    "u024": {
+      "start": 2138,
+      "end": 2199,
+      "text": "Used to query and retrieve information from Active Directory.",
+      "line_start": 2138
+    },
+    "u025": {
+      "start": 2200,
+      "end": 2204,
+      "text": "GMER",
+      "line_start": 2200
+    },
+    "u026": {
+      "start": 2205,
+      "end": 2277,
+      "text": "A software tool intended to be used for detecting and removing rootkits.",
+      "line_start": 2205
+    },
+    "u027": {
+      "start": 2278,
+      "end": 2283,
+      "text": "IOBit",
+      "line_start": 2278
+    },
+    "u028": {
+      "start": 2284,
+      "end": 2366,
+      "text": "An anti-malware and anti-virus program for the Microsoft Windows operating system.",
+      "line_start": 2284
+    },
+    "u029": {
+      "start": 2367,
+      "end": 2429,
+      "text": "Play actors have accessed IOBit to disable antivirus software.",
+      "line_start": 2284
+    },
+    "u030": {
+      "start": 2430,
+      "end": 2436,
+      "text": "PsExec",
+      "line_start": 2430
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1162",
+    "m002_G": "local:ThreatGroup:play ransomware actors",
+    "m003_S": "attack:S0552",
+    "m004_S": "attack:S0521",
+    "m005_S": "local:Software:gmer",
+    "m006_S": "local:Software:iobit",
+    "m007_G": "local:ThreatGroup:play actors",
+    "m008_S": "attack:S0029"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u018"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m001_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u029"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018",
+        "u021"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m003_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018",
+        "u023"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018",
+        "u025"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018",
+        "u027"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m006_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u018",
+        "u030"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m008_S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA25-071A:evaluation:llama500:26712:28840",
+    "doc_id": "AA25-071A",
+    "start": 26712,
+    "end": 28840,
+    "text": "Table 6: Credential Access\nTechnique Title\nID\nUse\nOS Credential Dumping: LSASS Memory\nT1003.001\nMedusa actors access credential material stored in process memory or LSASS using Mimikatz.\nSteal or Forge Kerberos Tickets\nT1558\n(Updated Aug. 18, 2026) Medusa actors steal credentials by copying Windows database files and using them to create forged Kerberos tickets.\nTable 7: Lateral Movement and Execution\nTechnique Title\nID\nUse\nCommand and Scripting Interpreter: PowerShell\nT1059.001\nMedusa actors use PowerShell for ingress, network, and filesystem enumeration.\nCommand and Scripting Interpreter: Windows Command Shell\nT1059.003\nMedusa actors use Windows Command Prompt, which can be used to control almost any aspect of a system, for ingress, network, and filesystem enumeration.\nSoftware Deployment Tools\nT1072\nMedusa actors use PDQ Deploy and BigFix to deploy the encryptor on files across the network.\nRemote Services: Remote Desktop Protocol\nT1021.001\nMedusa actors use RDP, a common feature of OSs, to log into an interactive session with a system and move laterally.\nSystem Services: Service Execution\nT1569.002\nMedusa actors use Sysinternals PsExec to deploy the encryptor on files across the network.\nWindows Management Instrumentation\nT1047\nMedusa actors abuse WMI to query system information.\nESXi Administration Command\nT1675\n(Updated Aug. 18, 2026) Medusa actors abuse ESXi administration services to force root passwords to Medusa-controlled passwords on Linux machines.\nTable 8: Exfiltration and Encryption\nTechnique Title\nID\nUse\nExfiltration Over Web Service: Exfiltration to Cloud Storage\nT1567.002\nMedusa actors use Rclone to facilitate exfiltration of data to the Medusa C2 servers.\nTable 9: Command and Control\nTechnique Title\nID\nUse\nIngress Tool Transfer\nT1105\nMedusa actors use PowerShell, Windows Command Prompt, and certutil for file ingress.\nApplication Layer Protocol: Web Protocols\nT1071.001\nMedusa actors communicate using application layer protocols associated with web traffic. In this case, Medusa actors used scripts that created reverse or bind shells over port 443: HTTPS.\nRemote Access Tools\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 57,
+        "text": "#StopRansomware: Medusa Ransomware"
+      },
+      {
+        "start": 4834,
+        "end": 4851,
+        "text": "Technical Details"
+      },
+      {
+        "start": 25724,
+        "end": 25742,
+        "text": "Table 5: Discovery"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 500,
+  "inherited_context_tokens": 20,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "c5d7bc459c6ffb9007772c995dbbccdc7da538ee8d970b5766265ac514dd15f9",
+  "doc_id": "AA25-071A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+  "source_hash": "64d2dbc766932cad628d1314650ed6d79d1bd9a284640afa1fc9eb8bb4114e5e"
+}

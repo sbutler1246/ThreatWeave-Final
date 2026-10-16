@@ -1,0 +1,413 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Medusa actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Volume Shadow Copy. The actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1006",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1558",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "CrackMapExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1484.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "Rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1567.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "rclone",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "rclone.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "lsp.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m012",
+      "text": "rdpclip.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m013",
+      "text": "Sysinternals PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m014",
+      "text": "PsExec",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m015",
+      "text": "T1072",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m016",
+      "text": "gaze.exe",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_G": {
+      "name": "Medusa actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Volume Shadow Copy. The actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1006",
+      "type": "Technique",
+      "attack_id": "T1006"
+    },
+    "m004_T": {
+      "name": "T1558",
+      "type": "Technique",
+      "attack_id": "T1558"
+    },
+    "m005_S": {
+      "name": "CrackMapExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1484.001",
+      "type": "Technique",
+      "attack_id": "T1484.001"
+    },
+    "m007_S": {
+      "name": "Rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m008_T": {
+      "name": "T1567.002",
+      "type": "Technique",
+      "attack_id": "T1567.002"
+    },
+    "m009_S": {
+      "name": "rclone",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_S": {
+      "name": "rclone.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "lsp.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m012_S": {
+      "name": "rdpclip.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m013_S": {
+      "name": "Sysinternals PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m014_S": {
+      "name": "PsExec",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m015_T": {
+      "name": "T1072",
+      "type": "Technique",
+      "attack_id": "T1072"
+    },
+    "m016_S": {
+      "name": "gaze.exe",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 146,
+      "text": "add hklm\\system\\currentcontrolset\\control\\lsa\\ /v “Security Packages” /d “Kerberos\\0msv1_0\\0schannel\\0wdigest\\0tspkg\\0mimilib” /t REG_MULTI_SZ /f",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 147,
+      "end": 255,
+      "text": "(Updated Aug. 18, 2026) Medusa actors have also been observed stealing credentials using Volume Shadow Copy.",
+      "line_start": 147
+    },
+    "u003": {
+      "start": 256,
+      "end": 337,
+      "text": "The actors use the vssadmin command to create a new shadow copy for the C: drive.",
+      "line_start": 147
+    },
+    "u004": {
+      "start": 338,
+      "end": 484,
+      "text": "The actors then copy ntds.dit, system, and security registry hives out of the shadow copy and delete the shadow copy to prevent discovery [T1006].",
+      "line_start": 147
+    },
+    "u005": {
+      "start": 485,
+      "end": 562,
+      "text": "The actors can use the stolen files to create forged Kerberos tickets [T1558]",
+      "line_start": 147
+    },
+    "u006": {
+      "start": 564,
+      "end": 607,
+      "text": "effectively compromising the entire domain.",
+      "line_start": 147
+    },
+    "u007": {
+      "start": 608,
+      "end": 718,
+      "text": "(Updated Aug. 18, 2026) The actors used CrackMapExec (aka NetExec, aka NXC) to enumerate hosts on the network.",
+      "line_start": 608
+    },
+    "u008": {
+      "start": 719,
+      "end": 830,
+      "text": "The information collected included IP address, hostname, operating system (OS) information, and other metadata.",
+      "line_start": 608
+    },
+    "u009": {
+      "start": 831,
+      "end": 979,
+      "text": "(Updated Aug. 18, 2026) Medusa actors make changes to Active Directory Default Domain Policy settings to override Group Policy settings [T1484.001].",
+      "line_start": 831
+    },
+    "u010": {
+      "start": 980,
+      "end": 1203,
+      "text": "Specifically, Medusa actors set the Default Domain Policy to “Enabled, Enforced.” This setting enforces the policy set by Medusa actors, overriding stricter Group Policies that would normally restrict threat actor activity.",
+      "line_start": 831
+    },
+    "u011": {
+      "start": 1204,
+      "end": 1227,
+      "text": "Exfiltration and Impact",
+      "line_start": 1204
+    },
+    "u012": {
+      "start": 1228,
+      "end": 1416,
+      "text": "(Updated, Aug. 18, 2026) Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers [T1567.002].",
+      "line_start": 1228
+    },
+    "u013": {
+      "start": 1417,
+      "end": 1573,
+      "text": "(Updated, Aug. 18, 2026) Medusa actors obfuscate rclone.exe and associated rclone.conf files by renaming the files (for example, to lsp.exe and ngconf.txt).",
+      "line_start": 1417
+    },
+    "u014": {
+      "start": 1574,
+      "end": 1728,
+      "text": "Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP’s built-in file transfer mechanism.",
+      "line_start": 1417
+    },
+    "u015": {
+      "start": 1729,
+      "end": 1960,
+      "text": "The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",
+      "line_start": 1729
+    },
+    "u016": {
+      "start": 1961,
+      "end": 2035,
+      "text": "(Updated Aug. 18, 2026) Medusa actors use a custom PDQ Deploy playbook to:",
+      "line_start": 1961
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_G": "local:ThreatGroup:medusa actors",
+    "m002_G": "local:ThreatGroup:volume shadow copy. the actors",
+    "m003_T": "attack:T1006",
+    "m004_T": "attack:T1558",
+    "m005_S": "attack:S0488",
+    "m006_T": "attack:T1484.001",
+    "m007_S": "attack:S1040",
+    "m008_T": "attack:T1567.002",
+    "m009_S": "attack:S1040",
+    "m010_S": "local:Software:rclone.exe",
+    "m011_S": "local:Software:lsp.exe",
+    "m012_S": "local:Software:rdpclip.exe",
+    "m013_S": "local:Software:sysinternals psexec",
+    "m014_S": "attack:S0029",
+    "m015_T": "attack:T1072",
+    "m016_S": "local:Software:gaze.exe"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u009"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m006_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m007_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m007_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u012"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m008_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u013"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S",
+        "m010_S",
+        "m011_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u014"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m001_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m012_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u015"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m013_S",
+        "m014_S",
+        "m016_S"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m015_T"
+      ]
+    }
+  ]
+}

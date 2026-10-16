@@ -1,0 +1,376 @@
+{
+  "passages": [
+    {
+      "citation_id": "E1",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:table4:row02",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Advanced Port Scanner\nPerforms network scans.\nFinds open Transmission Control Protocol (TCP) and User Data Protocol (UDP) ports for exploitation.\nT1046\nNetwork Service Discovery",
+      "start": 12695,
+      "end": 12872,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E2",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:13738:15981",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Table 4: Freeware and Open-Source Tools Used by LockBit Affiliates",
+      "start": 12066,
+      "end": 12132,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E3",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:table4:row02",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Tool\nIntended Use\nRepurposed Use by LockBit Affiliates\nMITRE ATT&CK ID\n",
+      "start": 12133,
+      "end": 12204,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E4",
+      "doc_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788",
+      "chunk_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Network Service Discovery (T1046)\nMitigation: Network Segmentation (M1030)",
+      "start": 0,
+      "end": 106,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E5",
+      "doc_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788",
+      "chunk_id": "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Ensure proper network segmentation is followed to protect critical servers and devices.",
+      "start": 284,
+      "end": 371,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E6",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:table4:row03",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "AnyDesk\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+      "start": 13043,
+      "end": 13178,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E7",
+      "doc_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64",
+      "chunk_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Remote Access Tools (T1219)\nMitigation: Network Intrusion Prevention (M1031)",
+      "start": 0,
+      "end": 108,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E8",
+      "doc_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64",
+      "chunk_id": "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64:description",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "Network intrusion detection and prevention systems that use network signatures may be able to prevent traffic to remote access services.",
+      "start": 286,
+      "end": 422,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E9",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:table4:row04",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Atera Remote Monitoring & Management (RMM)\nEnables remote connections to network devices.\nEnables remote control of victim’s network devices.\nT1219\nRemote Access Software",
+      "start": 13179,
+      "end": 13349,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E10",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:13738:15981",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Impacket",
+      "start": 14910,
+      "end": 14918,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E11",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:13738:15981",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Understanding Ransomware Threat Actors: LockBit",
+      "start": 23,
+      "end": 70,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E12",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:13738:15981",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "TECHNICAL DETAILS",
+      "start": 2293,
+      "end": 2310,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E13",
+      "doc_id": "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204",
+      "chunk_id": "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.",
+      "start": 273,
+      "end": 438,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E14",
+      "doc_id": "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204",
+      "chunk_id": "retrieval:d0d7d57b2abae70f9a7cb279f77df04d6495968d1455d600964eda459e357654",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Develop Capabilities (T1587)\nMitigation: Pre-compromise (M1056)",
+      "start": 0,
+      "end": 95,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E15",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "LockBit affiliates use SoftPerfect Network Scanner, Advanced IP Scanner, or Advanced Port Scanner to scan target networks.",
+      "start": 25385,
+      "end": 25507,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E16",
+      "doc_id": "AA23-165A",
+      "chunk_id": "AA23-165A:evaluation:llama500:25345:27570",
+      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a",
+      "text": "Table 11: LockBit Affiliates’ ATT&CK Techniques for Enterprise – Discovery",
+      "start": 25255,
+      "end": 25329,
+      "source_kind": "cisa"
+    },
+    {
+      "citation_id": "E17",
+      "doc_id": "attack:17.1:relationship--d06c7363-a7f6-43b1-8af8-9d3b9975160c",
+      "chunk_id": "retrieval:66b37993683677b8b37c9cc13394b417190819d810e97cd022be6d9cb9c3b620",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.",
+      "start": 272,
+      "end": 437,
+      "source_kind": "attack"
+    },
+    {
+      "citation_id": "E18",
+      "doc_id": "attack:17.1:relationship--d06c7363-a7f6-43b1-8af8-9d3b9975160c",
+      "chunk_id": "retrieval:66b37993683677b8b37c9cc13394b417190819d810e97cd022be6d9cb9c3b620",
+      "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "text": "ATT&CK release: 17.1\nTechnique: Compromise Accounts (T1586)\nMitigation: Pre-compromise (M1056)",
+      "start": 0,
+      "end": 94,
+      "source_kind": "attack"
+    }
+  ],
+  "paths": [
+    {
+      "path_id": "P1",
+      "edges": [
+        {
+          "head_id": "local:AA23-165A:lockbit-affiliates",
+          "predicate": "USES",
+          "tail_id": "local:AA23-165A:software:3200bf51de7a",
+          "assertion_ids": [
+            "assertion:2f94fb0707c1b3ba319ea85ea6b1da12e5c4ca1aa35d73dddc3acaae08d19ca8"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "local:AA23-165A:software:3200bf51de7a",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1046",
+          "assertion_ids": [
+            "assertion:ac12fa8e055e0d244b0d358d8fd62911ef9d89af5da582821f4aff04a2c7e1a4"
+          ],
+          "citation_ids": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1046",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1030",
+          "assertion_ids": [
+            "assertion:78f45ff395d7bb4622a1328c2c49a93bc9d8e8260efde99b590aa47509742689"
+          ],
+          "citation_ids": [
+            "E4",
+            "E5"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P2",
+      "edges": [
+        {
+          "head_id": "local:AA23-165A:lockbit-affiliates",
+          "predicate": "USES",
+          "tail_id": "local:AA23-165A:software:f084e63e6a62",
+          "assertion_ids": [
+            "assertion:a35a3830b81444acdef0759bc4ed3025d08478192d7bd94809f4d154929c79d6"
+          ],
+          "citation_ids": [
+            "E6",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "local:AA23-165A:software:f084e63e6a62",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1219",
+          "assertion_ids": [
+            "assertion:833737c24edf4d323e6b2259d32b861a6c59e7eb722a1fbd3c7bcc7d536dea65"
+          ],
+          "citation_ids": [
+            "E6",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1219",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1031",
+          "assertion_ids": [
+            "assertion:43180d523a25a6f370451f845a9139cb99b9bd623a13906ae335bd16a95f60d6"
+          ],
+          "citation_ids": [
+            "E7",
+            "E8"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P3",
+      "edges": [
+        {
+          "head_id": "local:AA23-165A:lockbit-affiliates",
+          "predicate": "USES",
+          "tail_id": "local:AA23-165A:software:66a07ba808e8",
+          "assertion_ids": [
+            "assertion:6cb987eb2046d238d011ba4c0b6a1e8bf29ab4297f8859802938673ee8bee230"
+          ],
+          "citation_ids": [
+            "E9",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "local:AA23-165A:software:66a07ba808e8",
+          "predicate": "USES_TECHNIQUE",
+          "tail_id": "attack:T1219",
+          "assertion_ids": [
+            "assertion:a5fe05c1b2b18dd768fc43046e8a2756e4e591f8c15a5dab197a723a2841c1e8"
+          ],
+          "citation_ids": [
+            "E9",
+            "E2",
+            "E3"
+          ]
+        },
+        {
+          "head_id": "attack:T1219",
+          "predicate": "MITIGATED_BY",
+          "tail_id": "attack:M1031",
+          "assertion_ids": [
+            "assertion:43180d523a25a6f370451f845a9139cb99b9bd623a13906ae335bd16a95f60d6"
+          ],
+          "citation_ids": [
+            "E7",
+            "E8"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P4",
+      "edges": [
+        {
+          "head_id": "local:AA23-165A:lockbit-affiliates",
+          "predicate": "USES",
+          "tail_id": "attack:S0357",
+          "assertion_ids": [
+            "assertion:5526188729caebe75cfb0f9d5c0b60350bf273e3d2cd40d03d9d93bc6f3c92ab"
+          ],
+          "citation_ids": [
+            "E10",
+            "E11",
+            "E12",
+            "E2"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": "P5",
+      "edges": [
+        {
+          "head_id": "local:AA23-165A:lockbit-affiliates",
+          "predicate": "USES",
+          "tail_id": "local:AA23-165A:software:ad9798edd4be",
+          "assertion_ids": [
+            "assertion:2130d9446e89642c80acf1bc8143fc70d90e21f7b8801114ef68e7213576a0de"
+          ],
+          "citation_ids": [
+            "E15",
+            "E11",
+            "E12",
+            "E16"
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18"
+  ],
+  "retrieval_ms": 656.8137000140268,
+  "configuration_hash": "d7c2718aa3b0e406681080d129a0119a06ba5e48c6e2c626bcf8bc5d34359f09",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

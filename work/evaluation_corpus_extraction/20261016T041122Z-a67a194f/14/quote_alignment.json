@@ -1,0 +1,40 @@
+[
+  {
+    "relation_index": 0,
+    "selected_unit_ids": [
+      "u026"
+    ],
+    "selected_units": [
+      {
+        "start": 779,
+        "end": 904,
+        "text": "LockBit affiliates use StealBit, a custom exfiltration tool first used with LockBit 2.0, to steal data from a target network.",
+        "line_start": 779
+      }
+    ],
+    "document_start": 27613,
+    "document_end": 27738,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  },
+  {
+    "relation_index": 1,
+    "selected_unit_ids": [
+      "u032"
+    ],
+    "selected_units": [
+      {
+        "start": 1107,
+        "end": 1300,
+        "text": "LockBit affiliates use (1) Rclone, an open-source command line cloud storage manager or FreeFileSync to exfiltrate and (2) MEGA, a publicly available file sharing service for data exfiltration.",
+        "line_start": 1107
+      }
+    ],
+    "document_start": 27941,
+    "document_end": 28134,
+    "context_ids": [],
+    "context_spans": [],
+    "review_flags": []
+  }
+]

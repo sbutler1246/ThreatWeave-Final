@@ -1,0 +1,5 @@
+{
+  "question": "According to AA23-061A, which ATT&CK technique is connected to Royal actors through the reported use of Chisel? Explain the two-hop actor-to-software-to-technique path with evidence.",
+  "mode": "text_only",
+  "corpus_version": "cisa-selected-2026-10-03"
+}

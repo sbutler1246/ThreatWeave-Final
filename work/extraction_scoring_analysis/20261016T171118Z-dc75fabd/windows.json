@@ -1,0 +1,1208 @@
+[
+  {
+    "window_id": "AA23-165A:evaluation:llama500:2310:4719",
+    "doc_id": "AA23-165A",
+    "start": 2310,
+    "end": 4719,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\01",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:4484:6401",
+    "doc_id": "AA23-165A",
+    "start": 4484,
+    "end": 6401,
+    "status": "candidates_ready_for_review",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\02",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:6168:8098",
+    "doc_id": "AA23-165A",
+    "start": 6168,
+    "end": 8098,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\03",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:7876:9874",
+    "doc_id": "AA23-165A",
+    "start": 7876,
+    "end": 9874,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\04",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:9561:12066",
+    "doc_id": "AA23-165A",
+    "start": 9561,
+    "end": 12066,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\05",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:11762:14040",
+    "doc_id": "AA23-165A",
+    "start": 11762,
+    "end": 14040,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\06",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:13738:15981",
+    "doc_id": "AA23-165A",
+    "start": 13738,
+    "end": 15981,
+    "status": "validation_failed",
+    "relation_count": 3,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\07",
+    "duplicate_normalization": [
+      {
+        "action": "remove_duplicate_relationship",
+        "original_relation_index": 2,
+        "retained_original_relation_index": 1,
+        "removed_selection": {
+          "head": "m014_G",
+          "predicate": "USES",
+          "tail": "m009_S",
+          "unit_ids": [
+            "u038"
+          ],
+          "context_ids": [
+            "ctx3"
+          ]
+        },
+        "reason": "Same typed endpoint identities and predicate; first support retained. Original alternative evidence remains in the unmodified model response."
+      }
+    ]
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:15691:17884",
+    "doc_id": "AA23-165A",
+    "start": 15691,
+    "end": 17884,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\08",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:17571:19802",
+    "doc_id": "AA23-165A",
+    "start": 17571,
+    "end": 19802,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\09",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:19556:21857",
+    "doc_id": "AA23-165A",
+    "start": 19556,
+    "end": 21857,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\10",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:21591:23692",
+    "doc_id": "AA23-165A",
+    "start": 21591,
+    "end": 23692,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\11",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:23461:25646",
+    "doc_id": "AA23-165A",
+    "start": 23461,
+    "end": 25646,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\12",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:25345:27570",
+    "doc_id": "AA23-165A",
+    "start": 25345,
+    "end": 27570,
+    "status": "candidates_ready_for_review",
+    "relation_count": 3,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\13",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-165A:evaluation:llama500:26834:28843",
+    "doc_id": "AA23-165A",
+    "start": 26834,
+    "end": 28843,
+    "status": "candidates_ready_for_review",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\14",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:4148:6616",
+    "doc_id": "AA23-061A",
+    "start": 4148,
+    "end": 6616,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\15",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:6346:8622",
+    "doc_id": "AA23-061A",
+    "start": 6346,
+    "end": 8622,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\16",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:8314:10530",
+    "doc_id": "AA23-061A",
+    "start": 8314,
+    "end": 10530,
+    "status": "candidates_ready_for_review",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\17",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:10300:11484",
+    "doc_id": "AA23-061A",
+    "start": 10300,
+    "end": 11484,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\18",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:11361:12517",
+    "doc_id": "AA23-061A",
+    "start": 11361,
+    "end": 12517,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\19",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:12363:13460",
+    "doc_id": "AA23-061A",
+    "start": 12363,
+    "end": 13460,
+    "status": "candidates_ready_for_review",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\20",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:13347:14347",
+    "doc_id": "AA23-061A",
+    "start": 13347,
+    "end": 14347,
+    "status": "candidates_ready_for_review",
+    "relation_count": 3,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\21",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:14225:15219",
+    "doc_id": "AA23-061A",
+    "start": 14225,
+    "end": 15219,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\22",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:15072:16294",
+    "doc_id": "AA23-061A",
+    "start": 15072,
+    "end": 16294,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\23",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:16175:17122",
+    "doc_id": "AA23-061A",
+    "start": 16175,
+    "end": 17122,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\24",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:17023:18422",
+    "doc_id": "AA23-061A",
+    "start": 17023,
+    "end": 18422,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\25",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:18102:19740",
+    "doc_id": "AA23-061A",
+    "start": 18102,
+    "end": 19740,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\26",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:19628:21225",
+    "doc_id": "AA23-061A",
+    "start": 19628,
+    "end": 21225,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\27",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:21018:22127",
+    "doc_id": "AA23-061A",
+    "start": 21018,
+    "end": 22127,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\28",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:21984:23147",
+    "doc_id": "AA23-061A",
+    "start": 21984,
+    "end": 23147,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\29",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:23031:24536",
+    "doc_id": "AA23-061A",
+    "start": 23031,
+    "end": 24536,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\30",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:24400:25638",
+    "doc_id": "AA23-061A",
+    "start": 24400,
+    "end": 25638,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\31",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:25468:26522",
+    "doc_id": "AA23-061A",
+    "start": 25468,
+    "end": 26522,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\32",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:26384:27829",
+    "doc_id": "AA23-061A",
+    "start": 26384,
+    "end": 27829,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\33",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:27654:29231",
+    "doc_id": "AA23-061A",
+    "start": 27654,
+    "end": 29231,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\34",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:28955:31241",
+    "doc_id": "AA23-061A",
+    "start": 28955,
+    "end": 31241,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\35",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:30968:32954",
+    "doc_id": "AA23-061A",
+    "start": 30968,
+    "end": 32954,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\36",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:32858:33890",
+    "doc_id": "AA23-061A",
+    "start": 32858,
+    "end": 33890,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\37",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:33746:34826",
+    "doc_id": "AA23-061A",
+    "start": 33746,
+    "end": 34826,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\38",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-061A:evaluation:llama500:34320:35790",
+    "doc_id": "AA23-061A",
+    "start": 34320,
+    "end": 35790,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\39",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-131A:evaluation:llama500:4174:6733",
+    "doc_id": "AA24-131A",
+    "start": 4174,
+    "end": 6733,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\40",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-131A:evaluation:llama500:6550:8835",
+    "doc_id": "AA24-131A",
+    "start": 6550,
+    "end": 8835,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\41",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-131A:evaluation:llama500:8514:10969",
+    "doc_id": "AA24-131A",
+    "start": 8514,
+    "end": 10969,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\42",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-131A:evaluation:llama500:10786:13129",
+    "doc_id": "AA24-131A",
+    "start": 10786,
+    "end": 13129,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\43",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-131A:evaluation:llama500:12807:15323",
+    "doc_id": "AA24-131A",
+    "start": 12807,
+    "end": 15323,
+    "status": "candidates_ready_for_review",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\44",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-131A:evaluation:llama500:15045:17380",
+    "doc_id": "AA24-131A",
+    "start": 15045,
+    "end": 17380,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\45",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-131A:evaluation:llama500:15803:17845",
+    "doc_id": "AA24-131A",
+    "start": 15803,
+    "end": 17845,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\46",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:4787:6854",
+    "doc_id": "AA24-109A",
+    "start": 4787,
+    "end": 6854,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\47",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:6537:8882",
+    "doc_id": "AA24-109A",
+    "start": 6537,
+    "end": 8882,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\48",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:8607:10825",
+    "doc_id": "AA24-109A",
+    "start": 8607,
+    "end": 10825,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\49",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:10612:12792",
+    "doc_id": "AA24-109A",
+    "start": 10612,
+    "end": 12792,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\50",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:12528:14948",
+    "doc_id": "AA24-109A",
+    "start": 12528,
+    "end": 14948,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\51",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:14693:17032",
+    "doc_id": "AA24-109A",
+    "start": 14693,
+    "end": 17032,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\52",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:16749:19037",
+    "doc_id": "AA24-109A",
+    "start": 16749,
+    "end": 19037,
+    "status": "candidates_ready_for_review",
+    "relation_count": 3,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\53",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:18804:21019",
+    "doc_id": "AA24-109A",
+    "start": 18804,
+    "end": 21019,
+    "status": "validation_failed",
+    "relation_count": 3,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\54",
+    "duplicate_normalization": [
+      {
+        "action": "remove_duplicate_relationship",
+        "original_relation_index": 2,
+        "retained_original_relation_index": 0,
+        "removed_selection": {
+          "head": "m003_G",
+          "predicate": "USES_TECHNIQUE",
+          "tail": "m004_T",
+          "unit_ids": [
+            "u009"
+          ],
+          "context_ids": []
+        },
+        "reason": "Same typed endpoint identities and predicate; first support retained. Original alternative evidence remains in the unmodified model response."
+      }
+    ]
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:20761:22564",
+    "doc_id": "AA24-109A",
+    "start": 20761,
+    "end": 22564,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\55",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:22442:23336",
+    "doc_id": "AA24-109A",
+    "start": 22442,
+    "end": 23336,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\56",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:23225:24336",
+    "doc_id": "AA24-109A",
+    "start": 23225,
+    "end": 24336,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\57",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:24217:25330",
+    "doc_id": "AA24-109A",
+    "start": 24217,
+    "end": 25330,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\58",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:25188:26526",
+    "doc_id": "AA24-109A",
+    "start": 25188,
+    "end": 26526,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\59",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:26404:27411",
+    "doc_id": "AA24-109A",
+    "start": 26404,
+    "end": 27411,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\60",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:27250:29059",
+    "doc_id": "AA24-109A",
+    "start": 27250,
+    "end": 29059,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\61",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:28777:31133",
+    "doc_id": "AA24-109A",
+    "start": 28777,
+    "end": 31133,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\62",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:30823:33030",
+    "doc_id": "AA24-109A",
+    "start": 30823,
+    "end": 33030,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\63",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:32784:35082",
+    "doc_id": "AA24-109A",
+    "start": 32784,
+    "end": 35082,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041738Z-f6bd403c\\03",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:34797:37085",
+    "doc_id": "AA24-109A",
+    "start": 34797,
+    "end": 37085,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\65",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:36883:38919",
+    "doc_id": "AA24-109A",
+    "start": 36883,
+    "end": 38919,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\66",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA24-109A:evaluation:llama500:37679:39746",
+    "doc_id": "AA24-109A",
+    "start": 37679,
+    "end": 39746,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\67",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:4851:6963",
+    "doc_id": "AA25-071A",
+    "start": 4851,
+    "end": 6963,
+    "status": "candidates_ready_for_review",
+    "relation_count": 3,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\68",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:6767:8826",
+    "doc_id": "AA25-071A",
+    "start": 6767,
+    "end": 8826,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\69",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:8653:10741",
+    "doc_id": "AA25-071A",
+    "start": 8653,
+    "end": 10741,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\70",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:10438:12511",
+    "doc_id": "AA25-071A",
+    "start": 10438,
+    "end": 12511,
+    "status": "candidates_ready_for_review",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\71",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:12220:14519",
+    "doc_id": "AA25-071A",
+    "start": 12220,
+    "end": 14519,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\72",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:14289:16172",
+    "doc_id": "AA25-071A",
+    "start": 14289,
+    "end": 16172,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\73",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:16025:18061",
+    "doc_id": "AA25-071A",
+    "start": 16025,
+    "end": 18061,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\74",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:17810:20469",
+    "doc_id": "AA25-071A",
+    "start": 17810,
+    "end": 20469,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\75",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:20162:22243",
+    "doc_id": "AA25-071A",
+    "start": 20162,
+    "end": 22243,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\76",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:22047:23538",
+    "doc_id": "AA25-071A",
+    "start": 22047,
+    "end": 23538,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\77",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:23412:24966",
+    "doc_id": "AA25-071A",
+    "start": 23412,
+    "end": 24966,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\78",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:24695:26937",
+    "doc_id": "AA25-071A",
+    "start": 24695,
+    "end": 26937,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\79",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:26712:28840",
+    "doc_id": "AA25-071A",
+    "start": 26712,
+    "end": 28840,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\80",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:28548:30967",
+    "doc_id": "AA25-071A",
+    "start": 28548,
+    "end": 30967,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\81",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA25-071A:evaluation:llama500:30061:32570",
+    "doc_id": "AA25-071A",
+    "start": 30061,
+    "end": 32570,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\82",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:3851:6199",
+    "doc_id": "AA23-352A",
+    "start": 3851,
+    "end": 6199,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\83",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:5924:7968",
+    "doc_id": "AA23-352A",
+    "start": 5924,
+    "end": 7968,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\84",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:7618:10055",
+    "doc_id": "AA23-352A",
+    "start": 7618,
+    "end": 10055,
+    "status": "candidates_ready_for_review",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\85",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:9760:11935",
+    "doc_id": "AA23-352A",
+    "start": 9760,
+    "end": 11935,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\86",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:11828:12848",
+    "doc_id": "AA23-352A",
+    "start": 11828,
+    "end": 12848,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\87",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:12733:14443",
+    "doc_id": "AA23-352A",
+    "start": 12733,
+    "end": 14443,
+    "status": "validation_failed",
+    "relation_count": 2,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\88",
+    "duplicate_normalization": [
+      {
+        "action": "remove_duplicate_relationship",
+        "original_relation_index": 2,
+        "retained_original_relation_index": 0,
+        "removed_selection": {
+          "head": "m003_G",
+          "predicate": "USES",
+          "tail": "m003_S",
+          "unit_ids": [
+            "u046"
+          ],
+          "context_ids": []
+        },
+        "reason": "Same typed endpoint identities and predicate; first support retained. Original alternative evidence remains in the unmodified model response."
+      }
+    ]
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:14145:16344",
+    "doc_id": "AA23-352A",
+    "start": 14145,
+    "end": 16344,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\89",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:16080:17724",
+    "doc_id": "AA23-352A",
+    "start": 16080,
+    "end": 17724,
+    "status": "validation_failed",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\90",
+    "duplicate_normalization": [
+      {
+        "action": "remove_duplicate_relationship",
+        "original_relation_index": 1,
+        "retained_original_relation_index": 0,
+        "removed_selection": {
+          "head": "m002_G",
+          "predicate": "USES",
+          "tail": "m002_S",
+          "unit_ids": [
+            "u007"
+          ],
+          "context_ids": []
+        },
+        "reason": "Same typed endpoint identities and predicate; first support retained. Original alternative evidence remains in the unmodified model response."
+      }
+    ]
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:17529:18539",
+    "doc_id": "AA23-352A",
+    "start": 17529,
+    "end": 18539,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\91",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:18455:19130",
+    "doc_id": "AA23-352A",
+    "start": 18455,
+    "end": 19130,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\92",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:19034:19853",
+    "doc_id": "AA23-352A",
+    "start": 19034,
+    "end": 19853,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\93",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:19771:20652",
+    "doc_id": "AA23-352A",
+    "start": 19771,
+    "end": 20652,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\94",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:20528:21542",
+    "doc_id": "AA23-352A",
+    "start": 20528,
+    "end": 21542,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\95",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:21415:22258",
+    "doc_id": "AA23-352A",
+    "start": 21415,
+    "end": 22258,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\96",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:22179:22895",
+    "doc_id": "AA23-352A",
+    "start": 22179,
+    "end": 22895,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\97",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:22768:24022",
+    "doc_id": "AA23-352A",
+    "start": 22768,
+    "end": 24022,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\98",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-352A:evaluation:llama500:23163:24531",
+    "doc_id": "AA23-352A",
+    "start": 23163,
+    "end": 24531,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\99",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:2065:4310",
+    "doc_id": "AA23-075A",
+    "start": 2065,
+    "end": 4310,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\100",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:4080:6201",
+    "doc_id": "AA23-075A",
+    "start": 4080,
+    "end": 6201,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\101",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:5977:8086",
+    "doc_id": "AA23-075A",
+    "start": 5977,
+    "end": 8086,
+    "status": "candidates_ready_for_review",
+    "relation_count": 4,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\102",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:7876:9861",
+    "doc_id": "AA23-075A",
+    "start": 7876,
+    "end": 9861,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\103",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:9606:11457",
+    "doc_id": "AA23-075A",
+    "start": 9606,
+    "end": 11457,
+    "status": "candidates_ready_for_review",
+    "relation_count": 1,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\104",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:11240:12930",
+    "doc_id": "AA23-075A",
+    "start": 11240,
+    "end": 12930,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\105",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:12712:14097",
+    "doc_id": "AA23-075A",
+    "start": 12712,
+    "end": 14097,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\106",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:13954:15486",
+    "doc_id": "AA23-075A",
+    "start": 13954,
+    "end": 15486,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\107",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:15300:16716",
+    "doc_id": "AA23-075A",
+    "start": 15300,
+    "end": 16716,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\108",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:16524:18208",
+    "doc_id": "AA23-075A",
+    "start": 16524,
+    "end": 18208,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\109",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:17999:19572",
+    "doc_id": "AA23-075A",
+    "start": 17999,
+    "end": 19572,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\110",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:19385:20727",
+    "doc_id": "AA23-075A",
+    "start": 19385,
+    "end": 20727,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\111",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:20640:22313",
+    "doc_id": "AA23-075A",
+    "start": 20640,
+    "end": 22313,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\112",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:22086:24117",
+    "doc_id": "AA23-075A",
+    "start": 22086,
+    "end": 24117,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\113",
+    "duplicate_normalization": []
+  },
+  {
+    "window_id": "AA23-075A:evaluation:llama500:23852:25424",
+    "doc_id": "AA23-075A",
+    "start": 23852,
+    "end": 25424,
+    "status": "empty_extraction",
+    "relation_count": 0,
+    "original_case": "S:\\ThreatWeave\\work\\evaluation_corpus_extraction\\20261016T041122Z-a67a194f\\114",
+    "duplicate_normalization": []
+  }
+]

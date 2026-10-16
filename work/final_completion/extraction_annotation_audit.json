@@ -1,0 +1,20 @@
+{
+  "status": "frozen_gold_retained_with_coverage_flags",
+  "review_type": "AI-assisted source inspection after exact-match scoring; not a new human annotation or permission to alter frozen labels",
+  "numeric_scores_changed": false,
+  "finding": "Five exact-gold nonmatches appear source-supported at the stated or broader actor/technique granularity. This conflicts with, or reveals an unstated granularity limit in, the original complete-scope annotation declaration. Their inclusion as FP is an exact-benchmark disagreement, not sufficient proof of semantic hallucination.",
+  "potential_coverage_or_granularity_flags": [
+    {"scope_id":"AA24-109A:paragraph:8222","head":"SoftPerfect","predicate":"USES_TECHNIQUE","tail":"T1016","basis":"The source explicitly lists SoftPerfect, Advanced IP Scanner, and NetScan with [T1016]. Frozen gold records actor software use but omits these software-to-technique assertions."},
+    {"scope_id":"AA24-109A:paragraph:8222","head":"Advanced IP Scanner","predicate":"USES_TECHNIQUE","tail":"T1016","basis":"Same source list and cited technique. Preserve the source-reported ID without silently replacing its technique meaning."},
+    {"scope_id":"AA24-109A:paragraph:8222","head":"NetScan","predicate":"USES_TECHNIQUE","tail":"T1016","basis":"Same source list and cited technique; absent from frozen gold."},
+    {"scope_id":"AA24-109A:paragraph:12198","head":"Akira threat actors","predicate":"USES_TECHNIQUE","tail":"T1090","basis":"The source reports actors using Ngrok for secure exfiltration tunnels [T1090]. Frozen gold includes actor-to-Ngrok and Ngrok-to-T1090 but omits the broader direct actor-to-technique assertion."},
+    {"scope_id":"AA25-071A:paragraph:13808","head":"Medusa actors","predicate":"USES_TECHNIQUE","tail":"T1219","basis":"The source explicitly says Medusa actors use RMM software [T1219]. Frozen gold records named software-use and software-to-technique assertions but omits this direct actor-to-technique assertion."}
+  ],
+  "clear_nonmatch_patterns": [
+    "net incorrectly takes T1016 from the preceding scanner list",
+    "PsExec incorrectly takes RDP's T1021.001 instead of its adjacent T1569.002",
+    "taxonomy inferred from neighboring tactic IDs or activity purpose without an explicit taxonomic source assertion",
+    "Play ransomware software or LockBit 3.0 software takes a technique reported for the distinct human actors"
+  ],
+  "interpretation": "Report unchanged exact-reference precision/recall/F1 as benchmark-agreement measurements, retain the 12 gold nonmatches, and explicitly disclose these five coverage/granularity flags. Do not relabel gold, remove flagged predictions for better precision, or claim complete semantic precision. A separately versioned human errata review would be future work."
+}

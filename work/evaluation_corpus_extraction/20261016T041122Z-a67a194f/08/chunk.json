@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA23-165A:evaluation:llama500:15691:17884",
+  "doc_id": "AA23-165A",
+  "start": 15691,
+  "end": 17884,
+  "text": " Web Service: Exfiltration to Cloud Storage\nMicrosoft Sysinternals ProcDump\nMonitors applications for central processing unit (CPU) spikes and generates crash dumps during a spike.\nObtains credentials by dumping the contents of Local Security Authority Subsystem Service (LSASS).\nT1003.001\nOS Credential Dumping: LSASS Memory\nMicrosoft Sysinternals PsExec\nExecutes a command-line process on a remote machine.\nEnables LockBit affiliate actors to control victim’s systems.\nS0029\nPsExec\nMimikatz\nExtracts credentials from a system.\nExtracts credentials from a system for gaining network access and exploiting systems.\nS0002\nMimikatz\nNgrok\nEnables remote access to a local web server by tunnelling over the internet.\nEnables victim network protections to be bypassed by tunnelling to a system over the internet.\nS0508\nNgrok\nPasswordFox\nRecovers passwords from Firefox Browser.\nObtains credentials for network access and exploitation.\nT1555.003\nCredentials from Web Browsers\nPCHunter\nEnables advanced task management including system processes and kernels.\nTerminates and circumvents EDR processes and services.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nPowerTool\nRemoves rootkits, as well as detecting, analyzing, and fixing kernel structure modifications.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nProcess Hacker\nRemoves rootkits.\nTerminates and removes EDR software.\nT1562.001\nImpair Defenses: Disable or Modify Tools\nPuTTY Link (Plink)\nAutomates Secure Shell (SSH) actions on Windows.\nEnables LockBit affiliate actors to avoid detection.\nT1572\nProtocol Tunneling\nRclone\nManages cloud storage files using a command-line program.\nFacilitates data exfiltration over cloud storage.\nS1040\nRclone\nSeatbelt\nPerforms numerous security-oriented checks.\nPerforms numerous security-oriented checks to enumerate system information.\nT1082\nSystem Information Discovery\nScreenConnect (also known as ConnectWise)\nEnables remote connections to network devices for management.\nEnables LockBit affiliate actors to remotely connect to a victim’s systems.\nT1219\nRemote Access Software\nSoftPerfect Network Scanner\nPerforms network scans for systems management.\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 70,
+      "text": "Understanding Ransomware Threat Actors: LockBit"
+    },
+    {
+      "start": 2293,
+      "end": 2310,
+      "text": "TECHNICAL DETAILS"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

@@ -1,0 +1,396 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "BlackSuit",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "BlackSuit actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1486",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "vssadmin.exe",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "T1078.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1119",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1070.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "IOCs",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "Royal",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "BlackSuit threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "royal",
+      "codes": [
+        "S"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "BlackSuit",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "BlackSuit actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1486",
+      "type": "Technique",
+      "attack_id": "T1486"
+    },
+    "m004_S": {
+      "name": "vssadmin.exe",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m005_T": {
+      "name": "T1078.002",
+      "type": "Technique",
+      "attack_id": "T1078.002"
+    },
+    "m006_T": {
+      "name": "T1119",
+      "type": "Technique",
+      "attack_id": "T1119"
+    },
+    "m007_T": {
+      "name": "T1070.001",
+      "type": "Technique",
+      "attack_id": "T1070.001"
+    },
+    "m008_S": {
+      "name": "IOCs",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m009_S": {
+      "name": "Royal",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m010_G": {
+      "name": "BlackSuit threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m011_S": {
+      "name": "royal",
+      "type": "Software",
+      "attack_id": null
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 10,
+      "text": "Encryption",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 11,
+      "end": 68,
+      "text": "Before starting the encryption process, BlackSuit actors:",
+      "line_start": 11
+    },
+    "u003": {
+      "start": 69,
+      "end": 198,
+      "text": "Use Windows Restart Manager to determine whether targeted files are currently in use or blocked by other applications [T1486].[1]",
+      "line_start": 69
+    },
+    "u004": {
+      "start": 199,
+      "end": 307,
+      "text": "Use Windows Volume Shadow Copy service (vssadmin.exe) to delete shadow copies to inhibit system recovery.[1]",
+      "line_start": 199
+    },
+    "u005": {
+      "start": 308,
+      "end": 428,
+      "text": "FBI has found numerous batch (.bat) files on impacted systems which are typically transferred as an encrypted 7zip file.",
+      "line_start": 308
+    },
+    "u006": {
+      "start": 429,
+      "end": 476,
+      "text": "Batch files create a new admin user [T1078.002]",
+      "line_start": 308
+    },
+    "u007": {
+      "start": 478,
+      "end": 719,
+      "text": "force a group policy update, set pertinent registry keys to auto-extract [T1119] and execute the ransomware, monitor the encryption process, and delete files upon completion—including Application, System, and Security event logs [T1070.001].",
+      "line_start": 308
+    },
+    "u008": {
+      "start": 720,
+      "end": 815,
+      "text": "Registry Keys created can be modified and deleted to enable persistence on the victim’s system.",
+      "line_start": 308
+    },
+    "u009": {
+      "start": 816,
+      "end": 896,
+      "text": "Malicious files have been found in victim networks in the following directories:",
+      "line_start": 816
+    },
+    "u010": {
+      "start": 897,
+      "end": 905,
+      "text": "C:\\Temp\\",
+      "line_start": 897
+    },
+    "u011": {
+      "start": 906,
+      "end": 938,
+      "text": "C:\\Users\\<user>\\AppData\\Roaming\\",
+      "line_start": 906
+    },
+    "u012": {
+      "start": 939,
+      "end": 956,
+      "text": "C:\\Users\\<users>\\",
+      "line_start": 939
+    },
+    "u013": {
+      "start": 957,
+      "end": 972,
+      "text": "C:\\ProgramData\\",
+      "line_start": 957
+    },
+    "u014": {
+      "start": 973,
+      "end": 1050,
+      "text": "Root C:\\ directory has also served as a storage location for malicious files.",
+      "line_start": 973
+    },
+    "u015": {
+      "start": 1051,
+      "end": 1164,
+      "text": "BlackSuit actors have been observed using legitimate software and open source tools during ransomware operations.",
+      "line_start": 973
+    },
+    "u016": {
+      "start": 1165,
+      "end": 1196,
+      "text": "Indicators of Compromise (IOCs)",
+      "line_start": 1165
+    },
+    "u017": {
+      "start": 1197,
+      "end": 1320,
+      "text": "See Table 1 through Table 5 for Royal ransomware IOCs obtained by FBI during threat response activities as of January 2023.",
+      "line_start": 1197
+    },
+    "u018": {
+      "start": 1321,
+      "end": 1425,
+      "text": "(New November 13, 2023) See Table 6 and Table 7 for Royal and BlackSuit Ransomware IOCs as of June 2023.",
+      "line_start": 1321
+    },
+    "u019": {
+      "start": 1426,
+      "end": 1568,
+      "text": "See Table 8 for a list of legitimate software used by Royal and BlackSuit threat actors identified through FBI investigations as of June 2023.",
+      "line_start": 1321
+    },
+    "u020": {
+      "start": 1569,
+      "end": 1753,
+      "text": "(New August 7, 2024) See Table 9 through Table 15 for BlackSuit ransomware IOCs obtained by FBI during threat response activities as of July 2024 and Figure 1 for a sample ransom note.",
+      "line_start": 1569
+    },
+    "u021": {
+      "start": 1754,
+      "end": 1822,
+      "text": "Disclaimer: Some of the observed IP addresses are several years old.",
+      "line_start": 1754
+    },
+    "u022": {
+      "start": 1823,
+      "end": 1947,
+      "text": "FBI and CISA recommend vetting or investigating these IP addresses prior to taking forward-looking action, such as blocking.",
+      "line_start": 1754
+    },
+    "u023": {
+      "start": 1948,
+      "end": 1977,
+      "text": "Royal IOCs as of January 2023",
+      "line_start": 1948
+    },
+    "u024": {
+      "start": 1978,
+      "end": 2039,
+      "text": "Table 1: Royal Ransomware Associated Files as of January 2023",
+      "line_start": 1978
+    },
+    "u025": {
+      "start": 2040,
+      "end": 2043,
+      "text": "IOC",
+      "line_start": 2040
+    },
+    "u026": {
+      "start": 2044,
+      "end": 2055,
+      "text": "Description",
+      "line_start": 2044
+    },
+    "u027": {
+      "start": 2056,
+      "end": 2062,
+      "text": ".royal",
+      "line_start": 2056
+    },
+    "u028": {
+      "start": 2063,
+      "end": 2087,
+      "text": "Encrypted file extension",
+      "line_start": 2063
+    },
+    "u029": {
+      "start": 2088,
+      "end": 2098,
+      "text": "README.TXT",
+      "line_start": 2088
+    },
+    "u030": {
+      "start": 2099,
+      "end": 2110,
+      "text": "Ransom note",
+      "line_start": 2099
+    },
+    "u031": {
+      "start": 2111,
+      "end": 2179,
+      "text": "Table 2: Royal Ransomware Associated IP addresses as of January 2023",
+      "line_start": 2111
+    },
+    "u032": {
+      "start": 2180,
+      "end": 2192,
+      "text": "Malicious IP",
+      "line_start": 2180
+    },
+    "u033": {
+      "start": 2193,
+      "end": 2215,
+      "text": "Last Observed Activity",
+      "line_start": 2193
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "local:Software:blacksuit",
+    "m002_G": "local:ThreatGroup:blacksuit actors",
+    "m003_T": "attack:T1486",
+    "m004_S": "local:Software:vssadmin.exe",
+    "m005_T": "attack:T1078.002",
+    "m006_T": "attack:T1119",
+    "m007_T": "attack:T1070.001",
+    "m008_S": "local:Software:iocs",
+    "m009_S": "attack:S1073",
+    "m010_G": "local:ThreatGroup:blacksuit threat actors",
+    "m011_S": "attack:S1073"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u019"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m010_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m009_S"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u002",
+        "u003"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES_TECHNIQUE",
+      "tails": [
+        "m003_T"
+      ]
+    },
+    {
+      "unit_ids": [
+        "u002",
+        "u004"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m004_S"
+      ]
+    }
+  ]
+}

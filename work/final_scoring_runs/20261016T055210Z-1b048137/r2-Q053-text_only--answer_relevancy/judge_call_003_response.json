@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:53:50.0272206Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 517900100,
+  "load_duration": 11257200,
+  "prompt_eval_count": 464,
+  "prompt_eval_duration": 12851000,
+  "eval_count": 40,
+  "eval_duration": 487750000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"question\": \"What is the relationship between LockBit affiliates' ThunderShell activity and Impair Defenses (T1562)?\",\n  \"noncommittal\": 0\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

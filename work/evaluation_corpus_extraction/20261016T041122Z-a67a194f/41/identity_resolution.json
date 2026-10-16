@@ -1,0 +1,47 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "Black Basta affiliates",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "BITSAdmin",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0190",
+    "canonical_name": "BITSAdmin",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e3",
+    "mention": "PsExec",
+    "status": "resolved",
+    "reason": "unique exact name or verified alias",
+    "canonical_id": "attack:S0029",
+    "canonical_name": "PsExec",
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "Remote Desktop Protocol",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e5",
+    "mention": "RDP",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  }
+]

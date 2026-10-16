@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "local_id": "e1",
+      "type": "Software",
+      "name": "LockBit 3.0",
+      "attack_id": null
+    },
+    {
+      "local_id": "e2",
+      "type": "Technique",
+      "name": "T1480.001",
+      "attack_id": "T1480.001"
+    }
+  ],
+  "relations": [
+    {
+      "head": "e1",
+      "predicate": "USES_TECHNIQUE",
+      "tail": "e2",
+      "evidence": {
+        "start": 1028,
+        "end": 1142,
+        "quote": "LockBit 3.0 affiliates failing to enter the correct password will be unable to execute the ransomware [T1480.001]."
+      },
+      "confidence": null
+    }
+  ]
+}

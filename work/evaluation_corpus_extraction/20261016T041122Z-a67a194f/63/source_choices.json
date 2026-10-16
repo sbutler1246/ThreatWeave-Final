@@ -1,0 +1,458 @@
+{
+  "mentions": [
+    {
+      "id": "m001",
+      "text": "Akira",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m002",
+      "text": "Akira threat actors",
+      "codes": [
+        "G"
+      ]
+    },
+    {
+      "id": "m003",
+      "text": "T1136.002",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m004",
+      "text": "T1068",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m005",
+      "text": "POORTRY",
+      "codes": [
+        "S"
+      ]
+    },
+    {
+      "id": "m006",
+      "text": "T1027",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m007",
+      "text": "T1027.015",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m008",
+      "text": "T1036",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m009",
+      "text": "T1222.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m010",
+      "text": "T1562.001",
+      "codes": [
+        "T"
+      ]
+    },
+    {
+      "id": "m011",
+      "text": "T1562.004",
+      "codes": [
+        "T"
+      ]
+    }
+  ],
+  "choices": {
+    "m001_S": {
+      "name": "Akira",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m002_G": {
+      "name": "Akira threat actors",
+      "type": "ThreatGroup",
+      "attack_id": null
+    },
+    "m003_T": {
+      "name": "T1136.002",
+      "type": "Technique",
+      "attack_id": "T1136.002"
+    },
+    "m004_T": {
+      "name": "T1068",
+      "type": "Technique",
+      "attack_id": "T1068"
+    },
+    "m005_S": {
+      "name": "POORTRY",
+      "type": "Software",
+      "attack_id": null
+    },
+    "m006_T": {
+      "name": "T1027",
+      "type": "Technique",
+      "attack_id": "T1027"
+    },
+    "m007_T": {
+      "name": "T1027.015",
+      "type": "Technique",
+      "attack_id": "T1027.015"
+    },
+    "m008_T": {
+      "name": "T1036",
+      "type": "Technique",
+      "attack_id": "T1036"
+    },
+    "m009_T": {
+      "name": "T1222.001",
+      "type": "Technique",
+      "attack_id": "T1222.001"
+    },
+    "m010_T": {
+      "name": "T1562.001",
+      "type": "Technique",
+      "attack_id": "T1562.001"
+    },
+    "m011_T": {
+      "name": "T1562.004",
+      "type": "Technique",
+      "attack_id": "T1562.004"
+    }
+  },
+  "units": {
+    "u001": {
+      "start": 0,
+      "end": 3,
+      "text": "001",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 4,
+      "end": 126,
+      "text": "Akira threat actors can create local user accounts by adding them to local admin groups to establish persistent backdoors.",
+      "line_start": 4
+    },
+    "u003": {
+      "start": 127,
+      "end": 137,
+      "text": "End Update",
+      "line_start": 127
+    },
+    "u004": {
+      "start": 138,
+      "end": 168,
+      "text": "Create Account: Domain Account",
+      "line_start": 138
+    },
+    "u005": {
+      "start": 169,
+      "end": 178,
+      "text": "T1136.002",
+      "line_start": 169
+    },
+    "u006": {
+      "start": 179,
+      "end": 309,
+      "text": "Akira threat actors attempt to abuse the functions of domain controllers by creating new domain accounts to establish persistence.",
+      "line_start": 179
+    },
+    "u007": {
+      "start": 310,
+      "end": 319,
+      "text": "Table 13.",
+      "line_start": 310
+    },
+    "u008": {
+      "start": 320,
+      "end": 340,
+      "text": "Privilege Escalation",
+      "line_start": 310
+    },
+    "u009": {
+      "start": 341,
+      "end": 356,
+      "text": "Technique Title",
+      "line_start": 341
+    },
+    "u010": {
+      "start": 357,
+      "end": 359,
+      "text": "ID",
+      "line_start": 357
+    },
+    "u011": {
+      "start": 360,
+      "end": 363,
+      "text": "Use",
+      "line_start": 360
+    },
+    "u012": {
+      "start": 364,
+      "end": 401,
+      "text": "Exploitation for Privilege Escalation",
+      "line_start": 364
+    },
+    "u013": {
+      "start": 402,
+      "end": 407,
+      "text": "T1068",
+      "line_start": 402
+    },
+    "u014": {
+      "start": 408,
+      "end": 628,
+      "text": "Akira threat actors exploit unpatched software vulnerabilities (e.g., Veeam Backup and Replication CVEs) to gain elevated privileges on hosts or servers (enabling access to sensitive data), and for credential harvesting.",
+      "line_start": 408
+    },
+    "u015": {
+      "start": 629,
+      "end": 649,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 629
+    },
+    "u016": {
+      "start": 650,
+      "end": 793,
+      "text": "Akira threat actors use POORTRY malware written as a signed vulnerable Windows driver to deploy BYOVD techniques to obtain elevated privileges.",
+      "line_start": 650
+    },
+    "u017": {
+      "start": 794,
+      "end": 804,
+      "text": "End Update",
+      "line_start": 794
+    },
+    "u018": {
+      "start": 805,
+      "end": 814,
+      "text": "Table 14.",
+      "line_start": 805
+    },
+    "u019": {
+      "start": 815,
+      "end": 830,
+      "text": "Defense Evasion",
+      "line_start": 805
+    },
+    "u020": {
+      "start": 831,
+      "end": 846,
+      "text": "Technique Title",
+      "line_start": 831
+    },
+    "u021": {
+      "start": 847,
+      "end": 849,
+      "text": "ID",
+      "line_start": 847
+    },
+    "u022": {
+      "start": 850,
+      "end": 853,
+      "text": "Use",
+      "line_start": 850
+    },
+    "u023": {
+      "start": 854,
+      "end": 874,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 854
+    },
+    "u024": {
+      "start": 875,
+      "end": 906,
+      "text": "Obfuscated Files or Information",
+      "line_start": 875
+    },
+    "u025": {
+      "start": 907,
+      "end": 912,
+      "text": "T1027",
+      "line_start": 907
+    },
+    "u026": {
+      "start": 913,
+      "end": 1118,
+      "text": "Akira threat actors obfuscate or encrypt malware, scripts, and network payloads (e.g., packers, Base64/XOR encoding, script obfuscation, or custom encryption) to evade detection and slow forensic analysis.",
+      "line_start": 913
+    },
+    "u027": {
+      "start": 1119,
+      "end": 1163,
+      "text": "Obfuscated Files or Information: Compression",
+      "line_start": 1119
+    },
+    "u028": {
+      "start": 1164,
+      "end": 1173,
+      "text": "T1027.015",
+      "line_start": 1164
+    },
+    "u029": {
+      "start": 1174,
+      "end": 1275,
+      "text": "Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection.",
+      "line_start": 1174
+    },
+    "u030": {
+      "start": 1276,
+      "end": 1288,
+      "text": "Masquerading",
+      "line_start": 1276
+    },
+    "u031": {
+      "start": 1289,
+      "end": 1294,
+      "text": "T1036",
+      "line_start": 1289
+    },
+    "u032": {
+      "start": 1295,
+      "end": 1374,
+      "text": "Akira threat actors disguise malicious files and payloads to appear legitimate.",
+      "line_start": 1295
+    },
+    "u033": {
+      "start": 1375,
+      "end": 1471,
+      "text": "File and Directory Permissions Modification: Windows File and Directory Permissions Modification",
+      "line_start": 1375
+    },
+    "u034": {
+      "start": 1472,
+      "end": 1481,
+      "text": "T1222.001",
+      "line_start": 1472
+    },
+    "u035": {
+      "start": 1482,
+      "end": 1644,
+      "text": "Akira threat actors use the takedown command to assume ownership of directories and files and use the icacls command to modify discretionary access control lists.",
+      "line_start": 1482
+    },
+    "u036": {
+      "start": 1645,
+      "end": 1655,
+      "text": "End Update",
+      "line_start": 1645
+    },
+    "u037": {
+      "start": 1656,
+      "end": 1696,
+      "text": "Impair Defenses: Disable or Modify Tools",
+      "line_start": 1656
+    },
+    "u038": {
+      "start": 1697,
+      "end": 1706,
+      "text": "T1562.001",
+      "line_start": 1697
+    },
+    "u039": {
+      "start": 1707,
+      "end": 1779,
+      "text": "Akira threat actors use a BYOVD technique to disable antivirus software.",
+      "line_start": 1707
+    },
+    "u040": {
+      "start": 1780,
+      "end": 1800,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1780
+    },
+    "u041": {
+      "start": 1801,
+      "end": 1916,
+      "text": "Akira threat actors use PowerTool to exploit Zemana AntiMalware driver and terminate antivirus defensive processes.",
+      "line_start": 1801
+    },
+    "u042": {
+      "start": 1917,
+      "end": 1987,
+      "text": "Akira threat actors uninstall EDR systems to evade endpoint detection.",
+      "line_start": 1917
+    },
+    "u043": {
+      "start": 1988,
+      "end": 1998,
+      "text": "End Update",
+      "line_start": 1988
+    },
+    "u044": {
+      "start": 1999,
+      "end": 2019,
+      "text": "Update Nov. 13, 2025",
+      "line_start": 1999
+    },
+    "u045": {
+      "start": 2020,
+      "end": 2070,
+      "text": "Impair Defenses: Disable or Modify System Firewall",
+      "line_start": 2020
+    },
+    "u046": {
+      "start": 2071,
+      "end": 2080,
+      "text": "T1562.004",
+      "line_start": 2071
+    },
+    "u047": {
+      "start": 2081,
+      "end": 2185,
+      "text": "Akira threat actors use the allssh modify_firewall command to open specific ports on the eth0 interface.",
+      "line_start": 2081
+    },
+    "u048": {
+      "start": 2186,
+      "end": 2206,
+      "text": "Proxy Through Victim",
+      "line_start": 2186
+    }
+  },
+  "captions": {},
+  "identities": {
+    "m001_S": "attack:S1129",
+    "m002_G": "local:ThreatGroup:akira threat actors",
+    "m003_T": "attack:T1136.002",
+    "m004_T": "attack:T1068",
+    "m005_S": "local:Software:poortry",
+    "m006_T": "attack:T1027",
+    "m007_T": "attack:T1027.015",
+    "m008_T": "attack:T1036",
+    "m009_T": "attack:T1222.001",
+    "m010_T": "attack:T1562.001",
+    "m011_T": "attack:T1562.004"
+  },
+  "unavailable_choices": [],
+  "evidence_patterns": [
+    {
+      "unit_ids": [
+        "u016"
+      ],
+      "context_ids": [],
+      "heads": [
+        "m002_G"
+      ],
+      "predicate": "USES",
+      "tails": [
+        "m005_S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task": {
+    "task_id": "r2-Q050-hybrid--faithfulness",
+    "case_id": "r2-Q050-hybrid",
+    "metric": "faithfulness",
+    "eligible": false
+  },
+  "input_sha256": "e5e4fa0d4bf36b8a0e68df831698eeebbaad3c23c341ba167af81513172a79c1",
+  "status": "unavailable_answer",
+  "value": null,
+  "reason": "Original generation failed; no valid response exists.",
+  "judge_calls": 0,
+  "elapsed_ms": 0.0035999983083456755,
+  "files_sha256": {
+    "input.json": "f3bffd008fa17ff92a724ee661b28fcb45e51dda2931bde8b26aaa5b37ff5c70",
+    "result.json": "bd74b52e1316a52bec793f07a5c6656b49565ada4e7838f5e038ea40898b5f8d"
+  }
+}

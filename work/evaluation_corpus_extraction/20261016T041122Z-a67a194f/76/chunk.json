@@ -1,0 +1,22 @@
+{
+  "chunk_id": "AA25-071A:evaluation:llama500:20162:22243",
+  "doc_id": "AA25-071A",
+  "start": 20162,
+  "end": 22243,
+  "text": " time. Additionally, Medusa actors research victim financial details and base their demands on publicly posted revenue. After a victim pays the ransom, Medusa actors claim to remove the victim’s information from the site. Note: There is no way to verify that Medusa actors remove victim data from the site.\nMedusa concurrently advertises sale of the data to interested parties before the countdown timer ends. Victims can pay $10,000 USD in cryptocurrency to add a day to the countdown timer.\n(Updated Aug. 18, 2026) Medusa actors generally request payment in Bitcoin but may demand payment in other cryptocurrencies.\nFBI investigations identified that after paying the ransom, one victim was contacted by a separate Medusa actor who claimed the negotiator had stolen the ransom amount already paid and requested half of the payment be made again to provide the “true decryptor”—potentially indicating a triple-extortion scheme, or operational dysfunction and a lack of cohesion among ransomware group.\nIndicators of Compromise\nTable 1 and Table 2 are lists of the malicious IP addresses, the URLs, and the hashes of files obtained during FBI investigations.\nDisclaimer: Some of these indicators may be legitimate. The authoring agencies recommend organizations investigate or vet the IOCs prior to taking action, such as blocking.\nTable 1. Indicators of Compromise (Updated Aug. 18, 2026)\nIOC\nType\nDescription\n143.244.47[.]89\nIP Address\nIP used to access PHP Web Shell (Mullvad VPN)\n167.88.166[.]173\nIP Address\nLigolo proxy IP\nhttps://3324.requestcatcher[.]com/hihi\nURL\nAdditional URL associated with Ligolo commands\n143.110.243[.]154 aka erp.ranasons[.]com\nIP Address & URL\nExfiltration IP/domain\n185.238.231[.]16\nIP Address\nIP used to access BeyondTrust session (ExpressVPN)\n23.234.89[.]195\nIP Address\nIP used to access BeyondTrust session (Mullvad VPN)\n146.70.172[.]247\nIP Address\nIP used to access BeyondTrust session (Mullvad VPN)\n155.2.215[.]71\nIP Address\nIP used to access BeyondTrust session\n23.234.106[.]242\nIP Address\nIP used to access BeyondTrust session (Mullvad VPN)\n",
+  "inherited_context": [
+    {
+      "start": 23,
+      "end": 57,
+      "text": "#StopRansomware: Medusa Ransomware"
+    },
+    {
+      "start": 4834,
+      "end": 4851,
+      "text": "Technical Details"
+    }
+  ],
+  "role": "extraction",
+  "parent_extraction_chunk_id": null,
+  "embedding": null
+}

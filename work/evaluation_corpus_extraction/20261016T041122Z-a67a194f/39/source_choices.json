@@ -1,0 +1,298 @@
+{
+  "mentions": [],
+  "choices": {},
+  "units": {
+    "u001": {
+      "start": 1,
+      "end": 4,
+      "text": "EDX",
+      "line_start": 0
+    },
+    "u002": {
+      "start": 5,
+      "end": 16,
+      "text": "// 99 | CDQ",
+      "line_start": 5
+    },
+    "u003": {
+      "start": 17,
+      "end": 44,
+      "text": "// 33 c8 | XOR param_1, EAX",
+      "line_start": 17
+    },
+    "u004": {
+      "start": 45,
+      "end": 54,
+      "text": "// 402f00",
+      "line_start": 45
+    },
+    "u005": {
+      "start": 55,
+      "end": 143,
+      "text": "$code_xor_loop_2 = { 0f a4 ce ?? c1 ea ?? 0b f2 c1 e1 ?? 0b c8 0f be c3 8a 1f 99 33 c8 }",
+      "line_start": 55
+    },
+    "u006": {
+      "start": 144,
+      "end": 182,
+      "text": "// 0f a4 ce ?? | SHLD ESI, param_1, ??",
+      "line_start": 144
+    },
+    "u007": {
+      "start": 183,
+      "end": 208,
+      "text": "// c1 ea ?? | SHR EDX, ??",
+      "line_start": 183
+    },
+    "u008": {
+      "start": 209,
+      "end": 231,
+      "text": "// 0b f2 | OR ESI, EDX",
+      "line_start": 209
+    },
+    "u009": {
+      "start": 232,
+      "end": 262,
+      "text": "// c1 e1 ?? | SHL, param_1, ??",
+      "line_start": 232
+    },
+    "u010": {
+      "start": 263,
+      "end": 289,
+      "text": "// 0b c8 | OR param_1, EDX",
+      "line_start": 263
+    },
+    "u011": {
+      "start": 290,
+      "end": 317,
+      "text": "// 0f be c3 | MOVSX EAX, BL",
+      "line_start": 290
+    },
+    "u012": {
+      "start": 318,
+      "end": 347,
+      "text": "// 8a 1f | BL, byte ptr [EDI]",
+      "line_start": 318
+    },
+    "u013": {
+      "start": 348,
+      "end": 359,
+      "text": "// 99 | CDQ",
+      "line_start": 348
+    },
+    "u014": {
+      "start": 360,
+      "end": 387,
+      "text": "// 33 c8 | XOR param_1, EAX",
+      "line_start": 360
+    },
+    "u015": {
+      "start": 388,
+      "end": 398,
+      "text": "condition:",
+      "line_start": 388
+    },
+    "u016": {
+      "start": 399,
+      "end": 410,
+      "text": "any of them",
+      "line_start": 399
+    },
+    "u017": {
+      "start": 411,
+      "end": 412,
+      "text": "}",
+      "line_start": 411
+    },
+    "u018": {
+      "start": 413,
+      "end": 440,
+      "text": "rule win_BlackSuit_manual {",
+      "line_start": 413
+    },
+    "u019": {
+      "start": 441,
+      "end": 446,
+      "text": "meta:",
+      "line_start": 441
+    },
+    "u020": {
+      "start": 447,
+      "end": 471,
+      "text": "author = \"CVH - Raleigh\"",
+      "line_start": 447
+    },
+    "u021": {
+      "start": 472,
+      "end": 491,
+      "text": "date = \"2024-07-12\"",
+      "line_start": 472
+    },
+    "u022": {
+      "start": 492,
+      "end": 505,
+      "text": "version = \"1\"",
+      "line_start": 492
+    },
+    "u023": {
+      "start": 506,
+      "end": 543,
+      "text": "description = \"Detects win.BlackSuit.",
+      "line_start": 506
+    },
+    "u024": {
+      "start": 544,
+      "end": 625,
+      "text": "Rules were manually constructed and results should not be considered conclusive.\"",
+      "line_start": 506
+    },
+    "u025": {
+      "start": 626,
+      "end": 711,
+      "text": "malpedia_reference = \"https://malpedia.caad.fkie.fraunhofer.de/details/win.BlackSuit\"",
+      "line_start": 626
+    },
+    "u026": {
+      "start": 712,
+      "end": 720,
+      "text": "strings:",
+      "line_start": 712
+    },
+    "u027": {
+      "start": 721,
+      "end": 775,
+      "text": "// Somehow keeps this in plaintext, although in UTF-16",
+      "line_start": 721
+    },
+    "u028": {
+      "start": 776,
+      "end": 833,
+      "text": "$string_readme = \"readme.BlackSuit.txt\" nocase wide ascii",
+      "line_start": 776
+    },
+    "u029": {
+      "start": 834,
+      "end": 899,
+      "text": "// RSA key for encrypting AES encryption key present in plaintext",
+      "line_start": 834
+    },
+    "u030": {
+      "start": 900,
+      "end": 958,
+      "text": "$string_rsa_key = \"BEGIN RSA PUBLIC KEY\" nocase wide ascii",
+      "line_start": 900
+    },
+    "u031": {
+      "start": 959,
+      "end": 983,
+      "text": "// Unusual debug strings",
+      "line_start": 959
+    },
+    "u032": {
+      "start": 984,
+      "end": 1017,
+      "text": "$string_debug_1 = \".rdata$voltmd\"",
+      "line_start": 984
+    },
+    "u033": {
+      "start": 1018,
+      "end": 1051,
+      "text": "$string_debug_2 = \".rdata$zzzdbg\"",
+      "line_start": 1018
+    },
+    "u034": {
+      "start": 1052,
+      "end": 1079,
+      "text": "// Relevant functions calls",
+      "line_start": 1052
+    },
+    "u035": {
+      "start": 1080,
+      "end": 1113,
+      "text": "$import_1 = \"MultiByteToWideChar\"",
+      "line_start": 1080
+    },
+    "u036": {
+      "start": 1114,
+      "end": 1148,
+      "text": "$import_2 = \"EnterCriticalSection\"",
+      "line_start": 1114
+    },
+    "u037": {
+      "start": 1149,
+      "end": 1177,
+      "text": "$import_3 = \"GetProcessHeap\"",
+      "line_start": 1149
+    },
+    "u038": {
+      "start": 1178,
+      "end": 1188,
+      "text": "condition:",
+      "line_start": 1178
+    },
+    "u039": {
+      "start": 1189,
+      "end": 1223,
+      "text": "(is_executable and $string_readme)",
+      "line_start": 1189
+    },
+    "u040": {
+      "start": 1224,
+      "end": 1226,
+      "text": "Or",
+      "line_start": 1224
+    },
+    "u041": {
+      "start": 1227,
+      "end": 1246,
+      "text": "($string_readme and",
+      "line_start": 1227
+    },
+    "u042": {
+      "start": 1247,
+      "end": 1311,
+      "text": "(obfuscates_dlls or calls_rsa_function or xor_decoder_functions)",
+      "line_start": 1247
+    },
+    "u043": {
+      "start": 1312,
+      "end": 1313,
+      "text": ")",
+      "line_start": 1312
+    },
+    "u044": {
+      "start": 1314,
+      "end": 1316,
+      "text": "or",
+      "line_start": 1314
+    },
+    "u045": {
+      "start": 1317,
+      "end": 1382,
+      "text": "2 of (obfuscates_dlls, calls_rsa_function, xor_decoder_functions)",
+      "line_start": 1317
+    },
+    "u046": {
+      "start": 1383,
+      "end": 1385,
+      "text": "or",
+      "line_start": 1383
+    },
+    "u047": {
+      "start": 1386,
+      "end": 1467,
+      "text": "1 of (obfuscates_dlls, calls_rsa_function, xor_decoder_functions) and any of them",
+      "line_start": 1386
+    },
+    "u048": {
+      "start": 1468,
+      "end": 1469,
+      "text": "}",
+      "line_start": 1468
+    }
+  },
+  "captions": {},
+  "identities": {},
+  "unavailable_choices": [],
+  "evidence_patterns": []
+}

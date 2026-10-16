@@ -1,0 +1,8 @@
+{
+  "user_input": "Which mitigation options have direct, active mitigates relationships in Enterprise ATT&CK 17.1 to the technique mapped to PasswordFox in AA23-165A? Follow the two-hop software-to-technique-to-mitigation path. Distinguish advisory observations from reference recommendations.",
+  "response": "The retrieved evidence is insufficient to answer this question.",
+  "retrieved_contexts": [
+    "SOURCE PASSAGES\nGRAPH NODES\nGRAPH PATHS"
+  ],
+  "reference": "The selected advisory row maps its reported use to T1555.003 (Credentials from Web Browsers). The direct, active mitigates relationships in Enterprise ATT&CK 17.1 connect this technique to: M1017 (User Training), M1018 (User Account Management), M1021 (Restrict Web-Based Content), M1027 (Password Policies), M1051 (Update Software). These are reference mitigation associations, not incident-specific proof of effectiveness."
+}

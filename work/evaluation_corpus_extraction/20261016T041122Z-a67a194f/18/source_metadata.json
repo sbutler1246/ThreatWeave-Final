@@ -1,0 +1,38 @@
+{
+  "chunk": {
+    "chunk_id": "AA23-061A:evaluation:llama500:10300:11484",
+    "doc_id": "AA23-061A",
+    "start": 10300,
+    "end": 11484,
+    "text": " Royal Ransomware Associated Files as of January 2023\nIOC\nDescription\n.royal\nEncrypted file extension\nREADME.TXT\nRansom note\nTable 2: Royal Ransomware Associated IP addresses as of January 2023\nMalicious IP\nLast Observed Activity\n102.157.44[.]105\nNovember 2022\n105.158.118[.]241\nNovember 2022\n105.69.155[.]85\nNovember 2022\n113.169.187[.]159\nNovember 2022\n134.35.9[.]209\nNovember 2022\n139.195.43[.]166\nNovember 2022\n139.60.161[.]213\nNovember 2022\n148.213.109[.]165\nNovember 2022\n163.182.177[.]80\nNovember 2022\n181.141.3[.]126\nNovember 2022\n181.164.194[.]228\nNovember 2022\n185.143.223[.]69\nNovember 2022\n186.64.67[.]6\nNovember 2022\n186.86.212[.]138\nNovember 2022\n190.193.180[.]228\nNovember 2022\n196.70.77[.]11\nNovember 2022\n197.11.134[.]255\nNovember 2022\n197.158.89[.]85\nNovember 2022\n197.204.247[.]7\nNovember 2022\n197.207.181[.]147\nNovember 2022\n197.207.218[.]27\nNovember 2022\n197.94.67[.]207\nNovember 2022\n23.111.114[.]52\nNovember 2022\n41.100.55[.]97\nNovember 2022\n41.107.77[.]67\nNovember 2022\n41.109.11[.]80\nNovember 2022\n41.251.121[.]35\nNovember 2022\n41.97.65[.]51\nNovember 2022\n42.189.12[.]36\nNovember 2022\n45.227.251[.]167\nNovember 2022\n5.44.42[.]20\nNovember 2022\n61.166.221[.]46\n",
+    "inherited_context": [
+      {
+        "start": 23,
+        "end": 68,
+        "text": "#StopRansomware: Blacksuit (Royal) Ransomware"
+      },
+      {
+        "start": 4131,
+        "end": 4148,
+        "text": "Technical Details"
+      },
+      {
+        "start": 10292,
+        "end": 10300,
+        "text": "Table 1:"
+      }
+    ],
+    "role": "extraction",
+    "parent_extraction_chunk_id": null,
+    "embedding": null
+  },
+  "source_tokens": 503,
+  "inherited_context_tokens": 22,
+  "overlap_with_previous_tokens": 60,
+  "terminal_reanchored": false,
+  "short_section": false,
+  "source_text_sha256": "64ada4f9caab2b7f3f65e8661537db797c561559519cc5504d2d042e739b0309",
+  "doc_id": "AA23-061A",
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+  "source_hash": "04cd8262bd952be0e2ce037ad32358b50694ba699583e4855f52188eb204d587"
+}

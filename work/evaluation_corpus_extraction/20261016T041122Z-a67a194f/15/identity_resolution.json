@@ -1,0 +1,56 @@
+[
+  {
+    "local_id": "e1",
+    "mention": "BlackSuit actors",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e2",
+    "mention": "T1566",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1566",
+    "canonical_name": "Phishing",
+    "source_attack_id": "T1566"
+  },
+  {
+    "local_id": "e3",
+    "mention": "BlackSuit",
+    "status": "unresolved",
+    "reason": "unknown or ambiguous name",
+    "canonical_id": null,
+    "canonical_name": null,
+    "source_attack_id": null
+  },
+  {
+    "local_id": "e4",
+    "mention": "T1566.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1566.001",
+    "canonical_name": "Spearphishing Attachment",
+    "source_attack_id": "T1566.001"
+  },
+  {
+    "local_id": "e5",
+    "mention": "T1021.001",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1021.001",
+    "canonical_name": "Remote Desktop Protocol",
+    "source_attack_id": "T1021.001"
+  },
+  {
+    "local_id": "e6",
+    "mention": "T1190",
+    "status": "resolved",
+    "reason": "type-compatible ID; reported spelling is not added as a verified alias",
+    "canonical_id": "attack:T1190",
+    "canonical_name": "Exploit Public-Facing Application",
+    "source_attack_id": "T1190"
+  }
+]

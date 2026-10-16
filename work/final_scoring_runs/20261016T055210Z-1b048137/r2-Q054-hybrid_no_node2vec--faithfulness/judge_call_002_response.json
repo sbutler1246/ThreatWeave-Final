@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-16T06:50:31.8809037Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3718496300,
+  "load_duration": 11110400,
+  "prompt_eval_count": 1322,
+  "prompt_eval_duration": 124379000,
+  "eval_count": 272,
+  "eval_duration": 3515592000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"statements\": [\n    {\n      \"statement\": \"Pre-compromise (M1056) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Develop Capabilities (T1587).\",\n      \"reason\": \"The context does not mention any direct, active mitigates relationship between Pre-compromise (M1056) and Develop Capabilities (T1587).\",\n      \"verdict\": 0\n    },\n    {\n      \"statement\": \"Disable or Remove Feature or Program (M1042) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Impair Defenses (T1562).\",\n      \"reason\": \"The context explicitly states that Disable or Remove Feature or Program (M1042) is a mitigation for Impair Defenses (T1562).\",\n      \"verdict\": 1\n    },\n    {\n      \"statement\": \"Execution Prevention (M1038) has a direct, active mitigates relationship in Enterprise ATT&CK 17.1 to Impair Defenses (T1562).\",\n      \"reason\": \"The context explicitly states that Execution Prevention (M1038) is a mitigation for Impair Defenses (T1562).\",\n      \"verdict\": 1\n    }\n  ]\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}
