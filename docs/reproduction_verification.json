@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "verification_date": "2026-10-16",
+  "relocated_checkout": true,
+  "new_virtual_environment": true,
+  "original_project_reads_blocked": true,
+  "source_bundle_sha256": "9b64f7ab07a8140bd593e89ffa282024c00f88388ce218f49288cf78b5f701ce",
+  "tests_passed": 48,
+  "service_free_statistics": {
+    "status": "passed",
+    "frozen_files_verified": 11298,
+    "formula_recomputed_count": 414,
+    "automatic_statuses": {
+      "scored": 639,
+      "unavailable_answer": 45,
+      "failed": 36
+    },
+    "extraction": {
+      "tp": 10,
+      "fp": 12,
+      "fn": 139,
+      "precision": 0.45454545454545453,
+      "recall": 0.06711409395973154,
+      "f1": 0.11695906432748539
+    }
+  },
+  "live_smoke": [
+    {
+      "mode": "text_only",
+      "status": "completed",
+      "abstained": false,
+      "claim_count": 3,
+      "passage_count": 6,
+      "path_count": 0,
+      "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+    },
+    {
+      "mode": "graph_only",
+      "status": "completed",
+      "abstained": false,
+      "claim_count": 6,
+      "passage_count": 13,
+      "path_count": 5,
+      "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+    },
+    {
+      "mode": "hybrid_no_node2vec",
+      "status": "completed",
+      "abstained": false,
+      "claim_count": 6,
+      "passage_count": 13,
+      "path_count": 5,
+      "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+    },
+    {
+      "mode": "hybrid",
+      "status": "completed",
+      "abstained": false,
+      "claim_count": 6,
+      "passage_count": 15,
+      "path_count": 5,
+      "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+    }
+  ],
+  "fresh_indexes": {
+    "text_chunks": 305,
+    "text_dimension": 384,
+    "graph_nodes": 142,
+    "directed_facts": 245,
+    "graph_dimension": 128
+  },
+  "neo4j_test_version": "5.26.0-community",
+  "ollama_model_reused": true,
+  "scope": "original development sources; frozen final analysis reproduced separately"
+}

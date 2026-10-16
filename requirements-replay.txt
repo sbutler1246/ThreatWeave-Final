@@ -1,0 +1,3 @@
+# Minimal saved-state replay; Python 3.12. Direct pins, not a transitive lock.
+pydantic==2.13.5
+-r requirements-application.txt

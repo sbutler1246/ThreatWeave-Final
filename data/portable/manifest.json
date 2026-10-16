@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "files_sha256": {
+    "development_sources.json": "9b64f7ab07a8140bd593e89ffa282024c00f88388ce218f49288cf78b5f701ce"
+  },
+  "cisa_scope_count": 53,
+  "attack_reference_count": 139,
+  "entity_count": 142,
+  "extracted_assertion_count": 124,
+  "source_scope": {
+    "name": "expanded_reviewed_development_sources",
+    "sha256": "ab3732f875177906c400d82268fbbeed719b9a26b4f3836215d713821bd9beb8",
+    "cisa_scope_count": 53,
+    "attack_reference_count": 139
+  },
+  "derivation": "Source profiles validated with original frozen preparation functions; accepted original assertion IDs and properties retained. No Neo4j export or model call.",
+  "runtime": "Portable entry points consume this complete source bundle; source_run paths are historical provenance only."
+}

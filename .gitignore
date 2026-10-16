@@ -10,3 +10,6 @@ venv/
 /.chart-data-*/
 /archives/
 /work_archive/
+
+/outputs/reproduction/
+.venv-live/

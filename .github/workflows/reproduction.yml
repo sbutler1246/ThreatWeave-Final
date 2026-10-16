@@ -1,0 +1,26 @@
+name: Reproduce preserved results
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recompute all published statistics without services or packages
+        run: python -S reproduce_results.py
+      - name: Install source-validation schema dependency
+        run: python -m pip install pydantic==2.13.5
+      - name: Verify portable scope and path/tamper guards
+        run: python -m unittest discover -s tests -p test_portable_reproduction.py -v
+      - name: Check complete portable source scope
+        run: python portable.py check-sources

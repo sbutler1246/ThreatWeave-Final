@@ -1,0 +1,5 @@
+# Live application, Python 3.12. Direct pins; resolved versions recorded by doctor.
+-r requirements-replay.txt
+-r requirements-node2vec.txt
+neo4j==5.28.2
+requests==2.32.5

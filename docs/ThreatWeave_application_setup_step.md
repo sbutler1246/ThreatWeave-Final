@@ -1,3 +1,11 @@
+# Independent installation
+
+For a fresh installation on your own computer, follow [REPRODUCE.md](../REPRODUCE.md). It provides commands relative to your own checkout, a complete accepted source bundle, local model downloads and index rebuilding. No files or services are fetched from the author’s laptop.
+
+The dated record below documents the original development session. Its installed-environment assumptions are historical; use the portable guide above for installation.
+
+---
+
 # Application integration and interface setup
 
 Completed: [the setup checkpoint](ThreatWeave_application_setup_checkpoint.md) verifies Streamlit installation, preservation of all 108 existing package versions and three passing offline UI checks. [Launch the interface next](ThreatWeave_application_launch_step.md). Installation-pending statements below preserve the preceding implementation checkpoint.
@@ -7,7 +15,7 @@ October 15, 2026. The expanded four-mode development comparison is complete. The
 ## Run this setup command
 
 ```powershell
-& "C:\Users\djfro\.venv\Scripts\python.exe" "S:\ThreatWeave\setup_application.py"
+python portable.py doctor
 ```
 
 Internet access is needed to install the UI dependencies. Neo4j and Ollama are not needed for setup. The script uses the existing uv executable and Python 3.12 environment, saves all currently installed package versions as resolver constraints, and performs a dry run before installation. If those constraints conflict with the UI dependencies, it stops before installation rather than relaxing them. After installation it verifies existing versions remain unchanged and runs three offline Streamlit AppTest scenarios using synthetic evidence and fake service adapters.

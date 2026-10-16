@@ -1,3 +1,11 @@
+# Independent installation
+
+For a fresh installation on your own computer, follow [REPRODUCE.md](../REPRODUCE.md). It provides commands relative to your own checkout, a complete accepted source bundle, local model downloads and index rebuilding. No files or services are fetched from the author’s laptop.
+
+The dated record below documents the original development session. Its installed-environment assumptions are historical; use the portable guide above for installation.
+
+---
+
 # Launch the local ThreatWeave interface
 
 Later check: [the first live graph-only answer and browser graph checks completed](ThreatWeave_application_live_checkpoint.md). The Rhysida answer has supporting evidence and remaining guidance-detail omissions; a blank-graph rendering defect was repaired. The launch/check instructions below remain available for future sessions.
@@ -7,7 +15,7 @@ Later check: [the first live graph-only answer and browser graph checks complete
 Keep Neo4j and Ollama running, then launch:
 
 ```powershell
-& "C:\Users\djfro\.venv\Scripts\python.exe" "S:\ThreatWeave\run_application.py"
+python portable.py app
 ```
 
 Keep this terminal open while using the application. Open [ThreatWeave on localhost](http://127.0.0.1:8501) in your browser. The page initially shows question entry, mode selection and connection settings; it does not call Neo4j or Ollama until a question is submitted.

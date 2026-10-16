@@ -13,7 +13,7 @@ This separate repository contains the final submission snapshot. The [earlier Th
 - [Final slides — 16 slides](outputs/final_submission/ThreatWeave_final_slides.pptx)
 - [Demo walkthrough — 5:34 MP4](outputs/final_submission/ThreatWeave_demo.mp4)
 - [Demo transcript](outputs/final_submission/ThreatWeave_demo_transcript.md) and [captions](outputs/final_submission/ThreatWeave_demo_captions.srt)
-- [Complete source/evidence archive](outputs/ThreatWeave_submission_v2.zip), [archive verification](outputs/ThreatWeave_submission_v2.verification.json), and [artifact checksums](outputs/final_submission/DELIVERABLES_SHA256.json)
+- [Original source/evidence submission archive](outputs/ThreatWeave_submission_v2.zip), [archive verification](outputs/ThreatWeave_submission_v2.verification.json), and [artifact checksums](outputs/final_submission/DELIVERABLES_SHA256.json)
 
 The demo is a labelled replay of authentic saved application states with synthetic narration. It makes no new model/database calls. A separate recording of the slide presentation in the author's voice will be added after recording. No course-portal submission is implied by repository publication.
 
@@ -57,32 +57,26 @@ The small benchmark, unequal availability, partial blinding, MODE/evidence-forma
 
 Historical checkpoint documents and notices retain the status they had when written. The final report and this README describe the completed evaluation. config.json preserves the original design configuration; recorded runtime settings and receipts describe actual runs.
 
-## Run the saved demonstration
+## Reproduce on your own computer
 
-Use Python 3.12. This replay needs Streamlit and Pydantic, with no Neo4j database, Ollama server or model download:
+Start with [REPRODUCE.md](REPRODUCE.md). Clone or download this public repository into your own folder. No access to the author's laptop, drive or Python environment is required.
+
+Recompute the published statistics using only Python’s standard library:
 
 ```text
-python -m venv .venv
-.venv\Scripts\python.exe -m pip install "pydantic>=2,<3" -r requirements-application.txt
-.venv\Scripts\python.exe -m streamlit run demo_replay.py --server.address=127.0.0.1 --server.port=8502
+python -S reproduce_results.py
 ```
 
-Open the localhost URL shown by Streamlit. Choose either saved Rhysida run to inspect its sources, graph and export. The original renderer retains historical pending-review notices. Its graph inspection may add display-column metadata to an export without changing the answer or evidence.
+The command verifies the preserved input hashes, recomputes human/extraction/automatic analyses and report targets, and writes a new results folder. It makes no database, model or embedding calls. It retains the original observations; it does not claim an identical new model experiment.
 
-## Live application and reproducibility
+The same guide provides a saved UI replay and a fresh live application build using the reader’s own Neo4j, Ollama, model downloads and locally built indexes. Portable entry points package and verify the complete original development source scope. The larger frozen evaluation’s statistics remain separate. See [the verification record](REPRODUCTION_VERIFICATION.md) for tested workflows and limits.
 
-The live application requires the documented Neo4j, Ollama, embedding, graph/vector-index and application dependencies. Follow [application setup](docs/ThreatWeave_application_setup_step.md), [the setup checkpoint](docs/ThreatWeave_application_setup_checkpoint.md) and the preserved index receipts. Installed environments, credentials, model weights and vector-store caches are excluded. This repository is a source/evidence snapshot, not a preinstalled portable runtime.
-
-The separately hash-locked evaluator environment is documented in [evaluation/DEPENDENCIES.md](evaluation/DEPENDENCIES.md). Do not install its pins over an application environment. The frozen QA and scoring cohort must not be rerun or tuned to improve the reported results.
-
-Authoritative analyses:
+Authoritative preserved analyses:
 
 - [Extraction analysis](work/extraction_scoring_analysis/20261016T171118Z-dc75fabd/report.md)
 - [Automatic analysis](docs/ThreatWeave_final_scoring_results_20261016T075220Z-1e84d02c.md)
 - [Human analysis](work/human_scoring_analysis/20261016T174034Z-7c181a33/report.md)
 - [Combined result data](work/final_completion/submission_results.json)
-
-Original run receipts retain absolute paths from S:/ThreatWeave. A relocated checkout may require explicit path arguments or path adaptation for audit entry points. Preserved output hashes bind the original inputs. Publication documentation is separate from those frozen inputs.
 
 ## Checks
 

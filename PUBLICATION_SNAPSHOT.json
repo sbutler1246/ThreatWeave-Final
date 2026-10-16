@@ -7,9 +7,26 @@
     "README.md",
     "PROJECT_FILES.md",
     ".gitignore",
-    ".gitattributes"
+    ".gitattributes",
+    "docs/ThreatWeave_application_setup_step.md",
+    "docs/ThreatWeave_application_launch_step.md"
   ],
   "original_readme_preserved_at": "docs/ThreatWeave_development_history.md",
   "frozen_source_labels_prompts_outputs_unchanged": true,
-  "historical_absolute_paths_retained": true
+  "historical_absolute_paths_retained": true,
+  "portable_additions": [
+    "reproduce_results.py",
+    "portable.py",
+    "portable_sources.py",
+    "portable_app.py",
+    "data/portable/",
+    "REPRODUCE.md",
+    "REPRODUCTION_VERIFICATION.md",
+    "requirements-portable.txt",
+    "requirements-portable-windows.lock.txt",
+    "requirements-replay.txt",
+    ".github/workflows/reproduction.yml",
+    "tests/test_portable_reproduction.py"
+  ],
+  "repository_visibility": "public"
 }
