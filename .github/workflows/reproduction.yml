@@ -24,3 +24,7 @@ jobs:
         run: python -m unittest discover -s tests -p test_portable_reproduction.py -v
       - name: Check complete portable source scope
         run: python portable.py check-sources
+      - name: Install lightweight HTTP adapter test dependencies
+        run: python -m pip install fastapi==0.115.12 starlette==0.46.2 uvicorn==0.34.2 httpx==0.28.1
+      - name: Check engine-backed HTTP routes and lifecycle without live services
+        run: python -m unittest discover -s tests -p test_live_api.py -v

@@ -1,0 +1,25 @@
+{
+  "purpose": "new_development_live_http_smoke",
+  "repo": "S:\\ThreatWeave\\work\\github-final\\ThreatWeave-Final",
+  "asset_checkout": "C:\\Users\\djfro\\AppData\\Local\\Temp\\threatweave-reader-p490olky",
+  "frozen_experiment_changed": false,
+  "cases": [
+    {
+      "mode": "text_only",
+      "http_status": 200,
+      "elapsed_seconds": 53.713,
+      "abstained": false,
+      "claim_count": 5,
+      "passage_count": 11
+    }
+  ],
+  "health": {
+    "status": "ready",
+    "service_checks": "performed_per_query"
+  },
+  "openapi_status": 200,
+  "graph_live_check": "not_run_disposable_database_unavailable",
+  "server_stopped": true,
+  "engine_released": true,
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+# Install in the live application environment, not the frozen RAGAS environment.
+-r requirements-portable.txt
+fastapi==0.115.12
+starlette==0.46.2
+uvicorn==0.34.2
+# HTTP test client, also used by the existing Chroma application dependencies.
+httpx==0.28.1

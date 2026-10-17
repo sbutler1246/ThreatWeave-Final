@@ -1,0 +1,358 @@
+{
+  "mode": "hybrid",
+  "node2vec_enabled": true,
+  "rrf_k": 60,
+  "rrf_unit": "(source doc_id, parent extraction chunk_id)",
+  "rrf_group_aggregation": "sum of distinct source-parent scores; whole-path/text-context groups",
+  "source_ranks": [
+    {
+      "doc_id": "AA23-319A",
+      "parent_chunk_id": "AA23-319A:development:llama500:19026:21144",
+      "ranks": {
+        "text": 2
+      },
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "doc_id": "AA23-319A",
+      "parent_chunk_id": "AA23-319A:development:llama500:2651:5181",
+      "ranks": {
+        "graph": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "attack:17.1:relationship--4f24d075-4d6c-49d2-a213-306e4af2083d",
+      "parent_chunk_id": "attack:17.1:relationship--4f24d075-4d6c-49d2-a213-306e4af2083d:description",
+      "ranks": {
+        "graph": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+      "parent_chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+      "ranks": {
+        "text": 1
+      },
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "doc_id": "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1",
+      "parent_chunk_id": "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1:description",
+      "ranks": {
+        "text": 5
+      },
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+      "parent_chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+      "ranks": {
+        "graph": 4,
+        "text": 4
+      },
+      "rrf_score": 0.03125
+    },
+    {
+      "doc_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013",
+      "parent_chunk_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013:description",
+      "ranks": {
+        "graph": 6
+      },
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+      "parent_chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+      "ranks": {
+        "graph": 3
+      },
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "doc_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867",
+      "parent_chunk_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867:description",
+      "ranks": {
+        "graph": 2,
+        "text": 3
+      },
+      "rrf_score": 0.03200204813108039
+    }
+  ],
+  "candidate_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.04839549075403121
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.047643442622950824
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.032266458495966696
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.03177805800756621
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.031544957774465976
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+      "score": 0.03125
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+      "score": 0.01639344262295082
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "score": 0.016129032258064516
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:16d6b5a38af231085c281b393fca295f9531f5b16a6c02d23a43d4f0c2155ac4",
+      "score": 0.015384615384615385
+    }
+  ],
+  "selected_groups": [
+    {
+      "kind": "graph",
+      "id": "P1",
+      "score": 0.04839549075403121
+    },
+    {
+      "kind": "graph",
+      "id": "P3",
+      "score": 0.047643442622950824
+    },
+    {
+      "kind": "graph",
+      "id": "P2",
+      "score": 0.032266458495966696
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+      "score": 0.03200204813108039
+    },
+    {
+      "kind": "graph",
+      "id": "P4",
+      "score": 0.03177805800756621
+    },
+    {
+      "kind": "graph",
+      "id": "P5",
+      "score": 0.031544957774465976
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+      "score": 0.03125
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+      "score": 0.01639344262295082
+    }
+  ],
+  "selected_path_count": 5,
+  "selected_text_chunk_count": 3,
+  "selected_hops": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "skipped_groups": [
+    {
+      "kind": "text",
+      "id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "reason": "context_budget"
+    },
+    {
+      "kind": "text",
+      "id": "retrieval:16d6b5a38af231085c281b393fca295f9531f5b16a6c02d23a43d4f0c2155ac4",
+      "reason": "context_budget"
+    }
+  ],
+  "evidence_utf8_bytes": 2954,
+  "evidence_byte_cap": 3000,
+  "budget_method": "conservative_utf8_byte_cap",
+  "graph_branch_empty": false,
+  "node2vec": {
+    "seed_groups": [
+      [
+        "attack:T1078"
+      ],
+      [
+        "local:AA23-319A:rhysida-actors"
+      ]
+    ],
+    "neighbors_by_seed": {
+      "attack:T1078": [
+        {
+          "canonical_id": "attack:M1036",
+          "name": "Account Use Policies",
+          "cosine_distance": 0.031073331832885742
+        },
+        {
+          "canonical_id": "attack:M1015",
+          "name": "Active Directory Configuration",
+          "cosine_distance": 0.05835521221160889
+        },
+        {
+          "canonical_id": "attack:M1013",
+          "name": "Application Developer Guidance",
+          "cosine_distance": 0.067169189453125
+        },
+        {
+          "canonical_id": "attack:M1027",
+          "name": "Password Policies",
+          "cosine_distance": 0.11347973346710205
+        },
+        {
+          "canonical_id": "attack:M1017",
+          "name": "User Training",
+          "cosine_distance": 0.20554393529891968
+        }
+      ],
+      "local:AA23-319A:rhysida-actors": [
+        {
+          "canonical_id": "local:AA23-319A:software:f352e0190ae9",
+          "name": "AZCopy",
+          "cosine_distance": 0.04190826416015625
+        },
+        {
+          "canonical_id": "local:AA23-319A:software:c60acd3f30b5",
+          "name": "1.ps1",
+          "cosine_distance": 0.047041237354278564
+        },
+        {
+          "canonical_id": "local:AA23-319A:software:e6ae79ce9336",
+          "name": "Windows PowerShell Integrated Scripting Environment",
+          "cosine_distance": 0.04968690872192383
+        },
+        {
+          "canonical_id": "attack:S0100",
+          "name": "ipconfig",
+          "cosine_distance": 0.05468463897705078
+        },
+        {
+          "canonical_id": "attack:S1138",
+          "name": "Gootloader",
+          "cosine_distance": 0.05801081657409668
+        }
+      ]
+    },
+    "neighbor_count_per_seed": 5,
+    "base_candidate_count": 9,
+    "expansion_candidate_count": 5,
+    "merged_candidate_count": 9,
+    "graph_index_fingerprint": "01001b3705b49fd95fb1acb11b4ea1695cc11090bf96093df0eca0217f02402c",
+    "projection_sha256": "1c31caf80589a8fcd1ab03433c8426be7d7348b13d6fee93133307ad239b1090",
+    "graph_freshness_verified": true,
+    "similarity_is_fact_evidence": false
+  },
+  "graph_branch": {
+    "candidate_path_count": 9,
+    "selected_path_count": 5,
+    "selected_hops": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "evidence_utf8_bytes": 2728,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 3,
+    "seed_groups": [
+      [
+        "attack:T1078"
+      ],
+      [
+        "local:AA23-319A:rhysida-actors"
+      ]
+    ]
+  },
+  "text_branch": {
+    "candidate_ranks": [
+      {
+        "rank": 1,
+        "chunk_id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.4246218204498291
+      },
+      {
+        "rank": 2,
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "parent_extraction_chunk_id": "AA23-319A:development:llama500:19026:21144",
+        "source_kind": "cisa",
+        "cosine_distance": 0.4624486565589905
+      },
+      {
+        "rank": 3,
+        "chunk_id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.46962422132492065
+      },
+      {
+        "rank": 4,
+        "chunk_id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.4703676700592041
+      },
+      {
+        "rank": 5,
+        "chunk_id": "retrieval:16d6b5a38af231085c281b393fca295f9531f5b16a6c02d23a43d4f0c2155ac4",
+        "parent_extraction_chunk_id": "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1:description",
+        "source_kind": "attack",
+        "cosine_distance": 0.48076897859573364
+      }
+    ],
+    "candidate_chunk_count": 5,
+    "selected_chunk_ids": [
+      "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+      "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+      "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+      "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+      "retrieval:16d6b5a38af231085c281b393fca295f9531f5b16a6c02d23a43d4f0c2155ac4"
+    ],
+    "selected_chunk_count": 5,
+    "selected_path_count": 0,
+    "evidence_utf8_bytes": 2186,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_chunks": 0,
+    "search": "normalized_MiniLM_cosine_nearest_neighbors; no graph expansion",
+    "index_fingerprint": "be0883e8cea7af855c365a4c8644366a76838fe0a895fc79b46bc24dfd8b2367",
+    "retrieval_ms": 17.931499984115362
+  },
+  "graph_source": "live_neo4j",
+  "index_fingerprint": "be0883e8cea7af855c365a4c8644366a76838fe0a895fc79b46bc24dfd8b2367",
+  "retrieval_ms": 814.3054000101984
+}

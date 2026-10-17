@@ -1,0 +1,180 @@
+{
+  "answer": "Rhysida actors use valid accounts (T1078) for access by logging in to internal VPN access points with valid credentials. [E3, E10]\nUser Account Management (M1018) mitigation: Regularly audit user accounts for activity and deactivate or remove any that are no longer needed. [E1, E2]\nAccount Use Policies (M1036) mitigation: Block logins from non-compliant devices or from outside defined organization IP ranges. [E6, E7]\nApplication Developer Guidance (M1013) mitigation: Ensure applications do not store sensitive data or credentials insecurely. [E8, E9]\nUser Training (M1017) mitigation: Limit credential overlap across accounts and systems by training users and administrators not to use the same password for multiple accounts. [E10, E11]",
+  "claims": [
+    {
+      "text": "Rhysida actors use valid accounts (T1078) for access by logging in to internal VPN access points with valid credentials.",
+      "citations": [
+        "E3",
+        "E10"
+      ]
+    },
+    {
+      "text": "User Account Management (M1018) mitigation: Regularly audit user accounts for activity and deactivate or remove any that are no longer needed.",
+      "citations": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "text": "Account Use Policies (M1036) mitigation: Block logins from non-compliant devices or from outside defined organization IP ranges.",
+      "citations": [
+        "E6",
+        "E7"
+      ]
+    },
+    {
+      "text": "Application Developer Guidance (M1013) mitigation: Ensure applications do not store sensitive data or credentials insecurely.",
+      "citations": [
+        "E8",
+        "E9"
+      ]
+    },
+    {
+      "text": "User Training (M1017) mitigation: Limit credential overlap across accounts and systems by training users and administrators not to use the same password for multiple accounts.",
+      "citations": [
+        "E10",
+        "E11"
+      ]
+    }
+  ],
+  "evidence": {
+    "passages": [
+      {
+        "citation_id": "E1",
+        "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+        "chunk_id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Regularly audit user accounts for activity and deactivate or remove any that are no longer needed.",
+        "start": 276,
+        "end": 374,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E2",
+        "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+        "chunk_id": "retrieval:2a776882d4be88741d2b0fc86f17bfd1bb8a18a3d921b59ea650e4da0f5d698b",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: User Account Management (M1018)",
+        "start": 0,
+        "end": 98,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E3",
+        "doc_id": "AA23-319A",
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "9 to Table 19 for all referenced threat actor tactics and techniques in this advisory. For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework, see CISA and MITRE ATT&CK\u2019s Best Practices for MITRE ATT&CK Mapping and CISA\u2019s Decider Tool.\nAdditional notable TTPs have been published by the Check Point Incident Response Team.[10]\nTable 9: Resource Development\nTechnique Title\nID\nUse\nDevelop Capabilities\nT1587\nRhysida actors have been observed developing resources and custom tools, particularly with program names set to \u201cRhysida-0.1\u201d to gain access to victim systems.\nTable 10: Initial Access\nTechnique Title\nID\nUse\nValid Accounts\nT1078\nRhysida actors are known to use valid credentials to access internal VPN access points of victims.\nUpdate April 30, 2025:\nTable 11: Execution\nTechnique Title\nID\nUse\nCommand and Scripting Interpreter: Cloud API\nT1059.009\nRhysida actors leverage AZCopy, a command-line utility that ",
+        "start": 19026,
+        "end": 19970,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E4",
+        "doc_id": "AA23-319A",
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "#StopRansomware: Rhysida Ransomware",
+        "start": 23,
+        "end": 58,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E5",
+        "doc_id": "AA23-319A",
+        "chunk_id": "retrieval:259de84d48f296f0a5aa699ba17ad78f5549c05c83997a6970d28352f8f66d51",
+        "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+        "text": "Technical Details",
+        "start": 2634,
+        "end": 2651,
+        "source_kind": "cisa"
+      },
+      {
+        "citation_id": "E6",
+        "doc_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867",
+        "chunk_id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Use conditional access policies to block logins from non-compliant devices or from outside defined organization IP ranges.(Citation: Microsoft Common Conditional Access Policies)",
+        "start": 273,
+        "end": 451,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E7",
+        "doc_id": "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867",
+        "chunk_id": "retrieval:c23065f12d6ffbd67117cac01cea05f14b56f7ecdcd1333ac4983d5bc9411252",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Account Use Policies (M1036)",
+        "start": 0,
+        "end": 95,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E8",
+        "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+        "chunk_id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).",
+        "start": 283,
+        "end": 479,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E9",
+        "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+        "chunk_id": "retrieval:00bcc2cceb87baf13ab10ae76a1018cc97fc223e48a7103060da4cb379008e06",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Application Developer Guidance (M1013)",
+        "start": 0,
+        "end": 105,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E10",
+        "doc_id": "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1",
+        "chunk_id": "retrieval:16d6b5a38af231085c281b393fca295f9531f5b16a6c02d23a43d4f0c2155ac4",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "Limit credential overlap across accounts and systems by training users and administrators not to use the same password for multiple accounts.",
+        "start": 260,
+        "end": 401,
+        "source_kind": "attack"
+      },
+      {
+        "citation_id": "E11",
+        "doc_id": "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1",
+        "chunk_id": "retrieval:16d6b5a38af231085c281b393fca295f9531f5b16a6c02d23a43d4f0c2155ac4",
+        "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+        "text": "ATT&CK release: 17.1\nTechnique: NTDS (T1003.003)\nMitigation: User Training (M1017)",
+        "start": 0,
+        "end": 82,
+        "source_kind": "attack"
+      }
+    ],
+    "paths": [],
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "retrieval_ms": 39.2604999942705,
+    "configuration_hash": "c4de5c165abd56fc070fbed1b910d62a2e437eddc5cec625bb4b5d3ee14dee97",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "abstained": false,
+  "execution_time_ms": 13049.931299989112,
+  "generation_timestamp": "2026-10-17T03:08:08.197726Z",
+  "warnings": [
+    "Development text_only pipeline; final evaluation remains pending.",
+    "Source checks passed; generated-answer semantics require human review.",
+    "Development sources only; citation validity does not establish claim correctness.",
+    "Human semantic review and final evaluation remain pending."
+  ]
+}

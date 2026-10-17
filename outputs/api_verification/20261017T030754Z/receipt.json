@@ -1,0 +1,48 @@
+{
+  "purpose": "new_development_live_http_smoke",
+  "repo": "S:\\ThreatWeave\\work\\github-final\\ThreatWeave-Final",
+  "asset_checkout": "C:\\Users\\djfro\\AppData\\Local\\Temp\\threatweave-reader-p490olky",
+  "frozen_experiment_changed": false,
+  "cases": [
+    {
+      "mode": "text_only",
+      "http_status": 200,
+      "elapsed_seconds": 13.058,
+      "abstained": false,
+      "claim_count": 5,
+      "passage_count": 11
+    },
+    {
+      "mode": "graph_only",
+      "http_status": 200,
+      "elapsed_seconds": 9.142,
+      "abstained": false,
+      "claim_count": 6,
+      "passage_count": 13
+    },
+    {
+      "mode": "hybrid_no_node2vec",
+      "http_status": 200,
+      "elapsed_seconds": 8.417,
+      "abstained": false,
+      "claim_count": 6,
+      "passage_count": 15
+    },
+    {
+      "mode": "hybrid",
+      "http_status": 200,
+      "elapsed_seconds": 9.104,
+      "abstained": false,
+      "claim_count": 6,
+      "passage_count": 15
+    }
+  ],
+  "health": {
+    "status": "ready",
+    "service_checks": "performed_per_query"
+  },
+  "openapi_status": 200,
+  "server_stopped": true,
+  "engine_released": true,
+  "status": "passed"
+}

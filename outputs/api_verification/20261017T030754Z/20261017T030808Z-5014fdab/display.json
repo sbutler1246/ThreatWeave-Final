@@ -1,0 +1,2653 @@
+{
+  "request": {
+    "question": "According to CISA, how do Rhysida actors use valid accounts (T1078) for access? Explain the supplied ATT&CK mitigation guidance and cite the sources separately.",
+    "mode": "graph_only",
+    "corpus_version": "cisa-selected-2026-10-03"
+  },
+  "answer": {
+    "answer": "Rhysida actors use valid accounts (T1078) for access by authenticating to internal VPN access points with compromised valid credentials. [E1, E2, E3]\nApplication Developer Guidance (M1013) mitigates Valid Accounts (T1078) by ensuring applications do not store sensitive data or credentials insecurely. [E4, E5]\nActive Directory Configuration (M1015) mitigates Valid Accounts (T1078) by disabling legacy authentication and requiring modern authentication protocols. [E6, E7]\nUser Training (M1017) mitigates Valid Accounts (T1078) by training users to only accept valid push notifications and report suspicious ones. [E8, E9]\nUser Account Management (M1018) mitigates Valid Accounts (T1078) by regularly auditing user accounts for activity and deactivating or removing unnecessary ones. [E10, E11]\nPrivileged Account Management (M1026) mitigates Valid Accounts (T1078) by auditing domain and local accounts, permission levels, and default accounts, and following best practices for enterprise network design and administration. [E12, E13]",
+    "claims": [
+      {
+        "text": "Rhysida actors use valid accounts (T1078) for access by authenticating to internal VPN access points with compromised valid credentials.",
+        "citations": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "text": "Application Developer Guidance (M1013) mitigates Valid Accounts (T1078) by ensuring applications do not store sensitive data or credentials insecurely.",
+        "citations": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "text": "Active Directory Configuration (M1015) mitigates Valid Accounts (T1078) by disabling legacy authentication and requiring modern authentication protocols.",
+        "citations": [
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "text": "User Training (M1017) mitigates Valid Accounts (T1078) by training users to only accept valid push notifications and report suspicious ones.",
+        "citations": [
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "text": "User Account Management (M1018) mitigates Valid Accounts (T1078) by regularly auditing user accounts for activity and deactivating or removing unnecessary ones.",
+        "citations": [
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "text": "Privileged Account Management (M1026) mitigates Valid Accounts (T1078) by auditing domain and local accounts, permission levels, and default accounts, and following best practices for enterprise network design and administration.",
+        "citations": [
+          "E12",
+          "E13"
+        ]
+      }
+    ],
+    "evidence": {
+      "passages": [
+        {
+          "citation_id": "E1",
+          "doc_id": "AA23-319A",
+          "chunk_id": "AA23-319A:development:llama500:2651:5181",
+          "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+          "text": "Rhysida actors have commonly been observed authenticating to internal VPN access points with compromised valid credentials [T1078]",
+          "start": 3892,
+          "end": 4022,
+          "source_kind": "cisa"
+        },
+        {
+          "citation_id": "E2",
+          "doc_id": "AA23-319A",
+          "chunk_id": "AA23-319A:development:llama500:2651:5181",
+          "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+          "text": "#StopRansomware: Rhysida Ransomware",
+          "start": 23,
+          "end": 58,
+          "source_kind": "cisa"
+        },
+        {
+          "citation_id": "E3",
+          "doc_id": "AA23-319A",
+          "chunk_id": "AA23-319A:development:llama500:2651:5181",
+          "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a",
+          "text": "Technical Details",
+          "start": 2634,
+          "end": 2651,
+          "source_kind": "cisa"
+        },
+        {
+          "citation_id": "E4",
+          "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+          "chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Application Developer Guidance (M1013)",
+          "start": 0,
+          "end": 105,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E5",
+          "doc_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d",
+          "chunk_id": "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "Ensure that applications do not store sensitive data or credentials insecurely. (e.g. plaintext credentials in code, published credentials in repositories, or credentials in public cloud storage).",
+          "start": 283,
+          "end": 479,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E6",
+          "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+          "chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Active Directory Configuration (M1015)",
+          "start": 0,
+          "end": 105,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E7",
+          "doc_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748",
+          "chunk_id": "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "Disable legacy authentication, which does not support MFA, and require the use of modern authentication protocols instead.",
+          "start": 283,
+          "end": 405,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E8",
+          "doc_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013",
+          "chunk_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: User Training (M1017)",
+          "start": 0,
+          "end": 88,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E9",
+          "doc_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013",
+          "chunk_id": "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "Applications may send push notifications to verify a login as a form of multi-factor authentication (MFA). Train users to only accept valid push notifications and to report suspicious push notifications.",
+          "start": 266,
+          "end": 469,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E10",
+          "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+          "chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: User Account Management (M1018)",
+          "start": 0,
+          "end": 98,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E11",
+          "doc_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b",
+          "chunk_id": "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "Regularly audit user accounts for activity and deactivate or remove any that are no longer needed.",
+          "start": 276,
+          "end": 374,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E12",
+          "doc_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69",
+          "chunk_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "ATT&CK release: 17.1\nTechnique: Valid Accounts (T1078)\nMitigation: Privileged Account Management (M1026)",
+          "start": 0,
+          "end": 104,
+          "source_kind": "attack"
+        },
+        {
+          "citation_id": "E13",
+          "doc_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69",
+          "chunk_id": "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69:description",
+          "source_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+          "text": "Audit domain and local accounts as well as their permission levels routinely to look for situations that could allow an adversary to gain wide access by obtaining credentials of a privileged account. (Citation: TechNet Credential Theft) (Citation: TechNet Least Privilege) These audits should also include if default accounts have been enabled, or if new local accounts are created that have not been authorized. Follow best practices for design and administration of an enterprise network to limit privileged account use across administrative tiers. (Citation: Microsoft Securing Privileged Access)",
+          "start": 282,
+          "end": 881,
+          "source_kind": "attack"
+        }
+      ],
+      "paths": [
+        {
+          "path_id": "P1",
+          "edges": [
+            {
+              "head_id": "local:AA23-319A:rhysida-actors",
+              "predicate": "USES_TECHNIQUE",
+              "tail_id": "attack:T1078",
+              "assertion_ids": [
+                "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+              ],
+              "citation_ids": [
+                "E1",
+                "E2",
+                "E3"
+              ]
+            },
+            {
+              "head_id": "attack:T1078",
+              "predicate": "MITIGATED_BY",
+              "tail_id": "attack:M1013",
+              "assertion_ids": [
+                "assertion:65dd2e5f361ab6e6063621fbb5e7d4707c46704ff8d57185994aea34322339c5"
+              ],
+              "citation_ids": [
+                "E4",
+                "E5"
+              ]
+            }
+          ]
+        },
+        {
+          "path_id": "P2",
+          "edges": [
+            {
+              "head_id": "local:AA23-319A:rhysida-actors",
+              "predicate": "USES_TECHNIQUE",
+              "tail_id": "attack:T1078",
+              "assertion_ids": [
+                "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+              ],
+              "citation_ids": [
+                "E1",
+                "E2",
+                "E3"
+              ]
+            },
+            {
+              "head_id": "attack:T1078",
+              "predicate": "MITIGATED_BY",
+              "tail_id": "attack:M1015",
+              "assertion_ids": [
+                "assertion:92b52232b0e0c3669bd644cd4e6cb6212c67bed05411e9a3539f1ee38818f511"
+              ],
+              "citation_ids": [
+                "E6",
+                "E7"
+              ]
+            }
+          ]
+        },
+        {
+          "path_id": "P3",
+          "edges": [
+            {
+              "head_id": "local:AA23-319A:rhysida-actors",
+              "predicate": "USES_TECHNIQUE",
+              "tail_id": "attack:T1078",
+              "assertion_ids": [
+                "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+              ],
+              "citation_ids": [
+                "E1",
+                "E2",
+                "E3"
+              ]
+            },
+            {
+              "head_id": "attack:T1078",
+              "predicate": "MITIGATED_BY",
+              "tail_id": "attack:M1017",
+              "assertion_ids": [
+                "assertion:89f926f903632d1d5b70997194a03868f9939d34ce7335433f0b4a056d354528"
+              ],
+              "citation_ids": [
+                "E8",
+                "E9"
+              ]
+            }
+          ]
+        },
+        {
+          "path_id": "P4",
+          "edges": [
+            {
+              "head_id": "local:AA23-319A:rhysida-actors",
+              "predicate": "USES_TECHNIQUE",
+              "tail_id": "attack:T1078",
+              "assertion_ids": [
+                "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+              ],
+              "citation_ids": [
+                "E1",
+                "E2",
+                "E3"
+              ]
+            },
+            {
+              "head_id": "attack:T1078",
+              "predicate": "MITIGATED_BY",
+              "tail_id": "attack:M1018",
+              "assertion_ids": [
+                "assertion:9166e4985ff19d1239a1f975d1e882c67b6ad323e71530c7eefd6b3c3fd6bb56"
+              ],
+              "citation_ids": [
+                "E10",
+                "E11"
+              ]
+            }
+          ]
+        },
+        {
+          "path_id": "P5",
+          "edges": [
+            {
+              "head_id": "local:AA23-319A:rhysida-actors",
+              "predicate": "USES_TECHNIQUE",
+              "tail_id": "attack:T1078",
+              "assertion_ids": [
+                "assertion:ef81e6d9fc7df6d1efc724cd6d9c5cd673f704e8aa7cbfea72247c34c69cc38b"
+              ],
+              "citation_ids": [
+                "E1",
+                "E2",
+                "E3"
+              ]
+            },
+            {
+              "head_id": "attack:T1078",
+              "predicate": "MITIGATED_BY",
+              "tail_id": "attack:M1026",
+              "assertion_ids": [
+                "assertion:de11e5c478f861f3d92a164c9a9cdd89749f61982792b4d9ee14ac0062a4172c"
+              ],
+              "citation_ids": [
+                "E12",
+                "E13"
+              ]
+            }
+          ]
+        }
+      ],
+      "citation_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ],
+      "retrieval_ms": 1716.31509999861,
+      "configuration_hash": "d4d35ce4c1a8d068ae0d751978ee5e2e0715a86649619f1c3a8d79cf8157c7fc",
+      "corpus_version": "cisa-selected-2026-10-03"
+    },
+    "abstained": false,
+    "execution_time_ms": 9134.776499995496,
+    "generation_timestamp": "2026-10-17T03:08:17.347134Z",
+    "warnings": [
+      "Development graph_only pipeline; final evaluation remains pending.",
+      "Source checks passed; generated-answer semantics require human review.",
+      "Development sources only; citation validity does not establish claim correctness.",
+      "Human semantic review and final evaluation remain pending."
+    ]
+  },
+  "retrieval": {
+    "candidate_path_count": 9,
+    "selected_path_count": 5,
+    "selected_hops": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "evidence_utf8_bytes": 2699,
+    "evidence_byte_cap": 3000,
+    "budget_method": "conservative_utf8_byte_cap",
+    "budget_skipped_paths": 3,
+    "seed_groups": [
+      [
+        "attack:T1078"
+      ],
+      [
+        "local:AA23-319A:rhysida-actors"
+      ]
+    ]
+  },
+  "entities": {
+    "local:AA23-165A:lockbit-affiliates": {
+      "canonical_id": "local:AA23-165A:lockbit-affiliates",
+      "type": "ThreatGroup",
+      "name": "LockBit Affiliates",
+      "aliases": [],
+      "resolution_status": "local"
+    },
+    "local:AA23-165A:software:3200bf51de7a": {
+      "canonical_id": "local:AA23-165A:software:3200bf51de7a",
+      "type": "Software",
+      "name": "Advanced Port Scanner",
+      "aliases": [],
+      "resolution_status": "local"
+    },
+    "attack:T1046": {
+      "canonical_id": "attack:T1046",
+      "type": "Technique",
+      "name": "Network Service Discovery",
+      "aliases": [],
+      "attack_id": "T1046",
+      "stix_id": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+      "attack_release": "17.1",
+      "resolution_status": "canonical"
+    },
+    "local:AA23-165A:software:f084e63e6a62": {
+      "canonical_id": "local:AA23-165A:software:f084e63e6a62",
+      "type": "Software",
+      "name": "AnyDesk",
+      "aliases": [],
+      "resolution_status": "local"
+    },
+    "attack:T1219": {
+      "canonical_id": "attack:T1219",
+      "type": "Technique",
+      "name": "Remote Access Tools",
+      "aliases": [],
+      "attack_id": "T1219",
+      "stix_id": "attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "remote access tools"
+    },
+    "local:AA23-165A:software:66a07ba808e8": {
+      "canonical_id": "local:AA23-165A:software:66a07ba808e8",
+      "type": "Software",
+      "name": "Atera Remote Monitoring & Management (RMM)",
+      "aliases": [],
+      "resolution_status": "local"
+    },
+    "local:AA23-165A:software:e0937ebfa805": {
+      "canonical_id": "local:AA23-165A:software:e0937ebfa805",
+      "type": "Software",
+      "name": "Backstab",
+      "aliases": [],
+      "resolution_status": "local"
+    },
+    "attack:T1562.001": {
+      "canonical_id": "attack:T1562.001",
+      "type": "Technique",
+      "name": "Disable or Modify Tools",
+      "aliases": [],
+      "attack_id": "T1562.001",
+      "stix_id": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "disable or modify tools"
+    },
+    "local:AA23-136A:bianlian-group-actors": {
+      "canonical_id": "local:AA23-136A:bianlian-group-actors",
+      "type": "ThreatGroup",
+      "name": "BianLian group actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "bianlian group actors"
+    },
+    "attack:S1040": {
+      "canonical_id": "attack:S1040",
+      "type": "Software",
+      "name": "Rclone",
+      "aliases": [
+        "Rclone"
+      ],
+      "attack_id": "S1040",
+      "stix_id": "tool--59096109-a1dd-463b-87e7-a8d110fe3a79",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "rclone"
+    },
+    "local:AA23-353A:alphv-blackcat-alphv-affiliates": {
+      "canonical_id": "local:AA23-353A:alphv-blackcat-alphv-affiliates",
+      "type": "ThreatGroup",
+      "name": "ALPHV Blackcat/ALPHV affiliates",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "alphv blackcat/alphv affiliates"
+    },
+    "local:AA23-353A:software:9a41c1bd67a5": {
+      "canonical_id": "local:AA23-353A:software:9a41c1bd67a5",
+      "type": "Software",
+      "name": "Evilginx2",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "evilginx2"
+    },
+    "attack:M1030": {
+      "canonical_id": "attack:M1030",
+      "type": "Mitigation",
+      "name": "Network Segmentation",
+      "aliases": [],
+      "attack_id": "M1030",
+      "description": "Network segmentation involves dividing a network into smaller, isolated segments to control and limit the flow of traffic between devices, systems, and applications. By segmenting networks, organizations can reduce the attack surface, restrict lateral movement by adversaries, and protect critical assets from compromise.\n\nEffective network segmentation leverages a combination of physical boundaries, logical separation through VLANs, and access control policies enforced by network appliances like firewalls, routers, and cloud-based configurations. This mitigation can be implemented through the following measures:\n\nSegment Critical Systems:\n\n- Identify and group systems based on their function, sensitivity, and risk. Examples include payment systems, HR databases, production systems, and internet-facing servers.\n- Use VLANs, firewalls, or routers to enforce logical separation.\n\nImplement DMZ for Public-Facing Services:\n\n- Host web servers, DNS servers, and email servers in a DMZ to limit their access to internal systems.\n- Apply strict firewall rules to filter traffic between the DMZ and internal networks.\n\nUse Cloud-Based Segmentation:\n\n- In cloud environments, use VPCs, subnets, and security groups to isolate applications and enforce traffic rules.\n- Apply AWS Transit Gateway or Azure VNet peering for controlled connectivity between cloud segments.\n\nApply Microsegmentation for Workloads:\n\n- Use software-defined networking (SDN) tools to implement workload-level segmentation and prevent lateral movement.\n\nRestrict Traffic with ACLs and Firewalls:\n\n- Apply Access Control Lists (ACLs) to network devices to enforce \"deny by default\" policies.\n- Use firewalls to restrict both north-south (external-internal) and east-west (internal-internal) traffic.\n\nMonitor and Audit Segmented Networks:\n\n- Regularly review firewall rules, ACLs, and segmentation policies.\n- Monitor network flows for anomalies to ensure segmentation is effective.\n\nTest Segmentation Effectiveness:\n\n- Perform periodic penetration tests to verify that unauthorized access is blocked between network segments.",
+      "stix_id": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "network segmentation"
+    },
+    "attack:M1031": {
+      "canonical_id": "attack:M1031",
+      "type": "Mitigation",
+      "name": "Network Intrusion Prevention",
+      "aliases": [],
+      "attack_id": "M1031",
+      "description": "Use intrusion detection signatures to block traffic at network boundaries.",
+      "stix_id": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "network intrusion prevention"
+    },
+    "attack:M1042": {
+      "canonical_id": "attack:M1042",
+      "type": "Mitigation",
+      "name": "Disable or Remove Feature or Program",
+      "aliases": [],
+      "attack_id": "M1042",
+      "description": "Disable or remove unnecessary and potentially vulnerable software, features, or services to reduce the attack surface and prevent abuse by adversaries. This involves identifying software or features that are no longer needed or that could be exploited and ensuring they are either removed or properly disabled. This mitigation can be implemented through the following measures: \n\nRemove Legacy Software:\n\n- Use Case: Disable or remove older versions of software that no longer receive updates or security patches (e.g., legacy Java, Adobe Flash).\n- Implementation: A company removes Flash Player from all employee systems after it has reached its end-of-life date.\n\nDisable Unused Features:\n\n- Use Case: Turn off unnecessary operating system features like SMBv1, Telnet, or RDP if they are not required.\n- Implementation: Disable SMBv1 in a Windows environment to mitigate vulnerabilities like EternalBlue.\n\nControl Applications Installed by Users:\n\n- Use Case: Prevent users from installing unauthorized software via group policies or other management tools.\n- Implementation: Block user installations of unauthorized file-sharing applications (e.g., BitTorrent clients) in an enterprise environment.\n\nRemove Unnecessary Services:\n\n- Use Case: Identify and disable unnecessary default services running on endpoints, servers, or network devices.\n- Implementation: Disable unused administrative shares (e.g., C$, ADMIN$) on workstations.\n\nRestrict Add-ons and Plugins:\n\n- Use Case: Remove or disable browser plugins and add-ons that are not needed for business purposes.\n- Implementation: Disable Java and ActiveX plugins in web browsers to prevent drive-by attacks.\n\n",
+      "stix_id": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "disable or remove feature or program"
+    },
+    "attack:M1034": {
+      "canonical_id": "attack:M1034",
+      "type": "Mitigation",
+      "name": "Limit Hardware Installation",
+      "aliases": [],
+      "attack_id": "M1034",
+      "description": "Prevent unauthorized users or groups from installing or using hardware, such as external drives, peripheral devices, or unapproved internal hardware components, by enforcing hardware usage policies and technical controls. This includes disabling USB ports, restricting driver installation, and implementing endpoint security tools to monitor and block unapproved devices. This mitigation can be implemented through the following measures:\n\nDisable USB Ports and Hardware Installation Policies:\n\n- Use Group Policy Objects (GPO) to disable USB mass storage devices:\n     - Navigate to Computer Configuration > Administrative Templates > System > Removable Storage Access.\n     - Deny write and read access to USB devices.\n- Whitelist approved devices using unique serial numbers via Windows Device Installation Policies.\n\nDeploy Endpoint Protection and Device Control Solutions:\n\n- Use tools like Microsoft Defender for Endpoint, Symantec Endpoint Protection, or Tanium to monitor and block unauthorized hardware.\n- Implement device control policies to allow specific hardware types (e.g., keyboards, mice) and block others.\n\nHarden BIOS/UEFI and System Firmware:\n\n- Set strong passwords for BIOS/UEFI access.\n- Enable Secure Boot to prevent rogue hardware components from loading unauthorized firmware.\n\nRestrict Peripheral Devices and Drivers:\n\n- Use Windows Device Manager Policies to block installation of unapproved drivers.\n- Monitor hardware installation attempts through endpoint monitoring tools.\n\nDisable Bluetooth and Wireless Hardware:\n\n- Use GPO or MDM tools to disable Bluetooth and Wi-Fi interfaces across systems.\n- Restrict hardware pairing to approved devices only.\n\nLogging and Monitoring:\n\n- Enable logging for hardware installation events in Windows Event Logs (Event ID 20001 for Device Setup Manager).\n- Use SIEM solutions (e.g., Splunk, Elastic Stack) to detect unauthorized hardware installation activities.\n\n*Tools for Implementation*\n\nUSB and Device Control:\n\n- Microsoft Group Policy Objects (GPO)\n- Microsoft Defender for Endpoint\n- Symantec Endpoint Protection\n- McAfee Device Control\n\nEndpoint Monitoring:\n\n- EDRs\n- OSSEC (open-source host-based IDS)\n\nHardware Whitelisting:\n\n- BitLocker for external drives (Windows)\n- Windows Device Installation Policies\n- Device Control \n\nBIOS/UEFI Security:\n\n- Secure Boot (Windows/Linux)\nFirmware management tools like Dell Command Update or HP Sure Start",
+      "stix_id": "course-of-action--2995bc22-2851-4345-ad19-4e7e295be264",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "limit hardware installation"
+    },
+    "attack:M1037": {
+      "canonical_id": "attack:M1037",
+      "type": "Mitigation",
+      "name": "Filter Network Traffic",
+      "aliases": [],
+      "attack_id": "M1037",
+      "description": "Employ network appliances and endpoint software to filter ingress, egress, and lateral network traffic. This includes protocol-based filtering, enforcing firewall rules, and blocking or restricting traffic based on predefined conditions to limit adversary movement and data exfiltration. This mitigation can be implemented through the following measures:\n\nIngress Traffic Filtering:\n\n- Use Case: Configure network firewalls to allow traffic only from authorized IP addresses to public-facing servers.\n- Implementation: Limit SSH (port 22) and RDP (port 3389) traffic to specific IP ranges.\n\nEgress Traffic Filtering:\n\n- Use Case: Use firewalls or endpoint security software to block unauthorized outbound traffic to prevent data exfiltration and command-and-control (C2) communications.\n- Implementation: Block outbound traffic to known malicious IPs or regions where communication is unexpected.\n\nProtocol-Based Filtering:\n\n- Use Case: Restrict the use of specific protocols that are commonly abused by adversaries, such as SMB, RPC, or Telnet, based on business needs.\n- Implementation: Disable SMBv1 on endpoints to prevent exploits like EternalBlue.\n\nNetwork Segmentation:\n\n- Use Case: Create network segments for critical systems and restrict communication between segments unless explicitly authorized.\n- Implementation: Implement VLANs to isolate IoT devices or guest networks from core business systems.\n\nApplication Layer Filtering:\n\n- Use Case: Use proxy servers or Web Application Firewalls (WAFs) to inspect and block malicious HTTP/S traffic.\n- Implementation: Configure a WAF to block SQL injection attempts or other web application exploitation techniques.",
+      "stix_id": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "filter network traffic"
+    },
+    "attack:M1038": {
+      "canonical_id": "attack:M1038",
+      "type": "Mitigation",
+      "name": "Execution Prevention",
+      "aliases": [],
+      "attack_id": "M1038",
+      "description": "Prevent the execution of unauthorized or malicious code on systems by implementing application control, script blocking, and other execution prevention mechanisms. This ensures that only trusted and authorized code is executed, reducing the risk of malware and unauthorized actions. This mitigation can be implemented through the following measures:\n\nApplication Control:\n\n- Use Case: Use tools like AppLocker or Windows Defender Application Control (WDAC) to create whitelists of authorized applications and block unauthorized ones. On Linux, use tools like SELinux or AppArmor to define mandatory access control policies for application execution.\n- Implementation: Allow only digitally signed or pre-approved applications to execute on servers and endpoints. (e.g., `New-AppLockerPolicy -PolicyType Enforced -FilePath \"C:\\Policies\\AppLocker.xml\"`) \n\n\nScript Blocking:\n\n- Use Case: Use script control mechanisms to block unauthorized execution of scripts, such as PowerShell or JavaScript. Web Browsers: Use browser extensions or settings to block JavaScript execution from untrusted sources.\n- Implementation: Configure PowerShell to enforce Constrained Language Mode for non-administrator users. (e.g., `Set-ExecutionPolicy AllSigned`) \n\nExecutable Blocking:\n\n- Use Case: Prevent execution of binaries from suspicious locations, such as `%TEMP%` or `%APPDATA%` directories.\n- Implementation: Block execution of `.exe`, `.bat`, or `.ps1` files from user-writable directories.\n\nDynamic Analysis Prevention:\n- Use Case: Use behavior-based execution prevention tools to identify and block malicious activity in real time.\n- Implemenation: Employ EDR solutions that analyze runtime behavior and block suspicious code execution.",
+      "stix_id": "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "execution prevention"
+    },
+    "attack:M1018": {
+      "canonical_id": "attack:M1018",
+      "type": "Mitigation",
+      "name": "User Account Management",
+      "aliases": [],
+      "attack_id": "M1018",
+      "description": "User Account Management involves implementing and enforcing policies for the lifecycle of user accounts, including creation, modification, and deactivation. Proper account management reduces the attack surface by limiting unauthorized access, managing account privileges, and ensuring accounts are used according to organizational policies. This mitigation can be implemented through the following measures:\n\nEnforcing the Principle of Least Privilege\n\n- Implementation: Assign users only the minimum permissions required to perform their job functions. Regularly audit accounts to ensure no excess permissions are granted.\n- Use Case: Reduces the risk of privilege escalation by ensuring accounts cannot perform unauthorized actions.\n\nImplementing Strong Password Policies\n\n- Implementation: Enforce password complexity requirements (e.g., length, character types). Require password expiration every 90 days and disallow password reuse.\n- Use Case: Prevents adversaries from gaining unauthorized access through password guessing or brute force attacks.\n\nManaging Dormant and Orphaned Accounts\n\n- Implementation: Implement automated workflows to disable accounts after a set period of inactivity (e.g., 30 days). Remove orphaned accounts (e.g., accounts without an assigned owner) during regular account audits.\n- Use Case: Eliminates dormant accounts that could be exploited by attackers.\n\nAccount Lockout Policies\n\n- Implementation: Configure account lockout thresholds (e.g., lock accounts after five failed login attempts). Set lockout durations to a minimum of 15 minutes.\n- Use Case: Mitigates automated attack techniques that rely on repeated login attempts.\n\nMulti-Factor Authentication (MFA) for High-Risk Accounts\n\n- Implementation: Require MFA for all administrative accounts and high-risk users. Use MFA mechanisms like hardware tokens, authenticator apps, or biometrics.\n- Use Case: Prevents unauthorized access, even if credentials are stolen.\n\nRestricting Interactive Logins\n\n- Implementation: Restrict interactive logins for privileged accounts to specific secure systems or management consoles. Use group policies to enforce logon restrictions.\n- Use Case: Protects sensitive accounts from misuse or exploitation.\n\n*Tools for Implementation*\n\nBuilt-in Tools:\n\n- Microsoft Active Directory (AD): Centralized account management and RBAC enforcement.\n- Group Policy Object (GPO): Enforce password policies, logon restrictions, and account lockout policies.\n\nIdentity and Access Management (IAM) Tools:\n\n- Okta: Centralized user provisioning, MFA, and SSO integration.\n- Microsoft Azure Active Directory: Provides advanced account lifecycle management, role-based access, and conditional access policies.\n\nPrivileged Account Management (PAM):\n- CyberArk, BeyondTrust, Thycotic: Manage and monitor privileged account usage, enforce session recording, and JIT access.",
+      "stix_id": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "user account management"
+    },
+    "attack:M1022": {
+      "canonical_id": "attack:M1022",
+      "type": "Mitigation",
+      "name": "Restrict File and Directory Permissions",
+      "aliases": [],
+      "attack_id": "M1022",
+      "description": "Restricting file and directory permissions involves setting access controls at the file system level to limit which users, groups, or processes can read, write, or execute files. By configuring permissions appropriately, organizations can reduce the attack surface for adversaries seeking to access sensitive data, plant malicious code, or tamper with system files.\n\nEnforce Least Privilege Permissions:\n\n- Remove unnecessary write permissions on sensitive files and directories.\n- Use file ownership and groups to control access for specific roles.\n\nExample (Windows): Right-click the shared folder → Properties → Security tab → Adjust permissions for NTFS ACLs.\n\nHarden File Shares:\n\n- Disable anonymous access to shared folders.\n- Enforce NTFS permissions for shared folders on Windows.\n\nExample: Set permissions to restrict write access to critical files, such as system executables (e.g., `/bin` or `/sbin` on Linux). Use tools like `chown` and `chmod` to assign file ownership and limit access.\n\nOn Linux, apply:\n`chmod 750 /etc/sensitive.conf`\n`chown root:admin /etc/sensitive.conf`\n\nFile Integrity Monitoring (FIM):\n\n- Use tools like Tripwire, Wazuh, or OSSEC to monitor changes to critical file permissions.\n\nAudit File System Access:\n\n- Enable auditing to track permission changes or unauthorized access attempts.\n- Use auditd (Linux) or Event Viewer (Windows) to log activities.\n\nRestrict Startup Directories:\n\n- Configure permissions to prevent unauthorized writes to directories like `C:\\ProgramData\\Microsoft\\Windows\\Start Menu`.\n\nExample: Restrict write access to critical directories like `/etc/`, `/usr/local/`, and Windows directories such as `C:\\Windows\\System32`.\n\n- On Windows, use icacls to modify permissions: `icacls \"C:\\Windows\\System32\" /inheritance:r /grant:r SYSTEM:(OI)(CI)F`\n- On Linux, monitor permissions using tools like `lsattr` or `auditd`.",
+      "stix_id": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "restrict file and directory permissions"
+    },
+    "attack:M1024": {
+      "canonical_id": "attack:M1024",
+      "type": "Mitigation",
+      "name": "Restrict Registry Permissions",
+      "aliases": [],
+      "attack_id": "M1024",
+      "description": "Restricting registry permissions involves configuring access control settings for sensitive registry keys and hives to ensure that only authorized users or processes can make modifications. By limiting access, organizations can prevent unauthorized changes that adversaries might use for persistence, privilege escalation, or defense evasion. This mitigation can be implemented through the following measures:\n\nReview and Adjust Permissions on Critical Keys\n\n- Regularly review permissions on keys such as `Run`, `RunOnce`, and `Services` to ensure only authorized users have write access.\n- Use tools like `icacls` or `PowerShell` to automate permission adjustments.\n\nEnable Registry Auditing\n\n- Enable auditing on sensitive keys to log access attempts.\n- Use Event Viewer or SIEM solutions to analyze logs and detect suspicious activity.\n- Example Audit Policy: `auditpol /set /subcategory:\"Registry\" /success:enable /failure:enable`\n\nProtect Credential-Related Hives\n\n- Limit access to hives like `SAM`,`SECURITY`, and `SYSTEM` to prevent credential dumping or other unauthorized access.\n- Use LSA Protection to add an additional security layer for credential storage.\n\nRestrict Registry Editor Usage\n\n- Use Group Policy to restrict access to regedit.exe for non-administrative users.\n- Block execution of registry editing tools on endpoints where they are unnecessary.\n\nDeploy Baseline Configuration Tools\n\n- Use tools like Microsoft Security Compliance Toolkit or CIS Benchmarks to apply and maintain secure registry configurations.\n\n*Tools for Implementation* \n\nRegistry Permission Tools:\n\n- Registry Editor (regedit): Built-in tool to manage registry permissions.\n- PowerShell: Automate permissions and manage keys. `Set-ItemProperty -Path \"HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\" -Name \"KeyName\" -Value \"Value\"`\n- icacls: Command-line tool to modify ACLs.\n\nMonitoring Tools:\n\n- Sysmon: Monitor and log registry events.\n- Event Viewer: View registry access logs.\n\nPolicy Management Tools:\n\n- Group Policy Management Console (GPMC): Enforce registry permissions via GPOs.\n- Microsoft Endpoint Manager: Deploy configuration baselines for registry permissions.",
+      "stix_id": "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "restrict registry permissions"
+    },
+    "attack:M1047": {
+      "canonical_id": "attack:M1047",
+      "type": "Mitigation",
+      "name": "Audit",
+      "aliases": [],
+      "attack_id": "M1047",
+      "description": "Auditing is the process of recording activity and systematically reviewing and analyzing the activity and system configurations. The primary purpose of auditing is to detect anomalies and identify potential threats or weaknesses in the environment. Proper auditing configurations can also help to meet compliance requirements. The process of auditing encompasses regular analysis of user behaviors and system logs in support of proactive security measures.\n\nAuditing is applicable to all systems used within an organization, from the front door of a building to accessing a file on a fileserver. It is considered more critical for regulated industries such as, healthcare, finance and government where compliance requirements demand stringent tracking of user and system activates.This mitigation can be implemented through the following measures: \n\nSystem Audit:\n\n- Use Case: Regularly assess system configurations to ensure compliance with organizational security policies.\n- Implementation: Use tools to scan for deviations from established benchmarks.\n\nPermission Audits:\n\n- Use Case: Review file and folder permissions to minimize the risk of unauthorized access or privilege escalation.\n- Implementation: Run access reviews to identify users or groups with excessive permissions.\n\nSoftware Audits:\n\n- Use Case: Identify outdated, unsupported, or insecure software that could serve as an attack vector.\n- Implementation: Use inventory and vulnerability scanning tools to detect outdated versions and recommend secure alternatives.\n\nConfiguration Audits:\n\n- Use Case: Evaluate system and network configurations to ensure secure settings (e.g., disabled SMBv1, enabled MFA).\n- Implementation: Implement automated configuration scanning tools like SCAP (Security Content Automation Protocol) to identify non-compliant systems.\n\nNetwork Audits:\n\n- Use Case: Examine network traffic, firewall rules, and endpoint communications to identify unauthorized or insecure connections.\n- Implementation: Utilize tools such as Wireshark, or Zeek to monitor and log suspicious network behavior.",
+      "stix_id": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "audit"
+    },
+    "attack:T1078": {
+      "canonical_id": "attack:T1078",
+      "type": "Technique",
+      "name": "Valid Accounts",
+      "aliases": [],
+      "attack_id": "T1078",
+      "stix_id": "attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "valid accounts"
+    },
+    "attack:T1133": {
+      "canonical_id": "attack:T1133",
+      "type": "Technique",
+      "name": "External Remote Services",
+      "aliases": [],
+      "attack_id": "T1133",
+      "stix_id": "attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "external remote services"
+    },
+    "attack:T1587.001": {
+      "canonical_id": "attack:T1587.001",
+      "type": "Technique",
+      "name": "Malware",
+      "aliases": [],
+      "attack_id": "T1587.001",
+      "stix_id": "attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "malware"
+    },
+    "attack:T1059.001": {
+      "canonical_id": "attack:T1059.001",
+      "type": "Technique",
+      "name": "PowerShell",
+      "aliases": [],
+      "attack_id": "T1059.001",
+      "stix_id": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "powershell"
+    },
+    "attack:T1059.003": {
+      "canonical_id": "attack:T1059.003",
+      "type": "Technique",
+      "name": "Windows Command Shell",
+      "aliases": [],
+      "attack_id": "T1059.003",
+      "stix_id": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "windows command shell"
+    },
+    "local:AA23-319A:threat-actors-leveraging-rhysida-ransomware": {
+      "canonical_id": "local:AA23-319A:threat-actors-leveraging-rhysida-ransomware",
+      "type": "ThreatGroup",
+      "name": "Threat actors leveraging Rhysida ransomware",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "threat actors leveraging rhysida ransomware"
+    },
+    "local:AA23-319A:software:1df40bd01a53": {
+      "canonical_id": "local:AA23-319A:software:1df40bd01a53",
+      "type": "Software",
+      "name": "Rhysida",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "rhysida"
+    },
+    "local:AA23-319A:rhysida-actors": {
+      "canonical_id": "local:AA23-319A:rhysida-actors",
+      "type": "ThreatGroup",
+      "name": "Rhysida actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "rhysida actors"
+    },
+    "attack:S1138": {
+      "canonical_id": "attack:S1138",
+      "type": "Software",
+      "name": "Gootloader",
+      "aliases": [
+        "Gootloader"
+      ],
+      "attack_id": "S1138",
+      "stix_id": "malware--396c18b9-26fb-4435-8589-fb856502e4c4",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "gootloader"
+    },
+    "attack:T1021.001": {
+      "canonical_id": "attack:T1021.001",
+      "type": "Technique",
+      "name": "Remote Desktop Protocol",
+      "aliases": [],
+      "attack_id": "T1021.001",
+      "stix_id": "attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "remote desktop protocol"
+    },
+    "attack:S0039": {
+      "canonical_id": "attack:S0039",
+      "type": "Software",
+      "name": "Net",
+      "aliases": [
+        "Net",
+        "net.exe"
+      ],
+      "attack_id": "S0039",
+      "stix_id": "tool--03342581-f790-4f03-ba41-e82e67392e23",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "net"
+    },
+    "attack:T1087.002": {
+      "canonical_id": "attack:T1087.002",
+      "type": "Technique",
+      "name": "Domain Account",
+      "aliases": [],
+      "attack_id": "T1087.002",
+      "stix_id": "attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "domain account"
+    },
+    "attack:T1018": {
+      "canonical_id": "attack:T1018",
+      "type": "Technique",
+      "name": "Remote System Discovery",
+      "aliases": [],
+      "attack_id": "T1018",
+      "stix_id": "attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "remote system discovery"
+    },
+    "attack:T1069.002": {
+      "canonical_id": "attack:T1069.002",
+      "type": "Technique",
+      "name": "Domain Groups",
+      "aliases": [],
+      "attack_id": "T1069.002",
+      "stix_id": "attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "domain groups"
+    },
+    "local:AA23-319A:software:e6ae79ce9336": {
+      "canonical_id": "local:AA23-319A:software:e6ae79ce9336",
+      "type": "Software",
+      "name": "Windows PowerShell Integrated Scripting Environment",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "windows powershell integrated scripting environment"
+    },
+    "local:AA23-320A:scattered-spider-threat-actors": {
+      "canonical_id": "local:AA23-320A:scattered-spider-threat-actors",
+      "type": "ThreatGroup",
+      "name": "Scattered Spider threat actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "scattered spider threat actors"
+    },
+    "attack:T1598": {
+      "canonical_id": "attack:T1598",
+      "type": "Technique",
+      "name": "Phishing for Information",
+      "aliases": [],
+      "attack_id": "T1598",
+      "stix_id": "attack-pattern--cca0ccb6-a068-4574-a722-b1556f86833a",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "phishing for information"
+    },
+    "attack:T1656": {
+      "canonical_id": "attack:T1656",
+      "type": "Technique",
+      "name": "Impersonation",
+      "aliases": [],
+      "attack_id": "T1656",
+      "stix_id": "attack-pattern--c9e0c59e-162e-40a4-b8b1-78fab4329ada",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "impersonation"
+    },
+    "attack:T1204": {
+      "canonical_id": "attack:T1204",
+      "type": "Technique",
+      "name": "User Execution",
+      "aliases": [],
+      "attack_id": "T1204",
+      "stix_id": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "user execution"
+    },
+    "attack:G1015": {
+      "canonical_id": "attack:G1015",
+      "type": "ThreatGroup",
+      "name": "Scattered Spider",
+      "aliases": [
+        "Scattered Spider",
+        "Roasted 0ktapus",
+        "Octo Tempest",
+        "Storm-0875"
+      ],
+      "attack_id": "G1015",
+      "stix_id": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "scattered spider"
+    },
+    "attack:S0670": {
+      "canonical_id": "attack:S0670",
+      "type": "Software",
+      "name": "WarzoneRAT",
+      "aliases": [
+        "WarzoneRAT",
+        "Warzone",
+        "Ave Maria"
+      ],
+      "attack_id": "S0670",
+      "stix_id": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "warzonerat"
+    },
+    "attack:S1148": {
+      "canonical_id": "attack:S1148",
+      "type": "Software",
+      "name": "Raccoon Stealer",
+      "aliases": [
+        "Raccoon Stealer"
+      ],
+      "attack_id": "S1148",
+      "stix_id": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "raccoon stealer"
+    },
+    "attack:T1217": {
+      "canonical_id": "attack:T1217",
+      "type": "Technique",
+      "name": "Browser Information Discovery",
+      "aliases": [],
+      "attack_id": "T1217",
+      "stix_id": "attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "browser information discovery"
+    },
+    "attack:T1539": {
+      "canonical_id": "attack:T1539",
+      "type": "Technique",
+      "name": "Steal Web Session Cookie",
+      "aliases": [],
+      "attack_id": "T1539",
+      "stix_id": "attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "steal web session cookie"
+    },
+    "local:AA23-353A:alphv-blackcat-affiliates": {
+      "canonical_id": "local:AA23-353A:alphv-blackcat-affiliates",
+      "type": "ThreatGroup",
+      "name": "ALPHV Blackcat affiliates",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "alphv blackcat affiliates"
+    },
+    "attack:T1586": {
+      "canonical_id": "attack:T1586",
+      "type": "Technique",
+      "name": "Compromise Accounts",
+      "aliases": [],
+      "attack_id": "T1586",
+      "stix_id": "attack-pattern--81033c3b-16a4-46e4-8fed-9b030dd03c4a",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "compromise accounts"
+    },
+    "local:AA23-353A:software:f084e63e6a62": {
+      "canonical_id": "local:AA23-353A:software:f084e63e6a62",
+      "type": "Software",
+      "name": "AnyDesk",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "anydesk"
+    },
+    "local:AA23-353A:software:17ebeba16cb1": {
+      "canonical_id": "local:AA23-353A:software:17ebeba16cb1",
+      "type": "Software",
+      "name": "Mega sync",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "mega sync"
+    },
+    "attack:S0183": {
+      "canonical_id": "attack:S0183",
+      "type": "Software",
+      "name": "Tor",
+      "aliases": [
+        "Tor"
+      ],
+      "attack_id": "S0183",
+      "stix_id": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "tor"
+    },
+    "local:AA24-060A:phobos-actors": {
+      "canonical_id": "local:AA24-060A:phobos-actors",
+      "type": "ThreatGroup",
+      "name": "Phobos actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "phobos actors"
+    },
+    "local:AA24-060A:threat-actors-leveraging-phobos": {
+      "canonical_id": "local:AA24-060A:threat-actors-leveraging-phobos",
+      "type": "ThreatGroup",
+      "name": "Threat actors leveraging Phobos",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "threat actors leveraging phobos"
+    },
+    "local:AA24-060A:software:5609968b6d92": {
+      "canonical_id": "local:AA24-060A:software:5609968b6d92",
+      "type": "Software",
+      "name": "Phobos",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "phobos"
+    },
+    "local:AA24-060A:software:ea63ca1308cf": {
+      "canonical_id": "local:AA24-060A:software:ea63ca1308cf",
+      "type": "Software",
+      "name": "1saas.exe",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "1saas.exe"
+    },
+    "attack:S0106": {
+      "canonical_id": "attack:S0106",
+      "type": "Software",
+      "name": "cmd",
+      "aliases": [
+        "cmd",
+        "cmd.exe"
+      ],
+      "attack_id": "S0106",
+      "stix_id": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "cmd"
+    },
+    "local:AA24-060A:software:8c57bea45052": {
+      "canonical_id": "local:AA24-060A:software:8c57bea45052",
+      "type": "Software",
+      "name": "Smokeloader",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "smokeloader"
+    },
+    "attack:T1055.002": {
+      "canonical_id": "attack:T1055.002",
+      "type": "Technique",
+      "name": "Portable Executable Injection",
+      "aliases": [],
+      "attack_id": "T1055.002",
+      "stix_id": "attack-pattern--806a49c4-970d-43f9-9acc-ac0ee11e6662",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "portable executable injection"
+    },
+    "attack:M1026": {
+      "canonical_id": "attack:M1026",
+      "type": "Mitigation",
+      "name": "Privileged Account Management",
+      "aliases": [],
+      "attack_id": "M1026",
+      "description": "Privileged Account Management focuses on implementing policies, controls, and tools to securely manage privileged accounts (e.g., SYSTEM, root, or administrative accounts). This includes restricting access, limiting the scope of permissions, monitoring privileged account usage, and ensuring accountability through logging and auditing.This mitigation can be implemented through the following measures:\n\nAccount Permissions and Roles:\n\n- Implement RBAC and least privilege principles to allocate permissions securely.\n- Use tools like Active Directory Group Policies to enforce access restrictions.\n\nCredential Security:\n\n- Deploy password vaulting tools like CyberArk, HashiCorp Vault, or KeePass for secure storage and rotation of credentials.\n- Enforce password policies for complexity, uniqueness, and expiration using tools like Microsoft Group Policy Objects (GPO).\n\nMulti-Factor Authentication (MFA):\n\n- Enforce MFA for all privileged accounts using Duo Security, Okta, or Microsoft Azure AD MFA.\n\nPrivileged Access Management (PAM):\n\n- Use PAM solutions like CyberArk, BeyondTrust, or Thycotic to manage, monitor, and audit privileged access.\n\nAuditing and Monitoring:\n\n- Integrate activity monitoring into your SIEM (e.g., Splunk or QRadar) to detect and alert on anomalous privileged account usage.\n\nJust-In-Time Access:\n\n- Deploy JIT solutions like Azure Privileged Identity Management (PIM) or configure ephemeral roles in AWS and GCP to grant time-limited elevated permissions.\n\n*Tools for Implementation*\n\nPrivileged Access Management (PAM):\n\n- CyberArk, BeyondTrust, Thycotic, HashiCorp Vault.\n\nCredential Management:\n\n- Microsoft LAPS (Local Admin Password Solution), Password Safe, HashiCorp Vault, KeePass.\n\nMulti-Factor Authentication:\n\n- Duo Security, Okta, Microsoft Azure MFA, Google Authenticator.\n\nLinux Privilege Management:\n\n- sudo configuration, SELinux, AppArmor.\n\nJust-In-Time Access:\n\n- Azure Privileged Identity Management (PIM), AWS IAM Roles with session constraints, GCP Identity-Aware Proxy.",
+      "stix_id": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "privileged account management"
+    },
+    "attack:M1028": {
+      "canonical_id": "attack:M1028",
+      "type": "Mitigation",
+      "name": "Operating System Configuration",
+      "aliases": [],
+      "attack_id": "M1028",
+      "description": "Operating System Configuration involves adjusting system settings and hardening the default configurations of an operating system (OS) to mitigate adversary exploitation and prevent abuse of system functionality. Proper OS configurations address security vulnerabilities, limit attack surfaces, and ensure robust defense against a wide range of techniques. This mitigation can be implemented through the following measures: \n\nDisable Unused Features:\n\n- Turn off SMBv1, LLMNR, and NetBIOS where not needed.\n- Disable remote registry and unnecessary services.\n\nEnforce OS-level Protections:\n\n- Enable Data Execution Prevention (DEP), Address Space Layout Randomization (ASLR), and Control Flow Guard (CFG) on Windows.\n- Use AppArmor or SELinux on Linux for mandatory access controls.\n\nSecure Access Settings:\n\n- Enable User Account Control (UAC) for Windows.\n- Restrict root/sudo access on Linux/macOS and enforce strong permissions using sudoers files.\n\nFile System Hardening:\n\n- Implement least-privilege access for critical files and system directories.\n- Audit permissions regularly using tools like icacls (Windows) or getfacl/chmod (Linux/macOS).\n\nSecure Remote Access:\n\n- Restrict RDP, SSH, and VNC to authorized IPs using firewall rules.\n- Enable NLA for RDP and enforce strong password/lockout policies.\n\nHarden Boot Configurations:\n\n- Enable Secure Boot and enforce UEFI/BIOS password protection.\n- Use BitLocker or LUKS to encrypt boot drives.\n\nRegular Audits:\n\n- Periodically audit OS configurations using tools like CIS Benchmarks or SCAP tools.\n\n*Tools for Implementation*\n\nWindows:\n\n- Microsoft Group Policy Objects (GPO): Centrally enforce OS security settings.\n- Windows Defender Exploit Guard: Built-in OS protection against exploits.\n- CIS-CAT Pro: Audit Windows security configurations based on CIS Benchmarks.\n\nLinux/macOS:\n\n- AppArmor/SELinux: Enforce mandatory access controls.\n- Lynis: Perform comprehensive security audits.\n- SCAP Security Guide: Automate configuration hardening using Security Content Automation Protocol.\n\nCross-Platform:\n\n- Ansible or Chef/Puppet: Automate configuration hardening at scale.\n- OpenSCAP: Perform compliance and configuration checks.",
+      "stix_id": "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "operating system configuration"
+    },
+    "attack:M1032": {
+      "canonical_id": "attack:M1032",
+      "type": "Mitigation",
+      "name": "Multi-factor Authentication",
+      "aliases": [],
+      "attack_id": "M1032",
+      "description": "Multi-Factor Authentication (MFA) enhances security by requiring users to provide at least two forms of verification to prove their identity before granting access. These factors typically include:\n\n- *Something you know*: Passwords, PINs.\n- *Something you have*: Physical tokens, smartphone authenticator apps.\n- *Something you are*: Biometric data such as fingerprints, facial recognition, or retinal scans.\n\nImplementing MFA across all critical systems and services ensures robust protection against account takeover and unauthorized access. This mitigation can be implemented through the following measures:\n\nIdentity and Access Management (IAM):\n\n- Use IAM solutions like Azure Active Directory, Okta, or AWS IAM to enforce MFA policies for all user logins, especially for privileged roles.\n- Enable conditional access policies to enforce MFA for risky sign-ins (e.g., unfamiliar devices, geolocations).\n\nAuthentication Tools and Methods:\n\n- Use authenticator applications such as Google Authenticator, Microsoft Authenticator, or Authy for time-based one-time passwords (TOTP).\n- Deploy hardware-based tokens like YubiKey, RSA SecurID, or smart cards for additional security.\n- Enforce biometric authentication for compatible devices and applications.\n\nSecure Legacy Systems:\n\n- Integrate MFA solutions with older systems using third-party tools like Duo Security or Thales SafeNet.\n- Enable RADIUS/NPS servers to facilitate MFA for VPNs, RDP, and other network logins.\n\nMonitoring and Alerting:\n\n- Use SIEM tools to monitor failed MFA attempts, login anomalies, or brute-force attempts against MFA systems.\n- Implement alerts for suspicious MFA activities, such as repeated failed codes or new device registrations.\n\nTraining and Policy Enforcement:\n\n- Educate employees on the importance of MFA and secure authenticator usage.\n- Enforce policies that require MFA on all critical systems, especially for remote access, privileged accounts, and cloud applications.",
+      "stix_id": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "multi-factor authentication"
+    },
+    "attack:M1035": {
+      "canonical_id": "attack:M1035",
+      "type": "Mitigation",
+      "name": "Limit Access to Resource Over Network",
+      "aliases": [],
+      "attack_id": "M1035",
+      "description": "Restrict access to network resources, such as file shares, remote systems, and services, to only those users, accounts, or systems with a legitimate business requirement. This can include employing technologies like network concentrators, RDP gateways, and zero-trust network access (ZTNA) models, alongside hardening services and protocols. This mitigation can be implemented through the following measures:\n\nAudit and Restrict Access:\n\n- Regularly audit permissions for file shares, network services, and remote access tools.\n- Remove unnecessary access and enforce least privilege principles for users and services.\n- Use Active Directory and IAM tools to restrict access based on roles and attributes.\n\nDeploy Secure Remote Access Solutions:\n\n- Use RDP gateways, VPN concentrators, and ZTNA solutions to aggregate and secure remote access connections.\n- Configure access controls to restrict connections based on time, device, and user identity.\n- Enforce MFA for all remote access mechanisms.\n\nDisable Unnecessary Services:\n\n- Identify running services using tools like netstat (Windows/Linux) or Nmap.\n- Disable unused services, such as Telnet, FTP, and legacy SMB, to reduce the attack surface.\n- Use firewall rules to block traffic on unused ports and protocols.\n\nNetwork Segmentation and Isolation:\n\n- Use VLANs, firewalls, or micro-segmentation to isolate critical network resources from general access.\n- Restrict communication between subnets to prevent lateral movement.\n\nMonitor and Log Access:\n\n- Monitor access attempts to file shares, RDP, and remote network resources using SIEM tools.\n- Enable auditing and logging for successful and failed attempts to access restricted resources.\n\n*Tools for Implementation*\n\nFile Share Management:\n\n- Microsoft Active Directory Group Policies\n- Samba (Linux/Unix file share management)\n- AccessEnum (Windows access auditing tool)\n\nSecure Remote Access:\n\n- Microsoft Remote Desktop Gateway\n- Apache Guacamole (open-source RDP/VNC gateway)\n- Zero Trust solutions: Tailscale, Cloudflare Zero Trust\n\nService and Protocol Hardening:\n\n- Nmap or Nessus for network service discovery\n- Windows Group Policy Editor for disabling SMBv1, Telnet, and legacy protocols\n- iptables or firewalld (Linux) for blocking unnecessary traffic\n\nNetwork Segmentation:\n\n- pfSense for open-source network isolation",
+      "stix_id": "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "limit access to resource over network"
+    },
+    "attack:M1040": {
+      "canonical_id": "attack:M1040",
+      "type": "Mitigation",
+      "name": "Behavior Prevention on Endpoint",
+      "aliases": [],
+      "attack_id": "M1040",
+      "description": "Behavior Prevention on Endpoint refers to the use of technologies and strategies to detect and block potentially malicious activities by analyzing the behavior of processes, files, API calls, and other endpoint events. Rather than relying solely on known signatures, this approach leverages heuristics, machine learning, and real-time monitoring to identify anomalous patterns indicative of an attack. This mitigation can be implemented through the following measures:\n\nSuspicious Process Behavior:\n\n- Implementation: Use Endpoint Detection and Response (EDR) tools to monitor and block processes exhibiting unusual behavior, such as privilege escalation attempts.\n- Use Case: An attacker uses a known vulnerability to spawn a privileged process from a user-level application. The endpoint tool detects the abnormal parent-child process relationship and blocks the action.\n\nUnauthorized File Access:\n\n- Implementation: Leverage Data Loss Prevention (DLP) or endpoint tools to block processes attempting to access sensitive files without proper authorization.\n- Use Case: A process tries to read or modify a sensitive file located in a restricted directory, such as /etc/shadow on Linux or the SAM registry hive on Windows. The endpoint tool identifies this anomalous behavior and prevents it.\n\nAbnormal API Calls:\n\n- Implementation: Implement runtime analysis tools to monitor API calls and block those associated with malicious activities.\n- Use Case: A process dynamically injects itself into another process to hijack its execution. The endpoint detects the abnormal use of APIs like `OpenProcess` and `WriteProcessMemory` and terminates the offending process.\n\nExploit Prevention:\n\n- Implementation: Use behavioral exploit prevention tools to detect and block exploits attempting to gain unauthorized access.\n- Use Case: A buffer overflow exploit is launched against a vulnerable application. The endpoint detects the anomalous memory write operation and halts the process.",
+      "stix_id": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "behavior prevention on endpoint"
+    },
+    "attack:M1045": {
+      "canonical_id": "attack:M1045",
+      "type": "Mitigation",
+      "name": "Code Signing",
+      "aliases": [],
+      "attack_id": "M1045",
+      "description": "Code Signing is a security process that ensures the authenticity and integrity of software by digitally signing executables, scripts, and other code artifacts. It prevents untrusted or malicious code from executing by verifying the digital signatures against trusted sources. Code signing protects against tampering, impersonation, and distribution of unauthorized or malicious software, forming a critical defense against supply chain and software exploitation attacks. This mitigation can be implemented through the following measures:\n\nEnforce Signed Code Execution:\n\n- Implementation: Configure operating systems (e.g., Windows with AppLocker or Linux with Secure Boot) to allow only signed code to execute.\n- Use Case: Prevent the execution of malicious PowerShell scripts by requiring all scripts to be signed with a trusted certificate.\n\nVendor-Signed Driver Enforcement:\n\n- Implementation: Enable kernel-mode code signing to ensure that only drivers signed by trusted vendors can be loaded.\n- Use Case: A malicious driver attempting to modify system memory fails to load because it lacks a valid signature.\n\nCertificate Revocation Management:\n\n- Implementation: Use Online Certificate Status Protocol (OCSP) or Certificate Revocation Lists (CRLs) to block certificates associated with compromised or deprecated code.\n- Use Case: A compromised certificate used to sign a malicious update is revoked, preventing further execution of the software.\n\nThird-Party Software Verification:\n\n- Implementation: Require software from external vendors to be signed with valid certificates before deployment.\n- Use Case: An organization only deploys signed and verified third-party software to prevent supply chain attacks.\n\nScript Integrity in CI/CD Pipelines:\n\n- Implementation: Integrate code signing into CI/CD pipelines to sign and verify code artifacts before production release.\n- Use Case: A software company ensures that all production builds are signed, preventing tampered builds from reaching customers.\n\n**Key Components of Code Signing**\n\n- Digital Signature Verification: Verifies the authenticity of code by ensuring it was signed by a trusted entity.\n- Certificate Management: Uses Public Key Infrastructure (PKI) to manage signing certificates and revocation lists.\n- Enforced Policy for Unsigned Code: Prevents the execution of unsigned or untrusted binaries and scripts.\n- Hash Integrity Check: Confirms that code has not been altered since signing by comparing cryptographic hashes.\n",
+      "stix_id": "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "code signing"
+    },
+    "attack:M1049": {
+      "canonical_id": "attack:M1049",
+      "type": "Mitigation",
+      "name": "Antivirus/Antimalware",
+      "aliases": [],
+      "attack_id": "M1049",
+      "description": "Antivirus/Antimalware solutions utilize signatures, heuristics, and behavioral analysis to detect, block, and remediate malicious software, including viruses, trojans, ransomware, and spyware. These solutions continuously monitor endpoints and systems for known malicious patterns and suspicious behaviors that indicate compromise. Antivirus/Antimalware software should be deployed across all devices, with automated updates to ensure protection against the latest threats. This mitigation can be implemented through the following measures:\n\nSignature-Based Detection:\n\n- Implementation: Use predefined signatures to identify known malware based on unique patterns such as file hashes, byte sequences, or command-line arguments. This method is effective against known threats.\n- Use Case: When malware like \"Emotet\" is detected, its signature (such as a specific file hash) matches a known database of malicious software, triggering an alert and allowing immediate quarantine of the infected file.\n\nHeuristic-Based Detection:\n\n- Implementation: Deploy heuristic algorithms that analyze behavior and characteristics of files and processes to identify potential malware, even if it doesn’t match a known signature.\n- Use Case: If a program attempts to modify multiple critical system files or initiate suspicious network communications, heuristic analysis may flag it as potentially malicious, even if no specific malware signature is available.\n\nBehavioral Detection (Behavior Prevention):\n\n- Implementation: Use behavioral analysis to detect patterns of abnormal activities, such as unusual system calls, unauthorized file encryption, or attempts to escalate privileges.\n- Use Case: Behavioral analysis can detect ransomware attacks early by identifying behavior like mass file encryption, even before a specific ransomware signature has been identified.\n\nReal-Time Scanning:\n\n- Implementation: Enable real-time scanning to automatically inspect files and network traffic for signs of malware as they are accessed, downloaded, or executed.\n- Use Case: When a user downloads an email attachment, the antivirus solution scans the file in real-time, checking it against both signatures and heuristics to detect any malicious content before it can be opened.\n\nCloud-Assisted Threat Intelligence:\n\n- Implementation: Use cloud-based threat intelligence to ensure the antivirus solution can access the latest malware definitions and real-time threat feeds from a global database of emerging threats.\n- Use Case: Cloud-assisted antivirus solutions quickly identify newly discovered malware by cross-referencing against global threat databases, providing real-time protection against zero-day attacks.\n\n**Tools for Implementation**:\n\n- Endpoint Security Platforms: Use solutions such as EDR for comprehensive antivirus/antimalware protection across all systems.\n- Centralized Management: Implement centralized antivirus management consoles that provide visibility into threat activity, enable policy enforcement, and automate updates.\n- Behavioral Analysis Tools: Leverage solutions with advanced behavioral analysis capabilities to detect malicious activity patterns that don’t rely on known signatures.",
+      "stix_id": "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "antivirus/antimalware"
+    },
+    "attack:M1013": {
+      "canonical_id": "attack:M1013",
+      "type": "Mitigation",
+      "name": "Application Developer Guidance",
+      "aliases": [],
+      "attack_id": "M1013",
+      "description": "Application Developer Guidance focuses on providing developers with the knowledge, tools, and best practices needed to write secure code, reduce vulnerabilities, and implement secure design principles. By integrating security throughout the software development lifecycle (SDLC), this mitigation aims to prevent the introduction of exploitable weaknesses in applications, systems, and APIs. This mitigation can be implemented through the following measures:\n \nPreventing SQL Injection (Secure Coding Practice):\n\n- Implementation: Train developers to use parameterized queries or prepared statements instead of directly embedding user input into SQL queries.\n- Use Case: A web application accepts user input to search a database. By sanitizing and validating user inputs, developers can prevent attackers from injecting malicious SQL commands.\n\nCross-Site Scripting (XSS) Mitigation:\n\n- Implementation: Require developers to implement output encoding for all user-generated content displayed on a web page.\n- Use Case: An e-commerce site allows users to leave product reviews. Properly encoding and escaping user inputs prevents malicious scripts from being executed in other users’ browsers.\n\nSecure API Design:\n\n- Implementation: Train developers to authenticate all API endpoints and avoid exposing sensitive information in API responses.\n- Use Case: A mobile banking application uses APIs for account management. By enforcing token-based authentication for every API call, developers reduce the risk of unauthorized access.\n\nStatic Code Analysis in the Build Pipeline:\n\n- Implementation: Incorporate tools into CI/CD pipelines to automatically scan for vulnerabilities during the build process.\n- Use Case: A fintech company integrates static analysis tools to detect hardcoded credentials in their source code before deployment.\n\nThreat Modeling in the Design Phase:\n\n- Implementation: Use frameworks like STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) to assess threats during application design.\n- Use Case: Before launching a customer portal, a SaaS company identifies potential abuse cases, such as session hijacking, and designs mitigations like secure session management.\n\n**Tools for Implementation**:\n\n- Static Code Analysis Tools: Use tools that can scan for known vulnerabilities in source code.\n- Dynamic Application Security Testing (DAST): Use tools like Burp Suite or OWASP ZAP to simulate runtime attacks and identify vulnerabilities.\n- Secure Frameworks: Recommend secure-by-default frameworks (e.g., Django for Python, Spring Security for Java) that enforce security best practices.",
+      "stix_id": "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "application developer guidance"
+    },
+    "attack:M1015": {
+      "canonical_id": "attack:M1015",
+      "type": "Mitigation",
+      "name": "Active Directory Configuration",
+      "aliases": [],
+      "attack_id": "M1015",
+      "description": "Implement robust Active Directory (AD) configurations using group policies to secure user accounts, control access, and minimize the attack surface. AD configurations enable centralized control over account settings, logon policies, and permissions, reducing the risk of unauthorized access and lateral movement within the network. This mitigation can be implemented through the following measures:\n\nAccount Configuration:\n\n- Implementation: Use domain accounts instead of local accounts to leverage AD’s centralized management, including group policies, auditing, and access control.\n- Use Case: For IT staff managing shared resources, provision domain accounts that allow IT teams to log in centrally, reducing the risk of unmanaged, rogue local accounts on individual machines.\n\nInteractive Logon Restrictions:\n\n- Implementation: Configure group policies to restrict interactive logons (e.g., direct physical or RDP logons) for service accounts or privileged accounts that do not require such access.\n- Use Case: Prevent service accounts, such as SQL Server accounts, from having interactive logon privileges. This reduces the risk of these accounts being leveraged for lateral movement if compromised.\n\nRemote Desktop Settings:\n\n- Implementation: Limit Remote Desktop Protocol (RDP) access to specific, authorized accounts. Use group policies to enforce this, allowing only necessary users to establish RDP sessions.\n- Use Case: On sensitive servers (e.g., domain controllers or financial databases), restrict RDP access to administrative accounts only, while all other users are denied access.\n\nDedicated Administrative Accounts:\n\n- Implementation: Create domain-wide administrative accounts that are restricted from interactive logons, designed solely for high-level tasks (e.g., software installation, patching).\n- Use Case: Create separate administrative accounts for different purposes, such as one set of accounts for installations and another for managing repository access. This limits exposure and helps reduce attack vectors.\n\nAuthentication Silos:\n\n- Implementation: Configure Authentication Silos in AD, using group policies to create access zones with restrictions based on membership, such as the Protected Users security group. This restricts access to critical accounts and minimizes exposure to potential threats.\n- Use Case: Place high-risk or high-value accounts, such as executive or administrative accounts, in an Authentication Silo with extra controls, limiting their exposure to only necessary systems. This reduces the risk of credential misuse or abuse if these accounts are compromised.\n\n**Tools for Implementation**:\n\n- Active Directory Group Policies: Use Group Policy Management Console (GPMC) to configure, deploy, and enforce policies across AD environments.\n- PowerShell: Automate account configuration, logon restrictions, and policy application using PowerShell scripts.\n- AD Administrative Center: Manage Authentication Silos and configure high-level policies for critical user groups within AD.",
+      "stix_id": "course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "active directory configuration"
+    },
+    "attack:M1017": {
+      "canonical_id": "attack:M1017",
+      "type": "Mitigation",
+      "name": "User Training",
+      "aliases": [],
+      "attack_id": "M1017",
+      "description": "User Training involves educating employees and contractors on recognizing, reporting, and preventing cyber threats that rely on human interaction, such as phishing, social engineering, and other manipulative techniques. Comprehensive training programs create a human firewall by empowering users to be an active component of the organization's cybersecurity defenses. This mitigation can be implemented through the following measures:\n\nCreate Comprehensive Training Programs:\n\n- Design training modules tailored to the organization's risk profile, covering topics such as phishing, password management, and incident reporting.\n- Provide role-specific training for high-risk employees, such as helpdesk staff or executives.\n\nUse Simulated Exercises:\n\n- Conduct phishing simulations to measure user susceptibility and provide targeted follow-up training.\n- Run social engineering drills to evaluate employee responses and reinforce protocols.\n\nLeverage Gamification and Engagement:\n\n- Introduce interactive learning methods such as quizzes, gamified challenges, and rewards for successful detection and reporting of threats.\n\nIncorporate Security Policies into Onboarding:\n\n- Include cybersecurity training as part of the onboarding process for new employees.\n- Provide easy-to-understand materials outlining acceptable use policies and reporting procedures.\n\nRegular Refresher Courses:\n\n- Update training materials to include emerging threats and techniques used by adversaries.\n- Ensure all employees complete periodic refresher courses to stay informed.\n\nEmphasize Real-World Scenarios:\n\n- Use case studies of recent attacks to demonstrate the consequences of successful phishing or social engineering.\n- Discuss how specific employee actions can prevent or mitigate such attacks.",
+      "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "user training"
+    },
+    "attack:M1027": {
+      "canonical_id": "attack:M1027",
+      "type": "Mitigation",
+      "name": "Password Policies",
+      "aliases": [],
+      "attack_id": "M1027",
+      "description": "Set and enforce secure password policies for accounts to reduce the likelihood of unauthorized access. Strong password policies include enforcing password complexity, requiring regular password changes, and preventing password reuse. This mitigation can be implemented through the following measures:\n\nWindows Systems:\n\n- Use Group Policy Management Console (GPMC) to configure:\n    - Minimum password length (e.g., 12+ characters).\n    - Password complexity requirements.\n    - Password history (e.g., disallow last 24 passwords).\n    - Account lockout duration and thresholds.\n\nLinux Systems:\n\n- Configure Pluggable Authentication Modules (PAM):\n- Use `pam_pwquality` to enforce complexity and length requirements.\n- Implement `pam_tally2` or `pam_faillock` for account lockouts.\n- Use `pwunconv` to disable password reuse.\n\nPassword Managers:\n\n- Enforce usage of enterprise password managers (e.g., Bitwarden, 1Password, LastPass) to generate and store strong passwords.\n\nPassword Blacklisting:\n\n- Use tools like Have I Been Pwned password checks or NIST-based blacklist solutions to prevent users from setting compromised passwords.\n\nRegular Auditing:\n\n- Periodically audit password policies and account configurations to ensure compliance using tools like LAPS (Local Admin Password Solution) and vulnerability scanners.\n\n*Tools for Implementation*\n\nWindows:\n\n- Group Policy Management Console (GPMC): Enforce password policies.\n- Microsoft Local Administrator Password Solution (LAPS): Enforce random, unique admin passwords.\n\nLinux/macOS:\n\n- PAM Modules (pam_pwquality, pam_tally2, pam_faillock): Enforce password rules.\n- Lynis: Audit password policies and system configurations.\n\nCross-Platform:\n\n- Password Managers (Bitwarden, 1Password, KeePass): Manage and enforce strong passwords.\n- Have I Been Pwned API: Prevent the use of breached passwords.\n- NIST SP 800-63B compliant tools: Enforce password guidelines and blacklisting.",
+      "stix_id": "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "password policies"
+    },
+    "attack:M1036": {
+      "canonical_id": "attack:M1036",
+      "type": "Mitigation",
+      "name": "Account Use Policies",
+      "aliases": [],
+      "attack_id": "M1036",
+      "description": "Account Use Policies help mitigate unauthorized access by configuring and enforcing rules that govern how and when accounts can be used. These policies include enforcing account lockout mechanisms, restricting login times, and setting inactivity timeouts. Proper configuration of these policies reduces the risk of brute-force attacks, credential theft, and unauthorized access by limiting the opportunities for malicious actors to exploit accounts. This mitigation can be implemented through the following measures:\n\nAccount Lockout Policies:\n\n- Implementation: Configure account lockout settings so that after a defined number of failed login attempts (e.g., 3-5 attempts), the account is locked for a specific time period (e.g., 15 minutes) or requires an administrator to unlock it.\n- Use Case: This prevents brute-force attacks by limiting how many incorrect password attempts can be made before the account is temporarily disabled, reducing the likelihood of an attacker successfully guessing a password.\n\nLogin Time Restrictions:\n\n- Implementation: Set up login time policies to restrict when users or groups can log into systems. For example, only allowing login during standard business hours (e.g., 8 AM to 6 PM) for non-administrative accounts.\n- Use Case: This prevents unauthorized access outside of approved working hours, where login attempts might be more suspicious or harder to monitor. For example, if an account that is only supposed to be active during the day logs in at 2 AM, it should raise an alert or be blocked.\n\nInactivity Timeout and Session Termination:\n\n- Implementation: Enforce session timeouts after a period of inactivity (e.g., 10-15 minutes) and require users to re-authenticate if they wish to resume the session.\n- Use Case: This policy prevents attackers from hijacking active sessions left unattended. For example, if an employee walks away from their computer without locking it, an attacker with physical access to the system would be unable to exploit the session.\n\nPassword Aging Policies:\n\n- Implementation: Enforce password aging rules, requiring users to change their passwords after a defined period (e.g., 90 days) and ensure passwords are not reused by maintaining a password history.\n- Use Case: This limits the risk of compromised passwords being used indefinitely. Regular password changes make it more difficult for attackers to reuse stolen credentials.\n\nAccount Expiration and Deactivation:\n\n- Implementation: Configure user accounts, especially for temporary or contract workers, to automatically expire after a set date or event. Accounts that remain unused for a specific period should be deactivated automatically.\n- Use Case: This prevents dormant accounts from becoming an attack vector. For example, an attacker can exploit unused accounts if they are not properly monitored or deactivated.\n\n**Tools for Implementation**:\n\n- Group Policy Objects (GPOs) in Windows: To enforce account lockout thresholds, login time restrictions, session timeouts, and password policies.\n- Identity and Access Management (IAM) solutions: For centralized management of user accounts, session policies, and automated deactivation of accounts.\n- Security Information and Event Management (SIEM) platforms: To monitor and alert on unusual login activity, such as failed logins or out-of-hours access attempts.\n- Multi-Factor Authentication (MFA) Tools: To further enforce secure login attempts, preventing brute-force or credential stuffing attacks.\n",
+      "stix_id": "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "account use policies"
+    },
+    "attack:M1021": {
+      "canonical_id": "attack:M1021",
+      "type": "Mitigation",
+      "name": "Restrict Web-Based Content",
+      "aliases": [],
+      "attack_id": "M1021",
+      "description": "Restricting web-based content involves enforcing policies and technologies that limit access to potentially malicious websites, unsafe downloads, and unauthorized browser behaviors. This can include URL filtering, download restrictions, script blocking, and extension control to protect against exploitation, phishing, and malware delivery. This mitigation can be implemented through the following measures:\n\nDeploy Web Proxy Filtering:\n\n- Use solutions to filter web traffic based on categories, reputation, and content types.\n- Enforce policies that block unsafe websites or file types at the gateway level.\n\nEnable DNS-Based Filtering:\n\n- Implement tools to restrict access to domains associated with malware or phishing campaigns.\n- Use public DNS filtering services to enhance protection.\n\nEnforce Content Security Policies (CSP):\n\n- Configure CSP headers on internal and external web applications to restrict script execution, iframe embedding, and cross-origin requests.\n\nControl Browser Features:\n\n- Disable unapproved browser features like automatic downloads, developer tools, or unsafe scripting.\n- Enforce policies through tools like Group Policy Management to control browser settings.\n\nMonitor and Alert on Web-Based Threats:\n\n- Use SIEM tools to collect and analyze web proxy logs for signs of anomalous or malicious activity.\n- Configure alerts for access attempts to blocked domains or repeated file download failures.",
+      "stix_id": "course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "restrict web-based content"
+    },
+    "attack:M1051": {
+      "canonical_id": "attack:M1051",
+      "type": "Mitigation",
+      "name": "Update Software",
+      "aliases": [],
+      "attack_id": "M1051",
+      "description": "Software updates ensure systems are protected against known vulnerabilities by applying patches and upgrades provided by vendors. Regular updates reduce the attack surface and prevent adversaries from exploiting known security gaps. This includes patching operating systems, applications, drivers, and firmware. This mitigation can be implemented through the following measures:\n\nRegular Operating System Updates\n\n- Implementation: Apply the latest Windows security updates monthly using WSUS (Windows Server Update Services) or a similar patch management solution. Configure systems to check for updates automatically and schedule reboots during maintenance windows.\n- Use Case: Prevents exploitation of OS vulnerabilities such as privilege escalation or remote code execution.\n\nApplication Patching\n\n- Implementation: Monitor Apache's update release notes for security patches addressing vulnerabilities. Schedule updates for off-peak hours to avoid downtime while maintaining security compliance.\n- Use Case: Prevents exploitation of web application vulnerabilities, such as those leading to unauthorized access or data breaches.\n\nFirmware Updates\n\n- Implementation: Regularly check the vendor’s website for firmware updates addressing vulnerabilities. Plan for update deployment during scheduled maintenance to minimize business disruption.\n- Use Case: Protects against vulnerabilities that adversaries could exploit to gain access to network devices or inject malicious traffic.\n\nEmergency Patch Deployment\n\n- Implementation: Use the emergency patch deployment feature of the organization's patch management tool to apply updates to all affected Exchange servers within 24 hours.\n- Use Case: Reduces the risk of exploitation by rapidly addressing critical vulnerabilities.\n\nCentralized Patch Management\n\n- Implementation: Implement a centralized patch management system, such as SCCM or ManageEngine, to automate and track patch deployment across all environments. Generate regular compliance reports to ensure all systems are updated.\n- Use Case: Streamlines patching processes and ensures no critical systems are missed.\n\n*Tools for Implementation*\n\nPatch Management Tools:\n\n- WSUS: Manage and deploy Microsoft updates across the organization.\n- ManageEngine Patch Manager Plus: Automate patch deployment for OS and third-party apps.\n- Ansible: Automate updates across multiple platforms, including Linux and Windows.\n\nVulnerability Scanning Tools:\n\n- OpenVAS: Open-source vulnerability scanning to identify missing patches.",
+      "stix_id": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "update software"
+    },
+    "attack:M1054": {
+      "canonical_id": "attack:M1054",
+      "type": "Mitigation",
+      "name": "Software Configuration",
+      "aliases": [],
+      "attack_id": "M1054",
+      "description": "Software configuration refers to making security-focused adjustments to the settings of applications, middleware, databases, or other software to mitigate potential threats. These changes help reduce the attack surface, enforce best practices, and protect sensitive data. This mitigation can be implemented through the following measures:\n\nConduct a Security Review of Application Settings:\n\n- Review the software documentation to identify recommended security configurations.\n- Compare default settings against organizational policies and compliance requirements.\n\nImplement Access Controls and Permissions:\n\n- Restrict access to sensitive features or data within the software.\n- Enforce least privilege principles for all roles and accounts interacting with the software.\n\nEnable Logging and Monitoring:\n\n- Configure detailed logging for key application events such as authentication failures, configuration changes, or unusual activity.\n- Integrate logs with a centralized monitoring solution, such as a SIEM.\n\nUpdate and Patch Software Regularly:\n\n- Ensure the software is kept up-to-date with the latest security patches to address known vulnerabilities.\n- Use automated patch management tools to streamline the update process.\n\nDisable Unnecessary Features or Services:\n\n- Turn off unused functionality or components that could introduce vulnerabilities, such as debugging interfaces or deprecated APIs.\n\nTest Configuration Changes:\n\n- Perform configuration changes in a staging environment before applying them in production.\n- Conduct regular audits to ensure that settings remain aligned with security policies.\n\n*Tools for Implementation*\n\nConfiguration Management Tools:\n\n- Ansible: Automates configuration changes across multiple applications and environments.\n- Chef: Ensures consistent application settings through code-based configuration management.\n- Puppet: Automates software configurations and audits changes for compliance.\n\nSecurity Benchmarking Tools:\n\n- CIS-CAT: Provides benchmarks and audits for secure software configurations.\n- Aqua Security Trivy: Scans containerized applications for configuration issues.\n\nVulnerability Management Solutions:\n\n- Nessus: Identifies misconfigurations and suggests corrective actions.\n\nLogging and Monitoring Tools:\n\n- Splunk: Aggregates and analyzes application logs to detect suspicious activity.",
+      "stix_id": "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "software configuration"
+    },
+    "attack:M1056": {
+      "canonical_id": "attack:M1056",
+      "type": "Mitigation",
+      "name": "Pre-compromise",
+      "aliases": [],
+      "attack_id": "M1056",
+      "description": "Pre-compromise mitigations involve proactive measures and defenses implemented to prevent adversaries from successfully identifying and exploiting weaknesses during the Reconnaissance and Resource Development phases of an attack. These activities focus on reducing an organization's attack surface, identify adversarial preparation efforts, and increase the difficulty for attackers to conduct successful operations. This mitigation can be implemented through the following measures:\n\nLimit Information Exposure:\n\n- Regularly audit and sanitize publicly available data, including job posts, websites, and social media.\n- Use tools like OSINT monitoring platforms (e.g., SpiderFoot, Recon-ng) to identify leaked information.\n\nProtect Domain and DNS Infrastructure:\n\n- Enable DNSSEC and use WHOIS privacy protection.\n- Monitor for domain hijacking or lookalike domains using services like RiskIQ or DomainTools.\n\nExternal Monitoring:\n\n- Use tools like Shodan, Censys to monitor your external attack surface.\n- Deploy external vulnerability scanners to proactively address weaknesses.\n\nThreat Intelligence:\n\n- Leverage platforms like MISP, Recorded Future, or Anomali to track adversarial infrastructure, tools, and activity.\n\nContent and Email Protections:\n\n- Use email security solutions like Proofpoint, Microsoft Defender for Office 365, or Mimecast.\n- Enforce SPF/DKIM/DMARC policies to protect against email spoofing.\n\nTraining and Awareness:\n\n- Educate employees on identifying phishing attempts, securing their social media, and avoiding information leaks.",
+      "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "pre-compromise"
+    },
+    "attack:M1019": {
+      "canonical_id": "attack:M1019",
+      "type": "Mitigation",
+      "name": "Threat Intelligence Program",
+      "aliases": [],
+      "attack_id": "M1019",
+      "description": "A Threat Intelligence Program enables organizations to proactively identify, analyze, and act on cyber threats by leveraging internal and external data sources. The program supports decision-making processes, prioritizes defenses, and improves incident response by delivering actionable intelligence tailored to the organization's risk profile and operational environment. This mitigation can be implemented through the following measures:\n\nEstablish a Threat Intelligence Team:\n\n- Form a dedicated team or assign responsibility to existing security personnel to collect, analyze, and act on threat intelligence.\n\nDefine Intelligence Requirements:\n\n- Identify the organization’s critical assets and focus intelligence gathering efforts on threats targeting these assets.\n\nLeverage Internal and External Data Sources:\n\n- Collect intelligence from internal sources such as logs, incidents, and alerts.\nSubscribe to external threat intelligence feeds, participate in ISACs, and monitor open-source intelligence (OSINT).\n\nImplement Tools for Automation:\n\n- Use threat intelligence platforms (TIPs) to automate the collection, enrichment, and dissemination of threat data.\n- Integrate threat intelligence with SIEMs to correlate IOCs with internal events.\n\nAnalyze and Act on Intelligence:\n\n- Use frameworks like MITRE ATT&CK to map intelligence to adversary TTPs.\n- Prioritize defensive measures, such as patching vulnerabilities or deploying IOCs, based on analyzed threats.\n\nShare and Collaborate:\n\n- Share intelligence with industry peers through ISACs or threat-sharing platforms to enhance collective defense.\n\nEvaluate and Update the Program:\n\n- Regularly assess the effectiveness of the threat intelligence program.\n- Update intelligence priorities and capabilities as new threats emerge.\n\n*Tools for Implementation*\n\nThreat Intelligence Platforms (TIPs):\n\n- OpenCTI: An open-source platform for structuring and sharing threat intelligence.\n- MISP: A threat intelligence sharing platform for sharing structured threat data.\n\nThreat Intelligence Feeds:\n\n- Open Threat Exchange (OTX): Provides free access to a large repository of threat intelligence.\n- CIRCL OSINT Feed: A free source for IOCs and threat information.\n\nAutomation and Enrichment Tools:\n\n- TheHive: An open-source incident response platform with threat intelligence integration.\n- Yeti: A platform for managing and structuring knowledge about threats.\n\nAnalysis Frameworks:\n\n- MITRE ATT&CK Navigator: A tool for mapping threat intelligence to adversary behaviors.\n- Cuckoo Sandbox: Analyzes malware to extract behavioral indicators.\n\nCommunity and Collaboration Tools:\n\n- ISAC Memberships: Join industry-specific ISACs for intelligence sharing.\n- Slack/Discord Channels: Participate in threat intelligence communities for real-time collaboration.",
+      "stix_id": "course-of-action--874c0166-e407-45c2-a1d9-e4e3a6570fd8",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "threat intelligence program"
+    },
+    "attack:T1057": {
+      "canonical_id": "attack:T1057",
+      "type": "Technique",
+      "name": "Process Discovery",
+      "aliases": [],
+      "attack_id": "T1057",
+      "stix_id": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "process discovery"
+    },
+    "local:AA23-136A:software:d98c0e74f40a": {
+      "canonical_id": "local:AA23-136A:software:d98c0e74f40a",
+      "type": "Software",
+      "name": "Windows Command Shell",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "windows command shell"
+    },
+    "local:AA23-136A:bianlian-actors": {
+      "canonical_id": "local:AA23-136A:bianlian-actors",
+      "type": "ThreatGroup",
+      "name": "BianLian actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "bianlian actors"
+    },
+    "attack:S0357": {
+      "canonical_id": "attack:S0357",
+      "type": "Software",
+      "name": "Impacket",
+      "aliases": [
+        "Impacket"
+      ],
+      "attack_id": "S0357",
+      "stix_id": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "impacket"
+    },
+    "local:AA23-136A:software:fa20fb8812a6": {
+      "canonical_id": "local:AA23-136A:software:fa20fb8812a6",
+      "type": "Software",
+      "name": "Command Shell",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "command shell"
+    },
+    "attack:T1012": {
+      "canonical_id": "attack:T1012",
+      "type": "Technique",
+      "name": "Query Registry",
+      "aliases": [],
+      "attack_id": "T1012",
+      "stix_id": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "query registry"
+    },
+    "attack:T1537": {
+      "canonical_id": "attack:T1537",
+      "type": "Technique",
+      "name": "Transfer Data to Cloud Account",
+      "aliases": [],
+      "attack_id": "T1537",
+      "stix_id": "attack-pattern--d4bdbdea-eaec-4071-b4f9-5105e12ea4b6",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "transfer data to cloud account"
+    },
+    "attack:T1567.002": {
+      "canonical_id": "attack:T1567.002",
+      "type": "Technique",
+      "name": "Exfiltration to Cloud Storage",
+      "aliases": [],
+      "attack_id": "T1567.002",
+      "stix_id": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "exfiltration to cloud storage"
+    },
+    "local:AA23-136A:software:3200bf51de7a": {
+      "canonical_id": "local:AA23-136A:software:3200bf51de7a",
+      "type": "Software",
+      "name": "Advanced Port Scanner",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "advanced port scanner"
+    },
+    "local:AA23-136A:software:ad9798edd4be": {
+      "canonical_id": "local:AA23-136A:software:ad9798edd4be",
+      "type": "Software",
+      "name": "SoftPerfect Network Scanner",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "softperfect network scanner"
+    },
+    "attack:S0095": {
+      "canonical_id": "attack:S0095",
+      "type": "Software",
+      "name": "ftp",
+      "aliases": [
+        "ftp",
+        "ftp.exe"
+      ],
+      "attack_id": "S0095",
+      "stix_id": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "ftp"
+    },
+    "attack:T1021.004": {
+      "canonical_id": "attack:T1021.004",
+      "type": "Technique",
+      "name": "SSH",
+      "aliases": [],
+      "attack_id": "T1021.004",
+      "stix_id": "attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "ssh"
+    },
+    "attack:T1003.003": {
+      "canonical_id": "attack:T1003.003",
+      "type": "Technique",
+      "name": "NTDS",
+      "aliases": [],
+      "attack_id": "T1003.003",
+      "stix_id": "attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "ntds"
+    },
+    "attack:T1070.001": {
+      "canonical_id": "attack:T1070.001",
+      "type": "Technique",
+      "name": "Clear Windows Event Logs",
+      "aliases": [],
+      "attack_id": "T1070.001",
+      "stix_id": "attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "clear windows event logs"
+    },
+    "attack:S0029": {
+      "canonical_id": "attack:S0029",
+      "type": "Software",
+      "name": "PsExec",
+      "aliases": [
+        "PsExec"
+      ],
+      "attack_id": "S0029",
+      "stix_id": "tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "psexec"
+    },
+    "attack:T1070.004": {
+      "canonical_id": "attack:T1070.004",
+      "type": "Technique",
+      "name": "File Deletion",
+      "aliases": [],
+      "attack_id": "T1070.004",
+      "stix_id": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "file deletion"
+    },
+    "attack:T1564.003": {
+      "canonical_id": "attack:T1564.003",
+      "type": "Technique",
+      "name": "Hidden Window",
+      "aliases": [],
+      "attack_id": "T1564.003",
+      "stix_id": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "hidden window"
+    },
+    "attack:T1112": {
+      "canonical_id": "attack:T1112",
+      "type": "Technique",
+      "name": "Modify Registry",
+      "aliases": [],
+      "attack_id": "T1112",
+      "stix_id": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "modify registry"
+    },
+    "attack:T1587": {
+      "canonical_id": "attack:T1587",
+      "type": "Technique",
+      "name": "Develop Capabilities",
+      "aliases": [],
+      "attack_id": "T1587",
+      "stix_id": "attack-pattern--edadea33-549c-4ed1-9783-8f5a5853cbdf",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "develop capabilities"
+    },
+    "local:AA23-319A:software:f352e0190ae9": {
+      "canonical_id": "local:AA23-319A:software:f352e0190ae9",
+      "type": "Software",
+      "name": "AZCopy",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "azcopy"
+    },
+    "attack:S0100": {
+      "canonical_id": "attack:S0100",
+      "type": "Software",
+      "name": "ipconfig",
+      "aliases": [
+        "ipconfig"
+      ],
+      "attack_id": "S0100",
+      "stix_id": "tool--294e2560-bd48-44b2-9da2-833b5588ad11",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "ipconfig"
+    },
+    "attack:S0359": {
+      "canonical_id": "attack:S0359",
+      "type": "Software",
+      "name": "Nltest",
+      "aliases": [
+        "Nltest"
+      ],
+      "attack_id": "S0359",
+      "stix_id": "tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "nltest"
+    },
+    "local:AA23-319A:software:c60acd3f30b5": {
+      "canonical_id": "local:AA23-319A:software:c60acd3f30b5",
+      "type": "Software",
+      "name": "1.ps1",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "1.ps1"
+    },
+    "attack:T1556.006": {
+      "canonical_id": "attack:T1556.006",
+      "type": "Technique",
+      "name": "Multi-Factor Authentication",
+      "aliases": [],
+      "attack_id": "T1556.006",
+      "stix_id": "attack-pattern--b4409cd8-0da9-46e1-a401-a241afd4d1cc",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "multi-factor authentication"
+    },
+    "attack:T1606": {
+      "canonical_id": "attack:T1606",
+      "type": "Technique",
+      "name": "Forge Web Credentials",
+      "aliases": [],
+      "attack_id": "T1606",
+      "stix_id": "attack-pattern--94cb00a4-b295-4d06-aa2b-5653b9c1be9c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "forge web credentials"
+    },
+    "attack:T1114": {
+      "canonical_id": "attack:T1114",
+      "type": "Technique",
+      "name": "Email Collection",
+      "aliases": [],
+      "attack_id": "T1114",
+      "stix_id": "attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "email collection"
+    },
+    "local:AA23-320A:software:60fb54c0f750": {
+      "canonical_id": "local:AA23-320A:software:60fb54c0f750",
+      "type": "Software",
+      "name": "Snowflake Data Cloud",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "snowflake data cloud"
+    },
+    "attack:S0108": {
+      "canonical_id": "attack:S0108",
+      "type": "Software",
+      "name": "netsh",
+      "aliases": [
+        "netsh",
+        "netsh.exe"
+      ],
+      "attack_id": "S0108",
+      "stix_id": "tool--5a63f900-5e7e-4928-a746-dd4558e1df71",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "netsh"
+    },
+    "attack:T1562.004": {
+      "canonical_id": "attack:T1562.004",
+      "type": "Technique",
+      "name": "Disable or Modify System Firewall",
+      "aliases": [],
+      "attack_id": "T1562.004",
+      "stix_id": "attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "disable or modify system firewall"
+    },
+    "attack:T1106": {
+      "canonical_id": "attack:T1106",
+      "type": "Technique",
+      "name": "Native API",
+      "aliases": [],
+      "attack_id": "T1106",
+      "stix_id": "attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "native api"
+    },
+    "attack:T1486": {
+      "canonical_id": "attack:T1486",
+      "type": "Technique",
+      "name": "Data Encrypted for Impact",
+      "aliases": [],
+      "attack_id": "T1486",
+      "stix_id": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "data encrypted for impact"
+    },
+    "local:AA24-060A:software:ff80268dfba6": {
+      "canonical_id": "local:AA24-060A:software:ff80268dfba6",
+      "type": "Software",
+      "name": "vssadmin.exe",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "vssadmin.exe"
+    },
+    "local:AA24-060A:software:3cd2c79d18ec": {
+      "canonical_id": "local:AA24-060A:software:3cd2c79d18ec",
+      "type": "Software",
+      "name": "Windows Management Instrumentation",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "windows management instrumentation"
+    },
+    "attack:S0002": {
+      "canonical_id": "attack:S0002",
+      "type": "Software",
+      "name": "Mimikatz",
+      "aliases": [
+        "Mimikatz"
+      ],
+      "attack_id": "S0002",
+      "stix_id": "tool--afc079f3-c0ea-4096-b75d-3f05338b7f60",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "mimikatz"
+    },
+    "local:AA24-060A:phobos-threat-actors": {
+      "canonical_id": "local:AA24-060A:phobos-threat-actors",
+      "type": "ThreatGroup",
+      "name": "Phobos threat actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "phobos threat actors"
+    },
+    "local:AA24-060A:software:d983bc163dae": {
+      "canonical_id": "local:AA24-060A:software:d983bc163dae",
+      "type": "Software",
+      "name": "Phobos.exe",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "phobos.exe"
+    },
+    "attack:M1041": {
+      "canonical_id": "attack:M1041",
+      "type": "Mitigation",
+      "name": "Encrypt Sensitive Information",
+      "aliases": [],
+      "attack_id": "M1041",
+      "description": "Protect sensitive information at rest, in transit, and during processing by using strong encryption algorithms. Encryption ensures the confidentiality and integrity of data, preventing unauthorized access or tampering. This mitigation can be implemented through the following measures:\n\nEncrypt Data at Rest:\n\n- Use Case: Use full-disk encryption or file-level encryption to secure sensitive data stored on devices.\n- Implementation: Implement BitLocker for Windows systems or FileVault for macOS devices to encrypt hard drives.\n\nEncrypt Data in Transit:\n\n- Use Case: Use secure communication protocols (e.g., TLS, HTTPS) to encrypt sensitive data as it travels over networks.\n- Implementation: Enable HTTPS for all web applications and configure mail servers to enforce STARTTLS for email encryption.\n\nEncrypt Backups:\n\n- Use Case: Ensure that backup data is encrypted both during storage and transfer to prevent unauthorized access.\n- Implementation: Encrypt cloud backups using AES-256 before uploading them to Amazon S3 or Google Cloud.\n\nEncrypt Application Secrets:\n\n- Use Case: Store sensitive credentials, API keys, and configuration files in encrypted vaults.\n- Implementation: Use HashiCorp Vault or AWS Secrets Manager to manage and encrypt secrets.\n\nDatabase Encryption:\n\n- Use Case: Enable Transparent Data Encryption (TDE) or column-level encryption in database management systems.\n- Implementation: Use MySQL’s built-in encryption features to encrypt sensitive database fields such as social security numbers.",
+      "stix_id": "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "encrypt sensitive information"
+    },
+    "attack:M1029": {
+      "canonical_id": "attack:M1029",
+      "type": "Mitigation",
+      "name": "Remote Data Storage",
+      "aliases": [],
+      "attack_id": "M1029",
+      "description": "Remote Data Storage focuses on moving critical data, such as security logs and sensitive files, to secure, off-host locations to minimize unauthorized access, tampering, or destruction by adversaries. By leveraging remote storage solutions, organizations enhance the protection of forensic evidence, sensitive information, and monitoring data. This mitigation can be implemented through the following measures:\n\nCentralized Log Management:\n\n- Configure endpoints to forward security logs to a centralized log collector or SIEM.\n- Use tools like Splunk Graylog, or Security Onion to aggregate and store logs.\n- Example command (Linux): `sudo auditd | tee /var/log/audit/audit.log | nc <remote-log-server> 514`\n\nRemote File Storage Solutions:\n\n- Utilize cloud storage solutions like AWS S3, Google Cloud Storage, or Azure Blob Storage for sensitive data.\n- Ensure proper encryption at rest and access control policies (IAM roles, ACLs).\n\nIntrusion Detection Log Forwarding:\n\n- Forward logs from IDS/IPS systems (e.g., Zeek/Suricata) to a remote security information system.\n- Example for Suricata log forwarding:\n`outputs:\n  - type: syslog\n    protocol: tls\n    address: <remote-syslog-server>`\n\nImmutable Backup Configurations:\n\n- Enable immutable storage settings for backups to prevent adversaries from modifying or deleting data.\n- Example: AWS S3 Object Lock.\n\nData Encryption:\n\n- Ensure encryption for sensitive data using AES-256 at rest and TLS 1.2+ for data in transit.\nTools: OpenSSL, BitLocker, LUKS for Linux.",
+      "stix_id": "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "remote data storage"
+    },
+    "attack:M1060": {
+      "canonical_id": "attack:M1060",
+      "type": "Mitigation",
+      "name": "Out-of-Band Communications Channel",
+      "aliases": [],
+      "attack_id": "M1060",
+      "description": "Establish secure out-of-band communication channels to ensure the continuity of critical communications during security incidents, data integrity attacks, or in-network communication failures. Out-of-band communication refers to using an alternative, separate communication path that is not dependent on the potentially compromised primary network infrastructure. This method can include secure messaging apps, encrypted phone lines, satellite communications, or dedicated emergency communication systems. Leveraging these alternative channels reduces the risk of adversaries intercepting, disrupting, or tampering with sensitive communications and helps coordinate an effective incident response.(Citation: TrustedSec OOB Communications)(Citation: NIST Special Publication 800-53 Revision 5)",
+      "stix_id": "course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "out-of-band communications channel"
+    },
+    "attack:M1053": {
+      "canonical_id": "attack:M1053",
+      "type": "Mitigation",
+      "name": "Data Backup",
+      "aliases": [],
+      "attack_id": "M1053",
+      "description": "Data Backup involves taking and securely storing backups of data from end-user systems and critical servers. It ensures that data remains available in the event of system compromise, ransomware attacks, or other disruptions. Backup processes should include hardening backup systems, implementing secure storage solutions, and keeping backups isolated from the corporate network to prevent compromise during active incidents. This mitigation can be implemented through the following measures:\n\nRegular Backup Scheduling:\n- Use Case: Ensure timely and consistent backups of critical data.\n- Implementation: Schedule daily incremental backups and weekly full backups for all critical servers and systems.\n\nImmutable Backups:\n- Use Case: Protect backups from modification or deletion, even by attackers.\n- Implementation: Use write-once-read-many (WORM) storage for backups, preventing ransomware from encrypting or deleting backup files.\n\nBackup Encryption:\n- Use Case: Protect data integrity and confidentiality during transit and storage.\n- Implementation: Encrypt backups using strong encryption protocols (e.g., AES-256) before storing them in local, cloud, or remote locations.\n\nOffsite Backup Storage:\n- Use Case: Ensure data availability during physical disasters or onsite breaches.\n- Implementation: Use cloud-based solutions like AWS S3, Azure Backup, or physical offsite storage to maintain a copy of critical data.\n\nBackup Testing:\n- Use Case: Validate backup integrity and ensure recoverability.\n- Implementation: Regularly test data restoration processes to ensure that backups are not corrupted and can be recovered quickly.",
+      "stix_id": "course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "data backup"
+    },
+    "attack:M1057": {
+      "canonical_id": "attack:M1057",
+      "type": "Mitigation",
+      "name": "Data Loss Prevention",
+      "aliases": [],
+      "attack_id": "M1057",
+      "description": "Data Loss Prevention (DLP) involves implementing strategies and technologies to identify, categorize, monitor, and control the movement of sensitive data within an organization. This includes protecting data formats indicative of Personally Identifiable Information (PII), intellectual property, or financial data from unauthorized access, transmission, or exfiltration. DLP solutions integrate with network, endpoint, and cloud platforms to enforce security policies and prevent accidental or malicious data leaks. (Citation: PurpleSec Data Loss Prevention) This mitigation can be implemented through the following measures:\n\nSensitive Data Categorization:\n\n- Use Case: Identify and classify data based on sensitivity (e.g., PII, financial data, trade secrets).\n- Implementation: Use DLP solutions to scan and tag files containing sensitive information using predefined patterns, such as Social Security Numbers or credit card details.\n\nExfiltration Restrictions:\n\n- Use Case: Prevent unauthorized transmission of sensitive data.\n- Implementation: Enforce policies to block unapproved email attachments, unauthorized USB usage, or unencrypted data uploads to cloud storage.\n\nData-in-Transit Monitoring:\n\n- Use Case: Detect and prevent the transmission of sensitive data over unapproved channels.\n- Implementation: Deploy network-based DLP tools to inspect outbound traffic for sensitive content (e.g., financial records or PII) and block unapproved transmissions.\n\nEndpoint Data Protection:\n\n- Use Case: Monitor and control sensitive data usage on endpoints.\n- Implementation: Use endpoint-based DLP agents to block copy-paste actions of sensitive data and unauthorized printing or file sharing.\n\nCloud Data Security:\n\n- Use Case: Protect data stored in cloud platforms.\n- Implementation: Integrate DLP with cloud storage platforms like Google Drive, OneDrive, or AWS to monitor and restrict sensitive data sharing or downloads.",
+      "stix_id": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "data loss prevention"
+    },
+    "attack:M1033": {
+      "canonical_id": "attack:M1033",
+      "type": "Mitigation",
+      "name": "Limit Software Installation",
+      "aliases": [],
+      "attack_id": "M1033",
+      "description": "Prevent users or groups from installing unauthorized or unapproved software to reduce the risk of introducing malicious or vulnerable applications. This can be achieved through allowlists, software restriction policies, endpoint management tools, and least privilege access principles. This mitigation can be implemented through the following measures:\n\nApplication Whitelisting\n\n- Implement Microsoft AppLocker or Windows Defender Application Control (WDAC) to create and enforce allowlists for approved software.\n- Whitelist applications based on file hash, path, or digital signatures.\n\nRestrict User Permissions\n\n- Remove local administrator rights for all non-IT users.\n- Use Role-Based Access Control (RBAC) to restrict installation permissions to privileged accounts only.\n\nSoftware Restriction Policies (SRP)\n\n- Use GPO to configure SRP to deny execution of binaries from directories such as `%AppData%`, `%Temp%`, and external drives.\n- Restrict specific file types (`.exe`, `.bat`, `.msi`, `.js`, `.vbs`) to trusted directories only.\n\nEndpoint Management Solutions\n\n- Deploy tools like Microsoft Intune, SCCM, or Jamf for centralized software management.\n- Maintain a list of approved software, versions, and updates across the enterprise.\n\nMonitor Software Installation Events\n\n- Enable logging of software installation events and monitor Windows Event ID 4688 and Event ID 11707 for software installs.\n- Use SIEM or EDR tools to alert on attempts to install unapproved software.\n\nImplement Software Inventory Management\n\n- Use tools like OSQuery or Wazuh to scan for unauthorized software on endpoints and servers.\n- Conduct regular audits to detect and remove unapproved software.\n\n*Tools for Implementation*\n\nApplication Whitelisting:\n\n- Microsoft AppLocker\n- Windows Defender Application Control (WDAC)\n\nEndpoint Management:\n\n- Microsoft Intune\n- SCCM (System Center Configuration Manager)\n- Jamf Pro (macOS)\n- Puppet or Ansible for automation\n\nSoftware Restriction Policies:\n\n- Group Policy Object (GPO)\n- Microsoft Software Restriction Policies (SRP)\n\nMonitoring and Logging:\n\n- Splunk\n- OSQuery\n- Wazuh (open-source SIEM and XDR)\n- EDRs\n\nInventory Management and Auditing:\n\n- OSQuery\n- Wazuh",
+      "stix_id": "course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "limit software installation"
+    },
+    "local:AA24-038A:volt-typhoon-actors": {
+      "canonical_id": "local:AA24-038A:volt-typhoon-actors",
+      "type": "ThreatGroup",
+      "name": "Volt Typhoon actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "volt typhoon actors"
+    },
+    "attack:T1591": {
+      "canonical_id": "attack:T1591",
+      "type": "Technique",
+      "name": "Gather Victim Org Information",
+      "aliases": [],
+      "attack_id": "T1591",
+      "stix_id": "attack-pattern--937e4772-8441-4e4a-8bf0-8d447d667e23",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "gather victim org information"
+    },
+    "attack:T1589.002": {
+      "canonical_id": "attack:T1589.002",
+      "type": "Technique",
+      "name": "Email Addresses",
+      "aliases": [],
+      "attack_id": "T1589.002",
+      "stix_id": "attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "email addresses"
+    },
+    "attack:T1090.003": {
+      "canonical_id": "attack:T1090.003",
+      "type": "Technique",
+      "name": "Multi-hop Proxy",
+      "aliases": [],
+      "attack_id": "T1090.003",
+      "stix_id": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "multi-hop proxy"
+    },
+    "local:AA24-038A:software:96773815f3c7": {
+      "canonical_id": "local:AA24-038A:software:96773815f3c7",
+      "type": "Software",
+      "name": "KV Botnet",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "kv botnet"
+    },
+    "attack:T1059": {
+      "canonical_id": "attack:T1059",
+      "type": "Technique",
+      "name": "Command and Scripting Interpreter",
+      "aliases": [],
+      "attack_id": "T1059",
+      "stix_id": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "command and scripting interpreter"
+    },
+    "local:AA24-038A:software:74cb96224dc3": {
+      "canonical_id": "local:AA24-038A:software:74cb96224dc3",
+      "type": "Software",
+      "name": "Magnet RAM Capture",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "magnet ram capture"
+    },
+    "attack:S1144": {
+      "canonical_id": "attack:S1144",
+      "type": "Software",
+      "name": "FRP",
+      "aliases": [
+        "FRP"
+      ],
+      "attack_id": "S1144",
+      "stix_id": "tool--36dd807e-b5bc-4c3e-91ed-80682360148c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "frp"
+    },
+    "attack:T1068": {
+      "canonical_id": "attack:T1068",
+      "type": "Technique",
+      "name": "Exploitation for Privilege Escalation",
+      "aliases": [],
+      "attack_id": "T1068",
+      "stix_id": "attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "exploitation for privilege escalation"
+    },
+    "local:AA24-038A:software:d653a7844124": {
+      "canonical_id": "local:AA24-038A:software:d653a7844124",
+      "type": "Software",
+      "name": "PuTTY",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "putty"
+    },
+    "attack:T1082": {
+      "canonical_id": "attack:T1082",
+      "type": "Technique",
+      "name": "System Information Discovery",
+      "aliases": [],
+      "attack_id": "T1082",
+      "stix_id": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "system information discovery"
+    },
+    "attack:S0057": {
+      "canonical_id": "attack:S0057",
+      "type": "Software",
+      "name": "Tasklist",
+      "aliases": [
+        "Tasklist"
+      ],
+      "attack_id": "S0057",
+      "stix_id": "tool--2e45723a-31da-4a7e-aaa6-e01998a6788f",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "tasklist"
+    },
+    "local:AA24-038A:software:2e9ec6d65b66": {
+      "canonical_id": "local:AA24-038A:software:2e9ec6d65b66",
+      "type": "Software",
+      "name": "ronf.exe",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "ronf.exe"
+    },
+    "attack:T1560.001": {
+      "canonical_id": "attack:T1560.001",
+      "type": "Technique",
+      "name": "Archive via Utility",
+      "aliases": [],
+      "attack_id": "T1560.001",
+      "stix_id": "attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "archive via utility"
+    },
+    "attack:T1090": {
+      "canonical_id": "attack:T1090",
+      "type": "Technique",
+      "name": "Proxy",
+      "aliases": [],
+      "attack_id": "T1090",
+      "stix_id": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "proxy"
+    },
+    "attack:T1090.001": {
+      "canonical_id": "attack:T1090.001",
+      "type": "Technique",
+      "name": "Internal Proxy",
+      "aliases": [],
+      "attack_id": "T1090.001",
+      "stix_id": "attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "internal proxy"
+    },
+    "local:AA22-321A:hive-actors": {
+      "canonical_id": "local:AA22-321A:hive-actors",
+      "type": "ThreatGroup",
+      "name": "Hive actors",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "hive actors"
+    },
+    "attack:T1566.001": {
+      "canonical_id": "attack:T1566.001",
+      "type": "Technique",
+      "name": "Spearphishing Attachment",
+      "aliases": [],
+      "attack_id": "T1566.001",
+      "stix_id": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "spearphishing attachment"
+    },
+    "attack:T1190": {
+      "canonical_id": "attack:T1190",
+      "type": "Technique",
+      "name": "Exploit Public-Facing Application",
+      "aliases": [],
+      "attack_id": "T1190",
+      "stix_id": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "exploit public-facing application"
+    },
+    "local:AA22-321A:software:af48338f0994": {
+      "canonical_id": "local:AA22-321A:software:af48338f0994",
+      "type": "Software",
+      "name": "Hive",
+      "aliases": [],
+      "resolution_status": "local",
+      "normalized_name": "hive"
+    },
+    "attack:T1562": {
+      "canonical_id": "attack:T1562",
+      "type": "Technique",
+      "name": "Impair Defenses",
+      "aliases": [],
+      "attack_id": "T1562",
+      "stix_id": "attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "impair defenses"
+    },
+    "attack:M1048": {
+      "canonical_id": "attack:M1048",
+      "type": "Mitigation",
+      "name": "Application Isolation and Sandboxing",
+      "aliases": [],
+      "attack_id": "M1048",
+      "description": "Application Isolation and Sandboxing refers to the technique of restricting the execution of code to a controlled and isolated environment (e.g., a virtual environment, container, or sandbox). This method prevents potentially malicious code from affecting the rest of the system or network by limiting access to sensitive resources and critical operations. The goal is to contain threats and minimize their impact. This mitigation can be implemented through the following measures:\n\nBrowser Sandboxing:\n\n- Use Case: Implement browser sandboxing to isolate untrusted web content, preventing malicious web pages or scripts from accessing sensitive system files.\n- Implementation: Use tools like Google Chrome's built-in sandbox or deploy solutions like Bromium to secure user web interactions.\n\nApplication Virtualization:\n\n- Use Case: Deploy critical or high-risk applications in a virtualized environment to ensure any compromise does not affect the host system.\n- Implementation: Use application virtualization platforms to run applications in isolated environments.\n\nEmail Attachment Sandboxing:\n\n- Use Case: Route email attachments to a sandbox environment to detect and block malware before delivering emails to end-users.\n- Implementation: Integrate security solutions with sandbox capabilities to analyze email attachments.\n\nEndpoint Sandboxing:\n\n- Use Case: Run all downloaded files and applications in a restricted environment to monitor their behavior for malicious activity.\n- Implementation: Use endpoint protection tools for sandboxing at the endpoint level.",
+      "stix_id": "course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "application isolation and sandboxing"
+    },
+    "attack:M1050": {
+      "canonical_id": "attack:M1050",
+      "type": "Mitigation",
+      "name": "Exploit Protection",
+      "aliases": [],
+      "attack_id": "M1050",
+      "description": "Deploy capabilities that detect, block, and mitigate conditions indicative of software exploits. These capabilities aim to prevent exploitation by addressing vulnerabilities, monitoring anomalous behaviors, and applying exploit-mitigation techniques to harden systems and software.\n\nOperating System Exploit Protections:\n\n- Use Case: Enable built-in exploit protection features provided by modern operating systems, such as Microsoft's Exploit Protection, which includes techniques like Data Execution Prevention (DEP), Address Space Layout Randomization (ASLR), and Control Flow Guard (CFG).\n- Implementation: Enforce DEP for all programs and enable ASLR to randomize memory addresses used by system and application processes. Windows: Configure Exploit Protection through the Windows Security app or deploy settings via Group Policy.\n`ExploitProtectionExportSettings.exe -path \"exploit_settings.xml\"`\nLinux: Use Kernel-level hardening features like SELinux, AppArmor, or GRSEC to enforce memory protections and prevent exploits.\n\nThird-Party Endpoint Security:\n\n- Use Case: Use endpoint protection tools with built-in exploit protection, such as enhanced memory protection, behavior monitoring, and real-time exploit detection.\n- Implementation: Deploy tools to detect and block exploitation attempts targeting unpatched software.\n\nVirtual Patching:\n- Use Case: Use tools to implement virtual patches that mitigate vulnerabilities in applications or operating systems until official patches are applied.\n- Implementation: Use Intrusion Prevention System (IPS) to block exploitation attempts on known vulnerabilities in outdated applications.\n\nHardening Application Configurations:\n\n- Use Case: Disable risky application features that can be exploited, such as macros in Microsoft Office or JScript in Internet Explorer.\n- Implementation: Configure Microsoft Office Group Policies to disable execution of macros in downloaded files.",
+      "stix_id": "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "exploit protection"
+    },
+    "attack:M1020": {
+      "canonical_id": "attack:M1020",
+      "type": "Mitigation",
+      "name": "SSL/TLS Inspection",
+      "aliases": [],
+      "attack_id": "M1020",
+      "description": "SSL/TLS inspection involves decrypting encrypted network traffic to examine its content for signs of malicious activity. This capability is crucial for detecting threats that use encryption to evade detection, such as phishing, malware, or data exfiltration. After inspection, the traffic is re-encrypted and forwarded to its destination. This mitigation can be implemented through the following measures:\n\nDeploy SSL/TLS Inspection Appliances:\n\n- Implement SSL/TLS inspection solutions to decrypt and inspect encrypted traffic.\n- Ensure appliances are placed at critical network choke points for maximum coverage.\n\nConfigure Decryption Policies:\n\n- Define rules to decrypt traffic for specific applications, ports, or domains.\n- Avoid decrypting sensitive or privacy-related traffic, such as financial or healthcare websites, to comply with regulations.\n\nIntegrate Threat Intelligence:\n\n- Use threat intelligence feeds to correlate inspected traffic with known indicators of compromise (IOCs).\n\nIntegrate with Security Tools:\n\n- Combine SSL/TLS inspection with SIEM and NDR tools to analyze decrypted traffic and generate alerts for suspicious activity.\n- Example Tools: Splunk, Darktrace\n\nImplement Certificate Management:\n\n- Use trusted internal or third-party certificates for traffic re-encryption after inspection.\n- Regularly update certificate authorities (CAs) to ensure secure re-encryption.\n\nMonitor and Tune:\n\n- Continuously monitor SSL/TLS inspection logs for anomalies and fine-tune policies to reduce false positives.",
+      "stix_id": "course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "ssl/tls inspection"
+    },
+    "attack:M1016": {
+      "canonical_id": "attack:M1016",
+      "type": "Mitigation",
+      "name": "Vulnerability Scanning",
+      "aliases": [],
+      "attack_id": "M1016",
+      "description": "Vulnerability scanning involves the automated or manual assessment of systems, applications, and networks to identify misconfigurations, unpatched software, or other security weaknesses. The process helps prioritize remediation efforts by classifying vulnerabilities based on risk and impact, reducing the likelihood of exploitation by adversaries. This mitigation can be implemented through the following measures: \n\nProactive Identification of Vulnerabilities\n\n- Implementation: Use tools like Nessus or OpenVAS to scan endpoints, servers, and applications for missing patches and configuration issues. Schedule regular scans to ensure timely identification of vulnerabilities introduced by new deployments or updates.\n- Use Case: A scan identifies unpatched software, such as outdated Apache servers, which could be exploited via CVE-XXXX-XXXX. The server is promptly patched, mitigating the risk.\n\nCloud Environment Scanning\n\n- Implementation: Use cloud-specific vulnerability management tools like AWS Inspector, Azure Security Center, or GCP Security Command Center to identify issues like open S3 buckets or overly permissive IAM roles.\n- Use Case: The scan detects a misconfigured S3 bucket with public read access, which is remediated to prevent potential data leakage.\n\nNetwork Device Scanning\n\n- Implementation: Use tools to scan network devices for vulnerabilities, such as weak SNMP strings or outdated firmware. Correlate scan results with vendor advisories to prioritize updates.\n- Use Case: Scanning detects a router running outdated firmware vulnerable to CVE-XXXX-YYYY. The firmware is updated to a secure version.\n\nWeb Application Scanning\n\n- Implementation: Use dynamic application security testing (DAST) tools such as OWASP ZAP or Burp Suite to scan for common vulnerabilities like SQL injection or cross-site scripting (XSS). Perform regular scans post-deployment to identify newly introduced vulnerabilities.\n- Use Case: A scan identifies a cross-site scripting vulnerability in a form input field, which is promptly remediated by developers.\n\nPrioritizing Vulnerabilities\n\n- Implementation: Use vulnerability scoring frameworks like CVSS to assess severity.\nIntegrate vulnerability scanning tools with ticketing systems to assign remediation tasks based on criticality.\n- Use Case: A critical vulnerability with a CVSS score of 9.8 affecting remote access servers is prioritized and patched first.\n\n*Tools for Implementation*\n\nOpen Source Tools:\n\n- OpenVAS: Comprehensive network and system vulnerability scanning.\n- OWASP ZAP: Dynamic scanning of web applications for vulnerabilities.\n- Nmap with NSE Scripts: Network scanning with scripts to detect vulnerabilities.",
+      "stix_id": "course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266",
+      "attack_release": "17.1",
+      "resolution_status": "canonical",
+      "normalized_name": "vulnerability scanning"
+    }
+  },
+  "sources": {
+    "AA23-165A": {
+      "title": "Understanding Ransomware Threat Actors: LockBit",
+      "publication_date": "June 14, 2023",
+      "source_kind": "cisa"
+    },
+    "AA23-136A": {
+      "title": "#StopRansomware: BianLian Ransomware Group",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "AA23-353A": {
+      "title": "#StopRansomware: ALPHV Blackcat",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "AA23-319A": {
+      "title": "#StopRansomware: Rhysida Ransomware",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "AA23-320A": {
+      "title": "Scattered Spider",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "AA24-060A": {
+      "title": "#StopRansomware: Phobos Ransomware",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "AA24-038A": {
+      "title": "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "AA23-144A": {
+      "title": "People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "AA22-321A": {
+      "title": "#StopRansomware: Hive Ransomware",
+      "publication_date": null,
+      "source_kind": "cisa"
+    },
+    "attack:17.1:relationship--80f94d40-0861-4403-b206-1c864a136788": {
+      "title": "ATT&CK 17.1: M1030 mitigates T1046",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--651225d6-5454-4c44-8d62-776bd7ddaed2": {
+      "title": "ATT&CK 17.1: M1031 mitigates T1046",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--32d482c4-2c0d-4688-a38b-d73b5b2962a3": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1046",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--d5c70727-794c-4404-b30d-0d798a62ad64": {
+      "title": "ATT&CK 17.1: M1031 mitigates T1219",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--9ae55ec5-a4f8-4619-8565-fe00433c574a": {
+      "title": "ATT&CK 17.1: M1034 mitigates T1219",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--80a23356-20b7-49a3-a48e-e0c04e2bff86": {
+      "title": "ATT&CK 17.1: M1037 mitigates T1219",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--54306888-1f93-4461-bcac-a56ae7073b31": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1219",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--fa4c9d5a-3329-4138-b6e1-990cd7935b87": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1219",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--dddb38c9-408c-44da-9e51-3f7cd159c43d": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1562.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f36141b8-5dd8-462d-bfc3-b43e179e955c": {
+      "title": "ATT&CK 17.1: M1022 mitigates T1562.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--a66c8397-99c0-494c-9cbe-4055e0b2f6a1": {
+      "title": "ATT&CK 17.1: M1024 mitigates T1562.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--7734ffaf-1cd2-40ca-8c0d-9cfd95e8d1ec": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1562.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f5b897b8-6833-422f-9ec8-a32e5362bedc": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1562.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--8fae4ace-c3b5-4c4b-8c1a-98a32c692849": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--e7e4be4c-a6ae-44bc-b3af-9c0c41f9212e": {
+      "title": "ATT&CK 17.1: M1026 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--4b5e4611-ed5c-4223-bc75-5e272090b887": {
+      "title": "ATT&CK 17.1: M1028 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--3951503f-c8e9-4331-834e-df4e4afda5fb": {
+      "title": "ATT&CK 17.1: M1030 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--96014091-aba9-4b8f-ac6a-6cdeb593cf30": {
+      "title": "ATT&CK 17.1: M1032 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--375d3b8b-0e1b-4d3b-b31f-43b0e98436a5": {
+      "title": "ATT&CK 17.1: M1035 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--703a5971-a542-4d7d-8bf5-7a9adb1db852": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--36e86ea2-e0d4-4ade-bae8-212a78c8d569": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1021.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--0e530e67-4e80-412f-8b38-fbc14085f05c": {
+      "title": "ATT&CK 17.1: M1040 mitigates T1055.002",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--e631d85f-e93c-475f-bd40-546544c99e90": {
+      "title": "ATT&CK 17.1: M1026 mitigates T1059.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--fe42b5e6-06dd-4b08-8ef8-31323f8190d2": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1059.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--5a580cd0-19f1-41d6-865b-786a41081a7e": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1059.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--8fc79376-2f71-4ca1-8177-a96dea11f8c7": {
+      "title": "ATT&CK 17.1: M1045 mitigates T1059.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--758cbc32-6b33-4012-8622-cd7d218a799c": {
+      "title": "ATT&CK 17.1: M1049 mitigates T1059.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--aa103bc8-1753-4b41-bf5c-a9dc0b9a2986": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1059.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--c8acdf40-8237-487f-8255-91afa327705d": {
+      "title": "ATT&CK 17.1: M1013 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--eed29e0f-59c1-4fab-8268-3f0571e90748": {
+      "title": "ATT&CK 17.1: M1015 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--edaeb27a-9226-4805-ae45-87312a2dc013": {
+      "title": "ATT&CK 17.1: M1017 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--555abf76-531f-4d35-9783-ed7c2a3f213b": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--89887815-acfc-42f9-9172-81437cf9ff69": {
+      "title": "ATT&CK 17.1: M1026 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--4f24d075-4d6c-49d2-a213-306e4af2083d": {
+      "title": "ATT&CK 17.1: M1027 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--98167cc6-96de-4f02-83b1-78d7633c4106": {
+      "title": "ATT&CK 17.1: M1032 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f2d01f19-b4e7-417a-a936-11af9386b867": {
+      "title": "ATT&CK 17.1: M1036 mitigates T1078",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--9ef08a26-d881-4a36-952b-c07808093c6b": {
+      "title": "ATT&CK 17.1: M1028 mitigates T1087.002",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--8df2f4b5-3f60-4b8f-b4aa-dd76eb347ab0": {
+      "title": "ATT&CK 17.1: M1030 mitigates T1133",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--e23d57b4-5bc4-4d06-9084-9c99464c4af8": {
+      "title": "ATT&CK 17.1: M1032 mitigates T1133",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--9eaaffb7-4dc4-4aac-a1d5-675b71e587df": {
+      "title": "ATT&CK 17.1: M1035 mitigates T1133",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--9aaf5e70-4080-4f73-8d6d-3b19f754e9b9": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1133",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--1d1525e6-74f2-447d-ba11-9e9c9c552403": {
+      "title": "ATT&CK 17.1: M1017 mitigates T1204",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--66551074-a1e3-439c-a996-c1f7ca8136e2": {
+      "title": "ATT&CK 17.1: M1021 mitigates T1204",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--8e567361-e2de-4dc6-b953-ec82dc143f58": {
+      "title": "ATT&CK 17.1: M1031 mitigates T1204",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--225ab1b4-f800-4a92-9949-a0f05fce6213": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1204",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--3551c43c-b1b9-432b-8c3a-cf0265ca74ff": {
+      "title": "ATT&CK 17.1: M1040 mitigates T1204",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f780f9d8-1baa-41b7-b7a1-acba717df0ab": {
+      "title": "ATT&CK 17.1: M1017 mitigates T1539",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--44c91929-3473-443c-91be-5afa81582dfa": {
+      "title": "ATT&CK 17.1: M1021 mitigates T1539",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--7a1cf82e-68e5-49ca-89ae-e492cd85dab4": {
+      "title": "ATT&CK 17.1: M1032 mitigates T1539",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--1a5bf948-33fd-4025-aadd-117e99512e6a": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1539",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--a27be16a-0132-4895-8f62-2bcc31cf15d7": {
+      "title": "ATT&CK 17.1: M1051 mitigates T1539",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--248a0d72-d9cd-43d3-985f-a33a49a79e8b": {
+      "title": "ATT&CK 17.1: M1054 mitigates T1539",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--d06c7363-a7f6-43b1-8af8-9d3b9975160c": {
+      "title": "ATT&CK 17.1: M1056 mitigates T1586",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--6bf03275-b5bb-4c67-b3a6-5a4642d763e6": {
+      "title": "ATT&CK 17.1: M1056 mitigates T1587.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--3de6d2ba-842b-4f60-b177-d8082eebbb1e": {
+      "title": "ATT&CK 17.1: M1017 mitigates T1598",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--727520dd-a7ee-4665-a610-201f0d5e2f0e": {
+      "title": "ATT&CK 17.1: M1054 mitigates T1598",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--03981d0c-c7d5-4a65-bd8f-1b1a2c1efe2a": {
+      "title": "ATT&CK 17.1: M1017 mitigates T1656",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--7a1b9942-4be4-4460-86b0-88638a1c4944": {
+      "title": "ATT&CK 17.1: M1019 mitigates T1656",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--85b3d881-a9d2-45ff-a980-95d0bd9a3dd1": {
+      "title": "ATT&CK 17.1: M1017 mitigates T1003.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--5e3f6da4-a327-4c42-8a12-bc5840336430": {
+      "title": "ATT&CK 17.1: M1026 mitigates T1003.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--4775487a-b632-43f9-8372-83219e2aa98c": {
+      "title": "ATT&CK 17.1: M1027 mitigates T1003.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--e6b41083-5390-452d-991c-de86befbe6e1": {
+      "title": "ATT&CK 17.1: M1041 mitigates T1003.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--b16c27b4-f94b-43e4-832d-986c03b96ffd": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1021.004",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--77c5bb7d-9584-4d57-850b-6349984181a8": {
+      "title": "ATT&CK 17.1: M1032 mitigates T1021.004",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--0263d539-39f0-45ca-be2d-0f9198db9af0": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1021.004",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--3642f351-831b-4c4f-b1d6-4673db4a70a1": {
+      "title": "ATT&CK 17.1: M1022 mitigates T1070.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--5d1cba64-6732-4263-baee-32aa2ab81183": {
+      "title": "ATT&CK 17.1: M1029 mitigates T1070.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--7bae5d92-dcc7-41c7-a116-58e9c9e84401": {
+      "title": "ATT&CK 17.1: M1041 mitigates T1070.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--42f4db8f-ef8b-4dcc-8c8f-4d0b5219c8b7": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1106",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--ba25a8ba-dc7a-4197-b885-d910524588b7": {
+      "title": "ATT&CK 17.1: M1040 mitigates T1106",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--81bb4898-aaa2-4dff-9af8-a97e6b69a95a": {
+      "title": "ATT&CK 17.1: M1024 mitigates T1112",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--3709ccc2-2370-4dc9-92ac-792867bbdea4": {
+      "title": "ATT&CK 17.1: M1032 mitigates T1114",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--c15c9cbf-7ecc-4e2b-8fe1-636f381bac63": {
+      "title": "ATT&CK 17.1: M1041 mitigates T1114",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--d60b92c6-2030-4802-8d7d-868ff15f3b0c": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1114",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--bae85c8c-8b02-4a4c-8a38-c46f30c48274": {
+      "title": "ATT&CK 17.1: M1060 mitigates T1114",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--9c8dee77-e751-40b6-ab99-ccfe6a832e0a": {
+      "title": "ATT&CK 17.1: M1040 mitigates T1486",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f8bb44c8-d368-4d56-b039-50d6419ab60a": {
+      "title": "ATT&CK 17.1: M1053 mitigates T1486",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--27fde8e9-ab78-43aa-9642-14ac0cd958ff": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1537",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--a5b61b67-8d99-4bc5-86d0-00739f0be666": {
+      "title": "ATT&CK 17.1: M1037 mitigates T1537",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--8389c9f5-ace5-4240-a694-7008313fc168": {
+      "title": "ATT&CK 17.1: M1054 mitigates T1537",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--1844caba-e446-4c82-aa0e-9f826c523a25": {
+      "title": "ATT&CK 17.1: M1057 mitigates T1537",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--21aa8534-0280-4109-8dfb-6adbc2310dd8": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1556.006",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--eb985609-6a5f-4e44-9bae-bfbc1e93d978": {
+      "title": "ATT&CK 17.1: M1032 mitigates T1556.006",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--90d0d818-4a80-459c-9d57-ca9221eae57b": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1556.006",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--c9f23224-fecf-48e8-867b-1c299fb40cf3": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1562.004",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--e31f5737-0105-481d-9e12-e0986f752164": {
+      "title": "ATT&CK 17.1: M1022 mitigates T1562.004",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--e2a9b959-8179-4ea0-99bc-8a8310bd1de2": {
+      "title": "ATT&CK 17.1: M1024 mitigates T1562.004",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--aed677d9-a79f-4448-b6a9-3df4d647730b": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1562.004",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--61b6152c-6606-474c-926a-a874a3084ac8": {
+      "title": "ATT&CK 17.1: M1033 mitigates T1564.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--1279ae2b-fb00-4980-a5cc-9a802ad2901d": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1564.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--cf16ba1d-ea81-4301-a1a4-083e4a8927fe": {
+      "title": "ATT&CK 17.1: M1021 mitigates T1567.002",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--17fde86e-66f2-4432-881c-b162c0501204": {
+      "title": "ATT&CK 17.1: M1056 mitigates T1587",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f2d946f4-04fe-4b56-8152-80644b6b22d5": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1606",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--673afcb8-2fb0-4c17-9f91-8fb409943531": {
+      "title": "ATT&CK 17.1: M1026 mitigates T1606",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--da4b552e-fae2-42ef-ac2f-9b61e6ff365a": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1606",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--ce647878-e4d9-4472-9777-b731edbd3d9a": {
+      "title": "ATT&CK 17.1: M1054 mitigates T1606",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--d4dbffc2-246d-4fd4-8c3c-0e7901aaef05": {
+      "title": "ATT&CK 17.1: M1021 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--ad32e902-6f48-4c8f-bc3d-2fc06f045eed": {
+      "title": "ATT&CK 17.1: M1026 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--292e29e8-79d9-4b15-930e-a7e26c27ca15": {
+      "title": "ATT&CK 17.1: M1033 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--87fd0088-41da-47ac-bd69-a8ac151a0d39": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--e93059c7-2f60-47f5-af11-bc0a6e7e6d25": {
+      "title": "ATT&CK 17.1: M1040 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--6abc6901-d152-4b5f-b27d-8b973ae567cb": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--2cf7243f-d5d7-473b-9cb7-27c7186565d3": {
+      "title": "ATT&CK 17.1: M1045 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--c8ff4bb6-92df-40ca-b975-6682d7c6ac82": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--8d56622d-547a-4daa-89b8-1c555d1ac5b7": {
+      "title": "ATT&CK 17.1: M1049 mitigates T1059",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--c6615e27-5984-44b3-82dc-f710c6823834": {
+      "title": "ATT&CK 17.1: M1019 mitigates T1068",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--dd9a12ee-30b1-4764-860d-111c73411ebe": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1068",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--5edeca3e-96aa-45e6-b99b-044e25cb3245": {
+      "title": "ATT&CK 17.1: M1048 mitigates T1068",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--267fa35c-7748-40eb-87ba-bddc0c88d643": {
+      "title": "ATT&CK 17.1: M1050 mitigates T1068",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--22d11711-5794-42aa-a9c5-02895fe3420d": {
+      "title": "ATT&CK 17.1: M1051 mitigates T1068",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f229e2fb-3105-4ae5-abe1-d100209f702c": {
+      "title": "ATT&CK 17.1: M1020 mitigates T1090",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--d50b5687-ea69-40f9-86f3-eecd7e015bac": {
+      "title": "ATT&CK 17.1: M1031 mitigates T1090",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--a424a85c-a3c6-4d84-85f7-e55c8dbe21fc": {
+      "title": "ATT&CK 17.1: M1037 mitigates T1090",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--864def70-2079-4015-8852-d77e19dd086c": {
+      "title": "ATT&CK 17.1: M1031 mitigates T1090.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--4735a1be-c556-4844-9554-d2313376f09a": {
+      "title": "ATT&CK 17.1: M1037 mitigates T1090.003",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--4c308ec1-f0c6-4444-af7d-ff045204c326": {
+      "title": "ATT&CK 17.1: M1016 mitigates T1190",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--4d50a045-d85d-481f-ac7d-672065f1e348": {
+      "title": "ATT&CK 17.1: M1026 mitigates T1190",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--3b726298-74dc-4f8a-b58d-f623bc645124": {
+      "title": "ATT&CK 17.1: M1030 mitigates T1190",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--b7b6cc9f-50ac-4774-9dd4-3c14b408b99e": {
+      "title": "ATT&CK 17.1: M1035 mitigates T1190",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--0c8fdb59-a28f-4f8f-a788-9e3e8928c6d5": {
+      "title": "ATT&CK 17.1: M1048 mitigates T1190",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--53a95297-1cce-401c-99a3-34079e878fac": {
+      "title": "ATT&CK 17.1: M1050 mitigates T1190",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--d373eebb-b578-4b59-9de1-2946bf837d96": {
+      "title": "ATT&CK 17.1: M1051 mitigates T1190",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--9448e565-a9ea-44c2-9c03-8f6112cd7d1d": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1560.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--7ef8afb4-2bfa-471b-a412-b1862418be3e": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1562",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--b8113c99-fc84-4c2d-8925-cb1f5733f6eb": {
+      "title": "ATT&CK 17.1: M1022 mitigates T1562",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--c0aa0cf1-4c03-4fdd-bdbb-65563bff4a81": {
+      "title": "ATT&CK 17.1: M1024 mitigates T1562",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--952ec6aa-f5dd-494d-91ea-b3804b843c35": {
+      "title": "ATT&CK 17.1: M1038 mitigates T1562",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--d8efae26-9a5c-4abc-9c60-3f94f63040d2": {
+      "title": "ATT&CK 17.1: M1042 mitigates T1562",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--c6330aef-b396-4664-9258-a6bed2f4573e": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1562",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--5be525da-5357-4d33-8664-ae74cc6fea02": {
+      "title": "ATT&CK 17.1: M1054 mitigates T1562",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--bfa95fdc-6f4f-48a9-a155-189c81dc9ebd": {
+      "title": "ATT&CK 17.1: M1017 mitigates T1566.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--4bd4de17-4aa2-4924-a1fd-d82a68209cf0": {
+      "title": "ATT&CK 17.1: M1018 mitigates T1566.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--f2f68eb7-4110-4750-9d1c-58774036672b": {
+      "title": "ATT&CK 17.1: M1021 mitigates T1566.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--7a75d200-29f5-4f8a-b052-bcbe4e5ca236": {
+      "title": "ATT&CK 17.1: M1031 mitigates T1566.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--75122837-7638-4ff2-8cb4-fbb8001e96f2": {
+      "title": "ATT&CK 17.1: M1047 mitigates T1566.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--26d24472-ae04-46e7-9166-5d8a8f6f16f7": {
+      "title": "ATT&CK 17.1: M1049 mitigates T1566.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--985f770f-6068-4c5c-9405-0515e43aeed5": {
+      "title": "ATT&CK 17.1: M1054 mitigates T1566.001",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--611ad683-7772-4592-bbd4-e5589591a76e": {
+      "title": "ATT&CK 17.1: M1056 mitigates T1589.002",
+      "publication_date": null,
+      "source_kind": "attack"
+    },
+    "attack:17.1:relationship--024d5595-aa4e-4d47-bc31-5b8ea5ed73c0": {
+      "title": "ATT&CK 17.1: M1056 mitigates T1591",
+      "publication_date": null,
+      "source_kind": "attack"
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "folder": "C:\\Users\\djfro\\AppData\\Local\\Temp\\threatweave-reader-p490olky\\work\\application_qa\\20261017T030808Z-5014fdab"
+}

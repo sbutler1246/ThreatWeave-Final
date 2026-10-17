@@ -40,6 +40,12 @@ All 80 primary review entries and 20 secondary entries are complete. The seconda
 
 The small benchmark, unequal availability, partial blinding, MODE/evidence-format differences and shared-model judging limit generalization. Five extraction nonmatches may reflect annotation/granularity gaps. No frozen labels or answers were replaced to improve the scores. The actual evidence cap is 3,000 UTF-8 bytes. Claim-level unsupported-claim rates and CPU/GPU/service resource measurements were not separately collected.
 
+### Software disambiguation limitation
+
+Advanced automated disambiguation for software entities outside ATT&CK was not implemented because of project time constraints. The completed system uses type-compatible ATT&CK IDs, exact normalized names and verified aliases; unknown or ambiguous mentions remain unresolved or retain report-local identities. This conservative approach limits speculative merges but can leave spelling variants or aliases as separate identities and does not provide contextual disambiguation of similarly named tools.
+
+Context-aware candidate matching and evidence-backed review remain future work. Adding them after the completed evaluation would require validating identity decisions, rebuilding the affected graph and indexes, and conducting a separately versioned evaluation. No improvement from this unimplemented feature is claimed in the reported results. See [the limitation and future-work note](docs/ThreatWeave_software_disambiguation_plan.md).
+
 ## Repository map
 
 | Location | Contents |
@@ -49,6 +55,7 @@ The small benchmark, unequal availability, partial blinding, MODE/evidence-forma
 | extraction/, resolve.py | Bounded assertion extraction and typed identity resolution |
 | graph/, retrieval/ | Graph import, projection, indexes and evidence retrieval |
 | application_engine.py, streamlit_app.py | Local application adapter and evidence inspection interface |
+| live_api.py, requirements-api.txt | Engine-backed HTTP API and its installation requirements |
 | demo_replay.py | Saved-run demonstration using the original renderer |
 | evaluation/ | Frozen collection/scoring methods and offline analysis |
 | docs/ | Final-review records and dated development checkpoints |
@@ -71,6 +78,14 @@ The command verifies the preserved input hashes, recomputes human/extraction/aut
 
 The same guide provides a saved UI replay and a fresh live application build using the reader’s own Neo4j, Ollama, model downloads and locally built indexes. Portable entry points package and verify the complete original development source scope. The larger frozen evaluation’s statistics remain separate. See [the verification record](REPRODUCTION_VERIFICATION.md) for tested workflows and limits.
 
+### Live HTTP API
+
+After building the live application's indexes, install `requirements-api.txt` in that application environment and run `python portable.py api --prompt-password`. This serves the engine-backed `/query` route on `http://127.0.0.1:8000`, with interactive requests at `/docs`. Text-only use can omit the password prompt. All four retrieval modes use the same `ApplicationEngine` as the interface, including evidence validation and saved query records. See [the API setup and request example](REPRODUCE.md#live-http-api).
+
+The supported HTTP entry point is **`live_api:app`**. Its startup constructs the engine and its shutdown closes it. The original `api.py` is retained byte-for-byte as the archived design contract; `uvicorn api:app` launches that unconfigured historical contract, not the live application. These API additions do not change the frozen experiment or its reported results.
+
+[API verification](docs/ThreatWeave_live_api_verification.md): 26 targeted checks passed, and separate live HTTP requests returned 200 with cited answers in all four modes. These development checks do not replace or improve the frozen evaluation results.
+
 Authoritative preserved analyses:
 
 - [Extraction analysis](work/extraction_scoring_analysis/20261016T171118Z-dc75fabd/report.md)
@@ -89,4 +104,4 @@ python -m unittest discover -s tests -p test_submission_analysis.py
 python evaluation/check_benchmarks.py
 ```
 
-The application tests use simulated adapters. Earlier live graph-only and full-hybrid interactions are documented separately. Additional live text-only/ablation and multi-answer navigation flows remain unverified.
+The application tests use simulated adapters. Earlier live graph-only and full-hybrid interface interactions are documented separately. Additional live Streamlit text-only/ablation and multi-answer navigation flows remain unverified. The separate four-mode live HTTP checks are recorded in [the API verification note](docs/ThreatWeave_live_api_verification.md).

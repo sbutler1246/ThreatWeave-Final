@@ -99,6 +99,41 @@ Text-only questions need the text index and Ollama. Graph-only needs the importe
 
 `data/portable/development_sources.json` packages the exact validated development documents, source windows, accepted original assertions, identities and ATT&CK references. Its manifest records its checksum and original scope fingerprint. `portable_sources.py` checks its source offsets, assertion support, scope identity and directed projection. It supplies that complete scope to the original application/retrieval/indexing code, so startup does not need omitted historical extraction working folders or follow old provenance paths. Frozen generation/retrieval source files and experiment outputs are unchanged. This restores the accepted graph; it does not claim a fresh extraction from raw advisories.
 
+### Live HTTP API
+
+Complete the live build above before querying. In the same application environment:
+
+```powershell
+.venv-live\Scripts\python.exe -m pip install -r requirements-api.txt
+.venv-live\Scripts\python.exe -m pip check
+.venv-live\Scripts\python.exe portable.py api --prompt-password
+```
+
+The optional password prompt does not echo or put the password in command-line arguments. Text-only queries do not need Neo4j credentials, so `portable.py api` also works. To select a different database use `--uri`, `--user` and `--database`. `--port` defaults to 8000. Environment alternatives are `THREATWEAVE_NEO4J_URI`, `THREATWEAVE_NEO4J_USER`, `THREATWEAVE_NEO4J_DATABASE` and `THREATWEAVE_NEO4J_PASSWORD`; command-line connection options override those settings when explicitly supplied. Keep credentials out of source files and query bodies.
+
+Open `http://127.0.0.1:8000/docs` to submit a request, or use PowerShell:
+
+```powershell
+$queryBody = @{
+    question = 'According to CISA, how do Rhysida actors use valid accounts (T1078)?'
+    mode = 'hybrid'
+    corpus_version = 'cisa-selected-2026-10-03'
+} | ConvertTo-Json
+Invoke-RestMethod -Method Post -Uri http://127.0.0.1:8000/query -ContentType 'application/json' -Body $queryBody
+```
+
+Allowed modes are `text_only`, `graph_only`, `hybrid_no_node2vec` and `hybrid`. The request and response use the original strict Pydantic contracts, and the engine saves new development query records separately from frozen results. The engine is shared within one API process and serializes queries. Stop with Ctrl+C to close its database and HTTP clients.
+
+`/health` reports engine initialization, not independent database/model reachability. Each query verifies the prerequisites for its selected mode. Invalid request fields return 422; corpus/configuration conflicts return 409; unavailable services or missing/unverified indexes return 503; retrieval/generation failures return 502; propagated timeouts return 504. Public error bodies omit raw driver/model exceptions and credentials. A missing prerequisite never silently changes the retrieval mode.
+
+The launcher binds to loopback only and serves **`live_api:app`**. Direct equivalent: `python -m uvicorn live_api:app --host 127.0.0.1 --port 8000`. The original `api.py` remains the frozen design-contract artifact. Do not use `uvicorn api:app` for live queries. `requirements-api.txt` deliberately pins a compatible FastAPI/Starlette/Uvicorn combination and can change those versions in the application environment; it does not replace the separate Windows application lock or the frozen RAGAS environment.
+
+API regression checks (no live services needed):
+
+```text
+python -m unittest discover -s tests -p test_live_api.py -v
+```
+
 ## 5. New experiments versus the original measured experiment
 
 A fresh extraction, new model-generated answers, automatic judging and new human ratings constitute a **new experiment**. Preserve its model/dependency identities, hardware, prompts, seeds, sources, split, validation failures and raw outputs separately. Do not overwrite the original frozen cohort. The historical collection and evaluator tools are retained as research records; they are not a one-command portable regeneration pipeline. The independently runnable workflows provided here are the saved-statistics analysis, saved UI replay and fresh development application build.

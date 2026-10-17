@@ -3,6 +3,7 @@ import argparse
 from datetime import datetime, timezone
 import getpass
 import importlib.metadata
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -133,12 +134,16 @@ def doctor():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['check-sources', 'doctor', 'download-model', 'import-graph', 'index-text', 'index-graph', 'app'])
+    parser.add_argument('command', choices=['check-sources', 'doctor', 'download-model', 'import-graph', 'index-text', 'index-graph', 'app', 'api'])
     parser.add_argument('--preview', action='store_true', help='Validate index inputs without indexing.')
     parser.add_argument('--uri', default='bolt://localhost:7687')
     parser.add_argument('--user', default='neo4j')
     parser.add_argument('--database', default='neo4j')
+    parser.add_argument('--port', type=int, default=8000, help='Local API port (default: 8000).')
+    parser.add_argument('--prompt-password', action='store_true', help='Prompt for the API Neo4j password without echoing it.')
     args = parser.parse_args()
+    if not 1 <= args.port <= 65535:
+        parser.error('Choose a port between 1 and 65535.')
     if sys.version_info[:2] != (3, 12):
         parser.error('Use Python 3.12 for the application environment.')
     try:
@@ -147,6 +152,22 @@ def main():
         elif args.command == 'download-model': download()
         elif args.command == 'import-graph': import_graph(args.uri, args.user, args.database)
         elif args.command.startswith('index-'): return index(args.command[6:], args.preview)
+        elif args.command == 'api':
+            if any(importlib.util.find_spec(name) is None for name in ('fastapi', 'uvicorn')):
+                print('Install requirements-api.txt in this application environment first.', file=sys.stderr)
+                return 1
+            env = os.environ.copy()
+            # Environment settings remain usable with the default command.
+            for option, name, value in (
+                    ('--uri', 'THREATWEAVE_NEO4J_URI', args.uri),
+                    ('--user', 'THREATWEAVE_NEO4J_USER', args.user),
+                    ('--database', 'THREATWEAVE_NEO4J_DATABASE', args.database)):
+                if any(arg == option or arg.startswith(option + '=') for arg in sys.argv[1:]):
+                    env[name] = value
+            if args.prompt_password:
+                env['THREATWEAVE_NEO4J_PASSWORD'] = getpass.getpass('Password for YOUR Neo4j database: ')
+            return subprocess.run([sys.executable, '-m', 'uvicorn', 'live_api:app',
+                '--host', '127.0.0.1', '--port', str(args.port)], cwd=ROOT, env=env).returncode
         elif args.command == 'app':
             return subprocess.run([sys.executable, '-m', 'streamlit', 'run', str(ROOT / 'portable_app.py'),
                 '--server.address=127.0.0.1', '--server.port=8501', '--server.headless=true',
