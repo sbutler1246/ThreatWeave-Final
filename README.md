@@ -8,12 +8,15 @@ This separate repository contains the final submission snapshot. The [earlier Th
 
 ## Final deliverables
 
-- [Final report — 14 pages](outputs/final_submission/ThreatWeave_final_report.pdf)
-- [Editable report](outputs/final_submission/ThreatWeave_final_report.md)
+- [Final report — revised, 15 pages](outputs/final_submission/ThreatWeave_final_report_revised.pdf)
+- [Editable revised report](outputs/final_submission/ThreatWeave_final_report_revised.md)
 - [Final slides — 16 slides](outputs/final_submission/ThreatWeave_final_slides.pptx)
 - [Demo walkthrough — 5:34 MP4](outputs/final_submission/ThreatWeave_demo.mp4)
 - [Demo transcript](outputs/final_submission/ThreatWeave_demo_transcript.md) and [captions](outputs/final_submission/ThreatWeave_demo_captions.srt)
-- [Original source/evidence submission archive](outputs/ThreatWeave_submission_v2.zip), [archive verification](outputs/ThreatWeave_submission_v2.verification.json), and [artifact checksums](outputs/final_submission/DELIVERABLES_SHA256.json)
+- [Original source/evidence submission archive](outputs/ThreatWeave_submission_v2.zip), [archive verification](outputs/ThreatWeave_submission_v2.verification.json), and [original artifact checksums](outputs/final_submission/DELIVERABLES_SHA256.json)
+- [Report revision notes](outputs/final_submission/REPORT_UPDATE.md) and [revised report checksums](outputs/final_submission/REPORT_REVISION.json)
+
+Use the revised 15-page report for the current submission. Appendix B documents the software-disambiguation time limitation and later live API integration. The original 14-page report and ZIP remain preserved; the ZIP contains that original report, not the revised copy. All measured results remain unchanged.
 
 The demo is a labelled replay of authentic saved application states with synthetic narration. It makes no new model/database calls. A separate recording of the slide presentation in the author's voice will be added after recording. No course-portal submission is implied by repository publication.
 

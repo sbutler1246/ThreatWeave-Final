@@ -1,0 +1,38 @@
+{
+  "revision": "report-documentation-update-1",
+  "created_at_utc": "2026-10-17T03:21:40.783195+00:00",
+  "description": "Software-disambiguation time limitation and later HTTP API integration; original measured results unchanged.",
+  "original_report_files": [
+    {
+      "path": "outputs/final_submission/ThreatWeave_final_report.md",
+      "bytes": 34665,
+      "sha256": "1ffcb1d054c730e69a0c3f9c86a4bc5f99a7fa693ba74f51d09301e08aa33ffd"
+    },
+    {
+      "path": "outputs/final_submission/ThreatWeave_final_report.pdf",
+      "bytes": 111161,
+      "sha256": "4a30d9a40a73fa55cc4d878d11128b08f3ed39b80c42a837d54c27b547403480"
+    }
+  ],
+  "revised_report_files": [
+    {
+      "path": "outputs/final_submission/ThreatWeave_final_report_revised.md",
+      "bytes": 37634,
+      "sha256": "5212808ef9771618865240d3717f09b73cfb5e29543a740eeb659bccd80bde23"
+    },
+    {
+      "path": "outputs/final_submission/ThreatWeave_final_report_revised.pdf",
+      "bytes": 114089,
+      "sha256": "0f2ac5b10ebb9f70cb71201446c035f1b12c1e13983bf45b96a2d5851087c845"
+    }
+  ],
+  "revised_pdf_pages": 15,
+  "all_original_tables_unchanged": true,
+  "original_results_narrative_unchanged": true,
+  "original_archive_changed": false,
+  "api_verification_receipt": {
+    "path": "outputs/api_verification/20261017T030754Z/receipt.json",
+    "bytes": 1201,
+    "sha256": "d874f326d50e49b6860a434c4d1f178fd4aed074fec36b8282e66720affc61ac"
+  }
+}
